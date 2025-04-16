@@ -30,9 +30,13 @@ document.addEventListener('DOMContentLoaded', function() {
         layoutShowMode: 'hidden',
         layoutShowRemoteState: 'none',
         lowerResolutionLimit: 1,
-        highestQuality: false,
-        preferWebgl1: true,
-        sequencePanel: false
+        highestQuality: true,
+        preferWebgl1: false,
+        sequencePanel: false,
+        viewportStyle: {
+            aspectRatio: 4/3,
+            maintainAspectRatio: true
+        }
     };
 
     const previewOptions1 = { ...previewOptionsBase, customData: { url: '4dri.pdb', format: 'pdb' } };
@@ -58,13 +62,25 @@ document.addEventListener('DOMContentLoaded', function() {
             landscape: true,
             reactive: false,
             bgColor: {r:255, g:255, b:255},
-            sequencePanel: true
+            sequencePanel: true,
+            highestQuality: true,
+            preferWebgl1: false,
+            viewportStyle: {
+                aspectRatio: 4/3,
+                maintainAspectRatio: true
+            }
         };
 
         viewerInstance.render(viewerContainer, mainViewerOptions);
 
         // 将事件监听器的设置也移到 requestAnimationFrame 内部
         setupEventListeners(viewerInstance, viewerContainer, structureDescriptions);
+        
+        // 添加窗口大小变化事件监听器
+        window.addEventListener('resize', function() {
+            // 重新适应查看器大小
+            viewerInstance.visual.update();
+        });
     });
 });
 
@@ -85,7 +101,13 @@ function setupEventListeners(viewerInstance, viewerContainer, structureDescripti
                 landscape: true,
                 reactive: false,
                 bgColor: {r:255, g:255, b:255},
-                sequencePanel: true
+                sequencePanel: true,
+                highestQuality: true,
+                preferWebgl1: false,
+                viewportStyle: {
+                    aspectRatio: 4/3,
+                    maintainAspectRatio: true
+                }
             });
             updateDescription(pdbFile, structureDescriptions);
         });
@@ -111,7 +133,13 @@ function setupEventListeners(viewerInstance, viewerContainer, structureDescripti
                 landscape: true,
                 reactive: false,
                 bgColor: {r:255, g:255, b:255},
-                sequencePanel: true
+                sequencePanel: true,
+                highestQuality: true,
+                preferWebgl1: false,
+                viewportStyle: {
+                    aspectRatio: 4/3,
+                    maintainAspectRatio: true
+                }
             });
             updateDescription(pdbFile, structureDescriptions);
             document.querySelector('.container').scrollIntoView({ behavior: 'smooth' });
