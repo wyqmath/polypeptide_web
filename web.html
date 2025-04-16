@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>多肽结构数据库</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>多肽结构数据库</h1>
+        <p>浏览和可视化多肽三维结构</p>
+    </header>
+    
+    <h2 class="database-title">数据库预览</h2>
+    <div class="preview-container">
+        <div class="preview-item" data-pdb="4dri.pdb">
+            <div class="preview-title">人类胰岛素 (4DRI)</div>
+            <div id="previewViewer1" class="preview-viewer"></div>
+        </div>
+        <div class="preview-item" data-pdb="8GRx.pdb">
+            <div class="preview-title">结构蛋白 (8GRX)</div>
+            <div id="previewViewer2" class="preview-viewer"></div>
+        </div>
+        <div class="preview-item" data-pdb="AF-A0A0G2JPG2-F1-model_v4.pdb">
+            <div class="preview-title">AlphaFold预测结构</div>
+            <div id="previewViewer3" class="preview-viewer"></div>
+        </div>
+    </div>
+    
+    <h2 class="database-title">详细查看</h2>
+    <div class="container">
+        <div class="detail-container">
+            <div class="database">
+                <h3>可用结构</h3>
+                <table id="pdbTable">
+                    <tr>
+                        <th>PDB ID</th>
+                        <th>名称</th>
+                        <th>分辨率</th>
+                    </tr>
+                    <tr class="pdb-item active" data-pdb="4dri.pdb">
+                        <td>4DRI</td>
+                        <td>人类胰岛素</td>
+                        <td>1.9 Å</td>
+                    </tr>
+                    <tr class="pdb-item" data-pdb="8GRx.pdb">
+                        <td>8GRX</td>
+                        <td>结构蛋白</td>
+                        <td>2.3 Å</td>
+                    </tr>
+                    <tr class="pdb-item" data-pdb="AF-A0A0G2JPG2-F1-model_v4.pdb">
+                        <td>AF-A0A0G2JPG2</td>
+                        <td>AlphaFold预测结构</td>
+                        <td>--</td>
+                    </tr>
+                </table>
+                
+                <div class="description" id="structureInfo">
+                    <h3>人类胰岛素 (4DRI)</h3>
+                    <p>胰岛素是一种由胰腺分泌的多肽激素，对调节血糖水平至关重要。该结构以1.9埃分辨率显示了人类胰岛素的三维结构。</p>
+                </div>
+            </div>
+            
+            <div class="viewer-container">
+                <div id="myViewer"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>
