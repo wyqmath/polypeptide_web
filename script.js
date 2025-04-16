@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     const previewOptions1 = { ...previewOptionsBase, customData: { url: '4dri.pdb', format: 'pdb' } };
-    const previewOptions2 = { ...previewOptionsBase, customData: { url: '8GRx.pdb', format: 'pdb' } };
+    const previewOptions2 = { ...previewOptionsBase, customData: { url: '8GRX.pdb', format: 'pdb' } };
     const previewOptions3 = { ...previewOptionsBase, customData: { url: 'AF-A0A0G2JPG2-F1-model_v4.pdb', format: 'pdb' } };
     
     // 渲染预览查看器
