@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: '人类胰岛素 (4DRI)',
             description: '胰岛素是一种由胰腺分泌的多肽激素，对调节血糖水平至关重要。该结构以1.9埃分辨率显示了人类胰岛素的三维结构。'
         },
-        '8GRx.pdb': {
+        '8GRX.pdb': {
             title: '结构蛋白 (8GRX)',
             description: '这是8GRX结构，以2.3埃的分辨率显示了其分子特征和关键功能区域。'
         },
