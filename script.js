@@ -31,7 +31,8 @@ document.addEventListener('DOMContentLoaded', function() {
         layoutShowRemoteState: 'none',
         lowerResolutionLimit: 1,
         highestQuality: false,
-        preferWebgl1: true
+        preferWebgl1: true,
+        sequencePanel: false
     };
 
     const previewOptions1 = { ...previewOptionsBase, customData: { url: '4dri.pdb', format: 'pdb' } };
@@ -53,10 +54,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const mainViewerOptions = {
             customData: { url: '4dri.pdb', format: 'pdb' },
             expanded: false,
-            hideCanvasControls: ['expand'],
-            landscape: false,
+            hideCanvasControls: ['selection', 'animation', 'controlToggle', 'controlInfo'],
+            landscape: true,
             reactive: false,
-            bgColor: {r:255, g:255, b:255}
+            bgColor: {r:255, g:255, b:255},
+            sequencePanel: true
         };
 
         viewerInstance.render(viewerContainer, mainViewerOptions);
@@ -79,10 +81,11 @@ function setupEventListeners(viewerInstance, viewerContainer, structureDescripti
             viewerInstance.render(viewerContainer, {
                 customData: { url: pdbFile, format: 'pdb'},
                 expanded: false, 
-                hideCanvasControls: ['expand'],
-                landscape: false,
+                hideCanvasControls: ['selection', 'animation', 'controlToggle', 'controlInfo'],
+                landscape: true,
                 reactive: false,
-                bgColor: {r:255, g:255, b:255}
+                bgColor: {r:255, g:255, b:255},
+                sequencePanel: true
             });
             updateDescription(pdbFile, structureDescriptions);
         });
@@ -104,10 +107,11 @@ function setupEventListeners(viewerInstance, viewerContainer, structureDescripti
             viewerInstance.render(viewerContainer, {
                 customData: { url: pdbFile, format: 'pdb'},
                 expanded: false, 
-                hideCanvasControls: ['expand'],
-                landscape: false,
+                hideCanvasControls: ['selection', 'animation', 'controlToggle', 'controlInfo'],
+                landscape: true,
                 reactive: false,
-                bgColor: {r:255, g:255, b:255}
+                bgColor: {r:255, g:255, b:255},
+                sequencePanel: true
             });
             updateDescription(pdbFile, structureDescriptions);
             document.querySelector('.container').scrollIntoView({ behavior: 'smooth' });

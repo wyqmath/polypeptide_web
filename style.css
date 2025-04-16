@@ -107,4 +107,10 @@ tr:hover {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     position: relative;
     overflow: hidden;
+}
+
+/* Molstar 查看器滚动条样式 */
+.msp-plugin ::-webkit-scrollbar-thumb {
+    background-color: #474748 !important;
+    border-radius: 10px;
 } 
