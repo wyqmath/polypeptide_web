@@ -2,13 +2,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-color: #e6f3ff;
 }
 header {
-    background-color: #2c3e50;
-    color: white;
+    background-color: #b0d4ff;
+    color: #2c3e50;
     padding: 20px;
     text-align: center;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 50px;
+    width: auto;
 }
 .preview-container {
     display: flex;
