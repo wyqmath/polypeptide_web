@@ -6,10 +6,44 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-light.css" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+        .nav-button {
+            padding: 12px 20px;
+            background-color: white;
+            color: #D9C1D9 !important;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none !important;
+            display: inline-block;
+            margin-left: 10px;
+        }
+        
+        .nav-button:hover {
+            background-color: #f5f5f5;
+        }
+        
+        .top-nav {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            display: flex;
+            z-index: 100;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <img src="THU-structure-LOGO.svg" alt="THU结构数据库标志" class="logo">
+        <div class="top-nav">
+            <a href="#" class="nav-button">Home</a>
+            <a href="#" class="nav-button">Download</a>
+            <a href="#" class="nav-button">About</a>
+        </div>
+        <div class="top-header">
+            <img src="THU-structure-LOGO.svg" alt="THU结构数据库标志" class="logo">
+        </div>
         <h1>多肽结构数据库</h1>
         <p>浏览和可视化多肽三维结构</p>
     </header>
