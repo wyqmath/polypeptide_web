@@ -5,31 +5,147 @@ body {
     color: #333;
 }
 
+/* 全局样式调整，确保内容不会超出容器 */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden; /* 防止水平滚动 */
+    font-size: 16px; /* 基础字体大小 */
+}
+
+/* 添加基本的响应式缩放 */
+.protein-detail-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* 确保所有内容元素不会溢出 */
+.protein-header, .action-buttons, .info-section, .info-section table, 
+.info-section tr, .info-section td, img, a {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* 长文本处理 */
+p, h1, h2, h3, td, th, span, a {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+/* 头部和导航样式 */
+header {
+    background-color: #C8B0D0;
+    color: #4A2C40;
+    padding: 20px;
+    position: relative;
+}
+
+.top-header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 10px 0;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+.top-nav {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-button {
+    padding: 10px 15px;
+    background-color: white;
+    color: #D9C1D9 !important;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+.nav-button:hover {
+    background-color: #f5f5f5;
+}
+
+header h1 {
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+header p {
+    margin: 5px 0 0 0;
+    text-align: center;
+}
+
+/* 蛋白质标题部分 */
 .protein-header h1 {
-    font-size: 2em;
-    margin-bottom: 5px;
+    font-size: calc(1.5em + 1vw);
+    margin-bottom: 0.5em;
 }
 
 .protein-header .alphafold-id {
-    font-size: 1em;
+    font-size: calc(0.8em + 0.3vw);
     color: #666;
+    margin-bottom: 1.5em;
+}
+
+/* 按钮容器样式 */
+.button-container {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.action-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
     margin-bottom: 20px;
 }
 
-.action-buttons button,
-.feedback-buttons button {
-    padding: 10px 15px;
-    margin-right: 10px;
-    border: 1px solid #ccc;
-    background-color: #e0e0e0;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.9em;
+.action-buttons span {
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
 }
 
-.action-buttons button:hover,
-.feedback-buttons button:hover {
-    background-color: #d0d0d0;
+.action-buttons button {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    background-color: #D9C1D9; /* Light purple */
+    color: white; /* White text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.action-buttons a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+
+.action-buttons button:hover {
+    background-color: #C8AEC8; /* Darker purple on hover */
 }
 
 .feedback-section {
@@ -46,16 +162,18 @@ body {
 }
 
 .feedback-buttons button {
-     background-color: white;
-     border: 1px solid #aaa;
+    background-color: white;
+    border: 1px solid #aaa;
 }
+
 .feedback-buttons button.primary {
-     background-color: #d3e3fd; /* Light blue, similar to image */
-     border-color: #a4c4f7;
+    background-color: #d3e3fd; /* Light blue */
+    border-color: #a4c4f7;
 }
 
-
+/* 信息部分样式 */
 .info-section {
+    width: 100%;
     margin-top: 30px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -67,28 +185,31 @@ body {
     padding: 10px 15px;
     margin: 0;
     border-bottom: 1px solid #ddd;
-    font-size: 1.2em;
-    cursor: pointer; /* Add cursor pointer for collapsibility hint */
+    font-size: calc(1em + 0.2vw);
+    cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .toggle-arrow {
-    font-size: 1.5em; /* Make arrow larger */
+    font-size: 1.2em;
     font-weight: bold;
 }
 
-
 .info-section table {
-    width: 100%;
     border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    table-layout: fixed;
 }
 
 .info-section td {
     padding: 10px 15px;
     border-bottom: 1px solid #eee;
     vertical-align: top;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .info-section tr:last-child td {
@@ -97,8 +218,12 @@ body {
 
 .info-section td:first-child {
     font-weight: bold;
-    width: 180px; /* Adjust width as needed */
     color: #555;
+    width: 25%;
+}
+
+.info-section td:last-child {
+    width: 75%;
 }
 
 .info-section a {
@@ -108,4 +233,236 @@ body {
 
 .info-section a:hover {
     text-decoration: underline;
+}
+
+/* 搜索部分样式 */
+.search-section {
+    background-color: #E0D0E0;
+    padding: 20px 10px 10px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.search-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-box {
+    width: 85%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    background-color: white;
+}
+
+.search-button {
+    padding: 12px 20px;
+    background-color: white;
+    color: #D9C1D9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.search-button:hover {
+    background-color: #f5f5f5;
+}
+
+.search-examples {
+    max-width: 1200px;
+    margin: 15px auto 5px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.examples-label {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.example-tag {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.example-tag:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* 响应式设计 - 移动设备 */
+@media (max-width: 768px) {
+    /* 调整基础字体大小和边距 */
+    html, body {
+        font-size: 14px;
+    }
+    
+    body {
+        margin: 10px;
+    }
+
+    /* 容器调整 */
+    .protein-detail-container {
+        padding: 0 10px;
+        margin: 10px auto;
+    }
+
+    /* 头部调整 */
+    header {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .top-header {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .logo {
+        height: 40px;
+        margin-bottom: 5px;
+    }
+
+    /* 导航按钮调整 */
+    .top-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        width: 100%;
+    }
+
+    .nav-button {
+        padding: 8px 12px;
+        font-size: 0.85rem;
+        flex: 1 0 auto;
+        text-align: center;
+        min-width: 28%;
+        margin: 0;
+    }
+
+    /* 标题调整 */
+    header h1 {
+        font-size: 1.4rem;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    header p {
+        font-size: 0.9rem;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    /* 搜索部分调整 */
+    .search-section {
+        padding: 15px 10px 10px 10px;
+    }
+
+    .search-container {
+        max-width: 95%;
+        flex-direction: column;
+    }
+
+    .search-box {
+        width: 100%;
+        border-radius: 2px 2px 0 0;
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .search-button {
+        width: 100%;
+        border-radius: 0 0 2px 2px;
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .search-examples {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .example-tag {
+        margin: 3px;
+        font-size: 0.8rem;
+    }
+
+    /* 调整按钮容器和按钮为等宽 */
+    .action-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .action-buttons span {
+        width: 100%;
+        margin-bottom: 5px;
+        font-size: 0.9rem;
+    }
+
+    .button-container {
+        flex: 1 0 calc(33.333% - 10px);
+        max-width: calc(33.333% - 10px);
+        box-sizing: border-box;
+    }
+
+    .action-buttons button {
+        font-size: 0.8rem;
+        padding: 8px 5px;
+        width: 100%;
+        margin: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    /* 在特小屏幕上，让按钮垂直堆叠 */
+    @media (max-width: 375px) {
+        .button-container {
+            flex: 1 0 100%;
+            max-width: 100%;
+            margin-bottom: 5px;
+        }
+    }
+
+    /* 信息部分调整 */
+    .info-section h2 {
+        font-size: 1rem;
+        padding: 8px 12px;
+    }
+
+    .info-section table {
+        font-size: 0.9rem;
+    }
+
+    .info-section td {
+        padding: 8px 10px;
+    }
+
+    .info-section td:first-child {
+        width: 30%;
+    }
+
+    .info-section td:last-child {
+        width: 70%;
+    }
 } 
