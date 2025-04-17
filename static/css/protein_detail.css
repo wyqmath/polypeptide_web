@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.protein-header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.protein-header .alphafold-id {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.action-buttons button,
+.feedback-buttons button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.action-buttons button:hover,
+.feedback-buttons button:hover {
+    background-color: #d0d0d0;
+}
+
+.feedback-section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.feedback-section span {
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.feedback-buttons button {
+     background-color: white;
+     border: 1px solid #aaa;
+}
+.feedback-buttons button.primary {
+     background-color: #d3e3fd; /* Light blue, similar to image */
+     border-color: #a4c4f7;
+}
+
+
+.info-section {
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.info-section h2 {
+    background-color: #f8f9fa;
+    padding: 10px 15px;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.2em;
+    cursor: pointer; /* Add cursor pointer for collapsibility hint */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle-arrow {
+    font-size: 1.5em; /* Make arrow larger */
+    font-weight: bold;
+}
+
+
+.info-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.info-section td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+}
+
+.info-section tr:last-child td {
+    border-bottom: none;
+}
+
+.info-section td:first-child {
+    font-weight: bold;
+    width: 180px; /* Adjust width as needed */
+    color: #555;
+}
+
+.info-section a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.info-section a:hover {
+    text-decoration: underline;
+} 

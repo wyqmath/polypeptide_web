@@ -1,25 +1,39 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // 结构描述数据
-    const structureDescriptions = {
-        '4dri.pdb': {
-            title: '人类胰岛素 (4DRI)',
-            description: '胰岛素是一种由胰腺分泌的多肽激素，对调节血糖水平至关重要。该结构以1.9埃分辨率显示了人类胰岛素的三维结构。'
-        },
-        '8GRX.pdb': {
-            title: '结构蛋白 (8GRX)',
-            description: '这是8GRX结构，以2.3埃的分辨率显示了其分子特征和关键功能区域。'
-        },
-        'AF-A0A0G2JPG2-F1-model_v4.pdb': {
-            title: 'AlphaFold预测结构 (AF-A0A0G2JPG2)',
-            description: '这是由AlphaFold深度学习模型预测的蛋白质三维结构，展示了计算生物学在蛋白质结构预测领域的最新进展。'
+    // 获取所有 PDB 项目和预览项目
+    const pdbItems = document.querySelectorAll('.pdb-item');
+    const previewItems = document.querySelectorAll('.preview-item');
+    const structureInfoDiv = document.getElementById('structureInfo');
+
+    // 动态生成结构描述对象
+    const structureDescriptions = {};
+    pdbItems.forEach(item => {
+        const pdbPath = item.getAttribute('data-pdb');
+        const title = item.children[1].textContent + ' (' + item.children[0].textContent + ')';
+        // 尝试从现有的 structureInfoDiv 获取初始描述（可能需要调整）
+        // 注意：这里简单处理，可能需要更健壮的方式来获取或定义描述
+        const initialDescription = structureInfoDiv.querySelector('p')?.textContent || '描述加载中...'; 
+        if (pdbPath) { // 确保 pdbPath 有效
+            structureDescriptions[pdbPath] = {
+                title: title,
+                description: initialDescription // 初始描述，后面会更新
+            };
         }
-    };
-    
-    // 创建预览查看器
-    const previewViewer1 = new PDBeMolstarPlugin();
-    const previewViewer2 = new PDBeMolstarPlugin();
-    const previewViewer3 = new PDBeMolstarPlugin();
-    
+    });
+    // 如果初始描述是针对特定结构的，需要单独处理第一个描述的填充
+    const activeItem = document.querySelector('.pdb-item.active');
+    if (activeItem) {
+        const activePdbPath = activeItem.getAttribute('data-pdb');
+        const activeTitle = activeItem.children[1].textContent + ' (' + activeItem.children[0].textContent + ')';
+        const activeDescription = structureInfoDiv.querySelector('p')?.textContent || '描述加载中...';
+        if (activePdbPath && structureDescriptions[activePdbPath]) {
+             structureDescriptions[activePdbPath] = { title: activeTitle, description: activeDescription };
+        }
+    }
+
+
+    // 创建预览查看器实例
+    const previewViewers = {}; // 使用对象存储预览查看器实例
+
     // 预览查看器配置选项
     const previewOptionsBase = {
         hideControls: true,
@@ -39,24 +53,46 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     };
 
-    const previewOptions1 = { ...previewOptionsBase, customData: { url: '4dri.pdb', format: 'pdb' } };
-    const previewOptions2 = { ...previewOptionsBase, customData: { url: '8GRX.pdb', format: 'pdb' } };
-    const previewOptions3 = { ...previewOptionsBase, customData: { url: 'AF-A0A0G2JPG2-F1-model_v4.pdb', format: 'pdb' } };
-    
-    // 渲染预览查看器
-    previewViewer1.render(document.getElementById('previewViewer1'), previewOptions1);
-    previewViewer2.render(document.getElementById('previewViewer2'), previewOptions2);
-    previewViewer3.render(document.getElementById('previewViewer3'), previewOptions3);
-    
+    // 恢复并行渲染预览，每个渲染使用 rAF
+    previewItems.forEach((item, index) => {
+        const viewerId = `previewViewer${index + 1}`;
+        const targetElement = document.getElementById(viewerId);
+        const pdbPath = item.getAttribute('data-pdb');
+
+        if (targetElement && pdbPath) {
+            previewViewers[viewerId] = new PDBeMolstarPlugin(); // 初始化实例
+            const previewOptions = {
+                ...previewOptionsBase,
+                customData: { url: pdbPath, format: 'pdb' }
+            };
+            // 使用 rAF 来安排渲染
+            requestAnimationFrame(() => {
+                previewViewers[viewerId].render(targetElement, previewOptions);
+            });
+        } else {
+            console.error(`无法渲染预览: 元素 #${viewerId} 或 data-pdb 属性缺失。`);
+        }
+    });
+
     // 使用 requestAnimationFrame 确保在下一帧绘制前实例化和渲染主查看器
     requestAnimationFrame(() => {
         // 将实例化移到这里
         const viewerInstance = new PDBeMolstarPlugin(); 
         const viewerContainer = document.getElementById('myViewer');
 
-        // 主查看器配置选项 (初始加载)
+        // 获取初始加载的 PDB 路径（从激活的列表项）
+        const initialPdbItem = document.querySelector('.pdb-item.active');
+        const initialPdbPath = initialPdbItem ? initialPdbItem.getAttribute('data-pdb') : null; // 获取激活项的路径
+
+        if (!initialPdbPath) {
+            console.error("无法找到初始激活的 PDB 项 (.pdb-item.active) 或其 data-pdb 属性。");
+            // 可以设置一个默认路径或显示错误信息
+            return; 
+        }
+
+        // 主查看器配置选项 (使用动态获取的初始路径)
         const mainViewerOptions = {
-            customData: { url: '4dri.pdb', format: 'pdb' },
+            customData: { url: initialPdbPath, format: 'pdb' }, // 使用动态路径
             expanded: false,
             hideCanvasControls: ['selection', 'animation', 'controlToggle', 'controlInfo'],
             landscape: true,
@@ -72,6 +108,9 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         viewerInstance.render(viewerContainer, mainViewerOptions);
+
+        // 更新初始描述信息
+        updateDescription(initialPdbPath, structureDescriptions);
 
         // 将事件监听器的设置也移到 requestAnimationFrame 内部
         setupEventListeners(viewerInstance, viewerContainer, structureDescriptions);
@@ -150,11 +189,20 @@ function setupEventListeners(viewerInstance, viewerContainer, structureDescripti
 // 更新描述信息 (现在需要接收 structureDescriptions)
 function updateDescription(pdbFile, descriptions) {
     const infoDiv = document.getElementById('structureInfo');
-    // 从传入的参数获取描述，而不是全局变量
-    const info = descriptions[pdbFile]; 
-    
-    infoDiv.innerHTML = `
-        <h3>${info.title}</h3>
-        <p>${info.description}</p>
-    `;
+    // 从传入的参数获取描述
+    const info = descriptions[pdbFile];
+
+    if (info) { // 检查 info 是否存在
+        infoDiv.innerHTML = `
+            <h3>${info.title}</h3>
+            <p>${info.description}</p>
+        `;
+    } else {
+        // 如果找不到描述，显示默认信息或错误
+        infoDiv.innerHTML = `
+            <h3>信息加载失败</h3>
+            <p>未找到 PDB 文件 "${pdbFile}" 的描述信息。</p>
+        `;
+        console.error(`未在 structureDescriptions 中找到 key: ${pdbFile}`);
+    }
 } 
