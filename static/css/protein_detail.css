@@ -105,7 +105,8 @@ header p {
 
 /* 按钮容器样式 */
 .button-container {
-    flex: 1;
+    /* flex: 1; Remove this to prevent containers from growing */
+    flex: none; /* Explicitly set flex behavior to none */
     margin: 0;
     padding: 0;
 }
@@ -114,18 +115,21 @@ header p {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     margin-bottom: 20px;
 }
 
-.action-buttons span {
-    width: 100%;
-    margin-bottom: 10px;
-    display: block;
+/* Define styles for the download label */
+.download-label {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-right: 10px; /* Space between label and buttons */
+    white-space: nowrap; /* Prevent label from wrapping */
 }
 
 .action-buttons button {
-    width: 100%;
+    /* width: 100%; Let button size based on content */
+    width: auto; /* Adjust width automatically */
     padding: 10px 15px;
     border: 1px solid #ccc;
     background-color: #D9C1D9; /* Light purple */
@@ -449,26 +453,20 @@ header p {
         margin-bottom: 15px;
     }
 
-    .action-buttons span {
-        width: 100%;
-        margin-bottom: 5px;
-        font-size: 0.9rem;
-    }
-
     .button-container {
-        flex: 1 0 calc(33.333% - 10px);
+        flex: 1 0 calc(33.333% - 10px); /* Keep 3 buttons side-by-side if space allows */
         max-width: calc(33.333% - 10px);
         box-sizing: border-box;
     }
 
     .action-buttons button {
         font-size: 0.8rem;
-        padding: 8px 5px;
-        width: 100%;
+        padding: 8px 10px; /* Adjusted padding slightly */
+        /* width: 100%; Ensure buttons fit side-by-side */
+        width: auto; /* Let button size based on content */
         margin: 0;
         white-space: nowrap;
         overflow: hidden;
-        text-overflow: ellipsis;
     }
 
     /* 在特小屏幕上，让按钮垂直堆叠 */
