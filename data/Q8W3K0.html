@@ -9,6 +9,10 @@
     <link rel="stylesheet" type="text/css" href="../style.css" />
     <link rel="stylesheet" href="../static/css/protein_detail.css">
     <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
         .nav-button {
             padding: 12px 20px;
             background-color: white;
@@ -33,6 +37,32 @@
             top: 20px;
             display: flex;
             z-index: 100;
+        }
+        .search-examples {
+            margin-top: 10px;
+            padding-left: 0px;
+            text-align: left;
+        }
+        /* New rule to prevent wrapping in the first table cell */
+        .info-section table td:first-child {
+            white-space: nowrap;
+        }
+        .action-buttons button {
+            background-color: #D9C1D9; /* Light purple */
+            color: white; /* White text */
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 5px; /* Add some spacing */
+        }
+
+        .action-buttons button:hover {
+            background-color: #C8AEC8; /* Darker purple on hover */
+        }
+        /* Remove underline from link wrapping button */
+        .action-buttons a {
+            text-decoration: none;
         }
     </style>
 </head>
@@ -73,17 +103,11 @@
 
         <div class="action-buttons">
             <span>Download</span>
-            <button>PDB file</button>
+            <a href="../data/pdb_data/AF-Q8W3K0-F1-model_v4.pdb" download>
+                <button>PDB file</button>
+            </a>
             <button>mmCIF file</button>
             <button>Predicted aligned error</button>
-        </div>
-
-        <div class="feedback-section">
-            <span>Share your feedback on structure with Google DeepMind</span>
-            <span class="feedback-buttons">
-                <button class="primary">Looks great</button>
-                <button>Could be improved</button>
-            </span>
         </div>
 
         <section class="info-section">
@@ -103,7 +127,7 @@
                     </tr>
                     <tr>
                         <td>Source organism</td>
-                        <td>Arabidopsis thaliana (Mouse-ear cress) <a href="#" target="_blank" title="Search for Arabidopsis thaliana">go to search &#x279A;</a></td>
+                        <td>Arabidopsis thaliana (Mouse-ear cress) </td>
                     </tr>
                     <tr>
                         <td>UniProt</td>
@@ -124,4 +148,4 @@
     
     <script src="../static/js/protein_detail.js"></script>
 </body>
-</html>
+</html>  
