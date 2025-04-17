@@ -241,6 +241,7 @@ header p {
     padding: 20px 10px 10px 10px;
     width: 100%;
     box-sizing: border-box;
+    overflow: hidden; /* 防止内容溢出 */
 }
 
 .search-container {
@@ -249,6 +250,8 @@ header p {
     display: flex;
     justify-content: center;
     gap: 10px;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .search-box {
@@ -259,6 +262,7 @@ header p {
     font-size: 16px;
     outline: none;
     background-color: white;
+    box-sizing: border-box;
 }
 
 .search-button {
@@ -270,6 +274,8 @@ header p {
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
+    white-space: nowrap; /* 防止文字换行 */
+    box-sizing: border-box;
 }
 
 .search-button:hover {
@@ -283,6 +289,8 @@ header p {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .examples-label {
@@ -303,6 +311,12 @@ header p {
 
 .example-tag:hover {
     background-color: rgba(255, 255, 255, 0.3);
+}
+
+.example-tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 /* 响应式设计 - 移动设备 */
@@ -372,31 +386,53 @@ header p {
 
     /* 搜索部分调整 */
     .search-section {
-        padding: 15px 10px 10px 10px;
+        padding: 15px 5px 10px 5px; /* 减少左右内边距 */
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
     }
 
     .search-container {
-        max-width: 95%;
+        width: 100%;
+        max-width: 100%;
         flex-direction: column;
+        margin: 0;
+        padding: 0 5px; /* 添加小的内边距 */
+        box-sizing: border-box;
     }
 
     .search-box {
         width: 100%;
-        border-radius: 2px 2px 0 0;
+        border-radius: 5px 5px 0 0; /* 修改上边圆角 */
         padding: 10px;
         font-size: 0.9rem;
+        box-sizing: border-box;
+        margin: 0;
     }
 
     .search-button {
         width: 100%;
-        border-radius: 0 0 2px 2px;
+        border-radius: 0 0 5px 5px; /* 修改下边圆角 */
         padding: 10px;
         font-size: 0.9rem;
+        box-sizing: border-box;
+        margin: 0;
     }
 
     .search-examples {
+        width: 100%;
         flex-direction: column;
         align-items: flex-start;
+        padding: 0 5px; /* 添加小的内边距 */
+        margin: 10px 0 0 0;
+        box-sizing: border-box;
+    }
+
+    .example-tags-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 5px;
     }
 
     .example-tag {
