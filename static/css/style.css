@@ -444,3 +444,13 @@ tr:hover {
         margin-bottom: 10px; /* Add some space below subtitle */
     }
 }
+
+#csvPdbTable th.sort-asc::after {
+    content: ' ▲';
+    font-size: 0.8em;
+}
+
+#csvPdbTable th.sort-desc::after {
+    content: ' ▼';
+    font-size: 0.8em;
+}

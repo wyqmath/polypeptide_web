@@ -32,6 +32,59 @@
             display: flex;
             z-index: 100;
         }
+
+        /* 新表格的样式 */
+        #csvPdbTable {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        #csvPdbTable th, #csvPdbTable td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        #csvPdbTable th {
+            background-color: #f0f0f0;
+            cursor: pointer; /* 添加排序指示的光标 */
+        }
+        #csvPdbTable tr:hover {
+            background-color: #f9f9f9;
+        }
+        .csv-pagination {
+            margin-top: 20px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .csv-pagination button {
+            padding: 8px 12px;
+            margin: 0 5px;
+            background-color: #D9C1D9;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .csv-pagination button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        .csv-pagination .page-info {
+            margin: 0 10px;
+            font-size: 16px;
+        }
+        .csv-search-container {
+            margin-top: 20px;
+            margin-bottom: 10px; 
+            display: flex; 
+            justify-content: center;
+        }
+        #csvSearchInput {
+            width: 70%; 
+            padding: 10px; 
+            border-radius: 5px; 
+            border: 1px solid #ccc;
+        }
     </style>
 </head>
 <body>
@@ -50,74 +103,233 @@
     
     <div class="search-section">
         <div class="search-container">
-            <input type="text" class="search-box" placeholder="搜索蛋白质、基因、UniProt编号、生物体或序列">
-            <button class="search-button">搜索</button>
+            <input type="text" id="mainSearchInput" class="search-box" placeholder="搜索蛋白质、基因、UniProt编号、生物体或序列、PDB ID、实验方法...">
+            <button class="search-button" id="mainSearchButton">搜索</button>
         </div>
         <div class="search-examples">
             <span class="examples-label">示例：</span>
-            <a href="/data/Q8W3K0.html" class="example-tag">Q8W3K0</a>
-            <a href="#" class="example-tag">Free fatty acid receptor 2</a>
-            <a href="#" class="example-tag">At1g58602</a>
-            <a href="#" class="example-tag">Q5VSL9</a>
-            <a href="#" class="example-tag">E. coli</a>
+            <a href="pdb_pages/9HVN.html" class="example-tag">9HVN</a>
+            <a href="pdb_pages/9L6B.html" class="example-tag">9L6B</a>
+            <a href="pdb_pages/9DZ1.html" class="example-tag">9DZ1</a>
+            <a href="pdb_pages/9E3V.html" class="example-tag">9E3V</a>
         </div>
     </div>
     
-    <h2 class="database-title">数据库预览</h2>
     <div class="preview-container">
-        <div class="preview-item" data-pdb="pdb_data/4dri.pdb">
-            <div class="preview-title">人类胰岛素 (4DRI)</div>
+        <div class="preview-item" data-pdb="https://files.rcsb.org/download/7PVB.pdb">
+            <div class="preview-title">7PVB</div>
             <div id="previewViewer1" class="preview-viewer"></div>
         </div>
-        <div class="preview-item" data-pdb="pdb_data/8GRX.pdb">
-            <div class="preview-title">结构蛋白 (8GRX)</div>
+        <div class="preview-item" data-pdb="https://files.rcsb.org/download/7QAC.pdb">
+            <div class="preview-title">7QAC</div>
             <div id="previewViewer2" class="preview-viewer"></div>
         </div>
-        <div class="preview-item" data-pdb="pdb_data/AF-A0A0G2JPG2-F1-model_v4.pdb">
-            <div class="preview-title">AlphaFold预测结构</div>
+        <div class="preview-item" data-pdb="https://files.rcsb.org/download/7QID.pdb">
+            <div class="preview-title">7QID</div>
             <div id="previewViewer3" class="preview-viewer"></div>
         </div>
     </div>
     
-    <h2 class="database-title">详细查看</h2>
-    <div class="container">
-        <div class="info-container">
-            <div class="database">
-                <h3>可用结构</h3>
-                <table id="pdbTable">
-                    <tr>
-                        <th>PDB ID</th>
-                        <th>名称</th>
-                        <th>分辨率</th>
-                    </tr>
-                    <tr class="pdb-item active" data-pdb="pdb_data/4dri.pdb">
-                        <td>4DRI</td>
-                        <td>人类胰岛素</td>
-                        <td>1.9 Å</td>
-                    </tr>
-                    <tr class="pdb-item" data-pdb="pdb_data/8GRX.pdb">
-                        <td>8GRX</td>
-                        <td>结构蛋白</td>
-                        <td>2.3 Å</td>
-                    </tr>
-                    <tr class="pdb-item" data-pdb="pdb_data/AF-A0A0G2JPG2-F1-model_v4.pdb">
-                        <td>AF-A0A0G2JPG2</td>
-                        <td>AlphaFold预测结构</td>
-                        <td>--</td>
-                    </tr>
-                </table>
-                
-                <div class="description" id="structureInfo">
-                    <h3>人类胰岛素 (4DRI)</h3>
-                    <p>胰岛素是一种由胰腺分泌的多肽激素，对调节血糖水平至关重要。该结构以1.9埃分辨率显示了人类胰岛素的三维结构。</p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="full-width-viewer-container">
-            <div id="myViewer"></div>
+    <!-- 加载CSV数据 -->
+    <script src="pdb_list.js"></script>
+    
+    <!-- 新增CSV数据库条目部分 -->
+    <h2 class="database-title">CycPepDB 数据集</h2>
+    <div class="container"> 
+        <table id="csvPdbTable">
+            <thead>
+                <tr>
+                    <th data-sort="id">PDB ID</th>
+                    <th data-sort="method">实验方法</th>
+                    <th data-sort="resolution">分辨率</th>
+                    <th data-sort="date">发布日期</th>
+                    <th data-sort="note">备注</th>
+                </tr>
+            </thead>
+            <tbody id="csvPdbTableBody">
+                <!-- 表格行将由JavaScript动态插入 -->
+            </tbody>
+        </table>
+        <div class="csv-pagination" id="csvPaginationControls">
+            <!-- 分页按钮将由JavaScript动态插入 -->
         </div>
     </div>
+    
+    <!-- CSV表格的JavaScript功能 -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // 获取搜索框和表格相关元素
+            const mainSearchInput = document.getElementById('mainSearchInput');
+            const csvTableBody = document.getElementById('csvPdbTableBody');
+            const csvPaginationControls = document.getElementById('csvPaginationControls');
+            
+            // 检查pdbList是否已定义并且是数组
+            if (typeof pdbList === 'undefined' || !Array.isArray(pdbList)) {
+                console.error("pdbList未定义或不是数组。请确保pdb_list.js已加载且内容正确。");
+                if(csvTableBody) csvTableBody.innerHTML = '<tr><td colspan="5" style="text-align:center;">数据加载失败，请检查pdb_list.js文件。</td></tr>';
+                return; // 如果pdbList不可用，停止执行
+            }
+
+            let csvCurrentPage = 1;
+            const csvRowsPerPage = 15; // 每页显示的条目数
+            let csvCurrentSortColumn = null;
+            let csvSortAscending = true;
+            let csvFilteredData = [...pdbList]; // 使用pdbList的副本进行过滤和排序
+
+            function csvRenderTable() {
+                if (!csvTableBody) return; // 防御性编程
+                csvTableBody.innerHTML = ''; // 清空现有行
+                const start = (csvCurrentPage - 1) * csvRowsPerPage;
+                const end = start + csvRowsPerPage;
+                const paginatedItems = csvFilteredData.slice(start, end);
+
+                if (paginatedItems.length === 0 && csvFilteredData.length > 0) { // 如果当前页为空但有数据
+                    csvCurrentPage = Math.max(1, Math.ceil(csvFilteredData.length / csvRowsPerPage)); // 转到最后一页
+                    csvRenderTable(); // 重新渲染
+                    return;
+                }
+                if (paginatedItems.length === 0 && csvFilteredData.length === 0) {
+                     csvTableBody.innerHTML = '<tr><td colspan="5" style="text-align:center;">未找到匹配条目</td></tr>';
+                }
+
+                paginatedItems.forEach(item => {
+                    const row = csvTableBody.insertRow();
+                    const cellId = row.insertCell();
+                    const link = document.createElement('a');
+                    link.href = `pdb_pages/${item.id}.html`;
+                    link.textContent = item.id;
+                    link.target = '_blank'; // 在新标签页中打开
+                    cellId.appendChild(link);
+
+                    row.insertCell().textContent = item.method;
+                    row.insertCell().textContent = item.resolution;
+                    row.insertCell().textContent = item.date;
+                    row.insertCell().textContent = item.note || 'N/A'; // 如果备注为空，显示N/A
+                });
+                csvRenderPagination();
+            }
+
+            function csvRenderPagination() {
+                if (!csvPaginationControls) return; // 防御性编程
+                csvPaginationControls.innerHTML = '';
+                const totalPages = Math.ceil(csvFilteredData.length / csvRowsPerPage);
+
+                if (totalPages <= 1) return; // 如果只有一页或没有条目，不显示分页
+
+                const prevButton = document.createElement('button');
+                prevButton.textContent = '上一页';
+                prevButton.disabled = csvCurrentPage === 1;
+                prevButton.addEventListener('click', () => {
+                    if (csvCurrentPage > 1) {
+                        csvCurrentPage--;
+                        csvRenderTable();
+                    }
+                });
+                csvPaginationControls.appendChild(prevButton);
+
+                const pageInfo = document.createElement('span');
+                pageInfo.className = 'page-info';
+                pageInfo.textContent = `第 ${csvCurrentPage} 页 / 共 ${totalPages} 页`;
+                csvPaginationControls.appendChild(pageInfo);
+
+                const nextButton = document.createElement('button');
+                nextButton.textContent = '下一页';
+                nextButton.disabled = csvCurrentPage === totalPages;
+                nextButton.addEventListener('click', () => {
+                    if (csvCurrentPage < totalPages) {
+                        csvCurrentPage++;
+                        csvRenderTable();
+                    }
+                });
+                csvPaginationControls.appendChild(nextButton);
+            }
+            
+            function csvSortData(column) {
+                if (csvCurrentSortColumn === column) {
+                    csvSortAscending = !csvSortAscending;
+                } else {
+                    csvCurrentSortColumn = column;
+                    csvSortAscending = true;
+                }
+
+                csvFilteredData.sort((a, b) => {
+                    let valA = a[column];
+                    let valB = b[column];
+
+                    // 处理分辨率的数值排序（假设格式为"3.1 Å"或仅数字）
+                    if (column === 'resolution') {
+                        valA = parseFloat(valA) || (valA === "N/A" || valA === "" ? (csvSortAscending ? Infinity : -Infinity) : valA);
+                        valB = parseFloat(valB) || (valB === "N/A" || valB === "" ? (csvSortAscending ? Infinity : -Infinity) : valB);
+                    } else if (typeof valA === 'string') {
+                        valA = valA.toLowerCase();
+                        valB = valB.toLowerCase();
+                    }
+                    
+                    if (valA < valB) return csvSortAscending ? -1 : 1;
+                    if (valA > valB) return csvSortAscending ? 1 : -1;
+                    return 0;
+                });
+                csvUpdateSortIndicators();
+                csvRenderTable();
+            }
+
+            function csvUpdateSortIndicators() {
+                document.querySelectorAll('#csvPdbTable th').forEach(th => {
+                    th.classList.remove('sort-asc', 'sort-desc');
+                    if (th.dataset.sort === csvCurrentSortColumn) {
+                        th.classList.add(csvSortAscending ? 'sort-asc' : 'sort-desc');
+                    }
+                });
+            }
+
+            // 将搜索功能添加到主搜索框
+            if (mainSearchInput) {
+                mainSearchInput.addEventListener('input', function () {
+                    const searchTerm = mainSearchInput.value.toLowerCase();
+                    csvFilteredData = pdbList.filter(item => {
+                        return item.id.toLowerCase().includes(searchTerm) ||
+                               item.method.toLowerCase().includes(searchTerm) ||
+                               (item.resolution && item.resolution.toLowerCase().includes(searchTerm)) || // 检查分辨率是否存在
+                               item.date.toLowerCase().includes(searchTerm) ||
+                               (item.note && item.note.toLowerCase().includes(searchTerm)); // 检查备注是否存在
+                    });
+                    csvCurrentPage = 1; // 搜索后重置到第一页
+                    if (csvCurrentSortColumn) { // 如果有排序列，重新应用排序
+                        csvSortData(csvCurrentSortColumn); // 这将调用csvRenderTable
+                    } else {
+                        csvRenderTable();
+                    }
+                });
+
+                // 添加搜索按钮点击事件
+                const mainSearchButton = document.getElementById('mainSearchButton');
+                if (mainSearchButton) {
+                    mainSearchButton.addEventListener('click', function() {
+                        // 触发与输入相同的搜索逻辑
+                        const event = new Event('input');
+                        mainSearchInput.dispatchEvent(event);
+                    });
+                }
+            }
+
+            document.querySelectorAll('#csvPdbTable th').forEach(headerCell => {
+                if(headerCell.dataset.sort) { // 确保单元格可排序
+                    headerCell.addEventListener('click', () => {
+                        csvSortData(headerCell.dataset.sort);
+                    });
+                }
+            });
+
+            // 初始渲染CSV表格
+            if (csvTableBody) { // 确保元素存在后再尝试渲染
+                 if (typeof pdbList !== 'undefined' && pdbList.length > 0) {
+                    csvRenderTable();
+                } else {
+                    csvTableBody.innerHTML = '<tr><td colspan="5" style="text-align:center;">没有可显示的数据。请先运行Python脚本生成pdb_list.js。</td></tr>';
+                }
+            }
+        });
+    </script>
     
     <script src="static/js/script.js" defer></script>
 </body>

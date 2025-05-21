@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>多肽结构数据库 - 9BFL</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-light.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
+    <link rel="stylesheet" href="../static/css/protein_detail.css">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            overflow-x: hidden;
+        }
+        .action-buttons button {
+            background-color: #D9C1D9; /* Light purple */
+            color: white; /* White text */
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 5px; /* Add some spacing */
+        }
+
+        .action-buttons button:hover {
+            background-color: #C8AEC8; /* Darker purple on hover */
+        }
+        /* Remove underline from link wrapping button */
+        .action-buttons a {
+            text-decoration: none;
+        }
+        .full-width-viewer-container {
+            width: 100%;
+            margin: 20px 0;
+        }
+        #myViewer {
+            width: 100%;
+            height: 600px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <img src="../THU-structure-LOGO.svg" alt="THU结构数据库标志" class="logo">
+            <div class="top-nav">
+                <a href="../index.html" class="nav-button">Home</a>
+                <a href="../Download.html" class="nav-button">Download</a>
+                <a href="https://www.frcbs.tsinghua.edu.cn/" class="nav-button">About</a>
+            </div>
+        </div>
+        <h1>多肽结构数据库</h1>
+        <p>浏览和可视化多肽三维结构</p>
+    </header>
+    
+    <div class="search-section">
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="搜索蛋白质、基因、PDB编号、生物体或序列">
+            <button class="search-button">搜索</button>
+        </div>
+    </div>
+    
+    <div class="protein-detail-container">
+        <div class="protein-header">
+            <h1>9BFL - 多肽结构</h1>
+            <p class="alphafold-id">9BFL</p>
+        </div>
+
+        <div class="action-buttons">
+            <span class="download-label">下载</span>
+            <div class="button-container">
+                <a href="https://files.rcsb.org/download/9BFL.pdb" download>
+                    <button>PDB文件</button>
+                </a>
+            </div>
+            <div class="button-container">
+                <a href="https://files.rcsb.org/download/9BFL.cif" download>
+                    <button>mmCIF文件</button>
+                </a>
+            </div>
+        </div>
+
+        <section class="info-section">
+            <h2>
+                基本信息
+                <span class="toggle-arrow">▲</span>
+            </h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>PDB编号</td>
+                        <td>9BFL <a href="https://www.rcsb.org/structure/9BFL" target="_blank" title="访问RCSB PDB页面">前往RCSB &#x279A;</a></td>
+                    </tr>
+                    <tr>
+                        <td>实验方法</td>
+                        <td>NMR</td>
+                    </tr>
+                    <tr>
+                        <td>分辨率</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <td>发布日期</td>
+                        <td>2024-04-18</td>
+                    </tr>
+                    <tr>
+                        <td>二硫键</td>
+                        <td>A2-A9</td>
+                    </tr>
+                    <tr>
+                        <td>其他连接</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>多肽链</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>蛋白链</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>多肽长度</td>
+                        <td>A:11</td>
+                    </tr>
+                    <tr>
+                        <td>蛋白长度</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>备注</td>
+                        <td>C-terminal amidation</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section class="info-section">
+            <h2>
+                3D 结构可视化
+                <span class="toggle-arrow">▲</span>
+            </h2>
+            <div class="full-width-viewer-container">
+                <div id="myViewer"></div>
+            </div>
+        </section>
+
+        <script type="text/javascript">
+            var viewerInstance = new PDBeMolstarPlugin();
+            var options = {
+                customData: {
+                    url: 'https://files.rcsb.org/download/9BFL.pdb',
+                    format: 'pdb'
+                },
+                moleculeId: '9BFL',
+                alphafoldView: false,
+                bgColor: { r: 255, g: 255, b: 255 },
+                hideControls: false,
+                subscribeEvents: true
+            }
+            var viewerContainer = document.getElementById('myViewer');
+            viewerInstance.render(viewerContainer, options);
+            
+            // 添加折叠/展开功能
+            document.addEventListener('DOMContentLoaded', function() {
+                const sections = document.querySelectorAll('.info-section h2');
+                
+                sections.forEach(section => {
+                    section.addEventListener('click', function() {
+                        const content = this.nextElementSibling;
+                        const arrow = this.querySelector('.toggle-arrow');
+                        
+                        if (content.style.display === 'none') {
+                            content.style.display = 'block';
+                            arrow.textContent = '▲';
+                        } else {
+                            content.style.display = 'none';
+                            arrow.textContent = '▼';
+                        }
+                    });
+                });
+            });
+        </script>
+    </div>
+    
+    <script src="../static/js/protein_detail.js"></script>
+</body>
+</html>
