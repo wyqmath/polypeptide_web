@@ -1,15 +1,17 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0;
     background-color: #f8f9fa;
     color: #333;
+    max-width: 100%;
+    font-size: 16px; /* 基础字体大小 */
 }
 
 /* 全局样式调整，确保内容不会超出容器 */
-html, body {
-    max-width: 100%;
+html {
     overflow-x: hidden; /* 防止水平滚动 */
-    font-size: 16px; /* 基础字体大小 */
+    margin: 0;
+    padding: 0;
 }
 
 /* 添加基本的响应式缩放 */
@@ -41,17 +43,19 @@ p, h1, h2, h3, td, th, span, a {
 header {
     background-color: #C8B0D0;
     color: #4A2C40;
-    padding: 20px;
+    padding: 20px 0;
     position: relative;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .top-header {
     position: relative;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 0 10px 0;
+    padding: 0 20px 10px 20px;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -84,11 +88,21 @@ header {
 header h1 {
     margin: 20px 0 0 0;
     text-align: center;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
 }
 
 header p {
     margin: 5px 0 0 0;
     text-align: center;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
 }
 
 /* 蛋白质标题部分 */
@@ -321,6 +335,18 @@ header p {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+}
+
+/* 3D Viewer Container */
+.full-width-viewer-container {
+    width: 100%;
+    margin: 20px 0;
+}
+
+#myViewer {
+    width: 100%;
+    height: 600px;
+    position: relative;
 }
 
 /* 响应式设计 - 移动设备 */

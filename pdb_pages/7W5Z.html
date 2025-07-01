@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>多肽结构数据库 - 7W5Z</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-light.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
+    <link rel="stylesheet" href="../static/css/protein_detail.css">
+    <style>
+        .info-section {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            overflow: hidden;
+        }
+        .info-section h2 {
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 15px 20px;
+            font-size: 1.2em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .info-section h2.collapsible {
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out;
+        }
+        .info-section h2.collapsible:hover {
+            background-color: #efefef;
+        }
+        .section-toggle-arrow {
+            width: 12px;
+            height: 12px;
+            border: solid #333;
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            transform: rotate(-135deg);
+            transition: transform 0.3s ease;
+        }
+        .collapsible.collapsed .section-toggle-arrow {
+            transform: rotate(45deg);
+        }
+        .info-section > div, .info-section > table {
+            padding: 20px;
+            background-color: #fff;
+        }
+        .full-width-viewer-container {
+            padding: 0 !important;
+            height: 600px;
+        }
+        .info-section > table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .info-section table td, .info-section table th {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .info-section table tr:last-child td {
+            border-bottom: none;
+        }
+        .info-section table td:first-child {
+            font-weight: 600;
+            color: #555;
+            width: 150px;
+        }
+        .citations-container .citation-item,
+        .assemblies-container .assembly-item,
+        .sequence-item {
+            padding: 15px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .citations-container .citation-item:last-child,
+        .assemblies-container .assembly-item:last-child,
+        .sequence-item:last-child {
+            border-bottom: none;
+        }
+        .sequence-wrapper {
+            max-height: 250px;
+            overflow-y: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 10px;
+            background: #fdfdfd;
+            margin-top: 10px;
+        }
+        .sequence-wrapper table {
+            width: 100%;
+            border: none;
+        }
+        .sequence-wrapper td {
+            border: none;
+        }
+        .seq-num {
+            text-align: right;
+            padding-right: 1em;
+            color: #999;
+            font-family: 'Courier New', Courier, monospace;
+            vertical-align: top;
+            font-size: 0.9em;
+        }
+        .seq-data {
+            font-family: 'Courier New', Courier, monospace;
+            word-break: break-all;
+            font-size: 1em;
+            line-height: 1.5;
+        }
+        .citation-title {
+            font-weight: bold;
+        }
+        .citation-authors {
+            font-size: 0.9em;
+            color: #555;
+        }
+        .citation-journal {
+            font-size: 0.9em;
+            color: #777;
+        }
+        .citation-links a {
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <img src="../THU-structure-LOGO.svg" alt="THU结构数据库标志" class="logo">
+            <div class="top-nav">
+                <a href="../index.html" class="nav-button">Home</a>
+                <a href="../Download.html" class="nav-button">Download</a>
+                <a href="https://www.frcbs.tsinghua.edu.cn/" class="nav-button">About</a>
+            </div>
+        </div>
+        <h1>多肽结构数据库</h1>
+        <p>浏览和可视化多肽三维结构</p>
+    </header>
+    
+    <div class="search-section">
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="搜索蛋白质、基因、PDB编号、生物体或序列">
+            <button class="search-button">搜索</button>
+        </div>
+    </div>
+    
+    <div class="protein-detail-container">
+        <div class="protein-header">
+            <h1>7W5Z - 多肽结构</h1>
+            <p class="alphafold-id">7W5Z</p>
+        </div>
+
+        <div class="action-buttons">
+            <span class="download-label">下载</span>
+            <div class="button-container">
+                <a href="https://files.rcsb.org/download/7W5Z.pdb" download>
+                    <button>PDB文件</button>
+                </a>
+            </div>
+            <div class="button-container">
+                <a href="https://files.rcsb.org/download/7W5Z.cif" download>
+                    <button>mmCIF文件</button>
+                </a>
+            </div>
+        </div>
+
+        <section class="info-section">
+            <h2 class="collapsible">
+                基本信息
+                <span class="section-toggle-arrow"></span>
+            </h2>
+            <table>
+                <tbody>
+<tr><td>PDB编号</td><td>7W5Z <a href="https://www.rcsb.org/structure/7W5Z" target="_blank" title="访问RCSB PDB页面">前往RCSB &#x279A;</a></td></tr>
+<tr><td>标题</td><td>Cryo-EM structure of Tetrahymena thermophila mitochondrial complex IV, composite dimer model</td></tr>
+<tr><td>实验方法</td><td>ELECTRON MICROSCOPY</td></tr>
+<tr><td>分辨率</td><td>3.02 Å</td></tr>
+<tr><td>发布日期</td><td>2022-04-06</td></tr>
+<tr><td>作者</td><td>Zhou, L.; Maldonado, M.; Padavannil, A.; Letts, J.</td></tr>
+<tr><td>来源生物</td><td>Tetrahymena thermophila</td></tr>
+<tr><td>关键词</td><td>cytochrome c oxidase, electron transport, mitochondrial carrier, membrane complex</td></tr>
+<tr><td>EC编号</td><td>1.9.3.1, 7.1.1.9</td></tr>
+<tr><td>分子量</td><td>4593.54 kDa</td></tr>
+<tr><td>实体数量</td><td>蛋白质: 58, 核酸: 0, 核酸杂合体: 0</td></tr>
+<tr><td>二硫键</td><td>Yes</td></tr>
+<tr><td>其他连接</td><td>Yes</td></tr>
+<tr><td>多肽链</td><td>U3, U4, u3, u4</td></tr>
+<tr><td>蛋白链</td><td>5B, 5b, 6A, 6B, 6C, 6L, 6a, 6b, 6c, 6l, 7A, 7C, 7L, 7a, 7c, 7l, A, AC, B, BP, C, C1, C2, C3, D, E, F, FS, G, H, I, J, K, L, M, M1, M2, M3, N, O, P, Q, R, S, T, T1, T2, T3, T4, T5, T6, U, U1, U2, U5, U6, V, W, X, Y, Y0, Y5, Y7, Z, a, ac, b, bp, c, c1, c2, c3, d, e, f, fs, g, h, i, j, k, l, m, m1, m2, m3, n, o, p, q, r, s, t, t1, t2, t3, t4, t5, t6, u, u1, u2, u5, u6, v, w, x, y, y0, y5, y7, z</td></tr>
+<tr><td>多肽长度</td><td>34, 30</td></tr>
+<tr><td>蛋白长度</td><td>98, 637, 130, 230, 88, 103, 133, 236, 990, 346, 318, 3634, 330, 72, 72, 93, 68, 81, 72, 380, 188, 127, 453, 89, 190, 490, 473, 1471, 402, 385, 348, 318, 318, 252, 234, 231, 222, 220, 210, 193, 175, 173, 172, 173, 170, 158, 154, 149, 124, 122, 105, 90, 478, 688, 604, 594</td></tr>
+                </tbody>
+            </table>
+        </section>
+        
+
+<section class="info-section">
+    <h2 class="collapsible">
+        序列信息
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="sequences-container">
+        
+        <div class="sequence-item">
+            <h4>链: U1, u1 - Unknown peptide (长度: 98)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">XXXXXXXXXX XXXXXXXXXX XXXXXXXXXX XXXXXXXXXX XXXXXXXXXX XXXXXXXXXX</td></tr><tr><td class="seq-num">61</td><td class="seq-data">XXXXXXXXXX XXXXXXXXXX XXXXXXXXXX XXXXXXXX</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: 5B, 5b - Cytochrome C oxidase subunit Vb protein (长度: 637)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MKKQKRTQGK QNTKQIKQEK LSSKRKANNQ KEGKKKVKQE DYKEIKQKGK RMLSKIVKAS</td></tr><tr><td class="seq-num">61</td><td class="seq-data">FSSKGFNLAN AVNTVKSTLN APIKHIKRNI EPTGSNYSRM TNTTEEAFDE VSHEWQALVT</td></tr><tr><td class="seq-num">121</td><td class="seq-data">SNPFDLNVFN YLENTQTSNF GTVDNPLVVF TSETPFRYVG CTGQMNEDDY EGHELLFFLL</td></tr><tr><td class="seq-num">181</td><td class="seq-data">REGSLQRCMG CGQVFKLVRL RNEYSPEMDY YLSNFHPYEM QEMGESDTTV LMSPYKYASH</td></tr><tr><td class="seq-num">241</td><td class="seq-data">YEYTQFETPS NMVYSMVNPD EHDRLLVDPA YRMERTKALE EKYKVYTSSL REVEKQFEER</td></tr><tr><td class="seq-num">301</td><td class="seq-data">YGRAGQINIS KVTYSTLIDV EKAVLKMDRL FRKVAKFENR AFIDRANHSR REKRMLERAQ</td></tr><tr><td class="seq-num">361</td><td class="seq-data">QRWDSNYSFF TGSLTEEEQK YRDYYETELE AYPEDEGIEQ QLDQQEVLLS GRYDPKLYDF</td></tr><tr><td class="seq-num">421</td><td class="seq-data">QEGYTKNPED DQTSLIEKKA FKFRYRLANE TSETFQRRNN RMVERQIKRF QQPQYKHAFE</td></tr><tr><td class="seq-num">481</td><td class="seq-data">QLQKNIAISS NSGNALHSEY GYLELLSNES VQLYKDYYES DAEEDFKVFE NLSSKEKLVM</td></tr><tr><td class="seq-num">541</td><td class="seq-data">IANFENNLLP KYDRSEVHLI PKRQWEPAFG VWENFLYDIT EYASFIAPRG KEIAADYQIQ</td></tr><tr><td class="seq-num">601</td><td class="seq-data">SAIPLTKEEL IEAGLYKETI EKKVEPKLEA KKQTKSE</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: 6A, 6a - Transmembrane protein, putative (长度: 130)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MIWKYLQRTN RGNIIQAGLQ HRKFENLPFK QNFDNLTKAY DLRMWYISNS PHEAKNLEYV</td></tr><tr><td class="seq-num">61</td><td class="seq-data">NELEALHNEL NYQNSRQFLF RTVSFLLGWA LFYQFYELPK TYDWQDTQEP KHQVPAYGDL</td></tr><tr><td class="seq-num">121</td><td class="seq-data">EEGGDEGGDD</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: 6B, 6b - Cytochrome c oxidase subunit 6B (长度: 230)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MSSAVEKKDL PADYGKMPAG YNFLTRGKDW REYDKDFILR TDAVWEKFQL EHFFRNYMKC</td></tr><tr><td class="seq-num">61</td><td class="seq-data">FFFDHGLKKY QMFEPEDMYT VVFEGWALDD LITFPGFTPT GRTNSYQIGL SPRQRTVVPT</td></tr><tr><td class="seq-num">121</td><td class="seq-data">QTFYQMQDYY MLCGLRFERW FRCDLVYHDQ RHTKFDQVKN QKNYKTYPCY REYYEAQYAC</td></tr><tr><td class="seq-num">181</td><td class="seq-data">QDDMFDFLME LAYARRAADN FESDFASHEL TTLPTFYDTP KAAERKTYTY</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: 6L, 6l - Cytochrome c oxidase subunit 6B-like (长度: 88)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MEVKYRGPSD DKLECEFLEN NLLSCLREKS VQDNVAKMTC RPEFLVWFFL ECPTKAAVYH</td></tr><tr><td class="seq-num">61</td><td class="seq-data">DPKGLRNIFI QDKIKQKGSD DGVLSKDD</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: 6C, 6c - Transmembrane protein, putative (长度: 103)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MGSVWFRNRY WWYRSLYDDY VAREAKLAFG IAAFIWLPHY YWGIHLNRAF EVNFSHRNYA</td></tr><tr><td class="seq-num">61</td><td class="seq-data">HEWGPRRNRL AHSLEFEQFD MILENWQDLE DEYAQRGDGM LKK</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: 7A, 7a - Transmembrane protein, putative (长度: 133)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MNRFFKVSSK YQYYKYLEQY DAAFLRKYQS ETHWYLGRRG AWKNLVIKYA GDHISLEEEH</td></tr><tr><td class="seq-num">61</td><td class="seq-data">NVKYKTHLSF VYLSYRLAWV LFAYVLIYNH FLLGDIGKTF NVGEWDHRLK PSAERDYPTR</td></tr><tr><td class="seq-num">121</td><td class="seq-data">YESLYILDRT QKW</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: 7C, 7c - Cytochrome c oxidase subunit 7C (长度: 236)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MISKYRYLHC ARKLVKQSVQ AFGGGHHHHE YDWRDDPKVN KDIEEDIRDR GWHPETYDFP</td></tr><tr><td class="seq-num">61</td><td class="seq-data">YTKKHDDWVF DVTMPSQNYQ TDLTVNIHPE NKKMHVMKQV MRQSYWDAEH DMAHEYDYES</td></tr><tr><td class="seq-num">121</td><td class="seq-data">EDLDFQCESF KSQHFRKKGP ISQYLILGLL PILYFGTEFF YNHYPDEDYW RVAHPPPLDY</td></tr><tr><td class="seq-num">181</td><td class="seq-data">PDTDDTDDTE TFKDYKSFTG RRMVDTGIVD PLWYDIREGK KVYYDWAGVN QPMEDI</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: 7L, 7l - CTF/NF-I domain-containing protein (长度: 990)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MNKSQDEVKE DYFSIKKKKY NSLDCVLSPI VTRKKQESIN SFQAGLQEDQ NSTAVPESPF</td></tr><tr><td class="seq-num">61</td><td class="seq-data">IRNCSETLNR SQHKILDHYF EYDYSLKKKI EKIKISLQNK TGTDSSQSLV QKRLDDLRKK</td></tr><tr><td class="seq-num">121</td><td class="seq-data">TLIYKQFNIQ KNNNNINNTG QFFIEKDKQN NLNLSQPHQI IKSKQGHKRS FTNTLYCSSN</td></tr><tr><td class="seq-num">181</td><td class="seq-data">DKKIFNISSQ KQNIKTVKQS NNSSMYEEQI KNDQNKKQNF NKQAKSERKQ AEFCDLFYES</td></tr><tr><td class="seq-num">241</td><td class="seq-data">MQKDAERQFK SNSDKSKSIT QILENNCENA IVLLNHLIQI LTDSIPISKN SILLDEKLSQ</td></tr><tr><td class="seq-num">301</td><td class="seq-data">CVNLSNNSKI SQLMLVIQKL QGKISYYYND FLKCIRMMKI CKNFCQLFGT LKFKISCYKY</td></tr><tr><td class="seq-num">361</td><td class="seq-data">IGLGFQRLNK PKVALVYFVK MLRQSWFLKQ EDQEINSYDF IGMSYFYLGS IDKAYQYHQM</td></tr><tr><td class="seq-num">421</td><td class="seq-data">MIDGIKADEE VKKISNIMLK NRKYSNYPTL QNIRIIQETS DGQPLQKTIR KSKIINPQFQ</td></tr><tr><td class="seq-num">481</td><td class="seq-data">LTQQEWGENI SSSEDEFELP QMQIAVKNAE EQTFQKKFLS TPWNDRFIQA QIHKLEIAQE</td></tr><tr><td class="seq-num">541</td><td class="seq-data">LNYNKFPIGL VFKNQSVLNF PNSSNQPQLV VGPYANKIYN QELSSTYSSR QRISHQTPNR</td></tr><tr><td class="seq-num">601</td><td class="seq-data">EFFNYHSQLQ QVKEQTQLNQ MKQQYNQIVD SIELANHLIV LKNLKKVKDL FQNLIPYLNE</td></tr><tr><td class="seq-num">661</td><td class="seq-data">KYYNIKQQNT KSLKQQQNSF DAQNSNQSFL GLQNYSIQIN GILNINNQTD EYVNNQSDRS</td></tr><tr><td class="seq-num">721</td><td class="seq-data">YQQQSDKLKL LIKSKSRNHS KEINMTQNYF KSPSNESKQI KNLRVIVDNS NKKKAQQKLN</td></tr><tr><td class="seq-num">781</td><td class="seq-data">QEFSMNFCES PKYDNSILSL FINKLSQESA LRLEIRQIGS ASRYQRKKQQ KGKQRKEKYQ</td></tr><tr><td class="seq-num">841</td><td class="seq-data">KKQEENKLNI KQYKKERYNM ALFFMANTAI SVPSVLDTSP CMKQMLAYED CVLDANVPQQ</td></tr><tr><td class="seq-num">901</td><td class="seq-data">EVIHPQWPTI WPRLLTDGKL LEFDKVPFHP ENIYNYTYMR PLTKKNKQYL YECEEERFVF</td></tr><tr><td class="seq-num">961</td><td class="seq-data">KACLRKVISL KKTDKHTSWD TAEVANLQLT</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: M1, m1 - Oxoglutarate/malate translocator protein, putative (长度: 346)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MFFELEDIKR RHSLYWDIYN VQGWVRRPDS TLYNNVKRGV TAGVVASLVQ ENITALVENC</td></tr><tr><td class="seq-num">61</td><td class="seq-data">KLLATKYEKP QNLRQAATFM KEVFKLENYR KAVWNRSQYA LCIGTFDIGA RLATFRWLNN</td></tr><tr><td class="seq-num">121</td><td class="seq-data">GWQRVFAGFE FNFVRKIPTT MLAALFTAPF SVPFELARMA YYGDKTFPKE LQRGYSSYLS</td></tr><tr><td class="seq-num">181</td><td class="seq-data">ALARIPFEEG PYFLFKNSFP LIIRNFFQTF TLFYTYDFLK DKASFAWRVG EQNEYACKMI</td></tr><tr><td class="seq-num">241</td><td class="seq-data">IAGISTYLAA VFSYPWMVTR EMVDFWPKVP GAPCTFNGNY RKAAVWIWYH EFSGNYFAGF</td></tr><tr><td class="seq-num">301</td><td class="seq-data">FTKYFWKASP GMFLTLMLAD KVGLFDQTTV DNFGGAGNNS WEDTFV</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: M2, m2 - 2-oxoglutarate/malate carrier protein (长度: 318)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MNYSYKRYWE PSTAEVIGLS LSVNTISAAL TYPIEFVKVR SQIRTEGVGI RSKNLYMGIN</td></tr><tr><td class="seq-num">61</td><td class="seq-data">PNKVFREIHA TGNGLRGFYQ GFESHLIGRL SYLFIRNLTY KIIYDRTKPV KAHNDLSHRE</td></tr><tr><td class="seq-num">121</td><td class="seq-data">KGVIAGFAGG LAAFLTSPAD LVNTRTIAEG GKPKEWRWGY KGLMDGINKI AATEGGNAAL</td></tr><tr><td class="seq-num">181</td><td class="seq-data">FRGSYANVLR AVILNISLTG PFDYLNEKIW ITFGDMTWNK YAALLWASFW GSVATLPFDN</td></tr><tr><td class="seq-num">241</td><td class="seq-data">IRTRLYAQNA DPTKNRLTYS GWADAAKKLI QHEGISGFYV GFYAFYIRTF LYAWTTVFIT</td></tr><tr><td class="seq-num">301</td><td class="seq-data">DKITSDWKRK AGLKEWQI</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: U2, u2 - Transmembrane protein, putative (长度: 3634)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MLIQIVLVLC QYFQLISCFC QGRLECLNPI QKRCVQIDGL QFIGREKKTG FCVIDSVLYD</td></tr><tr><td class="seq-num">61</td><td class="seq-data">EIDFCLSESN NVCITYDRKM CIKVESNNSI VAINQEDSIC GITIDGYCVD ENQNYSQEIY</td></tr><tr><td class="seq-num">121</td><td class="seq-data">CNDSHCKFTN KQYQKSCLNY KSPQIYGKAN KNECVLQDQY FHSDAQIICK PHYCIYFQDK</td></tr><tr><td class="seq-num">181</td><td class="seq-data">QITCVKMDHS IHPQIIGKDS DGICIFQKVE KQDFYLKYRN LQLCADQKHC YDTSQQTCMP</td></tr><tr><td class="seq-num">241</td><td class="seq-data">LSASYPAVKM GGTCGNYNEP ISISCFYEGN VCLLENPRVC IRIFFNQDYD VCGIRKDGLC</td></tr><tr><td class="seq-num">301</td><td class="seq-data">AASNIYYQNL QICASDYCMY GQANNAKCIK MDGQQAVGID SQGFCVQNFE QKADRCSTNF</td></tr><tr><td class="seq-num">361</td><td class="seq-data">SYICYLNSSQ ICINLQGYQN YCQQANKCYE FSLQQYIGRD IYYYCIQSEQ SLQPQNVQNC</td></tr><tr><td class="seq-num">421</td><td class="seq-data">LQNPSYICQK RDGTMCVYYY QIPTYFTYLG YINSSGYCAQ EGYQTYTSQP QFQTITNLNP</td></tr><tr><td class="seq-num">481</td><td class="seq-data">NFCQDDSYVI QKILPPYYGR LDSYNYNRCL KQSDQSPYIE SCIQGYCISN NSCQKIGFDS</td></tr><tr><td class="seq-num">541</td><td class="seq-data">KNVSKLSNQY CGLVQQSSAI ECAYDQDYCI YNSICYNLSD QNIQTSGIDY YGNCLQRGKY</td></tr><tr><td class="seq-num">601</td><td class="seq-data">YQNWKKCSVN HCYQKKLLLN SFGCFYLDGT QGAAGIDSNG MCLDYGVSTP VRCALSSQVC</td></tr><tr><td class="seq-num">661</td><td class="seq-data">LDFQKNTCQQ TINFGSTGNG CYYSGYCYQI NLGQFIGRDT SLICLSDQEA TNNLDTCYND</td></tr><tr><td class="seq-num">721</td><td class="seq-data">NQNICMAVYS SLKFCVVYPR TSLYLGYIVQ NKQCAVENQQ TNQGQLVDLV NLRNNYCQDQ</td></tr><tr><td class="seq-num">781</td><td class="seq-data">QGYIRRLDGK QYVGVDSSQY LCLESGKTPS KSIIQCYTGF CIVENACKAY DQQYVGRDKY</td></tr><tr><td class="seq-num">841</td><td class="seq-data">YQCLKKGEGI SVECAANYCI DLSTKNCVQI NDTNPAQAGV LDNFQCAHSE RYYYSQILQC</td></tr><tr><td class="seq-num">901</td><td class="seq-data">SESYCLQQNP NNPSQQGCFE LDGDINRAGI DSKGNCLQQD LPNAVRCSPG QFCLNDKFGN</td></tr><tr><td class="seq-num">961</td><td class="seq-data">ACQSLLLSFK NNRFARQKGT GVCLSYIDPS QFKGDNIDIC VKGSCKYSDP KNLDFCFSLG</td></tr><tr><td class="seq-num">1021</td><td class="seq-data">QLAFGNQVVG RDINGDCVLK DQQTSTQIVE CFDMIYCILD LGGGKQKCQL LQEKDLQFPN</td></tr><tr><td class="seq-num">1081</td><td class="seq-data">LIYKAKNINQ TCQDINMPNS MGCLYGLYCI NPNDGYKCVL MNDDNKIGRS LVNQQCLQQG</td></tr><tr><td class="seq-num">1141</td><td class="seq-data">ELIANYCQPD FCILNGACVP LSNKFPGKEN QTQKCLPEQI EGQYGASNCY KEGFCLIINP</td></tr><tr><td class="seq-num">1201</td><td class="seq-data">QNQLASCYQL DYSNPNTIGI QIDTQHCLKE GETVAIMCAY EKYCIDPVSQ SCKIQDIKQG</td></tr><tr><td class="seq-num">1261</td><td class="seq-data">YCLGKNGMCA KNGSCVYCQV SQCLTNQNSG TCIDLQQPPA LFCKDINVHS ENIFIQNQKG</td></tr><tr><td class="seq-num">1321</td><td class="seq-data">ICQYLNSGQC DICPENYCKF NNMCFGSQDL LKILKGNQCF VYVPKLKTCQ IQDLNTPNSQ</td></tr><tr><td class="seq-num">1381</td><td class="seq-data">GNMNCMNNKG FCQDTTVVKN QCLMCANYYF NPGNQQCFSI EEKALLSSSQ LFFNMQLIYV</td></tr><tr><td class="seq-num">1441</td><td class="seq-data">KQDCYDQDYC QSIPSLKCPK GCFSCNSPNF CTQCIEGFFL YQDTSNQQFC IQCQKQIIQD</td></tr><tr><td class="seq-num">1501</td><td class="seq-data">NTLKIYYNQI PTYSCLDCSS EYGTWNQISS KYRNCQNFIV KLDNLLQITS QKYAAQNYII</td></tr><tr><td class="seq-num">1561</td><td class="seq-data">SPISTTQAPY QLYFHRSRLC PTGCLSCVQI SDSKVMCLQC QDYYINDDNG SCQKCPDFCI</td></tr><tr><td class="seq-num">1621</td><td class="seq-data">NCQYATFISG KVIPKSQIEK NQQKYYYFVT ICLKCSQYYL VSYNLQSCDN CGINCLYCQY</td></tr><tr><td class="seq-num">1681</td><td class="seq-data">ENYKTVLNYN IRQLQYLSYY EFSTQNFIKK CIQCPQGYVV GYDGQFCQKE IQNCRYTTFQ</td></tr><tr><td class="seq-num">1741</td><td class="seq-data">IAQSYDLTLY IWSFTQNSTI ANQICKQCVD GYILSGDASS CLDGCQQQIS DNRCESCYSP</td></tr><tr><td class="seq-num">1801</td><td class="seq-data">LNKIQCQFCN SGQILNQVVN PGACQDDICS RNIVGCQECY KYQDPQNPSP FYQIYQCTKC</td></tr><tr><td class="seq-num">1861</td><td class="seq-data">IDQYSIPSIF SCIQCPTGCA KCYEGYRYYN FTSELVYKRT QFTVNQRLNY YQNDYQLYCT</td></tr><tr><td class="seq-num">1921</td><td class="seq-data">ECQKGYQFDQ QQKKCIKIQC GPNCNLCILI NNQPQCVQCN YDKLIAELNQ LSYFIGILYF</td></tr><tr><td class="seq-num">1981</td><td class="seq-data">KQNYIPNPKT MISLTSSGND CQICPILCET CVNNSDVSIN PLFIYDAQCL SCKQSLDQSY</td></tr><tr><td class="seq-num">2041</td><td class="seq-data">VLQNYQITYD KSRRKCYLCN KSEQGCYYKK QKVIYAQCLD LSTRLGDGSL QNPINFSRLN</td></tr><tr><td class="seq-num">2101</td><td class="seq-data">EIDLNQFLIN EIEYNQAIIY YNELQVKELE VQLIFVDGSC YDYRPQKFSI NIKDSIRALS</td></tr><tr><td class="seq-num">2161</td><td class="seq-data">TSLNITTLNQ NSVLKFYQLD AFTVQGFDQI YIKNIIFLQQ RNDAKLGLIL VDKALTNIQL</td></tr><tr><td class="seq-num">2221</td><td class="seq-data">FNCQFLQIQQ LIQSIQFMTF NLQTIQQTKV KLEQVVFQNI QIFESTSLIN INNTQNSSIY</td></tr><tr><td class="seq-num">2281</td><td class="seq-data">LKMNQVKLNN VLFQQSKLIS TNSMNITIDI TNLFVNQSLF DQQSLLLDMK QNLLVDQYIG</td></tr><tr><td class="seq-num">2341</td><td class="seq-data">ILLNNIIFLN SSFLHGSTIL NSDFLDFLQI DNLTFNNCTF QQTQKQAVLP LIAANTFMLT</td></tr><tr><td class="seq-num">2401</td><td class="seq-data">QIQIISNTIT NYSFLQQYDN YFKDQNQSSS FSGIDIIDNK VNSDSYLFLF FQTQQNRNSS</td></tr><tr><td class="seq-num">2461</td><td class="seq-data">IHGINILRNQ FSSNYTQVIV QFNQQNFVQI QNLTIVDNQQ FLFISTDSVR NILLQQVYQY</td></tr><tr><td class="seq-num">2521</td><td class="seq-data">QTSSQYFAAQ ICYLRQTKNQ INIKNIKLEG IYFQKNIFQI ENSLNNYLQK DFQITVTNLF</td></tr><tr><td class="seq-num">2581</td><td class="seq-data">STQSTLLLKR YTNDVTIFSL YSKQQISLTV QNVTFSFFKS QVLNNKTSLG KISLGFYFQG</td></tr><tr><td class="seq-num">2641</td><td class="seq-data">LQIKATILNS TFADLDISSP FNWIEGSVQQ MILKSCNFTN SNGYQNYNSV RNGGFFKITS</td></tr><tr><td class="seq-num">2701</td><td class="seq-data">QKLIIKKSIF INGNALNGGA FYLIMQGKGT LNLINSTFIN NKAYSNNDQE TKGGAFYLDG</td></tr><tr><td class="seq-num">2761</td><td class="seq-data">FMSESLDVLV FKSIFSKNLA LFSGGAINIQ SSNQQNAFII QESFFFDNLS CQGSSINIQS</td></tr><tr><td class="seq-num">2821</td><td class="seq-data">SSDFQSEVVI SKTKVNNQIQ NTISTVENIA NLLSQYTLLN IQQLSSSQIF IKDVRNVQFF</td></tr><tr><td class="seq-num">2881</td><td class="seq-data">QSRFQIVPYK FKDSNVLKYF KGIIFSQMFS IQNVLNYLDI NNIYEKSVFY GKLINVNNVK</td></tr><tr><td class="seq-num">2941</td><td class="seq-data">NIQIQHTQIL NNQNIIEDLS HQDNRVSNLA SFHSQNCLVF NLTVNQNKCL QCNLGIIEIL</td></tr><tr><td class="seq-num">3001</td><td class="seq-data">SSKLDMQNST FQNNLAQYGS SLQLQQNKQY IYNLSKLLQS FQDKLVISNS TFSHNIANVN</td></tr><tr><td class="seq-num">3061</td><td class="seq-data">GGALYIKEST VFIYQTLFDT NTARQYGGAL FLENTKKNIL TNLINLQNCT FSNNKAKFGG</td></tr><tr><td class="seq-num">3121</td><td class="seq-data">VLASTTGQRV NKYTNNTYKD NKGYQYGENI QTSPTKFIIT VNKTQLTDTQ YINIQNHQGG</td></tr><tr><td class="seq-num">3181</td><td class="seq-data">TLRDEILLAL CDDQNNYIQN IPQDSFLSIN ITQGSGFLNQ NKIAHKNGIF NLTQQIQVYG</td></tr><tr><td class="seq-num">3241</td><td class="seq-data">YSKQQLLLSI TSDLIQIPVF NKDEIIIGYD SYQLIINIQM VQVCLPGQIP KKFQEKFDLC</td></tr><tr><td class="seq-num">3301</td><td class="seq-data">YDCQDGSYSF QVSDTCQICP SPQAKCFRDK ILLPSNLWRV SQKSIVLFPC KNCVGDIQLY</td></tr><tr><td class="seq-num">3361</td><td class="seq-data">KKFKKRSLLK IQSTDLNYYC KEGYIGALCE DCDRNGQHWG DSYFMNLDLK CQRCSQTTFA</td></tr><tr><td class="seq-num">3421</td><td class="seq-data">EIAYPLMISL IAFILMIFLT YYIQIQVHLK LTKKVLTILS KKYYGFNDQS IARTIKFLVY</td></tr><tr><td class="seq-num">3481</td><td class="seq-data">QSSIIGIMFW YDCYIPNTFS YIFIDIGNLF TDQIRISECF LEQKFSGTSI IYKGIYFLLG</td></tr><tr><td class="seq-num">3541</td><td class="seq-data">TYFAIISCII IFYMLLRIKF NYQNYLQDIL ISLSIFVYFS YNSILSKIFR SVIHLLFLKI</td></tr><tr><td class="seq-num">3601</td><td class="seq-data">KKNVILQNIT NRLIAKSLTK KDSQWSIYQF HVMK</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: M3, m3 - Carrier protein (长度: 330)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MANFVIPYLK PVADFWNSLC IDQHQDSLFQ FKGQTGSLGT DWTSKYLRSE QDVYNHKYLQ</td></tr><tr><td class="seq-num">61</td><td class="seq-data">YHKRVHEAPE LTDVISDNVY RLTLFAGVER VLSVRQAQAI LKTQFAGATE NISGAFQTVL</td></tr><tr><td class="seq-num">121</td><td class="seq-data">NGGIFRRGYF RGALLNLLQF CGAPYQSLIW SRNSGITNQV IVSSIFEAFF YPLDTVKTLI</td></tr><tr><td class="seq-num">181</td><td class="seq-data">YNDVQGKYKG AFHCASQVVQ NAGWSRLYAG IFQKLIFNSA LIFHLNQVWD GSSQQWASLA</td></tr><tr><td class="seq-num">241</td><td class="seq-data">LVAAAYPLLV LKTRFQVAGT PLALATSNEV LKVNRKTLYA GLVPYLIFNT LFAYEFAAWH</td></tr><tr><td class="seq-num">301</td><td class="seq-data">SSTAQERVIG GLQNAMKQFS SPAAEQVWSS</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: T1, t1 - Tim10/DDP family zinc finger protein (长度: 72)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MDTEVSNHNY TQAVAYLNRA TSSCVKKCDS LNNNGSLSSK QESCLKTCAE NHAIATKIHA</td></tr><tr><td class="seq-num">61</td><td class="seq-data">EYIRKLAESK YL</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: T2, t2 - Cytochrome c oxidase small TIM subunit 2 (长度: 72)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MSDKRKIQHE GIIALINYST LCAQKCDVLK GHDDKITDTE EQCLRVCAEK IRQTFEFTND</td></tr><tr><td class="seq-num">61</td><td class="seq-data">IYLKNPNLTK PN</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: T3, t3 - Cytochrome c oxidase small TIM subunit 3 (长度: 93)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MSTRKIFDSE EQSFIRLVDK FYLGLSLTKL CAQSCNLLRN DISGSALTQK EKDCLSICYN</td></tr><tr><td class="seq-num">61</td><td class="seq-data">NIEKTQSAFY AKVKTTMNLP AVEDDGEEGG DDE</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: T4, t4 - Cytochrome c oxidase small TIM subunit 4 (长度: 68)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MEQNTTQVFS DLAYKVCFKV INDKNKPFVL HDEQRLANCL TRYVEAFNVT SEYFFRERAG</td></tr><tr><td class="seq-num">61</td><td class="seq-data">ETKVTEKQ</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: T5, t5 - Cytochrome c oxidase small TIM subunit 5 (长度: 81)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MEDNYAADVQ RQFNRTAFDS LYKICYNSLV QKNGSTIDFQ KQIDCHQRLI QVFAKIAPIV</td></tr><tr><td class="seq-num">61</td><td class="seq-data">VKVEQDAASS GGAAAGGEDE E</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: T6, t6 - Cytochrome c oxidase small TIM subunit 6 (长度: 72)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MDPVLGDVIA TRIYKACFKH VYGKNMKAYS EKDEAKFDQC LTSYVESYKS VTNHFITYLG</td></tr><tr><td class="seq-num">61</td><td class="seq-data">QLPKKGLSLD GS</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BP, bp - Chromosome condensation regulator RCC1 repeat protein (长度: 380)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">GNLYTWGQYA SGTGFETASA VPRKVDYFSG NVSKVAMGPY HTAVITNDGS LYTFGWGQNG</td></tr><tr><td class="seq-num">61</td><td class="seq-data">ALGNGAKEFQ LSPSPVSFFN DKKLKVKDVV VGESYTIAVT ENGEVYSWGY GGEPSSKINL</td></tr><tr><td class="seq-num">121</td><td class="seq-data">DFFRNAILPQ RCGALGSGDN KNRLTPQQIA NLKADGYKNI SGGDNFATLV NQSGEVINWG</td></tr><tr><td class="seq-num">181</td><td class="seq-data">TGLFGSLGNG SDYPLFTPEV NAYFKHLKEH EGLTVQSIKS AGHFSAALLS NGKLYTFGVN</td></tr><tr><td class="seq-num">241</td><td class="seq-data">TQGQLGIREN LGHNTDQNAR LPTPVVDRHF VGQKVVDFEV GENTLVFLTD KNEVFFSGLE</td></tr><tr><td class="seq-num">301</td><td class="seq-data">LAYQPIRWEI PTDKKIVKLA ASKDTFAAVT ETGKIYQFNE FVGVSTNEVG NDYNVADSKA</td></tr><tr><td class="seq-num">361</td><td class="seq-data">FEGKVVDLGG SYGIRFAIVN</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: FS, fs - Iron-binding zinc finger CDGSH type protein (长度: 188)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MSAILKRAAK YKRVSSILCE GEAHLRDPFT PPPVILKPPA PRKDKKPDDI TDFPAQKLIP</td></tr><tr><td class="seq-num">61</td><td class="seq-data">LPESIPYQEG KYRPASIPMV AGFFPYNCYL QQGKVYSWCS CGISQSGPWC DGLCNSVVTR</td></tr><tr><td class="seq-num">121</td><td class="seq-data">CRPVVFNVSQ SGYYKICNCK FSANAPFCNN THRKMVRYHH QTHRGFYEIW GAALFVLGWV</td></tr><tr><td class="seq-num">181</td><td class="seq-data">YMGFNYYT</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AC, ac - Cytochrome c oxidase acyl carrier-like subunit (长度: 127)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MMQNLKKFMS KTIQVQPVSF NQIPKAFYNF PEYRTGGVQA NPGITAKRII KCIGERLRKY</td></tr><tr><td class="seq-num">61</td><td class="seq-data">DPARWENVPI TFKTHFRDEN GYSDVATSIQ IHDALEREFG IDIKDRLALV TDVETAFYIV</td></tr><tr><td class="seq-num">121</td><td class="seq-data">MSHHDPL</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: U3, u3 - Unknown peptide (长度: 34)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">XXXXXXXXXX XXXXXXXXXX XXXXXXXXXX XXXX</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Y7, y7 - Ymf67 (长度: 453)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MTALFLHILW SISYIIINIL YIFLSLLLSN NNEKIKQYNS NYFIKILLVL FYNKNLSFYK</td></tr><tr><td class="seq-num">61</td><td class="seq-data">NLLSEDEISK IEFERLKNYP TLVLIHSNLN KLEKRNKIIN SFINFKTKYR FYKFISTNFN</td></tr><tr><td class="seq-num">121</td><td class="seq-data">LQTIIKNCND KIIFSTLLYI VNLNYSFFYK TIKNTDLIVY LLANKFSILN DNIIVSKFNI</td></tr><tr><td class="seq-num">181</td><td class="seq-data">SKFNDYIKYI NNTNSIDTYL ENQIILGLNN NTNSNITKNI NTKLLNSYSN LKNLVNITNN</td></tr><tr><td class="seq-num">241</td><td class="seq-data">TFYLKKINDN YNTVINSEFL TYLKSNYKIS FSASNIVKYL SDKSVNNSVI LYLRKNKIFN</td></tr><tr><td class="seq-num">301</td><td class="seq-data">KSRYSRNRQT YRTGAYWCLY VNIIAVVAFY FWFYKFTMNF GYLWWLLYSL ILSFFFSRAL</td></tr><tr><td class="seq-num">361</td><td class="seq-data">KHRFYNPLNV MTEFKNGFMW FIIILINIFK PLLKLLENNY INLYNHLVIK YYQSFICNTL</td></tr><tr><td class="seq-num">421</td><td class="seq-data">INKKKLEFNY ILSSFKFIKE LNNIIIISLN KLF</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Y0, y0 - Ymf70 (长度: 89)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MFRWLFLYWY NSTDTPSAIA KVNLWSYINL RLFKARLSSS IAYYILGLNN LELKKLKIFY</td></tr><tr><td class="seq-num">61</td><td class="seq-data">KNTYFDYIYL KSIPCLFLII FFTNLYLFL</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Y5, y5 - Ymf75 (长度: 190)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MFLGIFKDVI KLLNKKVVPV YFWFFLYCFL STMDTNIFVS SCSFLKVEVF GKDENTTLVL</td></tr><tr><td class="seq-num">61</td><td class="seq-data">LFYVFYSLFN FYLSRIKNKN NYLVRKHLYT TELLIELILF KYKLIILKFS SIKYILNFNV</td></tr><tr><td class="seq-num">121</td><td class="seq-data">RKFILFNLFL INNYKAYKIN TFFLYIYIYL NNLNIIWYPI FKAYSIFGYY KSTRLNFIDT</td></tr><tr><td class="seq-num">181</td><td class="seq-data">KNENIKRIKY</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: A, a - Transmembrane protein, putative (长度: 490)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MLSKVTRRFL NYNQIYCFAS QHGAEHHKLT ASDEAYLNEV RQRYVTPDME KWAYLDYKKH</td></tr><tr><td class="seq-num">61</td><td class="seq-data">PSTTLSHYDH KSKDYVESER DDYNADVATN SHNKLIDDFK RNLQMQRKVH DILQKMDRPY</td></tr><tr><td class="seq-num">121</td><td class="seq-data">LRGVPGVTKN ISAGLQDYSA PVSKKSQSDP NDFYRDAYRN ENRWIDQSVF TPKTSKMTHY</td></tr><tr><td class="seq-num">181</td><td class="seq-data">DVEWPKELAS RPVTKKFHHD KGYKYDVTTP YDQRYNYVAD RLGHPEILGN PFERLMRLEG</td></tr><tr><td class="seq-num">241</td><td class="seq-data">DIYHPNYLDQ PFVKVPNANP NASLNFEEGE VLYENTRLLE WAKFWNYSVV VGYLWCAYFV</td></tr><tr><td class="seq-num">301</td><td class="seq-data">PYNIFFKTHM PLEHAYDNLF FPYFQHTHFL WDNNALHIPT VGGVAIYATY IALSYINNIW</td></tr><tr><td class="seq-num">361</td><td class="seq-data">KDYVVRAQFS KDKELLFVTR VSPFGTTEEE VYEVAHLEHL PPSVRSGVKD LSAQDADGLV</td></tr><tr><td class="seq-num">421</td><td class="seq-data">DVTCMSSQRS LVFYKGDQYW NPKVYNDFIN QTSNLWTRNY TGYNRLEVQN SVEQVKIGFS</td></tr><tr><td class="seq-num">481</td><td class="seq-data">HSSQPKLEKK</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: B, b - Protein phosphatase 2C, putative (长度: 473)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MFRRIISNGA LLSTQTQRWQ DLSKFACLRA SLNKESEKAF QELAKKNNVS PQELVELSKI</td></tr><tr><td class="seq-num">61</td><td class="seq-data">VSMNLDVLKQ NINSEQFLLE KESTLKRYRQ SSIGTRGHLQ TVNEAVNTKY PTLAEGLGQV</td></tr><tr><td class="seq-num">121</td><td class="seq-data">AGYKEAYQAL REIFVHPSIS VNNLRQGSYG QQFAVDFRTR ADEYVKALLK DHSSNPQAVQ</td></tr><tr><td class="seq-num">181</td><td class="seq-data">TIQEIQHTLH QIIKNYEQNP ASIYARILTV LQTRGVNTLP VSKTADQKAV ATIQKTSTPS</td></tr><tr><td class="seq-num">241</td><td class="seq-data">LTIDQLTVPV QERVQTQTVF DAELAFIKEA NEMIQQNTGN LPWDGGKKKI FQGQANKYLE</td></tr><tr><td class="seq-num">301</td><td class="seq-data">TPYYLLAALS GLGLLYFLYS GDAKYKTLVL TPVVGIAAFV LLRRNQILNR VPTLTELFLH</td></tr><tr><td class="seq-num">361</td><td class="seq-data">KDGKFVDAVV SVNGQLISKN DIPVSTLKLY RGDHTVKVNL NDFEDASAKK FLAQQSGQEG</td></tr><tr><td class="seq-num">421</td><td class="seq-data">VINVHFSKLR NLAARNGQVL NLGDTEVVVP FENQANRIIL KQIFKGVEVL PSS</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: C, c - Cyclic nucleotide-binding domain protein (长度: 1471)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MSVPSLEYQK QYIYSMQKSQ CSIQNQSINI IADEQQAPQE SYLSRKCQRH LFETKCVQLE</td></tr><tr><td class="seq-num">61</td><td class="seq-data">LGLNGDYSLS NNSLFIQNNN TVFDNLQQNT ESNIKQTNRS NKERYETQIF EQHPIIKNPK</td></tr><tr><td class="seq-num">121</td><td class="seq-data">NDQVSSIMNE QEQKKFINTD ENVQQTAQVS KNSKQSFKNG IQQVQTLSID KSQASIREQK</td></tr><tr><td class="seq-num">181</td><td class="seq-data">KISDCNLDKQ FIKGDSRLDE SSKIPSKCCG WIPEDIIFEN NIHQLNKKVT LVAKNNFSDS</td></tr><tr><td class="seq-num">241</td><td class="seq-data">KIQNHKEKKY QQNFQKAAEI VNRLLNTSMN RIMRVRQHVR NFIMLLKLRY LNRKIDDLTD</td></tr><tr><td class="seq-num">301</td><td class="seq-data">RDYASINDLS NFYKSHKKKR NSKAFMKHFN FVIKLSQKLP IFMPTDTLRV VWDVILVLFT</td></tr><tr><td class="seq-num">361</td><td class="seq-data">YIFLYFYSIL MFFNQDNPDT EFIKEFYFCT FFIFLIDVLV NFNTAFFNKD LIIINRRQIA</td></tr><tr><td class="seq-num">421</td><td class="seq-data">KQYIFSTVFF TDFVSLIVLG IKVIKRSNFI VYNPNHNLLT YCFNMLIFFK VNGISSKKKG</td></tr><tr><td class="seq-num">481</td><td class="seq-data">FDYVFTLKES EKHVIKLINQ LFSVITVAHL AAIGWYFLGI LQVVNDNQTN WLVKLNISEG</td></tr><tr><td class="seq-num">541</td><td class="seq-data">VYYQKYIYSI YWSITTMTTV GYGDISATNY GEALYISIVM LLFSCVFAYS INNIGFILQE</td></tr><tr><td class="seq-num">601</td><td class="seq-data">IEKSSKQLND KITTMQRYLN RKKVNISLKS RIRHYLSFLA QEQRDRDKQA EDEIISILSN</td></tr><tr><td class="seq-num">661</td><td class="seq-data">KLREEITVEI NSKILNKFNI FSSNFSKQTL DKLVFKMTEV LINPNEIIFR EEQNDDMSIY</td></tr><tr><td class="seq-num">721</td><td class="seq-data">FIQSGVIEVY QQSVQKQDKV TVIQTLTDES LFGEISFFSG LSRKASARSI NLSTLYKISR</td></tr><tr><td class="seq-num">781</td><td class="seq-data">EDFIYIIQEN NEDYERFKMI QEQIVFQGEL PLLHVECYNC KKIGHISSSC PKTHQIFDKQ</td></tr><tr><td class="seq-num">841</td><td class="seq-data">FIILREIYSS FQQRIFFDRT RYKNNLKPLN LIQDNQNVCK ILKQNLQDDN ISIEIMFDSC</td></tr><tr><td class="seq-num">901</td><td class="seq-data">NRYTGSSYYN SEDLEDDEYG QCDEYATSSN SQTNIDNFSN KSSLNNIKNN ALQKKKTMKK</td></tr><tr><td class="seq-num">961</td><td class="seq-data">KEVSKKYLDN NQICENISSI LNSDQYCNSQ KVISNNINDN LEIKKSYVKS FNLSNRQKSL</td></tr><tr><td class="seq-num">1021</td><td class="seq-data">DDFEKIKSSQ NLEQNNNFNN SDIQHSKSQI QIKADSEQFQ QNIKAYSQTN KNEVDGDQEQ</td></tr><tr><td class="seq-num">1081</td><td class="seq-data">SNISQIFKKR KSQKQQEQIN NTNTDIKLQT EYPKQQARFS STSGSTLQSQ QLKMPSQKVQ</td></tr><tr><td class="seq-num">1141</td><td class="seq-data">DELQLNINQN LKGQEFNINQ SNKRVSTLLN QISNNHNQIL KNCTEQTNYR NSIDQILLQG</td></tr><tr><td class="seq-num">1201</td><td class="seq-data">ILVNNLIQSH SSQNILPIEQ SFKYLKKADG DLEKKKNSIL LQNFSLNNNK SSINITKEFI</td></tr><tr><td class="seq-num">1261</td><td class="seq-data">EDQAAVSHKN LSQIKTKQSI GKSSILNALS NINNIDGNTN DLNNKNNNSK LLQAQNSQIT</td></tr><tr><td class="seq-num">1321</td><td class="seq-data">NGNQLQIVDR LSKLLLNPQL PLLLKLTSVG MSFREMNSIN SNNAMDMFDK MHNFKKFFPH</td></tr><tr><td class="seq-num">1381</td><td class="seq-data">NNIENVLNKL KLLQLELKKQ KKQKQINKPR RQNILFFRYY SNCGSQVHDN LKLLQQEFNI</td></tr><tr><td class="seq-num">1441</td><td class="seq-data">DDYRPTYLSY GVSKRRGQQF PCNKHNLTLY F</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: D, d - SURF1-like protein (长度: 402)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MYEGRWKMVN QIKQDVQNDI ELILRQMNER IHAMKKKKYN ELKGKIKQKC IDLLIDYAKQ</td></tr><tr><td class="seq-num">61</td><td class="seq-data">KIGKKNKIKK EGNNIRHNKQ KKLKNIQKKI FKIISTRMLQ TTLSAFRPRG SNVTGKVALA</td></tr><tr><td class="seq-num">121</td><td class="seq-data">TLGALTGYGA FYHYNQYLNL SARWQQIQEN IAKDQPFDVD GFDAKVYPWV RENNVNDWEY</td></tr><tr><td class="seq-num">181</td><td class="seq-data">KLVKMRGYFK DQRFFVRRKR DGKEGFLVFA PFVTAVERVN HRLKQKDLLP VEYSVFVNLG</td></tr><tr><td class="seq-num">241</td><td class="seq-data">WVPVENKKDV ELGGEVCPPM DAPTDSTLFV NDTFTGFNPD PANPEDTEQV TLTEITGIVR</td></tr><tr><td class="seq-num">301</td><td class="seq-data">RGEQQDILAR RRNWNKEGIY NWVDLDYMGK IFRLFNLDAI NTAYIERVVP SFEEGEEGLY</td></tr><tr><td class="seq-num">361</td><td class="seq-data">PIPATKDTFE RPLNTPERHS TFFNFYAATS ALSFISMLLL RR</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: E, e - TraB family protein (长度: 385)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MISARAVHRF LRNPNLETGA AFRAGTRFDP FKNTLTVLKD PQNGRTLYLI GTTNSSTLLA</td></tr><tr><td class="seq-num">61</td><td class="seq-data">NRTKDLVQKE KPDAVFVQTN KEWWNLAKNI QDVKCQQELN RYNDLLSQAY TLSLDNTIRN</td></tr><tr><td class="seq-num">121</td><td class="seq-data">LVFKAKFYSW LFVINWFKAF PDDFHPFIPG LEMKFAIEEA NKQNIPVVLG GLEVDDVTLS</td></tr><tr><td class="seq-num">181</td><td class="seq-data">ALKVEPRLDP FSQLYYGYRA LHNSFWRREH FDNYATLDVV GGEAYAESMD RFRTNWFVKY</td></tr><tr><td class="seq-num">241</td><td class="seq-data">FEKLAPYQKK IIVDQKDLDL FYALYRDTPG KKIVAVVNQW HVPGIENHWK SATNTHEPLK</td></tr><tr><td class="seq-num">301</td><td class="seq-data">AINPIGDMDI NKYMESQLVN DTLRAFVSKV GKTEPATWKN YSTIYHKDNY EAERVRHVAF</td></tr><tr><td class="seq-num">361</td><td class="seq-data">VDHKDPHMYH GLPQDYDDNI KPKHH</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: F, f - Transmembrane protein, putative (长度: 348)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MRYLKIEKEK LVSCKKQEQE VQRIRRRKGN QKLNSIAKQQ RVKRRDYQQN IKQNKEVKNP</td></tr><tr><td class="seq-num">61</td><td class="seq-data">KKLIKQQIIN KVKKRKKMFR GLTKFNKVFA LNSFKNSLVA VPKANLNHVQ NMLEENLKYD</td></tr><tr><td class="seq-num">121</td><td class="seq-data">AQKYNDEVAV IQKTSRIYKP TYTIEFNREG EVLVYSADPI KNSVVYFKYP YVLYEAAIPL</td></tr><tr><td class="seq-num">181</td><td class="seq-data">FIWAWIYNPL ELSKNAVNSL LIYPNIAWIP RMWYWRSLQY KIQKMYLLRG GKVAKIETQS</td></tr><tr><td class="seq-num">241</td><td class="seq-data">LAGDRFTSWV ETYQFHPLTQ DQKNFDNQDN AEFLEDEGQL KYELGVQLDN LQEMGTTSQD</td></tr><tr><td class="seq-num">301</td><td class="seq-data">IVINFMKEGT VHHPELFEAI VKGYNIDTSD YVINTANNLR AREGNHNH</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: G, g - Cytochrome c oxidase subunit TT7 (长度: 318)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MFLNRLVKET SKAKRLFSMA QNNFARAGPY NPNRYKDYYI PRTLPKNEEI VEFVQSQHSV</td></tr><tr><td class="seq-num">61</td><td class="seq-data">PASPIRNQRH INPVRESGPL PSYDGTYTME DIRAVFYNTT VGRDYCYCQM DPEEIMRRVP</td></tr><tr><td class="seq-num">121</td><td class="seq-data">GITRKEAEFI TKLGLSPQEQ VDFAYIAYNI GLDIFYFTNQ MFVARQVVTN SKGEKVEVLW</td></tr><tr><td class="seq-num">181</td><td class="seq-data">NAQCYEDIAQ LNVGFAPVLE SVDYHWEIFL WADPPIKPNN DFDLNVPCTW FEYEQEWWME</td></tr><tr><td class="seq-num">241</td><td class="seq-data">SCIQEDQFNL PEDERPYNTP RNPHCRKELW RSQDALQEEE LMVNENWYPK NTQYNIYNQP</td></tr><tr><td class="seq-num">301</td><td class="seq-data">DFIKPKSGSG AAADDIRI</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: U4, u4 - Unknown peptide (长度: 30)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">XXXXXXXXXX XXXXXXXXXX XXXXXXXXXX</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: H, h - SURF1-like protein (长度: 318)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MLQQVFGKSK GGEVTNSHLT PKVLNKAQEA EKLASQIQAQ RFSNRLVAFS SQYPRAKLFF</td></tr><tr><td class="seq-num">61</td><td class="seq-data">AGIGIGTLLY GANQSSKARE NKVATETRKE RMAKPTIQLT GADSQNPPFT EKNINDWLYK</td></tr><tr><td class="seq-num">121</td><td class="seq-data">TVSITGRPIH GKGMMIPAKS YGLHGFEYLV PFVTKENEDG SVQEGLILNL GFIPREYAPI</td></tr><tr><td class="seq-num">181</td><td class="seq-data">WARARVENVE EQTFTCVVTD GKHLSEQGGL FASNKPCENQ WEYADLDQLA KHTGFVNQEQ</td></tr><tr><td class="seq-num">241</td><td class="seq-data">VRSCILEHVN TETPNDERDC RHIDICSDYK EDYPYKFTRS GVLQQPGQMY WDLNKSASYY</td></tr><tr><td class="seq-num">301</td><td class="seq-data">SLLGLGCSVF SALLFLAK</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: I, i - Cytochrome c oxidase subunit TT9 (长度: 252)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MVYHLFERIC NPDNFKLSGE AARVRTLIAA GFSKEEAEQV AWLQNHQVNG KILGLFTGGF</td></tr><tr><td class="seq-num">61</td><td class="seq-data">ALYCCNNYFH YFERYFPRLR YQPFTKFLAQ AATVYFFFKI GDYYFTSRRY GSNDARMNGL</td></tr><tr><td class="seq-num">121</td><td class="seq-data">MYSNTYYSTN KEALIQNFEP LNRKFTEEEV EQFLRNEGRS QEEKRNWIYN PHIHGSTEGE</td></tr><tr><td class="seq-num">181</td><td class="seq-data">WKADIHEKFD SGKAPWEREH VKAKILETNK AKIDAGEEIQ LKPFKTLNHL DKTGLLHRLH</td></tr><tr><td class="seq-num">241</td><td class="seq-data">PFIWTNNWTL LG</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: J, j - Cytochrome c oxidase subunit TT10 (长度: 234)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MSSFIQYEFL KIYQGNQKIK NYYKRKRLIF QQKKVLKKKQ KEIQMSTNNL RLKPWFHWTD</td></tr><tr><td class="seq-num">61</td><td class="seq-data">EERSHAIFSA YEKRILKSED LPSFLRANRI NNVSTWVFPL IALPLFNQSI FKLGFAQRIL</td></tr><tr><td class="seq-num">121</td><td class="seq-data">LTRPAIEWHC FKIATVAASW LAWLNFSPFY RKLENEKEYL LDTLESRIGI NVLDLNDALP</td></tr><tr><td class="seq-num">181</td><td class="seq-data">RWTTSQEYNR RTQQLYNQRN GFFAGLLYPQ EESSRPLVDI ASFPKNLHKE KLTK</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: K, k - Cytochrome c oxidase subunit TT11 (长度: 231)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MFGRLVLKQT RRTLFNPVLK NTFCIYQAYQ NPLRHINTGH NPNNVYEDIV MLGDYPVQNR</td></tr><tr><td class="seq-num">61</td><td class="seq-data">THDKVISQTY VPAIANIAFT HLSKKYPQAG LKVDQLNTLK EKTWNDLGVN IEHEKQEILV</td></tr><tr><td class="seq-num">121</td><td class="seq-data">ELSEQIFVKE SKLRWVHEQR QRLAHTTYVF SGLEFQNVKV GFFIDSYNFL LQELAHRSNL</td></tr><tr><td class="seq-num">181</td><td class="seq-data">YQSKDIVGEK SFHEKHLEQQ TAPYSGVKSL EEPVSQNKSF INSLMRAIHN H</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: L, l - Cytochrome c oxidase subunit TT12 (长度: 222)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">IKGNQKKQKG KNQSNNNNNI REEGKQIKEM ILPHNNRQLA RQYFDSLPEN DINRKYYEGL</td></tr><tr><td class="seq-num">61</td><td class="seq-data">KYETPKTFFG RFLNQFNIDA KLDTLSKFYT YQKTIRATQA ELQEDRKSYL TNSLLFTAVS</td></tr><tr><td class="seq-num">121</td><td class="seq-data">WFSIYQFARK GAVLPVLREY GRYFGTHRLF RQYLHTLVLP LLYTEYALNQ KYYTHMEHLW</td></tr><tr><td class="seq-num">181</td><td class="seq-data">TVHVNRLNQK ILEDPLYTFY PQELNVPKHN IIVPTIFRDT PQ</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: M, m - Transmembrane protein, putative (长度: 220)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MSLSLFGVKN NWHKNGIWWF SKILNKTVGE ERYDALRVQR RIWSMRFYYA RQQCLYELFV</td></tr><tr><td class="seq-num">61</td><td class="seq-data">DHPDLAQWTG TYPKVDSSHG FPFYSTYEMY RDFQENTLNS DGSFAQWITL VCGIYVIHVI</td></tr><tr><td class="seq-num">121</td><td class="seq-data">YNYMIPYYWV STPLKNDEFT RLRMKDYIAS TVLEEVYGIS YAEWGWLPHD FAYNRMRGLA</td></tr><tr><td class="seq-num">181</td><td class="seq-data">GYMHPDDPRA MCTSTFHRKH KYIEHEVEKV GDYHHMTYPK</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: N, n - Transmembrane protein, putative (长度: 210)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MKKGTASEEE LKKLYDPNTF YEHGDNPAFK QFMNIAVENL REGKLTDHRT YVVDTYKKWM</td></tr><tr><td class="seq-num">61</td><td class="seq-data">YARNWDDFLQ RDCKAITFPR AFALWIVGTL GMATASKWCR QILPVGSHGI TKISQTQFFH</td></tr><tr><td class="seq-num">121</td><td class="seq-data">QFGPLGTLGA VGFYGLTAYL YYKTTIFTVK KFYSHCILQE REWIFEQERQ NPGYGEYFFK</td></tr><tr><td class="seq-num">181</td><td class="seq-data">DVPLSAEEHF NDLARGEMAK KKFEKPNHEF</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: O, o - Cytochrome c oxidase subunit TT15 (长度: 193)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MKEKIFNELT RKMKRKEISA KIQREENKQI LIRQRNNKKY IQSIQGIQQE RKKGKLYLVE</td></tr><tr><td class="seq-num">61</td><td class="seq-data">MATQNVEEMD TIQKMNYEAT VNMGRQDLIT REYTFYSDYE FIPIQEDRKQ QMEDALNNLH</td></tr><tr><td class="seq-num">121</td><td class="seq-data">KIIHPTVTQL KKKANVQEIQ DRVFRKLQGW EGELNTCVFS AKNVRDSNFC ADRFTNRINT</td></tr><tr><td class="seq-num">181</td><td class="seq-data">EGVEFVKQIL REY</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: P, p - Cytochrome c oxidase subunit TT16 (长度: 175)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MNNTFKFLHQ VISKLTLKAQ VPNYGQYSHS LKRPINPKVV VFGNSSRAYE LISSQFRNFN</td></tr><tr><td class="seq-num">61</td><td class="seq-data">HVNGLELKGQ EDNIQANKVA QSVLSINDGF QDGYYITDFP QNSKQAERLD LITDGVNLAL</td></tr><tr><td class="seq-num">121</td><td class="seq-data">YIKDPSDKVT VTRQQEAIDY YRKTGALVEF EVDPRGDLEE QVKQLSNQVL NGYKH</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Q, q - Transmembrane protein, putative (长度: 173)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MDNNYHFWGN GDRQDVSLSY EDYYSILDCL LDEKLSPQGL MKFKNLHEVS MYGVSYVPLY</td></tr><tr><td class="seq-num">61</td><td class="seq-data">CFPVAYGISH MLTGKVRRGH SGYRNLFSLM SVVLPFTCWY AYTTPIPRRL YTEIICSNNA</td></tr><tr><td class="seq-num">121</td><td class="seq-data">DGAYVRNRIK QQKPGIWRKL SQQLYNKNFR FPELNQDLTA TEFPLDYVAP HKF</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: U5, u5 - Uncharacterized protein (长度: 172)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MIQQMDQYIS MQNESSSEIS DIETRSPSHS FEDNLKYYSD IYEVLSKDQI KQEYEQLQKS</td></tr><tr><td class="seq-num">61</td><td class="seq-data">NFVKNIIRSF YLFILESGDE IVIESMFENQ EKGIIQIRKE FQTFTRQKKF NQSTLNSLIN</td></tr><tr><td class="seq-num">121</td><td class="seq-data">SKRFGKIFYY FLKYYIYDWV ISRSVKDLKS HVIFITYLKK QLEQNIENQQ FD</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: R, r - Cytochrome c oxidase subunit TT18 (长度: 173)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MVFEFLFYNQ QHKTRNGYFI NHDNLMLASL EERKKLIFYF IANQVPEKLD PVDRVKFNEE</td></tr><tr><td class="seq-num">61</td><td class="seq-data">LSDNLSTKAR LIGSLTGLIG LVGFPYISTR IYSRPVLNIG LSLLICPFLY YVGNQLTYSV</td></tr><tr><td class="seq-num">121</td><td class="seq-data">WEPKFIANNN TVCELSKKYN FTVFDFAQAK KEAHLKALRT ELVSDNLLYS PGI</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: S, s - Cytochrome c oxidase subunit TT19 (长度: 170)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MAIRNFVFKI SNQIQNLAAK RSLAYLNQID SQSVPSRATI NMKDQVTQMQ REIDNMANVI</td></tr><tr><td class="seq-num">61</td><td class="seq-data">RAQIPDEDRA EFEILKKYYV TGQHDSLVDP QDVLLQLDRI QVLKNLKMIE LNEEAYDPEL</td></tr><tr><td class="seq-num">121</td><td class="seq-data">VRLEKLKARV LLEEEGALLE YAHFISKRPY NKPYEKWGVS EEHVKQQILG</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: T, t - Transmembrane protein, putative (长度: 158)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MGFETVVPAP PTRDDELRMI KATEEQFLQQ PRYKLYMNEA HRIAKMNHGD RHNNIRAHFW</td></tr><tr><td class="seq-num">61</td><td class="seq-data">SNFALGLLIT GPIFIIPFGK AFRNLRSGVP YYFRPKYVFT QKNQYNQDRN WGAMKKQIPL</td></tr><tr><td class="seq-num">121</td><td class="seq-data">WLGLSTAYAY WFTDFSINDD EWLEKGKVIY PHQTIKVL</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: U, u - Transmembrane protein, putative (长度: 154)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MSCTTRRFID EKEKLEYSRG YNQQELEASK LRKDFVKKYI VDFDTTLYKT QVERDWAYIA</td></tr><tr><td class="seq-num">61</td><td class="seq-data">KREYRYEVQL KSIGYGGALA NAVLLWRIYA NKKMVFWPIP IVGALGYLYF QPVFFQKSNK</td></tr><tr><td class="seq-num">121</td><td class="seq-data">RFFDMCNVGE EYYLGRERNK ILRECNKILN VEDF</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: V, v - Cytochrome c oxidase subunit TT22 (长度: 149)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MGKDQLDFSH FDKAFENKYD IVAPEFGDLH QKRAEFIAKN QGTYRPVPLV PNNIKGLIPK</td></tr><tr><td class="seq-num">61</td><td class="seq-data">TCRLPATRNW YRRTSSFERN GFFNIHTPVL NTKMIPWLLF IVLTWGWSSF QIGGYNYERF</td></tr><tr><td class="seq-num">121</td><td class="seq-data">DDNGERRNTL YWKLSPVEFP QSKLWNRPS</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: W, w - Transmembrane protein, putative (长度: 124)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MVFHYTNFVQ ETNAWWLRRV RPVYCTVLAY YGWWLYDRYY LFGKNATQDI RKDTTEVWEK</td></tr><tr><td class="seq-num">61</td><td class="seq-data">RAALNKRNWG YNAHYKPELE RSMKKVLYAD PNYKFPIEWP ERYMAETKTL EQVMDEEENW</td></tr><tr><td class="seq-num">121</td><td class="seq-data">EYYK</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: X, x - Transmembrane protein, putative (长度: 122)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MEPFGTDERN WTHEEKDIIT RFLKYDKHVN LKTAEMVYSA EVESAYFGKA GALAGGVISA</td></tr><tr><td class="seq-num">61</td><td class="seq-data">LFFNFPIVRN LPIIRRSVIG VLPFLYCYTW GKNTQEELRW LKTFAAYQRF VVYHGQHCKL</td></tr><tr><td class="seq-num">121</td><td class="seq-data">WV</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Y, y - Cytochrome c oxidase subunit TT25 (长度: 105)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MAQTAHQNRY QGGLCYAQCN ELFSFWNPSI QQCWKGCDFG VGRVNDPEGR IEAQQMCKRW</td></tr><tr><td class="seq-num">61</td><td class="seq-data">AAELYWTYKG ELDTIKDLRV HADMYPTTPQ NVYRACLAGV RRQKF</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Z, z - Cytochrome c oxidase subunit TT26 (长度: 90)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MSSDPFKKVE RDYHNERSVH KHFASYPLKF WWGLNKFETI QGIHSILGNA ADLVVSTLSF</td></tr><tr><td class="seq-num">61</td><td class="seq-data">IPGVQGRNNA SYIENSIRVT RFRGFDDKTQ</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: U6, u6 - Protein transporter Sec61 alpha subunit (长度: 478)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MGFIDLLKPA FSLIPEVQPA RQYIPKDHKI VWTGITLFIY LVCCQIPLYG VVRAQGSDPF</td></tr><tr><td class="seq-num">61</td><td class="seq-data">YWMRVILASN RGTLMELGIS PLVTSSMIVQ LLVNTRILDF NARVQDDRQA IQGAQKLLGL</td></tr><tr><td class="seq-num">121</td><td class="seq-data">IMSMCEAFAY IWSGQYGDPN KIGLGSCLLI FIQLVFSGIV VLLLDDMLNK GYGLGSGISL</td></tr><tr><td class="seq-num">181</td><td class="seq-data">FIATNICENI VWRSFSPITI TTQQGTEFEG SIINLFHSLL TKDRVSNALY HSFYRTSAPN</td></tr><tr><td class="seq-num">241</td><td class="seq-data">LVNLISTLLV FLVVIYLQGV KYDLRIARRQ ERNSESSYPI KLFYTSNYPI ILQTALVSQI</td></tr><tr><td class="seq-num">301</td><td class="seq-data">FFFSRILSSK FKNNFFVKLL GQWQDGSVAG GQDHPIGGFV YFLTAPRDLN QVISDPIHAI</td></tr><tr><td class="seq-num">361</td><td class="seq-data">FYVLIILTLC GVISRYWIEF SDESTSSVHK KFMEEKIEIP GHRQDSVYRT LDRIIPTAAT</td></tr><tr><td class="seq-num">421</td><td class="seq-data">LGGICVGVLT IVADFLGAIG SGTGILLAVN IIYGYFEQVK KENKLKKTGI VQQQQQQM</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: C1, c1 - Cytochrome c oxidase subunit 1 (长度: 688)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MWVDFIDQTK SLKVSVNNYF YYLDRIKKLF TYLNDLRKHI LKKYVYTINH KRIAINYLYF</td></tr><tr><td class="seq-num">61</td><td class="seq-data">SMVTGLSGAA LATMIRLELA HPGSPFFKGD SLRYLQVVTA HGLIMVFFVV VPILFGGFAN</td></tr><tr><td class="seq-num">121</td><td class="seq-data">FLIPYHVGSK DVAYPRLNSI GFWIQPCGYI LLAKIGFLRP QFWRYYDKTS FSFPFLEKMK</td></tr><tr><td class="seq-num">181</td><td class="seq-data">YNQYKEYKND YLFYLDFLKK EITDDHSFFW KARKVIKLPQ YSVFSFVPLK LMMWKTMINY</td></tr><tr><td class="seq-num">241</td><td class="seq-data">PESFWYAASR VVQSRRKKVF VTKCSARTLT TAGWTFITPF SSNIKYTGVG SQDILILSVV</td></tr><tr><td class="seq-num">301</td><td class="seq-data">FAGISTTISF TNLLITRRTL AMPGLRHRRV LMPFVTISIF LTLRMLATIT PVLGAAVIMM</td></tr><tr><td class="seq-num">361</td><td class="seq-data">AFDRHWQTTF FEYAYGGDPI LSQHLFWFFG HPEVYVLIIP TFGFINMIVP HNNTRRVASK</td></tr><tr><td class="seq-num">421</td><td class="seq-data">HHMIWAIYVM AYMGYLVWGH HMYLVGLDHR SRTMYSTITI MISMPATIKV VNWTLSLVNG</td></tr><tr><td class="seq-num">481</td><td class="seq-data">ALKIDLPFLF SMSFLLLFLV AGFTGMWLSH VSLNVSMHDT FYVVAHFHIM LSGAAMTGIF</td></tr><tr><td class="seq-num">541</td><td class="seq-data">SGIYYYFNAL FGVKYSRMFG YMHLIYYSGG QWVAFVPLFY LGFSGMPRRI HDYPVVFMGW</td></tr><tr><td class="seq-num">601</td><td class="seq-data">HSMSTTGHFI TLVGIIFFFL MMFDSHIERR ASTSTTLGLP RWYKRISYYI FKIRYLQHTK</td></tr><tr><td class="seq-num">661</td><td class="seq-data">SKMNGIPGST VRLMLINRHF VEYEVYEK</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: C2, c2 - Cytochrome c oxidase subunit 2 (长度: 604)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MWGNLWTEAS YQLNFNIGFS SLRSDVLIHL AQWQYWWWFW FALIWSFYYF IILKVARFRV</td></tr><tr><td class="seq-num">61</td><td class="seq-data">LKMRPKISTS YRPHGKWGDF LACIIPLIWC INILTNSNLI LRLIEWQNES SLFTVRVRAR</td></tr><tr><td class="seq-num">121</td><td class="seq-data">QWYWIYKFEL KNFTDILSTP KNIGNNRWQI NTFGELQTAD DYLHVLQLRS QNKWVKNYWN</td></tr><tr><td class="seq-num">181</td><td class="seq-data">RSLQETGKTN KAHVISPQEQ LRLSLINQYK SLNLSSSIKH NAPFINRDLY VFDDLFSYNL</td></tr><tr><td class="seq-num">241</td><td class="seq-data">GDITTKKSLF NDKNSFLTSY SYLNNNSWNN NEFDLIDNLP FTTLFDNNDL FNNYKSFFQD</td></tr><tr><td class="seq-num">301</td><td class="seq-data">SIFNSPKKQL SSDSKQLFKH IIYRSIKNNI IQDYTKLVKH EDFDEYSRWI KRSPGEVLPL</td></tr><tr><td class="seq-num">361</td><td class="seq-data">RIIKYPLGLE TIHNNIFENT NNEGNVELFR LRFNSNSSKM QHKLVQDTIY LTLKQKRYNR</td></tr><tr><td class="seq-num">421</td><td class="seq-data">KKVVAPQIKY YKDDNGNKTD LVKYTGKPYL SNDKLLKQSI YDQTTQYKLI KKNKKRGELI</td></tr><tr><td class="seq-num">481</td><td class="seq-data">PVTLARRILR TKKTLVLPAH VNITLITNSY DIVHSWFIPG LGIKLDCVPG RSTHHTFFID</td></tr><tr><td class="seq-num">541</td><td class="seq-data">NVGFYYGQCA EICGRYHHHM PIRVCALPFE HFLLWWNTFG LPKMLNTVSR KRFETHYELR</td></tr><tr><td class="seq-num">601</td><td class="seq-data">KYSW</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: C3, c3 - Ymf68 (长度: 594)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MLICNFLMYS NFSRIYWFDF NGTVNENLPL NYNVLKICRN EINKLEKLNE NNLGTQKNPI</td></tr><tr><td class="seq-num">61</td><td class="seq-data">KLNLSFEDKH YNTNNLVLDL NSYETFNSKN FISSIFDKTF ESLNTVLMAP IYSFLEFKLK</td></tr><tr><td class="seq-num">121</td><td class="seq-data">LSSTKINTNH YYVINGKLYI TYNDSFKLFT TINDYFNDLN ELSNTKLFFL YRSFNIYNIK</td></tr><tr><td class="seq-num">181</td><td class="seq-data">LNSLVDFVFL KLILFIHLLY LKSTNYNRFD YRLKQTDWGF YINNNSNYIQ NIFSGLKYIW</td></tr><tr><td class="seq-num">241</td><td class="seq-data">RGLRFWIIGL LLGLSSIYYL MYVRLLPFNK IIFAWILVAM FLYWLLSGFV FFVKKYQYSK</td></tr><tr><td class="seq-num">301</td><td class="seq-data">FTAAIQRFWK RTYIIFWVIE AGTFSVFFYL TLNASSEPVY MYDQIKIYKT HLFSWRWFLI</td></tr><tr><td class="seq-num">361</td><td class="seq-data">KLLPSVSIIL LGYYLQLTLK WNLFNKQNTI VLLITLLLLY ILWLEFYQFY HILSFYGNIN</td></tr><tr><td class="seq-num">421</td><td class="seq-data">WAFDYDEYIW TLELDTRRTR LANNYIAICL FAKFWHFVFI FLFWVFFVLR INELGRIRYP</td></tr><tr><td class="seq-num">481</td><td class="seq-data">LLVANVQNFI IIYIMSWAYM YPWLKFIFRK YLDVPYYWFY LNGRELGIRV FFTDLKLFFY</td></tr><tr><td class="seq-num">541</td><td class="seq-data">GITNRLFDFN PSSIKFEKYP FYYWINSSQL TEFNQYRKFV IRDSIIYSLN NYII</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        参考文献
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="citations-container">
+<div class="citation-item"><p class="citation-title">Structures of Tetrahymena 's respiratory chain reveal the diversity of eukaryotic core metabolism.</p><p class="citation-authors">Zhou, L., Maldonado, M., Padavannil, A., Guo, F., Letts, J.A.</p><p class="citation-journal"><em>Science</em>, 2022</p><p class="citation-links"><a href="https://pubmed.ncbi.nlm.nih.gov/35357889/" target="_blank">PubMed: 35357889</a> | <a href="https://doi.org/10.1126/science.abn7747" target="_blank">DOI: 10.1126/science.abn7747</a></p></div>
+    </div>
+</section>
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        配体信息
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>名称</th>
+                    <th>化学式</th>
+                    <th>分子量</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>HEA</td><td>HEME-A</td><td>C49 H56 Fe N4 O6</td><td>852.837</td></tr>
+<tr><td>CU</td><td>COPPER (II) ION</td><td>Cu</td><td>63.546</td></tr>
+<tr><td>MG</td><td>MAGNESIUM ION</td><td>Mg</td><td>24.305</td></tr>
+<tr><td>PC1</td><td>1,2-DIACYL-SN-GLYCERO-3-PHOSPHOCHOLINE</td><td>C44 H88 N O8 P</td><td>790.145</td></tr>
+<tr><td>CDL</td><td>CARDIOLIPIN</td><td>C81 H156 O17 P2</td><td>1464.043</td></tr>
+<tr><td>ZN</td><td>ZINC ION</td><td>Zn</td><td>65.409</td></tr>
+<tr><td>FES</td><td>FE2/S2 (INORGANIC) CLUSTER</td><td>Fe2 S2</td><td>175.82</td></tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        生物组装
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="assemblies-container">
+        <div class="assembly-item"><p><strong>组装 ID:</strong> 1</p><p><strong>详情:</strong> author_defined_assembly</p><p><strong>寡聚状态:</strong> Hetero 116-mer</p><p><strong>化学计量:</strong> AA4, AB2, AC2, AD2, AE2, AF2, AG2, AH2, AI2, AJ2, AK2, AL2, AM2, AN2, AO2, AP2, AQ2, AR2, AS2, AT2, AU2, AV2, AW2, AX2, AY2, AZ2, Aa2, Ab2, Ac2, Ad2, Ae2, Af2, Ag2, Ah2, Ai2, Aj2, Ak2, Al2, Am2, An2, Ao2, Ap2, Aq2, Ar2, As2, At2, Au2, Av2, Aw2, Ax2, Ay2, Az2, BA2, BB2, BC2, BD2, BE2</p></div>
+    </div>
+</section>
+
+        <section class="info-section">
+            <h2 class="collapsible">
+                3D 结构可视化
+                <span class="section-toggle-arrow"></span>
+            </h2>
+            <div class="full-width-viewer-container">
+                <div id="myViewer"></div>
+            </div>
+        </section>
+
+        <script type="text/javascript">
+            var viewerInstance = new PDBeMolstarPlugin();
+            var options = {
+                customData: {
+                    url: 'https://files.rcsb.org/download/7W5Z.cif',
+                    format: 'cif'
+                },
+                moleculeId: '7W5Z',
+                alphafoldView: true,
+                bgColor: { r: 30, g: 30, b: 30 },
+                hideControls: true,
+                subscribeEvents: true
+            }
+            var viewerContainer = document.getElementById('myViewer');
+            viewerInstance.render(viewerContainer, options);
+            
+            // 添加折叠/展开功能
+            document.querySelectorAll('.collapsible').forEach(header => {
+                const content = header.nextElementSibling;
+                if (!content) return;
+                
+                const headerText = header.innerText || header.textContent;
+
+                // 默认折叠，但"基本信息"和"3D 结构可视化"默认展开
+                if (!headerText.includes('基本信息') && !headerText.includes('3D 结构可视化')) {
+                    header.classList.add('collapsed');
+                    content.style.display = 'none';
+                }
+
+                header.addEventListener('click', () => {
+                    header.classList.toggle('collapsed');
+                    if (header.classList.contains('collapsed')) {
+                        content.style.display = 'none';
+                    } else {
+                        content.style.display = 'block';
+                    }
+                });
+            });
+        </script>
+    </div>
+    
+    <script src="../static/js/protein_detail.js"></script>
+</body>
+</html>
