@@ -205,4 +205,57 @@ function updateDescription(pdbFile, descriptions) {
         `;
         console.error(`未在 structureDescriptions 中找到 key: ${pdbFile}`);
     }
+}
+
+// Search functionality for index.html
+if (document.getElementById('mainSearchButton')) {
+    document.getElementById('mainSearchButton').addEventListener('click', function() {
+        const query = document.getElementById('mainSearchInput').value.toLowerCase();
+        const resultsContainer = document.getElementById('results-container');
+        resultsContainer.innerHTML = '';
+
+        if (!query) {
+            return;
+        }
+
+        const results = pdbList.filter(item => {
+            const idMatch = item.id.toLowerCase().includes(query);
+            const noteMatch = item.note.toLowerCase().includes(query);
+            return idMatch || noteMatch;
+        });
+
+        if (results.length > 0) {
+            const table = document.createElement('table');
+            table.id = 'csvPdbTable';
+            
+            const header = table.createTHead();
+            const headerRow = header.insertRow(0);
+            const headers = ['PDB ID', 'Method', 'Resolution', 'Date', 'Note'];
+            headers.forEach(text => {
+                const th = document.createElement('th');
+                th.textContent = text;
+                headerRow.appendChild(th);
+            });
+
+            const tbody = table.createTBody();
+            results.forEach(item => {
+                const row = tbody.insertRow();
+                
+                const idCell = row.insertCell();
+                const idLink = document.createElement('a');
+                idLink.href = `pdb_pages/${item.id}.html`;
+                idLink.textContent = item.id;
+                idCell.appendChild(idLink);
+
+                row.insertCell().textContent = item.method;
+                row.insertCell().textContent = item.resolution;
+                row.insertCell().textContent = item.date;
+                row.insertCell().textContent = item.note;
+            });
+
+            resultsContainer.appendChild(table);
+        } else {
+            resultsContainer.innerHTML = '<p style="text-align: center; margin-top: 20px;">未找到匹配的结果。</p>';
+        }
+    });
 } 
