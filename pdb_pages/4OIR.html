@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>多肽结构数据库 - 4OIR</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-light.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
+    <link rel="stylesheet" href="../static/css/protein_detail.css">
+    <style>
+        .info-section {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            overflow: hidden;
+        }
+        .info-section h2 {
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 15px 20px;
+            font-size: 1.2em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .info-section h2.collapsible {
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out;
+        }
+        .info-section h2.collapsible:hover {
+            background-color: #efefef;
+        }
+        .section-toggle-arrow {
+            width: 12px;
+            height: 12px;
+            border: solid #333;
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            transform: rotate(-135deg);
+            transition: transform 0.3s ease;
+        }
+        .collapsible.collapsed .section-toggle-arrow {
+            transform: rotate(45deg);
+        }
+        .info-section > div, .info-section > table {
+            padding: 20px;
+            background-color: #fff;
+        }
+        .full-width-viewer-container {
+            padding: 0 !important;
+            height: 600px;
+        }
+        .info-section > table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .info-section table td, .info-section table th {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .info-section table tr:last-child td {
+            border-bottom: none;
+        }
+        .info-section table td:first-child {
+            font-weight: 600;
+            color: #555;
+            width: 150px;
+        }
+        .citations-container .citation-item,
+        .assemblies-container .assembly-item,
+        .sequence-item {
+            padding: 15px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .citations-container .citation-item:last-child,
+        .assemblies-container .assembly-item:last-child,
+        .sequence-item:last-child {
+            border-bottom: none;
+        }
+        .sequence-wrapper {
+            max-height: 250px;
+            overflow-y: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 10px;
+            background: #fdfdfd;
+            margin-top: 10px;
+        }
+        .sequence-wrapper table {
+            width: 100%;
+            border: none;
+        }
+        .sequence-wrapper td {
+            border: none;
+        }
+        .seq-num {
+            text-align: right;
+            padding-right: 1em;
+            color: #999;
+            font-family: 'Courier New', Courier, monospace;
+            vertical-align: top;
+            font-size: 0.9em;
+        }
+        .seq-data {
+            font-family: 'Courier New', Courier, monospace;
+            word-break: break-all;
+            font-size: 1em;
+            line-height: 1.5;
+        }
+        .citation-title {
+            font-weight: bold;
+        }
+        .citation-authors {
+            font-size: 0.9em;
+            color: #555;
+        }
+        .citation-journal {
+            font-size: 0.9em;
+            color: #777;
+        }
+        .citation-links a {
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <img src="../THU-structure-LOGO.svg" alt="THU结构数据库标志" class="logo">
+            <div class="top-nav">
+                <a href="../index.html" class="nav-button">Home</a>
+                <a href="../Download.html" class="nav-button">Download</a>
+                <a href="https://www.frcbs.tsinghua.edu.cn/" class="nav-button">About</a>
+            </div>
+        </div>
+        <h1>多肽结构数据库</h1>
+        <p>浏览和可视化多肽三维结构</p>
+    </header>
+    
+    <div class="search-section">
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="搜索蛋白质、基因、PDB编号、生物体或序列">
+            <button class="search-button">搜索</button>
+        </div>
+    </div>
+    
+    <div class="protein-detail-container">
+        <div class="protein-header">
+            <h1>4OIR - 多肽结构</h1>
+            <p class="alphafold-id">4OIR</p>
+        </div>
+
+        <div class="action-buttons">
+            <span class="download-label">下载</span>
+            <div class="button-container">
+                <a href="https://files.rcsb.org/download/4OIR.pdb" download>
+                    <button>PDB文件</button>
+                </a>
+            </div>
+            <div class="button-container">
+                <a href="https://files.rcsb.org/download/4OIR.cif" download>
+                    <button>mmCIF文件</button>
+                </a>
+            </div>
+        </div>
+
+        <section class="info-section">
+            <h2 class="collapsible">
+                基本信息
+                <span class="section-toggle-arrow"></span>
+            </h2>
+            <table>
+                <tbody>
+<tr><td>PDB编号</td><td>4OIR <a href="https://www.rcsb.org/structure/4OIR" target="_blank" title="访问RCSB PDB页面">前往RCSB &#x279A;</a></td></tr>
+<tr><td>标题</td><td>Crystal structure of Thermus thermophilus RNA polymerase transcription initiation complex soaked with GE23077 and rifamycin SV</td></tr>
+<tr><td>实验方法</td><td>X-RAY DIFFRACTION</td></tr>
+<tr><td>分辨率</td><td>3.10 Å</td></tr>
+<tr><td>R-factors</td><td>R-work: 0.206, R-free: 0.253</td></tr>
+<tr><td>发布日期</td><td>2014-05-07</td></tr>
+<tr><td>作者</td><td>Zhang, Y.; Ebright, R.H.; Arnold, E.</td></tr>
+<tr><td>来源生物</td><td>Actinomadura sp., Thermus thermophilus</td></tr>
+<tr><td>表达宿主</td><td>Escherichia coli BL21(DE3)</td></tr>
+<tr><td>基因名称</td><td>TTHA0532, rpoD</td></tr>
+<tr><td>关键词</td><td>GE23077, transcription inhibitor, transcription open complex, transcription initiation complex, rifamycin SV, i site, i+1 site, RNA polymerase, DNA/RNA/NTP binding, polymerization of ribonucleotides, nucleoid, TRANSCRIPTION, TRANSFERASE-ANTIBIOTIC complex</td></tr>
+<tr><td>EC编号</td><td>2.7.7.6</td></tr>
+<tr><td>分子量</td><td>443.16 kDa</td></tr>
+<tr><td>实体数量</td><td>蛋白质: 6, 核酸: 2, 核酸杂合体: 0</td></tr>
+<tr><td>空间群</td><td>C 1 2 1</td></tr>
+<tr><td>晶胞参数</td><td>a=183.70 Å, b=105.01 Å, c=295.36 Å, α=90.00°, β=98.79°, γ=90.00°</td></tr>
+<tr><td>其他连接</td><td>Yes</td></tr>
+<tr><td>多肽链</td><td>G, H, I</td></tr>
+<tr><td>蛋白链</td><td>A, B, C, D, E, F</td></tr>
+<tr><td>多肽长度</td><td>21, 27, 7</td></tr>
+<tr><td>蛋白长度</td><td>305, 1119, 1524, 99, 443</td></tr>
+                </tbody>
+            </table>
+        </section>
+        
+
+<section class="info-section">
+    <h2 class="collapsible">
+        序列信息
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="sequences-container">
+        
+        <div class="sequence-item">
+            <h4>链: A, B - DNA-directed RNA polymerase subunit alpha (长度: 305)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MLDSKLKAPV FTVRTQGREY GEFVLEPLER GFGVTLGNPL RRILLSSIPG TAVTSVYIED</td></tr><tr><td class="seq-num">61</td><td class="seq-data">VLHEFSTIPG VKEDVVEIIL NLKELVVRFL NPSLQTVTLL LKAEGPKEVK ARDFLPVADV</td></tr><tr><td class="seq-num">121</td><td class="seq-data">EIMNPDLHIA TLEEGGRLNM EVRVDRGVGY VPAEKHGIKD RINAIPVDAV FSPVRRVAFQ</td></tr><tr><td class="seq-num">181</td><td class="seq-data">VEDTRLGQRT DLDKLTLRIW TDGSVTPLEA LNQAVEILRE HLTYFSNPQA AAVAAPEEAK</td></tr><tr><td class="seq-num">241</td><td class="seq-data">EPEAPPEQEE ELDLPLEELG LSTRVLHSLK EEGIESVRAL LALNLKDLKN IPGIGERSLE</td></tr><tr><td class="seq-num">301</td><td class="seq-data">EIKEA</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: C - DNA-directed RNA polymerase subunit beta (长度: 1119)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MEIKRFGRIR EVIPLPPLTE IQVESYRRAL QADVPPEKRE NVGIQAAFRE TFPIEEEDKG</td></tr><tr><td class="seq-num">61</td><td class="seq-data">KGGLVLDFLE YRLGEPPFPQ DECREKDLTY QAPLYARLQL IHKDTGLIKE DEVFLGHIPL</td></tr><tr><td class="seq-num">121</td><td class="seq-data">MTEDGSFIIN GADRVIVSQI HRSPGVYFTP DPARPGRYIA SIIPLPKRGP WIDLEVEPNG</td></tr><tr><td class="seq-num">181</td><td class="seq-data">VVSMKVNKRK FPLVLLLRVL GYDQETLARE LGAYGELVQG LMDESVFAMR PEEALIRLFT</td></tr><tr><td class="seq-num">241</td><td class="seq-data">LLRPGDPPKR DKAVAYVYGL IADPRRYDLG EAGRYKAEEK LGIRLSGRTL ARFEDGEFKD</td></tr><tr><td class="seq-num">301</td><td class="seq-data">EVFLPTLRYL FALTAGVPGH EVDDIDHLGN RRIRTVGELM TDQFRVGLAR LARGVRERML</td></tr><tr><td class="seq-num">361</td><td class="seq-data">MGSEDSLTPA KLVNSRPLEA AIREFFSRSQ LSQFKDETNP LSSLRHKRRI SALGPGGLTR</td></tr><tr><td class="seq-num">421</td><td class="seq-data">ERAGFDVRDV HRTHYGRICP VETPEGANIG LITSLAAYAR VDELGFIRTP YRRVVGGVVT</td></tr><tr><td class="seq-num">481</td><td class="seq-data">DEVVYMTATE EDRYTIAQAN TPLEGNRIAA ERVVARRKGE PVIVSPEEVE FMDVSPKQVF</td></tr><tr><td class="seq-num">541</td><td class="seq-data">SVNTNLIPFL EHDDANRALM GSNMQTQAVP LIRAQAPVVM TGLEERVVRD SLAALYAEED</td></tr><tr><td class="seq-num">601</td><td class="seq-data">GEVAKVDGNR IVVRYEDGRL VEYPLRRFYR SNQGTALDQR PRVVVGQRVR KGDLLADGPA</td></tr><tr><td class="seq-num">661</td><td class="seq-data">SENGFLALGQ NVLVAIMPFD GYNFEDAIVI SEELLKRDFY TSIHIERYEI EARDTKLGPE</td></tr><tr><td class="seq-num">721</td><td class="seq-data">RITRDIPHLS EAALRDLDEE GVVRIGAEVK PGDILVGRTS FKGESEPTPE ERLLRSIFGE</td></tr><tr><td class="seq-num">781</td><td class="seq-data">KARDVKDTSL RVPPGEGGIV VRTVRLRRGD PGVELKPGVR EVVRVYVAQK RKLQVGDKLA</td></tr><tr><td class="seq-num">841</td><td class="seq-data">NRHGNKGVVA KILPVEDMPH LPDGTPVDVI LNPLGVPSRM NLGQILETHL GLAGYFLGQR</td></tr><tr><td class="seq-num">901</td><td class="seq-data">YISPIFDGAK EPEIKELLAQ AFEVYFGKRK GEGFGVDKRE VEVLRRAEKL GLVTPGKTPE</td></tr><tr><td class="seq-num">961</td><td class="seq-data">EQLKELFLQG KVVLYDGRTG EPIEGPIVVG QMFIMKLYHM VEDKMHARST GPYSLITQQP</td></tr><tr><td class="seq-num">1021</td><td class="seq-data">LGGKAQFGGQ RFGEMEVWAL EAYGAAHTLQ EMLTLKSDDI EGRNAAYEAI IKGEDVPEPS</td></tr><tr><td class="seq-num">1081</td><td class="seq-data">VPESFRVLVK ELQALALDVQ TLDEKDNPVD IFEGLASKR</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: D - DNA-directed RNA polymerase subunit beta' (长度: 1524)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MKKEVRKVRI ALASPEKIRS WSYGEVEKPE TINYRTLKPE RDGLFDERIF GPIKDYECAC</td></tr><tr><td class="seq-num">61</td><td class="seq-data">GKYKRQRFEG KVCERCGVEV TKSIVRRYRM GHIELATPAA HIWFVKDVPS KIGTLLDLSA</td></tr><tr><td class="seq-num">121</td><td class="seq-data">TELEQVLYFS KYIVLDPKGA ILNGVPVEKR QLLTDEEYRE LRYGKQETYP LPPGVDALVK</td></tr><tr><td class="seq-num">181</td><td class="seq-data">DGEEVVKGQE LAPGVVSRLD GVALYRFPRR VRVEYVKKER AGLRLPLAAW VEKEAYKPGE</td></tr><tr><td class="seq-num">241</td><td class="seq-data">ILAELPEPYL FRAEEEGVVE LKELEEGAFL VLRREDEPVA TYFLPVGMTP LVVHGEIVEK</td></tr><tr><td class="seq-num">301</td><td class="seq-data">GQPLAEAKGL LRMPRQVRAA QVEAEEEGET VYLTLFLEWT EPKDYRVQPH MNVVVPEGAR</td></tr><tr><td class="seq-num">361</td><td class="seq-data">VEAGDKIVAA IDPEEEVIAE AEGVVHLHEP ASILVVKARV YPFEDDVEVS TGDRVAPGDV</td></tr><tr><td class="seq-num">421</td><td class="seq-data">LADGGKVKSD VYGRVEVDLV RNVVRVVESY DIDARMGAEA IQQLLKELDL EALEKELLEE</td></tr><tr><td class="seq-num">481</td><td class="seq-data">MKHPSRARRA KARKRLEVVR AFLDSGNRPE WMILEAVPVL PPDLRPMVQV DGGRFATSDL</td></tr><tr><td class="seq-num">541</td><td class="seq-data">NDLYRRLINR NNRLKKLLAQ GAPEIIIRNE KRMLQEAVDA LLDNGRRGAP VTNPGSDRPL</td></tr><tr><td class="seq-num">601</td><td class="seq-data">RSLTDILSGK QGRFRQNLLG KRVDYSGRSV IVVGPQLKLH QCGLPKRMAL ELFKPFLLKK</td></tr><tr><td class="seq-num">661</td><td class="seq-data">MEEKGIAPNV KAARRMLERQ RDIKDEVWDA LEEVIHGKVV LLNRAPTLHR LGIQAFQPVL</td></tr><tr><td class="seq-num">721</td><td class="seq-data">VEGQSIQLHP LVCEAFNADF DGDQMAVHVP LSSFAQAEAR IQMLSAHNLL SPASGEPLAK</td></tr><tr><td class="seq-num">781</td><td class="seq-data">PSRDIILGLY YITQVRKEKK GAGLEFATPE EALAAHERGE VALNAPIKVA GRETSVGRLK</td></tr><tr><td class="seq-num">841</td><td class="seq-data">YVFANPDEAL LAVAHGIVDL QDVVTVRYMG KRLETSPGRI LFARIVAEAV EDEKVAWELI</td></tr><tr><td class="seq-num">901</td><td class="seq-data">QLDVPQEKNS LKDLVYQAFL RLGMEKTARL LDALKYYGFT FSTTSGITIG IDDAVIPEEK</td></tr><tr><td class="seq-num">961</td><td class="seq-data">KQYLEEADRK LLQIEQAYEM GFLTDRERYD QILQLWTETT EKVTQAVFKN FEENYPFNPL</td></tr><tr><td class="seq-num">1021</td><td class="seq-data">YVMAQSGARG NPQQIRQLCG LRGLMQKPSG ETFEVPVRSS FREGLTVLEY FISSHGARKG</td></tr><tr><td class="seq-num">1081</td><td class="seq-data">GADTALRTAD SGYLTRKLVD VTHEIVVREA DCGTTNYISV PLFQPDEVTR SLRLRKRADI</td></tr><tr><td class="seq-num">1141</td><td class="seq-data">EAGLYGRVLA REVEVLGVRL EEGRYLSMDD VHLLIKAAEA GEIQEVPVRS PLTCQTRYGV</td></tr><tr><td class="seq-num">1201</td><td class="seq-data">CQKCYGYDLS MARPVSIGEA VGIVAAQSIG EPGTQLTMRT FHTGGVAGAA DITQGLPRVI</td></tr><tr><td class="seq-num">1261</td><td class="seq-data">ELFEARRPKA KAVISEIDGV VRIEETEEKL SVFVESEGFS KEYKLPKEAR LLVKDGDYVE</td></tr><tr><td class="seq-num">1321</td><td class="seq-data">AGQPLTRGAI DPHQLLEAKG PEAVERYLVE EIQKVYRAQG VKLHDKHIEI VVRQMMKYVE</td></tr><tr><td class="seq-num">1381</td><td class="seq-data">VTDPGDSRLL EGQVLEKWDV EALNERLIAE GKTPVAWKPL LMGVTKSALS TKSWLSAASF</td></tr><tr><td class="seq-num">1441</td><td class="seq-data">QNTTHVLTEA AIAGKKDELI GLKENVILGR LIPAGTGSDF VRFTQVVDQK TLKAIEEARK</td></tr><tr><td class="seq-num">1501</td><td class="seq-data">EAVEAKERPA ARRGVKREQP GKQA</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: E - DNA-directed RNA polymerase subunit omega (长度: 99)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MAEPGIDKLF GMVDSKYRLT VVVAKRAQQL LRHGFKNTVL EPEERPKMQT LEGLFDDPNA</td></tr><tr><td class="seq-num">61</td><td class="seq-data">VTWAMKELLT GRLVFGENLV PEDRLQKEME RLYPVEREE</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: F - DNA directed RNA polymerase sigma factor A (长度: 443)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MGSSHHHHHH SSGLVPRGSH MKKSKRKNAQ AQEAQETEVL VQEEAEELPE FPEGEPDPDL</td></tr><tr><td class="seq-num">61</td><td class="seq-data">EDPDLTLEDD LLDLPEEGEG LDLEEEEEDL PIPKISTSDP VRQYLHEIGQ VPLLTLEEEV</td></tr><tr><td class="seq-num">121</td><td class="seq-data">ELARKVEEGM EAIKKLSEIT GLDPDLIREV VRAKILGSAR VRHIPGLKET LDPKTVEEID</td></tr><tr><td class="seq-num">181</td><td class="seq-data">QKLKSLPKEH KRYLHIAREG EAARQHLIEA NLRLVVSIAK KYTGRGLSFL DLIQEGNQGL</td></tr><tr><td class="seq-num">241</td><td class="seq-data">IRAVEKFEYK RRFKFSTYAT WWIRQAINRA IADQARTIRI PVHMVETINK LSRTARQLQQ</td></tr><tr><td class="seq-num">301</td><td class="seq-data">ELGREPTYEE IAEAMGPGWD AKRVEETLKI AQEPVSLETP IGDEKDSFYG DFIPDEHLPS</td></tr><tr><td class="seq-num">361</td><td class="seq-data">PVDAATQSLL SEELEKALSK LSEREAMVLK LRKGLIDGRE HTLEEVGAFF GVTRERIRQI</td></tr><tr><td class="seq-num">421</td><td class="seq-data">ENKALRKLKY HESRTRKLRD FLD</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: G - 5'-D(*CP*CP*T*GP*CP*AP*TP*CP*CP*GP*TP*GP*AP*GP*TP*CP*GP*AP*GP*GP*G)-3' (长度: 21)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">CCTGCATCCG TGAGTCGAGG G</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: H - 5'-D(*TP*AP*TP*AP*AP*TP*GP*GP*GP*AP*GP*CP*TP*GP*TP*CP*AP*CP*GP*GP*AP*TP*GP*CP*AP*GP*G)-3' (长度: 27)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">TATAATGGGA GCTGTCACGG ATGCAGG</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: I - GE23077 (长度: 7)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">XSVXTXG</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        参考文献
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="citations-container">
+<div class="citation-item"><p class="citation-title">GE23077 binds to the RNA polymerase 'i' and 'i+1' sites and prevents the binding of initiating nucleotides.</p><p class="citation-authors">Zhang, Y., Degen, D., Ho, M.X., Sineva, E., Ebright, K.Y., Ebright, Y.W., Mekler, V., Vahedian-Movahed, H., Feng, Y., Yin, R., Tuske, S., Irschik, H., Jansen, R., Maffioli, S., Donadio, S., Arnold, E., Ebright, R.H.</p><p class="citation-journal"><em>Elife</em>, 2014</p><p class="citation-links"><a href="https://pubmed.ncbi.nlm.nih.gov/24755292/" target="_blank">PubMed: 24755292</a></p></div>
+    </div>
+</section>
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        配体信息
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>名称</th>
+                    <th>化学式</th>
+                    <th>分子量</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>MG</td><td>MAGNESIUM ION</td><td>Mg</td><td>24.305</td></tr>
+<tr><td>RFV</td><td>rifamycin SV</td><td>C37 H49 N O12</td><td>699.784</td></tr>
+<tr><td>ZN</td><td>ZINC ION</td><td>Zn</td><td>65.409</td></tr>
+<tr><td>MB8</td><td>(2Z)-2-methylbut-2-enoic acid</td><td>C5 H8 O2</td><td>100.116</td></tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        生物组装
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="assemblies-container">
+        <div class="assembly-item"><p><strong>组装 ID:</strong> 1</p><p><strong>详情:</strong> author_defined_assembly</p><p><strong>寡聚状态:</strong> Hetero 6-mer</p><p><strong>化学计量:</strong> A2, B1, C1, D1, E1</p></div>
+    </div>
+</section>
+
+        <section class="info-section">
+            <h2 class="collapsible">
+                3D 结构可视化
+                <span class="section-toggle-arrow"></span>
+            </h2>
+            <div class="full-width-viewer-container">
+                <div id="myViewer"></div>
+            </div>
+        </section>
+
+        <script type="text/javascript">
+            var viewerInstance = new PDBeMolstarPlugin();
+            var options = {
+                customData: {
+                    url: 'https://files.rcsb.org/download/4OIR.cif',
+                    format: 'cif'
+                },
+                moleculeId: '4OIR',
+                alphafoldView: true,
+                bgColor: { r: 30, g: 30, b: 30 },
+                hideControls: true,
+                subscribeEvents: true
+            }
+            var viewerContainer = document.getElementById('myViewer');
+            viewerInstance.render(viewerContainer, options);
+            
+            // 添加折叠/展开功能
+            document.querySelectorAll('.collapsible').forEach(header => {
+                const content = header.nextElementSibling;
+                if (!content) return;
+                
+                const headerText = header.innerText || header.textContent;
+
+                // 默认折叠，但"基本信息"和"3D 结构可视化"默认展开
+                if (!headerText.includes('基本信息') && !headerText.includes('3D 结构可视化')) {
+                    header.classList.add('collapsed');
+                    content.style.display = 'none';
+                }
+
+                header.addEventListener('click', () => {
+                    header.classList.toggle('collapsed');
+                    if (header.classList.contains('collapsed')) {
+                        content.style.display = 'none';
+                    } else {
+                        content.style.display = 'block';
+                    }
+                });
+            });
+        </script>
+    </div>
+    
+    <script src="../static/js/protein_detail.js"></script>
+</body>
+</html>

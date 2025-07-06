@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>多肽结构数据库 - 4Q9I</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-light.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
+    <link rel="stylesheet" href="../static/css/protein_detail.css">
+    <style>
+        .info-section {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            overflow: hidden;
+        }
+        .info-section h2 {
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 15px 20px;
+            font-size: 1.2em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .info-section h2.collapsible {
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out;
+        }
+        .info-section h2.collapsible:hover {
+            background-color: #efefef;
+        }
+        .section-toggle-arrow {
+            width: 12px;
+            height: 12px;
+            border: solid #333;
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            transform: rotate(-135deg);
+            transition: transform 0.3s ease;
+        }
+        .collapsible.collapsed .section-toggle-arrow {
+            transform: rotate(45deg);
+        }
+        .info-section > div, .info-section > table {
+            padding: 20px;
+            background-color: #fff;
+        }
+        .full-width-viewer-container {
+            padding: 0 !important;
+            height: 600px;
+        }
+        .info-section > table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .info-section table td, .info-section table th {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .info-section table tr:last-child td {
+            border-bottom: none;
+        }
+        .info-section table td:first-child {
+            font-weight: 600;
+            color: #555;
+            width: 150px;
+        }
+        .citations-container .citation-item,
+        .assemblies-container .assembly-item,
+        .sequence-item {
+            padding: 15px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .citations-container .citation-item:last-child,
+        .assemblies-container .assembly-item:last-child,
+        .sequence-item:last-child {
+            border-bottom: none;
+        }
+        .sequence-wrapper {
+            max-height: 250px;
+            overflow-y: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 10px;
+            background: #fdfdfd;
+            margin-top: 10px;
+        }
+        .sequence-wrapper table {
+            width: 100%;
+            border: none;
+        }
+        .sequence-wrapper td {
+            border: none;
+        }
+        .seq-num {
+            text-align: right;
+            padding-right: 1em;
+            color: #999;
+            font-family: 'Courier New', Courier, monospace;
+            vertical-align: top;
+            font-size: 0.9em;
+        }
+        .seq-data {
+            font-family: 'Courier New', Courier, monospace;
+            word-break: break-all;
+            font-size: 1em;
+            line-height: 1.5;
+        }
+        .citation-title {
+            font-weight: bold;
+        }
+        .citation-authors {
+            font-size: 0.9em;
+            color: #555;
+        }
+        .citation-journal {
+            font-size: 0.9em;
+            color: #777;
+        }
+        .citation-links a {
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <img src="../THU-structure-LOGO.svg" alt="THU结构数据库标志" class="logo">
+            <div class="top-nav">
+                <a href="../index.html" class="nav-button">Home</a>
+                <a href="../Download.html" class="nav-button">Download</a>
+                <a href="https://www.frcbs.tsinghua.edu.cn/" class="nav-button">About</a>
+            </div>
+        </div>
+        <h1>多肽结构数据库</h1>
+        <p>浏览和可视化多肽三维结构</p>
+    </header>
+    
+    <div class="search-section">
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="搜索蛋白质、基因、PDB编号、生物体或序列">
+            <button class="search-button">搜索</button>
+        </div>
+    </div>
+    
+    <div class="protein-detail-container">
+        <div class="protein-header">
+            <h1>4Q9I - 多肽结构</h1>
+            <p class="alphafold-id">4Q9I</p>
+        </div>
+
+        <div class="action-buttons">
+            <span class="download-label">下载</span>
+            <div class="button-container">
+                <a href="https://files.rcsb.org/download/4Q9I.pdb" download>
+                    <button>PDB文件</button>
+                </a>
+            </div>
+            <div class="button-container">
+                <a href="https://files.rcsb.org/download/4Q9I.cif" download>
+                    <button>mmCIF文件</button>
+                </a>
+            </div>
+        </div>
+
+        <section class="info-section">
+            <h2 class="collapsible">
+                基本信息
+                <span class="section-toggle-arrow"></span>
+            </h2>
+            <table>
+                <tbody>
+<tr><td>PDB编号</td><td>4Q9I <a href="https://www.rcsb.org/structure/4Q9I" target="_blank" title="访问RCSB PDB页面">前往RCSB &#x279A;</a></td></tr>
+<tr><td>标题</td><td>P-glycoprotein cocrystallised with QZ-Ala</td></tr>
+<tr><td>实验方法</td><td>X-RAY DIFFRACTION</td></tr>
+<tr><td>分辨率</td><td>3.78 Å</td></tr>
+<tr><td>R-factors</td><td>R-work: 0.263, R-free: 0.295</td></tr>
+<tr><td>发布日期</td><td>2015-03-04</td></tr>
+<tr><td>作者</td><td>McGrath, A.P.; Szewczyk, P.; Chang, G.</td></tr>
+<tr><td>来源生物</td><td>Mus musculus</td></tr>
+<tr><td>表达宿主</td><td>Komagataella pastoris</td></tr>
+<tr><td>基因名称</td><td>Abcb1a, Abcb4, Mdr1a, Mdr3, Pgy-3, Pgy3</td></tr>
+<tr><td>关键词</td><td>membrane protein, transporter, HYDROLASE-HYDROLASE INHIBITOR complex</td></tr>
+<tr><td>EC编号</td><td>3.6.3.44, 7.6.2.1, 7.6.2.2</td></tr>
+<tr><td>分子量</td><td>143.27 kDa</td></tr>
+<tr><td>实体数量</td><td>蛋白质: 2, 核酸: 0, 核酸杂合体: 0</td></tr>
+<tr><td>空间群</td><td>P 21 21 21</td></tr>
+<tr><td>晶胞参数</td><td>a=85.64 Å, b=138.40 Å, c=183.71 Å, α=90.00°, β=90.00°, γ=90.00°</td></tr>
+<tr><td>其他连接</td><td>Yes</td></tr>
+<tr><td>多肽链</td><td>B, C</td></tr>
+<tr><td>蛋白链</td><td>A</td></tr>
+<tr><td>多肽长度</td><td>6</td></tr>
+<tr><td>蛋白长度</td><td>1284</td></tr>
+                </tbody>
+            </table>
+        </section>
+        
+
+<section class="info-section">
+    <h2 class="collapsible">
+        序列信息
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="sequences-container">
+        
+        <div class="sequence-item">
+            <h4>链: A - Multidrug resistance protein 1A (长度: 1284)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MELEEDLKGR ADKNFSKMGK KSKKEKKEKK PAVSVLTMFR YAGWLDRLYM LVGTLAAIIH</td></tr><tr><td class="seq-num">61</td><td class="seq-data">GVALPLMMLI FGDMTDSFAS VGQVSKQSTQ MSEADKRAMF AKLEEEMTTY AYYYTGIGAG</td></tr><tr><td class="seq-num">121</td><td class="seq-data">VLIVAYIQVS FWCLAAGRQI HKIRQKFFHA IMNQEIGWFD VHDVGELNTR LTDDVSKINE</td></tr><tr><td class="seq-num">181</td><td class="seq-data">GIGDKIGMFF QAMATFFGGF IIGFTRGWKL TLVILAISPV LGLSAGIWAK ILSSFTDKEL</td></tr><tr><td class="seq-num">241</td><td class="seq-data">HAYAKAGAVA EEVLAAIRTV IAFGGQKKEL ERYNNNLEEA KRLGIKKAIT ANISMGAAFL</td></tr><tr><td class="seq-num">301</td><td class="seq-data">LIYASYALAF WYGTSLVISK EYSIGQVLTV FFSVLIGAFS VGQASPNIEA FANARGAAYE</td></tr><tr><td class="seq-num">361</td><td class="seq-data">VFKIIDNKPS IDSFSKSGHK PDNIQGNLEF KNIHFSYPSR KEVQILKGLN LKVKSGQTVA</td></tr><tr><td class="seq-num">421</td><td class="seq-data">LVGNSGCGKS TTVQLMQRLY DPLDGMVSID GQDIRTINVR YLREIIGVVS QEPVLFATTI</td></tr><tr><td class="seq-num">481</td><td class="seq-data">AENIRYGRED VTMDEIEKAV KEANAYDFIM KLPHQFDTLV GERGAQLSGG QKQRIAIARA</td></tr><tr><td class="seq-num">541</td><td class="seq-data">LVRNPKILLL DEATSALDTE SEAVVQAALD KAREGRTTIV IAHRLSTVRN ADVIAGFDGG</td></tr><tr><td class="seq-num">601</td><td class="seq-data">VIVEQGNHDE LMREKGIYFK LVMTQTAGNE IELGNEACKS KDEIDNLDMS SKDSGSSLIR</td></tr><tr><td class="seq-num">661</td><td class="seq-data">RRSTRKSICG PHDQDRKLST KEALDEDVPP ASFWRILKLN STEWPYFVVG IFCAIINGGL</td></tr><tr><td class="seq-num">721</td><td class="seq-data">QPAFSVIFSK VVGVFTNGGP PETQRQNSNL FSLLFLILGI ISFITFFLQG FTFGKAGEIL</td></tr><tr><td class="seq-num">781</td><td class="seq-data">TKRLRYMVFK SMLRQDVSWF DDPKNTTGAL TTRLANDAAQ VKGATGSRLA VIFQNIANLG</td></tr><tr><td class="seq-num">841</td><td class="seq-data">TGIIISLIYG WQLTLLLLAI VPIIAIAGVV EMKMLSGQAL KDKKELEGSG KIATEAIENF</td></tr><tr><td class="seq-num">901</td><td class="seq-data">RTVVSLTREQ KFETMYAQSL QIPYRNAMKK AHVFGITFSF TQAMMYFSYA ACFRFGAYLV</td></tr><tr><td class="seq-num">961</td><td class="seq-data">TQQLMTFENV LLVFSAIVFG AMAVGQVSSF APDYAKATVS ASHIIRIIEK TPEIDSYSTQ</td></tr><tr><td class="seq-num">1021</td><td class="seq-data">GLKPNMLEGN VQFSGVVFNY PTRPSIPVLQ GLSLEVKKGQ TLALVGSSGC GKSTVVQLLE</td></tr><tr><td class="seq-num">1081</td><td class="seq-data">RFYDPMAGSV FLDGKEIKQL NVQWLRAQLG IVSQEPILFD CSIAENIAYG DNSRVVSYEE</td></tr><tr><td class="seq-num">1141</td><td class="seq-data">IVRAAKEANI HQFIDSLPDK YNTRVGDKGT QLSGGQKQRI AIARALVRQP HILLLDEATS</td></tr><tr><td class="seq-num">1201</td><td class="seq-data">ALDTESEKVV QEALDKAREG RTCIVIAHRL STIQNADLIV VIQNGKVKEH GTHQQLLAQK</td></tr><tr><td class="seq-num">1261</td><td class="seq-data">GIYFSMVSVQ AGAKRSLEHH HHHH</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: B, C - (30F)A(30F)A(30F)A Peptide (长度: 6)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">UAUAUA</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        参考文献
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="citations-container">
+<div class="citation-item"><p class="citation-title">Snapshots of ligand entry, malleable binding and induced helical movement in P-glycoprotein.</p><p class="citation-authors">Szewczyk, P., Tao, H., McGrath, A.P., Villaluz, M., Rees, S.D., Lee, S.C., Doshi, R., Urbatsch, I.L., Zhang, Q., Chang, G.</p><p class="citation-journal"><em>Acta Crystallogr D Biol Crystallogr</em>, 2015</p><p class="citation-links"><a href="https://pubmed.ncbi.nlm.nih.gov/25760620/" target="_blank">PubMed: 25760620</a> | <a href="https://doi.org/10.1107/S1399004715000978" target="_blank">DOI: 10.1107/S1399004715000978</a></p></div>
+    </div>
+</section>
+
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        生物组装
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="assemblies-container">
+        <div class="assembly-item"><p><strong>组装 ID:</strong> 1</p><p><strong>详情:</strong> author_defined_assembly</p><p><strong>寡聚状态:</strong> Hetero 3-mer</p><p><strong>化学计量:</strong> A2, B1</p></div>
+    </div>
+</section>
+
+        <section class="info-section">
+            <h2 class="collapsible">
+                3D 结构可视化
+                <span class="section-toggle-arrow"></span>
+            </h2>
+            <div class="full-width-viewer-container">
+                <div id="myViewer"></div>
+            </div>
+        </section>
+
+        <script type="text/javascript">
+            var viewerInstance = new PDBeMolstarPlugin();
+            var options = {
+                customData: {
+                    url: 'https://files.rcsb.org/download/4Q9I.cif',
+                    format: 'cif'
+                },
+                moleculeId: '4Q9I',
+                alphafoldView: true,
+                bgColor: { r: 30, g: 30, b: 30 },
+                hideControls: true,
+                subscribeEvents: true
+            }
+            var viewerContainer = document.getElementById('myViewer');
+            viewerInstance.render(viewerContainer, options);
+            
+            // 添加折叠/展开功能
+            document.querySelectorAll('.collapsible').forEach(header => {
+                const content = header.nextElementSibling;
+                if (!content) return;
+                
+                const headerText = header.innerText || header.textContent;
+
+                // 默认折叠，但"基本信息"和"3D 结构可视化"默认展开
+                if (!headerText.includes('基本信息') && !headerText.includes('3D 结构可视化')) {
+                    header.classList.add('collapsed');
+                    content.style.display = 'none';
+                }
+
+                header.addEventListener('click', () => {
+                    header.classList.toggle('collapsed');
+                    if (header.classList.contains('collapsed')) {
+                        content.style.display = 'none';
+                    } else {
+                        content.style.display = 'block';
+                    }
+                });
+            });
+        </script>
+    </div>
+    
+    <script src="../static/js/protein_detail.js"></script>
+</body>
+</html>

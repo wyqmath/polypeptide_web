@@ -1,0 +1,601 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "1ED0",
+      "entry": {
+        "id": "1ED0"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00001ed0"
+        },
+        {
+          "database_id": "RCSB",
+          "pdbx_database_accession": null
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1"
+        ],
+        "pubmed_id": 10947973,
+        "emdb_ids": null,
+        "assembly_ids": [
+          "1"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB",
+            "NMR restraints V1",
+            "NMR restraints V2",
+            "assembly mmCIF",
+            "assembly PDB",
+            "validation slider image",
+            "validation data mmCIF",
+            "validation report"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "Y"
+      },
+      "struct": {
+        "title": "NMR structural determination of viscotoxin A3 from Viscum album L."
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": "10.1042/0264-6021:3500569"
+      },
+      "pubmed": {
+        "rcsb_pubmed_container_identifiers": {
+          "pubmed_id": 10947973
+        },
+        "rcsb_pubmed_central_id": "PMC1221286",
+        "rcsb_pubmed_doi": null,
+        "rcsb_pubmed_abstract_text": "The high-resolution three-dimensional structure of the plant toxin viscotoxin A3, from Viscum album L., has been determined in solution by (1)H NMR spectroscopy at pH 3.6 and 12 degrees C (the structure has been deposited in the Protein Data Bank under the id. code 1ED0). Experimentally derived restraints including 734 interproton distances from nuclear Overhauser effect measurements, 22 hydrogen bonds, 32 φ angle restraints from J coupling measurements, together with three disulphide bridge constraints were used as input in restrained molecular dynamics, followed by minimization, using DYANA and Discover. Backbone and heavy atom root-mean-square deviations were 0.47+/-0.11 A (1 A=10(-10) m) and 0.85+/-0.13 A respectively. Viscotoxin A3 consists of two alpha-helices connected by a turn and a short stretch of antiparallel beta-sheet. This fold is similar to that found in other thionins, such as crambin, hordothionin-alpha and -beta, phoratoxin A and purothionin-alpha and -beta. The difference in the observed biological activity for thionins of known structure is discussed in terms of the differences in the calculated surface potential distribution, playing an important role in their function through disruption of cell membranes. In addition, the possible role in DNA binding of the helix-turn-helix motif of viscotoxin A3 is discussed.",
+        "rcsb_pubmed_affiliation_info": [
+          "Dipartimento Scientifico e Tecnologico, Cà Vignal 1, Strada le Grazie, 37134 Verona, Italy."
+        ]
+      },
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": [
+        {
+          "id": "4587",
+          "type": "BMRB",
+          "link": "https://bmrb.io/data_library/generate_summary.php?bmrbId=4587"
+        }
+      ],
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "TOXIN",
+        "text": "THIONIN, CONCENTRIC MOTIF, HELIX-TURN-HELIX, ALPHA-BETA PROTEIN, AMPHIPATHIC HELIX, TOXIN"
+      },
+      "exptl": [
+        {
+          "method": "SOLUTION NMR"
+        }
+      ],
+      "cell": null,
+      "symmetry": null,
+      "software": null,
+      "rcsb_accession_info": {
+        "deposit_date": "2000-01-26T00:00:00Z",
+        "initial_release_date": "2000-02-04T00:00:00Z",
+        "major_revision": 1,
+        "minor_revision": 4
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "2000-02-04T00:00:00Z"
+        },
+        {
+          "ordinal": 2,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 1,
+          "revision_date": "2008-04-27T00:00:00Z"
+        },
+        {
+          "ordinal": 3,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 2,
+          "revision_date": "2011-07-13T00:00:00Z"
+        },
+        {
+          "ordinal": 4,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 3,
+          "revision_date": "2022-02-16T00:00:00Z"
+        },
+        {
+          "ordinal": 5,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 4,
+          "revision_date": "2024-11-06T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        }
+      ],
+      "pdbx_audit_revision_group": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Version format compliance"
+        },
+        {
+          "ordinal": 2,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Version format compliance"
+        },
+        {
+          "ordinal": 3,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 4,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 5,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Derived calculations"
+        },
+        {
+          "ordinal": 6,
+          "revision_ordinal": 5,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 7,
+          "revision_ordinal": 5,
+          "data_content_type": "Structure model",
+          "group": "Structure summary"
+        }
+      ],
+      "pdbx_database_related": [
+        {
+          "content_type": "unspecified",
+          "db_id": "1cbn",
+          "details": "crambin",
+          "db_name": "PDB"
+        },
+        {
+          "content_type": "unspecified",
+          "db_id": "1cnr",
+          "details": "crambin",
+          "db_name": "PDB"
+        },
+        {
+          "content_type": "unspecified",
+          "db_id": "1ccm",
+          "details": "crambin",
+          "db_name": "PDB"
+        },
+        {
+          "content_type": "unspecified",
+          "db_id": "1ab1",
+          "details": "crambin",
+          "db_name": "PDB"
+        },
+        {
+          "content_type": "unspecified",
+          "db_id": "2plh",
+          "details": "alpha-1-purothionin",
+          "db_name": "PDB"
+        },
+        {
+          "content_type": "unspecified",
+          "db_id": "1bhp",
+          "details": "beta-purothionin",
+          "db_name": "PDB"
+        }
+      ],
+      "audit_author": [
+        {
+          "name": "Romagnoli, S."
+        },
+        {
+          "name": "Ugolini, R."
+        },
+        {
+          "name": "Fogolari, F."
+        },
+        {
+          "name": "Schaller, G."
+        },
+        {
+          "name": "Urech, K."
+        },
+        {
+          "name": "Giannattasio, M."
+        },
+        {
+          "name": "Ragona, L."
+        },
+        {
+          "name": "Molinari, H."
+        }
+      ],
+      "pdbx_audit_support": null,
+      "pdbx_initial_refinement_model": null,
+      "refine": null,
+      "pdbx_vrpt_summary_diffraction": null,
+      "pdbx_nmr_ensemble": {
+        "conformers_calculated_total_number": 600,
+        "conformers_submitted_total_number": 10,
+        "conformer_selection_criteria": "target function"
+      },
+      "em_experiment": null,
+      "em_3d_reconstruction": null,
+      "em_software": null,
+      "citation": [
+        {
+          "id": "primary",
+          "title": "NMR structural determination of viscotoxin A3 from Viscum album L.",
+          "rcsb_journal_abbrev": "Biochem J",
+          "rcsb_authors": [
+            "Romagnoli, S.",
+            "Ugolini, R.",
+            "Fogolari, F.",
+            "Schaller, G.",
+            "Urech, K.",
+            "Giannattasio, M.",
+            "Ragona, L.",
+            "Molinari, H."
+          ],
+          "year": 2000,
+          "journal_volume": "350",
+          "page_first": "569",
+          "page_last": "577",
+          "pdbx_database_id_PubMed": 10947973,
+          "pdbx_database_id_DOI": "10.1042/0264-6021:3500569"
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 10,
+        "representative_model": null,
+        "molecular_weight": 4.84,
+        "deposited_atom_count": 333,
+        "deposited_polymer_monomer_count": 46,
+        "deposited_modeled_polymer_monomer_count": 46,
+        "deposited_unmodeled_polymer_monomer_count": 0,
+        "polymer_entity_count_protein": 1,
+        "polymer_entity_count_nucleic_acid": 0,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": null,
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "1ED0",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "3.30.1350.10"
+                },
+                {
+                  "type": "SCOP",
+                  "annotation_id": "d1ed0a_"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8037584"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e1ed0A1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "1ED0",
+            "entity_id": "1",
+            "asym_ids": [
+              "A"
+            ],
+            "auth_asym_ids": [
+              "A"
+            ],
+            "uniprot_ids": [
+              "P01538"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "P01538"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "P01538",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Viscum album"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "VISCOTOXIN A3",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Thionin-like superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Thionin",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "defense response",
+                  "depth": null
+                },
+                {
+                  "name": "response to stress",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "toxin activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "8065_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "10267_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "3639_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "P01538",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "36910_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "48061_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "39724_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "KSCCPNTTGRNIYNACRLTGAPRPTCAKLSGCKIISGSTCPSDYPK",
+            "rcsb_sample_sequence_length": 46,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Viscum album",
+              "ncbi_scientific_name": "Viscum album",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        }
+      ],
+      "nonpolymer_entities": null,
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_defined_assembly",
+            "method_details": null,
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": null,
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Asymmetric",
+              "symbol": "C1",
+              "oligomeric_state": "Monomer",
+              "stoichiometry": [
+                "A1"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 46
+          }
+        }
+      ]
+    }
+  }
+}

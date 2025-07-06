@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>多肽结构数据库 - 6GZ5</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-light.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
+    <link rel="stylesheet" href="../static/css/protein_detail.css">
+    <style>
+        .info-section {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            overflow: hidden;
+        }
+        .info-section h2 {
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 15px 20px;
+            font-size: 1.2em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .info-section h2.collapsible {
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out;
+        }
+        .info-section h2.collapsible:hover {
+            background-color: #efefef;
+        }
+        .section-toggle-arrow {
+            width: 12px;
+            height: 12px;
+            border: solid #333;
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            transform: rotate(-135deg);
+            transition: transform 0.3s ease;
+        }
+        .collapsible.collapsed .section-toggle-arrow {
+            transform: rotate(45deg);
+        }
+        .info-section > div, .info-section > table {
+            padding: 20px;
+            background-color: #fff;
+        }
+        .full-width-viewer-container {
+            padding: 0 !important;
+            height: 600px;
+        }
+        .info-section > table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .info-section table td, .info-section table th {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .info-section table tr:last-child td {
+            border-bottom: none;
+        }
+        .info-section table td:first-child {
+            font-weight: 600;
+            color: #555;
+            width: 150px;
+        }
+        .citations-container .citation-item,
+        .assemblies-container .assembly-item,
+        .sequence-item {
+            padding: 15px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .citations-container .citation-item:last-child,
+        .assemblies-container .assembly-item:last-child,
+        .sequence-item:last-child {
+            border-bottom: none;
+        }
+        .sequence-wrapper {
+            max-height: 250px;
+            overflow-y: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 10px;
+            background: #fdfdfd;
+            margin-top: 10px;
+        }
+        .sequence-wrapper table {
+            width: 100%;
+            border: none;
+        }
+        .sequence-wrapper td {
+            border: none;
+        }
+        .seq-num {
+            text-align: right;
+            padding-right: 1em;
+            color: #999;
+            font-family: 'Courier New', Courier, monospace;
+            vertical-align: top;
+            font-size: 0.9em;
+        }
+        .seq-data {
+            font-family: 'Courier New', Courier, monospace;
+            word-break: break-all;
+            font-size: 1em;
+            line-height: 1.5;
+        }
+        .citation-title {
+            font-weight: bold;
+        }
+        .citation-authors {
+            font-size: 0.9em;
+            color: #555;
+        }
+        .citation-journal {
+            font-size: 0.9em;
+            color: #777;
+        }
+        .citation-links a {
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <img src="../THU-structure-LOGO.svg" alt="THU结构数据库标志" class="logo">
+            <div class="top-nav">
+                <a href="../index.html" class="nav-button">Home</a>
+                <a href="../Download.html" class="nav-button">Download</a>
+                <a href="https://www.frcbs.tsinghua.edu.cn/" class="nav-button">About</a>
+            </div>
+        </div>
+        <h1>多肽结构数据库</h1>
+        <p>浏览和可视化多肽三维结构</p>
+    </header>
+    
+    <div class="search-section">
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="搜索蛋白质、基因、PDB编号、生物体或序列">
+            <button class="search-button">搜索</button>
+        </div>
+    </div>
+    
+    <div class="protein-detail-container">
+        <div class="protein-header">
+            <h1>6GZ5 - 多肽结构</h1>
+            <p class="alphafold-id">6GZ5</p>
+        </div>
+
+        <div class="action-buttons">
+            <span class="download-label">下载</span>
+            <div class="button-container">
+                <a href="https://files.rcsb.org/download/6GZ5.pdb" download>
+                    <button>PDB文件</button>
+                </a>
+            </div>
+            <div class="button-container">
+                <a href="https://files.rcsb.org/download/6GZ5.cif" download>
+                    <button>mmCIF文件</button>
+                </a>
+            </div>
+        </div>
+
+        <section class="info-section">
+            <h2 class="collapsible">
+                基本信息
+                <span class="section-toggle-arrow"></span>
+            </h2>
+            <table>
+                <tbody>
+<tr><td>PDB编号</td><td>6GZ5 <a href="https://www.rcsb.org/structure/6GZ5" target="_blank" title="访问RCSB PDB页面">前往RCSB &#x279A;</a></td></tr>
+<tr><td>标题</td><td>tRNA translocation by the eukaryotic 80S ribosome and the impact of GTP hydrolysis, Translocation-intermediate-POST-3 (TI-POST-3)</td></tr>
+<tr><td>实验方法</td><td>ELECTRON MICROSCOPY</td></tr>
+<tr><td>分辨率</td><td>3.50 Å</td></tr>
+<tr><td>发布日期</td><td>2018-12-05</td></tr>
+<tr><td>作者</td><td>Flis, J.; Holm, M.; Rundlet, E.J.; Loerke, J.; Hilal, T.; Dabrowski, M.; Buerger, J.; Mielke, T.; Blanchard, S.C.; Spahn, C.M.T.; Budkevich, T.V.</td></tr>
+<tr><td>来源生物</td><td>Enterobacteria phage SP6, Oryctolagus cuniculus, Saccharomyces cerevisiae</td></tr>
+<tr><td>表达宿主</td><td>Zindervirus SP6</td></tr>
+<tr><td>关键词</td><td>translocation rabbit ribosome, 80S, eEF2, head swivel, rotation, RIBOSOME</td></tr>
+<tr><td>分子量</td><td>3325.45 kDa</td></tr>
+<tr><td>实体数量</td><td>蛋白质: 79, 核酸: 7, 核酸杂合体: 0</td></tr>
+<tr><td>二硫键</td><td>Yes</td></tr>
+<tr><td>其他连接</td><td>Yes</td></tr>
+<tr><td>多肽链</td><td>An, Bx</td></tr>
+<tr><td>蛋白链</td><td>A2, A3, A4, AA, AB, AC, AD, AE, AF, AG, AH, AI, AJ, AK, AL, AM, AN, AO, AP, AQ, AR, AS, AT, AU, AV, AW, AX, AY, AZ, Aa, Ab, Ac, Ad, Ae, Af, Ag, Ah, Ai, Aj, Ak, Al, Am, Ao, Ap, Aq, At, Au, B1, BA, BB, BC, BD, BE, BF, BG, BH, BI, BJ, BK, BL, BM, BN, BO, BP, BQ, BR, BS, BT, BU, BV, BW, BX, BY, BZ, Ba, Bb, Bc, Bd, Be, Bf, Bg, Bv, Bw, Ct</td></tr>
+<tr><td>多肽长度</td><td>11, 25</td></tr>
+<tr><td>蛋白长度</td><td>76, 190, 143, 73, 215, 212, 222, 207, 179, 149, 252, 394, 363, 234, 203, 175, 99, 129, 134, 68, 109, 69, 50, 122, 853, 3612, 120, 139, 125, 139, 97, 86, 62, 51, 314, 257, 232, 183, 153, 136, 81, 129, 141, 125, 97, 80, 55, 157, 76, 119, 294, 194, 234, 191, 208, 1708, 169, 205, 139, 195, 153, 187, 181, 157, 220, 121, 117, 127, 147, 103, 106, 129, 114, 122, 97, 84, 50, 98, 105, 91, 217, 151, 202, 120</td></tr>
+                </tbody>
+            </table>
+        </section>
+        
+
+<section class="info-section">
+    <h2 class="collapsible">
+        序列信息
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="sequences-container">
+        
+        <div class="sequence-item">
+            <h4>链: Bv - P/P-site-tRNA (长度: 76)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">GUUUCCGUAG UGUAGUGGUU AUCACGUUCG CCUAACACGC GAAAGGUCCC CGGUUCGAAA</td></tr><tr><td class="seq-num">61</td><td class="seq-data">CCGGGCGGAA ACACCA</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BF - ribosomal protein uS7 (长度: 190)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">PDIKLFGKWS TDDVQINDIS LQDYIAVKEK YAKYLPHSAG RYAAKRFRKA QCPIVERLTN</td></tr><tr><td class="seq-num">61</td><td class="seq-data">SMMMHGRNNG KKLMTVRIVK HAFEIIHLLT GENPLQVLVN AIINSGPRED STRIGRAGTV</td></tr><tr><td class="seq-num">121</td><td class="seq-data">RRQAVDVSPL RRVNQAIWLL CTGAREAAFR NIKTIAECLA DELINAAKGS SNSYAIKKKD</td></tr><tr><td class="seq-num">181</td><td class="seq-data">ELERVAKSNR</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BT - ribosomal protein eS19 (长度: 143)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">PGVTVKDVNQ QEFVRALAAF LKKSGKLKVP EWVDTVKLAK HKELAPYDEN WFYTRAASTA</td></tr><tr><td class="seq-num">61</td><td class="seq-data">RHLYLRGGAG VGSMTKIYGG RQRNGVMPSH FSRGSKSVAR RVLQALEGLK MVEKDQDGGR</td></tr><tr><td class="seq-num">121</td><td class="seq-data">KLTPQGQRDL DRIAGQVAAA NKK</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Bf - ribosomal protein eS31 (长度: 73)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">KRKKKSYTTP KKNKHKRKKV KLAVLKYYKV DENGKISRLR RECPSDECGA GVFMASHFDR</td></tr><tr><td class="seq-num">61</td><td class="seq-data">HYCGKCCLTY CFN</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BA - ribosomal protein uS2 (长度: 215)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">LDVLQMKEED VLKFLAAGTH LGGTNLDFQM EQYIYKRKSD GIYIINLKRT WEKLLLAARA</td></tr><tr><td class="seq-num">61</td><td class="seq-data">IVAIENPADV SVISSRNTGQ RAVLKFAAAT GATPIAGRFT PGTFTNQIQA AFREPRLLVV</td></tr><tr><td class="seq-num">121</td><td class="seq-data">TDPRADHQPL TEASYVNLPT IALCNTDSPL RYVDIAIPCN NKGAHSVGLM WWMLAREVLR</td></tr><tr><td class="seq-num">181</td><td class="seq-data">MRGTISREHP WEVMPDLYFY RDPEEIEKEE QAAAE</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BB - ribosomal protein eS1 (长度: 212)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">VDPFSKKDWY DVKAPAMFNI RNIGKTLVTR TQGTKIASDG LKGRVFEVSL ADLQNDEVAF</td></tr><tr><td class="seq-num">61</td><td class="seq-data">RKFKLITEDV QGKNCLTNFH GMDLTRDKMC SMVKKWQTMI EAHVDVKTTD GYLLRLFCVG</td></tr><tr><td class="seq-num">121</td><td class="seq-data">FTKKRNNQIR KTSYAQHQQV RQIRKKMMEI MTREVQTNDL KEVVNKLIPD SIGKDIEKAC</td></tr><tr><td class="seq-num">181</td><td class="seq-data">QSIYPLHDVF VRKVKMLKKP KFELGKLMEL HG</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BC - ribosomal protein uS5 (长度: 222)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">DKEWMPVTKL GRLVKDMKIK SLEEIYLFSL PIKESEIIDF FLGASLKDEV LKIMPVQKQT</td></tr><tr><td class="seq-num">61</td><td class="seq-data">RAGQRTRFKA FVAIGDYNGH VGLGVKCSKE VATAIRGAII LAKLSIVPVR RGYWGNKIGK</td></tr><tr><td class="seq-num">121</td><td class="seq-data">PHTVPCKVTG RCGSVLVRLI PAPRGTGIVS APVPKKLLMM AGIDDCYTSA RGCTATLGNF</td></tr><tr><td class="seq-num">181</td><td class="seq-data">AKATFDAISK TYSYLTPDLW KETVFTKSPY QEFTDHLVKT HT</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BI - ribosomal protein eS8 (长度: 207)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">GISRDNWHKR RKTGGKRKPY HKKRKYELGR PAANTKIGPR RIHTVRVRGG NKKYRALRLD</td></tr><tr><td class="seq-num">61</td><td class="seq-data">VGNFSWGSEC CTRKTRIIDV VYNASNNELV RTKTLVKNCI VLIDSTPYRQ WYESHYALPL</td></tr><tr><td class="seq-num">121</td><td class="seq-data">GRKKGAKLTP EEEEILNKKR SKKIQKKYDE RKKNAKISSL LEEQFQQGKL LACIASRPGQ</td></tr><tr><td class="seq-num">181</td><td class="seq-data">CGRADGYVLE GKELEFYLRK IKARKGK</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BJ - ribosomal protein uS4 (长度: 179)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">PVARSWVCRK TYVTPRRPFE KSRLDQELKL IGEYGLRNKR EVWRVKFTLA KIRKAARELL</td></tr><tr><td class="seq-num">61</td><td class="seq-data">TLDEKDPRRL FEGNALLRRL VRIGVLDEGK MKLDYILGLK IEDFLERRLQ TQVFKLGLAK</td></tr><tr><td class="seq-num">121</td><td class="seq-data">SIHHARVLIR QRHIRVRKQV VNIPSFIVRL DSQKHIDFSL RSPYGGGRPG RVKRKNAKK</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BN - ribosomal protein uS15 (长度: 149)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">GRMHAPGKGL SQSALPYRRS VPTWLKLTSD DVKEQIYKLA KKGLTPSQIG VILRDSHGVA</td></tr><tr><td class="seq-num">61</td><td class="seq-data">QVRFVTGNKI LRILKSKGLA PDLPEDLYHL IKKAVAVRKH LERNRKDKDA KFRLILIESR</td></tr><tr><td class="seq-num">121</td><td class="seq-data">IHRLARYYKT KRVLPPNWKY ESSTASALV</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AA - ribosomal protein uL2 (长度: 252)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">GRVIRGQRKG AGSVFRAHVK HRKGAARLRA VDFAERHGYI KGIVKDIIHD PGRGAPLAKV</td></tr><tr><td class="seq-num">61</td><td class="seq-data">VFRDPYRFKK RTELFIAAEG IHTGQFVYCG KKAQLNIGNV LPVGTMPEGT IVCCLEEKPG</td></tr><tr><td class="seq-num">121</td><td class="seq-data">DRGKLARASG NYATVISHNP ETKKTRVKLP SGSKKVISSA NRAVVGVVAG GGRIDKPILK</td></tr><tr><td class="seq-num">181</td><td class="seq-data">AGRAYHKYKA KRNCWPRVRG VAMNPVEHPF GGGNHQHIGK PSTIRRDAPA GRKVGLIAAR</td></tr><tr><td class="seq-num">241</td><td class="seq-data">RTGRLRGTKT VQ</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AB - ribosomal protein uL3 (长度: 394)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">SHRKFSAPRH GSLGFLPRKR SSRHRGKVKS FPKDDPSKPV HLTAFLGYKA GMTHIVREVD</td></tr><tr><td class="seq-num">61</td><td class="seq-data">RPGSKVNKKE VVEAVTIVET PPMVVVGIVG YVETPRGLRT FKTVFAEHIS DECKRRFYKN</td></tr><tr><td class="seq-num">121</td><td class="seq-data">WHKSKKKAFT KYCKKWQDED GKKQLEKDFS SMKKYCQVIR VIAHTQMRLL PLRQKKAHLM</td></tr><tr><td class="seq-num">181</td><td class="seq-data">EIQVNGGTVA EKLDWARERL EQQVPVNQVF GQDEMIDVIG VTKGKGYKGV TSRWHTKKLP</td></tr><tr><td class="seq-num">241</td><td class="seq-data">RKTHRGLRKV ACIGAWHPAR VAFSVARAGQ KGYHHRTEIN KKIYKIGQGY LIKDGKLIKN</td></tr><tr><td class="seq-num">301</td><td class="seq-data">NASTDYDLSD KSINPLGGFV HYGEVTNDFV MLKGCVVGTK KRVLTLRKSL LVQTKRRALE</td></tr><tr><td class="seq-num">361</td><td class="seq-data">KIDLKFIDTT SKFGHGRFQT MEEKKAFMGP LKKD</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AC - ribosomal protein uL4 (长度: 363)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">CARPLISVYS EKGESSGKNV TLPAVFKAPI RPDIVNFVHT NLRKNNRQPY AVSELAGHQT</td></tr><tr><td class="seq-num">61</td><td class="seq-data">SAESWGTGRA VARIPRVRGG GTHRSGQGAF GNMCRGGRMF APTKTWRRWH RRVNTTQKRY</td></tr><tr><td class="seq-num">121</td><td class="seq-data">AICSALAASA LPALVMSKGH RIEEVPELPL VVEDKVEGYK KTKEAVLLLK KLKAWNDIKK</td></tr><tr><td class="seq-num">181</td><td class="seq-data">VYASQRMRAG KGKMRNRRRI QRRGPCIIYN EDNGIIKAFR NIPGITLLNV SKLNILKLAP</td></tr><tr><td class="seq-num">241</td><td class="seq-data">GGHVGRFCIW TESAFRKLDE LYGTWRKAAS LKSNYNLPMH KMINTDLSRI LKSPEIQRAL</td></tr><tr><td class="seq-num">301</td><td class="seq-data">RAPRKKIHRR VLKKNPLKNL RIMLKLNPYA KTMRRNTILR QARNHKLRVD KAAAAAAALQ</td></tr><tr><td class="seq-num">361</td><td class="seq-data">AKS</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AF - ribosomal protein uL30 (长度: 234)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">PETLKKKRRN FAELKIKRLR KKFAQKMLRK ARRKLIYEKA KHYHKEYRQM YRTEIRMARM</td></tr><tr><td class="seq-num">61</td><td class="seq-data">ARKAGNFYVP AEPKLAFVIR IRGINGVSPK VRKVLQLLRL RQIFNGTFVK LNKASINMLR</td></tr><tr><td class="seq-num">121</td><td class="seq-data">IVEPYIAWGY PNLKSVNELI YKRGYGKINK KRIALTDNAL IARSLGKYGI ICMEDLIHEI</td></tr><tr><td class="seq-num">181</td><td class="seq-data">YTVGKRFKEA NNFLWPFKLS SPRGGMKKKT THFVEGGDAG NREDQINRLI RRMN</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AN - ribosomal protein eL15 (长度: 203)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">GAYKYIQELW RKKQSDVMRF LLRVRCWQYR QLSALHRAPR PTRPDKARRL GYKAKQGYVI</td></tr><tr><td class="seq-num">61</td><td class="seq-data">YRIRVRRGGR KRPVPKGATY GKPVHHGVNQ LKFARSLQSV AEERAGRHCG ALRVLNSYWV</td></tr><tr><td class="seq-num">121</td><td class="seq-data">GEDSTYKFFE VILIDPFHKA IRRNPDTQWI TKPVHKHREM RGLTSAGRKS RGLGKGHKFH</td></tr><tr><td class="seq-num">181</td><td class="seq-data">HTIGGSRRAA WRRRNTLQLH RYR</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AS - ribosomal protein eL20 (长度: 175)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MKASGTLREY KVVGRCLPTP KCHTPPLYRM RIFAPNHVVA KSRFWYFVSQ LKKMKKSSGE</td></tr><tr><td class="seq-num">61</td><td class="seq-data">IVYCGQVFEK SPLRVKNFGI WLRYDSRSGT HNMYREYRDL TTAGAVTQCY RDMGARHRAR</td></tr><tr><td class="seq-num">121</td><td class="seq-data">AHSIQIMKVE EIAASKCRRP AVKQFHDSKI KFPLPHRVLR RQHKPRFTTK RPNTF</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AU - ribosomal protein eL22 (长度: 99)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">VLKFTLDCTH PVEDGIMDAA NFEQFLQERI KVNGKAGNLG GGVVTIERSK SKITVTSEVP</td></tr><tr><td class="seq-num">61</td><td class="seq-data">FSKRYLKYLT KKYLKKNNLR DWLRVVANSK ESYELRYFQ</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AV - ribosomal protein uL14 (长度: 129)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">AKFRISLGLP VGAVINCADN TGAKNLYIIS VKGIKGRLNR LPAAGVGDMV MATVKKGKPE</td></tr><tr><td class="seq-num">61</td><td class="seq-data">LRKKVHPAVV IRQRKSYRRK DGVFLYFEDN AGVIVNNKGE MKGSAITGPV AKECADLWPR</td></tr><tr><td class="seq-num">121</td><td class="seq-data">IASNAGSIA</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AZ - ribosomal protein eL27 (长度: 134)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">KFMKPGKVVL VLAGRYSGRK AVIVKNIDDG TSDRPYSHAL VAGIDRYPRK VTAAMGKKKI</td></tr><tr><td class="seq-num">61</td><td class="seq-data">AKRSKIKSFV KVYNYNHLMP TRYSVDIPLD KTVVNKDVFR DPALKRKARR EAKVKFEERY</td></tr><tr><td class="seq-num">121</td><td class="seq-data">KTGKNKWFFQ KLRF</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Ab - ribosomal protein eL29 (长度: 68)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">AKSKNHTTHN QSRKWHRNGI KKPRSQRYES LKGVDPKFLR NMRFAKKHNK KGLKKMQANN</td></tr><tr><td class="seq-num">61</td><td class="seq-data">AKAMSARA</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Af - ribosomal protein eL33 (长度: 109)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">SGRLWSKAIF AGYKRGLRNQ REHTALLKIE GVYARDETEF YLGKRCAYVY KAKNNTVTPG</td></tr><tr><td class="seq-num">61</td><td class="seq-data">GKPNKTRVIW GKVTRAHGNS GMVRAKFRSN LPAKAIGHRI RVMLYPSRI</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Ak - ribosomal protein eL38 (长度: 69)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">PRKIEEIKDF LLTARRKDAK SVKIKKNKDN VKFKVRCSRY LYTLVITDKE KAEKLKQSLP</td></tr><tr><td class="seq-num">61</td><td class="seq-data">PGLAVKELK</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Am - ribosomal protein eL40 (长度: 50)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">IEPSLRQLAQ KYNCDKMICR KCYARLHPRA VNCRKKKCGH TNNLRPKKKV</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: At - ribosomal protein eL28 (长度: 122)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">SAHLQWMVVR NCSSFLIKRN KQTYSTEPNN LKARNSFRYN GLIHRKTVGV EPAADGKGVV</td></tr><tr><td class="seq-num">61</td><td class="seq-data">VVIKRRSGQR KPATSYVRTT INKNARATLS SIRHMIRKNK YRPDLRMAAI RRASAILRSQ</td></tr><tr><td class="seq-num">121</td><td class="seq-data">KP</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Ct - eukaryotic elongation factor 2 (eEF2) (长度: 853)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">TVDQIRAIMD KKANIRNMSV IAHVDHGKST LTDSLVCKAG IIASARAGET RFTDTRKDEQ</td></tr><tr><td class="seq-num">61</td><td class="seq-data">ERCITIKSTA ISLFYELSEN DLNFIKQSKD GAGFLINLID SPGHVDFSSE VTAALRVTDG</td></tr><tr><td class="seq-num">121</td><td class="seq-data">ALVVVDCVSG VCVQTETVLR QAIAERIKPV LMMNKMDRAL LELQLEPEEL YQTFQRIVEN</td></tr><tr><td class="seq-num">181</td><td class="seq-data">VNVIISTYGE GESGPMGNIM IDPVLGTVGF GSGLHGWAFT LKQFAEMYVA KFAAKGEGQL</td></tr><tr><td class="seq-num">241</td><td class="seq-data">GPAERAKKVE DMMKKLWGDR YFDPANGKFS KSATSPEGKK LPRTFCQLIL DPIFKVFDAI</td></tr><tr><td class="seq-num">301</td><td class="seq-data">MNFKKEETAK LIEKLDIKLD SEDKDKEGKP LLKAVMRRWL PAGDALLQMI TIHLPSPVTA</td></tr><tr><td class="seq-num">361</td><td class="seq-data">QKYRCELLYE GPPDDEAAMG IKSCDPKGPL MMYISKMVPT SDKGRFYAFG RVFSGLVSTG</td></tr><tr><td class="seq-num">421</td><td class="seq-data">LKVRIMGPNY TPGKKEDLYL KPIQRTILMM GRYVEPIEDV PCGNIVGLVG VDQFLVKTGT</td></tr><tr><td class="seq-num">481</td><td class="seq-data">ITTFEHAHNM RVMKFSVSPV VRVAVEAKNP ADLPKLVEGL KRLAKSDPMV QCIIEESGEH</td></tr><tr><td class="seq-num">541</td><td class="seq-data">IIAGAGELHL EICLKDLEED HACIPIKKSD PVVSYRETVS EESNVLCLSK SPNKHNRLYM</td></tr><tr><td class="seq-num">601</td><td class="seq-data">KARPFPDGLA EDIDKGEVSA RQELKQRARY LAEKYEWDVA EARKIWCFGP DGTGPNILTD</td></tr><tr><td class="seq-num">661</td><td class="seq-data">ITKGVQYLNE IKDSVVAGFQ WATKEGALCE ENMRGVRFDV HDVTLHADAI HRGGGQIIPT</td></tr><tr><td class="seq-num">721</td><td class="seq-data">ARRCLYASVL TAQPRLMEPI YLVEIQCPEQ VVGGIYGVLN RKRGHVFEES QVAGTPMFVV</td></tr><tr><td class="seq-num">781</td><td class="seq-data">KAYLPVNESF GFTADLRSNT GGQAFPQCVF DHWQILPGDP FDNSSRPSQV VAETRKRKGL</td></tr><tr><td class="seq-num">841</td><td class="seq-data">KEIPALDNFL DKL</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: A2 - 28S ribosomal RNA (长度: 3612)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">CGCGACCUCA GAUCAGACGU GGCGACCCGC UGAAUUUAAG CAUAUUAGUC AGCGGAGGAA</td></tr><tr><td class="seq-num">61</td><td class="seq-data">AAGAAACUAA CCAGGAUUCC CUCAGUAACG GCGAGUGAAC AGGGAAGAGC CCAGCGCCGA</td></tr><tr><td class="seq-num">121</td><td class="seq-data">AUCCCCGCCC CGCGGGGCGC GGGACAUGUG GCGUACGGAA GACCCGCUCC CCGGCGCCGC</td></tr><tr><td class="seq-num">181</td><td class="seq-data">UCGUGGGGGG CCCAAGUCCU UCUGAUCGAG GCCCAGCCCG UGGACGGUGU GAGGCCGGUA</td></tr><tr><td class="seq-num">241</td><td class="seq-data">GCGGCCCCCG GCGCGCGCCC GGGUCUUCCC GGAGUCGGGU UGCUUGGGAA UGCAGCCCAA</td></tr><tr><td class="seq-num">301</td><td class="seq-data">AGCGGGUGGU AAACUCCAUC UAAGGCUAAA UACCGGCACG AGACCGAUAG UCAACAAGUA</td></tr><tr><td class="seq-num">361</td><td class="seq-data">CCGUAAGGGA AAGUUGAAAA GAACUUUGAA GAGAGAGUUC AAGAGGGCGU GAAACCGUUA</td></tr><tr><td class="seq-num">421</td><td class="seq-data">AGAGGUAAAC GGGUGGGGUC CGCGCAGUCC GCCCGGAGGA UUCAACCCGG CGGCGGGUCC</td></tr><tr><td class="seq-num">481</td><td class="seq-data">GGCCGUGUCG GCGGCCCGGC GGAUCUUUCC CGCCCCCGGG GUCGGCGGGG GACCGUCCCC</td></tr><tr><td class="seq-num">541</td><td class="seq-data">CGGACCGGCG ACCGGCCGCC GCCGGGCGCA UUUCCAGGCG GUGCGCCGCG ACCGGCUCCG</td></tr><tr><td class="seq-num">601</td><td class="seq-data">GGACGGCUGG GAAGGCCCGG CGGGGAAGGU GGCUCGGGGC CCCCGAGUGU UACAGCCCCC</td></tr><tr><td class="seq-num">661</td><td class="seq-data">CCGGCAGCAG CACUCGCCGA AUCCCGGGGC CGAGGGAGCG AGACCCGUCG CCGCGCUCUC</td></tr><tr><td class="seq-num">721</td><td class="seq-data">CCCCCUGGGG GGGCCGGGCC ACCCCUCCCA CGGCGCGACC GCUCUCCCAG GGGGCGGGGC</td></tr><tr><td class="seq-num">781</td><td class="seq-data">GGACUGUCCC CAGUGCGCCC CGGGCGGGUC GCGCCGUCGG GCCCGGGGGG CCACGCGCGC</td></tr><tr><td class="seq-num">841</td><td class="seq-data">GUCCCGGGAC GGCGGAGCGA GCGCACGGGG UCGGCGGCGA CGUCGGCUAC CCACCCGACC</td></tr><tr><td class="seq-num">901</td><td class="seq-data">CGUCUUGAAA CACGGACCAA GGAGUCUAAC ACGUGCGCGA GUCGGGGGCU CGCACGAAAG</td></tr><tr><td class="seq-num">961</td><td class="seq-data">CCGCCGUGGC GCAAUGAAGG UGAAGGCCGG CGCGCUCGCC GGCCGAGGUG GGAUCCCGAG</td></tr><tr><td class="seq-num">1021</td><td class="seq-data">GCCUCUCCAG UCCGCCGAGG GGCACCACCG GCCCGUCUCG CCCGCCGCGC CGGGGAGGUG</td></tr><tr><td class="seq-num">1081</td><td class="seq-data">GAGCACGAGC GCACGUGUUA GGACCCGAAA GAUGGUGAAC UAUGCCUGGG CAGGGCGAAG</td></tr><tr><td class="seq-num">1141</td><td class="seq-data">CCAGAGGAAA CUCUGGUGGA GGUCCGUAGC GGUCCUGACG UGCAAAUCGG UCGUCCGACC</td></tr><tr><td class="seq-num">1201</td><td class="seq-data">UGGGUAUAGG GGCGAAAGAC UAAUCGAACC AUCUAGUAGC UGGUUCCCUC CGAAGUUUCC</td></tr><tr><td class="seq-num">1261</td><td class="seq-data">CUCAGGAUAG CUGGCGCUCU CGCCCACGCA GUUUUAUCCG GUAAAGCGAA UGAUUAGAGG</td></tr><tr><td class="seq-num">1321</td><td class="seq-data">UCUUGGGGCC GAAACGAUCU CAACCUAUUC UCAAACUUUA AAUGGGUAAG AAGCCCGGCU</td></tr><tr><td class="seq-num">1381</td><td class="seq-data">CGCUGGCGUG GAGCCGGGGU GGAAUGCGAG UGCCUAGUGG GCCACUUUUG GUAAGCAGAA</td></tr><tr><td class="seq-num">1441</td><td class="seq-data">CUGGCGCUGC GGGAUGAACC GAACGCCGGG UUAAGGCGCC CGAUGCCGAC GCUCAUCAGA</td></tr><tr><td class="seq-num">1501</td><td class="seq-data">CCCCAGAAAA GGUGUUGGUU GAUAUAGACA GCAGGACGGU GGCCAUGGAA GUCGGAAUCC</td></tr><tr><td class="seq-num">1561</td><td class="seq-data">GCUAAGGAGU GUGUAACAAC UCACCUGCCG AAUCAACUAG CCCUGAAAAU GGAUGGCGCU</td></tr><tr><td class="seq-num">1621</td><td class="seq-data">GGAGCGUCGG GCCCAUACCC GGCCGUCGCC GGCCUACGCC GCGACGAGUA GGAGGGCCGC</td></tr><tr><td class="seq-num">1681</td><td class="seq-data">UGCGGUGAGC CUUGAAGCCU AGGGCGCGGG CCCGGGUGGA GCCGCCGCAG GUGCAGAUCU</td></tr><tr><td class="seq-num">1741</td><td class="seq-data">UGGUGGUAGU AGCAAAUAUU CAAACGAGAA CUUUGAAGGC CGAAGUGGAG AAGGGUUCCA</td></tr><tr><td class="seq-num">1801</td><td class="seq-data">UGUGAACAGC AGUUGAACAU GGGUCAGUCG GUCCUGAGAG AUGGGCGAGC GCCGUUCCGA</td></tr><tr><td class="seq-num">1861</td><td class="seq-data">AGGGACGGGC GAUGGCCUCC GUUGCCCUCG GCCGAUCGAA AGGGAGUCGG GUUCAGAUCC</td></tr><tr><td class="seq-num">1921</td><td class="seq-data">CCGAAUCCGG AGUGGCGGAG AUGGGCGCCG CGAGGCGUCC AGUGCGGUAA CGCGACCGAU</td></tr><tr><td class="seq-num">1981</td><td class="seq-data">CCCGGAGAAG CCGGCGGGAG CCCCGGGGAG AGUUCUCUUU UCUUUGUGAA GGGCAGGGCG</td></tr><tr><td class="seq-num">2041</td><td class="seq-data">CCCUGGAAUG GGUUCGCCCC GAGAGAGGGG CCCGUGCCUU GGAAAGCGUC GCGGUUCCGG</td></tr><tr><td class="seq-num">2101</td><td class="seq-data">CGGCGUCCGG UGAGCUCUCG CUGGCCCUUG AAAAUCCGGG GGAGAGGGUG UAAAUCUCGC</td></tr><tr><td class="seq-num">2161</td><td class="seq-data">GCCGGGCCGU ACCCAUAUCC GCAGCAGGUC UCCAAGGUGA ACAGCCUCUG GCAUGUUGGA</td></tr><tr><td class="seq-num">2221</td><td class="seq-data">ACAAUGUAGG UAAGGGAAGU CGGCAAGCCG GAUCCGUAAC UUCGGGAUAA GGAUUGGCUC</td></tr><tr><td class="seq-num">2281</td><td class="seq-data">UAAGGGCUGG CAGCCGACUU AGAACUGGUG CGGACCAGGG GAAUCCGACU GUUUAAUUAA</td></tr><tr><td class="seq-num">2341</td><td class="seq-data">AACAAAGCAU CGCGAAGGCC CGCGGCGGGU GUUGACGCGA UGUGAUUUCU GCCCAGUGCU</td></tr><tr><td class="seq-num">2401</td><td class="seq-data">CUGAAUGUCA AAGUGAAGAA AUUCAAUGAA GCGCGGGUAA ACGGCGGGAG UAACUAUGAC</td></tr><tr><td class="seq-num">2461</td><td class="seq-data">UCUCUUAAGG UAGCCAAAUG CCUCGUCAUC UAAUUAGUGA CGCGCAUGAA UGGAUGAACG</td></tr><tr><td class="seq-num">2521</td><td class="seq-data">AGAUUCCCAC UGUCCCUACC UACUAUCCAG CGAAACCACA GCCAAGGGAA CGGGCUUGGC</td></tr><tr><td class="seq-num">2581</td><td class="seq-data">GGAAUCAGCG GGGAAAGAAG ACCCUGUUGA GCUUGACUCU AGUCUGGCAC GGUGAAGAGA</td></tr><tr><td class="seq-num">2641</td><td class="seq-data">CAUGAGAGGU GUAGAAUAAG UGGGAGGCCC GGGCCGCCGG UGAAAUACCA CUACUCUGAU</td></tr><tr><td class="seq-num">2701</td><td class="seq-data">CGUUUUUUCA CUGACCCGGU GAGGCGGGGG GGCGAGCCCG AGGGGCUCUC GCUUCUGGCG</td></tr><tr><td class="seq-num">2761</td><td class="seq-data">CCAAGCGCCC GCCCGGCCGG GCGCGACCCG CUCCGGGGAC AGUGCCAGGU GGGGAGUUUG</td></tr><tr><td class="seq-num">2821</td><td class="seq-data">ACUGGGGCGG UACACCUGUC AAACGGUAAC GCAGGUGUCC UAAGGCGAGC UCAGGGAGGA</td></tr><tr><td class="seq-num">2881</td><td class="seq-data">CAGAAACCUC CCGUGGAGCA GAAGGGCAAA AGCUCGCUUG AUCUUGAUUU UCAGUACGAA</td></tr><tr><td class="seq-num">2941</td><td class="seq-data">UACAGACCGU GAAAGCGGGG CCUCACGAUC CUUCUGACCU UUUGGGUUUU AAGCAGGAGG</td></tr><tr><td class="seq-num">3001</td><td class="seq-data">UGUCAGAAAA GUUACCACAG GGAUAACUGG CUUGUGGCGG CCAAGCGUUC AUAGCGACGU</td></tr><tr><td class="seq-num">3061</td><td class="seq-data">CGCUUUUUGA UCCUUCGAUG UCGGCUCUUC CUAUCAUUGU GAAGCAGAAU UCGCCAAGCG</td></tr><tr><td class="seq-num">3121</td><td class="seq-data">UUGGAUUGUU CACCCACUAA UAGGGAACGU GAGCUGGGUU UAGACCGUCG UGAGACAGGU</td></tr><tr><td class="seq-num">3181</td><td class="seq-data">UAGUUUUACC CUACUGAUGA UGUGUUGUUG CCAUGGUAAU CCUGCUCAGU ACGAGAGGAA</td></tr><tr><td class="seq-num">3241</td><td class="seq-data">CCGCAGGUUC AGACAUUUGG UGUAUGUGCU UGGCUGAGGA GCCAAUGGGG CGAAGCUACC</td></tr><tr><td class="seq-num">3301</td><td class="seq-data">AUCUGUGGGA UUAUGACUGA ACGCCUCUAA GUCAGAAUCC CGCCCAGGCG GAACGAUACG</td></tr><tr><td class="seq-num">3361</td><td class="seq-data">GCAGCGCCGC GGAGCCUCGG UUGGCCUCGG AUAGCCGGUC CGGGGUCCGG UGCGGAGUGC</td></tr><tr><td class="seq-num">3421</td><td class="seq-data">CCUUCGUCCU GGGAAACGGG GCGCGGCCGG AAAGGCGGCC GCCCCCUCGC CCGUCACGCA</td></tr><tr><td class="seq-num">3481</td><td class="seq-data">CCGCACGUUC GUGGGGAACC UGGCGCUAAA CCAUUCGUAG ACGACCUGCU UCUGGGUCGG</td></tr><tr><td class="seq-num">3541</td><td class="seq-data">GGUUUCGUAC GUAGCAGAGC AGCUCCCUCG CUGCGAUCUA UUGAAAGUCA GCCCUCGACA</td></tr><tr><td class="seq-num">3601</td><td class="seq-data">CAAGGGUUUG UC</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BP - ribosomal protein uS19 (长度: 120)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">FRKFTYRGVD LDQLLDMSYE QLMQLYSARQ RRRLNRGLRR KQHSLLKRLR KAKKEAPPME</td></tr><tr><td class="seq-num">61</td><td class="seq-data">KPEVVKTHLR DMIILPEMVG SMVGVYNGKT FNQVEIKPEM IGHYLGEFSI TYKPVKHGRP</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BQ - ribosomal protein uS9 (长度: 139)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">QSVQVFGRKK TATAVAHCKR GNGLIKVNGR PLEMIEPRTL QYKLLEPVLL LGKERFAGVD</td></tr><tr><td class="seq-num">61</td><td class="seq-data">IRVRVKGGGH VAQIYAIRQS ISKALVAYYQ KYVDEASKKE IKDILIQYDR TLLVADPRRC</td></tr><tr><td class="seq-num">121</td><td class="seq-data">ESKKFGGPGA RARYQKSYR</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BR - ribosomal protein eS17 (长度: 125)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">GRVRTKTVKK AARVIIEKYY TRLGNDFHTN KRVCEEIAII PSKKLRNKIA GYVTHLMKRI</td></tr><tr><td class="seq-num">61</td><td class="seq-data">QRGPVRGISI KLQEEERERR DNYVPEVSAL DQEIIEVDPD TKEMLKLLDF GSLSNLQVTQ</td></tr><tr><td class="seq-num">121</td><td class="seq-data">PTVGM</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BS - ribosomal protein uS13 (长度: 139)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">VIPEKFQHIL RVLNTNIDGR RKIAFAITAI KGVGRRYAHV VLRKADIDLT KRAGELTEDE</td></tr><tr><td class="seq-num">61</td><td class="seq-data">VERVITIMQN PRQYKIPDWF LNRQKDVKDG KYSQVLANGL DNKLREDLER LKKIRAHRGL</td></tr><tr><td class="seq-num">121</td><td class="seq-data">RHFWGLRVRG QHTKTTGRR</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BU - ribosomal protein uS10 (长度: 97)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">IRITLTSRNV KSLEKVCADL IRGAKEKNLK VKGPVRMPTK TLRITTRKTP CGEGSKTWDR</td></tr><tr><td class="seq-num">61</td><td class="seq-data">FQMRIHKRLI DLHSPSEIVK QITSISIEPG VEVEVTI</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BZ - ribosomal protein eS25 (长度: 86)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">GKAKKKKWSK GKVRDKLNNL VLFDKATYDK LCKEVPNYKL ITPAVVSERL KIRGSLARAA</td></tr><tr><td class="seq-num">61</td><td class="seq-data">LQELLSKGLI KLVSKHRAQV IYTRNT</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Bc - ribosomal protein eS28 (长度: 62)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">QPIKLARVTK VLGRTGSQGQ CTQVRVEFMD DTSRSIIRNV KGPVREGDVL TLLESEREAR</td></tr><tr><td class="seq-num">61</td><td class="seq-data">RL</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Bd - ribosomal protein uS14 (长度: 51)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">QLYWSHPRKF GQGSRSCRVC SNRHGLIRKY GLNMCRQCFR QYAKDIGFIK L</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Bg - ribosomal protein RACK 1 (长度: 314)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">TEQMTLRGTL KGHNGWVTQI ATTPQFPDMI LSASRDKTII MWKLTRDETN YGIPQRALRG</td></tr><tr><td class="seq-num">61</td><td class="seq-data">HSHFVSDVVI SSDGQFALSG SWDGTLRLWD LTTGTTTRRF VGHTKDVLSV AFSSDNRQIV</td></tr><tr><td class="seq-num">121</td><td class="seq-data">SGSRDKTIKL WNTLGVCKYT VQDESHSEWV SCVRFSPNSS NPIIVSCGWD KLVKVWNLAN</td></tr><tr><td class="seq-num">181</td><td class="seq-data">CKLKTNHIGH TGYLNTVTVS PDGSLCASGG KDGQAMLWDL NEGKHLYTLD GGDIINALCF</td></tr><tr><td class="seq-num">241</td><td class="seq-data">SPNRYWLCAA TGPSIKIWDL EGKIIVDELK QEVISTSSKA EPPQCTSLAW SADGQTLFAG</td></tr><tr><td class="seq-num">301</td><td class="seq-data">YTDNLVRVWQ VTIG</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BE - ribosomal protein eS4 (长度: 257)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">ARGPKKHLKR VAAPKHWMLD KLTGVFAPRP STGPHKLREC LPLIVFLRNR LKYALTGDEV</td></tr><tr><td class="seq-num">61</td><td class="seq-data">KKICMQRFIK IDGKVRVDVT YPAGFMDVIS IEKTGEHFRL VYDTKGRFAV HRITVEEAKY</td></tr><tr><td class="seq-num">121</td><td class="seq-data">KLCKVRKITV GVKGIPHLVT HDARTIRYPD PVIKVNDTVQ IDLGTGKIIN FIKFDTGNLC</td></tr><tr><td class="seq-num">181</td><td class="seq-data">MVIGGANLGR VGVITNRERH PGSFDVVHVK DANGNSFATR LSNIFVIGNG NKPWISLPRG</td></tr><tr><td class="seq-num">241</td><td class="seq-data">KGIRLTVAEE RDKRLAT</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BG - ribosomal protein eS6 (长度: 232)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MKLNISFPAT GCQKLIEVDD ERKLRTFYEK RMATEVAADA LGEEWKGYVV RISGGNDKQG</td></tr><tr><td class="seq-num">61</td><td class="seq-data">FPMKQGVLTH GRVRLLLSKG HSCYRPRRTG ERKRKSVRGC IVDANLSVLN LVIVKKGEKD</td></tr><tr><td class="seq-num">121</td><td class="seq-data">IPGLTDTTVP RRLGPKRASR IRKLFNLSKE DDVRQYVVRK PLNKEGKKPR TKAPKIQRLV</td></tr><tr><td class="seq-num">181</td><td class="seq-data">TPRVLQHKRR RIALKKQRTK KNKEEAAEYA KLLAKRMKEA KEKRQEQIAK RR</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BH - ribosomal protein eS7 (长度: 183)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">NGEKPDEFES GISQALLELE MNSDLKAQLR ELNITAAKEI EVGGGRKAII IFVPVPQLKS</td></tr><tr><td class="seq-num">61</td><td class="seq-data">FQKIQVRLVR ELEKKFSGKH VVFIAQRRIL PKPTRKSRTK NKQKRPRSRT LTAVHDAILE</td></tr><tr><td class="seq-num">121</td><td class="seq-data">DLVFPSEIVG KRIRVKLDGS RLIKVHLDKA QQNNVEHKVE TFSGVYKKLT GKDVNFEFPE</td></tr><tr><td class="seq-num">181</td><td class="seq-data">FQL</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BL - ribosomal protein uS17 (长度: 153)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">TERAYQKQPT IFQNKKRVLL GETGKEKLPR YYKNIGLGFK TPKEAIEGTY IDKKCPFTGN</td></tr><tr><td class="seq-num">61</td><td class="seq-data">VSIRGRILSG VVTKMKMQRT IVIRRDYLHY IRKYNRFEKR HKNMSVHLSP CFRDVQIGDI</td></tr><tr><td class="seq-num">121</td><td class="seq-data">VTVGECRPLS KTVRFNVLKV TKAAGTKKQF QKF</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Bx - mRNA (长度: 11)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">UUCGUUAAAG A</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BO - ribosomal protein uS11 (长度: 136)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">SLGPQVAEGE NVFGVCHIFA SFNDTFVHVT DLSGKETICR VTGGMKVKAD RDESSPYAAM</td></tr><tr><td class="seq-num">61</td><td class="seq-data">LAAQDVAQRC KELGITALHI KLRATGGNRT KTPGPGAQSA LRALARSGMK IGRIEDVTPI</td></tr><tr><td class="seq-num">121</td><td class="seq-data">PSDSTRRKGG RRGRRL</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BV - ribosomal protein eS21 (长度: 81)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MQNDAGEFVD LYVPRKCSAS NRIIGAKDHA SIQMNVAEVD KVTGRFNGQF KTYAICGAIR</td></tr><tr><td class="seq-num">61</td><td class="seq-data">RMGESDDSIL RLAKADGIVS K</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BW - ribosomal protein uS8 (长度: 129)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">VRMNVLADAL KSINNAEKRG KRQVLIRPCS KVIVRFLTVM MKHGYIGEFE IIDDHRAGKI</td></tr><tr><td class="seq-num">61</td><td class="seq-data">VVNLTGRLNK CGVISPRFDV QLKDLEKWQN NLLPSRQFGF IVLTTSAGIM DHEEARRKHT</td></tr><tr><td class="seq-num">121</td><td class="seq-data">GGKILGFFF</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BX - ribosomal protein uS12 (长度: 141)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">GKCRGLRTAR KLRSHRRDQK WHDKQYKKAH LGTALKANPF GGASHAKGIV LEKVGVEAKQ</td></tr><tr><td class="seq-num">61</td><td class="seq-data">PNSAIRKCVR VQLIKNGKKI TAFVPNDGCL NFIEENDEVL VAGFGRKGHA VGDIPGVRFK</td></tr><tr><td class="seq-num">121</td><td class="seq-data">VVKVANVSLL ALYKGKKERP R</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BY - ribosomal protein eS24 (长度: 125)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">TVTIRTRKFM TNRLLQRKQM VIDVLHPGKA TVPKTEIREK LAKMYKTTPD VIFVFGFRTH</td></tr><tr><td class="seq-num">61</td><td class="seq-data">FGGGKTTGFG MIYDSLDYAK KNEPKHRLAR HGLYEKKKTS RKQRKERKNR MKKVRGTAKA</td></tr><tr><td class="seq-num">121</td><td class="seq-data">NVGAG</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Ba - ribosomal protein eS26 (长度: 97)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">TKKRRNNGRA KKGRGHVQPI RCTNCARCVP KDKAIKKFVI RNIVEAAAVR DISEASVFDA</td></tr><tr><td class="seq-num">61</td><td class="seq-data">YVLPKLYVKL HYCVSCAIHS KVVRNRSREA RKDRTPP</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Bb - ribosomal protein eS27 (长度: 80)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">AKDLLHPSPE EEKRKHKKKR LVQSPNSYFM DVKCPGCYKI TTVFSHAQTV VLCVGCSTVL</td></tr><tr><td class="seq-num">61</td><td class="seq-data">CQPTGGKARL TEGCSFRRKQ</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Be - ribosomal protein eS30 (长度: 55)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">HGSLARAGKV RGQTPKVAKQ EKKKKKTGRA KRRMQYNRRF VNVVPTFGKK KGPNA</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: A3 - 5.8S ribosomal RNA (长度: 157)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">CGACUCUUAG CGGUGGAUCA CUCGGCUCGU GCGUCGAUGA AGAACGCAGC UAGCUGCGAG</td></tr><tr><td class="seq-num">61</td><td class="seq-data">AAUUAAUGUG AAUUGCAGGA CACAUUGAUC AUCGACACUU CGAACGCACU UGCGGCCCCG</td></tr><tr><td class="seq-num">121</td><td class="seq-data">GGUUCCUCCC GGGGCUACGC CUGUCUGAGC GUCGCUU</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Bw - E/E-site-tRNA (长度: 76)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">GCGGACUUAG CUCAGUUGGG AGAGCGCCAG ACUGAAGAUC UGGAGGUCCU GUGUUCGAUC</td></tr><tr><td class="seq-num">61</td><td class="seq-data">CACAGAGUUC GCACCA</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: A4 - 5S ribosomal RNA (长度: 119)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">GUCUACGGCC AUACCACCCU GAACGCGCCC GAUCUCGUCU GAUCUCGGAA GCUAAGCAGG</td></tr><tr><td class="seq-num">61</td><td class="seq-data">GUCGGGCCUG GUUAGUACUU GGAUGGGAGA CCGCCUGGGA AUACCGGGUG CUGUAGGCU</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AD - ribosomal protein uL18 (长度: 294)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">VKVVKNKAYF KRYQVKFRRR REGKTDYYAR KRLVIQDKNK YNTPKYRMIV RVTNRDIICQ</td></tr><tr><td class="seq-num">61</td><td class="seq-data">IAYARIEGDM IVCAAYAHEL PKYGVKVGLT NYAAAYCTGL LLARRLLNRF GMDKIYEGQV</td></tr><tr><td class="seq-num">121</td><td class="seq-data">EVTGDEYNVE SIDGQPGAFT CYLDAGLART TTGNKVFGAL KGAVDGGLSI PHSTKRFPGY</td></tr><tr><td class="seq-num">181</td><td class="seq-data">DSESKEFNAE VHRKHIMGQN VADYMRYLME EDEDAYKKQF SQYIKNSVTP DMMEEMYKKA</td></tr><tr><td class="seq-num">241</td><td class="seq-data">HAAIRENPVY EKKPKKEVKK KRWNRPKMSL AQKKDRVAQK KASFLRAQER AAES</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AE - ribosomal protein eL6 (长度: 194)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">PVGGDKNGGT RVVKLRKMPR YYPTEDVPRK LLSHGKKPFS QHVRKLRASI TPGTILIILT</td></tr><tr><td class="seq-num">61</td><td class="seq-data">GRHRGKRVVF LKQLASGLLL VTGPLVLNRV PLRRTHQKFV IATSTKIDIS NVKIPKHLTD</td></tr><tr><td class="seq-num">121</td><td class="seq-data">AYFKKKKLRK PRHQEGEIFD TEKEKYEITE QRKIDQKAVD SQILPKIKAI PQLQGYLRSV</td></tr><tr><td class="seq-num">181</td><td class="seq-data">FALTNGIYPH KLVF</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AG - ribosomal protein eL8 (长度: 234)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">NPLFEKRPKN FGIGQDIQPK RDLTRFVKWP RYIRLQRQRA ILYKRLKVPP AINQFTQALD</td></tr><tr><td class="seq-num">61</td><td class="seq-data">RQTATQLLKL AHKYRPETKQ EKKQRLLARA EKKAAGKGDV PTKRPPVLRA GVNTVTTLVE</td></tr><tr><td class="seq-num">121</td><td class="seq-data">NKKAQLVVIA HDVDPIELVV FLPALCRKMG VPYCIIKGKA RLGRLVHRKT CTTVAFTQVN</td></tr><tr><td class="seq-num">181</td><td class="seq-data">SEDKGALAKL VEAIRTNYND RYDEIRRHWG GNVLGPKSVA RIAKLEKAKA KELA</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AH - ribosomal protein uL6 (长度: 191)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MKTILSNQTV DIPENVDITL KGRTVIVKGP RGTLRRDFNH INVELSLLGK KKKRLRVDKW</td></tr><tr><td class="seq-num">61</td><td class="seq-data">WGNRKELATV RTICSHVQNM IKGVTLGFRY KMRSVYAHFP INVVIQENGS LVEIRNFLGE</td></tr><tr><td class="seq-num">121</td><td class="seq-data">KYIRRVRMRP GVACSVSQAQ KDELILEGND IELVSNSAAL IQQATTVKNK DIRKFLDGIY</td></tr><tr><td class="seq-num">181</td><td class="seq-data">VSEKGTVQQA D</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AI - ribosomal protein uL16 (长度: 208)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">RRPARCYRYC KNKPYPKSRF CRGVPDAKIR IFDLGRKKAK VDEFPLCGHM VSDEYEQLSS</td></tr><tr><td class="seq-num">61</td><td class="seq-data">EALEAARICA NKYMVKSCGK DGFHIRVRLH PFHVIRINKM LSADRLQTGM RGAFGKPQGT</td></tr><tr><td class="seq-num">121</td><td class="seq-data">VARVHIGQVI MSIRTKLQNK EHVIEALRRA KFKFPGRQKI HISKKWGFTK FNADEFEDMV</td></tr><tr><td class="seq-num">181</td><td class="seq-data">AEKRLIPDGC GVKYIPNRGP LDKWRALH</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: B1 - 18S ribosomal RNA (长度: 1708)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">UACCUGGUUG AUCCUGCCAG UAGCAUAUGC UUGUCUCAAA GAUUAAGCCA UGCAUGUCUA</td></tr><tr><td class="seq-num">61</td><td class="seq-data">AGUACGCACG GCCGGUACAG UGAAACUGCG AAUGGCUCAU UAAAUCAGUU AUGGUUCCUU</td></tr><tr><td class="seq-num">121</td><td class="seq-data">UGGUCGACUU GGAUAACUGU GGUAAUUCUA GAGCUAAUAC AUGCCGACGG GCGCUGACCC</td></tr><tr><td class="seq-num">181</td><td class="seq-data">CCUUCGCGGG GGGGAUGCGU GCAUUUAUCA GAUCAAAACC AACCCGGGCU UUGGUGACUC</td></tr><tr><td class="seq-num">241</td><td class="seq-data">UAGAUAACCU CGGGCCGAUC GCACGCCCCC CGUGGCGGCG ACGACCCAUU CGAACGUCUG</td></tr><tr><td class="seq-num">301</td><td class="seq-data">CCCUAUCAAC UUUCGAUGGU AGUCGCCGUG CCUACCAUGG UGACCACGGG UGACGGGGAA</td></tr><tr><td class="seq-num">361</td><td class="seq-data">UCAGGGUUCG AUUCCGGAGA GGGAGCCUGA GAAACGGCUA CCACAUCCAA GGAAGGCAGC</td></tr><tr><td class="seq-num">421</td><td class="seq-data">AGGCGCGCAA AUUACCCACU CCCGACCCGG GGAGGUAGUG ACGAAAAAUA ACAAUACAGG</td></tr><tr><td class="seq-num">481</td><td class="seq-data">ACUCUUUCGA GGCCCUGUAA UUGGAAUGAG UCCACUUUAA AUCCUUUAAC GAGGAUCCAU</td></tr><tr><td class="seq-num">541</td><td class="seq-data">UGGAGGGCAA GUCUGGUGCC AGCAGCCGCG GUAAUUCCAG CUCCAAUAGC GUAUAUUAAA</td></tr><tr><td class="seq-num">601</td><td class="seq-data">GUUGCUGCAG UUAAAAAGCU CGUAGUUGGA UCUUGGGAGC GGCCCCUUGC CUCUCGCCCG</td></tr><tr><td class="seq-num">661</td><td class="seq-data">AAGCGUUUAC UUUGAAAAAA UUAGAGUGUU CAAAGCAGGC CCGAGCCGCC UGGAUACCGC</td></tr><tr><td class="seq-num">721</td><td class="seq-data">AGCUAGGAAU AAUGGAAUAG GACCGCGGUU CUAUUUUGUU GGUUUUCGGA ACUGAGGCCA</td></tr><tr><td class="seq-num">781</td><td class="seq-data">UGAUUAAGAG GGACGGCCGG GGGCAUUCGU AUUGCGCCGC UAGAGGUGAA AUUCUUGGAC</td></tr><tr><td class="seq-num">841</td><td class="seq-data">CGGCGCAAGA CGGACCAGAG CGAAAGCAUU UGCCAAGAAU GUUUUCAUUA AUCAAGAACG</td></tr><tr><td class="seq-num">901</td><td class="seq-data">AAAGUCGGAG GUUCGAAGAC GAUCAGAUAC CGUCGUAGUU CCGACCAUAA ACGAUGCCGA</td></tr><tr><td class="seq-num">961</td><td class="seq-data">CCGGCGAUGC GGCGGCGUUA UUCCCAUGAC CCGCCGGGCA GCUUCCGGGA AACCAAAGUC</td></tr><tr><td class="seq-num">1021</td><td class="seq-data">UUUGGGUUCC GGGGGGAGUA UGGUUGCAAA GCUGAAACUU AAAGGAAUUG ACGGAAGGGC</td></tr><tr><td class="seq-num">1081</td><td class="seq-data">ACCACCAGGA GUGGAGCCUG CGGCUUAAUU UGACUCAACA CGGGAAACCU CACCCGGCCC</td></tr><tr><td class="seq-num">1141</td><td class="seq-data">GGACACGGAC AGGAUUGACA GAUUGAUAGC UCUUUCUCGA UUCCGUGGGU GGUGGUGCAU</td></tr><tr><td class="seq-num">1201</td><td class="seq-data">GGCCGUUCUU AGUUGGUGGA GCGAUUUGUC UGGUUAAUUC CGAUAACGAA CGAGACUCUG</td></tr><tr><td class="seq-num">1261</td><td class="seq-data">GCAUGCUAAC UAGUUACGCG ACCCCCGAGC GGUAACUUCU UAGAGGGACA AGUGGCGUUC</td></tr><tr><td class="seq-num">1321</td><td class="seq-data">AGCCACCCGA GAUUGAGCAA UAACAGGUCU GUGAUGCCCU UAGAUGUCCG GGGCUGCACG</td></tr><tr><td class="seq-num">1381</td><td class="seq-data">CGCGCUACAC UGACUGGCUC AGCGUGUGCC UACCCUACGC CGGCAGGCGC GGGUAACCCG</td></tr><tr><td class="seq-num">1441</td><td class="seq-data">UUGAACCCCA UUCGUGAUGG GGAUCGGGGA UUGCAAUUAU UCCCCAUGAA CGAGGAAUUC</td></tr><tr><td class="seq-num">1501</td><td class="seq-data">CCAGUAAGUG CGGGUCAUAA GCUUGCGUUG AUUAAGUCCC UGCCCUUUGU ACACACCGCC</td></tr><tr><td class="seq-num">1561</td><td class="seq-data">CGUCGCUACU ACCGAUUGGA UGGUUUAGUG AGGCCCUCGG AUCGGCCCCG CCGUGGCGGA</td></tr><tr><td class="seq-num">1621</td><td class="seq-data">GCGCUGAGAA GACGGUCGAA CUUGACUAUC UAGAGGAAGU AAAAGUCGUA ACAAGGUUUC</td></tr><tr><td class="seq-num">1681</td><td class="seq-data">CGUAGGUGAA CCUGCGGAAG GAUCAUUA</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AJ - ribosomal protein uL5 (长度: 169)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">ENPMRELRIR KLCLNICVGE SGDRLTRAAK VLEQLTGQTP VFSKARYTVR SFGIRRNEKI</td></tr><tr><td class="seq-num">61</td><td class="seq-data">AVHCTVRGAK AEEILEKGLK VREYELRKNN FSDTGNFGFG IQEHIDLGIK YDPSIGIYGL</td></tr><tr><td class="seq-num">121</td><td class="seq-data">DFYVVLGRPG FSIADKKRRT GCIGAKHRIS KEEAMRWFQQ KYDGIILPG</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AL - ribosomal protein eL13 (长度: 205)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">APSRNGMVLK PHFHKDWQRR VATWFNQPAR KIRRRKARQA KARRIAPRPA SGPIRPIVRC</td></tr><tr><td class="seq-num">61</td><td class="seq-data">PTVRYHTKVR AGRGFSLEEL RVAGIHKKVA RTIGISVDPR RRNKSTESLQ ANVQRLKEYR</td></tr><tr><td class="seq-num">121</td><td class="seq-data">SKLILFPRKP SAPKKGDSSA EELKLATQLT GPVMPVRNVY KKEKARVITE EEKNFKAFAS</td></tr><tr><td class="seq-num">181</td><td class="seq-data">LRMARANARL FGIRAKRAKE AAEQD</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AM - ribosomal protein eL14 (长度: 139)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">VFRRFVEVGR VAYVSFGPHA GKLVAIVDVI DQNRALVDGP CTQVRRQAMP FKCMQLTDFI</td></tr><tr><td class="seq-num">61</td><td class="seq-data">LKFPHSAHQK YVRQAWQKAD INTKWAATRW AKKIEARERK AKMTDFDRFK VMKAKKMRNR</td></tr><tr><td class="seq-num">121</td><td class="seq-data">IIKNEVKKLQ KAALLKASP</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AO - ribosomal protein uL13 (长度: 195)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">QVLVLDGRGH LLGRLAAIVA KQVLLGRKVV VVRCEGINIS GNFYRNKLKY LAFLRKRMNT</td></tr><tr><td class="seq-num">61</td><td class="seq-data">NPSRGPYHFR APSRIFWRTV RGMLPHKTKR GQAALDRLKV FDGIPPPYDK KKRMVVPAAL</td></tr><tr><td class="seq-num">121</td><td class="seq-data">KVVRLKPTRK FAYLGRLAHE VGWKYQAVTA TLEEKRKEKA KIHYRKKKQL MRLRKQAEKN</td></tr><tr><td class="seq-num">181</td><td class="seq-data">VEKKIDKYTE VLKTH</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AP - ribosomal protein uL22 (长度: 153)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">VRYSLDPENP TKSCKSRGSN LRVHFKNTRE TAQAIKGMHI RKATKYLKDV TLQKQCVPFR</td></tr><tr><td class="seq-num">61</td><td class="seq-data">RYNGGVGRCA QAKQWGWTQG RWPKKSAEFL LHMLKNAESN AELKGLDVDS LVIEHIQVNK</td></tr><tr><td class="seq-num">121</td><td class="seq-data">APKMRRRTYR AHGRINPYMS SPCHIEMILT EKE</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AQ - ribosomal protein eL18 (长度: 187)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">GVDIRHNKDR KVRRKEPKSQ DIYLRLLVKL YRFLARRTNS TFNQVVLKRL FMSRTNRPPL</td></tr><tr><td class="seq-num">61</td><td class="seq-data">SLSRMIRKMK LPGRENKTAV VVGTITDDVR VQEVPKLKVC ALRVTSRARS RILRAGGKIL</td></tr><tr><td class="seq-num">121</td><td class="seq-data">TFDQLALDSP KGCGTVLLSG PRKGREVYRH FGKAPGTPHS HTKPYVRSKG RKFERARGRR</td></tr><tr><td class="seq-num">181</td><td class="seq-data">ASRGYKN</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AR - ribosomal protein eL19 (长度: 181)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">SMLRLQKRLA SSVLRCGKKK VWLDPNETNE IANANSRQQI RKLIKDGLII RKPVTVHSRA</td></tr><tr><td class="seq-num">61</td><td class="seq-data">RCRKNTLARR KGRHMGIGKR KGTANARMPE KVTWMRRMRI LRRLLRRYRE SKKIDRHMYH</td></tr><tr><td class="seq-num">121</td><td class="seq-data">SLYLKVKGNV FKNKRILMEH IHKLKADKAR KKLLADQAEA RRSKTKEARK RREERLQAKK</td></tr><tr><td class="seq-num">181</td><td class="seq-data">E</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AT - ribosomal protein eL21 (长度: 157)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">TNTKGKRRGT RYMFSRPFRK HGVVPLATYM RIYKKGDIVD IKGMGTVQKG MPHKCYHGKT</td></tr><tr><td class="seq-num">61</td><td class="seq-data">GRVYNVTQHA VGIVVNKQVK GKILAKRINV RIEHIKHSKS RDSFLKRVKE NDQKKKEAKE</td></tr><tr><td class="seq-num">121</td><td class="seq-data">KGTWVQLKRQ PAPPREAHFV RTNGKEPELL EPIPYEF</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BD - ribosomal protein uS3 (长度: 220)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">AVQISKKRKF VADGIFKAEL NEFLTRELAE DGYSGVEVRV TPTRTEIIIL ATRTQNVLGE</td></tr><tr><td class="seq-num">61</td><td class="seq-data">KGRRIRELTA VVQKRFGFPE GSVELYAEKV ATRGLCAIAQ AESLRYKLLG GLAVRRACYG</td></tr><tr><td class="seq-num">121</td><td class="seq-data">VLRFIMESGA KGCEVVVSGK LRGQRAKSMK FVDGLMIHSG DPVNYYVDTA VRHVLLRQGV</td></tr><tr><td class="seq-num">181</td><td class="seq-data">LGIKVKIMLP WDPTGKIGPK KPLPDHVSIV EPKDEILPTT</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AW - ribosomal protein eL24 (长度: 121)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">KVELCSFSGY KIYPGHGRRY ARTDGKVFQF LNAKCESAFL SKRNPRQINW TVLYRRKHKK</td></tr><tr><td class="seq-num">61</td><td class="seq-data">GQSEEIQKKR TRRAVKFQRA ITGASLADIM AKRNQKPEVR KAQREQAIRA AKEAKKAKQA</td></tr><tr><td class="seq-num">121</td><td class="seq-data">S</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AX - ribosomal protein uL23 (长度: 117)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">KIRTSPTFRR PKTLRLRRQP KYPRKSAPRR NKLDHYAIIK FPLTTESAMK KIEDNNTLVF</td></tr><tr><td class="seq-num">61</td><td class="seq-data">IVDVKANKHQ IKQAVKKLYD IDVAKVNTLI RPDGEKKAYV RLAPDYDALD VANKIGI</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AY - ribosomal protein uL24 (长度: 127)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MKFNPFVTSD RSKNRKRHFN APSHIRRKIM SSPLSKELRQ KYNVRSMPIR KDDEVQVVRG</td></tr><tr><td class="seq-num">61</td><td class="seq-data">HYKGQQIGKV VQVYRKKYVI YIERVQREKA NGTTVHVGIH PSKVVITRLK LDKDRKKILE</td></tr><tr><td class="seq-num">121</td><td class="seq-data">RKAKSRQ</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Aa - ribosomal protein uL15 (长度: 147)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">PSRLRKTRKL RGHVSHGHGR IGKHRKHPGG RGNAGGLHHH RINFDKYHPG YFGKVGMKHY</td></tr><tr><td class="seq-num">61</td><td class="seq-data">HLKRNQSFCP TVNLDKLWTL VSEQTRVNAA KNKTGAAPII DVVRSGYYKV LGKGKLPKQP</td></tr><tr><td class="seq-num">121</td><td class="seq-data">VIVKAKFFSR RAEEKIKSVG GACVLVA</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Ac - ribosomal protein eL30 (长度: 103)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">TKKSLESINS RLQLVMKSGK YVLGYKQTLK MIRQGKAKLV ILANNCPALR KSEIEYYAML</td></tr><tr><td class="seq-num">61</td><td class="seq-data">AKTGVHHYSG NNIELGTACG KYYRVCTLAI IDPGDSDIIR SMP</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Ad - ribosomal protein eL31 (长度: 106)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">NEVVTREYTI NIHKRIHGVG FKKRAPRALK EIRKFAMKEM GTPDVRIDTR LNKAVWAKGI</td></tr><tr><td class="seq-num">61</td><td class="seq-data">RNVPYRIRVR LSRKRNEDED SPNKLYTLVT YVPVTTFKNL QTVNVD</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Ae - ribosomal protein eL32 (长度: 129)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">AALRPLVKPK IVKKRTKKFI RHQSDRYVKI KRNWRKPRGI DNRVRRRFKG QILMPNIGYG</td></tr><tr><td class="seq-num">61</td><td class="seq-data">SNKKTKHMLP SGFRKFLVHN VKELEVLLMC NKSYCAEIAH NVSSKNRKAI VERAAQLAIR</td></tr><tr><td class="seq-num">121</td><td class="seq-data">VTNPNARLR</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Ag - ribosomal protein eL34 (长度: 114)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">VQRLTYRRRL SYNTASNKTR LSRTPGNRIV YLYTKKVGKA PKSACGVCPG RLRGVRAVRP</td></tr><tr><td class="seq-num">61</td><td class="seq-data">KVLMRLSKTK KHVSRAYGGS MCAKCVRDRI KRAFLIEEQK IVVKVLKAQA QSQK</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Ah - ribosomal protein uL29 (长度: 122)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">AKIKARDLRG KKKEELLKQL DDLKVELSQL RVAKVTGGAA SKLSKIRVVR KSIARVLTVI</td></tr><tr><td class="seq-num">61</td><td class="seq-data">NQTQKENLRK FYKGKKYKPL DLRPKKTRAM RRRLNKHEEN LKTKKQQRKE RLYPLRKYAV</td></tr><tr><td class="seq-num">121</td><td class="seq-data">KA</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Ai - ribosomal protein eL36 (长度: 97)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">YPMAVGLNKG HKVTKNVSKP RHSRRRGRLT KHTKFVRDMI REVCGFAPYE RRAMELLKVS</td></tr><tr><td class="seq-num">61</td><td class="seq-data">KDKRALKFIK KRVGTHIRAK RKREELSNVL AAMRKAA</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Aj - ribosomal protein eL37 (长度: 84)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">TKGTSSFGKR RNKTHTLCRR CGSKAYHLQK STCGKCGYPA KRKRKYNWSA KAKRRNTTGT</td></tr><tr><td class="seq-num">61</td><td class="seq-data">GRMRHLKIVY RRFRHGFREG TTPK</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Al - ribosomal protein eL39 (长度: 50)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">SSHKTFRIKR FLAKKQKQNR PIPQWIRMKT GNKIRYNSKR RHWRRTKLGL</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: An - ribosomal protein eL41 (长度: 25)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MRAKWRKKRM RRLKRKRRKM RQRSK</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BK - ribosomal protein eS10 (长度: 98)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MLMPKKNRIA IYELLFKEGV MVAKKDVHMP KHPELADKNV PNLHVMKAMQ SLKSRGYVKE</td></tr><tr><td class="seq-num">61</td><td class="seq-data">QFAWRHFYWY LTNEGIQYLR DYLHLPPEIV PATLRRSR</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Ao - ribosomal protein eL42 (长度: 105)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">VNVPKTRRTF CKKCGKHQPH KVTQYKKGKD SLYAQGKRRY DRKQSGYGGQ TKPIFRKKAK</td></tr><tr><td class="seq-num">61</td><td class="seq-data">TTKKIVLRLE CVEPNCRSKR MLAIKRCKHF ELGGDKKRKG QVIQF</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Ap - ribosomal protein eL43 (长度: 91)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">AKRTKKVGIV GKYGTRYGAS LRKMVKKIEI SQHAKYTCSF CGKTKMKRRA VGIWHCGSCM</td></tr><tr><td class="seq-num">61</td><td class="seq-data">KTVAGGAWTY NTTSAVTVKS AIRRLKELKD Q</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Au - ribosomal protein uL1 (长度: 217)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MSSKVSRDTL YEAVREVLHG NQRKRRKFLE TVELQISLKN YDPQKDKRFS GTVRLKSTPR</td></tr><tr><td class="seq-num">61</td><td class="seq-data">PKFSVCVLGD QQHCDEAKAV DIPHMDIEAL KKLNKNKKLV KKLAKKYDAF LASESLIKQI</td></tr><tr><td class="seq-num">121</td><td class="seq-data">PRILGPGLNK AGKFPSLLTH NENMVAKVDE VKSTIKFQMK KVLCLAVAVG HVKMTDDELV</td></tr><tr><td class="seq-num">181</td><td class="seq-data">YNIHLAVNFL VSLLKKNWQN VRALYIKSTM GKPQRLY</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Aq - ribosomal protein uL11 (长度: 151)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">VYLRCTGGEV GATSALAPKI GPLGLSPKKV GDDIAKATGD WKGLRITVKL TIQNRQAQIE</td></tr><tr><td class="seq-num">61</td><td class="seq-data">VVPSASALII KALKEPPRDR KKQKNIKHSG NITFDEIVNI ARQMRHRSLA RELSGTIKEI</td></tr><tr><td class="seq-num">121</td><td class="seq-data">LGTAQSVGCN VDGRHPHDII DDINSGAVEC P</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: AK - ribosomal protein uL10 (长度: 202)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">DRATWKSNYF LKIIQLLDDY PKCFIVGADN VGSKQMQQIR MSLRGKAVVL MGKNTMMRKA</td></tr><tr><td class="seq-num">61</td><td class="seq-data">IRGHLENNPA LEKLLPHIRG NVGFVFTKED LTEIRDMLRA NKVPAAARAG AIAPCEVTVP</td></tr><tr><td class="seq-num">121</td><td class="seq-data">AQNTGLGPEK TSFFQALGIT TKISRGTIEI LSDVQLIKTG DKVGASEATL LNMLNISPFS</td></tr><tr><td class="seq-num">181</td><td class="seq-data">FGLVIQQVFD NGSIYNPEVL DI</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: BM - ribosomal protein eS12 (长度: 120)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">VMDVNTALQE VLKTALIHDG LARGIREAAK ALDKRQAHLC VLASNCDEPM YVKLVEALCA</td></tr><tr><td class="seq-num">61</td><td class="seq-data">EHQINLIKVD DNKKLGEWVG LCKIDREGKP RKVVGCSCVV VKDYGKESQA KDVIEEYFKC</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        参考文献
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="citations-container">
+<div class="citation-item"><p class="citation-title">tRNA Translocation by the Eukaryotic 80S Ribosome and the Impact of GTP Hydrolysis.</p><p class="citation-authors">Flis, J., Holm, M., Rundlet, E.J., Loerke, J., Hilal, T., Dabrowski, M., Burger, J., Mielke, T., Blanchard, S.C., Spahn, C.M.T., Budkevich, T.V.</p><p class="citation-journal"><em>Cell Rep</em>, 2018</p><p class="citation-links"><a href="https://pubmed.ncbi.nlm.nih.gov/30517857/" target="_blank">PubMed: 30517857</a> | <a href="https://doi.org/10.1016/j.celrep.2018.11.040" target="_blank">DOI: 10.1016/j.celrep.2018.11.040</a></p></div>
+    </div>
+</section>
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        配体信息
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>名称</th>
+                    <th>化学式</th>
+                    <th>分子量</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>MG</td><td>MAGNESIUM ION</td><td>Mg</td><td>24.305</td></tr>
+<tr><td>ZN</td><td>ZINC ION</td><td>Zn</td><td>65.409</td></tr>
+<tr><td>GNP</td><td>PHOSPHOAMINOPHOSPHONIC ACID-GUANYLATE ESTER</td><td>C10 H17 N6 O13 P3</td><td>522.196</td></tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        生物组装
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="assemblies-container">
+        <div class="assembly-item"><p><strong>组装 ID:</strong> 1</p><p><strong>详情:</strong> author_defined_assembly</p><p><strong>寡聚状态:</strong> Hetero 79-mer</p><p><strong>化学计量:</strong> AA1, AB1, AC1, AD1, AE1, AF1, AG1, AH1, AI1, AJ1, AK1, AL1, AM1, AN1, AO1, AP1, AQ1, AR1, AS1, AT1, AU1, AV1, AW1, AX1, AY1, AZ1, Aa1, Ab1, Ac1, Ad1, Ae1, Af1, Ag1, Ah1, Ai1, Aj1, Ak1, Al1, Am1, An1, Ao1, Ap1, Aq1, Ar1, As1, At1, Au1, Av1, Aw1, Ax1, Ay1, Az1, BA1, BB1, BC1, BD1, BE1, BF1, BG1, BH1, BI1, BJ1, BK1, BL1, BM1, BN1, BO1, BP1, BQ1, BR1, BS1, BT1, BU1, BV1, BW1, BX1, BY1, BZ1, Ba1</p></div>
+    </div>
+</section>
+
+        <section class="info-section">
+            <h2 class="collapsible">
+                3D 结构可视化
+                <span class="section-toggle-arrow"></span>
+            </h2>
+            <div class="full-width-viewer-container">
+                <div id="myViewer"></div>
+            </div>
+        </section>
+
+        <script type="text/javascript">
+            var viewerInstance = new PDBeMolstarPlugin();
+            var options = {
+                customData: {
+                    url: 'https://files.rcsb.org/download/6GZ5.cif',
+                    format: 'cif'
+                },
+                moleculeId: '6GZ5',
+                alphafoldView: true,
+                bgColor: { r: 30, g: 30, b: 30 },
+                hideControls: true,
+                subscribeEvents: true
+            }
+            var viewerContainer = document.getElementById('myViewer');
+            viewerInstance.render(viewerContainer, options);
+            
+            // 添加折叠/展开功能
+            document.querySelectorAll('.collapsible').forEach(header => {
+                const content = header.nextElementSibling;
+                if (!content) return;
+                
+                const headerText = header.innerText || header.textContent;
+
+                // 默认折叠，但"基本信息"和"3D 结构可视化"默认展开
+                if (!headerText.includes('基本信息') && !headerText.includes('3D 结构可视化')) {
+                    header.classList.add('collapsed');
+                    content.style.display = 'none';
+                }
+
+                header.addEventListener('click', () => {
+                    header.classList.toggle('collapsed');
+                    if (header.classList.contains('collapsed')) {
+                        content.style.display = 'none';
+                    } else {
+                        content.style.display = 'block';
+                    }
+                });
+            });
+        </script>
+    </div>
+    
+    <script src="../static/js/protein_detail.js"></script>
+</body>
+</html>

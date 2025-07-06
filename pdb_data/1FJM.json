@@ -1,0 +1,2888 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "1FJM",
+      "entry": {
+        "id": "1FJM"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00001fjm"
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "pubmed_id": 7651533,
+        "emdb_ids": null,
+        "assembly_ids": [
+          "1",
+          "2"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "2",
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB",
+            "structure factors",
+            "assembly mmCIF",
+            "assembly PDB",
+            "validation fo-fc coefficients",
+            "validation data mmCIF",
+            "validation 2fo-fc coefficients",
+            "validation report",
+            "validation slider image"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "Y"
+      },
+      "struct": {
+        "title": "Protein serine/threonine phosphatase-1 (alpha isoform, type 1) complexed with microcystin-LR toxin"
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": "10.1038/376745a0"
+      },
+      "pubmed": {
+        "rcsb_pubmed_container_identifiers": {
+          "pubmed_id": 7651533
+        },
+        "rcsb_pubmed_central_id": null,
+        "rcsb_pubmed_doi": "10.1038/376745a0",
+        "rcsb_pubmed_abstract_text": "The crystal structure of mammalian protein phosphatase-1, complexed with the toxin microcystin and determined at 2.1 A resolution, reveals that it is a metalloenzyme unrelated in architecture to the tyrosine phosphatases. Two metal ions are positioned by a central beta-alpha-beta-alpha-beta scaffold at the active site, from which emanate three surface grooves that are potential binding sites for substrates and inhibitors. The carboxy terminus is positioned at the end of one of the grooves such that regulatory sequences following the domain might modulate function. The fold of the catalytic domain is expected to be closely preserved in protein phosphatases 2A and 2B (calcineurin).",
+        "rcsb_pubmed_affiliation_info": [
+          "Howard Hughes Medical Institute, Rockefeller University, New York, New York 10021, USA."
+        ]
+      },
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": null,
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "HYDROLASE/HYDROLASE INHIBITOR",
+        "text": "HYDROLASE, TOXIN, HYDROLASE-HYDROLASE INHIBITOR complex"
+      },
+      "exptl": [
+        {
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "cell": {
+        "length_a": 64.74,
+        "length_b": 77.11,
+        "length_c": 130.79,
+        "angle_alpha": 90.0,
+        "angle_beta": 90.0,
+        "angle_gamma": 90.0
+      },
+      "symmetry": {
+        "space_group_name_H_M": "P 21 21 21"
+      },
+      "software": [
+        {
+          "classification": "model building",
+          "name": "X-PLOR"
+        },
+        {
+          "classification": "refinement",
+          "name": "X-PLOR"
+        },
+        {
+          "classification": "phasing",
+          "name": "X-PLOR"
+        }
+      ],
+      "rcsb_accession_info": {
+        "deposit_date": "1995-12-17T00:00:00Z",
+        "initial_release_date": "1996-06-20T00:00:00Z",
+        "major_revision": 2,
+        "minor_revision": 0
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "1996-06-20T00:00:00Z"
+        },
+        {
+          "ordinal": 2,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 1,
+          "revision_date": "2008-03-24T00:00:00Z"
+        },
+        {
+          "ordinal": 3,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 2,
+          "revision_date": "2011-07-13T00:00:00Z"
+        },
+        {
+          "ordinal": 4,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 3,
+          "revision_date": "2012-12-12T00:00:00Z"
+        },
+        {
+          "ordinal": 5,
+          "data_content_type": "Structure model",
+          "major_revision": 2,
+          "minor_revision": 0,
+          "revision_date": "2023-11-15T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        }
+      ],
+      "pdbx_audit_revision_group": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Version format compliance"
+        },
+        {
+          "ordinal": 2,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 3,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Derived calculations"
+        },
+        {
+          "ordinal": 4,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Non-polymer description"
+        },
+        {
+          "ordinal": 5,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Version format compliance"
+        },
+        {
+          "ordinal": 6,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Other"
+        },
+        {
+          "ordinal": 7,
+          "revision_ordinal": 5,
+          "data_content_type": "Structure model",
+          "group": "Advisory"
+        },
+        {
+          "ordinal": 8,
+          "revision_ordinal": 5,
+          "data_content_type": "Structure model",
+          "group": "Atomic model"
+        },
+        {
+          "ordinal": 9,
+          "revision_ordinal": 5,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 10,
+          "revision_ordinal": 5,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 11,
+          "revision_ordinal": 5,
+          "data_content_type": "Structure model",
+          "group": "Derived calculations"
+        },
+        {
+          "ordinal": 12,
+          "revision_ordinal": 5,
+          "data_content_type": "Structure model",
+          "group": "Other"
+        }
+      ],
+      "pdbx_database_related": null,
+      "audit_author": [
+        {
+          "name": "Goldberg, J."
+        },
+        {
+          "name": "Nairn, A.C."
+        },
+        {
+          "name": "Kuriyan, J."
+        }
+      ],
+      "pdbx_audit_support": null,
+      "pdbx_initial_refinement_model": null,
+      "refine": [
+        {
+          "pdbx_refine_id": "X-RAY DIFFRACTION",
+          "ls_d_res_high": 2.1,
+          "ls_R_factor_R_work": 0.178,
+          "ls_R_factor_R_free": null,
+          "ls_R_factor_obs": 0.178
+        }
+      ],
+      "pdbx_vrpt_summary_diffraction": [
+        {
+          "DCC_R": 0.18,
+          "DCC_Rfree": null
+        }
+      ],
+      "pdbx_nmr_ensemble": null,
+      "em_experiment": null,
+      "em_3d_reconstruction": null,
+      "em_software": null,
+      "citation": [
+        {
+          "id": "primary",
+          "title": "Three-dimensional structure of the catalytic subunit of protein serine/threonine phosphatase-1.",
+          "rcsb_journal_abbrev": "Nature",
+          "rcsb_authors": [
+            "Goldberg, J.",
+            "Huang, H.B.",
+            "Kwon, Y.G.",
+            "Greengard, P.",
+            "Nairn, A.C.",
+            "Kuriyan, J."
+          ],
+          "year": 1995,
+          "journal_volume": "376",
+          "page_first": "745",
+          "page_last": "753",
+          "pdbx_database_id_PubMed": 7651533,
+          "pdbx_database_id_DOI": "10.1038/376745a0"
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 1,
+        "representative_model": null,
+        "molecular_weight": 77.52,
+        "deposited_atom_count": 5004,
+        "deposited_polymer_monomer_count": 674,
+        "deposited_modeled_polymer_monomer_count": 597,
+        "deposited_unmodeled_polymer_monomer_count": 77,
+        "polymer_entity_count_protein": 2,
+        "polymer_entity_count_nucleic_acid": 0,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": null,
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "1FJM",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "3.60.21.10"
+                },
+                {
+                  "type": "SCOP",
+                  "annotation_id": "d1fjma_"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8024512"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8036891"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e1fjmA1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "G"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "B",
+                "asym_id": "B",
+                "entry_id": "1FJM",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "3.60.21.10"
+                },
+                {
+                  "type": "SCOP",
+                  "annotation_id": "d1fjmb_"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8036891"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e1fjmB1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "J"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "H"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "H"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "H"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "H"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "1FJM",
+            "entity_id": "1",
+            "asym_ids": [
+              "A",
+              "B"
+            ],
+            "auth_asym_ids": [
+              "A",
+              "B"
+            ],
+            "uniprot_ids": [
+              "P62139"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "P62139"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "P62139",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Oryctolagus cuniculus"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "PROTEIN SERINE/THREONINE PHOSPHATASE-1 (ALPHA ISOFORM, TYPE 1)",
+            "rcsb_ec_lineage": [
+              {
+                "id": "3"
+              },
+              {
+                "id": "3.1"
+              },
+              {
+                "id": "3.1.3"
+              },
+              {
+                "id": "3.1.3.16"
+              }
+            ],
+            "pdbx_ec": "3.1.3.16",
+            "rcsb_enzyme_class_combined": [
+              {
+                "ec": "3.1.3.16",
+                "provenance_source": "PDB Primary Data"
+              }
+            ]
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "nucleus",
+                  "depth": null
+                },
+                {
+                  "name": "membrane-enclosed lumen",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "nucleolus",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle lumen",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "organelle lumen",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "nuclear lumen",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "enzyme regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "protein phosphatase activator activity",
+                  "depth": null
+                },
+                {
+                  "name": "enzyme activator activity",
+                  "depth": null
+                },
+                {
+                  "name": "phosphatase activator activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular function activator activity",
+                  "depth": null
+                },
+                {
+                  "name": "phosphatase regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular function regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "protein phosphatase regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "phosphatase complex",
+                  "depth": null
+                },
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "protein phosphatase type 1 complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic complex",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "protein serine/threonine phosphatase complex",
+                  "depth": null
+                },
+                {
+                  "name": "PTW/PP1 phosphatase complex",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "phosphatase complex",
+                  "depth": null
+                },
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "protein phosphatase type 1 complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic complex",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "protein serine/threonine phosphatase complex",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "lipid binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "fatty acid derivative binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "phosphoric ester hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "phosphoprotein phosphatase activity",
+                  "depth": null
+                },
+                {
+                  "name": "protein serine/threonine phosphatase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a protein",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity, acting on ester bonds",
+                  "depth": null
+                },
+                {
+                  "name": "phosphatase activity",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "rhythmic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "circadian rhythm",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of circadian rhythm",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "phosphoric ester hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "phosphoprotein phosphatase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a protein",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity, acting on ester bonds",
+                  "depth": null
+                },
+                {
+                  "name": "phosphatase activity",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cation binding",
+                  "depth": null
+                },
+                {
+                  "name": "transition metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "cell division",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein dephosphorylation",
+                  "depth": null
+                },
+                {
+                  "name": "dephosphorylation",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule modification",
+                  "depth": null
+                },
+                {
+                  "name": "phosphate-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "protein metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "protein modification process",
+                  "depth": null
+                },
+                {
+                  "name": "phosphorus metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "post-transcriptional regulation of gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of translation in response to stress",
+                  "depth": null
+                },
+                {
+                  "name": "cellular response to stress",
+                  "depth": null
+                },
+                {
+                  "name": "response to stress",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "translational initiation",
+                  "depth": null
+                },
+                {
+                  "name": "protein metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of translational initiation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of protein metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "translation",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of translation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of translational initiation in response to stress",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Calcineurin-like, phosphoesterase domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "transcription elongation by RNA polymerase II",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "RNA metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of transcription elongation by RNA polymerase II",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of RNA biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "RNA biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "DNA-templated transcription",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of RNA metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "transcription by RNA polymerase II",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of nucleobase-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of nucleobase-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of RNA biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of DNA-templated transcription elongation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of DNA-templated transcription",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of transcription elongation by RNA polymerase II",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of DNA-templated transcription, elongation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "DNA-templated transcription elongation",
+                  "depth": null
+                },
+                {
+                  "name": "biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of DNA-templated transcription",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of RNA metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "phosphoric ester hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity, acting on ester bonds",
+                  "depth": null
+                },
+                {
+                  "name": "phosphatase activity",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "nucleus",
+                  "depth": null
+                },
+                {
+                  "name": "membrane-enclosed lumen",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle lumen",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "nucleoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "organelle lumen",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "nuclear lumen",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "regulation of biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "rhythmic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "circadian regulation of gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "circadian rhythm",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Serine/threonine-protein phosphatase PP1 catalytic subunit",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "rhythmic process",
+                  "depth": null
+                },
+                {
+                  "name": "response to light stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "entrainment of circadian clock",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "circadian rhythm",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "response to external stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of circadian rhythm",
+                  "depth": null
+                },
+                {
+                  "name": "photoperiodism",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "response to radiation",
+                  "depth": null
+                },
+                {
+                  "name": "response to abiotic stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "entrainment of circadian clock by photoperiod",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "post-transcriptional regulation of gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "translational initiation",
+                  "depth": null
+                },
+                {
+                  "name": "protein metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of translational initiation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of protein metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "translation",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of translation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cation binding",
+                  "depth": null
+                },
+                {
+                  "name": "transition metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "iron ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Serine-threonine protein phosphatase, N-terminal",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Metallo-dependent phosphatase-like",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "promoter clearance during DNA-templated transcription",
+                  "depth": null
+                },
+                {
+                  "name": "RNA metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "RNA polymerase II promoter clearance",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "RNA biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "DNA-templated transcription",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "transcription by RNA polymerase II",
+                  "depth": null
+                },
+                {
+                  "name": "biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cell communication",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of signal transduction",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "signaling",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of canonical Wnt signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "canonical Wnt signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of signal transduction",
+                  "depth": null
+                },
+                {
+                  "name": "cell communication",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of Wnt signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "signal transduction",
+                  "depth": null
+                },
+                {
+                  "name": "Wnt signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of canonical Wnt signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of signaling",
+                  "depth": null
+                },
+                {
+                  "name": "cell surface receptor signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of Wnt signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cell communication",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of signaling",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "transcription elongation by RNA polymerase II",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of DNA-templated transcription",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of transcription elongation by RNA polymerase II",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "RNA metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "RNA biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "DNA-templated transcription",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of RNA metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "transcription by RNA polymerase II",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of DNA-templated transcription, elongation",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of nucleobase-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of RNA biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of transcription by RNA polymerase II",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of DNA-templated transcription elongation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of nucleobase-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of transcription elongation by RNA polymerase II",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of transcription by RNA polymerase II",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of RNA metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "DNA-templated transcription elongation",
+                  "depth": null
+                },
+                {
+                  "name": "biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of RNA biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of DNA-templated transcription",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Serine/threonine-specific protein phosphatase/bis(5-nucleosyl)-tetraphosphatase",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "phosphoric ester hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "protein serine/threonine phosphatase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a protein",
+                  "depth": null
+                },
+                {
+                  "name": "phosphatase activity",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "phosphoprotein phosphatase activity",
+                  "depth": null
+                },
+                {
+                  "name": "RNA polymerase II CTD heptapeptide repeat modifying activity",
+                  "depth": null
+                },
+                {
+                  "name": "RNA polymerase II CTD heptapeptide repeat phosphatase activity",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity, acting on ester bonds",
+                  "depth": null
+                },
+                {
+                  "name": "RNA polymerase II CTD heptapeptide repeat S5 phosphatase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "carbohydrate metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "energy derivation by oxidation of organic compounds",
+                  "depth": null
+                },
+                {
+                  "name": "glycogen metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "generation of precursor metabolites and energy",
+                  "depth": null
+                },
+                {
+                  "name": "glucan metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "polysaccharide metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "energy reserve metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "417_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "526_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "458_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "233_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "449_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "3189_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "P62139",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "MSDSEKLNLDSIIGRLLEVQGSRPGKNVQLTENEIRGLCLKSREIFLSQPILLELEAPLKICGDIHGQYYDLLRLFEYGGFPPESNYLFLGDYVDRGKQSLETICLLLAYKIKYPENFFLLRGNHECASINRIYGFYDECKRRYNIKLWKTFTDCFNCLPIAAIVDEKIFCCHGGLSPDLQSMEQIRRIMRPTDVPDQGLLCDLLWSDPDKDVQGWGENDRGVSFTFGAEVVAKFLHKHDLDLICRAHQVVEDGYEFFAKRQLVTLFSAPNYCGEFDNAGAMMSVDETLMCSFQILKPADKNKGKYGQFSGLNPGGRPITPPRNSAKAKK",
+            "rcsb_sample_sequence_length": 330,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Oryctolagus cuniculus",
+              "ncbi_scientific_name": "Oryctolagus cuniculus",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "M",
+                "asym_id": "C",
+                "entry_id": "1FJM",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "N",
+                "asym_id": "D",
+                "entry_id": "1FJM",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "1FJM",
+            "entity_id": "2",
+            "asym_ids": [
+              "C",
+              "D"
+            ],
+            "auth_asym_ids": [
+              "M",
+              "N"
+            ],
+            "uniprot_ids": null,
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "NOR00109"
+              }
+            ]
+          },
+          "uniprots": null,
+          "rcsb_polymer_entity": {
+            "pdbx_description": "microcystin LR",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": null,
+          "rcsb_polymer_entity_group_membership": null,
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "ALDRXEX",
+            "rcsb_sample_sequence_length": 7,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Microcystis aeruginosa",
+              "ncbi_scientific_name": "Microcystis aeruginosa",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": {
+            "rcsb_id": "PRD_000212",
+            "pdbx_reference_molecule": {
+              "prd_id": "PRD_000212",
+              "chem_comp_id": null,
+              "name": "Microcystin LR",
+              "type": "Oligopeptide",
+              "class": "Toxin"
+            }
+          },
+          "chem_comp_nstd_monomers": [
+            {
+              "chem_comp": {
+                "id": "1ZN",
+                "name": "(2S,3S,4E,6E,8S,9S)-3-amino-9-methoxy-2,6,8-trimethyl-10-phenyldeca-4,6-dienoic acid",
+                "formula": "C20 H29 N O3",
+                "type": "peptide-like",
+                "mon_nstd_parent_comp_id": null
+              }
+            },
+            {
+              "chem_comp": {
+                "id": "ACB",
+                "name": "3-METHYL-BETA-D-ASPARTIC ACID",
+                "formula": "C5 H9 N O4",
+                "type": "D-beta-peptide, C-gamma linking",
+                "mon_nstd_parent_comp_id": null
+              }
+            },
+            {
+              "chem_comp": {
+                "id": "DAL",
+                "name": "D-ALANINE",
+                "formula": "C3 H7 N O2",
+                "type": "D-peptide linking",
+                "mon_nstd_parent_comp_id": null
+              }
+            },
+            {
+              "chem_comp": {
+                "id": "DAM",
+                "name": "N-METHYL-ALPHA-BETA-DEHYDROALANINE",
+                "formula": "C4 H7 N O2",
+                "type": "peptide linking",
+                "mon_nstd_parent_comp_id": null
+              }
+            },
+            {
+              "chem_comp": {
+                "id": "FGA",
+                "name": "GAMMA-D-GLUTAMIC ACID",
+                "formula": "C5 H9 N O4",
+                "type": "D-gamma-peptide, C-delta linking",
+                "mon_nstd_parent_comp_id": null
+              }
+            }
+          ]
+        }
+      ],
+      "nonpolymer_entities": [
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "1FJM",
+            "entity_id": "3",
+            "auth_asym_ids": [
+              "A",
+              "B"
+            ],
+            "asym_ids": [
+              "E",
+              "F",
+              "H",
+              "I"
+            ],
+            "nonpolymer_comp_id": "MN"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "400",
+                "auth_asym_id": "A",
+                "asym_id": "E",
+                "entry_id": "1FJM",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9992,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "401",
+                "auth_asym_id": "A",
+                "asym_id": "F",
+                "entry_id": "1FJM",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9941,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "401",
+                "auth_asym_id": "B",
+                "asym_id": "I",
+                "entry_id": "1FJM",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9723,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "400",
+                "auth_asym_id": "B",
+                "asym_id": "H",
+                "entry_id": "1FJM",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9897,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "MANGANESE (II) ION"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "MN",
+              "formula_weight": 54.938,
+              "name": "MANGANESE (II) ION",
+              "formula": "Mn"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "WAEMQWOKJMHJLA-UHFFFAOYSA-N"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "1FJM",
+            "entity_id": "4",
+            "auth_asym_ids": [
+              "A",
+              "B"
+            ],
+            "asym_ids": [
+              "G",
+              "J"
+            ],
+            "nonpolymer_comp_id": "BME"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "399",
+                "auth_asym_id": "B",
+                "asym_id": "J",
+                "entry_id": "1FJM",
+                "entity_id": "4"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.852,
+                  "ranking_model_geometry": 0.837,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "399",
+                "auth_asym_id": "A",
+                "asym_id": "G",
+                "entry_id": "1FJM",
+                "entity_id": "4"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.5609,
+                  "ranking_model_geometry": 0.9204,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "BETA-MERCAPTOETHANOL"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "BME",
+              "formula_weight": 78.133,
+              "name": "BETA-MERCAPTOETHANOL",
+              "formula": "C2 H6 O S"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "DGVVWUTYPXICAM-UHFFFAOYSA-N"
+            }
+          }
+        }
+      ],
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_defined_assembly",
+            "method_details": null,
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": null,
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Asymmetric",
+              "symbol": "C1",
+              "oligomeric_state": "Monomer",
+              "stoichiometry": [
+                "A1"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 301
+          }
+        },
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "2"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_defined_assembly",
+            "method_details": null,
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": null,
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Asymmetric",
+              "symbol": "C1",
+              "oligomeric_state": "Monomer",
+              "stoichiometry": [
+                "A1"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 296
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,931 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "1XUT",
+      "entry": {
+        "id": "1XUT"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00001xut"
+        },
+        {
+          "database_id": "RCSB",
+          "pdbx_database_accession": null
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1"
+        ],
+        "pubmed_id": 15542592,
+        "emdb_ids": null,
+        "assembly_ids": [
+          "1"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB",
+            "NMR restraints V1",
+            "NMR restraints V2",
+            "assembly mmCIF",
+            "assembly PDB",
+            "validation slider image",
+            "validation report",
+            "validation data mmCIF"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "Y"
+      },
+      "struct": {
+        "title": "Solution structure of TACI-CRD2"
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": "10.1074/jbc.M411714200"
+      },
+      "pubmed": {
+        "rcsb_pubmed_container_identifiers": {
+          "pubmed_id": 15542592
+        },
+        "rcsb_pubmed_central_id": null,
+        "rcsb_pubmed_doi": "10.1074/jbc.M411714200",
+        "rcsb_pubmed_abstract_text": "TACI is a member of the tumor necrosis factor receptor superfamily and serves as a key regulator of B cell function. TACI binds two ligands, APRIL and BAFF, with high affinity and contains two cysteine-rich domains (CRDs) in its extracellular region; in contrast, BCMA and BR3, the other known high affinity receptors for APRIL and BAFF, respectively, contain only a single or partial CRD. However, another form of TACI exists wherein the N-terminal CRD is removed by alternative splicing. We find that this shorter form is capable of ligand-induced cell signaling and that the second CRD alone (TACI_d2) contains full affinity for both ligands. Furthermore, we report the solution structure and alanine-scanning mutagenesis of TACI_d2 along with co-crystal structures of APRIL.TACI_d2 and APRIL.BCMA complexes that together reveal the mechanism by which TACI engages high affinity ligand binding through a single CRD, and we highlight sources of ligand-receptor specificity within the APRIL/BAFF system.",
+        "rcsb_pubmed_affiliation_info": [
+          "Department of Protein Engineering, Molecular Oncology, Medicinal Chemistry, and Immunology, Genentech, Inc., South San Francisco, California 94080, USA."
+        ]
+      },
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": [
+        {
+          "id": "6384",
+          "type": "BMRB",
+          "link": "https://bmrb.io/data_library/generate_summary.php?bmrbId=6384"
+        }
+      ],
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "CYTOKINE Receptor",
+        "text": "TNF Receptor, cytokine, cysteine-rich domain, receptor, CYTOKINE Receptor"
+      },
+      "exptl": [
+        {
+          "method": "SOLUTION NMR"
+        }
+      ],
+      "cell": null,
+      "symmetry": null,
+      "software": null,
+      "rcsb_accession_info": {
+        "deposit_date": "2004-10-26T00:00:00Z",
+        "initial_release_date": "2004-11-09T00:00:00Z",
+        "major_revision": 1,
+        "minor_revision": 4
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "2004-11-09T00:00:00Z"
+        },
+        {
+          "ordinal": 2,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 1,
+          "revision_date": "2008-04-30T00:00:00Z"
+        },
+        {
+          "ordinal": 3,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 2,
+          "revision_date": "2011-07-13T00:00:00Z"
+        },
+        {
+          "ordinal": 4,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 3,
+          "revision_date": "2022-03-02T00:00:00Z"
+        },
+        {
+          "ordinal": 5,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 4,
+          "revision_date": "2024-10-30T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        }
+      ],
+      "pdbx_audit_revision_group": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Version format compliance"
+        },
+        {
+          "ordinal": 2,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Version format compliance"
+        },
+        {
+          "ordinal": 3,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 4,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 5,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Derived calculations"
+        },
+        {
+          "ordinal": 6,
+          "revision_ordinal": 5,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 7,
+          "revision_ordinal": 5,
+          "data_content_type": "Structure model",
+          "group": "Structure summary"
+        }
+      ],
+      "pdbx_database_related": [
+        {
+          "content_type": "unspecified",
+          "db_id": "1XU1",
+          "details": "Crystal Structure of APRIL bound to TACI",
+          "db_name": "PDB"
+        },
+        {
+          "content_type": "unspecified",
+          "db_id": "1XU2",
+          "details": null,
+          "db_name": "PDB"
+        }
+      ],
+      "audit_author": [
+        {
+          "name": "Hymowitz, S.G."
+        },
+        {
+          "name": "Patel, D.R."
+        },
+        {
+          "name": "Wallweber, H.J."
+        },
+        {
+          "name": "Runyon, S."
+        },
+        {
+          "name": "Yan, M."
+        },
+        {
+          "name": "Yin, J."
+        },
+        {
+          "name": "Shriver, S.K."
+        },
+        {
+          "name": "Gordon, N.C."
+        },
+        {
+          "name": "Pan, B."
+        },
+        {
+          "name": "Skelton, N.J."
+        },
+        {
+          "name": "Kelley, R.F."
+        },
+        {
+          "name": "Starovasnik, M.A."
+        }
+      ],
+      "pdbx_audit_support": null,
+      "pdbx_initial_refinement_model": null,
+      "refine": null,
+      "pdbx_vrpt_summary_diffraction": null,
+      "pdbx_nmr_ensemble": {
+        "conformers_calculated_total_number": 100,
+        "conformers_submitted_total_number": 20,
+        "conformer_selection_criteria": "structures with the least restraint violations"
+      },
+      "em_experiment": null,
+      "em_3d_reconstruction": null,
+      "em_software": null,
+      "citation": [
+        {
+          "id": "primary",
+          "title": "Structures of APRIL-receptor complexes: like BCMA, TACI employs only a single cysteine-rich domain for high affinity ligand binding.",
+          "rcsb_journal_abbrev": "J Biological Chem",
+          "rcsb_authors": [
+            "Hymowitz, S.G.",
+            "Patel, D.R.",
+            "Wallweber, H.J.",
+            "Runyon, S.",
+            "Yan, M.",
+            "Yin, J.",
+            "Shriver, S.K.",
+            "Gordon, N.C.",
+            "Pan, B.",
+            "Skelton, N.J.",
+            "Kelley, R.F.",
+            "Starovasnik, M.A."
+          ],
+          "year": 2005,
+          "journal_volume": "280",
+          "page_first": "7218",
+          "page_last": "7227",
+          "pdbx_database_id_PubMed": 15542592,
+          "pdbx_database_id_DOI": "10.1074/jbc.M411714200"
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 20,
+        "representative_model": null,
+        "molecular_weight": 5.32,
+        "deposited_atom_count": 369,
+        "deposited_polymer_monomer_count": 46,
+        "deposited_modeled_polymer_monomer_count": 46,
+        "deposited_unmodeled_polymer_monomer_count": 0,
+        "polymer_entity_count_protein": 1,
+        "polymer_entity_count_nucleic_acid": 0,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": null,
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "1XUT",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "4.10.1290.10"
+                },
+                {
+                  "type": "SCOP",
+                  "annotation_id": "d1xuta1"
+                },
+                {
+                  "type": "SCOP",
+                  "annotation_id": "d1xuta2"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8044165"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e1xutA1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "1XUT",
+            "entity_id": "1",
+            "asym_ids": [
+              "A"
+            ],
+            "auth_asym_ids": [
+              "A"
+            ],
+            "uniprot_ids": [
+              "O14836"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "O14836"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "O14836",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Homo sapiens"
+                }
+              },
+              "rcsb_uniprot_external_reference": [
+                {
+                  "reference_name": "PHAROS",
+                  "reference_id": "O14836"
+                },
+                {
+                  "reference_name": "GTEX",
+                  "reference_id": "ENSG00000240505"
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Tumor necrosis factor receptor superfamily member 13B",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Tumour necrosis factor receptor 13B",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cell periphery",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "molecular transducer activity",
+                  "depth": null
+                },
+                {
+                  "name": "signaling receptor activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "negative regulation of lymphocyte proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of leukocyte activation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cell activation",
+                  "depth": null
+                },
+                {
+                  "name": "lymphocyte activation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of lymphocyte activation",
+                  "depth": null
+                },
+                {
+                  "name": "leukocyte proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "leukocyte activation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of mononuclear cell proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of leukocyte proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of B cell proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "lymphocyte proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of B cell activation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of immune system process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of B cell activation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of lymphocyte proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of leukocyte proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of cell population proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "cell population proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "B cell activation",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "cell activation",
+                  "depth": null
+                },
+                {
+                  "name": "B cell proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of B cell proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of cell activation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of immune system process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cell population proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "mononuclear cell proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "immune system process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of mononuclear cell proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of leukocyte activation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of lymphocyte activation",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "cell surface receptor signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "signaling",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "signal transduction",
+                  "depth": null
+                },
+                {
+                  "name": "cell communication",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "developmental process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular developmental process",
+                  "depth": null
+                },
+                {
+                  "name": "hemopoiesis",
+                  "depth": null
+                },
+                {
+                  "name": "cell differentiation",
+                  "depth": null
+                },
+                {
+                  "name": "anatomical structure development",
+                  "depth": null
+                },
+                {
+                  "name": "cell development",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "hematopoietic progenitor cell differentiation",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "B cell homeostasis",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organismal-level homeostasis",
+                  "depth": null
+                },
+                {
+                  "name": "leukocyte homeostasis",
+                  "depth": null
+                },
+                {
+                  "name": "homeostatic process",
+                  "depth": null
+                },
+                {
+                  "name": "immune system process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "homeostasis of number of cells",
+                  "depth": null
+                },
+                {
+                  "name": "lymphocyte homeostasis",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "immune response",
+                  "depth": null
+                },
+                {
+                  "name": "immune system process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "adaptive immune response",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "TACI, cysteine-rich domain",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "98982_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "124222_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "133634_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "137837_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "76099_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "145525_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "O14836",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "GSPWSLSCRKEQGKFYDHLLRDCISCASICGQHPKQCAYFCENKLR",
+            "rcsb_sample_sequence_length": 46,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Homo sapiens",
+              "ncbi_scientific_name": "Homo sapiens",
+              "rcsb_gene_name": [
+                {
+                  "value": "TNFRSF13B",
+                  "provenance_source": "Primary Data"
+                },
+                {
+                  "value": "TACI",
+                  "provenance_source": "Primary Data"
+                }
+              ]
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Escherichia coli BL21(DE3)"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        }
+      ],
+      "nonpolymer_entities": null,
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_defined_assembly",
+            "method_details": null,
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": null,
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Asymmetric",
+              "symbol": "C1",
+              "oligomeric_state": "Monomer",
+              "stoichiometry": [
+                "A1"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 46
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2401 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "3IM3",
+      "entry": {
+        "id": "3IM3"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00003im3"
+        },
+        {
+          "database_id": "RCSB",
+          "pdbx_database_accession": null
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1",
+          "2",
+          "3"
+        ],
+        "pubmed_id": 20159461,
+        "emdb_ids": null,
+        "assembly_ids": [
+          "1"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB",
+            "structure factors",
+            "assembly mmCIF",
+            "assembly PDB",
+            "validation data mmCIF",
+            "validation slider image",
+            "validation fo-fc coefficients",
+            "validation 2fo-fc coefficients",
+            "validation report"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "Y"
+      },
+      "struct": {
+        "title": "Crystal structure of PKA RI alpha dimerization/docking domain"
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": "10.1016/j.str.2009.12.012"
+      },
+      "pubmed": {
+        "rcsb_pubmed_container_identifiers": {
+          "pubmed_id": 20159461
+        },
+        "rcsb_pubmed_central_id": "PMC3090270",
+        "rcsb_pubmed_doi": "10.1016/j.str.2009.12.012",
+        "rcsb_pubmed_abstract_text": "A-kinase anchoring proteins (AKAPs) regulate cyclic AMP-dependent protein kinase (PKA) signaling in space and time. Dual-specific AKAP 2 (D-AKAP2) binds to the dimerization/docking (D/D) domain of both RI and RII regulatory subunits of PKA with high affinity. Here we have determined the structures of the RIalpha D/D domain alone and in complex with D-AKAP2. The D/D domain presents an extensive surface for binding through a well-formed N-terminal helix, and this surface restricts the diversity of AKAPs that can interact. The structures also underscore the importance of a redox-sensitive disulfide in affecting AKAP binding. An unexpected shift in the helical register of D-AKAP2 compared to the RIIalpha:D-AKAP2 complex structure makes the mode of binding to RIalpha novel. Finally, the comparison allows us to deduce a molecular explanation for the sequence and spatial determinants of AKAP specificity.",
+        "rcsb_pubmed_affiliation_info": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, 9500 Gilman Drive, MC 0654, La Jolla, CA 92093, USA."
+        ]
+      },
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": null,
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "STRUCTURAL PROTEIN, SIGNALING PROTEIN",
+        "text": "helix-turn-helix, Acetylation, cAMP, cAMP-binding, Disulfide bond, Nucleotide-binding, Phosphoprotein, STRUCTURAL PROTEIN, SIGNALING PROTEIN"
+      },
+      "exptl": [
+        {
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "cell": {
+        "length_a": 44.122,
+        "length_b": 44.122,
+        "length_c": 93.036,
+        "angle_alpha": 90.0,
+        "angle_beta": 90.0,
+        "angle_gamma": 120.0
+      },
+      "symmetry": {
+        "space_group_name_H_M": "P 62 2 2"
+      },
+      "software": [
+        {
+          "classification": "data collection",
+          "name": "HKL-2000"
+        },
+        {
+          "classification": "phasing",
+          "name": "SOLVE"
+        },
+        {
+          "classification": "refinement",
+          "name": "PHENIX"
+        },
+        {
+          "classification": "data reduction",
+          "name": "HKL-2000"
+        },
+        {
+          "classification": "data scaling",
+          "name": "HKL-2000"
+        }
+      ],
+      "rcsb_accession_info": {
+        "deposit_date": "2009-08-09T00:00:00Z",
+        "initial_release_date": "2010-02-02T00:00:00Z",
+        "major_revision": 1,
+        "minor_revision": 3
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "2010-02-02T00:00:00Z"
+        },
+        {
+          "ordinal": 2,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 1,
+          "revision_date": "2011-07-13T00:00:00Z"
+        },
+        {
+          "ordinal": 3,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 2,
+          "revision_date": "2021-04-07T00:00:00Z"
+        },
+        {
+          "ordinal": 4,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 3,
+          "revision_date": "2024-11-20T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        }
+      ],
+      "pdbx_audit_revision_group": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Version format compliance"
+        },
+        {
+          "ordinal": 2,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Derived calculations"
+        },
+        {
+          "ordinal": 3,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 4,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 5,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Structure summary"
+        }
+      ],
+      "pdbx_database_related": [
+        {
+          "content_type": "unspecified",
+          "db_id": "3IM4",
+          "details": "Crystal structure of cAMP-dependent Protein Kinase A Regulatory Subunit I alpha in complex with dual-specific A-Kinase Anchoring Protein 2",
+          "db_name": "PDB"
+        }
+      ],
+      "audit_author": [
+        {
+          "name": "Sarma, G.N."
+        },
+        {
+          "name": "Kinderman, F.S."
+        },
+        {
+          "name": "Kim, C."
+        },
+        {
+          "name": "von Daake, S."
+        },
+        {
+          "name": "Taylor, S.S."
+        }
+      ],
+      "pdbx_audit_support": null,
+      "pdbx_initial_refinement_model": null,
+      "refine": [
+        {
+          "pdbx_refine_id": "X-RAY DIFFRACTION",
+          "ls_d_res_high": 2.0,
+          "ls_R_factor_R_work": 0.1871,
+          "ls_R_factor_R_free": 0.2488,
+          "ls_R_factor_obs": 0.193
+        }
+      ],
+      "pdbx_vrpt_summary_diffraction": [
+        {
+          "DCC_R": 0.19,
+          "DCC_Rfree": 0.25
+        }
+      ],
+      "pdbx_nmr_ensemble": null,
+      "em_experiment": null,
+      "em_3d_reconstruction": null,
+      "em_software": null,
+      "citation": [
+        {
+          "id": "primary",
+          "title": "Structure of D-AKAP2:PKA RI Complex: Insights into AKAP Specificity and Selectivity",
+          "rcsb_journal_abbrev": "Structure",
+          "rcsb_authors": [
+            "Sarma, G.N.",
+            "Kinderman, F.S.",
+            "Kim, C.",
+            "von Daake, S.",
+            "Chen, L.",
+            "Wang, B.C.",
+            "Taylor, S.S."
+          ],
+          "year": 2010,
+          "journal_volume": "18",
+          "page_first": "155",
+          "page_last": "166",
+          "pdbx_database_id_PubMed": 20159461,
+          "pdbx_database_id_DOI": "10.1016/j.str.2009.12.012"
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 1,
+        "representative_model": null,
+        "molecular_weight": 6.1,
+        "deposited_atom_count": 463,
+        "deposited_polymer_monomer_count": 50,
+        "deposited_modeled_polymer_monomer_count": 50,
+        "deposited_unmodeled_polymer_monomer_count": 0,
+        "polymer_entity_count_protein": 1,
+        "polymer_entity_count_nucleic_acid": 0,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": null,
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "3IM3",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "1.20.890.10"
+                },
+                {
+                  "type": "SCOP",
+                  "annotation_id": "d3im3a_"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8040370"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e3im3A1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "3IM3",
+            "entity_id": "1",
+            "asym_ids": [
+              "A"
+            ],
+            "auth_asym_ids": [
+              "A"
+            ],
+            "uniprot_ids": [
+              "P00514"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "P00514"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "P00514",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Bos taurus"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "cAMP-dependent protein kinase type I-alpha regulatory subunit",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "protein domain specific binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "axoneme",
+                  "depth": null
+                },
+                {
+                  "name": "ciliary plasm",
+                  "depth": null
+                },
+                {
+                  "name": "cilium",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasmic region",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane bounded cell projection cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane bounded cell projection",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cell projection",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cytoskeleton",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "negative regulation of lymphocyte proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of leukocyte activation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cell activation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of T cell proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of cell adhesion",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of leukocyte proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "T cell activation",
+                  "depth": null
+                },
+                {
+                  "name": "lymphocyte proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of immune system process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of leukocyte proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "cell population proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of T cell activation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of leukocyte cell-cell adhesion",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cell population proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "mononuclear cell proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of cell-cell adhesion",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of leukocyte cell-cell adhesion",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of leukocyte activation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of activated T cell proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "lymphocyte activation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of lymphocyte activation",
+                  "depth": null
+                },
+                {
+                  "name": "leukocyte proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "leukocyte cell-cell adhesion",
+                  "depth": null
+                },
+                {
+                  "name": "leukocyte activation",
+                  "depth": null
+                },
+                {
+                  "name": "activated T cell proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of mononuclear cell proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "cell adhesion",
+                  "depth": null
+                },
+                {
+                  "name": "cell-cell adhesion",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cell-cell adhesion",
+                  "depth": null
+                },
+                {
+                  "name": "T cell proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of lymphocyte proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of cell population proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cell adhesion",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "cell activation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of T cell activation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of cell activation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of T cell proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of activated T cell proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of immune system process",
+                  "depth": null
+                },
+                {
+                  "name": "immune system process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of mononuclear cell proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of lymphocyte activation",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "developmental process",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "heart development",
+                  "depth": null
+                },
+                {
+                  "name": "heart growth",
+                  "depth": null
+                },
+                {
+                  "name": "cell population proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "developmental growth",
+                  "depth": null
+                },
+                {
+                  "name": "cardiac muscle tissue development",
+                  "depth": null
+                },
+                {
+                  "name": "cardiac muscle cell proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "growth",
+                  "depth": null
+                },
+                {
+                  "name": "animal organ development",
+                  "depth": null
+                },
+                {
+                  "name": "organ growth",
+                  "depth": null
+                },
+                {
+                  "name": "tissue development",
+                  "depth": null
+                },
+                {
+                  "name": "striated muscle tissue development",
+                  "depth": null
+                },
+                {
+                  "name": "circulatory system development",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organism development",
+                  "depth": null
+                },
+                {
+                  "name": "anatomical structure development",
+                  "depth": null
+                },
+                {
+                  "name": "muscle cell proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "cardiac muscle tissue growth",
+                  "depth": null
+                },
+                {
+                  "name": "muscle tissue development",
+                  "depth": null
+                },
+                {
+                  "name": "striated muscle cell proliferation",
+                  "depth": null
+                },
+                {
+                  "name": "system development",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "enzyme regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "enzyme inhibitor activity",
+                  "depth": null
+                },
+                {
+                  "name": "protein kinase regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "cAMP-dependent protein kinase regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "protein kinase inhibitor activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular function inhibitor activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular function regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "cAMP-dependent protein kinase inhibitor activity",
+                  "depth": null
+                },
+                {
+                  "name": "protein serine/threonine kinase inhibitor activity",
+                  "depth": null
+                },
+                {
+                  "name": "kinase inhibitor activity",
+                  "depth": null
+                },
+                {
+                  "name": "kinase regulator activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "centrosome",
+                  "depth": null
+                },
+                {
+                  "name": "microtubule organizing center",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cytoskeleton",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "microtubule cytoskeleton",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RmlC-like jelly roll fold",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "cytosol",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "cellular response to nitrogen compound",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to endogenous stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to peptide hormone",
+                  "depth": null
+                },
+                {
+                  "name": "cellular response to peptide hormone stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to oxygen-containing compound",
+                  "depth": null
+                },
+                {
+                  "name": "response to nitrogen compound",
+                  "depth": null
+                },
+                {
+                  "name": "response to glucagon",
+                  "depth": null
+                },
+                {
+                  "name": "cellular response to oxygen-containing compound",
+                  "depth": null
+                },
+                {
+                  "name": "cellular response to glucagon stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "cellular response to endogenous stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "cellular response to chemical stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to hormone",
+                  "depth": null
+                },
+                {
+                  "name": "response to chemical",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular response to hormone stimulus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Cyclic nucleotide-binding, conserved site",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "sperm head-tail coupling apparatus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "cAMP-dependent protein kinase regulatory subunit, dimerization-anchoring domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "endosome",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular vesicle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "endomembrane system",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasmic vesicle",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "late endosome",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "multivesicular body",
+                  "depth": null
+                },
+                {
+                  "name": "vesicle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "synapse",
+                  "depth": null
+                },
+                {
+                  "name": "cell junction",
+                  "depth": null
+                },
+                {
+                  "name": "glutamatergic synapse",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "signaling",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "adenylate cyclase-activating G protein-coupled receptor signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "cell communication",
+                  "depth": null
+                },
+                {
+                  "name": "adenylate cyclase-modulating G protein-coupled receptor signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "G protein-coupled receptor signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "signal transduction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "neuromuscular junction",
+                  "depth": null
+                },
+                {
+                  "name": "synapse",
+                  "depth": null
+                },
+                {
+                  "name": "cell junction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "signaling",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of signaling",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of intracellular signal transduction",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of signal transduction",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of cAMP/PKA signal transduction",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular signal transduction",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of cell communication",
+                  "depth": null
+                },
+                {
+                  "name": "cell communication",
+                  "depth": null
+                },
+                {
+                  "name": "cAMP/PKA signal transduction",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of intracellular signal transduction",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular signaling cassette",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "signal transduction",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of signaling",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of signal transduction",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cAMP/PKA signal transduction",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cell communication",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cell periphery",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "immunological synapse",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Cyclic nucleotide-binding domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "adenyl ribonucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "cyclic nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "purine ribonucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleoside phosphate binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "purine nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "anion binding",
+                  "depth": null
+                },
+                {
+                  "name": "cAMP binding",
+                  "depth": null
+                },
+                {
+                  "name": "adenyl nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "heterocyclic compound binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "carbohydrate derivative binding",
+                  "depth": null
+                },
+                {
+                  "name": "ribonucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "cAMP-dependent protein kinase regulatory subunit-like",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "cAMP-dependent protein kinase regulatory subunit",
+                  "depth": 2
+                },
+                {
+                  "name": "cAMP-dependent protein kinase regulatory subunit-like",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "ubiquitin protein ligase binding",
+                  "depth": null
+                },
+                {
+                  "name": "protein binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "ubiquitin-like protein ligase binding",
+                  "depth": null
+                },
+                {
+                  "name": "enzyme binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "regulation of biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of macromolecule metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein localization",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cell communication",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of localization",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of protein localization",
+                  "depth": null
+                },
+                {
+                  "name": "nitrogen compound transport",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of establishment of protein localization",
+                  "depth": null
+                },
+                {
+                  "name": "cell communication",
+                  "depth": null
+                },
+                {
+                  "name": "localization",
+                  "depth": null
+                },
+                {
+                  "name": "cellular macromolecule localization",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of insulin secretion",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological quality",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of peptide hormone secretion",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of hormone levels",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of peptide hormone secretion",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of protein localization to extracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "protein secretion",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of localization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of protein secretion",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of secretion",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of protein localization",
+                  "depth": null
+                },
+                {
+                  "name": "cellular localization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of hormone secretion",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of protein localization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of peptide secretion",
+                  "depth": null
+                },
+                {
+                  "name": "transport",
+                  "depth": null
+                },
+                {
+                  "name": "signaling",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of secretion by cell",
+                  "depth": null
+                },
+                {
+                  "name": "hormone secretion",
+                  "depth": null
+                },
+                {
+                  "name": "protein localization to extracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of protein transport",
+                  "depth": null
+                },
+                {
+                  "name": "peptide secretion",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of secretion by cell",
+                  "depth": null
+                },
+                {
+                  "name": "secretion by cell",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of hormone secretion",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of secretion",
+                  "depth": null
+                },
+                {
+                  "name": "amide transport",
+                  "depth": null
+                },
+                {
+                  "name": "signal release",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of peptide secretion",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of signaling",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of transport",
+                  "depth": null
+                },
+                {
+                  "name": "secretion",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of peptide transport",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of establishment of protein localization",
+                  "depth": null
+                },
+                {
+                  "name": "export from cell",
+                  "depth": null
+                },
+                {
+                  "name": "cell-cell signaling",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of protein transport",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of protein secretion",
+                  "depth": null
+                },
+                {
+                  "name": "peptide transport",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of transport",
+                  "depth": null
+                },
+                {
+                  "name": "protein transport",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular localization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of insulin secretion",
+                  "depth": null
+                },
+                {
+                  "name": "peptide hormone secretion",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule localization",
+                  "depth": null
+                },
+                {
+                  "name": "hormone transport",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cell communication",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "insulin secretion",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of signaling",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein kinase A catalytic subunit binding",
+                  "depth": null
+                },
+                {
+                  "name": "protein binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "protein kinase A binding",
+                  "depth": null
+                },
+                {
+                  "name": "kinase binding",
+                  "depth": null
+                },
+                {
+                  "name": "enzyme binding",
+                  "depth": null
+                },
+                {
+                  "name": "protein kinase binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Cyclic nucleotide-binding domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein kinase complex",
+                  "depth": null
+                },
+                {
+                  "name": "transferase complex, transferring phosphorus-containing groups",
+                  "depth": null
+                },
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic complex",
+                  "depth": null
+                },
+                {
+                  "name": "transferase complex",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "nucleotide-activated protein kinase complex",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein kinase complex",
+                  "depth": null
+                },
+                {
+                  "name": "transferase complex, transferring phosphorus-containing groups",
+                  "depth": null
+                },
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic complex",
+                  "depth": null
+                },
+                {
+                  "name": "cAMP-dependent protein kinase complex",
+                  "depth": null
+                },
+                {
+                  "name": "serine/threonine protein kinase complex",
+                  "depth": null
+                },
+                {
+                  "name": "transferase complex",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular protein-containing complex",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular developmental process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component assembly involved in morphogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "cell development",
+                  "depth": null
+                },
+                {
+                  "name": "membraneless organelle assembly",
+                  "depth": null
+                },
+                {
+                  "name": "muscle cell differentiation",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component organization",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component biogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "muscle structure development",
+                  "depth": null
+                },
+                {
+                  "name": "striated muscle cell development",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical entity morphogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component assembly",
+                  "depth": null
+                },
+                {
+                  "name": "muscle cell development",
+                  "depth": null
+                },
+                {
+                  "name": "cell differentiation",
+                  "depth": null
+                },
+                {
+                  "name": "sarcomere organization",
+                  "depth": null
+                },
+                {
+                  "name": "anatomical structure development",
+                  "depth": null
+                },
+                {
+                  "name": "actin filament-based process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component organization or biogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "developmental process",
+                  "depth": null
+                },
+                {
+                  "name": "actomyosin structure organization",
+                  "depth": null
+                },
+                {
+                  "name": "actin cytoskeleton organization",
+                  "depth": null
+                },
+                {
+                  "name": "organelle assembly",
+                  "depth": null
+                },
+                {
+                  "name": "anatomical structure morphogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "myofibril assembly",
+                  "depth": null
+                },
+                {
+                  "name": "organelle organization",
+                  "depth": null
+                },
+                {
+                  "name": "anatomical structure formation involved in morphogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "striated muscle cell differentiation",
+                  "depth": null
+                },
+                {
+                  "name": "supramolecular fiber organization",
+                  "depth": null
+                },
+                {
+                  "name": "cytoskeleton organization",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "membrane microdomain",
+                  "depth": null
+                },
+                {
+                  "name": "cell periphery",
+                  "depth": null
+                },
+                {
+                  "name": "membrane raft",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane raft",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane region",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "identical protein binding",
+                  "depth": null
+                },
+                {
+                  "name": "protein binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "developmental process",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "formation of primary germ layer",
+                  "depth": null
+                },
+                {
+                  "name": "mesoderm morphogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "embryonic morphogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "tissue development",
+                  "depth": null
+                },
+                {
+                  "name": "embryo development",
+                  "depth": null
+                },
+                {
+                  "name": "gastrulation",
+                  "depth": null
+                },
+                {
+                  "name": "tissue morphogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "anatomical structure morphogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organism development",
+                  "depth": null
+                },
+                {
+                  "name": "anatomical structure development",
+                  "depth": null
+                },
+                {
+                  "name": "anatomical structure formation involved in morphogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "mesoderm formation",
+                  "depth": null
+                },
+                {
+                  "name": "mesoderm development",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "33813_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "P00514",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "47840_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "33422_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "24940_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "47449_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "36260_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "SLRECELYVQKHNIQALLKDSIVQLCTARPERPMAFLREYFEKLEKEEAK",
+            "rcsb_sample_sequence_length": 50,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Bos taurus",
+              "ncbi_scientific_name": "Bos taurus",
+              "rcsb_gene_name": [
+                {
+                  "value": "PRKAR1A",
+                  "provenance_source": "Primary Data"
+                }
+              ]
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Escherichia coli"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        }
+      ],
+      "nonpolymer_entities": [
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "3IM3",
+            "entity_id": "2",
+            "auth_asym_ids": [
+              "A"
+            ],
+            "asym_ids": [
+              "B",
+              "C"
+            ],
+            "nonpolymer_comp_id": "FMT"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "81",
+                "auth_asym_id": "A",
+                "asym_id": "B",
+                "entry_id": "3IM3",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.4996,
+                  "ranking_model_geometry": 0.7298,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "82",
+                "auth_asym_id": "A",
+                "asym_id": "C",
+                "entry_id": "3IM3",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.1514,
+                  "ranking_model_geometry": 0.8128,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "FORMIC ACID"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "FMT",
+              "formula_weight": 46.025,
+              "name": "FORMIC ACID",
+              "formula": "C H2 O2"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "BDAGIHXWWSANSR-UHFFFAOYSA-N"
+            }
+          }
+        }
+      ],
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_and_software_defined_assembly",
+            "method_details": "PISA",
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": null,
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Cyclic",
+              "symbol": "C2",
+              "oligomeric_state": "Homo 2-mer",
+              "stoichiometry": [
+                "A2"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 100
+          }
+        }
+      ]
+    }
+  }
+}

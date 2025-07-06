@@ -1,0 +1,1613 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "6KYW",
+      "entry": {
+        "id": "6KYW"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00006kyw"
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "pubmed_id": 33004803,
+        "emdb_ids": null,
+        "assembly_ids": [
+          "1"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB",
+            "structure factors",
+            "assembly mmCIF",
+            "assembly PDB",
+            "validation fo-fc coefficients",
+            "validation slider image",
+            "validation data mmCIF",
+            "validation report",
+            "validation 2fo-fc coefficients"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "Y"
+      },
+      "struct": {
+        "title": "S8-mSRK-S8-SP11 complex"
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": "10.1038/s41467-020-18698-w"
+      },
+      "pubmed": {
+        "rcsb_pubmed_container_identifiers": {
+          "pubmed_id": 33004803
+        },
+        "rcsb_pubmed_central_id": "PMC7530648",
+        "rcsb_pubmed_doi": "10.1038/s41467-020-18698-w",
+        "rcsb_pubmed_abstract_text": "Self-incompatibility (SI) is a breeding system that promotes cross-fertilization. In Brassica, pollen rejection is induced by a haplotype-specific interaction between pistil determinant SRK (S receptor kinase) and pollen determinant SP11 (S-locus Protein 11, also named SCR) from the S-locus. Although the structure of the B. rapa S <sub>9 </sub>-SRK ectodomain (eSRK) and S <sub>9 </sub>-SP11 complex has been determined, it remains unclear how SRK discriminates self- and nonself-SP11. Here, we uncover the detailed mechanism of self/nonself-discrimination in Brassica SI by determining the S <sub>8 </sub>-eSRK-S <sub>8 </sub>-SP11 crystal structure and performing molecular dynamics (MD) simulations. Comprehensive binding analysis of eSRK and SP11 structures reveals that the binding free energies are most stable for cognate eSRK-SP11 combinations. Residue-based contribution analysis suggests that the modes of eSRK-SP11 interactions differ between intra- and inter-subgroup (a group of phylogenetically neighboring haplotypes) combinations. Our data establish a model of self/nonself-discrimination in Brassica SI.",
+        "rcsb_pubmed_affiliation_info": [
+          "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo, 113-8657, Japan.",
+          "Department of Biotechnology, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo, 113-8657, Japan. moriwaki@bi.a.u-tokyo.ac.jp.",
+          "Collaborative Research Institute for Innovative Microbiology, The University of Tokyo, Tokyo, 113-8657, Japan. moriwaki@bi.a.u-tokyo.ac.jp.",
+          "Graduate School of Biological Sciences, Nara Institute of Science and Technology, Nara, 630-0192, Japan.",
+          "Graduate School of Life Sciences, Tohoku University, Sendai, 980-8577, Japan.",
+          "Graduate School of Science, Tokyo Metropolitan University, Tokyo, 192-0397, Japan.",
+          "Graduate School of Pharmaceutical Sciences, The University of Tokyo, Tokyo, 113-0033, Japan.",
+          "Department of Biotechnology, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo, 113-8657, Japan.",
+          "Collaborative Research Institute for Innovative Microbiology, The University of Tokyo, Tokyo, 113-8657, Japan.",
+          "Agricultural Bioinformatics Research Unit, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo, 113-8657, Japan.",
+          "Division of Natural Science, Osaka Kyoiku University, Kashiwara, 582-8582, Japan.",
+          "Graduate School of Biological Sciences, Nara Institute of Science and Technology, Nara, 630-0192, Japan. hakosima@bs.naist.jp.",
+          "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo, 113-8657, Japan. a-taka@g.ecc.u-tokyo.ac.jp."
+        ]
+      },
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": null,
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "PLANT PROTEIN",
+        "text": "Ligand-receptor complex, PLANT PROTEIN"
+      },
+      "exptl": [
+        {
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "cell": {
+        "length_a": 143.562,
+        "length_b": 143.562,
+        "length_c": 194.401,
+        "angle_alpha": 90.0,
+        "angle_beta": 90.0,
+        "angle_gamma": 90.0
+      },
+      "symmetry": {
+        "space_group_name_H_M": "P 41 21 2"
+      },
+      "software": [
+        {
+          "classification": "refinement",
+          "name": "PHENIX"
+        },
+        {
+          "classification": "data reduction",
+          "name": "HKL-2000"
+        },
+        {
+          "classification": "data scaling",
+          "name": "HKL-2000"
+        },
+        {
+          "classification": "phasing",
+          "name": "AutoSol"
+        }
+      ],
+      "rcsb_accession_info": {
+        "deposit_date": "2019-09-20T00:00:00Z",
+        "initial_release_date": "2020-09-16T00:00:00Z",
+        "major_revision": 1,
+        "minor_revision": 3
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "2020-09-16T00:00:00Z"
+        },
+        {
+          "ordinal": 2,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 1,
+          "revision_date": "2020-10-14T00:00:00Z"
+        },
+        {
+          "ordinal": 3,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 2,
+          "revision_date": "2020-10-21T00:00:00Z"
+        },
+        {
+          "ordinal": 4,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 3,
+          "revision_date": "2024-11-20T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        }
+      ],
+      "pdbx_audit_revision_group": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 2,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 3,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 4,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 5,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Structure summary"
+        }
+      ],
+      "pdbx_database_related": null,
+      "audit_author": [
+        {
+          "name": "Murase, K."
+        },
+        {
+          "name": "Hakoshima, T."
+        },
+        {
+          "name": "Mori, T."
+        }
+      ],
+      "pdbx_audit_support": [
+        {
+          "funding_organization": "Japan Society for the Promotion of Science",
+          "country": "Japan",
+          "grant_number": "16H06380",
+          "ordinal": 1
+        },
+        {
+          "funding_organization": "Japan Society for the Promotion of Science",
+          "country": "Japan",
+          "grant_number": "15K18683",
+          "ordinal": 2
+        }
+      ],
+      "pdbx_initial_refinement_model": null,
+      "refine": [
+        {
+          "pdbx_refine_id": "X-RAY DIFFRACTION",
+          "ls_d_res_high": 2.60112735603,
+          "ls_R_factor_R_work": 0.219900981495,
+          "ls_R_factor_R_free": 0.250891512589,
+          "ls_R_factor_obs": 0.220982051418
+        }
+      ],
+      "pdbx_vrpt_summary_diffraction": [
+        {
+          "DCC_R": 0.22,
+          "DCC_Rfree": 0.25
+        }
+      ],
+      "pdbx_nmr_ensemble": null,
+      "em_experiment": null,
+      "em_3d_reconstruction": null,
+      "em_software": null,
+      "citation": [
+        {
+          "id": "primary",
+          "title": "Mechanism of self/nonself-discrimination in Brassica self-incompatibility.",
+          "rcsb_journal_abbrev": "Nat Commun",
+          "rcsb_authors": [
+            "Murase, K.",
+            "Moriwaki, Y.",
+            "Mori, T.",
+            "Liu, X.",
+            "Masaka, C.",
+            "Takada, Y.",
+            "Maesaki, R.",
+            "Mishima, M.",
+            "Fujii, S.",
+            "Hirano, Y.",
+            "Kawabe, Z.",
+            "Nagata, K.",
+            "Terada, T.",
+            "Suzuki, G.",
+            "Watanabe, M.",
+            "Shimizu, K.",
+            "Hakoshima, T.",
+            "Takayama, S."
+          ],
+          "year": 2020,
+          "journal_volume": "11",
+          "page_first": "4916",
+          "page_last": "4916",
+          "pdbx_database_id_PubMed": 33004803,
+          "pdbx_database_id_DOI": "10.1038/s41467-020-18698-w"
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 1,
+        "representative_model": null,
+        "molecular_weight": 112.62,
+        "deposited_atom_count": 7006,
+        "deposited_polymer_monomer_count": 978,
+        "deposited_modeled_polymer_monomer_count": 867,
+        "deposited_unmodeled_polymer_monomer_count": 111,
+        "polymer_entity_count_protein": 2,
+        "polymer_entity_count_nucleic_acid": 0,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": null,
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "6KYW",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6kywA2"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6kywA1"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6kywA4"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6kywA3"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": "N-Glycosylation",
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": "N-Glycosylation",
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": "N-Glycosylation",
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "G"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "B",
+                "asym_id": "B",
+                "entry_id": "6KYW",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6kywB2"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6kywB3"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6kywB4"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6kywB1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": "N-Glycosylation",
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "H"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": "N-Glycosylation",
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "6KYW",
+            "entity_id": "1",
+            "asym_ids": [
+              "A",
+              "B"
+            ],
+            "auth_asym_ids": [
+              "A",
+              "B"
+            ],
+            "uniprot_ids": [
+              "Q39276"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "Q39276"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "Q39276",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Brassica campestris"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Receptor protein kinase SRK8",
+            "rcsb_ec_lineage": [
+              {
+                "id": "2"
+              },
+              {
+                "id": "2.7"
+              },
+              {
+                "id": "2.7.11"
+              },
+              {
+                "id": "2.7.11.1"
+              }
+            ],
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": [
+              {
+                "ec": "2.7.11.1",
+                "provenance_source": "UniProt"
+              }
+            ]
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "adenyl ribonucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "purine ribonucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "purine ribonucleoside triphosphate binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleoside phosphate binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "purine nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "anion binding",
+                  "depth": null
+                },
+                {
+                  "name": "adenyl nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "ATP binding",
+                  "depth": null
+                },
+                {
+                  "name": "heterocyclic compound binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "carbohydrate derivative binding",
+                  "depth": null
+                },
+                {
+                  "name": "ribonucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "S-locus receptor kinase, C-terminal",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Protein kinase, ATP binding site",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein serine/threonine kinase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a protein",
+                  "depth": null
+                },
+                {
+                  "name": "kinase activity",
+                  "depth": null
+                },
+                {
+                  "name": "protein kinase activity",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "phosphotransferase activity, alcohol group as acceptor",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity, transferring phosphorus-containing groups",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Protein kinase-like domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "rejection of self pollen",
+                  "depth": null
+                },
+                {
+                  "name": "cell recognition",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "recognition of pollen",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Bulb-type lectin domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Protein kinase domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "S-receptor-like serine/threonine-protein kinase",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Bulb-type lectin domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "PAN/Apple domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "S-locus glycoprotein domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Serine-threonine/tyrosine-protein kinase, catalytic domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "S-locus, receptor kinase",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "catalytic activity, acting on a protein",
+                  "depth": null
+                },
+                {
+                  "name": "kinase activity",
+                  "depth": null
+                },
+                {
+                  "name": "protein kinase activity",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "protein serine kinase activity",
+                  "depth": null
+                },
+                {
+                  "name": "phosphotransferase activity, alcohol group as acceptor",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity, transferring phosphorus-containing groups",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Serine/threonine-protein kinase, active site",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "505091_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "48174_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "601422_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "Q39276",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "43498_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "9772_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "531691_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "MQGVRYIYHHFYTSLLVFVVMILFRSALSIYINTLSSTESLTISNNRTLVSPGDVFELGFFTPGSSSRWYLGIWYKKLSERTYVWVANRDNPLSNSTGTLKISGNNLVLRGDSNKSIWSTNLTRGNERSPVVAELLANGNFVMRDSNNNDASGFLWQSFDYPTDTLLPEMKLGYDLKTGRNRFLTSSRNSDDPSSGDYSYKLEPRRLPEFYLLQGDVREHRSGPWNGIQFSGIPEDQKSSYMVYNFTENSEEVAYTFRMTNNSFYSRLTINSEGYLERLTWAPSSGAWNVFWSSPNHQCDMYRMCGPYSYCDVNTSPSCNCIQGFNPGNVQQWALRNQISGCKRRTRLSCNGDGFTRMKNIKLPDTRMAIVDRSIGLKECEKRCLSDCNCTAFANADIRNRVTGCVIWTGELEDMRNYAEGGQDLYVRLAAADSRLEVLFQGP",
+            "rcsb_sample_sequence_length": 443,
+            "rcsb_mutation_count": 12
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Brassica campestris",
+              "ncbi_scientific_name": "Brassica rapa",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Spodoptera frugiperda"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "C",
+                "asym_id": "C",
+                "entry_id": "6KYW",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8041787"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6kywC1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "D",
+                "asym_id": "D",
+                "entry_id": "6KYW",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8041787"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6kywD1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "6KYW",
+            "entity_id": "2",
+            "asym_ids": [
+              "C",
+              "D"
+            ],
+            "auth_asym_ids": [
+              "C",
+              "D"
+            ],
+            "uniprot_ids": [
+              "Q9SE17"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "Q9SE17"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "Q9SE17",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Brassica campestris"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "S locus protein 11",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Plant self-incompatibility response",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Knottin, scorpion toxin-like superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "signaling",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "signal transduction",
+                  "depth": null
+                },
+                {
+                  "name": "cell communication",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "77675_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "107940_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "97928_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "81787_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "Q9SE17",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "79674_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "58257_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "RCTRGFRKLGKCTTLEEEKCKTLYPRGQCTCSDSKMNTHSCDCKSC",
+            "rcsb_sample_sequence_length": 46,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Brassica campestris",
+              "ncbi_scientific_name": "Brassica rapa",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        }
+      ],
+      "nonpolymer_entities": [
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "6KYW",
+            "entity_id": "3",
+            "auth_asym_ids": [
+              "A",
+              "B"
+            ],
+            "asym_ids": [
+              "E",
+              "F",
+              "G",
+              "H",
+              "I"
+            ],
+            "nonpolymer_comp_id": "NAG"
+          },
+          "rcsb_nonpolymer_entity_annotation": [
+            {
+              "type": "SUBJECT_OF_INVESTIGATION"
+            }
+          ],
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "501",
+                "auth_asym_id": "A",
+                "asym_id": "E",
+                "entry_id": "6KYW",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.081,
+                  "ranking_model_geometry": 0.6958,
+                  "average_occupancy": 0.85,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "Author"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "502",
+                "auth_asym_id": "A",
+                "asym_id": "F",
+                "entry_id": "6KYW",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.0498,
+                  "ranking_model_geometry": 0.7649,
+                  "average_occupancy": 0.88,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "Author"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "503",
+                "auth_asym_id": "A",
+                "asym_id": "G",
+                "entry_id": "6KYW",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.0082,
+                  "ranking_model_geometry": 0.7479,
+                  "average_occupancy": 0.72,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "Author"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "501",
+                "auth_asym_id": "B",
+                "asym_id": "H",
+                "entry_id": "6KYW",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.0821,
+                  "ranking_model_geometry": 0.6355,
+                  "average_occupancy": 0.82,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "Author"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "502",
+                "auth_asym_id": "B",
+                "asym_id": "I",
+                "entry_id": "6KYW",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.036,
+                  "ranking_model_geometry": 0.7845,
+                  "average_occupancy": 0.87,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "Author"
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "2-acetamido-2-deoxy-beta-D-glucopyranose"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "NAG",
+              "formula_weight": 221.208,
+              "name": "2-acetamido-2-deoxy-beta-D-glucopyranose",
+              "formula": "C8 H15 N O6"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "OVRNDRQMDRJTHS-FMDGEEDCSA-N"
+            }
+          }
+        }
+      ],
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_and_software_defined_assembly",
+            "method_details": "PISA",
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": [
+            {
+              "experimental_support": "isothermal titration calorimetry"
+            }
+          ],
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Cyclic",
+              "symbol": "C2",
+              "oligomeric_state": "Hetero 4-mer",
+              "stoichiometry": [
+                "A2",
+                "B2"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 867
+          }
+        }
+      ]
+    }
+  }
+}

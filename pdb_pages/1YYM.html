@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>多肽结构数据库 - 1YYM</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-light.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
+    <link rel="stylesheet" href="../static/css/protein_detail.css">
+    <style>
+        .info-section {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            overflow: hidden;
+        }
+        .info-section h2 {
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 15px 20px;
+            font-size: 1.2em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .info-section h2.collapsible {
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out;
+        }
+        .info-section h2.collapsible:hover {
+            background-color: #efefef;
+        }
+        .section-toggle-arrow {
+            width: 12px;
+            height: 12px;
+            border: solid #333;
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            transform: rotate(-135deg);
+            transition: transform 0.3s ease;
+        }
+        .collapsible.collapsed .section-toggle-arrow {
+            transform: rotate(45deg);
+        }
+        .info-section > div, .info-section > table {
+            padding: 20px;
+            background-color: #fff;
+        }
+        .full-width-viewer-container {
+            padding: 0 !important;
+            height: 600px;
+        }
+        .info-section > table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .info-section table td, .info-section table th {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .info-section table tr:last-child td {
+            border-bottom: none;
+        }
+        .info-section table td:first-child {
+            font-weight: 600;
+            color: #555;
+            width: 150px;
+        }
+        .citations-container .citation-item,
+        .assemblies-container .assembly-item,
+        .sequence-item {
+            padding: 15px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .citations-container .citation-item:last-child,
+        .assemblies-container .assembly-item:last-child,
+        .sequence-item:last-child {
+            border-bottom: none;
+        }
+        .sequence-wrapper {
+            max-height: 250px;
+            overflow-y: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 10px;
+            background: #fdfdfd;
+            margin-top: 10px;
+        }
+        .sequence-wrapper table {
+            width: 100%;
+            border: none;
+        }
+        .sequence-wrapper td {
+            border: none;
+        }
+        .seq-num {
+            text-align: right;
+            padding-right: 1em;
+            color: #999;
+            font-family: 'Courier New', Courier, monospace;
+            vertical-align: top;
+            font-size: 0.9em;
+        }
+        .seq-data {
+            font-family: 'Courier New', Courier, monospace;
+            word-break: break-all;
+            font-size: 1em;
+            line-height: 1.5;
+        }
+        .citation-title {
+            font-weight: bold;
+        }
+        .citation-authors {
+            font-size: 0.9em;
+            color: #555;
+        }
+        .citation-journal {
+            font-size: 0.9em;
+            color: #777;
+        }
+        .citation-links a {
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <img src="../THU-structure-LOGO.svg" alt="THU结构数据库标志" class="logo">
+            <div class="top-nav">
+                <a href="../index.html" class="nav-button">Home</a>
+                <a href="../Download.html" class="nav-button">Download</a>
+                <a href="https://www.frcbs.tsinghua.edu.cn/" class="nav-button">About</a>
+            </div>
+        </div>
+        <h1>多肽结构数据库</h1>
+        <p>浏览和可视化多肽三维结构</p>
+    </header>
+    
+    <div class="search-section">
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="搜索蛋白质、基因、PDB编号、生物体或序列">
+            <button class="search-button">搜索</button>
+        </div>
+    </div>
+    
+    <div class="protein-detail-container">
+        <div class="protein-header">
+            <h1>1YYM - 多肽结构</h1>
+            <p class="alphafold-id">1YYM</p>
+        </div>
+
+        <div class="action-buttons">
+            <span class="download-label">下载</span>
+            <div class="button-container">
+                <a href="https://files.rcsb.org/download/1YYM.pdb" download>
+                    <button>PDB文件</button>
+                </a>
+            </div>
+            <div class="button-container">
+                <a href="https://files.rcsb.org/download/1YYM.cif" download>
+                    <button>mmCIF文件</button>
+                </a>
+            </div>
+        </div>
+
+        <section class="info-section">
+            <h2 class="collapsible">
+                基本信息
+                <span class="section-toggle-arrow"></span>
+            </h2>
+            <table>
+                <tbody>
+<tr><td>PDB编号</td><td>1YYM <a href="https://www.rcsb.org/structure/1YYM" target="_blank" title="访问RCSB PDB页面">前往RCSB &#x279A;</a></td></tr>
+<tr><td>标题</td><td>crystal structure of F23, a scorpion-toxin mimic of CD4, in complex with HIV-1 YU2 gp120 envelope glycoprotein and anti-HIV-1 antibody 17b</td></tr>
+<tr><td>实验方法</td><td>X-RAY DIFFRACTION</td></tr>
+<tr><td>分辨率</td><td>2.20 Å</td></tr>
+<tr><td>R-factors</td><td>R-work: 0.209, R-free: 0.268</td></tr>
+<tr><td>发布日期</td><td>2005-05-03</td></tr>
+<tr><td>作者</td><td>Huang, C.C.; Stricher, F.; Martin, L.; Decker, J.M.; Majeed, S.; Barthe, P.; Hendrickson, W.A.; Robinson, J.; Roumestand, C.; Sodroski, J.; Wyatt, R.; Shaw, G.M.; Vita, C.; Kwong, P.D.</td></tr>
+<tr><td>来源生物</td><td>Homo sapiens, Human immunodeficiency virus 1, synthetic construct</td></tr>
+<tr><td>表达宿主</td><td>Drosophila melanogaster, Mus musculus</td></tr>
+<tr><td>关键词</td><td>HIV-1, gp120, YU2, scorpion toxin, CD4 mimic, F23, antibody, Viral protein-Immune system COMPLEX</td></tr>
+<tr><td>分子量</td><td>174.90 kDa</td></tr>
+<tr><td>实体数量</td><td>蛋白质: 4, 核酸: 0, 核酸杂合体: 0</td></tr>
+<tr><td>空间群</td><td>P 1 21 1</td></tr>
+<tr><td>晶胞参数</td><td>a=51.62 Å, b=157.04 Å, c=108.93 Å, α=90.00°, β=93.45°, γ=90.00°</td></tr>
+<tr><td>二硫键</td><td>Yes</td></tr>
+<tr><td>其他连接</td><td>Yes</td></tr>
+<tr><td>多肽链</td><td>M, S</td></tr>
+<tr><td>蛋白链</td><td>G, H, L, P, Q, R</td></tr>
+<tr><td>多肽长度</td><td>27</td></tr>
+<tr><td>蛋白长度</td><td>313, 214, 229</td></tr>
+                </tbody>
+            </table>
+        </section>
+        
+
+<section class="info-section">
+    <h2 class="collapsible">
+        序列信息
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="sequences-container">
+        
+        <div class="sequence-item">
+            <h4>链: G, P - Exterior membrane glycoprotein(GP120),Exterior membrane glycoprotein(GP120),Exterior membrane glycoprotein(GP120) (长度: 313)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">GARSEVKLEN VTENFNMWKN NMVEQMHEDI ISLWDQSLKP CVKLTPLCVG AGSCNTSVIT</td></tr><tr><td class="seq-num">61</td><td class="seq-data">QACPKVSFEP IPIHYCAPAG FAILKCNDKK FNGTGPCTNV STVQCTHGIR PVVSTQLLLN</td></tr><tr><td class="seq-num">121</td><td class="seq-data">GSLAEEEIVI RSENFTNNAK TIIVQLNESV VINCTGAGHC NLSKTQWENT LEQIAIKLKE</td></tr><tr><td class="seq-num">181</td><td class="seq-data">QFGNNKTIIF NPSSGGDPEI VTHSFNCGGE FFYCNSTQLF TWNDTRKLNN TGRNITLPCR</td></tr><tr><td class="seq-num">241</td><td class="seq-data">IKQIINMWQE VGKAMYAPPI RGQIRCSSNI TGLLLTRDGG KDTNGTEIFR PGGGDMRDNW</td></tr><tr><td class="seq-num">301</td><td class="seq-data">RSELYKYKVV KIE</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: L, Q - antibody 17b light chain (长度: 214)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">DIVMTQSPAT LSVSPGERAT LSCRASESVS SDLAWYQQKP GQAPRLLIYG ASTRATGVPA</td></tr><tr><td class="seq-num">61</td><td class="seq-data">RFSGSGSGAE FTLTISSLQS EDFAVYYCQQ YNNWPPRYTF GQGTRLEIKR TVAAPSVFIF</td></tr><tr><td class="seq-num">121</td><td class="seq-data">PPSDEQLKSG TASVVCLLNN FYPREAKVQW KVDNALQSGN SQESVTEQDS KDSTYSLSST</td></tr><tr><td class="seq-num">181</td><td class="seq-data">LTLSKADYEK HKVYACEVTH QGLSSPVTKS FNRG</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: H, R - antibody 17b heavy chain (长度: 229)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">EVQLVESGAE VKKPGSSVKV SCKASGDTFI RYSFTWVRQA PGQGLEWMGR IITILDVAHY</td></tr><tr><td class="seq-num">61</td><td class="seq-data">APHLQGRVTI TADKSTSTVY LELRNLRSDD TAVYFCAGVY EGEADEGEYD NNGFLKHWGQ</td></tr><tr><td class="seq-num">121</td><td class="seq-data">GTLVTVSSAS TKGPSVFPLA PSSKSTSGGT AALGCLVKDY FPEPVTVSWN SGALTSGVHT</td></tr><tr><td class="seq-num">181</td><td class="seq-data">FPAVLQSSGL YSLSSVVTVP SSSLGTQTYI CNVNHKPSNT KVDKKVEPK</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: M, S - F23, scorpion-toxin mimic of CD4 (长度: 27)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">XNLHFCQLRC KSLGLLGKCA GSFCACX</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        参考文献
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="citations-container">
+<div class="citation-item"><p class="citation-title">Scorpion-toxin mimics of CD4 in complex with human immunodeficiency virus gp120 crystal structures, molecular mimicry, and neutralization breadth.</p><p class="citation-authors">Huang, C.C., Stricher, F., Martin, L., Decker, J.M., Majeed, S., Barthe, P., Hendrickson, W.A., Robinson, J., Roumestand, C., Sodroski, J., Wyatt, R., Shaw, G.M., Vita, C., Kwong, P.D.</p><p class="citation-journal"><em>Structure</em>, 2005</p><p class="citation-links"><a href="https://pubmed.ncbi.nlm.nih.gov/15893666/" target="_blank">PubMed: 15893666</a> | <a href="https://doi.org/10.1016/j.str.2005.03.006" target="_blank">DOI: 10.1016/j.str.2005.03.006</a></p></div>
+    </div>
+</section>
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        配体信息
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>名称</th>
+                    <th>化学式</th>
+                    <th>分子量</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>NAG</td><td>2-acetamido-2-deoxy-beta-D-glucopyranose</td><td>C8 H15 N O6</td><td>221.208</td></tr>
+<tr><td>EDO</td><td>1,2-ETHANEDIOL</td><td>C2 H6 O2</td><td>62.068</td></tr>
+<tr><td>IPA</td><td>ISOPROPYL ALCOHOL</td><td>C3 H8 O</td><td>60.095</td></tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        生物组装
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="assemblies-container">
+        <div class="assembly-item"><p><strong>组装 ID:</strong> 1</p><p><strong>详情:</strong> author_defined_assembly</p><p><strong>寡聚状态:</strong> Hetero 4-mer</p><p><strong>化学计量:</strong> A1, B1, C1, D1</p></div><div class="assembly-item"><p><strong>组装 ID:</strong> 2</p><p><strong>详情:</strong> author_defined_assembly</p><p><strong>寡聚状态:</strong> Hetero 4-mer</p><p><strong>化学计量:</strong> A1, B1, C1, D1</p></div>
+    </div>
+</section>
+
+        <section class="info-section">
+            <h2 class="collapsible">
+                3D 结构可视化
+                <span class="section-toggle-arrow"></span>
+            </h2>
+            <div class="full-width-viewer-container">
+                <div id="myViewer"></div>
+            </div>
+        </section>
+
+        <script type="text/javascript">
+            var viewerInstance = new PDBeMolstarPlugin();
+            var options = {
+                customData: {
+                    url: 'https://files.rcsb.org/download/1YYM.cif',
+                    format: 'cif'
+                },
+                moleculeId: '1YYM',
+                alphafoldView: true,
+                bgColor: { r: 30, g: 30, b: 30 },
+                hideControls: true,
+                subscribeEvents: true
+            }
+            var viewerContainer = document.getElementById('myViewer');
+            viewerInstance.render(viewerContainer, options);
+            
+            // 添加折叠/展开功能
+            document.querySelectorAll('.collapsible').forEach(header => {
+                const content = header.nextElementSibling;
+                if (!content) return;
+                
+                const headerText = header.innerText || header.textContent;
+
+                // 默认折叠，但"基本信息"和"3D 结构可视化"默认展开
+                if (!headerText.includes('基本信息') && !headerText.includes('3D 结构可视化')) {
+                    header.classList.add('collapsed');
+                    content.style.display = 'none';
+                }
+
+                header.addEventListener('click', () => {
+                    header.classList.toggle('collapsed');
+                    if (header.classList.contains('collapsed')) {
+                        content.style.display = 'none';
+                    } else {
+                        content.style.display = 'block';
+                    }
+                });
+            });
+        </script>
+    </div>
+    
+    <script src="../static/js/protein_detail.js"></script>
+</body>
+</html>

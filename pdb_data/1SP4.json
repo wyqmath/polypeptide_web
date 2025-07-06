@@ -1,0 +1,1567 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "1SP4",
+      "entry": {
+        "id": "1SP4"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00001sp4"
+        },
+        {
+          "database_id": "RCSB",
+          "pdbx_database_accession": null
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "pubmed_id": 15084146,
+        "emdb_ids": null,
+        "assembly_ids": [
+          "1"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB",
+            "structure factors",
+            "assembly mmCIF",
+            "assembly PDB",
+            "validation slider image",
+            "validation 2fo-fc coefficients",
+            "validation data mmCIF",
+            "validation report",
+            "validation fo-fc coefficients"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "Y"
+      },
+      "struct": {
+        "title": "Crystal structure of NS-134 in complex with bovine cathepsin B: a two headed epoxysuccinyl inhibitor extends along the whole active site cleft"
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": "10.1042/BJ20040237"
+      },
+      "pubmed": {
+        "rcsb_pubmed_container_identifiers": {
+          "pubmed_id": 15084146
+        },
+        "rcsb_pubmed_central_id": "PMC1133859",
+        "rcsb_pubmed_doi": "10.1042/BJ20040237",
+        "rcsb_pubmed_abstract_text": "The crystal structure of the inhibitor NS-134 in complex with bovine cathepsin B reveals that functional groups attached to both sides of the epoxysuccinyl reactive group bind to the part of active-site cleft as predicted. The -Leu-Pro-OH side binds to the primed binding sites interacting with the His110 and His111 residues with its C-terminal carboxy group, whereas the -Leu-Gly-Meu (-Leu-Gly-Gly-OMe) part (Meu, methoxycarbonylmethyl) binds along the non-primed binding sites. Comparison with the propeptide structures of cathepsins revealed that the binding of the latter part is least similar to the procathepsin B structure; this result, together with the two-residue shift in positioning of the Leu-Gly-Gly part, suggests that the propeptide structures of the cognate enzymes may not be the best starting point for the design of reverse binding inhibitors.",
+        "rcsb_pubmed_affiliation_info": [
+          "Department of Biochemistry and Molecular Biology, Josef Stefan Institute, Jamova 39, SI-1000 Ljubljana, Slovenia."
+        ]
+      },
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": null,
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "HYDROLASE/HYDROLASE INHIBITOR",
+        "text": "cathepsin B, epoxysuccinyl-based inhibitors, inhibitor design, HYDROLASE, HYDROLASE-HYDROLASE INHIBITOR complex"
+      },
+      "exptl": [
+        {
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "cell": {
+        "length_a": 73.064,
+        "length_b": 73.064,
+        "length_c": 141.97,
+        "angle_alpha": 90.0,
+        "angle_beta": 90.0,
+        "angle_gamma": 90.0
+      },
+      "symmetry": {
+        "space_group_name_H_M": "P 43 21 2"
+      },
+      "software": [
+        {
+          "classification": "refinement",
+          "name": "MAIN"
+        },
+        {
+          "classification": "data reduction",
+          "name": "DENZO"
+        },
+        {
+          "classification": "data scaling",
+          "name": "SCALEPACK"
+        },
+        {
+          "classification": "phasing",
+          "name": "EPMR"
+        }
+      ],
+      "rcsb_accession_info": {
+        "deposit_date": "2004-03-16T00:00:00Z",
+        "initial_release_date": "2004-05-04T00:00:00Z",
+        "major_revision": 1,
+        "minor_revision": 7
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "2004-05-04T00:00:00Z"
+        },
+        {
+          "ordinal": 2,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 1,
+          "revision_date": "2008-04-29T00:00:00Z"
+        },
+        {
+          "ordinal": 3,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 2,
+          "revision_date": "2011-07-13T00:00:00Z"
+        },
+        {
+          "ordinal": 4,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 3,
+          "revision_date": "2012-12-12T00:00:00Z"
+        },
+        {
+          "ordinal": 5,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 4,
+          "revision_date": "2014-02-12T00:00:00Z"
+        },
+        {
+          "ordinal": 6,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 5,
+          "revision_date": "2017-10-11T00:00:00Z"
+        },
+        {
+          "ordinal": 7,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 6,
+          "revision_date": "2024-03-13T00:00:00Z"
+        },
+        {
+          "ordinal": 8,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 7,
+          "revision_date": "2024-10-09T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        }
+      ],
+      "pdbx_audit_revision_group": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Version format compliance"
+        },
+        {
+          "ordinal": 2,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Atomic model"
+        },
+        {
+          "ordinal": 3,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 4,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Derived calculations"
+        },
+        {
+          "ordinal": 5,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Non-polymer description"
+        },
+        {
+          "ordinal": 6,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Structure summary"
+        },
+        {
+          "ordinal": 7,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Version format compliance"
+        },
+        {
+          "ordinal": 8,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Other"
+        },
+        {
+          "ordinal": 9,
+          "revision_ordinal": 5,
+          "data_content_type": "Structure model",
+          "group": "Refinement description"
+        },
+        {
+          "ordinal": 10,
+          "revision_ordinal": 6,
+          "data_content_type": "Structure model",
+          "group": "Advisory"
+        },
+        {
+          "ordinal": 11,
+          "revision_ordinal": 6,
+          "data_content_type": "Structure model",
+          "group": "Refinement description"
+        },
+        {
+          "ordinal": 12,
+          "revision_ordinal": 7,
+          "data_content_type": "Structure model",
+          "group": "Advisory"
+        },
+        {
+          "ordinal": 13,
+          "revision_ordinal": 7,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 14,
+          "revision_ordinal": 7,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 15,
+          "revision_ordinal": 7,
+          "data_content_type": "Structure model",
+          "group": "Derived calculations"
+        },
+        {
+          "ordinal": 16,
+          "revision_ordinal": 7,
+          "data_content_type": "Structure model",
+          "group": "Source and taxonomy"
+        },
+        {
+          "ordinal": 17,
+          "revision_ordinal": 7,
+          "data_content_type": "Structure model",
+          "group": "Structure summary"
+        },
+        {
+          "ordinal": 18,
+          "revision_ordinal": 8,
+          "data_content_type": "Structure model",
+          "group": "Structure summary"
+        }
+      ],
+      "pdbx_database_related": null,
+      "audit_author": [
+        {
+          "name": "Stern, I."
+        },
+        {
+          "name": "Schaschke, N."
+        },
+        {
+          "name": "Moroder, L."
+        },
+        {
+          "name": "Turk, D."
+        }
+      ],
+      "pdbx_audit_support": null,
+      "pdbx_initial_refinement_model": null,
+      "refine": [
+        {
+          "pdbx_refine_id": "X-RAY DIFFRACTION",
+          "ls_d_res_high": 2.2,
+          "ls_R_factor_R_work": 0.194,
+          "ls_R_factor_R_free": null,
+          "ls_R_factor_obs": null
+        }
+      ],
+      "pdbx_vrpt_summary_diffraction": [
+        {
+          "DCC_R": 0.18,
+          "DCC_Rfree": null
+        }
+      ],
+      "pdbx_nmr_ensemble": null,
+      "em_experiment": null,
+      "em_3d_reconstruction": null,
+      "em_software": null,
+      "citation": [
+        {
+          "id": "primary",
+          "title": "Crystal structure of NS-134 in complex with bovine cathepsin B: a two-headed epoxysuccinyl inhibitor extends along the entire active-site cleft.",
+          "rcsb_journal_abbrev": "Biochem J",
+          "rcsb_authors": [
+            "Stern, I.",
+            "Schaschke, N.",
+            "Moroder, L.",
+            "Turk, D."
+          ],
+          "year": 2004,
+          "journal_volume": "381",
+          "page_first": "511",
+          "page_last": "517",
+          "pdbx_database_id_PubMed": 15084146,
+          "pdbx_database_id_DOI": "10.1042/BJ20040237"
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 1,
+        "representative_model": null,
+        "molecular_weight": 28.12,
+        "deposited_atom_count": 2143,
+        "deposited_polymer_monomer_count": 253,
+        "deposited_modeled_polymer_monomer_count": 253,
+        "deposited_unmodeled_polymer_monomer_count": 0,
+        "polymer_entity_count_protein": 2,
+        "polymer_entity_count_nucleic_acid": 0,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": null,
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "1SP4",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "1.20.5.170"
+                },
+                {
+                  "type": "SCOP",
+                  "annotation_id": "d1sp4.1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "1SP4",
+            "entity_id": "1",
+            "asym_ids": [
+              "A"
+            ],
+            "auth_asym_ids": [
+              "A"
+            ],
+            "uniprot_ids": [
+              "P07688"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "P07688"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "P07688",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Bos taurus"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Cathepsin B",
+            "rcsb_ec_lineage": [
+              {
+                "id": "3"
+              },
+              {
+                "id": "3.4"
+              },
+              {
+                "id": "3.4.22"
+              },
+              {
+                "id": "3.4.22.1"
+              }
+            ],
+            "pdbx_ec": "3.4.22.1",
+            "rcsb_enzyme_class_combined": [
+              {
+                "ec": "3.4.22.1",
+                "provenance_source": "PDB Primary Data"
+              }
+            ]
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Cysteine peptidase, asparagine active site",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Cysteine peptidase, cysteine active site",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Peptidase C1A, propeptide",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "pigment granule",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular vesicle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "melanosome",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasmic vesicle",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "vesicle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Peptidase C1A",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cell periphery",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "apical part of cell",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane region",
+                  "depth": null
+                },
+                {
+                  "name": "apical plasma membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Peptidase C1A, papain C-terminal",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "peptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a protein",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "endopeptidase activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cysteine-type peptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "peptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a protein",
+                  "depth": null
+                },
+                {
+                  "name": "cysteine-type endopeptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "endopeptidase activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "proteolysis involved in protein catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "proteolysis",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "protein catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "protein metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule catabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Papain-like cysteine peptidase superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Cysteine peptidase, histidine active site",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular space",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "lytic vacuole",
+                  "depth": null
+                },
+                {
+                  "name": "vacuole",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "lysosome",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "28151_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "P07688",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "37475_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "37820_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "43914_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "43350_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "40674_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "LPESFDAREQWPNCPTIKEIRDQGSCGSCWAFGAVEAISDRICIHSNG",
+            "rcsb_sample_sequence_length": 48,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Bos taurus",
+              "ncbi_scientific_name": "Bos taurus",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "B",
+                "asym_id": "B",
+                "entry_id": "1SP4",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "3.90.70.10"
+                },
+                {
+                  "type": "SCOP",
+                  "annotation_id": "d1sp4.1"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8039659"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "1SP4",
+            "entity_id": "2",
+            "asym_ids": [
+              "B"
+            ],
+            "auth_asym_ids": [
+              "B"
+            ],
+            "uniprot_ids": [
+              "P07688"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "P07688"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "P07688",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Bos taurus"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Cathepsin B",
+            "rcsb_ec_lineage": [
+              {
+                "id": "3"
+              },
+              {
+                "id": "3.4"
+              },
+              {
+                "id": "3.4.22"
+              },
+              {
+                "id": "3.4.22.1"
+              }
+            ],
+            "pdbx_ec": "3.4.22.1",
+            "rcsb_enzyme_class_combined": [
+              {
+                "ec": "3.4.22.1",
+                "provenance_source": "PDB Primary Data"
+              }
+            ]
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Cysteine peptidase, asparagine active site",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Cysteine peptidase, cysteine active site",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Peptidase C1A, propeptide",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "pigment granule",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular vesicle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "melanosome",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasmic vesicle",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "vesicle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Peptidase C1A",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cell periphery",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "apical part of cell",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane region",
+                  "depth": null
+                },
+                {
+                  "name": "apical plasma membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Peptidase C1A, papain C-terminal",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "peptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a protein",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "endopeptidase activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cysteine-type peptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "peptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a protein",
+                  "depth": null
+                },
+                {
+                  "name": "cysteine-type endopeptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "endopeptidase activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "proteolysis involved in protein catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "proteolysis",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "protein catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "protein metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule catabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Papain-like cysteine peptidase superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Cysteine peptidase, histidine active site",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular space",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "lytic vacuole",
+                  "depth": null
+                },
+                {
+                  "name": "vacuole",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "lysosome",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "8616_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "P07688",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "9758_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "115_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "10606_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "6632_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "8199_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "RVNVEVSAEDMLTCCGGECGDGCNGGFPSGAWNFWTKKGLVSGGLYNSHVGCRPYSIPPCEHHVNGSRPPCTGEGDTPKCNKTCEPGYSPSYKEDKHFGCSSYSVANNEKEIMAEIYKNGPVEGAFSVYSDFLLYKSGVYQHVSGEIMGGHAIRILGWGVENGTPYWLVGNSWNTDWGDNGFFKILRGQDHCGIESEIVAGMPCT",
+            "rcsb_sample_sequence_length": 205,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Bos taurus",
+              "ncbi_scientific_name": "Bos taurus",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        }
+      ],
+      "nonpolymer_entities": [
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "1SP4",
+            "entity_id": "3",
+            "auth_asym_ids": [
+              "B"
+            ],
+            "asym_ids": [
+              "C"
+            ],
+            "nonpolymer_comp_id": "EP2"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "48",
+                "auth_asym_id": "B",
+                "asym_id": "C",
+                "entry_id": "1SP4",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.6512,
+                  "ranking_model_geometry": -0.0,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "RCSB"
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "methyl N-[(2S)-4-{[(1S)-1-{[(2S)-2-carboxypyrrolidin-1-yl]carbonyl}-3-methylbutyl]amino}-2-hydroxy-4-oxobutanoyl]-L-leucylglycylglycinate"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "EP2",
+              "formula_weight": 583.631,
+              "name": "methyl N-[(2S)-4-{[(1S)-1-{[(2S)-2-carboxypyrrolidin-1-yl]carbonyl}-3-methylbutyl]amino}-2-hydroxy-4-oxobutanoyl]-L-leucylglycylglycinate",
+              "formula": "C26 H41 N5 O10"
+            },
+            "pdbx_reference_molecule": {
+              "prd_id": "PRD_000444",
+              "chem_comp_id": "EP2",
+              "type": "Peptide-like",
+              "name": "NS-134 TWO HEADED EPOXYSUCCINYL INHIBITOR",
+              "class": "Inhibitor"
+            },
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "LLLKOFOBLVPXQZ-RNEDXHKXSA-N"
+            }
+          }
+        }
+      ],
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_and_software_defined_assembly",
+            "method_details": "PISA",
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": null,
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Asymmetric",
+              "symbol": "C1",
+              "oligomeric_state": "Hetero 2-mer",
+              "stoichiometry": [
+                "A1",
+                "B1"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 253
+          }
+        }
+      ]
+    }
+  }
+}

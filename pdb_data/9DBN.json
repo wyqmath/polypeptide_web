@@ -1,0 +1,3066 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "9DBN",
+      "entry": {
+        "id": "9DBN"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00009dbn"
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        },
+        {
+          "database_id": "EMDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "pubmed_id": 39920100,
+        "emdb_ids": [
+          "EMD-46721"
+        ],
+        "assembly_ids": [
+          "1"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB",
+            "assembly mmCIF",
+            "assembly PDB",
+            "validation slider image",
+            "validation report",
+            "validation data mmCIF"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "Y"
+      },
+      "struct": {
+        "title": "Tarantula venom peptide Protoxin-I bound to full-length human voltage-gated sodium channel 1.8 (NaV1.8)"
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": "10.1038/s41467-024-55764-z"
+      },
+      "pubmed": {
+        "rcsb_pubmed_container_identifiers": {
+          "pubmed_id": 39920100
+        },
+        "rcsb_pubmed_central_id": "PMC11805909",
+        "rcsb_pubmed_doi": "10.1038/s41467-024-55764-z",
+        "rcsb_pubmed_abstract_text": "Voltage-gated sodium channels (Na <sub>V </sub>s) selectively permit diffusion of sodium ions across the cell membrane and, in excitable cells, are responsible for propagating action potentials. One of the nine human Na <sub>V </sub> isoforms, Na <sub>V </sub>1.8, is a promising target for analgesics, and selective inhibitors are of interest as therapeutics. One such inhibitor, the gating-modifier peptide Protoxin-I derived from tarantula venom, blocks channel opening by shifting the activation voltage threshold to more depolarized potentials, but the structural basis for this inhibition has not previously been determined. Using monolayer graphene grids, we report the cryogenic electron microscopy structures of full-length human apo-Na <sub>V </sub>1.8 and the Protoxin-I-bound complex at 3.1 Å and 2.8 Å resolution, respectively. The apo structure shows an unexpected movement of the Domain I S4-S5 helix, and VSD <sub>I </sub> was unresolvable. We find that Protoxin-I binds to and displaces the VSD <sub>II </sub> S3-S4 linker, hindering translocation of the S4 <sub>II </sub> helix during activation.",
+        "rcsb_pubmed_affiliation_info": [
+          "Department of Molecular Biology and Biochemistry, University of California Irvine, Irvine, CA, USA.",
+          "Department of Molecular Biology and Biochemistry, University of California Irvine, Irvine, CA, USA. gonens@uci.edu."
+        ]
+      },
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": [
+        {
+          "id": "EMD-46721",
+          "type": "EM DATA RESOURCE",
+          "link": "https://www.emdataresource.org/EMD-46721"
+        }
+      ],
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "MEMBRANE PROTEIN",
+        "text": "ion channel, MEMBRANE PROTEIN"
+      },
+      "exptl": [
+        {
+          "method": "ELECTRON MICROSCOPY"
+        }
+      ],
+      "cell": null,
+      "symmetry": null,
+      "software": null,
+      "rcsb_accession_info": {
+        "deposit_date": "2024-08-23T00:00:00Z",
+        "initial_release_date": "2025-02-19T00:00:00Z",
+        "major_revision": 1,
+        "minor_revision": 0
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "2025-02-19T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        }
+      ],
+      "pdbx_audit_revision_group": null,
+      "pdbx_database_related": [
+        {
+          "content_type": "associated EM volume",
+          "db_id": "EMD-46721",
+          "details": "Structure of a human ion channel in complex with an inhibitory peptide",
+          "db_name": "EMDB"
+        }
+      ],
+      "audit_author": [
+        {
+          "name": "Neumann, B."
+        },
+        {
+          "name": "McCarthy, S."
+        },
+        {
+          "name": "Gonen, S."
+        }
+      ],
+      "pdbx_audit_support": [
+        {
+          "funding_organization": "Department of Defense (DOD, United States)",
+          "country": "United States",
+          "grant_number": "HDTRA1-21-1-0004",
+          "ordinal": 1
+        },
+        {
+          "funding_organization": "National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)",
+          "country": "United States",
+          "grant_number": "R35-GM142797",
+          "ordinal": 2
+        }
+      ],
+      "pdbx_initial_refinement_model": [
+        {
+          "type": "experimental model"
+        },
+        {
+          "type": "experimental model"
+        }
+      ],
+      "refine": null,
+      "pdbx_vrpt_summary_diffraction": null,
+      "pdbx_nmr_ensemble": null,
+      "em_experiment": {
+        "aggregation_state": "PARTICLE",
+        "reconstruction_method": "SINGLE PARTICLE"
+      },
+      "em_3d_reconstruction": [
+        {
+          "resolution": 2.76
+        }
+      ],
+      "em_software": [
+        {
+          "category": "PARTICLE SELECTION",
+          "name": "cryoSPARC",
+          "version": "4.4"
+        },
+        {
+          "category": "IMAGE ACQUISITION",
+          "name": "SerialEM",
+          "version": null
+        },
+        {
+          "category": "MASKING",
+          "name": null,
+          "version": null
+        },
+        {
+          "category": "CTF CORRECTION",
+          "name": "cryoSPARC",
+          "version": "4.4"
+        },
+        {
+          "category": "LAYERLINE INDEXING",
+          "name": null,
+          "version": null
+        },
+        {
+          "category": "DIFFRACTION INDEXING",
+          "name": null,
+          "version": null
+        },
+        {
+          "category": "MODEL FITTING",
+          "name": "UCSF ChimeraX",
+          "version": null
+        },
+        {
+          "category": "OTHER",
+          "name": null,
+          "version": null
+        },
+        {
+          "category": "INITIAL EULER ASSIGNMENT",
+          "name": "cryoSPARC",
+          "version": "4.4"
+        },
+        {
+          "category": "FINAL EULER ASSIGNMENT",
+          "name": "cryoSPARC",
+          "version": "4.4"
+        },
+        {
+          "category": "CLASSIFICATION",
+          "name": null,
+          "version": null
+        },
+        {
+          "category": "RECONSTRUCTION",
+          "name": "cryoSPARC",
+          "version": "4.4"
+        },
+        {
+          "category": "MODEL REFINEMENT",
+          "name": "PHENIX",
+          "version": null
+        },
+        {
+          "category": "MODEL REFINEMENT",
+          "name": "Coot",
+          "version": null
+        }
+      ],
+      "citation": [
+        {
+          "id": "primary",
+          "title": "Structural basis of inhibition of human Na V 1.8 by the tarantula venom peptide Protoxin-I.",
+          "rcsb_journal_abbrev": "Nat Commun",
+          "rcsb_authors": [
+            "Neumann, B.",
+            "McCarthy, S.",
+            "Gonen, S."
+          ],
+          "year": 2025,
+          "journal_volume": "16",
+          "page_first": "1459",
+          "page_last": "1459",
+          "pdbx_database_id_PubMed": 39920100,
+          "pdbx_database_id_DOI": "10.1038/s41467-024-55764-z"
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 1,
+        "representative_model": null,
+        "molecular_weight": 240.7,
+        "deposited_atom_count": 9093,
+        "deposited_polymer_monomer_count": 2036,
+        "deposited_modeled_polymer_monomer_count": 1047,
+        "deposited_unmodeled_polymer_monomer_count": 989,
+        "polymer_entity_count_protein": 2,
+        "polymer_entity_count_nucleic_acid": 0,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": [
+        {
+          "rcsb_id": "9DBN_3",
+          "rcsb_branched_entity_container_identifiers": {
+            "entry_id": "9DBN",
+            "entity_id": "3",
+            "asym_ids": [
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "auth_asym_ids": [
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "reference_identifiers": [
+              {
+                "provenance_source": "RCSB",
+                "resource_name": "GlyTouCan",
+                "resource_accession": "G15407YE"
+              },
+              {
+                "provenance_source": "RCSB",
+                "resource_name": "GlyCosmos",
+                "resource_accession": "G15407YE"
+              },
+              {
+                "provenance_source": "RCSB",
+                "resource_name": "GlyGen",
+                "resource_accession": "G15407YE"
+              }
+            ]
+          },
+          "prd": null,
+          "rcsb_branched_entity": {
+            "pdbx_description": "beta-D-mannopyranose-(1-4)-2-acetamido-2-deoxy-beta-D-glucopyranose-(1-4)-2-acetamido-2-deoxy-beta-D-glucopyranose",
+            "formula_weight": 0.587
+          },
+          "pdbx_entity_branch": {
+            "rcsb_branched_component_count": 3
+          },
+          "branched_entity_instances": [
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "9DBN",
+                "entity_id": "3",
+                "asym_id": "C",
+                "auth_asym_id": "C"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": "N-Glycosylation",
+                  "ordinal_id": 18,
+                  "connect_partner": {
+                    "label_asym_id": "A",
+                    "label_seq_id": 357,
+                    "label_comp_id": "ASN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "C",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 27,
+                  "connect_partner": {
+                    "label_asym_id": "C",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "C",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 28,
+                  "connect_partner": {
+                    "label_asym_id": "C",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "C",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 29,
+                  "connect_partner": {
+                    "label_asym_id": "C",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "C",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 30,
+                  "connect_partner": {
+                    "label_asym_id": "C",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "C",
+                    "label_comp_id": "BMA"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            },
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "9DBN",
+                "entity_id": "3",
+                "asym_id": "D",
+                "auth_asym_id": "D"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": "N-Glycosylation",
+                  "ordinal_id": 22,
+                  "connect_partner": {
+                    "label_asym_id": "A",
+                    "label_seq_id": 1357,
+                    "label_comp_id": "ASN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "D",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 31,
+                  "connect_partner": {
+                    "label_asym_id": "D",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "D",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 32,
+                  "connect_partner": {
+                    "label_asym_id": "D",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "D",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 33,
+                  "connect_partner": {
+                    "label_asym_id": "D",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "D",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 34,
+                  "connect_partner": {
+                    "label_asym_id": "D",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "D",
+                    "label_comp_id": "BMA"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            },
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "9DBN",
+                "entity_id": "3",
+                "asym_id": "E",
+                "auth_asym_id": "E"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": "N-Glycosylation",
+                  "ordinal_id": 24,
+                  "connect_partner": {
+                    "label_asym_id": "A",
+                    "label_seq_id": 1373,
+                    "label_comp_id": "ASN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "E",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 35,
+                  "connect_partner": {
+                    "label_asym_id": "E",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "E",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 36,
+                  "connect_partner": {
+                    "label_asym_id": "E",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "E",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 37,
+                  "connect_partner": {
+                    "label_asym_id": "E",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "E",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 38,
+                  "connect_partner": {
+                    "label_asym_id": "E",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "E",
+                    "label_comp_id": "BMA"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            },
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "9DBN",
+                "entity_id": "3",
+                "asym_id": "F",
+                "auth_asym_id": "F"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": "N-Glycosylation",
+                  "ordinal_id": 26,
+                  "connect_partner": {
+                    "label_asym_id": "A",
+                    "label_seq_id": 1381,
+                    "label_comp_id": "ASN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "F",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 39,
+                  "connect_partner": {
+                    "label_asym_id": "F",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "F",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 40,
+                  "connect_partner": {
+                    "label_asym_id": "F",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "F",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 41,
+                  "connect_partner": {
+                    "label_asym_id": "F",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "F",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 42,
+                  "connect_partner": {
+                    "label_asym_id": "F",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "F",
+                    "label_comp_id": "BMA"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            },
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "9DBN",
+                "entity_id": "3",
+                "asym_id": "G",
+                "auth_asym_id": "G"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": "N-Glycosylation",
+                  "ordinal_id": 20,
+                  "connect_partner": {
+                    "label_asym_id": "A",
+                    "label_seq_id": 864,
+                    "label_comp_id": "ASN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "G",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 43,
+                  "connect_partner": {
+                    "label_asym_id": "G",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "G",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 44,
+                  "connect_partner": {
+                    "label_asym_id": "G",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "G",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 45,
+                  "connect_partner": {
+                    "label_asym_id": "G",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "G",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 46,
+                  "connect_partner": {
+                    "label_asym_id": "G",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "G",
+                    "label_comp_id": "BMA"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            }
+          ]
+        }
+      ],
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "9DBN",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "GlyGen",
+                  "annotation_id": "Q9Y5Y9-1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": "N-Glycosylation",
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": "N-Glycosylation",
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "G"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": "N-Glycosylation",
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": "N-Glycosylation",
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": "N-Glycosylation",
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "9DBN",
+            "entity_id": "1",
+            "asym_ids": [
+              "A"
+            ],
+            "auth_asym_ids": [
+              "A"
+            ],
+            "uniprot_ids": [
+              "Q9Y5Y9"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "Q9Y5Y9"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "Q9Y5Y9",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Homo sapiens"
+                }
+              },
+              "rcsb_uniprot_external_reference": [
+                {
+                  "reference_name": "PHAROS",
+                  "reference_id": "Q9Y5Y9"
+                },
+                {
+                  "reference_name": "GTEX",
+                  "reference_id": "ENSG00000185313"
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Sodium channel protein type 10 subunit alpha",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "mpstruc",
+              "annotation_lineage": [
+                {
+                  "name": "Na<sub>V</sub>1.8 voltage-gated sodium channel, full-length, apo state",
+                  "depth": 2
+                },
+                {
+                  "name": "Channels: Potassium, Sodium, & Proton Ion-Selective",
+                  "depth": 1
+                },
+                {
+                  "name": "TRANSMEMBRANE PROTEINS: ALPHA-HELICAL",
+                  "depth": 0
+                }
+              ]
+            },
+            {
+              "type": "MemProtMD",
+              "annotation_lineage": [
+                {
+                  "name": "Generic MemProtMD",
+                  "depth": 0
+                }
+              ]
+            },
+            {
+              "type": "PDBTM",
+              "annotation_lineage": [
+                {
+                  "name": "Generic PDBTM",
+                  "depth": 0
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "heart process",
+                  "depth": null
+                },
+                {
+                  "name": "cardiac muscle cell contraction",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "system process",
+                  "depth": null
+                },
+                {
+                  "name": "cardiac muscle cell action potential involved in contraction",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "action potential",
+                  "depth": null
+                },
+                {
+                  "name": "actin filament-based movement",
+                  "depth": null
+                },
+                {
+                  "name": "cardiac muscle contraction",
+                  "depth": null
+                },
+                {
+                  "name": "muscle contraction",
+                  "depth": null
+                },
+                {
+                  "name": "muscle system process",
+                  "depth": null
+                },
+                {
+                  "name": "striated muscle contraction",
+                  "depth": null
+                },
+                {
+                  "name": "circulatory system process",
+                  "depth": null
+                },
+                {
+                  "name": "actin filament-based process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological quality",
+                  "depth": null
+                },
+                {
+                  "name": "actin-mediated cell contraction",
+                  "depth": null
+                },
+                {
+                  "name": "heart contraction",
+                  "depth": null
+                },
+                {
+                  "name": "cardiac muscle cell action potential",
+                  "depth": null
+                },
+                {
+                  "name": "blood circulation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of membrane potential",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "heart process",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "system process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of heart contraction",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of system process",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "circulatory system process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of blood circulation",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological quality",
+                  "depth": null
+                },
+                {
+                  "name": "heart contraction",
+                  "depth": null
+                },
+                {
+                  "name": "blood circulation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of heart rate",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "heart process",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "system process",
+                  "depth": null
+                },
+                {
+                  "name": "signaling",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of heart contraction",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of system process",
+                  "depth": null
+                },
+                {
+                  "name": "cell-cell signaling involved in cardiac conduction",
+                  "depth": null
+                },
+                {
+                  "name": "cell communication",
+                  "depth": null
+                },
+                {
+                  "name": "bundle of His cell to Purkinje myocyte signaling",
+                  "depth": null
+                },
+                {
+                  "name": "circulatory system process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological quality",
+                  "depth": null
+                },
+                {
+                  "name": "cell communication involved in cardiac conduction",
+                  "depth": null
+                },
+                {
+                  "name": "blood circulation",
+                  "depth": null
+                },
+                {
+                  "name": "bundle of His cell to Purkinje myocyte communication",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "cell-cell signaling",
+                  "depth": null
+                },
+                {
+                  "name": "action potential",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of blood circulation",
+                  "depth": null
+                },
+                {
+                  "name": "bundle of His cell action potential",
+                  "depth": null
+                },
+                {
+                  "name": "cardiac conduction",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "cardiac muscle cell action potential",
+                  "depth": null
+                },
+                {
+                  "name": "heart contraction",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of membrane potential",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "developmental process",
+                  "depth": null
+                },
+                {
+                  "name": "anatomical structure morphogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "odontogenesis of dentin-containing tooth",
+                  "depth": null
+                },
+                {
+                  "name": "odontogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "anatomical structure development",
+                  "depth": null
+                },
+                {
+                  "name": "animal organ development",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "animal organ morphogenesis",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of membrane depolarization",
+                  "depth": null
+                },
+                {
+                  "name": "membrane depolarization",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological quality",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of atrial cardiac muscle cell membrane depolarization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of membrane potential",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "extracellular exosome",
+                  "depth": null
+                },
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular vesicle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular space",
+                  "depth": null
+                },
+                {
+                  "name": "vesicle",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular membrane-bounded organelle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Voltage gated sodium channel, alpha subunit",
+                  "depth": 2
+                },
+                {
+                  "name": "Voltage-gated cation channel calcium and sodium",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cell periphery",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cell periphery",
+                  "depth": null
+                },
+                {
+                  "name": "presynapse",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "synapse",
+                  "depth": null
+                },
+                {
+                  "name": "cell junction",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane",
+                  "depth": null
+                },
+                {
+                  "name": "presynaptic membrane",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane region",
+                  "depth": null
+                },
+                {
+                  "name": "synaptic membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "heart process",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "system process",
+                  "depth": null
+                },
+                {
+                  "name": "AV node cell action potential",
+                  "depth": null
+                },
+                {
+                  "name": "signaling",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of heart contraction",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of system process",
+                  "depth": null
+                },
+                {
+                  "name": "cell-cell signaling involved in cardiac conduction",
+                  "depth": null
+                },
+                {
+                  "name": "cell communication",
+                  "depth": null
+                },
+                {
+                  "name": "circulatory system process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological quality",
+                  "depth": null
+                },
+                {
+                  "name": "cell communication involved in cardiac conduction",
+                  "depth": null
+                },
+                {
+                  "name": "blood circulation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "AV node cell to bundle of His cell signaling",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "cell-cell signaling",
+                  "depth": null
+                },
+                {
+                  "name": "action potential",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of blood circulation",
+                  "depth": null
+                },
+                {
+                  "name": "AV node cell to bundle of His cell communication",
+                  "depth": null
+                },
+                {
+                  "name": "cardiac conduction",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "cardiac muscle cell action potential",
+                  "depth": null
+                },
+                {
+                  "name": "heart contraction",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of membrane potential",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "membrane depolarization during action potential",
+                  "depth": null
+                },
+                {
+                  "name": "membrane depolarization",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "action potential",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological quality",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of membrane potential",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "system process",
+                  "depth": null
+                },
+                {
+                  "name": "sensory perception",
+                  "depth": null
+                },
+                {
+                  "name": "nervous system process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Sodium ion transport-associated domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "heart process",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "system process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of heart contraction",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of system process",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cardiac muscle contraction",
+                  "depth": null
+                },
+                {
+                  "name": "cardiac muscle contraction",
+                  "depth": null
+                },
+                {
+                  "name": "muscle contraction",
+                  "depth": null
+                },
+                {
+                  "name": "muscle system process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of muscle system process",
+                  "depth": null
+                },
+                {
+                  "name": "striated muscle contraction",
+                  "depth": null
+                },
+                {
+                  "name": "circulatory system process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of blood circulation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of striated muscle contraction",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of muscle contraction",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "heart contraction",
+                  "depth": null
+                },
+                {
+                  "name": "blood circulation",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "synapse",
+                  "depth": null
+                },
+                {
+                  "name": "cell junction",
+                  "depth": null
+                },
+                {
+                  "name": "glutamatergic synapse",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "transport",
+                  "depth": null
+                },
+                {
+                  "name": "monoatomic ion transmembrane transport",
+                  "depth": null
+                },
+                {
+                  "name": "sodium ion transmembrane transport",
+                  "depth": null
+                },
+                {
+                  "name": "inorganic ion transmembrane transport",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of localization",
+                  "depth": null
+                },
+                {
+                  "name": "metal ion transport",
+                  "depth": null
+                },
+                {
+                  "name": "inorganic cation transmembrane transport",
+                  "depth": null
+                },
+                {
+                  "name": "transmembrane transport",
+                  "depth": null
+                },
+                {
+                  "name": "monoatomic cation transmembrane transport",
+                  "depth": null
+                },
+                {
+                  "name": "localization",
+                  "depth": null
+                },
+                {
+                  "name": "monoatomic ion transport",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "monoatomic cation transport",
+                  "depth": null
+                },
+                {
+                  "name": "sodium ion transport",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Ion transport domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "passive transmembrane transporter activity",
+                  "depth": null
+                },
+                {
+                  "name": "gated channel activity",
+                  "depth": null
+                },
+                {
+                  "name": "monoatomic ion channel activity",
+                  "depth": null
+                },
+                {
+                  "name": "voltage-gated monoatomic ion channel activity involved in regulation of presynaptic membrane potential",
+                  "depth": null
+                },
+                {
+                  "name": "channel activity",
+                  "depth": null
+                },
+                {
+                  "name": "voltage-gated channel activity",
+                  "depth": null
+                },
+                {
+                  "name": "voltage-gated monoatomic ion channel activity",
+                  "depth": null
+                },
+                {
+                  "name": "monoatomic ion transmembrane transporter activity",
+                  "depth": null
+                },
+                {
+                  "name": "transporter activity",
+                  "depth": null
+                },
+                {
+                  "name": "transmembrane transporter activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "monoatomic cation transmembrane transporter activity",
+                  "depth": null
+                },
+                {
+                  "name": "voltage-gated sodium channel activity",
+                  "depth": null
+                },
+                {
+                  "name": "monoatomic ion channel activity",
+                  "depth": null
+                },
+                {
+                  "name": "sodium channel activity",
+                  "depth": null
+                },
+                {
+                  "name": "sodium ion transmembrane transporter activity",
+                  "depth": null
+                },
+                {
+                  "name": "monoatomic cation channel activity",
+                  "depth": null
+                },
+                {
+                  "name": "passive transmembrane transporter activity",
+                  "depth": null
+                },
+                {
+                  "name": "inorganic molecular entity transmembrane transporter activity",
+                  "depth": null
+                },
+                {
+                  "name": "channel activity",
+                  "depth": null
+                },
+                {
+                  "name": "inorganic cation transmembrane transporter activity",
+                  "depth": null
+                },
+                {
+                  "name": "monoatomic ion transmembrane transporter activity",
+                  "depth": null
+                },
+                {
+                  "name": "transporter activity",
+                  "depth": null
+                },
+                {
+                  "name": "metal ion transmembrane transporter activity",
+                  "depth": null
+                },
+                {
+                  "name": "transmembrane transporter activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "clathrin coat",
+                  "depth": null
+                },
+                {
+                  "name": "membrane coat",
+                  "depth": null
+                },
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                },
+                {
+                  "name": "membrane protein complex",
+                  "depth": null
+                },
+                {
+                  "name": "clathrin complex",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "coated membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "transmembrane transporter binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "sodium channel complex",
+                  "depth": null
+                },
+                {
+                  "name": "voltage-gated sodium channel complex",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane protein complex",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane",
+                  "depth": null
+                },
+                {
+                  "name": "membrane protein complex",
+                  "depth": null
+                },
+                {
+                  "name": "cation channel complex",
+                  "depth": null
+                },
+                {
+                  "name": "transporter complex",
+                  "depth": null
+                },
+                {
+                  "name": "cell periphery",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "transmembrane transporter complex",
+                  "depth": null
+                },
+                {
+                  "name": "monoatomic ion channel complex",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "regulation of localization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "transport",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of transport",
+                  "depth": null
+                },
+                {
+                  "name": "monoatomic ion transmembrane transport",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of monoatomic ion transport",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of monoatomic ion transmembrane transport",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of localization",
+                  "depth": null
+                },
+                {
+                  "name": "transmembrane transport",
+                  "depth": null
+                },
+                {
+                  "name": "localization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of transmembrane transport",
+                  "depth": null
+                },
+                {
+                  "name": "monoatomic ion transport",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "axon",
+                  "depth": null
+                },
+                {
+                  "name": "cell projection",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "neuron projection",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane bounded cell projection",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Voltage-gated sodium channel alpha subunit, inactivation gate",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Voltage-gated cation channel calcium and sodium",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Voltage-dependent channel domain superfamily",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "23184_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "10837_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "12262_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "1736_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "13480_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "1281_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "Q9Y5Y9",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "DYKDDDDKSAWSHPQFEKGGGSGGGSGGSAWSHPQFEKENLYFQSMEFPIGSLETNNFRRFTPESLVEIEKQIAAKQGTKKAREKHREQKDQEEKPRPQLDLKACNQLPKFYGELPAELIGEPLEDLDPFYSTHRTFMVLNKGRTISRFSATRALWLFSPFNLIRRTAIKVSVHSWFSLFITVTILVNCVCMTRTDLPEKIEYVFTVIYTFEALIKILARGFCLNEFTYLRDPWNWLDFSVITLAYVGTAIDLRGISGLRTFRVLRALKTVSVIPGLKVIVGALIHSVKKLADVTILTIFCLSVFALVGLQLFKGNLKNKCVKNDMAVNETTNYSSHRKPDIYINKRGTSDPLLCGNGSDSGHCPDGYICLKTSDNPDFNYTSFDSFAWAFLSLFRLMTQDSWERLYQQTLRTSGKIYMIFFVLVIFLGSFYLVNLILAVVTMAYEEQNQATTDEIEAKEKKFQEALEMLRKEQEVLAALGIDTTSLHSHNGSPLTSKNASERRHRIKPRVSEGSTEDNKSPRSDPYNQRRMSFLGLASGKRRASHGSVFHFRSPGRDISLPEGVTDDGVFPGDHESHRGSLLLGGGAGQQGPLPRSPLPQPSNPDSRHGEDEHQPPPTSELAPGAVDVSAFDAGQKKTFLSAEYLDEPFRAQRAMSVVSIITSVLEELEESEQKCPPCLTSLSQKYLIWDCCPMWVKLKTILFGLVTDPFAELTITLCIVVNTIFMAMEHHGMSPTFEAMLQIGNIVFTIFFTAEMVFKIIAFDPYYYFQKKWNIFDCIIVTVSLLELGVAKKGSLSVLRSFRLLRVFKLAKSWPTLNTLIKIIGNSVGALGNLTIILAIIVFVFALVGKQLLGENYRNNRKNISAPHEDWPRWHMHDFFHSFLIVFRILCGEWIENMWACMEVGQKSICLILFLTVMVLGNLVVLNLFIALLLNSFSADNLTAPEDDGEVNNLQVALARIQVFGHRTKQALCSFFSRSCPFPQPKAEPELVVKLPLSSSKAENHIAANTARGSSGGLQAPRGPRDEHSDFIANPTVWVSVPIAEGESDLDDLEDDGGEDAQSFQQEVIPKGQQEQLQQVERCGDHLTPRSPGTGTSSEDLAPSLGETWKDESVPQVPAEGVDDTSSSEGSTVDCLDPEEILRKIPELADDLEEPDDCFTEGCIRHCPCCKLDTTKSPWDVGWQVRKTCYRIVEHSWFESFIIFMILLSSGSLAFEDYYLDQKPTVKALLEYTDRVFTFIFVFEMLLKWVAYGFKKYFTNAWCWLDFLIVNISLISLTAKILEYSEVAPIKALRTLRALRPLRALSRFEGMRVVVDALVGAIPSIMNVLLVCLIFWLIFSIMGVNLFAGKFWRCINYTDGEFSLVPLSIVNNKSDCKIQNSTGSFFWVNVKVNFDNVAMGYLALLQVATFKGWMDIMYAAVDSREVNMQPKWEDNVYMYLYFVIFIIFGGFFTLNLFVGVIIDNFNQQKKKLGGQDIFMTEEQKKYYNAMKKLGSKKPQKPIPRPLNKFQGFVFDIVTRQAFDITIMVLICLNMITMMVETDDQSEEKTKILGKINQFFVAVFTGECVMKMFALRQYYFTNGWNVFDFIVVVLSIASLIFSAILKSLQSYFSPTLFRVIRLARIGRILRLIRAAKGIRTLLFALMMSLPALFNIGLLLFLVMFIYSIFGMSSFPHVRWEAGIDDMFNFQTFANSMLCLFQITTSAGWDGLLSPILNTGPPYCDPNLPNSNGTRGDCGSPAVGIIFFTTYIIISFLIVVNMYIAVILENFNVATEESTEPLSEDDFDMFYETWEKFDPEATQFITFSALSDFADTLSGPLRIPKPNRNILIQMDLPLVPGDKIHCLDILFAFTKNVLGESGELDSLKANMEEKFMATNLSKSSYEPIATTLRWKQEDISATVIQKAYRSYVLHRSMALSNTPCVPRAEEEAASLPDEGFVAFTANENCVLPDKSETASATSFPPSYESVTRGLSDRVNMRTSSSIQNEDEATSMELIAPGP",
+            "rcsb_sample_sequence_length": 2001,
+            "rcsb_mutation_count": 1
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Homo sapiens",
+              "ncbi_scientific_name": "Homo sapiens",
+              "rcsb_gene_name": [
+                {
+                  "value": "SCN10A",
+                  "provenance_source": "Primary Data"
+                }
+              ]
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Homo sapiens"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "B",
+                "asym_id": "B",
+                "entry_id": "9DBN",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8082241"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "9DBN",
+            "entity_id": "2",
+            "asym_ids": [
+              "B"
+            ],
+            "auth_asym_ids": [
+              "B"
+            ],
+            "uniprot_ids": [
+              "P83480"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "P83480"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "P83480",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Thrixopelma pruriens"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Beta/omega-theraphotoxin-Tp1a",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "molecular function inhibitor activity",
+                  "depth": null
+                },
+                {
+                  "name": "channel regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "transporter inhibitor activity",
+                  "depth": null
+                },
+                {
+                  "name": "calcium channel inhibitor activity",
+                  "depth": null
+                },
+                {
+                  "name": "ion channel inhibitor activity",
+                  "depth": null
+                },
+                {
+                  "name": "ion channel regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular function regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "calcium channel regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "transporter regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "channel inhibitor activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "potassium channel regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "channel regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "ion channel regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular function regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "transporter regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "channel regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "ion channel regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular function regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "sodium channel regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "transporter regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Huwentoxin-1 family",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "toxin activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "1483_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "36798_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "33911_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "36783_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "18311_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "25323_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "P83480",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "ECRYWLGGCSAGQTCCKHLVCSRRHGWCVWDGTFS",
+            "rcsb_sample_sequence_length": 35,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Thrixopelma pruriens",
+              "ncbi_scientific_name": "Thrixopelma pruriens",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        }
+      ],
+      "nonpolymer_entities": [
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "9DBN",
+            "entity_id": "4",
+            "auth_asym_ids": [
+              "A"
+            ],
+            "asym_ids": [
+              "H",
+              "I",
+              "J",
+              "U"
+            ],
+            "nonpolymer_comp_id": "CLR"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "2001",
+                "auth_asym_id": "A",
+                "asym_id": "H",
+                "entry_id": "9DBN",
+                "entity_id": "4"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.4393,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "RCSB"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "2002",
+                "auth_asym_id": "A",
+                "asym_id": "I",
+                "entry_id": "9DBN",
+                "entity_id": "4"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.7368,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "RCSB"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "2003",
+                "auth_asym_id": "A",
+                "asym_id": "J",
+                "entry_id": "9DBN",
+                "entity_id": "4"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.4536,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "RCSB"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "2014",
+                "auth_asym_id": "A",
+                "asym_id": "U",
+                "entry_id": "9DBN",
+                "entity_id": "4"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.2926,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "RCSB"
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "CHOLESTEROL"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "CLR",
+              "formula_weight": 386.654,
+              "name": "CHOLESTEROL",
+              "formula": "C27 H46 O"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "HVYWMOMLDIMFJA-DPAQBDIFSA-N"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "9DBN",
+            "entity_id": "6",
+            "auth_asym_ids": [
+              "A"
+            ],
+            "asym_ids": [
+              "L",
+              "M",
+              "P",
+              "Q",
+              "R"
+            ],
+            "nonpolymer_comp_id": "LPE"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "2005",
+                "auth_asym_id": "A",
+                "asym_id": "L",
+                "entry_id": "9DBN",
+                "entity_id": "6"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.6684,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "RCSB"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "2006",
+                "auth_asym_id": "A",
+                "asym_id": "M",
+                "entry_id": "9DBN",
+                "entity_id": "6"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.7068,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "RCSB"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "2009",
+                "auth_asym_id": "A",
+                "asym_id": "P",
+                "entry_id": "9DBN",
+                "entity_id": "6"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.7427,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "RCSB"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "2010",
+                "auth_asym_id": "A",
+                "asym_id": "Q",
+                "entry_id": "9DBN",
+                "entity_id": "6"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.7128,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "RCSB"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "2011",
+                "auth_asym_id": "A",
+                "asym_id": "R",
+                "entry_id": "9DBN",
+                "entity_id": "6"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.6331,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "RCSB"
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "1-O-OCTADECYL-SN-GLYCERO-3-PHOSPHOCHOLINE"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "LPE",
+              "formula_weight": 510.708,
+              "name": "1-O-OCTADECYL-SN-GLYCERO-3-PHOSPHOCHOLINE",
+              "formula": "C26 H57 N O6 P"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "XKBJVQHMEXMFDZ-AREMUKBSSA-O"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "9DBN",
+            "entity_id": "7",
+            "auth_asym_ids": [
+              "A"
+            ],
+            "asym_ids": [
+              "S",
+              "T"
+            ],
+            "nonpolymer_comp_id": "P5S"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "2012",
+                "auth_asym_id": "A",
+                "asym_id": "S",
+                "entry_id": "9DBN",
+                "entity_id": "7"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.4001,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "RCSB"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "2013",
+                "auth_asym_id": "A",
+                "asym_id": "T",
+                "entry_id": "9DBN",
+                "entity_id": "7"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.4228,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "RCSB"
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "O-[(R)-{[(2R)-2,3-bis(octadecanoyloxy)propyl]oxy}(hydroxy)phosphoryl]-L-serine"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "P5S",
+              "formula_weight": 792.075,
+              "name": "O-[(R)-{[(2R)-2,3-bis(octadecanoyloxy)propyl]oxy}(hydroxy)phosphoryl]-L-serine",
+              "formula": "C42 H82 N O10 P"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "TZCPCKNHXULUIY-RGULYWFUSA-N"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "9DBN",
+            "entity_id": "5",
+            "auth_asym_ids": [
+              "A"
+            ],
+            "asym_ids": [
+              "K",
+              "N",
+              "O"
+            ],
+            "nonpolymer_comp_id": "PCW"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "2004",
+                "auth_asym_id": "A",
+                "asym_id": "K",
+                "entry_id": "9DBN",
+                "entity_id": "5"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.4326,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "RCSB"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "2007",
+                "auth_asym_id": "A",
+                "asym_id": "N",
+                "entry_id": "9DBN",
+                "entity_id": "5"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.7486,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "RCSB"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "2008",
+                "auth_asym_id": "A",
+                "asym_id": "O",
+                "entry_id": "9DBN",
+                "entity_id": "5"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.4339,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "RCSB"
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "1,2-DIOLEOYL-SN-GLYCERO-3-PHOSPHOCHOLINE"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "PCW",
+              "formula_weight": 787.121,
+              "name": "1,2-DIOLEOYL-SN-GLYCERO-3-PHOSPHOCHOLINE",
+              "formula": "C44 H85 N O8 P"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "SNKAWJBJQDLSFF-NVKMUCNASA-O"
+            }
+          }
+        }
+      ],
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_defined_assembly",
+            "method_details": null,
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": [
+            {
+              "experimental_support": "electron microscopy"
+            }
+          ],
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Asymmetric",
+              "symbol": "C1",
+              "oligomeric_state": "Hetero 2-mer",
+              "stoichiometry": [
+                "A1",
+                "B1"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 1047
+          }
+        }
+      ]
+    }
+  }
+}

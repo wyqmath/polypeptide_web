@@ -1,0 +1,552 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "6JK2",
+      "entry": {
+        "id": "6JK2"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00006jk2"
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1",
+          "2",
+          "3"
+        ],
+        "pubmed_id": 37995778,
+        "emdb_ids": null,
+        "assembly_ids": [
+          "1"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB",
+            "structure factors",
+            "assembly mmCIF",
+            "assembly PDB",
+            "validation slider image",
+            "validation fo-fc coefficients",
+            "validation data mmCIF",
+            "validation 2fo-fc coefficients",
+            "validation report"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "Y"
+      },
+      "struct": {
+        "title": "Crystal structure of a mini fungal lectin, PhoSL"
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": "10.1016/j.ijbiomac.2023.128309"
+      },
+      "pubmed": {
+        "rcsb_pubmed_container_identifiers": {
+          "pubmed_id": 37995778
+        },
+        "rcsb_pubmed_central_id": null,
+        "rcsb_pubmed_doi": "10.1016/j.ijbiomac.2023.128309",
+        "rcsb_pubmed_abstract_text": "PhoSL (Pholiota squarrosa Lectin) has an exceptional binding affinity for biomolecules with core-fucosylated N-glycans. This modification involves the addition of fucose to the inner N-acetylglucosamine within the N-glycan structure and is known to influence many physiological processes. Nevertheless, the molecular interactions underlying high-affinity binding of native PhoSL to core-fucosylated N-glycans remain largely unknown. In this study, we devised a strategy to produce PhoSL with the essential structural characteristics of the native protein (n-PhoSL). To do so, a fusion protein was expressed in E. coli and purified. Then, enzymatic cleavage and incubation with glutathione were utilized to recapitulate the native primary structure and disulfide bonding pattern. Subsequently, we identified the residues crucial for n-PhoSL binding to core-fucosylated chitobiose (N2F) via NMR spectroscopy. Additionally, crystal structures were solved for both apo n-PhoSL and its N2F complex. These analyses suggested a pivotal role of the N-terminal amine in maintaining the integrity of the binding pocket and actively contributing to core-fucose recognition. In support of this idea, the inclusion of additional residues at the N-terminus considerably reduced binding affinity and PhoSL cytotoxicity toward breast cancer cells. Taken together, these findings can facilitate the utilization of PhoSL in basic research, diagnostics and therapeutic strategies.",
+        "rcsb_pubmed_affiliation_info": [
+          "Institute of Biomedical Sciences, Academia Sinica, Taipei 115, Taiwan; Biomedical Translation Research Center, Academia Sinica, Taipei 115, Taiwan.",
+          "Institute of Biomedical Sciences, Academia Sinica, Taipei 115, Taiwan.",
+          "Institute of Biomedical Sciences, Academia Sinica, Taipei 115, Taiwan; Department of Agricultural Chemistry, National Taiwan University, Taipei 106, Taiwan.",
+          "Department of Agricultural Chemistry, National Taiwan University, Taipei 106, Taiwan.",
+          "Institute of Biomedical Sciences, Academia Sinica, Taipei 115, Taiwan; Chemical Biology and Molecular Biophysics, Taiwan International Graduate Program, Academia Sinica, Taipei 115, Taiwan; Institute of Bioinformatics and Structural Biology, National Tsing Hua University, Hsinchu 300, Taiwan.",
+          "Institute of Biomedical Sciences, Academia Sinica, Taipei 115, Taiwan; Biomedical Translation Research Center, Academia Sinica, Taipei 115, Taiwan; Ph.D. Program in Drug Discovery and Development Industry, College of Pharmacy, Taipei Medical University, Taipei 110, Taiwan. Electronic address: rbyang@ibms.sinica.edu.tw.",
+          "Department of Agricultural Chemistry, National Taiwan University, Taipei 106, Taiwan; Genome and Systems Biology Degree Program, National Taiwan University and Academia Sinica, Taipei 106, Taiwan; Institute of Biochemical Sciences, National Taiwan University, Taipei 106, Taiwan; Center for Computational and Systems Biology, National Taiwan University, Taipei 106, Taiwan. Electronic address: andyhsu@ntu.edu.tw."
+        ]
+      },
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": null,
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "SUGAR BINDING PROTEIN",
+        "text": "PhoSL, core-fucosylated chitobiose, SUGAR BINDING PROTEIN"
+      },
+      "exptl": [
+        {
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "cell": {
+        "length_a": 42.475,
+        "length_b": 42.475,
+        "length_c": 37.704,
+        "angle_alpha": 90.0,
+        "angle_beta": 90.0,
+        "angle_gamma": 120.0
+      },
+      "symmetry": {
+        "space_group_name_H_M": "P 63"
+      },
+      "software": [
+        {
+          "classification": "refinement",
+          "name": "PHENIX"
+        },
+        {
+          "classification": "data reduction",
+          "name": "HKL-2000"
+        },
+        {
+          "classification": "data scaling",
+          "name": "HKL-2000"
+        },
+        {
+          "classification": "phasing",
+          "name": "AutoSol"
+        }
+      ],
+      "rcsb_accession_info": {
+        "deposit_date": "2019-02-27T00:00:00Z",
+        "initial_release_date": "2020-03-04T00:00:00Z",
+        "major_revision": 1,
+        "minor_revision": 3
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "2020-03-04T00:00:00Z"
+        },
+        {
+          "ordinal": 2,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 1,
+          "revision_date": "2023-12-06T00:00:00Z"
+        },
+        {
+          "ordinal": 3,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 2,
+          "revision_date": "2024-04-24T00:00:00Z"
+        },
+        {
+          "ordinal": 4,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 3,
+          "revision_date": "2024-11-20T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        }
+      ],
+      "pdbx_audit_revision_group": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 2,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 3,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Derived calculations"
+        },
+        {
+          "ordinal": 4,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Structure summary"
+        }
+      ],
+      "pdbx_database_related": null,
+      "audit_author": [
+        {
+          "name": "Lou, Y.C."
+        },
+        {
+          "name": "Chou, C.C."
+        },
+        {
+          "name": "Yeh, H.H."
+        },
+        {
+          "name": "Chien, C.Y."
+        },
+        {
+          "name": "Sushant, S."
+        },
+        {
+          "name": "Chen, C."
+        },
+        {
+          "name": "Hsu, C.H."
+        }
+      ],
+      "pdbx_audit_support": null,
+      "pdbx_initial_refinement_model": null,
+      "refine": [
+        {
+          "pdbx_refine_id": "X-RAY DIFFRACTION",
+          "ls_d_res_high": 1.06,
+          "ls_R_factor_R_work": 0.13577,
+          "ls_R_factor_R_free": 0.15798,
+          "ls_R_factor_obs": 0.13695
+        }
+      ],
+      "pdbx_vrpt_summary_diffraction": [
+        {
+          "DCC_R": 0.15,
+          "DCC_Rfree": 0.16
+        }
+      ],
+      "pdbx_nmr_ensemble": null,
+      "em_experiment": null,
+      "em_3d_reconstruction": null,
+      "em_software": null,
+      "citation": [
+        {
+          "id": "primary",
+          "title": "Structural insights into the role of N-terminal integrity in PhoSL for core-fucosylated N-glycan recognition.",
+          "rcsb_journal_abbrev": "Int J Biol Macromol",
+          "rcsb_authors": [
+            "Lou, Y.C.",
+            "Tu, C.F.",
+            "Chou, C.C.",
+            "Yeh, H.H.",
+            "Chien, C.Y.",
+            "Sadotra, S.",
+            "Chen, C.",
+            "Yang, R.B.",
+            "Hsu, C.H."
+          ],
+          "year": 2023,
+          "journal_volume": "255",
+          "page_first": "128309",
+          "page_last": "128309",
+          "pdbx_database_id_PubMed": 37995778,
+          "pdbx_database_id_DOI": "10.1016/j.ijbiomac.2023.128309"
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 1,
+        "representative_model": null,
+        "molecular_weight": 4.64,
+        "deposited_atom_count": 367,
+        "deposited_polymer_monomer_count": 40,
+        "deposited_modeled_polymer_monomer_count": 40,
+        "deposited_unmodeled_polymer_monomer_count": 0,
+        "polymer_entity_count_protein": 1,
+        "polymer_entity_count_nucleic_acid": 0,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": null,
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "6JK2",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6jk2A1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "6JK2",
+            "entity_id": "1",
+            "asym_ids": [
+              "A"
+            ],
+            "auth_asym_ids": [
+              "A"
+            ],
+            "uniprot_ids": [
+              "A0A3B6UEU4"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "A0A3B6UEU4"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "A0A3B6UEU4",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Pholiota squarrosa"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Lectin",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cation binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "7789_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "11423_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "15311_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "A0A3B6UEU4",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "15512_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "15042_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "12712_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "APVPVTKLVCDGDTYKCTAYLDFGDGRWVAQWDTNVFHTG",
+            "rcsb_sample_sequence_length": 40,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Pholiota squarrosa",
+              "ncbi_scientific_name": "Pholiota squarrosa",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Escherichia coli"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        }
+      ],
+      "nonpolymer_entities": [
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "6JK2",
+            "entity_id": "2",
+            "auth_asym_ids": [
+              "A"
+            ],
+            "asym_ids": [
+              "B",
+              "C"
+            ],
+            "nonpolymer_comp_id": "SO4"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "101",
+                "auth_asym_id": "A",
+                "asym_id": "B",
+                "entry_id": "6JK2",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9898,
+                  "ranking_model_geometry": 0.916,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "102",
+                "auth_asym_id": "A",
+                "asym_id": "C",
+                "entry_id": "6JK2",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.5113,
+                  "ranking_model_geometry": 0.8629,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "SULFATE ION"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "SO4",
+              "formula_weight": 96.063,
+              "name": "SULFATE ION",
+              "formula": "O4 S"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "QAOWNCQODCNURD-UHFFFAOYSA-L"
+            }
+          }
+        }
+      ],
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_and_software_defined_assembly",
+            "method_details": "PISA",
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": [
+            {
+              "experimental_support": "gel filtration"
+            }
+          ],
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Cyclic",
+              "symbol": "C3",
+              "oligomeric_state": "Homo 3-mer",
+              "stoichiometry": [
+                "A3"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 120
+          }
+        }
+      ]
+    }
+  }
+}

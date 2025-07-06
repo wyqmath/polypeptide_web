@@ -1,0 +1,2778 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "4YDV",
+      "entry": {
+        "id": "4YDV"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00004ydv"
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "pubmed_id": 26237403,
+        "emdb_ids": null,
+        "assembly_ids": [
+          "1",
+          "2"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "2",
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB",
+            "structure factors",
+            "assembly mmCIF",
+            "assembly PDB",
+            "validation report",
+            "validation 2fo-fc coefficients",
+            "validation fo-fc coefficients",
+            "validation data mmCIF",
+            "validation slider image"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "Y"
+      },
+      "struct": {
+        "title": "STRUCTURE OF THE ANTIBODY 7B2 THAT CAPTURES HIV-1 VIRIONS"
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": "10.1371/journal.ppat.1005042"
+      },
+      "pubmed": {
+        "rcsb_pubmed_container_identifiers": {
+          "pubmed_id": 26237403
+        },
+        "rcsb_pubmed_central_id": "PMC4523205",
+        "rcsb_pubmed_doi": "10.1371/journal.ppat.1005042",
+        "rcsb_pubmed_abstract_text": "HIV-1 mucosal transmission begins with virus or virus-infected cells moving through mucus across mucosal epithelium to infect CD4+ T cells. Although broadly neutralizing antibodies (bnAbs) are the type of HIV-1 antibodies that are most likely protective, they are not induced with current vaccine candidates. In contrast, antibodies that do not neutralize primary HIV-1 strains in the TZM-bl infection assay are readily induced by current vaccine candidates and have also been implicated as secondary correlates of decreased HIV-1 risk in the RV144 vaccine efficacy trial. Here, we have studied the capacity of anti-Env monoclonal antibodies (mAbs) against either the immunodominant region of gp41 (7B2 IgG1), the first constant region of gp120 (A32 IgG1), or the third variable loop (V3) of gp120 (CH22 IgG1) to modulate in vivo rectal mucosal transmission of a high-dose simian-human immunodeficiency virus (SHIV-BaL) in rhesus macaques. 7B2 IgG1 or A32 IgG1, each containing mutations to enhance Fc function, was administered passively to rhesus macaques but afforded no protection against productive clinical infection while the positive control antibody CH22 IgG1 prevented infection in 4 of 6 animals. Enumeration of transmitted/founder (T/F) viruses revealed that passive infusion of each of the three antibodies significantly reduced the number of T/F genomes. Thus, some antibodies that bind HIV-1 Env but fail to neutralize virus in traditional neutralization assays may limit the number of T/F viruses involved in transmission without leading to enhancement of viral infection. For one of these mAbs, gp41 mAb 7B2, we provide the first co-crystal structure in complex with a common cyclical loop motif demonstrated to be critical for infection by other retroviruses.",
+        "rcsb_pubmed_affiliation_info": [
+          "Center for Virology and Vaccine Research, Beth Israel Deaconess Medical Center, Harvard Medical School, Boston, Massachusetts, United States of America.",
+          "Duke Human Vaccine Institute, Duke School of Medicine, Durham, North Carolina, United States of America.",
+          "Department of Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America.",
+          "Department of Medicine, St Mary's Campus, Imperial College London, London, United Kingdom.",
+          "Department of Pediatrics, Tulane University School of Medicine, New Orleans, Louisiana, United States of America.",
+          "Division of Infectious Diseases, Department of Medicine, University of California, Irvine, Irvine, California, United States of America.",
+          "Tropical Hygiene, Mahidol University, Bangkok, Thailand.",
+          "Armed Forces Research Institute of Medical Sciences (AFRIMS), Bangkok, Thailand.",
+          "Clinical Tropical Medicine, Mahidol University, Bangkok, Thailand.",
+          "Department of Disease Control, Ministry of Public Health, Nonthaburi, Thailand.",
+          "US Military Research Program, Walter Reed Army Institute of Research, Silver Spring, Maryland, United States of America.",
+          "Theoretical Division, Los Alamos National Laboratory, Los Alamos, New Mexico, United States of America.",
+          "U1109, INSERM University of Strasbourg, Strasbourg, Alsace, France."
+        ]
+      },
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": null,
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "IMMUNE SYSTEM",
+        "text": "IGG, HIV, ANTIBODY, HIV GP41 ENVELOPE PROTEIN, IMMUNE SYSTEM"
+      },
+      "exptl": [
+        {
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "cell": {
+        "length_a": 73.434,
+        "length_b": 76.281,
+        "length_c": 127.627,
+        "angle_alpha": 90.0,
+        "angle_beta": 98.06,
+        "angle_gamma": 90.0
+      },
+      "symmetry": {
+        "space_group_name_H_M": "P 1 21 1"
+      },
+      "software": [
+        {
+          "classification": "data reduction",
+          "name": "HKL-2000"
+        },
+        {
+          "classification": "data scaling",
+          "name": "HKL-2000"
+        },
+        {
+          "classification": "phasing",
+          "name": "PHENIX"
+        },
+        {
+          "classification": "refinement",
+          "name": "PHENIX"
+        }
+      ],
+      "rcsb_accession_info": {
+        "deposit_date": "2015-02-23T00:00:00Z",
+        "initial_release_date": "2015-08-12T00:00:00Z",
+        "major_revision": 1,
+        "minor_revision": 2
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "2015-08-12T00:00:00Z"
+        },
+        {
+          "ordinal": 2,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 1,
+          "revision_date": "2021-03-24T00:00:00Z"
+        },
+        {
+          "ordinal": 3,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 2,
+          "revision_date": "2024-10-23T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        }
+      ],
+      "pdbx_audit_revision_group": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Derived calculations"
+        },
+        {
+          "ordinal": 2,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Source and taxonomy"
+        },
+        {
+          "ordinal": 3,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 4,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 5,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Refinement description"
+        },
+        {
+          "ordinal": 6,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Structure summary"
+        }
+      ],
+      "pdbx_database_related": null,
+      "audit_author": [
+        {
+          "name": "Nicely, N.I."
+        },
+        {
+          "name": "Pemble IV, C.W."
+        }
+      ],
+      "pdbx_audit_support": null,
+      "pdbx_initial_refinement_model": null,
+      "refine": [
+        {
+          "pdbx_refine_id": "X-RAY DIFFRACTION",
+          "ls_d_res_high": 2.7,
+          "ls_R_factor_R_work": 0.189,
+          "ls_R_factor_R_free": 0.223,
+          "ls_R_factor_obs": 0.191
+        }
+      ],
+      "pdbx_vrpt_summary_diffraction": [
+        {
+          "DCC_R": 0.19,
+          "DCC_Rfree": 0.22
+        }
+      ],
+      "pdbx_nmr_ensemble": null,
+      "em_experiment": null,
+      "em_3d_reconstruction": null,
+      "em_software": null,
+      "citation": [
+        {
+          "id": "primary",
+          "title": "Human Non-neutralizing HIV-1 Envelope Monoclonal Antibodies Limit the Number of Founder Viruses during SHIV Mucosal Infection in Rhesus Macaques.",
+          "rcsb_journal_abbrev": "PLoS Pathog",
+          "rcsb_authors": [
+            "Santra, S.",
+            "Tomaras, G.D.",
+            "Warrier, R.",
+            "Nicely, N.I.",
+            "Liao, H.X.",
+            "Pollara, J.",
+            "Liu, P.",
+            "Alam, S.M.",
+            "Zhang, R.",
+            "Cocklin, S.L.",
+            "Shen, X.",
+            "Duffy, R.",
+            "Xia, S.M.",
+            "Schutte, R.J.",
+            "Pemble Iv, C.W.",
+            "Dennison, S.M.",
+            "Li, H.",
+            "Chao, A.",
+            "Vidnovic, K.",
+            "Evans, A.",
+            "Klein, K.",
+            "Kumar, A.",
+            "Robinson, J.",
+            "Landucci, G.",
+            "Forthal, D.N.",
+            "Montefiori, D.C.",
+            "Kaewkungwal, J.",
+            "Nitayaphan, S.",
+            "Pitisuttithum, P.",
+            "Rerks-Ngarm, S.",
+            "Robb, M.L.",
+            "Michael, N.L.",
+            "Kim, J.H.",
+            "Soderberg, K.A.",
+            "Giorgi, E.E.",
+            "Blair, L.",
+            "Korber, B.T.",
+            "Moog, C.",
+            "Shattock, R.J.",
+            "Letvin, N.L.",
+            "Schmitz, J.E.",
+            "Moody, M.A.",
+            "Gao, F.",
+            "Ferrari, G.",
+            "Shaw, G.M.",
+            "Haynes, B.F."
+          ],
+          "year": 2015,
+          "journal_volume": "11",
+          "page_first": "e1005042",
+          "page_last": "e1005042",
+          "pdbx_database_id_PubMed": 26237403,
+          "pdbx_database_id_DOI": "10.1371/journal.ppat.1005042"
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 1,
+        "representative_model": null,
+        "molecular_weight": 115.16,
+        "deposited_atom_count": 6805,
+        "deposited_polymer_monomer_count": 1060,
+        "deposited_modeled_polymer_monomer_count": 878,
+        "deposited_unmodeled_polymer_monomer_count": 182,
+        "polymer_entity_count_protein": 3,
+        "polymer_entity_count_nucleic_acid": 0,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": null,
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "P",
+                "asym_id": "A",
+                "entry_id": "4YDV",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "Q",
+                "asym_id": "B",
+                "entry_id": "4YDV",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "4YDV",
+            "entity_id": "1",
+            "asym_ids": [
+              "A",
+              "B"
+            ],
+            "auth_asym_ids": [
+              "P",
+              "Q"
+            ],
+            "uniprot_ids": [
+              "P04578"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "P04578"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "P04578",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Human immunodeficiency virus type 1 group M subtype B (isolate HXB2)"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "HIV GP41 PEPTIDE GP41(596-606)",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "fusion of virus membrane with host endosome membrane",
+                  "depth": null
+                },
+                {
+                  "name": "membrane fusion involved in viral entry into host cell",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "membrane organization",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component organization",
+                  "depth": null
+                },
+                {
+                  "name": "membrane fusion",
+                  "depth": null
+                },
+                {
+                  "name": "fusion of virus membrane with host plasma membrane",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component organization or biogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "membrane fusion involved in viral entry into host cell",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "regulation of establishment of T cell polarity",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of establishment or maintenance of cell polarity",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of lymphocyte polarity",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of leukocyte activation",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of T cell polarity",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cell activation",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of leukocyte cell-cell adhesion",
+                  "depth": null
+                },
+                {
+                  "name": "establishment or maintenance of cell polarity",
+                  "depth": null
+                },
+                {
+                  "name": "lymphocyte activation",
+                  "depth": null
+                },
+                {
+                  "name": "leukocyte cell-cell adhesion",
+                  "depth": null
+                },
+                {
+                  "name": "leukocyte activation",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cell-cell adhesion",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of lymphocyte activation",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cell activation",
+                  "depth": null
+                },
+                {
+                  "name": "cell adhesion",
+                  "depth": null
+                },
+                {
+                  "name": "cell-cell adhesion",
+                  "depth": null
+                },
+                {
+                  "name": "T cell activation",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of establishment of T cell polarity",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of leukocyte activation",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of immune system process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cell-cell adhesion",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of immune system process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of T cell activation",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cell adhesion",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cell adhesion",
+                  "depth": null
+                },
+                {
+                  "name": "cell activation",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of T cell activation",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of cell polarity",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of establishment of cell polarity",
+                  "depth": null
+                },
+                {
+                  "name": "immune system process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of leukocyte cell-cell adhesion",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of lymphocyte activation",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Human immunodeficiency virus 1, envelope glycoprotein Gp120",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein localization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of localization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular localization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of protein localization",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of receptor clustering",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of protein localization to membrane",
+                  "depth": null
+                },
+                {
+                  "name": "localization within membrane",
+                  "depth": null
+                },
+                {
+                  "name": "protein localization to membrane",
+                  "depth": null
+                },
+                {
+                  "name": "localization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular localization",
+                  "depth": null
+                },
+                {
+                  "name": "cellular macromolecule localization",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule localization",
+                  "depth": null
+                },
+                {
+                  "name": "receptor clustering",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of protein localization",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of receptor clustering",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of protein localization to membrane",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cellular process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "virion attachment to host cell",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "adhesion of symbiont to host cell",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                },
+                {
+                  "name": "adhesion of symbiont to host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Gp120 core superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Retroviral envelope protein GP41-like",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "virion component",
+                  "depth": null
+                },
+                {
+                  "name": "virion membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated perturbation of host defense response",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to other organism",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host immune response",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated response to host defenses",
+                  "depth": null
+                },
+                {
+                  "name": "response to external stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "response to biotic stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "response to host immune response",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated evasion of host immune response",
+                  "depth": null
+                },
+                {
+                  "name": "response to host",
+                  "depth": null
+                },
+                {
+                  "name": "response to external biotic stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular function activator activity",
+                  "depth": null
+                },
+                {
+                  "name": "signaling receptor binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular function regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "signaling receptor regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "receptor ligand activity",
+                  "depth": null
+                },
+                {
+                  "name": "signaling receptor activator activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular part",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell membrane",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm part",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "host cell endosome membrane",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host cell endosome",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular region",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont entry into host cell",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont entry into host",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "regulation of localization",
+                  "depth": null
+                },
+                {
+                  "name": "cellular localization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane raft distribution",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular component organization",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cellular component organization",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane raft polarization",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component organization",
+                  "depth": null
+                },
+                {
+                  "name": "localization",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane organization",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "membrane raft organization",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component organization or biogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "endomembrane system organization",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "membrane raft distribution",
+                  "depth": null
+                },
+                {
+                  "name": "membrane organization",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane raft localization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "membrane raft polarization",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of plasma membrane raft polarization",
+                  "depth": null
+                },
+                {
+                  "name": "localization within membrane",
+                  "depth": null
+                },
+                {
+                  "name": "membrane raft localization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of plasma membrane organization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular localization",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of plasma membrane raft polarization",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "import into cell",
+                  "depth": null
+                },
+                {
+                  "name": "receptor-mediated endocytosis of virus by host cell",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "transport",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of localization",
+                  "depth": null
+                },
+                {
+                  "name": "vesicle-mediated transport",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                },
+                {
+                  "name": "localization",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont entry into host cell",
+                  "depth": null
+                },
+                {
+                  "name": "clathrin-dependent endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont entry into host",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "clathrin-dependent endocytosis of virus by host cell",
+                  "depth": null
+                },
+                {
+                  "name": "receptor-mediated endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "endocytosis involved in viral entry into host cell",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "virion component",
+                  "depth": null
+                },
+                {
+                  "name": "viral membrane",
+                  "depth": null
+                },
+                {
+                  "name": "viral envelope",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host cell plasma membrane",
+                  "depth": null
+                },
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host cell membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "structural molecule activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular component organization",
+                  "depth": null
+                },
+                {
+                  "name": "organelle organization",
+                  "depth": null
+                },
+                {
+                  "name": "actin cytoskeleton organization",
+                  "depth": null
+                },
+                {
+                  "name": "actin filament organization",
+                  "depth": null
+                },
+                {
+                  "name": "actin filament-based process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component organization or biogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "supramolecular fiber organization",
+                  "depth": null
+                },
+                {
+                  "name": "cytoskeleton organization",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "viral gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "viral protein processing",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Envelope glycoprotein Gp160",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "186538_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "P04578",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "195327_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "151247_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "173338_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "231522_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "200965_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "XWGCSGKLICTTX",
+            "rcsb_sample_sequence_length": 13,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Human immunodeficiency virus 1",
+              "ncbi_scientific_name": "Human immunodeficiency virus 1",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": [
+            {
+              "chem_comp": {
+                "id": "ACE",
+                "name": "ACETYL GROUP",
+                "formula": "C2 H4 O",
+                "type": "non-polymer",
+                "mon_nstd_parent_comp_id": null
+              }
+            },
+            {
+              "chem_comp": {
+                "id": "NH2",
+                "name": "AMINO GROUP",
+                "formula": "H2 N",
+                "type": "non-polymer",
+                "mon_nstd_parent_comp_id": null
+              }
+            }
+          ]
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "L",
+                "asym_id": "C",
+                "entry_id": "4YDV",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "2.60.40.10"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8091527"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e4ydvL2"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e4ydvL1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "E",
+                "entry_id": "4YDV",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "2.60.40.10"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8091527"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e4ydvA1"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e4ydvA2"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "4YDV",
+            "entity_id": "2",
+            "asym_ids": [
+              "C",
+              "E"
+            ],
+            "auth_asym_ids": [
+              "A",
+              "L"
+            ],
+            "uniprot_ids": [
+              "P01834"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "P01834"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "P01834",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Homo sapiens"
+                }
+              },
+              "rcsb_uniprot_external_reference": [
+                {
+                  "reference_name": "PHAROS",
+                  "reference_id": "P01834"
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "HIV ANTIBODY 7B2 LIGHT CHAIN,Ig kappa chain C region",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "IgA immunoglobulin complex",
+                  "depth": null
+                },
+                {
+                  "name": "immunoglobulin complex",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular space",
+                  "depth": null
+                },
+                {
+                  "name": "blood microparticle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains",
+                  "depth": null
+                },
+                {
+                  "name": "lymphocyte mediated immunity",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "immune response",
+                  "depth": null
+                },
+                {
+                  "name": "immune system process",
+                  "depth": null
+                },
+                {
+                  "name": "B cell mediated immunity",
+                  "depth": null
+                },
+                {
+                  "name": "leukocyte mediated immunity",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "immunoglobulin mediated immune response",
+                  "depth": null
+                },
+                {
+                  "name": "adaptive immune response",
+                  "depth": null
+                },
+                {
+                  "name": "immune effector process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "immune response-regulating cell surface receptor signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "signaling",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "cell communication",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "immune response-activating signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "immune response-regulating signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of immune response",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of immune system process",
+                  "depth": null
+                },
+                {
+                  "name": "signal transduction",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of immune system process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "cell surface receptor signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "immune response-activating cell surface receptor signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "immune response",
+                  "depth": null
+                },
+                {
+                  "name": "B cell receptor signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "immune system process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of immune response",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "antigen receptor-mediated signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "activation of immune response",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Immunoglobulin-like domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "IgM immunoglobulin complex",
+                  "depth": null
+                },
+                {
+                  "name": "immunoglobulin complex",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "immune response",
+                  "depth": null
+                },
+                {
+                  "name": "immune system process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "adaptive immune response",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "IgE immunoglobulin complex",
+                  "depth": null
+                },
+                {
+                  "name": "immunoglobulin complex",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "immune response",
+                  "depth": null
+                },
+                {
+                  "name": "immune system process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Immune Recognition and Response Modulators",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "IgD immunoglobulin complex",
+                  "depth": null
+                },
+                {
+                  "name": "immunoglobulin complex",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "extracellular exosome",
+                  "depth": null
+                },
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular vesicle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular space",
+                  "depth": null
+                },
+                {
+                  "name": "vesicle",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular membrane-bounded organelle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Immunoglobulin-like domain",
+                  "depth": 1
+                },
+                {
+                  "name": "Immunoglobulin C1-set",
+                  "depth": 2
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cell periphery",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Immunoglobulin-like fold",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular space",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Immunoglobulin-like domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "IgG immunoglobulin complex",
+                  "depth": null
+                },
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "immunoglobulin complex",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "antigen binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Immunoglobulin/major histocompatibility complex, conserved site",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "186532_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "P01834",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "1_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "173333_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "195322_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "1_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "1_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "METDTLLLWVLLLWVPGSTGDDIQMTQSPASLAVPLLLWISGAYGDIVLAQSPDSLAVSPGERATIHCKSSQTLLYSSNNRHSIAWYQQRPGQPPKLLLYWASMRLSGVPDRFSGSGSGTDFTLTINNLQAEDVAIYYCHQYSSHPPTFGHGTRVELRRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+            "rcsb_sample_sequence_length": 265,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Homo sapiens",
+              "ncbi_scientific_name": "Homo sapiens",
+              "rcsb_gene_name": null
+            },
+            {
+              "scientific_name": "Homo sapiens",
+              "ncbi_scientific_name": "Homo sapiens",
+              "rcsb_gene_name": [
+                {
+                  "value": "IGKC",
+                  "provenance_source": "Primary Data"
+                }
+              ]
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Homo sapiens"
+            },
+            {
+              "ncbi_scientific_name": "Homo sapiens"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "H",
+                "asym_id": "D",
+                "entry_id": "4YDV",
+                "entity_id": "3"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "2.60.40.10"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e4ydvH2"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e4ydvH1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "B",
+                "asym_id": "F",
+                "entry_id": "4YDV",
+                "entity_id": "3"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "2.60.40.10"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e4ydvB2"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e4ydvB1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "4YDV",
+            "entity_id": "3",
+            "asym_ids": [
+              "D",
+              "F"
+            ],
+            "auth_asym_ids": [
+              "B",
+              "H"
+            ],
+            "uniprot_ids": [
+              "S6B291"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "S6B291"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "S6B291",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Homo sapiens"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "HIV ANTIBODY 7B2 HEAVY CHAIN,IgG H chain",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Immunoglobulin-like domain",
+                  "depth": 1
+                },
+                {
+                  "name": "Immunoglobulin C1-set",
+                  "depth": 2
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cell periphery",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Immunoglobulin-like fold",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Immunoglobulin-like domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Immunoglobulin V-set domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Immunoglobulin domain subtype",
+                  "depth": 2
+                },
+                {
+                  "name": "Immunoglobulin-like domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Immunoglobulin-like domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Immune Recognition and Response Modulators",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Immunoglobulin/major histocompatibility complex, conserved site",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "S6B291",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "1_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "231519_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "186534_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "173334_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "200963_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "195323_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "METDTLLLWVLLLWVPGSTGDQVQLVQSGGGVFKPGGSLRLSCEASGFTFTEYYMTWVRQAPGKGLEWLAYISKNGEYSKYSPSSNGRFTISRDNAKNSVFLQLDRLSADDTAVYYCARADGLTYFSELLQYIFDLWGQGARVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSCDK",
+            "rcsb_sample_sequence_length": 252,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Homo sapiens",
+              "ncbi_scientific_name": "Homo sapiens",
+              "rcsb_gene_name": null
+            },
+            {
+              "scientific_name": "Homo sapiens",
+              "ncbi_scientific_name": "Homo sapiens",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Homo sapiens"
+            },
+            {
+              "ncbi_scientific_name": "Homo sapiens"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        }
+      ],
+      "nonpolymer_entities": null,
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_and_software_defined_assembly",
+            "method_details": "PISA",
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": null,
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Asymmetric",
+              "symbol": "C1",
+              "oligomeric_state": "Hetero 3-mer",
+              "stoichiometry": [
+                "A1",
+                "B1",
+                "C1"
+              ]
+            },
+            {
+              "kind": "Pseudo Symmetry",
+              "type": "Asymmetric",
+              "symbol": "C1",
+              "oligomeric_state": "Hetero 3-mer",
+              "stoichiometry": [
+                "A2",
+                "B1"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 439
+          }
+        },
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "2"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_and_software_defined_assembly",
+            "method_details": "PISA",
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": null,
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Asymmetric",
+              "symbol": "C1",
+              "oligomeric_state": "Hetero 3-mer",
+              "stoichiometry": [
+                "A1",
+                "B1",
+                "C1"
+              ]
+            },
+            {
+              "kind": "Pseudo Symmetry",
+              "type": "Asymmetric",
+              "symbol": "C1",
+              "oligomeric_state": "Hetero 3-mer",
+              "stoichiometry": [
+                "A2",
+                "B1"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 439
+          }
+        }
+      ]
+    }
+  }
+}

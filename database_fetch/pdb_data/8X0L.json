@@ -1,0 +1,6198 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "8X0L",
+      "entry": {
+        "id": "8X0L"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00008x0l"
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        },
+        {
+          "database_id": "EMDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "pubmed_id": null,
+        "emdb_ids": [
+          "EMD-37981"
+        ],
+        "assembly_ids": [
+          "1"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB bundle",
+            "assembly mmCIF",
+            "validation data mmCIF",
+            "validation slider image",
+            "validation report"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "N"
+      },
+      "struct": {
+        "title": "Cryo-EM structure of Semliki Forest virus in complex with its receptor VLDLR(3-fold)"
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": null
+      },
+      "pubmed": null,
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": [
+        {
+          "id": "EMD-37981",
+          "type": "EM DATA RESOURCE",
+          "link": "https://www.emdataresource.org/EMD-37981"
+        }
+      ],
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "VIRAL PROTEIN",
+        "text": "VIRAL PROTEIN"
+      },
+      "exptl": [
+        {
+          "method": "ELECTRON MICROSCOPY"
+        }
+      ],
+      "cell": null,
+      "symmetry": null,
+      "software": null,
+      "rcsb_accession_info": {
+        "deposit_date": "2023-11-04T00:00:00Z",
+        "initial_release_date": "2024-11-27T00:00:00Z",
+        "major_revision": 1,
+        "minor_revision": 1
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "2024-11-27T00:00:00Z"
+        },
+        {
+          "ordinal": 7,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 1,
+          "revision_date": "2025-07-02T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        }
+      ],
+      "pdbx_audit_revision_group": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 7,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        }
+      ],
+      "pdbx_database_related": [
+        {
+          "content_type": "associated EM volume",
+          "db_id": "EMD-37981",
+          "details": "Cryo-EM structure of Semliki Forest virus in complex with its receptor VLDLR(3-fold)",
+          "db_name": "EMDB"
+        }
+      ],
+      "audit_author": [
+        {
+          "name": "Gao, F.G."
+        },
+        {
+          "name": "Liu, S."
+        }
+      ],
+      "pdbx_audit_support": [
+        {
+          "funding_organization": "National Natural Science Foundation of China (NSFC)",
+          "country": "China",
+          "grant_number": null,
+          "ordinal": 1
+        }
+      ],
+      "pdbx_initial_refinement_model": null,
+      "refine": null,
+      "pdbx_vrpt_summary_diffraction": null,
+      "pdbx_nmr_ensemble": null,
+      "em_experiment": {
+        "aggregation_state": "PARTICLE",
+        "reconstruction_method": "SINGLE PARTICLE"
+      },
+      "em_3d_reconstruction": [
+        {
+          "resolution": 3.5
+        }
+      ],
+      "em_software": [
+        {
+          "category": "PARTICLE SELECTION",
+          "name": null,
+          "version": null
+        },
+        {
+          "category": "IMAGE ACQUISITION",
+          "name": null,
+          "version": null
+        },
+        {
+          "category": "MASKING",
+          "name": null,
+          "version": null
+        },
+        {
+          "category": "CTF CORRECTION",
+          "name": null,
+          "version": null
+        },
+        {
+          "category": "LAYERLINE INDEXING",
+          "name": null,
+          "version": null
+        },
+        {
+          "category": "DIFFRACTION INDEXING",
+          "name": null,
+          "version": null
+        },
+        {
+          "category": "MODEL FITTING",
+          "name": null,
+          "version": null
+        },
+        {
+          "category": "MODEL REFINEMENT",
+          "name": "PHENIX",
+          "version": null
+        },
+        {
+          "category": "OTHER",
+          "name": null,
+          "version": null
+        },
+        {
+          "category": "INITIAL EULER ASSIGNMENT",
+          "name": null,
+          "version": null
+        },
+        {
+          "category": "FINAL EULER ASSIGNMENT",
+          "name": null,
+          "version": null
+        },
+        {
+          "category": "CLASSIFICATION",
+          "name": null,
+          "version": null
+        },
+        {
+          "category": "RECONSTRUCTION",
+          "name": null,
+          "version": null
+        }
+      ],
+      "citation": [
+        {
+          "id": "primary",
+          "title": "Cryo-EM structure of Semliki Forest virus in complex with its receptor VLDLR(2-fold)",
+          "rcsb_journal_abbrev": "To be published",
+          "rcsb_authors": [
+            "Gao, F.G.",
+            "Liu, S."
+          ],
+          "year": null,
+          "journal_volume": null,
+          "page_first": null,
+          "page_last": null,
+          "pdbx_database_id_PubMed": null,
+          "pdbx_database_id_DOI": null
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 1,
+        "representative_model": null,
+        "molecular_weight": 350.95,
+        "deposited_atom_count": 24555,
+        "deposited_polymer_monomer_count": 3165,
+        "deposited_modeled_polymer_monomer_count": 3165,
+        "deposited_unmodeled_polymer_monomer_count": 0,
+        "polymer_entity_count_protein": 4,
+        "polymer_entity_count_nucleic_acid": 0,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": [
+        {
+          "rcsb_id": "8X0L_5",
+          "rcsb_branched_entity_container_identifiers": {
+            "entry_id": "8X0L",
+            "entity_id": "5",
+            "asym_ids": [
+              "M",
+              "N",
+              "O",
+              "P",
+              "Q",
+              "R"
+            ],
+            "auth_asym_ids": [
+              "M",
+              "N",
+              "O",
+              "P",
+              "Q",
+              "R"
+            ],
+            "reference_identifiers": [
+              {
+                "provenance_source": "RCSB",
+                "resource_name": "GlyTouCan",
+                "resource_accession": "G42666HT"
+              },
+              {
+                "provenance_source": "RCSB",
+                "resource_name": "GlyCosmos",
+                "resource_accession": "G42666HT"
+              },
+              {
+                "provenance_source": "RCSB",
+                "resource_name": "GlyGen",
+                "resource_accession": "G42666HT"
+              }
+            ]
+          },
+          "prd": null,
+          "rcsb_branched_entity": {
+            "pdbx_description": "2-acetamido-2-deoxy-beta-D-glucopyranose-(1-4)-2-acetamido-2-deoxy-beta-D-glucopyranose",
+            "formula_weight": 0.424
+          },
+          "pdbx_entity_branch": {
+            "rcsb_branched_component_count": 2
+          },
+          "branched_entity_instances": [
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "8X0L",
+                "entity_id": "5",
+                "asym_id": "M",
+                "auth_asym_id": "M"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": "N-Glycosylation",
+                  "ordinal_id": 104,
+                  "connect_partner": {
+                    "label_asym_id": "B",
+                    "label_seq_id": 200,
+                    "label_comp_id": "ASN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "M",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 121,
+                  "connect_partner": {
+                    "label_asym_id": "M",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "M",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 122,
+                  "connect_partner": {
+                    "label_asym_id": "M",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "M",
+                    "label_comp_id": "NAG"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            },
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "8X0L",
+                "entity_id": "5",
+                "asym_id": "N",
+                "auth_asym_id": "N"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": "N-Glycosylation",
+                  "ordinal_id": 106,
+                  "connect_partner": {
+                    "label_asym_id": "B",
+                    "label_seq_id": 262,
+                    "label_comp_id": "ASN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "N",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 123,
+                  "connect_partner": {
+                    "label_asym_id": "N",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "N",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 124,
+                  "connect_partner": {
+                    "label_asym_id": "N",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "N",
+                    "label_comp_id": "NAG"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            },
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "8X0L",
+                "entity_id": "5",
+                "asym_id": "O",
+                "auth_asym_id": "O"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": "N-Glycosylation",
+                  "ordinal_id": 110,
+                  "connect_partner": {
+                    "label_asym_id": "E",
+                    "label_seq_id": 200,
+                    "label_comp_id": "ASN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "O",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 125,
+                  "connect_partner": {
+                    "label_asym_id": "O",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "O",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 126,
+                  "connect_partner": {
+                    "label_asym_id": "O",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "O",
+                    "label_comp_id": "NAG"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            },
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "8X0L",
+                "entity_id": "5",
+                "asym_id": "P",
+                "auth_asym_id": "P"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": "N-Glycosylation",
+                  "ordinal_id": 112,
+                  "connect_partner": {
+                    "label_asym_id": "E",
+                    "label_seq_id": 262,
+                    "label_comp_id": "ASN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "P",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 127,
+                  "connect_partner": {
+                    "label_asym_id": "P",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "P",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 128,
+                  "connect_partner": {
+                    "label_asym_id": "P",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "P",
+                    "label_comp_id": "NAG"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            },
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "8X0L",
+                "entity_id": "5",
+                "asym_id": "Q",
+                "auth_asym_id": "Q"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": "N-Glycosylation",
+                  "ordinal_id": 116,
+                  "connect_partner": {
+                    "label_asym_id": "H",
+                    "label_seq_id": 200,
+                    "label_comp_id": "ASN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "Q",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 129,
+                  "connect_partner": {
+                    "label_asym_id": "Q",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "Q",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 130,
+                  "connect_partner": {
+                    "label_asym_id": "Q",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "Q",
+                    "label_comp_id": "NAG"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            },
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "8X0L",
+                "entity_id": "5",
+                "asym_id": "R",
+                "auth_asym_id": "R"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": "N-Glycosylation",
+                  "ordinal_id": 118,
+                  "connect_partner": {
+                    "label_asym_id": "H",
+                    "label_seq_id": 262,
+                    "label_comp_id": "ASN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "R",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 131,
+                  "connect_partner": {
+                    "label_asym_id": "R",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "R",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 132,
+                  "connect_partner": {
+                    "label_asym_id": "R",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "R",
+                    "label_comp_id": "NAG"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            }
+          ]
+        }
+      ],
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "8X0L",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8042286"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "E",
+                "asym_id": "D",
+                "entry_id": "8X0L",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8042286"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "I",
+                "asym_id": "G",
+                "entry_id": "8X0L",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8042286"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "8X0L",
+            "entity_id": "1",
+            "asym_ids": [
+              "A",
+              "D",
+              "G"
+            ],
+            "auth_asym_ids": [
+              "A",
+              "E",
+              "I"
+            ],
+            "uniprot_ids": [
+              "P03315"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "P03315"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "P03315",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Semliki forest virus"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Capsid protein",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "fusion of virus membrane with host endosome membrane",
+                  "depth": null
+                },
+                {
+                  "name": "membrane fusion involved in viral entry into host cell",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alphavirus E3 spike glycoprotein",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "virion assembly",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated suppression of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host toll-like receptor signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "import into cell",
+                  "depth": null
+                },
+                {
+                  "name": "receptor-mediated endocytosis of virus by host cell",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "transport",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of localization",
+                  "depth": null
+                },
+                {
+                  "name": "vesicle-mediated transport",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                },
+                {
+                  "name": "localization",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont entry into host cell",
+                  "depth": null
+                },
+                {
+                  "name": "clathrin-dependent endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont entry into host",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "clathrin-dependent endocytosis of virus by host cell",
+                  "depth": null
+                },
+                {
+                  "name": "receptor-mediated endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "endocytosis involved in viral entry into host cell",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "viral gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "viral translational frameshifting",
+                  "depth": null
+                },
+                {
+                  "name": "viral translation",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flaviviral glycoprotein E, dimerisation domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Immunoglobulin E-set",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "peptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a protein",
+                  "depth": null
+                },
+                {
+                  "name": "serine hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "serine-type peptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "serine-type endopeptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "endopeptidase activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host cell plasma membrane",
+                  "depth": null
+                },
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host cell membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alphavirus E2 glycoprotein, domain A",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus glycoprotein, central and dimerisation domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Peptidase S1, PA clan",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "virion attachment to host cell",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "adhesion of symbiont to host cell",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                },
+                {
+                  "name": "adhesion of symbiont to host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alphavirus E2 glycoprotein, domain B",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "virion component",
+                  "depth": null
+                },
+                {
+                  "name": "virion membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "viral capsid",
+                  "depth": null
+                },
+                {
+                  "name": "icosahedral viral capsid",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "T=4 icosahedral viral capsid",
+                  "depth": null
+                },
+                {
+                  "name": "virion component",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alphavirus E2 glycoprotein, domain C",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alphavirus E2 glycoprotein",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular part",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host cell endosome",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm part",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular organelle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Peptidase S3, togavirin",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular part",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "host cell nucleus",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular organelle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "virion component",
+                  "depth": null
+                },
+                {
+                  "name": "viral membrane",
+                  "depth": null
+                },
+                {
+                  "name": "viral envelope",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "structural molecule activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "proteolysis",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "protein metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alphavirus E1 glycoprotein",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus/Alphavirus glycoprotein, immunoglobulin-like domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Peptidase S1, PA clan, chymotrypsin-like fold",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "2777_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "2618_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "P03315",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "2816_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "2093_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "3791_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "5538_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "GKRERMCMKIENDCIFEVKHEGKVTGYACLVGDKVMKPAHVKGVIDNADLAKLAFKKSSKYDLECAQIPVHMRSDASKYTHEKPEGHYNWHHGAVQYSGGRFTIPTGAGKPGDSGRPIFDNKGRVVAIVLGGANEGSRTALSVVTWNKDMVTRVTPEGSEEW",
+            "rcsb_sample_sequence_length": 162,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Semliki Forest virus",
+              "ncbi_scientific_name": "Semliki Forest virus",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Homo sapiens"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "B",
+                "asym_id": "B",
+                "entry_id": "8X0L",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": "N-Glycosylation",
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "M"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": "N-Glycosylation",
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "N"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "F",
+                "asym_id": "E",
+                "entry_id": "8X0L",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": "N-Glycosylation",
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "O"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": "N-Glycosylation",
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "P"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "J",
+                "asym_id": "H",
+                "entry_id": "8X0L",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "H"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "H"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "H"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "H"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "H"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "H"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "H"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "H"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "H"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "H"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "H"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "H"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "H"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "H"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "H"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "H"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "H"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "H"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "H"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "H"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "H"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "H"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "H"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "H"
+                  }
+                },
+                {
+                  "role": "N-Glycosylation",
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "Q"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "H"
+                  }
+                },
+                {
+                  "role": "N-Glycosylation",
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "R"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "H"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "8X0L",
+            "entity_id": "2",
+            "asym_ids": [
+              "B",
+              "E",
+              "H"
+            ],
+            "auth_asym_ids": [
+              "B",
+              "F",
+              "J"
+            ],
+            "uniprot_ids": [
+              "P03315"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "P03315"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "P03315",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Semliki forest virus"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "pike glycoprotein E2",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "fusion of virus membrane with host endosome membrane",
+                  "depth": null
+                },
+                {
+                  "name": "membrane fusion involved in viral entry into host cell",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alphavirus E3 spike glycoprotein",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "virion assembly",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated suppression of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host toll-like receptor signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "import into cell",
+                  "depth": null
+                },
+                {
+                  "name": "receptor-mediated endocytosis of virus by host cell",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "transport",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of localization",
+                  "depth": null
+                },
+                {
+                  "name": "vesicle-mediated transport",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                },
+                {
+                  "name": "localization",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont entry into host cell",
+                  "depth": null
+                },
+                {
+                  "name": "clathrin-dependent endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont entry into host",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "clathrin-dependent endocytosis of virus by host cell",
+                  "depth": null
+                },
+                {
+                  "name": "receptor-mediated endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "endocytosis involved in viral entry into host cell",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "viral gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "viral translational frameshifting",
+                  "depth": null
+                },
+                {
+                  "name": "viral translation",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flaviviral glycoprotein E, dimerisation domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Immunoglobulin E-set",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "peptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a protein",
+                  "depth": null
+                },
+                {
+                  "name": "serine hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "serine-type peptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "serine-type endopeptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "endopeptidase activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host cell plasma membrane",
+                  "depth": null
+                },
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host cell membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alphavirus E2 glycoprotein, domain A",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus glycoprotein, central and dimerisation domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Peptidase S1, PA clan",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "virion attachment to host cell",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "adhesion of symbiont to host cell",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                },
+                {
+                  "name": "adhesion of symbiont to host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alphavirus E2 glycoprotein, domain B",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "virion component",
+                  "depth": null
+                },
+                {
+                  "name": "virion membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "viral capsid",
+                  "depth": null
+                },
+                {
+                  "name": "icosahedral viral capsid",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "T=4 icosahedral viral capsid",
+                  "depth": null
+                },
+                {
+                  "name": "virion component",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alphavirus E2 glycoprotein, domain C",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alphavirus E2 glycoprotein",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular part",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host cell endosome",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm part",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular organelle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Peptidase S3, togavirin",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular part",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "host cell nucleus",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular organelle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "virion component",
+                  "depth": null
+                },
+                {
+                  "name": "viral membrane",
+                  "depth": null
+                },
+                {
+                  "name": "viral envelope",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "structural molecule activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "proteolysis",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "protein metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alphavirus E1 glycoprotein",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus/Alphavirus glycoprotein, immunoglobulin-like domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Peptidase S1, PA clan, chymotrypsin-like fold",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "7920_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "8055_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "12772_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "P03315",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "11623_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "1695_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "6799_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "SVSQHFNVYKATRPYIAYCADCGAGHSCHSPVAIEAVRSEATDGMLKIQFSAQIGIDKSDNHDYTKIRYADGHAIENAVRSSLKVATSGDCFVHGTMGHFILAKCPPGEFLQVSIQDTRNAVRACRIQYHHDPQPVGREKFTIRPHYGKEIPCTTYQQTTAKTVEEIDMHMPPDTPDRTLLSQQSGNVKITVGGKKVKYNCTCGTGNVGTTNSDMTINTCLIEQCHVSVTDHKKWQFNSPFVPRADEPARKGKVHIPFPLDNITCRVPMAREPTVIHGKREVTLHLHPDHPTLFSYRTLGEDPQYHEEWVTAAVERTIPVPVDGMEYHWGNNDPVRLWSQLTTEGKPHGWPHQIVQYYYGLYPAATVSAVVGMSLLALISIFASCYMLVAARSKCLTPYALTPGAAVPWTLGILCCAP",
+            "rcsb_sample_sequence_length": 418,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Semliki Forest virus",
+              "ncbi_scientific_name": "Semliki Forest virus",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Homo sapiens"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "C",
+                "asym_id": "C",
+                "entry_id": "8X0L",
+                "entity_id": "3"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8037191"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8054997"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": "N-Glycosylation",
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "S"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "G",
+                "asym_id": "F",
+                "entry_id": "8X0L",
+                "entity_id": "3"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8037191"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8054997"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": "N-Glycosylation",
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "T"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "K",
+                "asym_id": "I",
+                "entry_id": "8X0L",
+                "entity_id": "3"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8037191"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8054997"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "I"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "I"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "I"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "I"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "I"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "I"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "I"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "I"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "I"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "I"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "I"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "I"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "I"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "I"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "I"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "I"
+                  }
+                },
+                {
+                  "role": "N-Glycosylation",
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "U"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "I"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "8X0L",
+            "entity_id": "3",
+            "asym_ids": [
+              "C",
+              "F",
+              "I"
+            ],
+            "auth_asym_ids": [
+              "C",
+              "G",
+              "K"
+            ],
+            "uniprot_ids": [
+              "P03315"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "P03315"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "P03315",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Semliki forest virus"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "pike glycoprotein E1",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "fusion of virus membrane with host endosome membrane",
+                  "depth": null
+                },
+                {
+                  "name": "membrane fusion involved in viral entry into host cell",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alphavirus E3 spike glycoprotein",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "virion assembly",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated suppression of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host toll-like receptor signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "import into cell",
+                  "depth": null
+                },
+                {
+                  "name": "receptor-mediated endocytosis of virus by host cell",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "transport",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of localization",
+                  "depth": null
+                },
+                {
+                  "name": "vesicle-mediated transport",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                },
+                {
+                  "name": "localization",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont entry into host cell",
+                  "depth": null
+                },
+                {
+                  "name": "clathrin-dependent endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont entry into host",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "clathrin-dependent endocytosis of virus by host cell",
+                  "depth": null
+                },
+                {
+                  "name": "receptor-mediated endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "endocytosis involved in viral entry into host cell",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "viral gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "viral translational frameshifting",
+                  "depth": null
+                },
+                {
+                  "name": "viral translation",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flaviviral glycoprotein E, dimerisation domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Immunoglobulin E-set",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "peptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a protein",
+                  "depth": null
+                },
+                {
+                  "name": "serine hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "serine-type peptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "serine-type endopeptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "endopeptidase activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host cell plasma membrane",
+                  "depth": null
+                },
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host cell membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alphavirus E2 glycoprotein, domain A",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus glycoprotein, central and dimerisation domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Peptidase S1, PA clan",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "virion attachment to host cell",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "adhesion of symbiont to host cell",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                },
+                {
+                  "name": "adhesion of symbiont to host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alphavirus E2 glycoprotein, domain B",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "virion component",
+                  "depth": null
+                },
+                {
+                  "name": "virion membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "viral capsid",
+                  "depth": null
+                },
+                {
+                  "name": "icosahedral viral capsid",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "T=4 icosahedral viral capsid",
+                  "depth": null
+                },
+                {
+                  "name": "virion component",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alphavirus E2 glycoprotein, domain C",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alphavirus E2 glycoprotein",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular part",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host cell endosome",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm part",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular organelle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Peptidase S3, togavirin",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular part",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "host cell nucleus",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular organelle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "virion component",
+                  "depth": null
+                },
+                {
+                  "name": "viral membrane",
+                  "depth": null
+                },
+                {
+                  "name": "viral envelope",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "structural molecule activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "proteolysis",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "protein metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alphavirus E1 glycoprotein",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus/Alphavirus glycoprotein, immunoglobulin-like domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Peptidase S1, PA clan, chymotrypsin-like fold",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "4881_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "7458_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "2766_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "8162_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "P03315",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "1605_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "7919_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "YEHSTVMPNVVGFPYKAHIERPGYSPLTLQMQVVETSLEPTLNLEYITCEYKTVVPSPYVKCCGASECSTKEKPDYQCKVYTGVYPFMWGGAYCFCDSENTQLSEAYVDRSDVCRHDHASAYKAHTASLKAKVRVMYGNVNQTVDVYVNGDHAVTIGGTQFIFGPLSSAWTPFDNKIVVYKDEVFNQDFPPYGSGQPGRFGDIQSRTVESNDLYANTALKLARPSPGMVHVPYTQTPSGFKYWLKEKGTALNTKAPFGCQIKTNPVRAMNCAVGNIPVSMNLPDSAFTRIVEAPTIIDLTCTVATCTHSSDFGGVLTLTYKTDKNGDCSVHSHSNVATLQEATAKVKTAGKVTLHFSTASASPSFVVSLCSARATCSASCEPPKDHIVPYAASHSNVVFPDMSGTALSWVQKISGGLGAFAIGAILVLVVVTCIGLRR",
+            "rcsb_sample_sequence_length": 438,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Semliki Forest virus",
+              "ncbi_scientific_name": "Semliki Forest virus",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Homo sapiens"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "H",
+                "asym_id": "J",
+                "entry_id": "8X0L",
+                "entity_id": "4"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8035671"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "J"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "J"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "J"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "J"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "J"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "J"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "J"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "J"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "J"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "J"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "J"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "J"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "V"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "J"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "V"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "J"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "V"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "J"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "V"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "J"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "V"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "J"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "V"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "J"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "V"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "J"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "V"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "J"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "D",
+                "asym_id": "K",
+                "entry_id": "8X0L",
+                "entity_id": "4"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8035671"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "K"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "K"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "K"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "K"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "K"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "K"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "K"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "K"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "K"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "K"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "K"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "K"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "W"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "K"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "W"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "K"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "W"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "K"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "W"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "K"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "W"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "K"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "W"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "K"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "L",
+                "asym_id": "L",
+                "entry_id": "8X0L",
+                "entity_id": "4"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8035671"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "L"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "L"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "L"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "L"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "L"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "L"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "L"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "L"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "L"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "L"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "L"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "L"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "X"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "L"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "X"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "L"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "X"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "L"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "X"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "L"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "X"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "L"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "X"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "L"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "X"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "L"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "8X0L",
+            "entity_id": "4",
+            "asym_ids": [
+              "J",
+              "K",
+              "L"
+            ],
+            "auth_asym_ids": [
+              "D",
+              "H",
+              "L"
+            ],
+            "uniprot_ids": [
+              "P98155"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "P98155"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "P98155",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Homo sapiens"
+                }
+              },
+              "rcsb_uniprot_external_reference": [
+                {
+                  "reference_name": "PHAROS",
+                  "reference_id": "P98155"
+                },
+                {
+                  "reference_name": "GTEX",
+                  "reference_id": "ENSG00000147852"
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Very low-density lipoprotein receptor",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cation binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "calcium ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "reelin receptor activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular transducer activity",
+                  "depth": null
+                },
+                {
+                  "name": "transmembrane signaling receptor activity",
+                  "depth": null
+                },
+                {
+                  "name": "signaling receptor activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Six-bladed beta-propeller, TolB-like",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Low-density lipoprotein (LDL) receptor class A repeat",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "clathrin-coated pit",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                },
+                {
+                  "name": "endomembrane system",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "very-low-density lipoprotein particle clearance",
+                  "depth": null
+                },
+                {
+                  "name": "plasma lipoprotein particle clearance",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of plasma lipoprotein particle levels",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "apolipoprotein binding",
+                  "depth": null
+                },
+                {
+                  "name": "protein binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "localization",
+                  "depth": null
+                },
+                {
+                  "name": "transport",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule localization",
+                  "depth": null
+                },
+                {
+                  "name": "lipid localization",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "lipid transport",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of localization",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "EGF-like calcium-binding, conserved site",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "lipoprotein particle receptor activity",
+                  "depth": null
+                },
+                {
+                  "name": "cargo receptor activity",
+                  "depth": null
+                },
+                {
+                  "name": "very-low-density lipoprotein particle receptor activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein localization",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of protein localization",
+                  "depth": null
+                },
+                {
+                  "name": "cellular localization",
+                  "depth": null
+                },
+                {
+                  "name": "nitrogen compound transport",
+                  "depth": null
+                },
+                {
+                  "name": "transport",
+                  "depth": null
+                },
+                {
+                  "name": "carbohydrate derivative transport",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of localization",
+                  "depth": null
+                },
+                {
+                  "name": "localization",
+                  "depth": null
+                },
+                {
+                  "name": "protein transport",
+                  "depth": null
+                },
+                {
+                  "name": "glycoprotein transport",
+                  "depth": null
+                },
+                {
+                  "name": "cellular macromolecule localization",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule localization",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cell periphery",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "behavior",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "system process",
+                  "depth": null
+                },
+                {
+                  "name": "learning or memory",
+                  "depth": null
+                },
+                {
+                  "name": "nervous system process",
+                  "depth": null
+                },
+                {
+                  "name": "cognition",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "memory",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular developmental process",
+                  "depth": null
+                },
+                {
+                  "name": "cell projection organization",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane bounded cell projection morphogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "cell development",
+                  "depth": null
+                },
+                {
+                  "name": "neuron projection development",
+                  "depth": null
+                },
+                {
+                  "name": "cell morphogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component organization",
+                  "depth": null
+                },
+                {
+                  "name": "neurogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organism development",
+                  "depth": null
+                },
+                {
+                  "name": "cell projection morphogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "neuron differentiation",
+                  "depth": null
+                },
+                {
+                  "name": "neuron projection morphogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "dendrite development",
+                  "depth": null
+                },
+                {
+                  "name": "cell differentiation",
+                  "depth": null
+                },
+                {
+                  "name": "anatomical structure development",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component organization or biogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "system development",
+                  "depth": null
+                },
+                {
+                  "name": "developmental process",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane bounded cell projection organization",
+                  "depth": null
+                },
+                {
+                  "name": "dendrite morphogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "nervous system development",
+                  "depth": null
+                },
+                {
+                  "name": "cell morphogenesis involved in neuron differentiation",
+                  "depth": null
+                },
+                {
+                  "name": "generation of neurons",
+                  "depth": null
+                },
+                {
+                  "name": "anatomical structure morphogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "neuron development",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "LDL receptor-like superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cargo receptor activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "secondary alcohol metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "sterol metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "steroid metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cholesterol metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "alcohol metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "lipid metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "signaling",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "signal transduction",
+                  "depth": null
+                },
+                {
+                  "name": "cell communication",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "EGF-like domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "synapse",
+                  "depth": null
+                },
+                {
+                  "name": "cell junction",
+                  "depth": null
+                },
+                {
+                  "name": "glutamatergic synapse",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "receptor complex",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "NOTCH1 EGF-like calcium-binding domain",
+                  "depth": 2
+                },
+                {
+                  "name": "EGF-like calcium-binding domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "lipoprotein particle receptor activity",
+                  "depth": null
+                },
+                {
+                  "name": "low-density lipoprotein particle receptor activity",
+                  "depth": null
+                },
+                {
+                  "name": "cargo receptor activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Low-density lipoprotein receptor-related",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "vacuolar membrane",
+                  "depth": null
+                },
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                },
+                {
+                  "name": "lytic vacuole",
+                  "depth": null
+                },
+                {
+                  "name": "vacuole",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "lytic vacuole membrane",
+                  "depth": null
+                },
+                {
+                  "name": "bounding membrane of organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "lysosomal membrane",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "organelle membrane",
+                  "depth": null
+                },
+                {
+                  "name": "lysosome",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "developmental process",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organism development",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "spinal cord development",
+                  "depth": null
+                },
+                {
+                  "name": "central nervous system development",
+                  "depth": null
+                },
+                {
+                  "name": "anatomical structure development",
+                  "depth": null
+                },
+                {
+                  "name": "ventral spinal cord development",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "nervous system development",
+                  "depth": null
+                },
+                {
+                  "name": "system development",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "LDLR class B repeat",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "lipoprotein particle binding",
+                  "depth": null
+                },
+                {
+                  "name": "protein-containing complex binding",
+                  "depth": null
+                },
+                {
+                  "name": "protein binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "protein-lipid complex binding",
+                  "depth": null
+                },
+                {
+                  "name": "very-low-density lipoprotein particle binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "developmental process",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organism development",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "anatomical structure development",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "nervous system development",
+                  "depth": null
+                },
+                {
+                  "name": "system development",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "cell surface receptor signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "signaling",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "cell communication",
+                  "depth": null
+                },
+                {
+                  "name": "reelin-mediated signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "signal transduction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "regulation of neuron projection development",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular component organization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cellular component organization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of developmental process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular developmental process",
+                  "depth": null
+                },
+                {
+                  "name": "cell projection organization",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "cell development",
+                  "depth": null
+                },
+                {
+                  "name": "neuron projection development",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component organization",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of developmental process",
+                  "depth": null
+                },
+                {
+                  "name": "neurogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organism development",
+                  "depth": null
+                },
+                {
+                  "name": "neuron differentiation",
+                  "depth": null
+                },
+                {
+                  "name": "dendrite development",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of neuron projection development",
+                  "depth": null
+                },
+                {
+                  "name": "cell differentiation",
+                  "depth": null
+                },
+                {
+                  "name": "anatomical structure development",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cell projection organization",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component organization or biogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "system development",
+                  "depth": null
+                },
+                {
+                  "name": "developmental process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "plasma membrane bounded cell projection organization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cell projection organization",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of dendrite development",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "nervous system development",
+                  "depth": null
+                },
+                {
+                  "name": "generation of neurons",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of dendrite development",
+                  "depth": null
+                },
+                {
+                  "name": "neuron development",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of plasma membrane bounded cell projection organization",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular component organization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component organization",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component biogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organism development",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component assembly",
+                  "depth": null
+                },
+                {
+                  "name": "cell junction assembly",
+                  "depth": null
+                },
+                {
+                  "name": "anatomical structure development",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of synapse structure or activity",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of synapse assembly",
+                  "depth": null
+                },
+                {
+                  "name": "synapse organization",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component organization or biogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological quality",
+                  "depth": null
+                },
+                {
+                  "name": "system development",
+                  "depth": null
+                },
+                {
+                  "name": "developmental process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "nervous system development",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular component biogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cell junction assembly",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of synapse organization",
+                  "depth": null
+                },
+                {
+                  "name": "cell junction organization",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "synapse assembly",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "calcium-dependent protein binding",
+                  "depth": null
+                },
+                {
+                  "name": "protein binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "EGF-like calcium-binding domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Low-density lipoprotein (LDL) receptor class A, conserved site",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "very-low-density lipoprotein particle",
+                  "depth": null
+                },
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "plasma lipoprotein particle",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular space",
+                  "depth": null
+                },
+                {
+                  "name": "triglyceride-rich plasma lipoprotein particle",
+                  "depth": null
+                },
+                {
+                  "name": "lipoprotein particle",
+                  "depth": null
+                },
+                {
+                  "name": "protein-lipid complex",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "EGF-type aspartate/asparagine hydroxylation site",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "localization",
+                  "depth": null
+                },
+                {
+                  "name": "import into cell",
+                  "depth": null
+                },
+                {
+                  "name": "transport",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "receptor-mediated endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of localization",
+                  "depth": null
+                },
+                {
+                  "name": "vesicle-mediated transport",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "14992_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "5029_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "11544_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "15456_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "12688_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "P98155",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "7872_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "CRIHEISCGAHSTQCIPVSWRCDGENDCDSGEDEENC",
+            "rcsb_sample_sequence_length": 37,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Homo sapiens",
+              "ncbi_scientific_name": "Homo sapiens",
+              "rcsb_gene_name": [
+                {
+                  "value": "VLDLR",
+                  "provenance_source": "Primary Data"
+                }
+              ]
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Homo sapiens"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        }
+      ],
+      "nonpolymer_entities": [
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "8X0L",
+            "entity_id": "6",
+            "auth_asym_ids": [
+              "C",
+              "G",
+              "K"
+            ],
+            "asym_ids": [
+              "S",
+              "T",
+              "U"
+            ],
+            "nonpolymer_comp_id": "NAG"
+          },
+          "rcsb_nonpolymer_entity_annotation": [
+            {
+              "type": "SUBJECT_OF_INVESTIGATION"
+            }
+          ],
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "1701",
+                "auth_asym_id": "C",
+                "asym_id": "S",
+                "entry_id": "8X0L",
+                "entity_id": "6"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.8686,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "Author"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "1701",
+                "auth_asym_id": "G",
+                "asym_id": "T",
+                "entry_id": "8X0L",
+                "entity_id": "6"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.8559,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "Author"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "1701",
+                "auth_asym_id": "K",
+                "asym_id": "U",
+                "entry_id": "8X0L",
+                "entity_id": "6"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.888,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "Author"
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "2-acetamido-2-deoxy-beta-D-glucopyranose"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "NAG",
+              "formula_weight": 221.208,
+              "name": "2-acetamido-2-deoxy-beta-D-glucopyranose",
+              "formula": "C8 H15 N O6"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "OVRNDRQMDRJTHS-FMDGEEDCSA-N"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "8X0L",
+            "entity_id": "7",
+            "auth_asym_ids": [
+              "D",
+              "H",
+              "L"
+            ],
+            "asym_ids": [
+              "V",
+              "W",
+              "X"
+            ],
+            "nonpolymer_comp_id": "CA"
+          },
+          "rcsb_nonpolymer_entity_annotation": [
+            {
+              "type": "SUBJECT_OF_INVESTIGATION"
+            }
+          ],
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "400",
+                "auth_asym_id": "H",
+                "asym_id": "V",
+                "entry_id": "8X0L",
+                "entity_id": "7"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "Author"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "400",
+                "auth_asym_id": "D",
+                "asym_id": "W",
+                "entry_id": "8X0L",
+                "entity_id": "7"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "Author"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "400",
+                "auth_asym_id": "L",
+                "asym_id": "X",
+                "entry_id": "8X0L",
+                "entity_id": "7"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "Author"
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "CALCIUM ION"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "CA",
+              "formula_weight": 40.078,
+              "name": "CALCIUM ION",
+              "formula": "Ca"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "BHPQYMZQTOCNFJ-UHFFFAOYSA-N"
+            }
+          }
+        }
+      ],
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_and_software_defined_assembly",
+            "method_details": null,
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": [
+            {
+              "experimental_support": "electron microscopy"
+            }
+          ],
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Cyclic",
+              "symbol": "C3",
+              "oligomeric_state": "Hetero 12-mer",
+              "stoichiometry": [
+                "A3",
+                "B3",
+                "C3",
+                "D3"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 3165
+          }
+        }
+      ]
+    }
+  }
+}

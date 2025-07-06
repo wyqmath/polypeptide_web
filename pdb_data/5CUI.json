@@ -1,0 +1,2798 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "5CUI",
+      "entry": {
+        "id": "5CUI"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00005cui"
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "pubmed_id": 29858013,
+        "emdb_ids": null,
+        "assembly_ids": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "2",
+            "3",
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB",
+            "structure factors",
+            "assembly mmCIF",
+            "assembly PDB",
+            "validation fo-fc coefficients",
+            "validation slider image",
+            "validation data mmCIF",
+            "validation report",
+            "validation 2fo-fc coefficients"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "Y"
+      },
+      "struct": {
+        "title": "Crystal structure of Human Defensin-5 R28A mutant."
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": "10.1016/j.immuni.2018.04.014"
+      },
+      "pubmed": {
+        "rcsb_pubmed_container_identifiers": {
+          "pubmed_id": 29858013
+        },
+        "rcsb_pubmed_central_id": "PMC6051418",
+        "rcsb_pubmed_doi": "10.1016/j.immuni.2018.04.014",
+        "rcsb_pubmed_abstract_text": "Shigella is a Gram-negative bacterium that causes bacillary dysentery worldwide. It invades the intestinal epithelium to elicit intense inflammation and tissue damage, yet the underlying mechanisms of its host selectivity and low infectious inoculum remain perplexing. Here, we report that Shigella co-opts human α-defensin 5 (HD5), a host defense peptide important for intestinal homeostasis and innate immunity, to enhance its adhesion to and invasion of mucosal tissues. HD5 promoted Shigella infection in vitro in a structure-dependent manner. Shigella, commonly devoid of an effective host-adhesion apparatus, preferentially targeted HD5 to augment its ability to colonize the intestinal epithelium through interactions with multiple bacterial membrane proteins. HD5 exacerbated infectivity and Shigella-induced pathology in a culture of human colorectal tissues and three animal models. Our findings illuminate how Shigella exploits innate immunity by turning HD5 into a virulence factor for infection, unveiling a mechanism of action for this highly proficient human pathogen.",
+        "rcsb_pubmed_affiliation_info": [
+          "Key Laboratory of Biomedical Information Engineering of the Ministry of Education, School of Life Science and Technology, Xi'an Jiaotong University, Xi'an, China; Center for Translational Medicine, Frontier Institute of Science and Technology, Xi'an Jiaotong University, Xi'an, China; Institute of Human Virology and Department of Biochemistry and Molecular Biology, University of Maryland School of Medicine, Baltimore, MD, USA.",
+          "Key Laboratory of Biomedical Information Engineering of the Ministry of Education, School of Life Science and Technology, Xi'an Jiaotong University, Xi'an, China; Center for Translational Medicine, Frontier Institute of Science and Technology, Xi'an Jiaotong University, Xi'an, China.",
+          "Key Laboratory of Biomedical Information Engineering of the Ministry of Education, School of Life Science and Technology, Xi'an Jiaotong University, Xi'an, China.",
+          "Institute of Human Virology and Department of Biochemistry and Molecular Biology, University of Maryland School of Medicine, Baltimore, MD, USA.",
+          "Second Affiliated Hospital, Xi'an Jiaotong University School of Medicine, Xi'an, China.",
+          "Strathclyde Institute of Pharmacy and Biomedical Sciences, University of Strathclyde, Glasgow, Scotland, UK.",
+          "Institut Pasteur, Unité de Pathogénie Microbienne Moléculaire, 75724 Paris, France.",
+          "Department of Microbiology and Immunology, School of Medicine, University of California, Davis, Davis, CA, USA.",
+          "Key Laboratory of Biomedical Information Engineering of the Ministry of Education, School of Life Science and Technology, Xi'an Jiaotong University, Xi'an, China; Center for Translational Medicine, Frontier Institute of Science and Technology, Xi'an Jiaotong University, Xi'an, China. Electronic address: yongping.shao@xjtu.edu.cn.",
+          "Key Laboratory of Biomedical Information Engineering of the Ministry of Education, School of Life Science and Technology, Xi'an Jiaotong University, Xi'an, China; Center for Translational Medicine, Frontier Institute of Science and Technology, Xi'an Jiaotong University, Xi'an, China; Institute of Human Virology and Department of Biochemistry and Molecular Biology, University of Maryland School of Medicine, Baltimore, MD, USA. Electronic address: wlu@ihv.umaryland.edu."
+        ]
+      },
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": null,
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "ANTIMICROBIAL PROTEIN",
+        "text": "PANETH CELLS DEFENSIN, HUMAN ALPHA-DEFENSIN, INTESTINAL DEFENSIN, ANTIMICROBIAL PROTEIN"
+      },
+      "exptl": [
+        {
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "cell": {
+        "length_a": 59.94,
+        "length_b": 103.745,
+        "length_c": 103.985,
+        "angle_alpha": 90.0,
+        "angle_beta": 90.0,
+        "angle_gamma": 90.0
+      },
+      "symmetry": {
+        "space_group_name_H_M": "C 2 2 2"
+      },
+      "software": [
+        {
+          "classification": "refinement",
+          "name": "PHENIX"
+        },
+        {
+          "classification": "refinement",
+          "name": "REFMAC"
+        },
+        {
+          "classification": "data reduction",
+          "name": "HKL-2000"
+        },
+        {
+          "classification": "data scaling",
+          "name": "HKL-2000"
+        },
+        {
+          "classification": "phasing",
+          "name": "PHASER"
+        }
+      ],
+      "rcsb_accession_info": {
+        "deposit_date": "2015-07-24T00:00:00Z",
+        "initial_release_date": "2016-07-27T00:00:00Z",
+        "major_revision": 1,
+        "minor_revision": 3
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "2016-07-27T00:00:00Z"
+        },
+        {
+          "ordinal": 2,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 1,
+          "revision_date": "2018-06-13T00:00:00Z"
+        },
+        {
+          "ordinal": 3,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 2,
+          "revision_date": "2023-09-27T00:00:00Z"
+        },
+        {
+          "ordinal": 4,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 3,
+          "revision_date": "2024-10-23T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        }
+      ],
+      "pdbx_audit_revision_group": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 2,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 3,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Derived calculations"
+        },
+        {
+          "ordinal": 4,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 5,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 6,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Refinement description"
+        },
+        {
+          "ordinal": 7,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Structure summary"
+        }
+      ],
+      "pdbx_database_related": [
+        {
+          "content_type": "unspecified",
+          "db_id": "1ZMP",
+          "details": "1ZMP is the native structure without the R28A mutation.",
+          "db_name": "PDB"
+        },
+        {
+          "content_type": "unspecified",
+          "db_id": "5CUJ",
+          "details": null,
+          "db_name": "PDB"
+        },
+        {
+          "content_type": "unspecified",
+          "db_id": "5CUM",
+          "details": null,
+          "db_name": "PDB"
+        }
+      ],
+      "audit_author": [
+        {
+          "name": "Tolbert, W.D."
+        },
+        {
+          "name": "Gohain, N."
+        },
+        {
+          "name": "Pazgier, M."
+        }
+      ],
+      "pdbx_audit_support": null,
+      "pdbx_initial_refinement_model": [
+        {
+          "type": "experimental model"
+        }
+      ],
+      "refine": [
+        {
+          "pdbx_refine_id": "X-RAY DIFFRACTION",
+          "ls_d_res_high": 2.403,
+          "ls_R_factor_R_work": 0.1829,
+          "ls_R_factor_R_free": 0.221,
+          "ls_R_factor_obs": 0.1848
+        }
+      ],
+      "pdbx_vrpt_summary_diffraction": [
+        {
+          "DCC_R": 0.2,
+          "DCC_Rfree": 0.23
+        }
+      ],
+      "pdbx_nmr_ensemble": null,
+      "em_experiment": null,
+      "em_3d_reconstruction": null,
+      "em_software": null,
+      "citation": [
+        {
+          "id": "primary",
+          "title": "Human Enteric alpha-Defensin 5 Promotes Shigella Infection by Enhancing Bacterial Adhesion and Invasion.",
+          "rcsb_journal_abbrev": "Immunity",
+          "rcsb_authors": [
+            "Xu, D.",
+            "Liao, C.",
+            "Zhang, B.",
+            "Tolbert, W.D.",
+            "He, W.",
+            "Dai, Z.",
+            "Zhang, W.",
+            "Yuan, W.",
+            "Pazgier, M.",
+            "Liu, J.",
+            "Yu, J.",
+            "Sansonetti, P.J.",
+            "Bevins, C.L.",
+            "Shao, Y.",
+            "Lu, W."
+          ],
+          "year": 2018,
+          "journal_volume": null,
+          "page_first": null,
+          "page_last": null,
+          "pdbx_database_id_PubMed": 29858013,
+          "pdbx_database_id_DOI": "10.1016/j.immuni.2018.04.014"
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 1,
+        "representative_model": null,
+        "molecular_weight": 22.51,
+        "deposited_atom_count": 1587,
+        "deposited_polymer_monomer_count": 192,
+        "deposited_modeled_polymer_monomer_count": 192,
+        "deposited_unmodeled_polymer_monomer_count": 0,
+        "polymer_entity_count_protein": 1,
+        "polymer_entity_count_nucleic_acid": 0,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": null,
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "5CUI",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e5cuiA1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "B",
+                "asym_id": "B",
+                "entry_id": "5CUI",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e5cuiB1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "C",
+                "asym_id": "C",
+                "entry_id": "5CUI",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e5cuiC1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "D",
+                "asym_id": "D",
+                "entry_id": "5CUI",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e5cuiD1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "E",
+                "asym_id": "E",
+                "entry_id": "5CUI",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e5cuiE1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "F",
+                "asym_id": "F",
+                "entry_id": "5CUI",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e5cuiF1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "5CUI",
+            "entity_id": "1",
+            "asym_ids": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "auth_asym_ids": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "uniprot_ids": [
+              "Q01523"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "Q01523"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "Q01523",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Homo sapiens"
+                }
+              },
+              "rcsb_uniprot_external_reference": [
+                {
+                  "reference_name": "PHAROS",
+                  "reference_id": "Q01523"
+                },
+                {
+                  "reference_name": "GTEX",
+                  "reference_id": "ENSG00000164816"
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Defensin-5",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "midbody",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of membrane permeability",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of membrane permeability",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological quality",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein-containing complex organization",
+                  "depth": null
+                },
+                {
+                  "name": "protein homotetramerization",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component organization",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component biogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component assembly",
+                  "depth": null
+                },
+                {
+                  "name": "protein complex oligomerization",
+                  "depth": null
+                },
+                {
+                  "name": "protein tetramerization",
+                  "depth": null
+                },
+                {
+                  "name": "protein-containing complex assembly",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "protein homooligomerization",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular component organization or biogenesis",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "humoral immune response",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to other organism",
+                  "depth": null
+                },
+                {
+                  "name": "defense response",
+                  "depth": null
+                },
+                {
+                  "name": "immune response",
+                  "depth": null
+                },
+                {
+                  "name": "antibacterial humoral response",
+                  "depth": null
+                },
+                {
+                  "name": "defense response to symbiont",
+                  "depth": null
+                },
+                {
+                  "name": "response to external stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "antimicrobial humoral response",
+                  "depth": null
+                },
+                {
+                  "name": "response to biotic stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "defense response to bacterium",
+                  "depth": null
+                },
+                {
+                  "name": "defense response to other organism",
+                  "depth": null
+                },
+                {
+                  "name": "response to stress",
+                  "depth": null
+                },
+                {
+                  "name": "immune system process",
+                  "depth": null
+                },
+                {
+                  "name": "response to bacterium",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "response to external biotic stimulus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alpha-defensin",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "immune response",
+                  "depth": null
+                },
+                {
+                  "name": "response to other organism",
+                  "depth": null
+                },
+                {
+                  "name": "defense response",
+                  "depth": null
+                },
+                {
+                  "name": "defense response to symbiont",
+                  "depth": null
+                },
+                {
+                  "name": "response to external stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to biotic stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "immune system process",
+                  "depth": null
+                },
+                {
+                  "name": "defense response to other organism",
+                  "depth": null
+                },
+                {
+                  "name": "response to stress",
+                  "depth": null
+                },
+                {
+                  "name": "innate immune response",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "response to external biotic stimulus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membrane-bounded organelle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular vesicle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "endomembrane system",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasmic vesicle",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "secretory granule",
+                  "depth": null
+                },
+                {
+                  "name": "secretory vesicle",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "vesicle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alpha-defensin, C-terminal",
+                  "depth": 2
+                },
+                {
+                  "name": "Beta/alpha-defensin, C-terminal",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "response to lipid",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to other organism",
+                  "depth": null
+                },
+                {
+                  "name": "cellular response to lipopolysaccharide",
+                  "depth": null
+                },
+                {
+                  "name": "response to oxygen-containing compound",
+                  "depth": null
+                },
+                {
+                  "name": "response to external stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "cellular response to molecule of bacterial origin",
+                  "depth": null
+                },
+                {
+                  "name": "response to lipopolysaccharide",
+                  "depth": null
+                },
+                {
+                  "name": "cellular response to oxygen-containing compound",
+                  "depth": null
+                },
+                {
+                  "name": "response to biotic stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "cellular response to biotic stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "cellular response to chemical stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to chemical",
+                  "depth": null
+                },
+                {
+                  "name": "response to bacterium",
+                  "depth": null
+                },
+                {
+                  "name": "cellular response to lipid",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "response to external biotic stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to molecule of bacterial origin",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "transport vesicle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular vesicle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "endomembrane system",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasmic vesicle",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "vesicle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "disruption of cellular anatomical structure in another organism",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "disruption of anatomical structure in another organism",
+                  "depth": null
+                },
+                {
+                  "name": "disruption of plasma membrane integrity in another organism",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "Golgi apparatus",
+                  "depth": null
+                },
+                {
+                  "name": "membrane-enclosed lumen",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "endomembrane system",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle lumen",
+                  "depth": null
+                },
+                {
+                  "name": "Golgi lumen",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "organelle lumen",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of interleukin-8 production",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "cytokine production",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cytokine production",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "interleukin-8 production",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cytokine production",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of interleukin-8 production",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "identical protein binding",
+                  "depth": null
+                },
+                {
+                  "name": "protein binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "protein homodimerization activity",
+                  "depth": null
+                },
+                {
+                  "name": "protein dimerization activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to other organism",
+                  "depth": null
+                },
+                {
+                  "name": "defense response",
+                  "depth": null
+                },
+                {
+                  "name": "defense response to symbiont",
+                  "depth": null
+                },
+                {
+                  "name": "response to external stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "disruption of cell in another organism",
+                  "depth": null
+                },
+                {
+                  "name": "response to biotic stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                },
+                {
+                  "name": "killing by host of symbiont cells",
+                  "depth": null
+                },
+                {
+                  "name": "defense response to other organism",
+                  "depth": null
+                },
+                {
+                  "name": "response to stress",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "response to external biotic stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "disruption of anatomical structure in another organism",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with symbiont",
+                  "depth": null
+                },
+                {
+                  "name": "killing of cells of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "cell killing",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "innate immune response in mucosa",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "immune response",
+                  "depth": null
+                },
+                {
+                  "name": "response to other organism",
+                  "depth": null
+                },
+                {
+                  "name": "defense response",
+                  "depth": null
+                },
+                {
+                  "name": "defense response to symbiont",
+                  "depth": null
+                },
+                {
+                  "name": "response to external stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to biotic stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "immune system process",
+                  "depth": null
+                },
+                {
+                  "name": "defense response to other organism",
+                  "depth": null
+                },
+                {
+                  "name": "response to stress",
+                  "depth": null
+                },
+                {
+                  "name": "innate immune response",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "response to external biotic stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "mucosal immune response",
+                  "depth": null
+                },
+                {
+                  "name": "organ or tissue specific immune response",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "humoral immune response",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to other organism",
+                  "depth": null
+                },
+                {
+                  "name": "defense response",
+                  "depth": null
+                },
+                {
+                  "name": "immune response",
+                  "depth": null
+                },
+                {
+                  "name": "defense response to symbiont",
+                  "depth": null
+                },
+                {
+                  "name": "response to external stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "antimicrobial humoral response",
+                  "depth": null
+                },
+                {
+                  "name": "response to biotic stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "antimicrobial humoral immune response mediated by antimicrobial peptide",
+                  "depth": null
+                },
+                {
+                  "name": "defense response to other organism",
+                  "depth": null
+                },
+                {
+                  "name": "response to stress",
+                  "depth": null
+                },
+                {
+                  "name": "immune system process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "response to external biotic stimulus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "defense response to fungus",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to other organism",
+                  "depth": null
+                },
+                {
+                  "name": "defense response",
+                  "depth": null
+                },
+                {
+                  "name": "response to stress",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "response to external stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to fungus",
+                  "depth": null
+                },
+                {
+                  "name": "response to external biotic stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to biotic stimulus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "vesicle lumen",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular vesicle",
+                  "depth": null
+                },
+                {
+                  "name": "membrane-enclosed lumen",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasmic vesicle lumen",
+                  "depth": null
+                },
+                {
+                  "name": "secretory granule lumen",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "endomembrane system",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle lumen",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasmic vesicle",
+                  "depth": null
+                },
+                {
+                  "name": "organelle lumen",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "secretory granule",
+                  "depth": null
+                },
+                {
+                  "name": "secretory vesicle",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "vesicle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Beta/alpha-defensin, C-terminal",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "disruption of cell in another organism",
+                  "depth": null
+                },
+                {
+                  "name": "disruption of anatomical structure in another organism",
+                  "depth": null
+                },
+                {
+                  "name": "killing of cells of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "cell killing",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to other organism",
+                  "depth": null
+                },
+                {
+                  "name": "defense response",
+                  "depth": null
+                },
+                {
+                  "name": "response to external stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "defense response to Gram-negative bacterium",
+                  "depth": null
+                },
+                {
+                  "name": "response to biotic stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "defense response to bacterium",
+                  "depth": null
+                },
+                {
+                  "name": "response to bacterium",
+                  "depth": null
+                },
+                {
+                  "name": "response to stress",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "response to external biotic stimulus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alpha-defensin, N-terminal",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular space",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to other organism",
+                  "depth": null
+                },
+                {
+                  "name": "defense response",
+                  "depth": null
+                },
+                {
+                  "name": "defense response to Gram-positive bacterium",
+                  "depth": null
+                },
+                {
+                  "name": "response to external stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to biotic stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "defense response to bacterium",
+                  "depth": null
+                },
+                {
+                  "name": "response to bacterium",
+                  "depth": null
+                },
+                {
+                  "name": "response to stress",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "response to external biotic stimulus",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "9297_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "6954_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "9061_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "12653_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "12176_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "9876_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "Q01523",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "ATCYCRTGRCATRESLSGVCEISGRLYALCCR",
+            "rcsb_sample_sequence_length": 32,
+            "rcsb_mutation_count": 1
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Homo sapiens",
+              "ncbi_scientific_name": "Homo sapiens",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        }
+      ],
+      "nonpolymer_entities": [
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "5CUI",
+            "entity_id": "4",
+            "auth_asym_ids": [
+              "B"
+            ],
+            "asym_ids": [
+              "K"
+            ],
+            "nonpolymer_comp_id": "1PE"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "103",
+                "auth_asym_id": "B",
+                "asym_id": "K",
+                "entry_id": "5CUI",
+                "entity_id": "4"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.6833,
+                  "ranking_model_geometry": 0.7663,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "PENTAETHYLENE GLYCOL"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "1PE",
+              "formula_weight": 238.278,
+              "name": "PENTAETHYLENE GLYCOL",
+              "formula": "C10 H22 O6"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "JLFNLZLINWHATN-UHFFFAOYSA-N"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "5CUI",
+            "entity_id": "5",
+            "auth_asym_ids": [
+              "C",
+              "D",
+              "E"
+            ],
+            "asym_ids": [
+              "N",
+              "R",
+              "V"
+            ],
+            "nonpolymer_comp_id": "MPD"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "103",
+                "auth_asym_id": "C",
+                "asym_id": "N",
+                "entry_id": "5CUI",
+                "entity_id": "5"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.572,
+                  "ranking_model_geometry": 0.7357,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "104",
+                "auth_asym_id": "D",
+                "asym_id": "R",
+                "entry_id": "5CUI",
+                "entity_id": "5"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.293,
+                  "ranking_model_geometry": 0.7054,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "104",
+                "auth_asym_id": "E",
+                "asym_id": "V",
+                "entry_id": "5CUI",
+                "entity_id": "5"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.1634,
+                  "ranking_model_geometry": 0.7629,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "(4S)-2-METHYL-2,4-PENTANEDIOL"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "MPD",
+              "formula_weight": 118.174,
+              "name": "(4S)-2-METHYL-2,4-PENTANEDIOL",
+              "formula": "C6 H14 O2"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "SVTBMSDMJJWYQN-YFKPBYRVSA-N"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "5CUI",
+            "entity_id": "2",
+            "auth_asym_ids": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "asym_ids": [
+              "G",
+              "I",
+              "J",
+              "L",
+              "M",
+              "O",
+              "P",
+              "S",
+              "T",
+              "W",
+              "X"
+            ],
+            "nonpolymer_comp_id": "CL"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "101",
+                "auth_asym_id": "A",
+                "asym_id": "G",
+                "entry_id": "5CUI",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.8495,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 0.5,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "101",
+                "auth_asym_id": "B",
+                "asym_id": "I",
+                "entry_id": "5CUI",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.8199,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "101",
+                "auth_asym_id": "C",
+                "asym_id": "L",
+                "entry_id": "5CUI",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9949,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "101",
+                "auth_asym_id": "D",
+                "asym_id": "O",
+                "entry_id": "5CUI",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.959,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 0.5,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "101",
+                "auth_asym_id": "E",
+                "asym_id": "S",
+                "entry_id": "5CUI",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9217,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 0.5,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "101",
+                "auth_asym_id": "F",
+                "asym_id": "W",
+                "entry_id": "5CUI",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.8537,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 0.5,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "102",
+                "auth_asym_id": "F",
+                "asym_id": "X",
+                "entry_id": "5CUI",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9691,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "102",
+                "auth_asym_id": "B",
+                "asym_id": "J",
+                "entry_id": "5CUI",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.959,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "102",
+                "auth_asym_id": "C",
+                "asym_id": "M",
+                "entry_id": "5CUI",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9315,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "102",
+                "auth_asym_id": "D",
+                "asym_id": "P",
+                "entry_id": "5CUI",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.2402,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "102",
+                "auth_asym_id": "E",
+                "asym_id": "T",
+                "entry_id": "5CUI",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.1131,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "CHLORIDE ION"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "CL",
+              "formula_weight": 35.453,
+              "name": "CHLORIDE ION",
+              "formula": "Cl"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "VEXZGXHMUGYJMC-UHFFFAOYSA-M"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "5CUI",
+            "entity_id": "3",
+            "auth_asym_ids": [
+              "A",
+              "D",
+              "E",
+              "F"
+            ],
+            "asym_ids": [
+              "H",
+              "Q",
+              "U",
+              "Y"
+            ],
+            "nonpolymer_comp_id": "PG0"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "102",
+                "auth_asym_id": "A",
+                "asym_id": "H",
+                "entry_id": "5CUI",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.3914,
+                  "ranking_model_geometry": 0.8902,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "103",
+                "auth_asym_id": "D",
+                "asym_id": "Q",
+                "entry_id": "5CUI",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.6302,
+                  "ranking_model_geometry": 0.7987,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "103",
+                "auth_asym_id": "E",
+                "asym_id": "U",
+                "entry_id": "5CUI",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.5092,
+                  "ranking_model_geometry": 0.8127,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "103",
+                "auth_asym_id": "F",
+                "asym_id": "Y",
+                "entry_id": "5CUI",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.7897,
+                  "ranking_model_geometry": 0.8549,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "2-(2-METHOXYETHOXY)ETHANOL"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "PG0",
+              "formula_weight": 120.147,
+              "name": "2-(2-METHOXYETHOXY)ETHANOL",
+              "formula": "C5 H12 O3"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "SBASXUCJHJRPEV-UHFFFAOYSA-N"
+            }
+          }
+        }
+      ],
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_defined_assembly",
+            "method_details": null,
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": null,
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Cyclic",
+              "symbol": "C2",
+              "oligomeric_state": "Homo 2-mer",
+              "stoichiometry": [
+                "A2"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 64
+          }
+        },
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "2"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_defined_assembly",
+            "method_details": null,
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": null,
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Dihedral",
+              "symbol": "D2",
+              "oligomeric_state": "Homo 4-mer",
+              "stoichiometry": [
+                "A4"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 128
+          }
+        },
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "3"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "software_defined_assembly",
+            "method_details": "PISA",
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": null,
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Asymmetric",
+              "symbol": "C1",
+              "oligomeric_state": "Homo 6-mer",
+              "stoichiometry": [
+                "A6"
+              ]
+            },
+            {
+              "kind": "Local Symmetry",
+              "type": "Cyclic",
+              "symbol": "C2",
+              "oligomeric_state": "Homo 2-mer",
+              "stoichiometry": [
+                "A2"
+              ]
+            },
+            {
+              "kind": "Local Symmetry",
+              "type": "Cyclic",
+              "symbol": "C2",
+              "oligomeric_state": "Homo 2-mer",
+              "stoichiometry": [
+                "A2"
+              ]
+            },
+            {
+              "kind": "Local Symmetry",
+              "type": "Dihedral",
+              "symbol": "D2",
+              "oligomeric_state": "Homo 4-mer",
+              "stoichiometry": [
+                "A4"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 192
+          }
+        }
+      ]
+    }
+  }
+}

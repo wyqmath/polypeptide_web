@@ -1,0 +1,793 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "6M7K",
+      "entry": {
+        "id": "6M7K"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00006m7k"
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "pubmed_id": 30787435,
+        "emdb_ids": null,
+        "assembly_ids": [
+          "1"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB",
+            "structure factors",
+            "assembly mmCIF",
+            "assembly PDB",
+            "validation fo-fc coefficients",
+            "validation data mmCIF",
+            "validation slider image",
+            "validation report",
+            "validation 2fo-fc coefficients"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "Y"
+      },
+      "struct": {
+        "title": "Structure of mouse RECON (AKR1C13) in complex with cyclic AMP-AMP-GMP (cAAG)"
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": "10.1038/s41586-019-0953-5"
+      },
+      "pubmed": {
+        "rcsb_pubmed_container_identifiers": {
+          "pubmed_id": 30787435
+        },
+        "rcsb_pubmed_central_id": "PMC6544370",
+        "rcsb_pubmed_doi": "10.1038/s41586-019-0953-5",
+        "rcsb_pubmed_abstract_text": "Cyclic dinucleotides (CDNs) have central roles in bacterial homeostasis and virulence by acting as nucleotide second messengers. Bacterial CDNs also elicit immune responses during infection when they are detected by pattern-recognition receptors in animal cells. Here we perform a systematic biochemical screen for bacterial signalling nucleotides and discover a large family of cGAS/DncV-like nucleotidyltransferases (CD-NTases) that use both purine and pyrimidine nucleotides to synthesize a diverse range of CDNs. A series of crystal structures establish CD-NTases as a structurally conserved family and reveal key contacts in the enzyme active-site lid that direct purine or pyrimidine selection. CD-NTase products are not restricted to CDNs and also include an unexpected class of cyclic trinucleotide compounds. Biochemical and cellular analyses of CD-NTase signalling nucleotides demonstrate that these cyclic di- and trinucleotides activate distinct host receptors and thus may modulate the interaction of both pathogens and commensal microbiota with their animal and plant hosts.",
+        "rcsb_pubmed_affiliation_info": [
+          "Department of Microbiology, Harvard Medical School, Boston, MA, USA.",
+          "Department of Cancer Immunology and Virology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+          "Merck Research Laboratories, Merck & Co. Inc., Kenilworth, NJ, USA.",
+          "HHMI Mass Spectrometry Laboratory, University of California, Berkeley, Berkeley, CA, USA.",
+          "Department of Biology, Brandeis University, Waltham, MA, USA.",
+          "Department of Microbiology, Harvard Medical School, Boston, MA, USA. john_mekalanos@hms.harvard.edu.",
+          "Department of Microbiology, Harvard Medical School, Boston, MA, USA. philip_kranzusch@dfci.harvard.edu.",
+          "Department of Cancer Immunology and Virology, Dana-Farber Cancer Institute, Boston, MA, USA. philip_kranzusch@dfci.harvard.edu.",
+          "Parker Institute for Cancer Immunotherapy at Dana-Farber Cancer Institute, Boston, MA, USA. philip_kranzusch@dfci.harvard.edu."
+        ]
+      },
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": [
+        {
+          "id": "6M7K",
+          "type": "NAKB",
+          "link": "https://nakb.org/atlas=6M7K"
+        }
+      ],
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "OXIDOREDUCTASE",
+        "text": "RECON, innate immunity, AKR1C13, cyclic AMP-AMP-GMP, OXIDOREDUCTASE"
+      },
+      "exptl": [
+        {
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "cell": {
+        "length_a": 50.597,
+        "length_b": 57.07,
+        "length_c": 110.76,
+        "angle_alpha": 90.0,
+        "angle_beta": 90.0,
+        "angle_gamma": 90.0
+      },
+      "symmetry": {
+        "space_group_name_H_M": "P 21 21 21"
+      },
+      "software": [
+        {
+          "classification": "refinement",
+          "name": "PHENIX"
+        },
+        {
+          "classification": "data reduction",
+          "name": "XDS"
+        },
+        {
+          "classification": "data scaling",
+          "name": "Aimless"
+        },
+        {
+          "classification": "phasing",
+          "name": "PHASER"
+        }
+      ],
+      "rcsb_accession_info": {
+        "deposit_date": "2018-08-20T00:00:00Z",
+        "initial_release_date": "2019-02-20T00:00:00Z",
+        "major_revision": 1,
+        "minor_revision": 3
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "2019-02-20T00:00:00Z"
+        },
+        {
+          "ordinal": 2,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 1,
+          "revision_date": "2019-03-06T00:00:00Z"
+        },
+        {
+          "ordinal": 3,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 2,
+          "revision_date": "2019-03-27T00:00:00Z"
+        },
+        {
+          "ordinal": 4,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 3,
+          "revision_date": "2023-10-11T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        }
+      ],
+      "pdbx_audit_revision_group": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 2,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 3,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 4,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 5,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 6,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 7,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Derived calculations"
+        },
+        {
+          "ordinal": 8,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Refinement description"
+        }
+      ],
+      "pdbx_database_related": null,
+      "audit_author": [
+        {
+          "name": "Eaglesham, J.B."
+        },
+        {
+          "name": "Whiteley, A.T."
+        },
+        {
+          "name": "de Oliveira Mann, C.C."
+        },
+        {
+          "name": "Morehouse, B.R."
+        },
+        {
+          "name": "Nieminen, E.A."
+        },
+        {
+          "name": "King, D.S."
+        },
+        {
+          "name": "Lee, A.S.Y."
+        },
+        {
+          "name": "Mekalanos, J.J."
+        },
+        {
+          "name": "Kranzusch, P.J."
+        }
+      ],
+      "pdbx_audit_support": null,
+      "pdbx_initial_refinement_model": [
+        {
+          "type": "experimental model"
+        }
+      ],
+      "refine": [
+        {
+          "pdbx_refine_id": "X-RAY DIFFRACTION",
+          "ls_d_res_high": 1.1,
+          "ls_R_factor_R_work": 0.1428,
+          "ls_R_factor_R_free": 0.1574,
+          "ls_R_factor_obs": 0.143
+        }
+      ],
+      "pdbx_vrpt_summary_diffraction": [
+        {
+          "DCC_R": 0.14,
+          "DCC_Rfree": 0.16
+        }
+      ],
+      "pdbx_nmr_ensemble": null,
+      "em_experiment": null,
+      "em_3d_reconstruction": null,
+      "em_software": null,
+      "citation": [
+        {
+          "id": "primary",
+          "title": "Bacterial cGAS-like enzymes synthesize diverse nucleotide signals.",
+          "rcsb_journal_abbrev": "Nature",
+          "rcsb_authors": [
+            "Whiteley, A.T.",
+            "Eaglesham, J.B.",
+            "de Oliveira Mann, C.C.",
+            "Morehouse, B.R.",
+            "Lowey, B.",
+            "Nieminen, E.A.",
+            "Danilchanka, O.",
+            "King, D.S.",
+            "Lee, A.S.Y.",
+            "Mekalanos, J.J.",
+            "Kranzusch, P.J."
+          ],
+          "year": 2019,
+          "journal_volume": "567",
+          "page_first": "194",
+          "page_last": "199",
+          "pdbx_database_id_PubMed": 30787435,
+          "pdbx_database_id_DOI": "10.1038/s41586-019-0953-5"
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 1,
+        "representative_model": null,
+        "molecular_weight": 37.97,
+        "deposited_atom_count": 3264,
+        "deposited_polymer_monomer_count": 324,
+        "deposited_modeled_polymer_monomer_count": 321,
+        "deposited_unmodeled_polymer_monomer_count": 3,
+        "polymer_entity_count_protein": 1,
+        "polymer_entity_count_nucleic_acid": 1,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": null,
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "6M7K",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "3.20.20.100"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8062001"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6m7kA1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "6M7K",
+            "entity_id": "1",
+            "asym_ids": [
+              "A"
+            ],
+            "auth_asym_ids": [
+              "A"
+            ],
+            "uniprot_ids": [
+              "Q8VC28"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "Q8VC28"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "Q8VC28",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Mus musculus"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Aldo-keto reductase family 1 member C13",
+            "rcsb_ec_lineage": [
+              {
+                "id": "1"
+              },
+              {
+                "id": "1.1"
+              },
+              {
+                "id": "1.1.1"
+              }
+            ],
+            "pdbx_ec": "1.1.1",
+            "rcsb_enzyme_class_combined": [
+              {
+                "ec": "1.1.1",
+                "provenance_source": "PDB Primary Data"
+              }
+            ]
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Aldo/keto reductase, conserved site",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "NADP-dependent oxidoreductase domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "aldo-keto reductase (NADPH) activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "cellular response to chemical stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to chemical",
+                  "depth": null
+                },
+                {
+                  "name": "cellular response to xenobiotic stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "xenobiotic metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "response to xenobiotic stimulus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "NAD(P)-dependent oxidoreductase domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Aldo-keto reductase",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Aldo-keto reductase family 1 member C",
+                  "depth": 2
+                },
+                {
+                  "name": "Aldo-keto reductase",
+                  "depth": 1
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "976938_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "721_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "Q8VC28",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "16958_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "33123_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "624_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "94_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "SKQHCVKLNDGHLIPALGFGTYKPKEVPKSKSLEAACLALDVGYRHVDTAYAYQVEEEIGQAIQSAIAAGVVKREDLFITTKLWCTCFRPELVKPALEKSLKKLQLDYVDLYIMHYPVPMKSGDNDFPVNEQGKSLLDTVDFCDTWERLEECKDAGLVKSIGVSNFNHRQLERILNKPGLNYKPVCNQVECHLYLNQRKLLDYCESKDIVLVAYGALGTQRYKEWVDQNSPVLLNDPVLCDVAKKNKRSPALIALRYLIQRGIVPLAQSFKENEMRENLQVFGFQLSPEDMKTLDGLNKNFRYLPAEFLVDHPEYPFVEEY",
+            "rcsb_sample_sequence_length": 321,
+            "rcsb_mutation_count": 3
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Mus musculus",
+              "ncbi_scientific_name": "Mus musculus",
+              "rcsb_gene_name": [
+                {
+                  "value": "Akr1c13",
+                  "provenance_source": "Primary Data"
+                }
+              ]
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Escherichia coli"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "B",
+                "asym_id": "B",
+                "entry_id": "6M7K",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "6M7K",
+            "entity_id": "2",
+            "asym_ids": [
+              "B"
+            ],
+            "auth_asym_ids": [
+              "B"
+            ],
+            "uniprot_ids": null,
+            "reference_sequence_identifiers": null
+          },
+          "uniprots": null,
+          "rcsb_polymer_entity": {
+            "pdbx_description": "cyclic AMP-AMP-GMP",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": null,
+          "rcsb_polymer_entity_group_membership": null,
+          "entity_poly": {
+            "type": "polyribonucleotide",
+            "rcsb_entity_polymer_type": "RNA",
+            "pdbx_seq_one_letter_code_can": "AAG",
+            "rcsb_sample_sequence_length": 3,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "synthetic construct",
+              "ncbi_scientific_name": "synthetic construct",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        }
+      ],
+      "nonpolymer_entities": [
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "6M7K",
+            "entity_id": "3",
+            "auth_asym_ids": [
+              "A"
+            ],
+            "asym_ids": [
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "nonpolymer_comp_id": "EDO"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "401",
+                "auth_asym_id": "A",
+                "asym_id": "C",
+                "entry_id": "6M7K",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9771,
+                  "ranking_model_geometry": 0.8878,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "402",
+                "auth_asym_id": "A",
+                "asym_id": "D",
+                "entry_id": "6M7K",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.6461,
+                  "ranking_model_geometry": 0.8719,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "404",
+                "auth_asym_id": "A",
+                "asym_id": "F",
+                "entry_id": "6M7K",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.2856,
+                  "ranking_model_geometry": 0.9113,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "403",
+                "auth_asym_id": "A",
+                "asym_id": "E",
+                "entry_id": "6M7K",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.348,
+                  "ranking_model_geometry": 0.7179,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "1,2-ETHANEDIOL"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "EDO",
+              "formula_weight": 62.068,
+              "name": "1,2-ETHANEDIOL",
+              "formula": "C2 H6 O2"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "LYCAIKOWRPUZTN-UHFFFAOYSA-N"
+            }
+          }
+        }
+      ],
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_and_software_defined_assembly",
+            "method_details": "PISA",
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": [
+            {
+              "experimental_support": "gel filtration"
+            }
+          ],
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Asymmetric",
+              "symbol": "C1",
+              "oligomeric_state": "Monomer",
+              "stoichiometry": [
+                "A1"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 321
+          }
+        }
+      ]
+    }
+  }
+}

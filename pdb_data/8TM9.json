@@ -1,0 +1,809 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "8TM9",
+      "entry": {
+        "id": "8TM9"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00008tm9"
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "pubmed_id": null,
+        "emdb_ids": null,
+        "assembly_ids": [
+          "1"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB",
+            "structure factors",
+            "assembly mmCIF",
+            "assembly PDB",
+            "validation 2fo-fc coefficients",
+            "validation report",
+            "validation fo-fc coefficients",
+            "validation data mmCIF",
+            "validation slider image"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "Y"
+      },
+      "struct": {
+        "title": "Computationally designed tunable C2 symmetric tandem repeat homodimer, D_3_633_8x bound to peptide"
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": null
+      },
+      "pubmed": null,
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": null,
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "DE NOVO PROTEIN",
+        "text": "homodimer, de novo, designed, cTRP, computational, C2 symmetric, circular tandem repeat protein, cyclic peptide, DE NOVO PROTEIN"
+      },
+      "exptl": [
+        {
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "cell": {
+        "length_a": 54.717,
+        "length_b": 54.562,
+        "length_c": 80.478,
+        "angle_alpha": 90.0,
+        "angle_beta": 96.11,
+        "angle_gamma": 90.0
+      },
+      "symmetry": {
+        "space_group_name_H_M": "P 1 21 1"
+      },
+      "software": [
+        {
+          "classification": "refinement",
+          "name": "PHENIX"
+        },
+        {
+          "classification": "data scaling",
+          "name": "HKL-2000"
+        },
+        {
+          "classification": "phasing",
+          "name": "PHASER"
+        },
+        {
+          "classification": "data collection",
+          "name": "HKL-2000"
+        },
+        {
+          "classification": "data reduction",
+          "name": "HKL-2000"
+        }
+      ],
+      "rcsb_accession_info": {
+        "deposit_date": "2023-07-28T00:00:00Z",
+        "initial_release_date": "2024-12-11T00:00:00Z",
+        "major_revision": 1,
+        "minor_revision": 0
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "2024-12-11T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        }
+      ],
+      "pdbx_audit_revision_group": null,
+      "pdbx_database_related": null,
+      "audit_author": [
+        {
+          "name": "Kennedy, M.A."
+        },
+        {
+          "name": "Stoddard, B.L."
+        },
+        {
+          "name": "Hicks, D.R."
+        }
+      ],
+      "pdbx_audit_support": [
+        {
+          "funding_organization": "National Science Foundation (NSF, United States)",
+          "country": "United States",
+          "grant_number": "DGE-1762114",
+          "ordinal": 1
+        },
+        {
+          "funding_organization": "National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)",
+          "country": "United States",
+          "grant_number": "R01GM115545",
+          "ordinal": 2
+        },
+        {
+          "funding_organization": "National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)",
+          "country": "United States",
+          "grant_number": "R01GM139752",
+          "ordinal": 3
+        },
+        {
+          "funding_organization": "National Institutes of Health/National Institute on Aging (NIH/NIA)",
+          "country": "United States",
+          "grant_number": "R01AG063845",
+          "ordinal": 4
+        },
+        {
+          "funding_organization": "National Institutes of Health/National Institute on Aging (NIH/NIA)",
+          "country": "United States",
+          "grant_number": "U19AG065156",
+          "ordinal": 5
+        }
+      ],
+      "pdbx_initial_refinement_model": [
+        {
+          "type": "in silico model"
+        }
+      ],
+      "refine": [
+        {
+          "pdbx_refine_id": "X-RAY DIFFRACTION",
+          "ls_d_res_high": 2.05,
+          "ls_R_factor_R_work": 0.2096,
+          "ls_R_factor_R_free": 0.2484,
+          "ls_R_factor_obs": 0.2122
+        }
+      ],
+      "pdbx_vrpt_summary_diffraction": [
+        {
+          "DCC_R": 0.2097,
+          "DCC_Rfree": 0.2474
+        }
+      ],
+      "pdbx_nmr_ensemble": null,
+      "em_experiment": null,
+      "em_3d_reconstruction": null,
+      "em_software": null,
+      "citation": [
+        {
+          "id": "primary",
+          "title": "Computationally designed tunable C2 symmetric tandem repeat homodimer, D_3_633_8x bound to peptide",
+          "rcsb_journal_abbrev": "To be published",
+          "rcsb_authors": [
+            "Kennedy, M.A.",
+            "Stoddard, B.L.",
+            "Hicks, D.R."
+          ],
+          "year": null,
+          "journal_volume": null,
+          "page_first": null,
+          "page_last": null,
+          "pdbx_database_id_PubMed": null,
+          "pdbx_database_id_DOI": null
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 1,
+        "representative_model": null,
+        "molecular_weight": 55.55,
+        "deposited_atom_count": 3633,
+        "deposited_polymer_monomer_count": 476,
+        "deposited_modeled_polymer_monomer_count": 461,
+        "deposited_unmodeled_polymer_monomer_count": 15,
+        "polymer_entity_count_protein": 2,
+        "polymer_entity_count_nucleic_acid": 0,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": null,
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "8TM9",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": null
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "B",
+                "asym_id": "B",
+                "entry_id": "8TM9",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": null
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "8TM9",
+            "entity_id": "1",
+            "asym_ids": [
+              "A",
+              "B"
+            ],
+            "auth_asym_ids": [
+              "A",
+              "B"
+            ],
+            "uniprot_ids": null,
+            "reference_sequence_identifiers": null
+          },
+          "uniprots": null,
+          "rcsb_polymer_entity": {
+            "pdbx_description": "D_3_633_8x peptide bound",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": null,
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "59221_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "103036_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "81821_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "58643_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "58418_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "47555_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "SGSGSSPELDELWKRVKKLVTELLEQAERAGDPEEIFKLLEVAAALVFLAEMFLRLAAIQEKATDPEIQELAERVLRLIKRLLEEAERAGDPRRIRELVEVASQLAFLLELFYRLKEIQERATDPEIQELAERVLRLIKKLLKAAEEAGDPRKIHKLVFVAIVLLFLLQTFYRLKEIQEKATDPEIQRKAQEVLEKIKRLLEAAERAGDPAKILLYVIRALLLAMELKFAYRKR",
+            "rcsb_sample_sequence_length": 234,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "synthetic construct",
+              "ncbi_scientific_name": "synthetic construct",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Escherichia coli"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "D",
+                "asym_id": "C",
+                "entry_id": "8TM9",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "8TM9",
+            "entity_id": "2",
+            "asym_ids": [
+              "C"
+            ],
+            "auth_asym_ids": [
+              "D"
+            ],
+            "uniprot_ids": null,
+            "reference_sequence_identifiers": null
+          },
+          "uniprots": null,
+          "rcsb_polymer_entity": {
+            "pdbx_description": "MC1",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": null,
+          "rcsb_polymer_entity_group_membership": null,
+          "entity_poly": {
+            "type": "polypeptide(D)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "APLFAPLF",
+            "rcsb_sample_sequence_length": 8,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "synthetic construct",
+              "ncbi_scientific_name": "synthetic construct",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": [
+            {
+              "chem_comp": {
+                "id": "DAL",
+                "name": "D-ALANINE",
+                "formula": "C3 H7 N O2",
+                "type": "D-peptide linking",
+                "mon_nstd_parent_comp_id": null
+              }
+            },
+            {
+              "chem_comp": {
+                "id": "DPR",
+                "name": "D-PROLINE",
+                "formula": "C5 H9 N O2",
+                "type": "D-peptide linking",
+                "mon_nstd_parent_comp_id": null
+              }
+            },
+            {
+              "chem_comp": {
+                "id": "MEA",
+                "name": "N-METHYLPHENYLALANINE",
+                "formula": "C10 H13 N O2",
+                "type": "L-peptide linking",
+                "mon_nstd_parent_comp_id": [
+                  "PHE"
+                ]
+              }
+            },
+            {
+              "chem_comp": {
+                "id": "MLE",
+                "name": "N-METHYLLEUCINE",
+                "formula": "C7 H15 N O2",
+                "type": "L-peptide linking",
+                "mon_nstd_parent_comp_id": [
+                  "LEU"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "nonpolymer_entities": [
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "8TM9",
+            "entity_id": "3",
+            "auth_asym_ids": [
+              "A",
+              "B"
+            ],
+            "asym_ids": [
+              "D",
+              "H",
+              "I"
+            ],
+            "nonpolymer_comp_id": "POL"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "301",
+                "auth_asym_id": "A",
+                "asym_id": "D",
+                "entry_id": "8TM9",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.065,
+                  "ranking_model_geometry": 0.7359,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "304",
+                "auth_asym_id": "B",
+                "asym_id": "H",
+                "entry_id": "8TM9",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.36,
+                  "ranking_model_geometry": 0.7331,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "305",
+                "auth_asym_id": "B",
+                "asym_id": "I",
+                "entry_id": "8TM9",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.5511,
+                  "ranking_model_geometry": 0.7357,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "N-PROPANOL"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "POL",
+              "formula_weight": 60.095,
+              "name": "N-PROPANOL",
+              "formula": "C3 H8 O"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "BDERNNFJNOPAEC-UHFFFAOYSA-N"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "8TM9",
+            "entity_id": "4",
+            "auth_asym_ids": [
+              "B"
+            ],
+            "asym_ids": [
+              "E",
+              "F",
+              "G"
+            ],
+            "nonpolymer_comp_id": "SO4"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "301",
+                "auth_asym_id": "B",
+                "asym_id": "E",
+                "entry_id": "8TM9",
+                "entity_id": "4"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9118,
+                  "ranking_model_geometry": 0.9756,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "302",
+                "auth_asym_id": "B",
+                "asym_id": "F",
+                "entry_id": "8TM9",
+                "entity_id": "4"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.6385,
+                  "ranking_model_geometry": 0.9733,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "303",
+                "auth_asym_id": "B",
+                "asym_id": "G",
+                "entry_id": "8TM9",
+                "entity_id": "4"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.5429,
+                  "ranking_model_geometry": 0.971,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "SULFATE ION"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "SO4",
+              "formula_weight": 96.063,
+              "name": "SULFATE ION",
+              "formula": "O4 S"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "QAOWNCQODCNURD-UHFFFAOYSA-L"
+            }
+          }
+        }
+      ],
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_and_software_defined_assembly",
+            "method_details": "PISA",
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": [
+            {
+              "experimental_support": "assay for oligomerization"
+            }
+          ],
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Cyclic",
+              "symbol": "C2",
+              "oligomeric_state": "Homo 2-mer",
+              "stoichiometry": [
+                "A2"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 461
+          }
+        }
+      ]
+    }
+  }
+}

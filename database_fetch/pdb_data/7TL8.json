@@ -1,0 +1,1325 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "7TL8",
+      "entry": {
+        "id": "7TL8"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00007tl8"
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "pubmed_id": 35904259,
+        "emdb_ids": null,
+        "assembly_ids": [
+          "1"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB",
+            "structure factors",
+            "assembly mmCIF",
+            "assembly PDB",
+            "validation report",
+            "validation fo-fc coefficients",
+            "validation 2fo-fc coefficients",
+            "validation data mmCIF",
+            "validation slider image"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "Y"
+      },
+      "struct": {
+        "title": "1.95A resolution structure of independent phosphoglycerate mutase from S. aureus in complex with a macrocyclic peptide inhibitor (Sa-D3)"
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": "10.1021/acschembio.2c00403"
+      },
+      "pubmed": {
+        "rcsb_pubmed_container_identifiers": {
+          "pubmed_id": 35904259
+        },
+        "rcsb_pubmed_central_id": "PMC9900472",
+        "rcsb_pubmed_doi": "10.1021/acschembio.2c00403",
+        "rcsb_pubmed_abstract_text": " <i>N </i>-Methylated amino acids ( <i>N </i>-MeAAs) are privileged residues of naturally occurring peptides critical to bioactivity. However,  <i>de novo </i> discovery from ribosome display is limited by poor incorporation of  <i>N </i>-methylated amino acids into the nascent peptide chain attributed to a poor EF-Tu affinity for the  <i>N </i>-methyl-aminoacyl-tRNA. By reconfiguring the tRNA's T-stem region to compensate and tune the EF-Tu affinity, we conducted Random nonstandard Peptides Integrated Discovery (RaPID) display of a macrocyclic peptide (MCP) library containing six different  <i>N </i>-MeAAs. We have here devised a \"pool-and-split\" enrichment strategy using the RaPID display and identified  <i>N </i>-methylated MCPs against three species of prokaryotic metal-ion-dependent phosphoglycerate mutases. The enriched MCPs reached 57%  <i>N </i>-methylation with up to three consecutively incorporated  <i>N </i>-MeAAs, rivaling natural products. Potent nanomolar inhibitors ranging in ortholog selectivity, strongly mediated by  <i>N </i>-methylation, were identified. Co-crystal structures reveal an architecturally related Ce-2 Ipglycermide active-site metal-ion-coordinating Cys lariat MCP, functionally dependent on two  <i>cis </i>  <i>N </i>-MeAAs with broadened iPGM species selectivity over the original nematode-selective MCPs. Furthermore, the isolation of a novel metal-ion-independent  <i>Staphylococcus aureus </i> iPGM inhibitor utilizing a phosphoglycerate mimetic mechanism illustrates the diversity of possible chemotypes encoded by the  <i>N </i>-MeAA MCP library.",
+        "rcsb_pubmed_affiliation_info": [
+          "Department of Chemistry, Graduate School of Science, The University of Tokyo, Tokyo 113-0033, Japan.",
+          "National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, Maryland 20850, United States.",
+          "Protein Structure and X-ray Crystallography Laboratory, Structural Biology Center, University of Kansas, Lawrence, Kansas 66045, United States.",
+          "New York Structural Biology Center, NSLS-II, Upton, New York 11973, United States.",
+          "National Human Genome Research Institute, National Institutes of Health, Bethesda, Maryland 20892, United States."
+        ]
+      },
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": null,
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "ISOMERASE/Inhibitor",
+        "text": "phosphoglycerate mutase, ipglycermide, macrocyclic peptide inhibitors, metal ion binding, ISOMERASE, ISOMERASE-Inhibitor complex"
+      },
+      "exptl": [
+        {
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "cell": {
+        "length_a": 46.898,
+        "length_b": 74.172,
+        "length_c": 75.017,
+        "angle_alpha": 90.0,
+        "angle_beta": 100.54,
+        "angle_gamma": 90.0
+      },
+      "symmetry": {
+        "space_group_name_H_M": "P 1 21 1"
+      },
+      "software": [
+        {
+          "classification": "data reduction",
+          "name": "XDS"
+        },
+        {
+          "classification": "data scaling",
+          "name": "Aimless"
+        },
+        {
+          "classification": "phasing",
+          "name": "PHASER"
+        },
+        {
+          "classification": "refinement",
+          "name": "PHENIX"
+        },
+        {
+          "classification": "data extraction",
+          "name": "PDB_EXTRACT"
+        }
+      ],
+      "rcsb_accession_info": {
+        "deposit_date": "2022-01-18T00:00:00Z",
+        "initial_release_date": "2022-08-10T00:00:00Z",
+        "major_revision": 1,
+        "minor_revision": 2
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "2022-08-10T00:00:00Z"
+        },
+        {
+          "ordinal": 2,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 1,
+          "revision_date": "2022-08-31T00:00:00Z"
+        },
+        {
+          "ordinal": 3,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 2,
+          "revision_date": "2023-10-18T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        }
+      ],
+      "pdbx_audit_revision_group": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 2,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 3,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Refinement description"
+        }
+      ],
+      "pdbx_database_related": null,
+      "audit_author": [
+        {
+          "name": "Liu, L."
+        },
+        {
+          "name": "Lovell, S."
+        },
+        {
+          "name": "Battaile, K.P."
+        },
+        {
+          "name": "Dranchak, P."
+        },
+        {
+          "name": "Queme, B."
+        },
+        {
+          "name": "Aitha, M."
+        },
+        {
+          "name": "van Neer, R.H.P."
+        },
+        {
+          "name": "Kimura, H."
+        },
+        {
+          "name": "Katho, T."
+        },
+        {
+          "name": "Suga, H."
+        },
+        {
+          "name": "Inglese, J."
+        }
+      ],
+      "pdbx_audit_support": [
+        {
+          "funding_organization": "Not funded",
+          "country": null,
+          "grant_number": null,
+          "ordinal": 1
+        }
+      ],
+      "pdbx_initial_refinement_model": [
+        {
+          "type": "experimental model"
+        }
+      ],
+      "refine": [
+        {
+          "pdbx_refine_id": "X-RAY DIFFRACTION",
+          "ls_d_res_high": 1.95,
+          "ls_R_factor_R_work": 0.1943,
+          "ls_R_factor_R_free": 0.2548,
+          "ls_R_factor_obs": 0.1971
+        }
+      ],
+      "pdbx_vrpt_summary_diffraction": [
+        {
+          "DCC_R": 0.2,
+          "DCC_Rfree": 0.26
+        }
+      ],
+      "pdbx_nmr_ensemble": null,
+      "em_experiment": null,
+      "em_3d_reconstruction": null,
+      "em_software": null,
+      "citation": [
+        {
+          "id": "primary",
+          "title": "Serum-Stable and Selective Backbone-N-Methylated Cyclic Peptides That Inhibit Prokaryotic Glycolytic Mutases.",
+          "rcsb_journal_abbrev": "ACS Chem Biol",
+          "rcsb_authors": [
+            "van Neer, R.H.P.",
+            "Dranchak, P.K.",
+            "Liu, L.",
+            "Aitha, M.",
+            "Queme, B.",
+            "Kimura, H.",
+            "Katoh, T.",
+            "Battaile, K.P.",
+            "Lovell, S.",
+            "Inglese, J.",
+            "Suga, H."
+          ],
+          "year": 2022,
+          "journal_volume": "17",
+          "page_first": "2284",
+          "page_last": "2295",
+          "pdbx_database_id_PubMed": 35904259,
+          "pdbx_database_id_DOI": "10.1021/acschembio.2c00403"
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 1,
+        "representative_model": null,
+        "molecular_weight": 59.24,
+        "deposited_atom_count": 4095,
+        "deposited_polymer_monomer_count": 526,
+        "deposited_modeled_polymer_monomer_count": 503,
+        "deposited_unmodeled_polymer_monomer_count": 23,
+        "polymer_entity_count_protein": 2,
+        "polymer_entity_count_nucleic_acid": 0,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": null,
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "7TL8",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "3.40.1450.10"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e7tl8A2"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e7tl8A1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "7TL8",
+            "entity_id": "1",
+            "asym_ids": [
+              "A"
+            ],
+            "auth_asym_ids": [
+              "A"
+            ],
+            "uniprot_ids": [
+              "Q5HHP2"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "Q5HHP2"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "Q5HHP2",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Staphylococcus aureus (strain COL)"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "2,3-bisphosphoglycerate-independent phosphoglycerate mutase",
+            "rcsb_ec_lineage": [
+              {
+                "id": "5"
+              },
+              {
+                "id": "5.4"
+              },
+              {
+                "id": "5.4.2"
+              },
+              {
+                "id": "5.4.2.12"
+              }
+            ],
+            "pdbx_ec": "5.4.2.12",
+            "rcsb_enzyme_class_combined": [
+              {
+                "ec": "5.4.2.12",
+                "provenance_source": "PDB Primary Data"
+              }
+            ]
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "cytosol",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cation binding",
+                  "depth": null
+                },
+                {
+                  "name": "manganese ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "transition metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "ribonucleotide catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "pyridine nucleotide catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "aerobic respiration",
+                  "depth": null
+                },
+                {
+                  "name": "oxoacid metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "carbohydrate catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "carbohydrate derivative metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "organophosphate catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleoside phosphate catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "organic acid metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "glycolytic process",
+                  "depth": null
+                },
+                {
+                  "name": "phosphate-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "pyridine-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "purine ribonucleotide catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "phosphorus metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "pyridine nucleotide metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleoside phosphate metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nicotinamide nucleotide metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "pyruvate metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "purine nucleoside diphosphate metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "purine-containing compound catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleotide metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleoside diphosphate metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "purine nucleoside diphosphate catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleoside diphosphate catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleoside triphosphate metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "monocarboxylic acid metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "purine ribonucleotide metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "pyridine-containing compound catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "ribose phosphate metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular respiration",
+                  "depth": null
+                },
+                {
+                  "name": "catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "ATP metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "energy derivation by oxidation of organic compounds",
+                  "depth": null
+                },
+                {
+                  "name": "purine nucleotide metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "ribonucleotide metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing small molecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "purine ribonucleoside triphosphate metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "ribonucleoside diphosphate metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "ribonucleoside diphosphate catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleotide catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "ribonucleoside triphosphate metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "purine nucleoside triphosphate metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "purine nucleotide catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "carbohydrate metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "carbohydrate derivative catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "ADP catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "carboxylic acid metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "generation of precursor metabolites and energy",
+                  "depth": null
+                },
+                {
+                  "name": "purine-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "ADP metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "organophosphate metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "purine ribonucleoside diphosphate metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "purine ribonucleoside diphosphate catabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "BPG-independent PGAM, N-terminal",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "monosaccharide metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "carbohydrate metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "hexose catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "carbohydrate catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "hexose metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "glucose catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "monosaccharide catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule catabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "glucose metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "BPG-independent phosphoglycerate mutase, domain B superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Phosphoglycerate mutase, 2,3-bisphosphoglycerate-independent",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "isomerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "phosphoglycerate mutase activity",
+                  "depth": null
+                },
+                {
+                  "name": "intramolecular phosphotransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "intramolecular transferase activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Metalloenzyme",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Alkaline-phosphatase-like, core domain superfamily",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "8523_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "626_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "8312_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "Q5HHP2",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "8488_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "6274_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "625_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "MAKKPTALIILDGFANRESEHGNAVKLANKPNFDRYYNKYPTTQIEASGLDVGLPEGQMGNSEVGHMNIGAGRIVYQSLTRINKSIEDGDFFENDVLNNAIAHVNSHDSALHIFGLLSDGGVHSHYKHLFALLELAKKQGVEKVYVHAFLDGRDVDQKSALKYIEETEAKFNELGIGQFASVSGRYYAMDRDKRWEREEKAYNAIRNFDAPTYATAKEGVEASYNEGLTDEFVVPFIVENQNDGVNDGDAVIFYNFRPDRAAQLSEIFANRAFEGFKVEQVKDLFYATFTKYNDNIDAAIVFEKVDLNNTIGEIAQNNNLTQLRIAETEKYPHVTYFMSGGRNEEFKGERRRLIDSPKVATYDLKPEMSAYEVKDALLEELNKGDLDLIILNFANPDMVGHSGMLEPTIKAIEAVDECLGEVVDKILDMDGYAIITADHGNSDQVLTDDDQPMTTHTTNPVPVIVTKEGVTLRETGRLGDLAPTLLDLLNVEQPEDMTGESLIKHHHHHHH",
+            "rcsb_sample_sequence_length": 511,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Staphylococcus aureus",
+              "ncbi_scientific_name": "Staphylococcus aureus",
+              "rcsb_gene_name": [
+                {
+                  "value": "pgm_1",
+                  "provenance_source": "Primary Data"
+                },
+                {
+                  "value": "gpmI",
+                  "provenance_source": "Primary Data"
+                },
+                {
+                  "value": "pgm_2",
+                  "provenance_source": "Primary Data"
+                }
+              ]
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Escherichia coli BL21(DE3)"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "B",
+                "asym_id": "B",
+                "entry_id": "7TL8",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "7TL8",
+            "entity_id": "2",
+            "asym_ids": [
+              "B"
+            ],
+            "auth_asym_ids": [
+              "B"
+            ],
+            "uniprot_ids": null,
+            "reference_sequence_identifiers": null
+          },
+          "uniprots": null,
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Peptide Sa-D3",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": null,
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "1015031_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "804616_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "585508_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "865546_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "248643_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "473629_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "XYQVTVWWAXPWEDC",
+            "rcsb_sample_sequence_length": 15,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "synthetic construct",
+              "ncbi_scientific_name": "synthetic construct",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": {
+            "rcsb_id": "PRD_002492",
+            "pdbx_reference_molecule": {
+              "prd_id": "PRD_002492",
+              "chem_comp_id": null,
+              "name": "Sa-D3",
+              "type": "Cyclic peptide",
+              "class": "Inhibitor"
+            }
+          },
+          "chem_comp_nstd_monomers": [
+            {
+              "chem_comp": {
+                "id": "5JP",
+                "name": "N-methyl-L-serine",
+                "formula": "C4 H9 N O3",
+                "type": "non-polymer",
+                "mon_nstd_parent_comp_id": [
+                  "SER"
+                ]
+              }
+            },
+            {
+              "chem_comp": {
+                "id": "ACE",
+                "name": "ACETYL GROUP",
+                "formula": "C2 H4 O",
+                "type": "non-polymer",
+                "mon_nstd_parent_comp_id": null
+              }
+            },
+            {
+              "chem_comp": {
+                "id": "DTY",
+                "name": "D-TYROSINE",
+                "formula": "C9 H11 N O3",
+                "type": "D-peptide linking",
+                "mon_nstd_parent_comp_id": null
+              }
+            }
+          ]
+        }
+      ],
+      "nonpolymer_entities": [
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "7TL8",
+            "entity_id": "3",
+            "auth_asym_ids": [
+              "A"
+            ],
+            "asym_ids": [
+              "C",
+              "D"
+            ],
+            "nonpolymer_comp_id": "MN"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "601",
+                "auth_asym_id": "A",
+                "asym_id": "C",
+                "entry_id": "7TL8",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9513,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "602",
+                "auth_asym_id": "A",
+                "asym_id": "D",
+                "entry_id": "7TL8",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9829,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "MANGANESE (II) ION"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "MN",
+              "formula_weight": 54.938,
+              "name": "MANGANESE (II) ION",
+              "formula": "Mn"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "WAEMQWOKJMHJLA-UHFFFAOYSA-N"
+            }
+          }
+        }
+      ],
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_and_software_defined_assembly",
+            "method_details": "PISA",
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": [
+            {
+              "experimental_support": "gel filtration"
+            }
+          ],
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Asymmetric",
+              "symbol": "C1",
+              "oligomeric_state": "Hetero 2-mer",
+              "stoichiometry": [
+                "A1",
+                "B1"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 503
+          }
+        }
+      ]
+    }
+  }
+}

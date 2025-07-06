@@ -1,0 +1,781 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "3NIR",
+      "entry": {
+        "id": "3NIR"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00003nir"
+        },
+        {
+          "database_id": "RCSB",
+          "pdbx_database_accession": null
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1",
+          "2",
+          "3"
+        ],
+        "pubmed_id": 21505232,
+        "emdb_ids": null,
+        "assembly_ids": [
+          "1"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB",
+            "structure factors",
+            "assembly mmCIF",
+            "assembly PDB",
+            "validation data mmCIF",
+            "validation 2fo-fc coefficients",
+            "validation fo-fc coefficients",
+            "validation slider image",
+            "validation report"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "Y"
+      },
+      "struct": {
+        "title": "Crystal structure of small protein crambin at 0.48 A resolution"
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": "10.1107/S1744309110052607"
+      },
+      "pubmed": {
+        "rcsb_pubmed_container_identifiers": {
+          "pubmed_id": 21505232
+        },
+        "rcsb_pubmed_central_id": "PMC3080141",
+        "rcsb_pubmed_doi": "10.1107/S1744309110052607",
+        "rcsb_pubmed_abstract_text": "With the development of highly brilliant and extremely intense synchrotron X-ray sources, extreme high-resolution limits for biological samples are now becoming attainable. Here, a study is presented that sets the record in crystallographic resolution for a biological macromolecule. The structure of the small protein crambin was determined to 0.48 Å resolution on the PETRA II ring before its conversion to a dedicated synchrotron-radiation source. The results reveal a wealth of details in electron density and demonstrate the possibilities that are potentially offered by a high-energy source. The question now arises as to what the true limits are in terms of what can be seen at such high resolution. From what can be extrapolated from the results using crystals of crambin, this limit would be at approximately 0.40 Å, which approaches that for smaller compounds.",
+        "rcsb_pubmed_affiliation_info": [
+          "EMBL Hamburg, c/o DESY, Notkestrasse 85, D-22607 Hamburg, Germany. andrea@embl-hamburg.de"
+        ]
+      },
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": null,
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "PLANT PROTEIN",
+        "text": "plant protein"
+      },
+      "exptl": [
+        {
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "cell": {
+        "length_a": 22.329,
+        "length_b": 18.471,
+        "length_c": 40.769,
+        "angle_alpha": 90.0,
+        "angle_beta": 90.55,
+        "angle_gamma": 90.0
+      },
+      "symmetry": {
+        "space_group_name_H_M": "P 1 21 1"
+      },
+      "software": [
+        {
+          "classification": "data collection",
+          "name": "MAR345"
+        },
+        {
+          "classification": "refinement",
+          "name": "MOPRO"
+        },
+        {
+          "classification": "data reduction",
+          "name": "DENZO"
+        },
+        {
+          "classification": "data scaling",
+          "name": "SCALEPACK"
+        },
+        {
+          "classification": "data scaling",
+          "name": "SCALA"
+        }
+      ],
+      "rcsb_accession_info": {
+        "deposit_date": "2010-06-16T00:00:00Z",
+        "initial_release_date": "2011-05-18T00:00:00Z",
+        "major_revision": 1,
+        "minor_revision": 7
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "2011-05-18T00:00:00Z"
+        },
+        {
+          "ordinal": 2,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 1,
+          "revision_date": "2011-07-13T00:00:00Z"
+        },
+        {
+          "ordinal": 3,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 2,
+          "revision_date": "2016-03-02T00:00:00Z"
+        },
+        {
+          "ordinal": 4,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 3,
+          "revision_date": "2017-11-08T00:00:00Z"
+        },
+        {
+          "ordinal": 5,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 4,
+          "revision_date": "2018-01-24T00:00:00Z"
+        },
+        {
+          "ordinal": 6,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 5,
+          "revision_date": "2018-04-04T00:00:00Z"
+        },
+        {
+          "ordinal": 7,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 6,
+          "revision_date": "2023-09-06T00:00:00Z"
+        },
+        {
+          "ordinal": 8,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 7,
+          "revision_date": "2024-11-20T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        }
+      ],
+      "pdbx_audit_revision_group": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Version format compliance"
+        },
+        {
+          "ordinal": 2,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 3,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Refinement description"
+        },
+        {
+          "ordinal": 4,
+          "revision_ordinal": 5,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 5,
+          "revision_ordinal": 6,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 6,
+          "revision_ordinal": 7,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 7,
+          "revision_ordinal": 7,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 8,
+          "revision_ordinal": 7,
+          "data_content_type": "Structure model",
+          "group": "Derived calculations"
+        },
+        {
+          "ordinal": 9,
+          "revision_ordinal": 7,
+          "data_content_type": "Structure model",
+          "group": "Refinement description"
+        },
+        {
+          "ordinal": 10,
+          "revision_ordinal": 8,
+          "data_content_type": "Structure model",
+          "group": "Structure summary"
+        }
+      ],
+      "pdbx_database_related": [
+        {
+          "content_type": "unspecified",
+          "db_id": "1EJG",
+          "details": "CRAMBIN TO 0.54 A RESOLUTION",
+          "db_name": "PDB"
+        },
+        {
+          "content_type": "unspecified",
+          "db_id": "1CRN",
+          "details": "CRAMBIN AT ROOM TEMPERATURE",
+          "db_name": "PDB"
+        },
+        {
+          "content_type": "unspecified",
+          "db_id": "1CNR",
+          "details": "CRAMBIN, PURE P22/ L25 FORM",
+          "db_name": "PDB"
+        },
+        {
+          "content_type": "unspecified",
+          "db_id": "1CBN",
+          "details": "CRAMBIN TO 0.83 A RESOLUTION",
+          "db_name": "PDB"
+        },
+        {
+          "content_type": "unspecified",
+          "db_id": "1AB1",
+          "details": "CRAMBIN, PURE S22 / I25 FORM",
+          "db_name": "PDB"
+        }
+      ],
+      "audit_author": [
+        {
+          "name": "Schmidt, A."
+        },
+        {
+          "name": "Teeter, M."
+        },
+        {
+          "name": "Weckert, E."
+        },
+        {
+          "name": "Lamzin, V.S."
+        }
+      ],
+      "pdbx_audit_support": null,
+      "pdbx_initial_refinement_model": [
+        {
+          "type": "experimental model"
+        }
+      ],
+      "refine": [
+        {
+          "pdbx_refine_id": "X-RAY DIFFRACTION",
+          "ls_d_res_high": 0.48,
+          "ls_R_factor_R_work": 0.127,
+          "ls_R_factor_R_free": null,
+          "ls_R_factor_obs": 0.127
+        }
+      ],
+      "pdbx_vrpt_summary_diffraction": [
+        {
+          "DCC_R": 0.14,
+          "DCC_Rfree": null
+        }
+      ],
+      "pdbx_nmr_ensemble": null,
+      "em_experiment": null,
+      "em_3d_reconstruction": null,
+      "em_software": null,
+      "citation": [
+        {
+          "id": "primary",
+          "title": "Crystal structure of small protein crambin at 0.48 A resolution",
+          "rcsb_journal_abbrev": "Acta Crystallogr Sect F Struct Biol Cryst Commun",
+          "rcsb_authors": [
+            "Schmidt, A.",
+            "Teeter, M.",
+            "Weckert, E.",
+            "Lamzin, V.S."
+          ],
+          "year": 2011,
+          "journal_volume": "67",
+          "page_first": "424",
+          "page_last": "429",
+          "pdbx_database_id_PubMed": 21505232,
+          "pdbx_database_id_DOI": "10.1107/S1744309110052607"
+        },
+        {
+          "id": "1",
+          "title": "Accurate protein crystallography at ultra-high resolution: valence electron distribution in crambin.",
+          "rcsb_journal_abbrev": "Proc Natl Acad Sci U S A",
+          "rcsb_authors": [
+            "Jelsch, C.",
+            "Teeter, M.M.",
+            "Lamzin, V.S.",
+            "Pichon-Pesme, V.",
+            "Blessing, R.H.",
+            "Lecomte, C."
+          ],
+          "year": 2000,
+          "journal_volume": "97",
+          "page_first": "3171",
+          "page_last": "3176",
+          "pdbx_database_id_PubMed": 10737790,
+          "pdbx_database_id_DOI": null
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 1,
+        "representative_model": null,
+        "molecular_weight": 4.92,
+        "deposited_atom_count": 586,
+        "deposited_polymer_monomer_count": 48,
+        "deposited_modeled_polymer_monomer_count": 48,
+        "deposited_unmodeled_polymer_monomer_count": 0,
+        "polymer_entity_count_protein": 1,
+        "polymer_entity_count_nucleic_acid": 0,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": null,
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "3NIR",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "3.30.1350.10"
+                },
+                {
+                  "type": "SCOP",
+                  "annotation_id": "d3nira_"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e3nirA1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "3NIR",
+            "entity_id": "1",
+            "asym_ids": [
+              "A"
+            ],
+            "auth_asym_ids": [
+              "A"
+            ],
+            "uniprot_ids": [
+              "P01542"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "P01542"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "P01542",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Crambe hispanica subsp. abyssinica"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Crambin",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Thionin-like superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Thionin",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "defense response",
+                  "depth": null
+                },
+                {
+                  "name": "response to stress",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "3423_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "3639_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "4483_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "5064_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "3077_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "2091_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "P01542",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "TTCCPSIVARSNFNVCRLPGTPEALCATYTGCIIIPGATCPGDYAN",
+            "rcsb_sample_sequence_length": 46,
+            "rcsb_mutation_count": 2
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Crambe hispanica",
+              "ncbi_scientific_name": "Crambe hispanica subsp. abyssinica",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        }
+      ],
+      "nonpolymer_entities": [
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "3NIR",
+            "entity_id": "2",
+            "auth_asym_ids": [
+              "A"
+            ],
+            "asym_ids": [
+              "B",
+              "C",
+              "D",
+              "E"
+            ],
+            "nonpolymer_comp_id": "EOH"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "2001",
+                "auth_asym_id": "A",
+                "asym_id": "B",
+                "entry_id": "3NIR",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.1572,
+                  "ranking_model_geometry": 0.0187,
+                  "average_occupancy": 0.6,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "2002",
+                "auth_asym_id": "A",
+                "asym_id": "C",
+                "entry_id": "3NIR",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.0293,
+                  "ranking_model_geometry": -0.0,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                },
+                {
+                  "ranking_model_fit": 0.0293,
+                  "ranking_model_geometry": 0.2264,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "2003",
+                "auth_asym_id": "A",
+                "asym_id": "D",
+                "entry_id": "3NIR",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.2693,
+                  "ranking_model_geometry": 0.4203,
+                  "average_occupancy": 0.7,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                },
+                {
+                  "ranking_model_fit": 0.2693,
+                  "ranking_model_geometry": 0.4711,
+                  "average_occupancy": 0.7,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "2004",
+                "auth_asym_id": "A",
+                "asym_id": "E",
+                "entry_id": "3NIR",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.7503,
+                  "ranking_model_geometry": 0.1031,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "ETHANOL"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "EOH",
+              "formula_weight": 46.068,
+              "name": "ETHANOL",
+              "formula": "C2 H6 O"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "LFQSCWFLJHTTHZ-UHFFFAOYSA-N"
+            }
+          }
+        }
+      ],
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_and_software_defined_assembly",
+            "method_details": "PISA",
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": null,
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Asymmetric",
+              "symbol": "C1",
+              "oligomeric_state": "Monomer",
+              "stoichiometry": [
+                "A1"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 48
+          }
+        }
+      ]
+    }
+  }
+}

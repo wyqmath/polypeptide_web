@@ -1,0 +1,782 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "4Z7P",
+      "entry": {
+        "id": "4Z7P"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00004z7p"
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1",
+          "2",
+          "3"
+        ],
+        "pubmed_id": 26288216,
+        "emdb_ids": null,
+        "assembly_ids": [
+          "1"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB",
+            "structure factors",
+            "assembly mmCIF",
+            "assembly PDB",
+            "validation data mmCIF",
+            "validation slider image",
+            "validation 2fo-fc coefficients",
+            "validation report",
+            "validation fo-fc coefficients"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "Y"
+      },
+      "struct": {
+        "title": "X-ray structure of racemic ShK Q16K toxin"
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": "10.1021/acs.jmedchem.5b00495"
+      },
+      "pubmed": {
+        "rcsb_pubmed_container_identifiers": {
+          "pubmed_id": 26288216
+        },
+        "rcsb_pubmed_central_id": null,
+        "rcsb_pubmed_doi": "10.1021/acs.jmedchem.5b00495",
+        "rcsb_pubmed_abstract_text": "To realize the medicinal potential of peptide toxins, naturally occurring disulfide-rich peptides, as ion channel antagonists, more efficient pharmaceutical optimization technologies must be developed. Here, we show that the therapeutic properties of multiple cysteine toxin peptides can be rapidly and substantially improved by combining direct chemical strategies with high-throughput electrophysiology. We applied whole-molecule, brute-force, structure-activity analoging to ShK, a peptide toxin from the sea anemone Stichodactyla helianthus that inhibits the voltage-gated potassium ion channel Kv1.3, to effectively discover critical structural changes for 15× selectivity against the closely related neuronal ion channel Kv1.1. Subsequent site-specific polymer conjugation resulted in an exquisitely selective Kv1.3 antagonist (>1000× over Kv1.1) with picomolar functional activity in whole blood and a pharmacokinetic profile suitable for weekly administration in primates. The pharmacological potential of the optimized toxin peptide was demonstrated by potent and sustained inhibition of cytokine secretion from T cells, a therapeutic target for autoimmune diseases, in cynomolgus monkeys.",
+        "rcsb_pubmed_affiliation_info": [
+          "Therapeutic Discovery, Amgen Inc. , 360 Binney Street, Cambridge, Massachusetts 02142, United States."
+        ]
+      },
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": null,
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "TOXIN",
+        "text": "ShK toxin, toxin"
+      },
+      "exptl": [
+        {
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "cell": {
+        "length_a": 60.783,
+        "length_b": 60.783,
+        "length_c": 43.592,
+        "angle_alpha": 90.0,
+        "angle_beta": 90.0,
+        "angle_gamma": 120.0
+      },
+      "symmetry": {
+        "space_group_name_H_M": "H -3"
+      },
+      "software": [
+        {
+          "classification": "data scaling",
+          "name": "SCALEPACK"
+        },
+        {
+          "classification": "phasing",
+          "name": "PHASER"
+        },
+        {
+          "classification": "refinement",
+          "name": "REFMAC"
+        },
+        {
+          "classification": "data extraction",
+          "name": "PDB_EXTRACT"
+        },
+        {
+          "classification": "data reduction",
+          "name": "HKL-2000"
+        }
+      ],
+      "rcsb_accession_info": {
+        "deposit_date": "2015-04-07T00:00:00Z",
+        "initial_release_date": "2015-09-09T00:00:00Z",
+        "major_revision": 1,
+        "minor_revision": 2
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "2015-09-09T00:00:00Z"
+        },
+        {
+          "ordinal": 2,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 1,
+          "revision_date": "2015-09-23T00:00:00Z"
+        },
+        {
+          "ordinal": 3,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 2,
+          "revision_date": "2024-11-06T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        }
+      ],
+      "pdbx_audit_revision_group": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 2,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 3,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 4,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Derived calculations"
+        },
+        {
+          "ordinal": 5,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Structure summary"
+        }
+      ],
+      "pdbx_database_related": [
+        {
+          "content_type": "unspecified",
+          "db_id": "4LFS",
+          "details": null,
+          "db_name": "PDB"
+        }
+      ],
+      "audit_author": [
+        {
+          "name": "Sickmier, E.A."
+        }
+      ],
+      "pdbx_audit_support": null,
+      "pdbx_initial_refinement_model": null,
+      "refine": [
+        {
+          "pdbx_refine_id": "X-RAY DIFFRACTION",
+          "ls_d_res_high": 1.2,
+          "ls_R_factor_R_work": 0.204,
+          "ls_R_factor_R_free": 0.2266,
+          "ls_R_factor_obs": 0.2051
+        }
+      ],
+      "pdbx_vrpt_summary_diffraction": [
+        {
+          "DCC_R": 0.21,
+          "DCC_Rfree": 0.23
+        }
+      ],
+      "pdbx_nmr_ensemble": null,
+      "em_experiment": null,
+      "em_3d_reconstruction": null,
+      "em_software": null,
+      "citation": [
+        {
+          "id": "primary",
+          "title": "Pharmaceutical Optimization of Peptide Toxins for Ion Channel Targets: Potent, Selective, and Long-Lived Antagonists of Kv1.3.",
+          "rcsb_journal_abbrev": "J Med Chem",
+          "rcsb_authors": [
+            "Murray, J.K.",
+            "Qian, Y.X.",
+            "Liu, B.",
+            "Elliott, R.",
+            "Aral, J.",
+            "Park, C.",
+            "Zhang, X.",
+            "Stenkilsson, M.",
+            "Salyers, K.",
+            "Rose, M.",
+            "Li, H.",
+            "Yu, S.",
+            "Andrews, K.L.",
+            "Colombero, A.",
+            "Werner, J.",
+            "Gaida, K.",
+            "Sickmier, E.A.",
+            "Miu, P.",
+            "Itano, A.",
+            "McGivern, J.",
+            "Gegg, C.V.",
+            "Sullivan, J.K.",
+            "Miranda, L.P."
+          ],
+          "year": 2015,
+          "journal_volume": "58",
+          "page_first": "6784",
+          "page_last": "6802",
+          "pdbx_database_id_PubMed": 26288216,
+          "pdbx_database_id_DOI": "10.1021/acs.jmedchem.5b00495"
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 1,
+        "representative_model": null,
+        "molecular_weight": 4.55,
+        "deposited_atom_count": 348,
+        "deposited_polymer_monomer_count": 35,
+        "deposited_modeled_polymer_monomer_count": 35,
+        "deposited_unmodeled_polymer_monomer_count": 0,
+        "polymer_entity_count_protein": 1,
+        "polymer_entity_count_nucleic_acid": 0,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": null,
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "4Z7P",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8038869"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e4z7pA1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "4Z7P",
+            "entity_id": "1",
+            "asym_ids": [
+              "A"
+            ],
+            "auth_asym_ids": [
+              "A"
+            ],
+            "uniprot_ids": [
+              "P29187"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "P29187"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "P29187",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Stichodactyla helianthus"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Potassium channel toxin kappa-stichotoxin-She1a",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "ShKT domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "potassium channel regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "channel regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "ion channel regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular function regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "transporter regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "defense response to bacterium",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to other organism",
+                  "depth": null
+                },
+                {
+                  "name": "defense response",
+                  "depth": null
+                },
+                {
+                  "name": "response to bacterium",
+                  "depth": null
+                },
+                {
+                  "name": "response to stress",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "response to external stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to external biotic stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "response to biotic stimulus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cell periphery",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cell cortex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "nematocyst",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "toxin activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "14737_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "380947_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "11783_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "7652_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "14288_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "10793_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "P29187",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "RSCIDTIPKSRCTAFKCKHSMKYRLSFCRKTCGTC",
+            "rcsb_sample_sequence_length": 35,
+            "rcsb_mutation_count": 1
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Stoichactis helianthus",
+              "ncbi_scientific_name": "Stichodactyla helianthus",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        }
+      ],
+      "nonpolymer_entities": [
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "4Z7P",
+            "entity_id": "2",
+            "auth_asym_ids": [
+              "A"
+            ],
+            "asym_ids": [
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "nonpolymer_comp_id": "SO4"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "101",
+                "auth_asym_id": "A",
+                "asym_id": "B",
+                "entry_id": "4Z7P",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.8558,
+                  "ranking_model_geometry": 0.9379,
+                  "average_occupancy": 0.842,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "102",
+                "auth_asym_id": "A",
+                "asym_id": "C",
+                "entry_id": "4Z7P",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.6044,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 0.183,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "103",
+                "auth_asym_id": "A",
+                "asym_id": "D",
+                "entry_id": "4Z7P",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.4461,
+                  "ranking_model_geometry": 0.934,
+                  "average_occupancy": 0.58,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "104",
+                "auth_asym_id": "A",
+                "asym_id": "E",
+                "entry_id": "4Z7P",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.5443,
+                  "ranking_model_geometry": 0.9635,
+                  "average_occupancy": 0.62,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "105",
+                "auth_asym_id": "A",
+                "asym_id": "F",
+                "entry_id": "4Z7P",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.1289,
+                  "ranking_model_geometry": 0.9563,
+                  "average_occupancy": 0.838,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "SULFATE ION"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "SO4",
+              "formula_weight": 96.063,
+              "name": "SULFATE ION",
+              "formula": "O4 S"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "QAOWNCQODCNURD-UHFFFAOYSA-L"
+            }
+          }
+        }
+      ],
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_and_software_defined_assembly",
+            "method_details": "PISA",
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": null,
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Asymmetric",
+              "symbol": "C1",
+              "oligomeric_state": "Monomer",
+              "stoichiometry": [
+                "A1"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 35
+          }
+        }
+      ]
+    }
+  }
+}

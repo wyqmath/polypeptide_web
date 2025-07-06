@@ -1,0 +1,918 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "2PLH",
+      "entry": {
+        "id": "2PLH"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00002plh"
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "pubmed_id": 15299760,
+        "emdb_ids": null,
+        "assembly_ids": [
+          "1"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB",
+            "structure factors",
+            "assembly mmCIF",
+            "assembly PDB",
+            "validation report",
+            "validation fo-fc coefficients",
+            "validation 2fo-fc coefficients",
+            "validation data mmCIF",
+            "validation slider image"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "Y"
+      },
+      "struct": {
+        "title": "STRUCTURE OF ALPHA-1-PUROTHIONIN AT ROOM TEMPERATURE AND 2.8 ANGSTROMS RESOLUTION"
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": "10.1107/S0907444995002964"
+      },
+      "pubmed": {
+        "rcsb_pubmed_container_identifiers": {
+          "pubmed_id": 15299760
+        },
+        "rcsb_pubmed_central_id": null,
+        "rcsb_pubmed_doi": "10.1107/S0907444995002964",
+        "rcsb_pubmed_abstract_text": "The three-dimensional structure of alpha(1)-purothionin (alpha(1)-PT), a wheat-germ protein and a basic lytic toxin, was previously solved by molecular-replacement methods using an energy-minimized predicted model and refined to an R-factor of 21.6% [Teeter, Ma, Rao & Whitlow (1990). Proteins Struct. Funct. Genet. 8, 118-1321. Some deficiencies of the model motivated us to revisit the structure and to continue the refinement. Here we report a significantly improved structure refined to an R-factor of 15.5% with excellent geometry. The refinement of this relatively low resolution structure ( approximately 2.8 A) is well suited to test the limitations of classical methods of refinement and to address the problem of overfitting, The final structure contains 434 atoms including 330 protein atoms, 70 waters, three acetates, two glycerols, one sec-butanol and one phosphate. The key solute molecules (acetate ion and phosphate ion) play a crucial role in the lattice formation. Phosphate and glycerol found in the structure may be important for biological activity of the toxins.",
+        "rcsb_pubmed_affiliation_info": [
+          "Department of Chemistry, Boston College, Chestnut Hill, MA 02167, USA."
+        ]
+      },
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": null,
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "TOXIN",
+        "text": "MEMBRANE ACTIVE, DISULFIDE RICH, TOXIN"
+      },
+      "exptl": [
+        {
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "cell": {
+        "length_a": 53.59,
+        "length_b": 53.59,
+        "length_c": 69.79,
+        "angle_alpha": 90.0,
+        "angle_beta": 90.0,
+        "angle_gamma": 90.0
+      },
+      "symmetry": {
+        "space_group_name_H_M": "I 4 2 2"
+      },
+      "software": [
+        {
+          "classification": "data collection",
+          "name": "DTP"
+        },
+        {
+          "classification": "refinement",
+          "name": "PROLSQ"
+        },
+        {
+          "classification": "data reduction",
+          "name": "DTP"
+        }
+      ],
+      "rcsb_accession_info": {
+        "deposit_date": "1993-07-09T00:00:00Z",
+        "initial_release_date": "1996-04-03T00:00:00Z",
+        "major_revision": 1,
+        "minor_revision": 4
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "1996-04-03T00:00:00Z"
+        },
+        {
+          "ordinal": 2,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 1,
+          "revision_date": "2008-03-03T00:00:00Z"
+        },
+        {
+          "ordinal": 3,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 2,
+          "revision_date": "2011-07-13T00:00:00Z"
+        },
+        {
+          "ordinal": 4,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 3,
+          "revision_date": "2017-11-29T00:00:00Z"
+        },
+        {
+          "ordinal": 5,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 4,
+          "revision_date": "2024-11-13T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        }
+      ],
+      "pdbx_audit_revision_group": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Version format compliance"
+        },
+        {
+          "ordinal": 2,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Non-polymer description"
+        },
+        {
+          "ordinal": 3,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Version format compliance"
+        },
+        {
+          "ordinal": 4,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Derived calculations"
+        },
+        {
+          "ordinal": 5,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Other"
+        },
+        {
+          "ordinal": 6,
+          "revision_ordinal": 5,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 7,
+          "revision_ordinal": 5,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 8,
+          "revision_ordinal": 5,
+          "data_content_type": "Structure model",
+          "group": "Derived calculations"
+        },
+        {
+          "ordinal": 9,
+          "revision_ordinal": 5,
+          "data_content_type": "Structure model",
+          "group": "Structure summary"
+        }
+      ],
+      "pdbx_database_related": null,
+      "audit_author": [
+        {
+          "name": "Teeter, M.M."
+        },
+        {
+          "name": "Stec, B."
+        },
+        {
+          "name": "Rao, U."
+        }
+      ],
+      "pdbx_audit_support": null,
+      "pdbx_initial_refinement_model": null,
+      "refine": [
+        {
+          "pdbx_refine_id": "X-RAY DIFFRACTION",
+          "ls_d_res_high": 2.5,
+          "ls_R_factor_R_work": null,
+          "ls_R_factor_R_free": null,
+          "ls_R_factor_obs": 0.155
+        }
+      ],
+      "pdbx_vrpt_summary_diffraction": [
+        {
+          "DCC_R": 0.25,
+          "DCC_Rfree": null
+        }
+      ],
+      "pdbx_nmr_ensemble": null,
+      "em_experiment": null,
+      "em_3d_reconstruction": null,
+      "em_software": null,
+      "citation": [
+        {
+          "id": "primary",
+          "title": "Refinement of purothionins reveals solute particles important for lattice formation and toxicity. Part 1: alpha1-purothionin revisited.",
+          "rcsb_journal_abbrev": "Acta Crystallogr D Biol Crystallogr",
+          "rcsb_authors": [
+            "Rao, U.",
+            "Stec, B.",
+            "Teeter, M.M."
+          ],
+          "year": 1995,
+          "journal_volume": "51",
+          "page_first": "904",
+          "page_last": "913",
+          "pdbx_database_id_PubMed": 15299760,
+          "pdbx_database_id_DOI": "10.1107/S0907444995002964"
+        },
+        {
+          "id": "1",
+          "title": "Crystal Structure of a Protein-Toxin Alpha1-Purothionin at 2.5 Angstroms and a Comparison with Predicted Models",
+          "rcsb_journal_abbrev": "Proteins",
+          "rcsb_authors": [
+            "Teeter, M.M.",
+            "Ma, X.-Q.",
+            "Rao, U.",
+            "Whitlow, M."
+          ],
+          "year": 1990,
+          "journal_volume": "8",
+          "page_first": "118",
+          "page_last": null,
+          "pdbx_database_id_PubMed": null,
+          "pdbx_database_id_DOI": null
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 1,
+        "representative_model": null,
+        "molecular_weight": 5.44,
+        "deposited_atom_count": 477,
+        "deposited_polymer_monomer_count": 45,
+        "deposited_modeled_polymer_monomer_count": 45,
+        "deposited_unmodeled_polymer_monomer_count": 0,
+        "polymer_entity_count_protein": 1,
+        "polymer_entity_count_nucleic_acid": 0,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": null,
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "2PLH",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "3.30.1350.10"
+                },
+                {
+                  "type": "SCOP",
+                  "annotation_id": "d2plha_"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8026265"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8038644"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e2plhA1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "2PLH",
+            "entity_id": "1",
+            "asym_ids": [
+              "A"
+            ],
+            "auth_asym_ids": [
+              "A"
+            ],
+            "uniprot_ids": [
+              "P01544"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "P01544"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "P01544",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Triticum aestivum"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "ALPHA-1-PUROTHIONIN",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "OPM",
+              "annotation_lineage": [
+                {
+                  "name": "Plant thionin",
+                  "depth": 3
+                },
+                {
+                  "name": "Plant thionin",
+                  "depth": 2
+                },
+                {
+                  "name": "Alpha + Beta monotopic/peripheral",
+                  "depth": 1
+                },
+                {
+                  "name": "Monotopic/peripheral",
+                  "depth": 0
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Thionin-like superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Thionin",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "response to stimulus",
+                  "depth": null
+                },
+                {
+                  "name": "defense response",
+                  "depth": null
+                },
+                {
+                  "name": "response to stress",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "toxin activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "993544_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "42636_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "3639_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "56112_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "P01544",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "56111_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "46256_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "KSCCRSTLGRNCYNLCRARGAQKLCAGVCRCKISSGLSCPKGFPK",
+            "rcsb_sample_sequence_length": 45,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Triticum aestivum",
+              "ncbi_scientific_name": "Triticum aestivum",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        }
+      ],
+      "nonpolymer_entities": [
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "2PLH",
+            "entity_id": "2",
+            "auth_asym_ids": [
+              "A"
+            ],
+            "asym_ids": [
+              "B",
+              "C",
+              "E"
+            ],
+            "nonpolymer_comp_id": "ACT"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "85",
+                "auth_asym_id": "A",
+                "asym_id": "B",
+                "entry_id": "2PLH",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.3679,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "88",
+                "auth_asym_id": "A",
+                "asym_id": "C",
+                "entry_id": "2PLH",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.4497,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "123",
+                "auth_asym_id": "A",
+                "asym_id": "E",
+                "entry_id": "2PLH",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.3678,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "ACETATE ION"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "ACT",
+              "formula_weight": 59.044,
+              "name": "ACETATE ION",
+              "formula": "C2 H3 O2"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "QTBSBXVTEAMEQO-UHFFFAOYSA-M"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "2PLH",
+            "entity_id": "3",
+            "auth_asym_ids": [
+              "A"
+            ],
+            "asym_ids": [
+              "D"
+            ],
+            "nonpolymer_comp_id": "PO4"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "116",
+                "auth_asym_id": "A",
+                "asym_id": "D",
+                "entry_id": "2PLH",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.1721,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "PHOSPHATE ION"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "PO4",
+              "formula_weight": 94.971,
+              "name": "PHOSPHATE ION",
+              "formula": "O4 P"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "NBIIXXVUZAFLBC-UHFFFAOYSA-K"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "2PLH",
+            "entity_id": "4",
+            "auth_asym_ids": [
+              "A"
+            ],
+            "asym_ids": [
+              "F",
+              "G"
+            ],
+            "nonpolymer_comp_id": "SBT"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "86",
+                "auth_asym_id": "A",
+                "asym_id": "F",
+                "entry_id": "2PLH",
+                "entity_id": "4"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.7998,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "179",
+                "auth_asym_id": "A",
+                "asym_id": "G",
+                "entry_id": "2PLH",
+                "entity_id": "4"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.799,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "2-BUTANOL"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "SBT",
+              "formula_weight": 74.122,
+              "name": "2-BUTANOL",
+              "formula": "C4 H10 O"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "BTANRVKWQNVYAZ-BYPYZUCNSA-N"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "2PLH",
+            "entity_id": "5",
+            "auth_asym_ids": [
+              "A"
+            ],
+            "asym_ids": [
+              "H",
+              "I"
+            ],
+            "nonpolymer_comp_id": "GOL"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "180",
+                "auth_asym_id": "A",
+                "asym_id": "H",
+                "entry_id": "2PLH",
+                "entity_id": "5"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.746,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "181",
+                "auth_asym_id": "A",
+                "asym_id": "I",
+                "entry_id": "2PLH",
+                "entity_id": "5"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.6705,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "GLYCEROL"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "GOL",
+              "formula_weight": 92.094,
+              "name": "GLYCEROL",
+              "formula": "C3 H8 O3"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "PEDCQBHIVMGVHV-UHFFFAOYSA-N"
+            }
+          }
+        }
+      ],
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_defined_assembly",
+            "method_details": null,
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": null,
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Cyclic",
+              "symbol": "C4",
+              "oligomeric_state": "Homo 4-mer",
+              "stoichiometry": [
+                "A4"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 180
+          }
+        }
+      ]
+    }
+  }
+}

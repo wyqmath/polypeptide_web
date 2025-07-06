@@ -1,0 +1,4411 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "7O55",
+      "entry": {
+        "id": "7O55"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00007o55"
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "pubmed_id": 35475620,
+        "emdb_ids": null,
+        "assembly_ids": [
+          "1"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB",
+            "structure factors",
+            "assembly mmCIF",
+            "assembly PDB",
+            "validation slider image",
+            "validation 2fo-fc coefficients",
+            "validation fo-fc coefficients",
+            "validation report",
+            "validation data mmCIF"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "Y"
+      },
+      "struct": {
+        "title": "Crystal Structure of Unlinked NS2B-NS3 Protease from Zika Virus in Complex with Inhibitor MI-2231"
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": "10.1021/acs.jmedchem.1c01860"
+      },
+      "pubmed": {
+        "rcsb_pubmed_container_identifiers": {
+          "pubmed_id": 35475620
+        },
+        "rcsb_pubmed_central_id": null,
+        "rcsb_pubmed_doi": "10.1021/acs.jmedchem.1c01860",
+        "rcsb_pubmed_abstract_text": "Zika virus (ZIKV) is a human pathogenic arbovirus. So far, neither a specific treatment nor a vaccination against ZIKV infections has been approved. Starting from our previously described lead structure, a series of 29 new macrocyclic inhibitors of the Zika virus protease containing different linker motifs have been synthesized. By selecting hydrophobic d-amino acids as part of the linker, numerous inhibitors with  <i>K </i> <sub>i </sub> values < 5 nM were obtained. For 12 inhibitors, crystal structures in complex with the ZIKV protease up to 1.30 Å resolution were determined, which contribute to the understanding of the observed structure-activity relationship (SAR). In immunofluorescence assays, an antiviral effect was observed for compound  <b>26 </b> containing a d-homocyclohexylalanine residue in its linker segment. Due to its excellent selectivity profile and low cytotoxicity, this inhibitor scaffold could be a suitable starting point for the development of peptidic drugs against the Zika virus and related flaviviruses.",
+        "rcsb_pubmed_affiliation_info": [
+          "Institute of Pharmaceutical Chemistry, Philipps University of Marburg, Marbacher Weg 6, 35032 Marburg, Germany.",
+          "Lee Kong Chian School of Medicine, Nanyang Technological University, EMB 03-07, 59 Nanyang Drive, Singapore 636921.",
+          "NTU Institute of Structural Biology, Nanyang Technological University, EMB 06-01, 59 Nanyang Drive, Singapore 636921.",
+          "Federal Institute for Vaccines and Biomedicines, Department of Virology, Paul-Ehrlich-Institut, Paul-Ehrlich-Straße 51-59, 63225 Langen, Germany.",
+          "School of Biological Sciences, Nanyang Technological University, 60 Nanyang Drive, Singapore 637551."
+        ]
+      },
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": null,
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "VIRAL PROTEIN",
+        "text": "FLAVIRIN, SERINE PROTEASE, VIRAL PROTEIN, NS2B-NS3, ZIKA VIRUS"
+      },
+      "exptl": [
+        {
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "cell": {
+        "length_a": 42.687,
+        "length_b": 42.687,
+        "length_c": 215.766,
+        "angle_alpha": 90.0,
+        "angle_beta": 90.0,
+        "angle_gamma": 90.0
+      },
+      "symmetry": {
+        "space_group_name_H_M": "P 43 2 2"
+      },
+      "software": [
+        {
+          "classification": "data scaling",
+          "name": "XDS"
+        },
+        {
+          "classification": "data reduction",
+          "name": "XDS"
+        },
+        {
+          "classification": "phasing",
+          "name": "PHASER"
+        },
+        {
+          "classification": "model building",
+          "name": "Coot"
+        },
+        {
+          "classification": "refinement",
+          "name": "PHENIX"
+        }
+      ],
+      "rcsb_accession_info": {
+        "deposit_date": "2021-04-07T00:00:00Z",
+        "initial_release_date": "2022-04-06T00:00:00Z",
+        "major_revision": 1,
+        "minor_revision": 2
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "2022-04-06T00:00:00Z"
+        },
+        {
+          "ordinal": 2,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 1,
+          "revision_date": "2022-12-21T00:00:00Z"
+        },
+        {
+          "ordinal": 3,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 2,
+          "revision_date": "2024-01-31T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        }
+      ],
+      "pdbx_audit_revision_group": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 2,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 3,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Derived calculations"
+        },
+        {
+          "ordinal": 4,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Refinement description"
+        }
+      ],
+      "pdbx_database_related": null,
+      "audit_author": [
+        {
+          "name": "Huber, S."
+        },
+        {
+          "name": "Heine, A."
+        },
+        {
+          "name": "Steinmetzer, T."
+        }
+      ],
+      "pdbx_audit_support": null,
+      "pdbx_initial_refinement_model": [
+        {
+          "type": "experimental model"
+        }
+      ],
+      "refine": [
+        {
+          "pdbx_refine_id": "X-RAY DIFFRACTION",
+          "ls_d_res_high": 1.95,
+          "ls_R_factor_R_work": 0.1889,
+          "ls_R_factor_R_free": 0.2342,
+          "ls_R_factor_obs": 0.1911
+        }
+      ],
+      "pdbx_vrpt_summary_diffraction": [
+        {
+          "DCC_R": 0.19,
+          "DCC_Rfree": 0.23
+        }
+      ],
+      "pdbx_nmr_ensemble": null,
+      "em_experiment": null,
+      "em_3d_reconstruction": null,
+      "em_software": null,
+      "citation": [
+        {
+          "id": "primary",
+          "title": "Structure-Based Optimization and Characterization of Macrocyclic Zika Virus NS2B-NS3 Protease Inhibitors.",
+          "rcsb_journal_abbrev": "J Med Chem",
+          "rcsb_authors": [
+            "Huber, S.",
+            "Braun, N.J.",
+            "Schmacke, L.C.",
+            "Quek, J.P.",
+            "Murra, R.",
+            "Bender, D.",
+            "Hildt, E.",
+            "Luo, D.",
+            "Heine, A.",
+            "Steinmetzer, T."
+          ],
+          "year": 2022,
+          "journal_volume": "65",
+          "page_first": "6555",
+          "page_last": "6572",
+          "pdbx_database_id_PubMed": 35475620,
+          "pdbx_database_id_DOI": "10.1021/acs.jmedchem.1c01860"
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 1,
+        "representative_model": null,
+        "molecular_weight": 25.55,
+        "deposited_atom_count": 1511,
+        "deposited_polymer_monomer_count": 237,
+        "deposited_modeled_polymer_monomer_count": 198,
+        "deposited_unmodeled_polymer_monomer_count": 39,
+        "polymer_entity_count_protein": 3,
+        "polymer_entity_count_nucleic_acid": 0,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": null,
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "7O55",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": null
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "7O55",
+            "entity_id": "1",
+            "asym_ids": [
+              "A"
+            ],
+            "auth_asym_ids": [
+              "A"
+            ],
+            "uniprot_ids": [
+              "Q32ZE1"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "Q32ZE1"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "Q32ZE1",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Zika virus"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Serine protease subunit NS2B",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "RNA biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "viral genome replication",
+                  "depth": null
+                },
+                {
+                  "name": "biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "viral RNA genome replication",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA binding",
+                  "depth": null
+                },
+                {
+                  "name": "double-stranded RNA binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host JAK-STAT cascade",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host JAK-STAT cascade via inhibition of STAT activity",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host JAK-STAT cascade via inhibition of STAT1 activity",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA-directed RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "5'-3' RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on RNA",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a nucleic acid",
+                  "depth": null
+                },
+                {
+                  "name": "RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "nucleotidyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity, transferring phosphorus-containing groups",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA-directed RNA polymerase, fingers/palm subdomains, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Immunoglobulin E-set",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "peptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a protein",
+                  "depth": null
+                },
+                {
+                  "name": "serine hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "serine-type peptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "serine-type endopeptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "endopeptidase activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Capsid protein C, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Glycoprotein E, immunoglobulin-like domain, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular part",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular region",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated perturbation of host defense response",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host pathogen-associated molecular pattern receptor signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host immune response",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host immune response",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of TBK1 activity",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host innate immune response",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host innate immune response",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of cytoplasmic pattern recognition receptor signaling pathway",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Genome polyprotein, Flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus glycoprotein, central and dimerisation domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein-macromolecule adaptor activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "molecular adaptor activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Non-structural protein NS3-like, DEAD-box helicase, flavivirus",
+                  "depth": 2
+                },
+                {
+                  "name": "Helicase superfamily 1/2, ATP-binding domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "P-loop containing nucleoside triphosphate hydrolase",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "adenyl ribonucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "purine ribonucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "purine ribonucleoside triphosphate binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleoside phosphate binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "purine nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "anion binding",
+                  "depth": null
+                },
+                {
+                  "name": "adenyl nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "ATP binding",
+                  "depth": null
+                },
+                {
+                  "name": "heterocyclic compound binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "carbohydrate derivative binding",
+                  "depth": null
+                },
+                {
+                  "name": "ribonucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Ribosomal RNA methyltransferase, FtsJ domain",
+                  "depth": 1
+                },
+                {
+                  "name": "mRNA cap 0/1 methyltransferase",
+                  "depth": 2
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Peptidase S1, PA clan",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Helicase, C-terminal domain-like",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Helicase superfamily 1/2, ATP-binding domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flaviviral glycoprotein E, central domain, subdomain 1",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host autophagy",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated activation of host autophagy",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus non-structural protein NS2A",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular part",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell endoplasmic reticulum",
+                  "depth": null
+                },
+                {
+                  "name": "host cell membrane",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm part",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host cell endomembrane system",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "host cell endoplasmic reticulum membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "nucleic acid conformation isomerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "isomerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on RNA",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a nucleic acid",
+                  "depth": null
+                },
+                {
+                  "name": "helicase activity",
+                  "depth": null
+                },
+                {
+                  "name": "RNA helicase activity",
+                  "depth": null
+                },
+                {
+                  "name": "ATP-dependent activity, acting on RNA",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecular conformation isomerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "ATP-dependent activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA-dependent RNA polymerase, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated suppression of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host interferon-mediated signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host type I interferon-mediated signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "protein dimerization activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivridae NS3 helicase, C-terminal helical domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cation binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA methyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "O-methyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "methyltransferase cap1 activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on RNA",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity, transferring one-carbon groups",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a nucleic acid",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "methyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "fusion of virus membrane with host endosome membrane",
+                  "depth": null
+                },
+                {
+                  "name": "membrane fusion involved in viral entry into host cell",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA-directed RNA polymerase, thumb subdomain, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA methyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on RNA",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity, transferring one-carbon groups",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a nucleic acid",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "S-adenosylmethionine-dependent methyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "mRNA 5'-cap (guanine-N7-)-methyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "N-methyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "methyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "mRNA methyltransferase activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host JAK-STAT cascade",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host JAK-STAT cascade via inhibition of STAT2 activity",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host JAK-STAT cascade via inhibition of STAT activity",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated suppression of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host toll-like receptor signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "import into cell",
+                  "depth": null
+                },
+                {
+                  "name": "receptor-mediated endocytosis of virus by host cell",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "transport",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of localization",
+                  "depth": null
+                },
+                {
+                  "name": "vesicle-mediated transport",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                },
+                {
+                  "name": "localization",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont entry into host cell",
+                  "depth": null
+                },
+                {
+                  "name": "clathrin-dependent endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont entry into host",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "clathrin-dependent endocytosis of virus by host cell",
+                  "depth": null
+                },
+                {
+                  "name": "receptor-mediated endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "endocytosis involved in viral entry into host cell",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flaviviral glycoprotein E, dimerisation domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "viral capsid",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "virion component",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Ribosomal RNA methyltransferase, FtsJ domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular part",
+                  "depth": null
+                },
+                {
+                  "name": "host cell perinuclear region of cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm part",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Envelope glycoprotein M superfamily, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "guanyl nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "GTP binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "guanyl ribonucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "purine ribonucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "purine ribonucleoside triphosphate binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleoside phosphate binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "purine nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "anion binding",
+                  "depth": null
+                },
+                {
+                  "name": "heterocyclic compound binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "carbohydrate derivative binding",
+                  "depth": null
+                },
+                {
+                  "name": "ribonucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Envelope glycoprotein M, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated suppression of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host interferon-mediated signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus envelope glycoprotein E, Stem/Anchor domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "virion attachment to host cell",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "adhesion of symbiont to host cell",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                },
+                {
+                  "name": "adhesion of symbiont to host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus polyprotein propeptide superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "S-adenosyl-L-methionine-dependent methyltransferase superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "virion component",
+                  "depth": null
+                },
+                {
+                  "name": "virion membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus envelope glycoprotein E, Stem/Anchor domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "lipid binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Envelope glycoprotein E, central and dimerisation domain, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "DNA/RNA polymerase superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus capsid protein C superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated perturbation of host defense response",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host JAK-STAT cascade",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host immune response",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host immune response",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host innate immune response",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host JAK-STAT cascade via inhibition of host TYK2 activity",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host innate immune response",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus non-structural protein NS4A",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Non-structural protein NS2B, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "pyrophosphatase activity",
+                  "depth": null
+                },
+                {
+                  "name": "ATP hydrolysis activity",
+                  "depth": null
+                },
+                {
+                  "name": "ribonucleoside triphosphate phosphatase activity",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity, acting on acid anhydrides",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "ATP-dependent activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus non-structural protein NS4B",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular part",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "host cell nucleus",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular organelle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "virion component",
+                  "depth": null
+                },
+                {
+                  "name": "viral membrane",
+                  "depth": null
+                },
+                {
+                  "name": "viral envelope",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "structural molecule activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Non-structural protein NS1, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flaviviral glycoprotein E, central domain, subdomain 2",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "proteolysis",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "protein metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Non-structural protein NS3, peptidase S7, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus/Alphavirus glycoprotein, immunoglobulin-like domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus polyprotein propeptide",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA-directed RNA polymerase, catalytic domain",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "577_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "970_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "1062_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "451_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "356_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "326_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "Q32ZE1",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "MTGKSVDMYIERAGDITWEKDAEVTGNSPRLDVALDESGDFSLVEEDGPPMRE",
+            "rcsb_sample_sequence_length": 53,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Zika virus",
+              "ncbi_scientific_name": "Zika virus",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Escherichia coli BL21(DE3)"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "B",
+                "asym_id": "B",
+                "entry_id": "7O55",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8094267"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e7o55B1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "7O55",
+            "entity_id": "2",
+            "asym_ids": [
+              "B"
+            ],
+            "auth_asym_ids": [
+              "B"
+            ],
+            "uniprot_ids": [
+              "Q32ZE1"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "Q32ZE1"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "Q32ZE1",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Zika virus"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Serine protease NS3",
+            "rcsb_ec_lineage": [
+              {
+                "id": "3"
+              },
+              {
+                "id": "3.4"
+              },
+              {
+                "id": "3.4.21"
+              },
+              {
+                "id": "3.4.21.91"
+              },
+              {
+                "id": "3"
+              },
+              {
+                "id": "3.6"
+              },
+              {
+                "id": "3.6.1"
+              },
+              {
+                "id": "3.6.1.15"
+              },
+              {
+                "id": "3"
+              },
+              {
+                "id": "3.6"
+              },
+              {
+                "id": "3.6.4"
+              },
+              {
+                "id": "3.6.4.13"
+              }
+            ],
+            "pdbx_ec": "3.4.21.91,3.6.1.15,3.6.4.13",
+            "rcsb_enzyme_class_combined": [
+              {
+                "ec": "3.4.21.91",
+                "provenance_source": "PDB Primary Data"
+              },
+              {
+                "ec": "3.6.1.15",
+                "provenance_source": "PDB Primary Data"
+              },
+              {
+                "ec": "3.6.4.13",
+                "provenance_source": "PDB Primary Data"
+              }
+            ]
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "RNA biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "viral genome replication",
+                  "depth": null
+                },
+                {
+                  "name": "biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "viral RNA genome replication",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA binding",
+                  "depth": null
+                },
+                {
+                  "name": "double-stranded RNA binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host JAK-STAT cascade",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host JAK-STAT cascade via inhibition of STAT activity",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host JAK-STAT cascade via inhibition of STAT1 activity",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA-directed RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "5'-3' RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on RNA",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a nucleic acid",
+                  "depth": null
+                },
+                {
+                  "name": "RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "nucleotidyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity, transferring phosphorus-containing groups",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA-directed RNA polymerase, fingers/palm subdomains, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Immunoglobulin E-set",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "peptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a protein",
+                  "depth": null
+                },
+                {
+                  "name": "serine hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "serine-type peptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "serine-type endopeptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "endopeptidase activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Capsid protein C, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Glycoprotein E, immunoglobulin-like domain, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular part",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular region",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated perturbation of host defense response",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host pathogen-associated molecular pattern receptor signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host immune response",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host immune response",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of TBK1 activity",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host innate immune response",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host innate immune response",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of cytoplasmic pattern recognition receptor signaling pathway",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Genome polyprotein, Flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus glycoprotein, central and dimerisation domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein-macromolecule adaptor activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "molecular adaptor activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Non-structural protein NS3-like, DEAD-box helicase, flavivirus",
+                  "depth": 2
+                },
+                {
+                  "name": "Helicase superfamily 1/2, ATP-binding domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "P-loop containing nucleoside triphosphate hydrolase",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "adenyl ribonucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "purine ribonucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "purine ribonucleoside triphosphate binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleoside phosphate binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "purine nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "anion binding",
+                  "depth": null
+                },
+                {
+                  "name": "adenyl nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "ATP binding",
+                  "depth": null
+                },
+                {
+                  "name": "heterocyclic compound binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "carbohydrate derivative binding",
+                  "depth": null
+                },
+                {
+                  "name": "ribonucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Ribosomal RNA methyltransferase, FtsJ domain",
+                  "depth": 1
+                },
+                {
+                  "name": "mRNA cap 0/1 methyltransferase",
+                  "depth": 2
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Peptidase S1, PA clan",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Helicase, C-terminal domain-like",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Helicase superfamily 1/2, ATP-binding domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flaviviral glycoprotein E, central domain, subdomain 1",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host autophagy",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated activation of host autophagy",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus non-structural protein NS2A",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular part",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell endoplasmic reticulum",
+                  "depth": null
+                },
+                {
+                  "name": "host cell membrane",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm part",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host cell endomembrane system",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "host cell endoplasmic reticulum membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "nucleic acid conformation isomerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "isomerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on RNA",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a nucleic acid",
+                  "depth": null
+                },
+                {
+                  "name": "helicase activity",
+                  "depth": null
+                },
+                {
+                  "name": "RNA helicase activity",
+                  "depth": null
+                },
+                {
+                  "name": "ATP-dependent activity, acting on RNA",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecular conformation isomerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "ATP-dependent activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA-dependent RNA polymerase, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated suppression of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host interferon-mediated signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host type I interferon-mediated signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "protein dimerization activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivridae NS3 helicase, C-terminal helical domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cation binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA methyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "O-methyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "methyltransferase cap1 activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on RNA",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity, transferring one-carbon groups",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a nucleic acid",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "methyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "fusion of virus membrane with host endosome membrane",
+                  "depth": null
+                },
+                {
+                  "name": "membrane fusion involved in viral entry into host cell",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA-directed RNA polymerase, thumb subdomain, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA methyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on RNA",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity, transferring one-carbon groups",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a nucleic acid",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "S-adenosylmethionine-dependent methyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "mRNA 5'-cap (guanine-N7-)-methyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "N-methyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "methyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "mRNA methyltransferase activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host JAK-STAT cascade",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host JAK-STAT cascade via inhibition of STAT2 activity",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host JAK-STAT cascade via inhibition of STAT activity",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated suppression of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host toll-like receptor signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "import into cell",
+                  "depth": null
+                },
+                {
+                  "name": "receptor-mediated endocytosis of virus by host cell",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "transport",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of localization",
+                  "depth": null
+                },
+                {
+                  "name": "vesicle-mediated transport",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                },
+                {
+                  "name": "localization",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont entry into host cell",
+                  "depth": null
+                },
+                {
+                  "name": "clathrin-dependent endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont entry into host",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "clathrin-dependent endocytosis of virus by host cell",
+                  "depth": null
+                },
+                {
+                  "name": "receptor-mediated endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "endocytosis involved in viral entry into host cell",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flaviviral glycoprotein E, dimerisation domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "viral capsid",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "virion component",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Ribosomal RNA methyltransferase, FtsJ domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular part",
+                  "depth": null
+                },
+                {
+                  "name": "host cell perinuclear region of cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm part",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Envelope glycoprotein M superfamily, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "guanyl nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "GTP binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "guanyl ribonucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "purine ribonucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "purine ribonucleoside triphosphate binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleoside phosphate binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "purine nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "anion binding",
+                  "depth": null
+                },
+                {
+                  "name": "heterocyclic compound binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "carbohydrate derivative binding",
+                  "depth": null
+                },
+                {
+                  "name": "ribonucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Envelope glycoprotein M, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated suppression of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host interferon-mediated signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus envelope glycoprotein E, Stem/Anchor domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "virion attachment to host cell",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "adhesion of symbiont to host cell",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                },
+                {
+                  "name": "adhesion of symbiont to host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus polyprotein propeptide superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "S-adenosyl-L-methionine-dependent methyltransferase superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "virion component",
+                  "depth": null
+                },
+                {
+                  "name": "virion membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus envelope glycoprotein E, Stem/Anchor domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "lipid binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Envelope glycoprotein E, central and dimerisation domain, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "DNA/RNA polymerase superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus capsid protein C superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated perturbation of host defense response",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host JAK-STAT cascade",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host immune response",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host immune response",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host innate immune response",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host JAK-STAT cascade via inhibition of host TYK2 activity",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host innate immune response",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus non-structural protein NS4A",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Non-structural protein NS2B, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "pyrophosphatase activity",
+                  "depth": null
+                },
+                {
+                  "name": "ATP hydrolysis activity",
+                  "depth": null
+                },
+                {
+                  "name": "ribonucleoside triphosphate phosphatase activity",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity, acting on acid anhydrides",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "ATP-dependent activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus non-structural protein NS4B",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular part",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "host cell nucleus",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular organelle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "virion component",
+                  "depth": null
+                },
+                {
+                  "name": "viral membrane",
+                  "depth": null
+                },
+                {
+                  "name": "viral envelope",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "structural molecule activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Non-structural protein NS1, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flaviviral glycoprotein E, central domain, subdomain 2",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "proteolysis",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "protein metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Non-structural protein NS3, peptidase S7, flavivirus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus/Alphavirus glycoprotein, immunoglobulin-like domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Flavivirus polyprotein propeptide",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA-directed RNA polymerase, catalytic domain",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "1238_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "320_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "349_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "439_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "567_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "953_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "Q32ZE1",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "GSGALWDVPAPKEVKKGETTDGVYRVMTRRLLGSTQVGVGVMQEGVFHTMWHVTKGAALRSGEGRLDPYWGDVKQDLVSYCGPWKLDAAWDGLSEVQLLAVPPGERAKNIQTLPGIFKTKDGDIGAVALDYPAGTSGSPILDKCGRVIGLYGNGVVIKNGSYVSAITQGKREEETPVE",
+            "rcsb_sample_sequence_length": 178,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Zika virus",
+              "ncbi_scientific_name": "Zika virus",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Escherichia coli BL21(DE3)"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "C",
+                "asym_id": "C",
+                "entry_id": "7O55",
+                "entity_id": "3"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "7O55",
+            "entity_id": "3",
+            "asym_ids": [
+              "C"
+            ],
+            "auth_asym_ids": [
+              "C"
+            ],
+            "uniprot_ids": null,
+            "reference_sequence_identifiers": null
+          },
+          "uniprots": null,
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Inhibitor MI-2231",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": null,
+          "rcsb_polymer_entity_group_membership": null,
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "KKXGXA",
+            "rcsb_sample_sequence_length": 6,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "synthetic construct",
+              "ncbi_scientific_name": "synthetic construct",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": [
+            {
+              "chem_comp": {
+                "id": "BAL",
+                "name": "BETA-ALANINE",
+                "formula": "C3 H7 N O2",
+                "type": "peptide-like",
+                "mon_nstd_parent_comp_id": null
+              }
+            },
+            {
+              "chem_comp": {
+                "id": "DAL",
+                "name": "D-ALANINE",
+                "formula": "C3 H7 N O2",
+                "type": "D-peptide linking",
+                "mon_nstd_parent_comp_id": null
+              }
+            },
+            {
+              "chem_comp": {
+                "id": "V7T",
+                "name": "(2R)-6-azanyl-2-carbamimidamido-hexanoic acid",
+                "formula": "C7 H16 N4 O2",
+                "type": "peptide-like",
+                "mon_nstd_parent_comp_id": [
+                  "LYS"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "nonpolymer_entities": null,
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_and_software_defined_assembly",
+            "method_details": "PISA",
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": [
+            {
+              "experimental_support": "none"
+            }
+          ],
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Asymmetric",
+              "symbol": "C1",
+              "oligomeric_state": "Hetero 2-mer",
+              "stoichiometry": [
+                "A1",
+                "B1"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 198
+          }
+        }
+      ]
+    }
+  }
+}

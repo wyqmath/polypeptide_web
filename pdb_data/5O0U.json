@@ -1,0 +1,729 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "5O0U",
+      "entry": {
+        "id": "5O0U"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00005o0u"
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "pubmed_id": 28880078,
+        "emdb_ids": null,
+        "assembly_ids": [
+          "1"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB",
+            "structure factors",
+            "assembly mmCIF",
+            "assembly PDB",
+            "validation 2fo-fc coefficients",
+            "validation data mmCIF",
+            "validation fo-fc coefficients",
+            "validation report",
+            "validation slider image"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "Y"
+      },
+      "struct": {
+        "title": "Crystal structure of tarantula venom peptide Protoxin-II"
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": "10.1021/jacs.7b06506"
+      },
+      "pubmed": {
+        "rcsb_pubmed_container_identifiers": {
+          "pubmed_id": 28880078
+        },
+        "rcsb_pubmed_central_id": "PMC5618157",
+        "rcsb_pubmed_doi": "10.1021/jacs.7b06506",
+        "rcsb_pubmed_abstract_text": "Spider venom toxins, such as Protoxin-II (ProTx-II), have recently received much attention as selective Na <sub>v </sub>1.7 channel blockers, with potential to be developed as leads for the treatment of chronic nocioceptive pain. ProTx-II is a 30-amino acid peptide with three disulfide bonds that has been reported to adopt a well-defined inhibitory cystine knot (ICK) scaffold structure. Potential drawbacks with such peptides include poor pharmacodynamics and potential scrambling of the disulfide bonds in vivo. In order to address these issues, in the present study we report the solid-phase synthesis of lanthionine-bridged analogues of ProTx-II, in which one of the three disulfide bridges is replaced with a thioether linkage, and evaluate the biological properties of these analogues. We have also investigated the folding and disulfide bridging patterns arising from different methods of oxidation of the linear peptide precursor. Finally, we report the X-ray crystal structure of ProTx-II to atomic resolution; to our knowledge this is the first crystal structure of an ICK spider venom peptide not bound to a substrate.",
+        "rcsb_pubmed_affiliation_info": [
+          "Department of Chemistry, University College London , 20 Gordon Street, London WC1H 0AJ, United Kingdom.",
+          "Janelia Research Campus, Howard Hughes Medical Institute , Ashburn, Virginia 20147, United States.",
+          "Institute of Structural and Molecular Biology, Division of Biosciences, University College London , Gower Street, London WC1E 6BT, United Kingdom.",
+          "Institute of Structural and Molecular Biology, Department of Biological Sciences, Birkbeck College, University of London , London WC1E 7HX, United Kingdom.",
+          "European Knowledge Centre, Eisai Limited , Mosquito Way, Hatfield, Hertfordshire AL10 9SN, United Kingdom."
+        ]
+      },
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": null,
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "TOXIN",
+        "text": "Inhibitor cystine knot, ion channel inhibitors, venom, toxin"
+      },
+      "exptl": [
+        {
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "cell": {
+        "length_a": 37.669,
+        "length_b": 37.669,
+        "length_c": 103.944,
+        "angle_alpha": 90.0,
+        "angle_beta": 90.0,
+        "angle_gamma": 120.0
+      },
+      "symmetry": {
+        "space_group_name_H_M": "H 3 2"
+      },
+      "software": [
+        {
+          "classification": "refinement",
+          "name": "REFMAC"
+        },
+        {
+          "classification": "refinement",
+          "name": "SHELXL"
+        },
+        {
+          "classification": "phasing",
+          "name": "SHARP"
+        }
+      ],
+      "rcsb_accession_info": {
+        "deposit_date": "2017-05-17T00:00:00Z",
+        "initial_release_date": "2017-09-13T00:00:00Z",
+        "major_revision": 1,
+        "minor_revision": 2
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "2017-09-13T00:00:00Z"
+        },
+        {
+          "ordinal": 2,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 1,
+          "revision_date": "2019-03-27T00:00:00Z"
+        },
+        {
+          "ordinal": 3,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 2,
+          "revision_date": "2024-10-16T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        }
+      ],
+      "pdbx_audit_revision_group": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 2,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 3,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 4,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 5,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Structure summary"
+        }
+      ],
+      "pdbx_database_related": null,
+      "audit_author": [
+        {
+          "name": "Tabor, A."
+        },
+        {
+          "name": "McCarthy, S."
+        },
+        {
+          "name": "Reyes, F.E."
+        }
+      ],
+      "pdbx_audit_support": [
+        {
+          "funding_organization": "Wellcome Trust",
+          "country": "United Kingdom",
+          "grant_number": "109073/Z/15/Z",
+          "ordinal": 1
+        }
+      ],
+      "pdbx_initial_refinement_model": null,
+      "refine": [
+        {
+          "pdbx_refine_id": "X-RAY DIFFRACTION",
+          "ls_d_res_high": 0.99,
+          "ls_R_factor_R_work": 0.12601,
+          "ls_R_factor_R_free": 0.13985,
+          "ls_R_factor_obs": 0.12668
+        }
+      ],
+      "pdbx_vrpt_summary_diffraction": [
+        {
+          "DCC_R": 0.13,
+          "DCC_Rfree": 0.15
+        }
+      ],
+      "pdbx_nmr_ensemble": null,
+      "em_experiment": null,
+      "em_3d_reconstruction": null,
+      "em_software": null,
+      "citation": [
+        {
+          "id": "primary",
+          "title": "The Role of Disulfide Bond Replacements in Analogues of the Tarantula Toxin ProTx-II and Their Effects on Inhibition of the Voltage-Gated Sodium Ion Channel Nav1.7.",
+          "rcsb_journal_abbrev": "J Am Chem Soc",
+          "rcsb_authors": [
+            "Wright, Z.V.F.",
+            "McCarthy, S.",
+            "Dickman, R.",
+            "Reyes, F.E.",
+            "Sanchez-Martinez, S.",
+            "Cryar, A.",
+            "Kilford, I.",
+            "Hall, A.",
+            "Takle, A.K.",
+            "Topf, M.",
+            "Gonen, T.",
+            "Thalassinos, K.",
+            "Tabor, A.B."
+          ],
+          "year": 2017,
+          "journal_volume": "139",
+          "page_first": "13063",
+          "page_last": "13075",
+          "pdbx_database_id_PubMed": 28880078,
+          "pdbx_database_id_DOI": "10.1021/jacs.7b06506"
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 1,
+        "representative_model": null,
+        "molecular_weight": 4.03,
+        "deposited_atom_count": 329,
+        "deposited_polymer_monomer_count": 30,
+        "deposited_modeled_polymer_monomer_count": 30,
+        "deposited_unmodeled_polymer_monomer_count": 0,
+        "polymer_entity_count_protein": 1,
+        "polymer_entity_count_nucleic_acid": 0,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": null,
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "5O0U",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8082346"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e5o0uA1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "5O0U",
+            "entity_id": "1",
+            "asym_ids": [
+              "A"
+            ],
+            "auth_asym_ids": [
+              "A"
+            ],
+            "uniprot_ids": [
+              "P83476"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "P83476"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "P83476",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Thrixopelma pruriens"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Beta/omega-theraphotoxin-Tp2a",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "channel regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "ion channel regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular function regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "sodium channel regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "transporter regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "lipid binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "channel regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "ion channel regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "calcium channel regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular function regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "transporter regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "toxin activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "11175_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "4479_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "7817_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "P83476",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "5061_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "5104_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "4335_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "YCQKWMWTCDSERKCCEGMVCRLWCKKKLW",
+            "rcsb_sample_sequence_length": 30,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Thrixopelma pruriens",
+              "ncbi_scientific_name": "Thrixopelma pruriens",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        }
+      ],
+      "nonpolymer_entities": [
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "5O0U",
+            "entity_id": "2",
+            "auth_asym_ids": [
+              "A"
+            ],
+            "asym_ids": [
+              "B",
+              "C"
+            ],
+            "nonpolymer_comp_id": "CL"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "1101",
+                "auth_asym_id": "A",
+                "asym_id": "B",
+                "entry_id": "5O0U",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.7413,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "1102",
+                "auth_asym_id": "A",
+                "asym_id": "C",
+                "entry_id": "5O0U",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.8856,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "CHLORIDE ION"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "CL",
+              "formula_weight": 35.453,
+              "name": "CHLORIDE ION",
+              "formula": "Cl"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "VEXZGXHMUGYJMC-UHFFFAOYSA-M"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "5O0U",
+            "entity_id": "3",
+            "auth_asym_ids": [
+              "A"
+            ],
+            "asym_ids": [
+              "D",
+              "E"
+            ],
+            "nonpolymer_comp_id": "EDO"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "1104",
+                "auth_asym_id": "A",
+                "asym_id": "E",
+                "entry_id": "5O0U",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.5802,
+                  "ranking_model_geometry": 0.9192,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "1103",
+                "auth_asym_id": "A",
+                "asym_id": "D",
+                "entry_id": "5O0U",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.0812,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 0.75,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "1,2-ETHANEDIOL"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "EDO",
+              "formula_weight": 62.068,
+              "name": "1,2-ETHANEDIOL",
+              "formula": "C2 H6 O2"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "LYCAIKOWRPUZTN-UHFFFAOYSA-N"
+            }
+          }
+        }
+      ],
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_and_software_defined_assembly",
+            "method_details": "PISA",
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": [
+            {
+              "experimental_support": "none"
+            }
+          ],
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Asymmetric",
+              "symbol": "C1",
+              "oligomeric_state": "Monomer",
+              "stoichiometry": [
+                "A1"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 30
+          }
+        }
+      ]
+    }
+  }
+}

@@ -8,37 +8,123 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
     <link rel="stylesheet" href="../static/css/protein_detail.css">
     <style>
-        html, body {
+        .info-section {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            overflow: hidden;
+        }
+        .info-section h2 {
+            background-color: #f7f7f7;
+            color: #333;
             margin: 0;
-            padding: 0;
-            width: 100%;
-            overflow-x: hidden;
+            padding: 15px 20px;
+            font-size: 1.2em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e0e0e0;
         }
-        .action-buttons button {
-            background-color: #D9C1D9; /* Light purple */
-            color: white; /* White text */
-            padding: 8px 15px;
-            border: none;
-            border-radius: 4px;
+        .info-section h2.collapsible {
             cursor: pointer;
-            margin-left: 5px; /* Add some spacing */
+            transition: background-color 0.2s ease-in-out;
         }
-
-        .action-buttons button:hover {
-            background-color: #C8AEC8; /* Darker purple on hover */
+        .info-section h2.collapsible:hover {
+            background-color: #efefef;
         }
-        /* Remove underline from link wrapping button */
-        .action-buttons a {
-            text-decoration: none;
+        .section-toggle-arrow {
+            width: 12px;
+            height: 12px;
+            border: solid #333;
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            transform: rotate(-135deg);
+            transition: transform 0.3s ease;
+        }
+        .collapsible.collapsed .section-toggle-arrow {
+            transform: rotate(45deg);
+        }
+        .info-section > div, .info-section > table {
+            padding: 20px;
+            background-color: #fff;
         }
         .full-width-viewer-container {
-            width: 100%;
-            margin: 20px 0;
-        }
-        #myViewer {
-            width: 100%;
+            padding: 0 !important;
             height: 600px;
-            position: relative;
+        }
+        .info-section > table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .info-section table td, .info-section table th {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .info-section table tr:last-child td {
+            border-bottom: none;
+        }
+        .info-section table td:first-child {
+            font-weight: 600;
+            color: #555;
+            width: 150px;
+        }
+        .citations-container .citation-item,
+        .assemblies-container .assembly-item,
+        .sequence-item {
+            padding: 15px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .citations-container .citation-item:last-child,
+        .assemblies-container .assembly-item:last-child,
+        .sequence-item:last-child {
+            border-bottom: none;
+        }
+        .sequence-wrapper {
+            max-height: 250px;
+            overflow-y: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 10px;
+            background: #fdfdfd;
+            margin-top: 10px;
+        }
+        .sequence-wrapper table {
+            width: 100%;
+            border: none;
+        }
+        .sequence-wrapper td {
+            border: none;
+        }
+        .seq-num {
+            text-align: right;
+            padding-right: 1em;
+            color: #999;
+            font-family: 'Courier New', Courier, monospace;
+            vertical-align: top;
+            font-size: 0.9em;
+        }
+        .seq-data {
+            font-family: 'Courier New', Courier, monospace;
+            word-break: break-all;
+            font-size: 1em;
+            line-height: 1.5;
+        }
+        .citation-title {
+            font-weight: bold;
+        }
+        .citation-authors {
+            font-size: 0.9em;
+            color: #555;
+        }
+        .citation-journal {
+            font-size: 0.9em;
+            color: #777;
+        }
+        .citation-links a {
+            font-size: 0.9em;
         }
     </style>
 </head>
@@ -84,64 +170,95 @@
         </div>
 
         <section class="info-section">
-            <h2>
+            <h2 class="collapsible">
                 基本信息
-                <span class="toggle-arrow">▲</span>
+                <span class="section-toggle-arrow"></span>
             </h2>
             <table>
                 <tbody>
-                    <tr>
-                        <td>PDB编号</td>
-                        <td>9B0A <a href="https://www.rcsb.org/structure/9B0A" target="_blank" title="访问RCSB PDB页面">前往RCSB &#x279A;</a></td>
-                    </tr>
-                    <tr>
-                        <td>实验方法</td>
-                        <td>X-ray</td>
-                    </tr>
-                    <tr>
-                        <td>分辨率</td>
-                        <td>1.87</td>
-                    </tr>
-                    <tr>
-                        <td>发布日期</td>
-                        <td>2024-03-11</td>
-                    </tr>
-                    <tr>
-                        <td>二硫键</td>
-                        <td>C1-C18;D1-D18</td>
-                    </tr>
-                    <tr>
-                        <td>其他连接</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>多肽链</td>
-                        <td>CD</td>
-                    </tr>
-                    <tr>
-                        <td>蛋白链</td>
-                        <td>AB</td>
-                    </tr>
-                    <tr>
-                        <td>多肽长度</td>
-                        <td>C:18;D:18</td>
-                    </tr>
-                    <tr>
-                        <td>蛋白长度</td>
-                        <td>A:167;B:167</td>
-                    </tr>
-                    <tr>
-                        <td>备注</td>
-                        <td>NAA</td>
-                    </tr>
+<tr><td>PDB编号</td><td>9B0A <a href="https://www.rcsb.org/structure/9B0A" target="_blank" title="访问RCSB PDB页面">前往RCSB &#x279A;</a></td></tr>
+<tr><td>标题</td><td>GA10 nanobody bound to 2C7 peptide mimitope of Neisseria gonorrhoeae lipooligosaccharide</td></tr>
+<tr><td>实验方法</td><td>X-RAY DIFFRACTION</td></tr>
+<tr><td>分辨率</td><td>1.87 Å</td></tr>
+<tr><td>R-factors</td><td>R-work: 0.198, R-free: 0.229</td></tr>
+<tr><td>发布日期</td><td>2025-03-26</td></tr>
+<tr><td>作者</td><td>Williamson, A.; Walker, E.; Kelton, W.; Hicks, J.</td></tr>
+<tr><td>来源生物</td><td>synthetic construct</td></tr>
+<tr><td>表达宿主</td><td>Escherichia coli MC1061</td></tr>
+<tr><td>关键词</td><td>Nanobody, Synbody, 2C7 peptide, IMMUNE SYSTEM</td></tr>
+<tr><td>分子量</td><td>39.31 kDa</td></tr>
+<tr><td>实体数量</td><td>蛋白质: 2, 核酸: 0, 核酸杂合体: 0</td></tr>
+<tr><td>空间群</td><td>P 1</td></tr>
+<tr><td>晶胞参数</td><td>a=26.88 Å, b=31.63 Å, c=69.78 Å, α=88.86°, β=87.08°, γ=89.24°</td></tr>
+<tr><td>二硫键</td><td>Yes</td></tr>
+<tr><td>多肽链</td><td>C, D</td></tr>
+<tr><td>蛋白链</td><td>A, B</td></tr>
+<tr><td>多肽长度</td><td>18</td></tr>
+<tr><td>蛋白长度</td><td>167</td></tr>
                 </tbody>
             </table>
         </section>
         
+
+<section class="info-section">
+    <h2 class="collapsible">
+        序列信息
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="sequences-container">
+        
+        <div class="sequence-item">
+            <h4>链: A, B - GA10 nanobody (长度: 167)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MSKYLLPTAA AGLLLLAAQP AMAGSSSQVQ LVESGGGLVQ AGGSLRLSCA ASGFPVYWNS</td></tr><tr><td class="seq-num">61</td><td class="seq-data">MYWYRQAPGK EREWVAAITS QGGGTEYADS VKGRFTISRD NAKNTVYLQM NSLKPEDTAV</td></tr><tr><td class="seq-num">121</td><td class="seq-data">YYCTVGVGVS YRGQGTQVTV SAGRAGEQKL ISEEDLNSAV DHHHHHH</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: C, D - Cyclized peptide (长度: 18)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">CGPIPVLDEN GLFAPGPC</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        参考文献
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="citations-container">
+<div class="citation-item"><p class="citation-title">Structural characterization of a nanobody against a conserved lipooligosaccharide motif of N. gonorrhoeae</p><p class="citation-authors">Walker, E., Warrender, A., Beijerling, K., Kelson, J., Pan, J., Williamson, A., Hicks, J., Kelton, W.</p><p class="citation-journal"><em>To be published</em></p></div>
+    </div>
+</section>
+
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        生物组装
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="assemblies-container">
+        <div class="assembly-item"><p><strong>组装 ID:</strong> 1</p><p><strong>详情:</strong> author_defined_assembly</p><p><strong>寡聚状态:</strong> Hetero 2-mer</p><p><strong>化学计量:</strong> A1, B1</p></div><div class="assembly-item"><p><strong>组装 ID:</strong> 2</p><p><strong>详情:</strong> author_defined_assembly</p><p><strong>寡聚状态:</strong> Hetero 2-mer</p><p><strong>化学计量:</strong> A1, B1</p></div>
+    </div>
+</section>
+
         <section class="info-section">
-            <h2>
+            <h2 class="collapsible">
                 3D 结构可视化
-                <span class="toggle-arrow">▲</span>
+                <span class="section-toggle-arrow"></span>
             </h2>
             <div class="full-width-viewer-container">
                 <div id="myViewer"></div>
@@ -152,35 +269,38 @@
             var viewerInstance = new PDBeMolstarPlugin();
             var options = {
                 customData: {
-                    url: 'https://files.rcsb.org/download/9B0A.pdb',
-                    format: 'pdb'
+                    url: 'https://files.rcsb.org/download/9B0A.cif',
+                    format: 'cif'
                 },
                 moleculeId: '9B0A',
-                alphafoldView: false,
-                bgColor: { r: 255, g: 255, b: 255 },
-                hideControls: false,
+                alphafoldView: true,
+                bgColor: { r: 30, g: 30, b: 30 },
+                hideControls: true,
                 subscribeEvents: true
             }
             var viewerContainer = document.getElementById('myViewer');
             viewerInstance.render(viewerContainer, options);
             
             // 添加折叠/展开功能
-            document.addEventListener('DOMContentLoaded', function() {
-                const sections = document.querySelectorAll('.info-section h2');
+            document.querySelectorAll('.collapsible').forEach(header => {
+                const content = header.nextElementSibling;
+                if (!content) return;
                 
-                sections.forEach(section => {
-                    section.addEventListener('click', function() {
-                        const content = this.nextElementSibling;
-                        const arrow = this.querySelector('.toggle-arrow');
-                        
-                        if (content.style.display === 'none') {
-                            content.style.display = 'block';
-                            arrow.textContent = '▲';
-                        } else {
-                            content.style.display = 'none';
-                            arrow.textContent = '▼';
-                        }
-                    });
+                const headerText = header.innerText || header.textContent;
+
+                // 默认折叠，但"基本信息"和"3D 结构可视化"默认展开
+                if (!headerText.includes('基本信息') && !headerText.includes('3D 结构可视化')) {
+                    header.classList.add('collapsed');
+                    content.style.display = 'none';
+                }
+
+                header.addEventListener('click', () => {
+                    header.classList.toggle('collapsed');
+                    if (header.classList.contains('collapsed')) {
+                        content.style.display = 'none';
+                    } else {
+                        content.style.display = 'block';
+                    }
                 });
             });
         </script>

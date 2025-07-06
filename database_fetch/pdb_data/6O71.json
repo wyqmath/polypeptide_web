@@ -1,0 +1,591 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "6O71",
+      "entry": {
+        "id": "6O71"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00006o71"
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1",
+          "2"
+        ],
+        "pubmed_id": 31326273,
+        "emdb_ids": null,
+        "assembly_ids": [
+          "1"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB",
+            "structure factors",
+            "assembly mmCIF",
+            "assembly PDB",
+            "validation fo-fc coefficients",
+            "validation 2fo-fc coefficients",
+            "validation report",
+            "validation slider image",
+            "validation data mmCIF"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "Y"
+      },
+      "struct": {
+        "title": "Crystal structure of Csm6 in complex with cdA4 by soaking cdA4 into Csm6"
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": "10.1016/j.molcel.2019.06.014"
+      },
+      "pubmed": {
+        "rcsb_pubmed_container_identifiers": {
+          "pubmed_id": 31326273
+        },
+        "rcsb_pubmed_central_id": "PMC6731128",
+        "rcsb_pubmed_doi": "10.1016/j.molcel.2019.06.014",
+        "rcsb_pubmed_abstract_text": "Type III-A CRISPR-Cas surveillance complexes containing multi-subunit Csm effector, guide, and target RNAs exhibit multiple activities, including formation of cyclic-oligoadenylates (cA <sub>n </sub>) from ATP and subsequent cA <sub>n </sub>-mediated cleavage of single-strand RNA (ssRNA) by the trans-acting Csm6 RNase. Our structure-function studies have focused on Thermococcus onnurineus Csm6 to deduce mechanistic insights into how cA <sub>4 </sub> binding to the Csm6 CARF domain triggers the RNase activity of the Csm6 HEPN domain and what factors contribute to regulation of RNA cleavage activity. We demonstrate that the Csm6 CARF domain is a ring nuclease, whereby bound cA <sub>4 </sub> is stepwise cleaved initially to ApApApA>p and subsequently to ApA>p in its CARF domain-binding pocket, with such cleavage bursts using a timer mechanism to regulate the RNase activity of the Csm6 HEPN domain. In addition, we establish T. onnurineus Csm6 as an adenosine-specific RNase and identify a histidine in the cA <sub>4 </sub> CARF-binding pocket involved in autoinhibitory regulation of RNase activity.",
+        "rcsb_pubmed_affiliation_info": [
+          "Structural Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY 10065, USA. Electronic address: jian@mskcc.org.",
+          "Department of Chemistry and Chemical Biology, Rutgers, The State University of New Jersey, Piscataway, NJ 08854, USA.",
+          "Chemical Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY 10065, USA.",
+          "Structural Biology Program, Memorial Sloan Kettering Cancer Center, New York, NY 10065, USA. Electronic address: pateld@mskcc.org."
+        ]
+      },
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": [
+        {
+          "id": "6O71",
+          "type": "NAKB",
+          "link": "https://nakb.org/atlas=6O71"
+        }
+      ],
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "immune system/dna",
+        "text": "Type III-A CRISPR-Cas system; Csm6 in complex with cdA4, IMMUNE SYSTEM, immune system-dna complex"
+      },
+      "exptl": [
+        {
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "cell": {
+        "length_a": 104.283,
+        "length_b": 164.471,
+        "length_c": 111.19,
+        "angle_alpha": 90.0,
+        "angle_beta": 90.0,
+        "angle_gamma": 90.0
+      },
+      "symmetry": {
+        "space_group_name_H_M": "C 2 2 21"
+      },
+      "software": [
+        {
+          "classification": "refinement",
+          "name": "REFMAC"
+        },
+        {
+          "classification": "data reduction",
+          "name": "HKL-2000"
+        },
+        {
+          "classification": "data scaling",
+          "name": "HKL-2000"
+        },
+        {
+          "classification": "phasing",
+          "name": "PHENIX"
+        }
+      ],
+      "rcsb_accession_info": {
+        "deposit_date": "2019-03-07T00:00:00Z",
+        "initial_release_date": "2019-07-31T00:00:00Z",
+        "major_revision": 1,
+        "minor_revision": 2
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "2019-07-31T00:00:00Z"
+        },
+        {
+          "ordinal": 2,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 1,
+          "revision_date": "2019-09-18T00:00:00Z"
+        },
+        {
+          "ordinal": 3,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 2,
+          "revision_date": "2024-03-13T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        }
+      ],
+      "pdbx_audit_revision_group": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 2,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 3,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 4,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 5,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Derived calculations"
+        }
+      ],
+      "pdbx_database_related": null,
+      "audit_author": [
+        {
+          "name": "Jia, N."
+        },
+        {
+          "name": "Patel, D.J."
+        }
+      ],
+      "pdbx_audit_support": null,
+      "pdbx_initial_refinement_model": null,
+      "refine": [
+        {
+          "pdbx_refine_id": "X-RAY DIFFRACTION",
+          "ls_d_res_high": 2.55,
+          "ls_R_factor_R_work": 0.22443,
+          "ls_R_factor_R_free": 0.27346,
+          "ls_R_factor_obs": 0.22942
+        }
+      ],
+      "pdbx_vrpt_summary_diffraction": [
+        {
+          "DCC_R": 0.23,
+          "DCC_Rfree": 0.27
+        }
+      ],
+      "pdbx_nmr_ensemble": null,
+      "em_experiment": null,
+      "em_3d_reconstruction": null,
+      "em_software": null,
+      "citation": [
+        {
+          "id": "primary",
+          "title": "CRISPR-Cas III-A Csm6 CARF Domain Is a Ring Nuclease Triggering Stepwise cA4Cleavage with ApA>p Formation Terminating RNase Activity.",
+          "rcsb_journal_abbrev": "Mol Cell",
+          "rcsb_authors": [
+            "Jia, N.",
+            "Jones, R.",
+            "Yang, G.",
+            "Ouerfelli, O.",
+            "Patel, D.J."
+          ],
+          "year": 2019,
+          "journal_volume": "75",
+          "page_first": "944",
+          "page_last": "956.e6",
+          "pdbx_database_id_PubMed": 31326273,
+          "pdbx_database_id_DOI": "10.1016/j.molcel.2019.06.014"
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 1,
+        "representative_model": null,
+        "molecular_weight": 102.01,
+        "deposited_atom_count": 7058,
+        "deposited_polymer_monomer_count": 888,
+        "deposited_modeled_polymer_monomer_count": 873,
+        "deposited_unmodeled_polymer_monomer_count": 15,
+        "polymer_entity_count_protein": 1,
+        "polymer_entity_count_nucleic_acid": 1,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": null,
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "6O71",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6o71A2"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6o71A1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "B",
+                "asym_id": "B",
+                "entry_id": "6O71",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6o71B2"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6o71B1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "6O71",
+            "entity_id": "1",
+            "asym_ids": [
+              "A",
+              "B"
+            ],
+            "auth_asym_ids": [
+              "A",
+              "B"
+            ],
+            "uniprot_ids": [
+              "B6YWC3"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "B6YWC3"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "B6YWC3",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Thermococcus onnurineus (strain NA1)"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Csm6",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "CRISPR-associated endoribonuclease",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "CRISPR system endoribonuclease Csx1",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "CRISPR system endoribonuclease Csx1, CARF domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "CRISPR-associated protein DxTHG, conserved site",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "15057_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "14511_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "B6YWC3",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "18071_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "21479_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "17720_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "13808_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "MGMKLLVVSWGDFERWKETKYRFGGETSVGPSTLPILQKVIKPDWTVIVLSDTIGKDFSSVETLREDVRNRVMDFLDRIGAGREVDVIIAPGIGEFTHGSFRGSAMDAYYYVLHALSEIIPTKGDLEVHFDSTHGLNYVTLLTYRALKDLLGIAAVMNTVTFYAYNSDPFVPKITKELNINTIETTMVKPTPLSEPLPGFDEYLCPYSMERAEFVRLKGSLNTLKNLRKEKKKLEAWIGSLLFGLPLLFLEEFPDIGRLESYIEELAETWGGAIAVNAEEKAVTRRLAFGSGFGTLVKLLFQARITRGLLVEEPYSIEKLYSVSDRLFRGSTLQRVRVELGKIEDKAIKYARKGAFPRDIPLRDFLGFDAANREVSPRNVLAHAGLEANVVEVSMEAWEPKRPEEEAGRHTHLKYTPVGLKKVEDIVSRALKESHHHHHH",
+            "rcsb_sample_sequence_length": 440,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Thermococcus onnurineus",
+              "ncbi_scientific_name": "Thermococcus onnurineus",
+              "rcsb_gene_name": [
+                {
+                  "value": "TON_0898",
+                  "provenance_source": "Primary Data"
+                }
+              ]
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Escherichia coli"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "C",
+                "asym_id": "C",
+                "entry_id": "6O71",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "D",
+                "asym_id": "D",
+                "entry_id": "6O71",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "covalent bond",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "6O71",
+            "entity_id": "2",
+            "asym_ids": [
+              "C",
+              "D"
+            ],
+            "auth_asym_ids": [
+              "C",
+              "D"
+            ],
+            "uniprot_ids": null,
+            "reference_sequence_identifiers": null
+          },
+          "uniprots": null,
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Cyclic DNA cdA4",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": null,
+          "rcsb_polymer_entity_group_membership": null,
+          "entity_poly": {
+            "type": "polydeoxyribonucleotide",
+            "rcsb_entity_polymer_type": "DNA",
+            "pdbx_seq_one_letter_code_can": "AAAA",
+            "rcsb_sample_sequence_length": 4,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "synthetic construct",
+              "ncbi_scientific_name": "synthetic construct",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        }
+      ],
+      "nonpolymer_entities": null,
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_and_software_defined_assembly",
+            "method_details": "PISA",
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": [
+            {
+              "experimental_support": "gel filtration"
+            }
+          ],
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Cyclic",
+              "symbol": "C2",
+              "oligomeric_state": "Homo 2-mer",
+              "stoichiometry": [
+                "A2"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 873
+          }
+        }
+      ]
+    }
+  }
+}

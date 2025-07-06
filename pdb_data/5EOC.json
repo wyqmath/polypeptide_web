@@ -1,0 +1,3467 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "5EOC",
+      "entry": {
+        "id": "5EOC"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00005eoc"
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "pubmed_id": 26819303,
+        "emdb_ids": null,
+        "assembly_ids": [
+          "1",
+          "2"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "2",
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB",
+            "structure factors",
+            "assembly mmCIF",
+            "assembly PDB",
+            "validation report",
+            "validation fo-fc coefficients",
+            "validation 2fo-fc coefficients",
+            "validation data mmCIF",
+            "validation slider image"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "Y"
+      },
+      "struct": {
+        "title": "Crystal structure of Fab C2 in complex with a Cyclic variant of Hepatitis C Virus E2 epitope I"
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": "10.1128/JVI.02397-15"
+      },
+      "pubmed": {
+        "rcsb_pubmed_container_identifiers": {
+          "pubmed_id": 26819303
+        },
+        "rcsb_pubmed_central_id": "PMC4794675",
+        "rcsb_pubmed_doi": "10.1128/JVI.02397-15",
+        "rcsb_pubmed_abstract_text": "The hepatitis C virus (HCV) E2 envelope glycoprotein is crucial for virus entry into hepatocytes. A conserved region of E2 encompassing amino acids 412 to 423 (epitope I) and containing Trp420, a residue critical for virus entry, is recognized by several broadly neutralizing antibodies. Peptides embodying this epitope I sequence adopt a β-hairpin conformation when bound to neutralizing monoclonal antibodies (MAbs) AP33 and HCV1. We therefore generated new mouse MAbs that were able to bind to a cyclic peptide containing E2 residues 412 to 422 (C-epitope I) but not to the linear counterpart. These MAbs bound to purified E2 with affinities of about 50 nM, but they were unable to neutralize virus infection. Structural analysis of the complex between C-epitope I and one of our MAbs (C2) showed that the Trp420 side chain is largely buried in the combining site and that the Asn417 side chain, which is glycosylated in E2 and solvent exposed in other complexes, is slightly buried upon C2 binding. Also, the orientation of the cyclic peptide in the antibody-combining site is rotated by 180° compared to the orientations of the other complexes. All these structural features, however, do not explain the lack of neutralization activity. This is instead ascribed to the high degree of selectivity of the new MAbs for the cyclic epitope and to their inability to interact with the epitope in more flexible and extended conformations, which recent data suggest play a role in the mechanisms of neutralization escape. Hepatitis C virus (HCV) remains a major health care burden, affecting almost 3% of the global population. The conserved epitope comprising residues 412 to 423 of the viral E2 glycoprotein is a valid vaccine candidate because antibodies recognizing this region exhibit potent neutralizing activity. This epitope adopts a β-hairpin conformation when bound to neutralizing MAbs. We explored the potential of cyclic peptides mimicking this structure to elicit anti-HCV antibodies. MAbs that specifically recognize a cyclic variant of the epitope bind to soluble E2 with a lower affinity than other blocking antibodies and do not neutralize virus. The structure of the complex between one such MAb and the cyclic epitope, together with new structural data showing the linear peptide bound to neutralizing MAbs in extended conformations, suggests that the epitope displays a conformational flexibility that contributes to neutralization escape. Such features can be of major importance for the design of epitope-based anti-HCV vaccines.",
+        "rcsb_pubmed_affiliation_info": [
+          "Institute of Biostructures and Bioimaging, CNR and CIRPeB, University of Naples Federico II, Naples, Italy.",
+          "Department of Molecular Medicine and Medical Biotechnology, University of Naples Federico II, Naples, Italy.",
+          "Institute of Biostructures and Bioimaging, CNR and CIRPeB, University of Naples Federico II, Naples, Italy Department of Pharmacy, University of Naples Federico II, Naples, Italy.",
+          "Kedrion SpA, Lucca, Italy.",
+          "Institute of Biostructures and Bioimaging, CNR and CIRPeB, University of Naples Federico II, Naples, Italy Second University of Naples, Naples, Italy.",
+          "Medical Research Council-University of Glasgow Centre for Virus Research, Glasgow, United Kingdom.",
+          "Medical Research Council-University of Glasgow Centre for Virus Research, Glasgow, United Kingdom arvind.patel@glasgow.ac.uk menotti.ruvo@unina.it.",
+          "Institute of Biostructures and Bioimaging, CNR and CIRPeB, University of Naples Federico II, Naples, Italy arvind.patel@glasgow.ac.uk menotti.ruvo@unina.it."
+        ]
+      },
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": null,
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "IMMUNE SYSTEM",
+        "text": "Complex, monoclonal antibodies, HCV, immune system"
+      },
+      "exptl": [
+        {
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "cell": {
+        "length_a": 54.972,
+        "length_b": 56.191,
+        "length_c": 77.153,
+        "angle_alpha": 90.35,
+        "angle_beta": 90.18,
+        "angle_gamma": 94.98
+      },
+      "symmetry": {
+        "space_group_name_H_M": "P 1"
+      },
+      "software": [
+        {
+          "classification": "refinement",
+          "name": "REFMAC"
+        },
+        {
+          "classification": "data reduction",
+          "name": "HKL-2000"
+        },
+        {
+          "classification": "data scaling",
+          "name": "HKL-2000"
+        },
+        {
+          "classification": "phasing",
+          "name": "PHASER"
+        }
+      ],
+      "rcsb_accession_info": {
+        "deposit_date": "2015-11-10T00:00:00Z",
+        "initial_release_date": "2016-02-10T00:00:00Z",
+        "major_revision": 1,
+        "minor_revision": 3
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "2016-02-10T00:00:00Z"
+        },
+        {
+          "ordinal": 2,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 1,
+          "revision_date": "2016-03-23T00:00:00Z"
+        },
+        {
+          "ordinal": 3,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 2,
+          "revision_date": "2024-01-10T00:00:00Z"
+        },
+        {
+          "ordinal": 4,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 3,
+          "revision_date": "2024-11-20T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        }
+      ],
+      "pdbx_audit_revision_group": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 2,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 3,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 4,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Refinement description"
+        },
+        {
+          "ordinal": 5,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Structure summary"
+        }
+      ],
+      "pdbx_database_related": null,
+      "audit_author": [
+        {
+          "name": "Berisio, R."
+        },
+        {
+          "name": "Ruggiero, A."
+        },
+        {
+          "name": "Sandomenico, A."
+        },
+        {
+          "name": "Patel, A.H."
+        },
+        {
+          "name": "Ruvo, M."
+        },
+        {
+          "name": "Vitagliano, L."
+        }
+      ],
+      "pdbx_audit_support": [
+        {
+          "funding_organization": "Ministry of Education, Universities and Research",
+          "country": "Italy",
+          "grant_number": "RBNE08NKH7_003",
+          "ordinal": 1
+        }
+      ],
+      "pdbx_initial_refinement_model": [
+        {
+          "type": "experimental model"
+        },
+        {
+          "type": "experimental model"
+        }
+      ],
+      "refine": [
+        {
+          "pdbx_refine_id": "X-RAY DIFFRACTION",
+          "ls_d_res_high": 1.98,
+          "ls_R_factor_R_work": 0.2343,
+          "ls_R_factor_R_free": 0.26565,
+          "ls_R_factor_obs": null
+        }
+      ],
+      "pdbx_vrpt_summary_diffraction": [
+        {
+          "DCC_R": 0.2375,
+          "DCC_Rfree": 0.2703
+        }
+      ],
+      "pdbx_nmr_ensemble": null,
+      "em_experiment": null,
+      "em_3d_reconstruction": null,
+      "em_software": null,
+      "citation": [
+        {
+          "id": "primary",
+          "title": "Generation and Characterization of Monoclonal Antibodies against a Cyclic Variant of Hepatitis C Virus E2 Epitope 412-422.",
+          "rcsb_journal_abbrev": "J Virol",
+          "rcsb_authors": [
+            "Sandomenico, A.",
+            "Leonardi, A.",
+            "Berisio, R.",
+            "Sanguigno, L.",
+            "Foca, G.",
+            "Foca, A.",
+            "Ruggiero, A.",
+            "Doti, N.",
+            "Muscariello, L.",
+            "Barone, D.",
+            "Farina, C.",
+            "Owsianka, A.",
+            "Vitagliano, L.",
+            "Patel, A.H.",
+            "Ruvo, M."
+          ],
+          "year": 2016,
+          "journal_volume": "90",
+          "page_first": "3745",
+          "page_last": "3759",
+          "pdbx_database_id_PubMed": 26819303,
+          "pdbx_database_id_DOI": "10.1128/JVI.02397-15"
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 1,
+        "representative_model": null,
+        "molecular_weight": 97.54,
+        "deposited_atom_count": 7216,
+        "deposited_polymer_monomer_count": 894,
+        "deposited_modeled_polymer_monomer_count": 883,
+        "deposited_unmodeled_polymer_monomer_count": 11,
+        "polymer_entity_count_protein": 4,
+        "polymer_entity_count_nucleic_acid": 0,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": null,
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "H",
+                "asym_id": "A",
+                "entry_id": "5EOC",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "2.60.40.10"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e5eocH1"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e5eocH2"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "5EOC",
+            "entity_id": "1",
+            "asym_ids": [
+              "A"
+            ],
+            "auth_asym_ids": [
+              "H"
+            ],
+            "uniprot_ids": null,
+            "reference_sequence_identifiers": null
+          },
+          "uniprots": null,
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Fab fragment (Heavy chain)",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": null,
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "2_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "68280_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "1_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "88448_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "173733_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "74209_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "EVQLQQPGAELVRPGGSVKLSCKASGYSFTTYWMNWVKQRPGQGLEWIGMIQPSDSETRLNQKFKDKATLTLDRSSSTVYMQLSSPTSDDSAVYYCARTGRGDAWLTYWGQGTSVTVSSAKTTPPSVYPLAPGSAANSMVTLGCLVKGYFPEPVTVTWNSGSLSSGVHTFPAVLQSDLYTLSSSVTVPSSTWPSETVTCNVAHPASSTKVDKKIVPR",
+            "rcsb_sample_sequence_length": 217,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Mus musculus",
+              "ncbi_scientific_name": "Mus musculus",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "L",
+                "asym_id": "B",
+                "entry_id": "5EOC",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "2.60.40.10"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e5eocL2"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e5eocL1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "M",
+                "asym_id": "D",
+                "entry_id": "5EOC",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "2.60.40.10"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e5eocM2"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e5eocM1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "5EOC",
+            "entity_id": "2",
+            "asym_ids": [
+              "B",
+              "D"
+            ],
+            "auth_asym_ids": [
+              "L",
+              "M"
+            ],
+            "uniprot_ids": null,
+            "reference_sequence_identifiers": null
+          },
+          "uniprots": null,
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Fab fragment (Light chain)",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": null,
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "1_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "759_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "186846_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "1_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "173734_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "1_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "NIVLTQSPVSLAVSLGQRATISCRASKSVSTSGYSYMHWYQQKPGQPPRLLLYLGSNLESGVPARFSGSGSGTDFTLNIHPVEEEDAATYYCQHIRELTRSFGGGTKLEIKRADAAPTVSIFPPSSEQLTSGGASVVCFLNNFYPKDINVKWKIDGSERQNGVLNSWTDQDSKDSTYSMSSTLTLTKDEYERHNSYTCEATHKTSTSPIVKSFNRN",
+            "rcsb_sample_sequence_length": 216,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Mus musculus",
+              "ncbi_scientific_name": "Mus musculus",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "J",
+                "asym_id": "C",
+                "entry_id": "5EOC",
+                "entity_id": "3"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "2.60.40.10"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e5eocJ1"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e5eocJ2"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "5EOC",
+            "entity_id": "3",
+            "asym_ids": [
+              "C"
+            ],
+            "auth_asym_ids": [
+              "J"
+            ],
+            "uniprot_ids": null,
+            "reference_sequence_identifiers": null
+          },
+          "uniprots": null,
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Fab fragment (Heavy chain)",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": null,
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "2_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "68280_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "1_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "173737_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "88448_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "74209_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "EVQLQQPGAELVRPGGSVKLSCKASGYSFTTYWMMWVKQRPGQGLEWIGMIQPSDSETRLNQKFKDKATLTLDRSSSTVYMQLSSPTSDDSAVYYCARTGRGDAWLTYWGQGTSVTVSSAKTTPPSVYPLAPGSAANSMVTLGCLVKGYFPEPVTVTWNSGSLSSGVHTFPAVLQSDLYTLSSSVTVPSSTWPSETVTCNVAHPASSTKVDKKIVPR",
+            "rcsb_sample_sequence_length": 217,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Mus musculus",
+              "ncbi_scientific_name": "Mus musculus",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "P",
+                "asym_id": "E",
+                "entry_id": "5EOC",
+                "entity_id": "4"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "Q",
+                "asym_id": "F",
+                "entry_id": "5EOC",
+                "entity_id": "4"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "5EOC",
+            "entity_id": "4",
+            "asym_ids": [
+              "E",
+              "F"
+            ],
+            "auth_asym_ids": [
+              "P",
+              "Q"
+            ],
+            "uniprot_ids": [
+              "P27958"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "P27958"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "P27958",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Hepatitis C virus genotype 1a (isolate H77)"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "ALA-CYS-GLN-LEU-ILE-ASN-THR-ASN-GLY-SER-TRP-HIS-ILE-CYS",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Hepatitis C virus, Core protein, N-terminal",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "RNA biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "viral genome replication",
+                  "depth": null
+                },
+                {
+                  "name": "biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "viral RNA genome replication",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "negative regulation of protein transport",
+                  "depth": null
+                },
+                {
+                  "name": "protein localization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of localization",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of protein localization",
+                  "depth": null
+                },
+                {
+                  "name": "cellular localization",
+                  "depth": null
+                },
+                {
+                  "name": "nitrogen compound transport",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of protein localization",
+                  "depth": null
+                },
+                {
+                  "name": "transport",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of transport",
+                  "depth": null
+                },
+                {
+                  "name": "protein localization to extracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "localization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of secretion by cell",
+                  "depth": null
+                },
+                {
+                  "name": "secretion by cell",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of secretion",
+                  "depth": null
+                },
+                {
+                  "name": "cellular macromolecule localization",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of secretion by cell",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of protein localization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of transport",
+                  "depth": null
+                },
+                {
+                  "name": "secretion",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of establishment of protein localization",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of protein localization to extracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of establishment of protein localization",
+                  "depth": null
+                },
+                {
+                  "name": "export from cell",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of protein transport",
+                  "depth": null
+                },
+                {
+                  "name": "protein secretion",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of localization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of protein secretion",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of secretion",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of protein secretion",
+                  "depth": null
+                },
+                {
+                  "name": "protein transport",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular localization",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule localization",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular part",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host cell lipid droplet",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm part",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "regulation of cytokinesis",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cell division",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cell cycle process",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "cytokinesis",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cell cycle",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cell division",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cytokinesis",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cell cycle process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "cell division",
+                  "depth": null
+                },
+                {
+                  "name": "cell cycle",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cell cycle",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "cell cycle process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Reverse transcriptase/Diguanylate cyclase domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular part",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell membrane",
+                  "depth": null
+                },
+                {
+                  "name": "host cell mitochondrion",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm part",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host cell mitochondrial envelope",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "host cell mitochondrial membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host JAK-STAT cascade",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host JAK-STAT cascade via inhibition of STAT activity",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host JAK-STAT cascade via inhibition of STAT1 activity",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated suppression of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host TRAF-mediated signal transduction",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "NS3 RNA helicase, C-terminal helical domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA-directed RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "5'-3' RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on RNA",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a nucleic acid",
+                  "depth": null
+                },
+                {
+                  "name": "RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "nucleotidyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity, transferring phosphorus-containing groups",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "Toll-like receptor 2 binding",
+                  "depth": null
+                },
+                {
+                  "name": "signaling receptor binding",
+                  "depth": null
+                },
+                {
+                  "name": "Toll-like receptor binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "peptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a protein",
+                  "depth": null
+                },
+                {
+                  "name": "serine hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "serine-type peptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "serine-type endopeptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "endopeptidase activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Non-structural protein NS3-like, DEAD-box helicase, flavivirus",
+                  "depth": 2
+                },
+                {
+                  "name": "Helicase superfamily 1/2, ATP-binding domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Hepatitis C virus NS5A, 1B domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "P-loop containing nucleoside triphosphate hydrolase",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "SH3 domain binding",
+                  "depth": null
+                },
+                {
+                  "name": "protein binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "protein domain specific binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "adenyl ribonucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "purine ribonucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "purine ribonucleoside triphosphate binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleoside phosphate binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "purine nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "anion binding",
+                  "depth": null
+                },
+                {
+                  "name": "adenyl nucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "ATP binding",
+                  "depth": null
+                },
+                {
+                  "name": "heterocyclic compound binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "carbohydrate derivative binding",
+                  "depth": null
+                },
+                {
+                  "name": "ribonucleotide binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Peptidase S1, PA clan",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Helicase, C-terminal domain-like",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Helicase superfamily 1/2, ATP-binding domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "bounding membrane of organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "endoplasmic reticulum-Golgi intermediate compartment membrane",
+                  "depth": null
+                },
+                {
+                  "name": "endoplasmic reticulum-Golgi intermediate compartment",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "organelle membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Hepatitis C virus, Non-structural 5a protein",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host autophagy",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated activation of host autophagy",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular part",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell endoplasmic reticulum",
+                  "depth": null
+                },
+                {
+                  "name": "host cell membrane",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm part",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host cell endomembrane system",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "host cell endoplasmic reticulum membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "nucleic acid conformation isomerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "isomerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on RNA",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a nucleic acid",
+                  "depth": null
+                },
+                {
+                  "name": "helicase activity",
+                  "depth": null
+                },
+                {
+                  "name": "RNA helicase activity",
+                  "depth": null
+                },
+                {
+                  "name": "ATP-dependent activity, acting on RNA",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecular conformation isomerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "ATP-dependent activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "RNA metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of RNA biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "RNA biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "DNA-templated transcription",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of RNA metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "transcription by RNA polymerase II",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of nucleobase-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of nucleobase-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of RNA biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of transcription by RNA polymerase II",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of DNA-templated transcription",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of transcription by RNA polymerase II",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of DNA-templated transcription",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of RNA metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "viral nucleocapsid",
+                  "depth": null
+                },
+                {
+                  "name": "viral capsid",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "virion component",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "NS5A domain 1a superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated suppression of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host interferon-mediated signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host type I interferon-mediated signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated transformation of host cell",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Hepatitis C virus, Non-structural protein NS2",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "fusion of virus membrane with host endosome membrane",
+                  "depth": null
+                },
+                {
+                  "name": "membrane fusion involved in viral entry into host cell",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Hepatitis C virus, Non-structural 5a protein, domain 1a",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Hepatitis C virus, Core protein, C-terminal",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "virion assembly",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "viral capsid assembly",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "import into cell",
+                  "depth": null
+                },
+                {
+                  "name": "receptor-mediated endocytosis of virus by host cell",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "transport",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of localization",
+                  "depth": null
+                },
+                {
+                  "name": "vesicle-mediated transport",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                },
+                {
+                  "name": "localization",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont entry into host cell",
+                  "depth": null
+                },
+                {
+                  "name": "clathrin-dependent endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont entry into host",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "clathrin-dependent endocytosis of virus by host cell",
+                  "depth": null
+                },
+                {
+                  "name": "receptor-mediated endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "endocytosis",
+                  "depth": null
+                },
+                {
+                  "name": "endocytosis involved in viral entry into host cell",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "translocation of peptides or proteins into host",
+                  "depth": null
+                },
+                {
+                  "name": "translocation of molecules into host",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "translocation of peptides or proteins into host cell cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "viral gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "viral translational frameshifting",
+                  "depth": null
+                },
+                {
+                  "name": "viral translation",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cysteine-type peptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "peptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a protein",
+                  "depth": null
+                },
+                {
+                  "name": "cysteine-type endopeptidase activity",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "endopeptidase activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "transmembrane transport",
+                  "depth": null
+                },
+                {
+                  "name": "localization",
+                  "depth": null
+                },
+                {
+                  "name": "transport",
+                  "depth": null
+                },
+                {
+                  "name": "monoatomic ion transmembrane transport",
+                  "depth": null
+                },
+                {
+                  "name": "monoatomic ion transport",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "establishment of localization",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Hepatitis C virus non-structural protein NS2, N-terminal domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of phosphorylation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of phosphate metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of transferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of molecular function",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of phosphate metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "phosphate-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "phosphorus metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of hexokinase activity",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of transferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of phosphorus metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "phosphorylation",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of molecular function",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of kinase activity",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of kinase activity",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of phosphorus metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of phosphorylation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "virion attachment to host cell",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "receptor-mediated virion attachment to host cell",
+                  "depth": null
+                },
+                {
+                  "name": "adhesion of symbiont to host cell",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                },
+                {
+                  "name": "adhesion of symbiont to host",
+                  "depth": null
+                },
+                {
+                  "name": "adhesion receptor-mediated virion attachment to host cell",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host cell plasma membrane",
+                  "depth": null
+                },
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host cell membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular part",
+                  "depth": null
+                },
+                {
+                  "name": "host cell perinuclear region of cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "host cell cytoplasm part",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "kinase binding",
+                  "depth": null
+                },
+                {
+                  "name": "enzyme binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Hepatitis C virus, Non-structural protein NS4a",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated perturbation of host defense response",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of MAVS activity",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host pathogen-associated molecular pattern receptor signaling pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host immune response",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host immune response",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of host innate immune response",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host innate immune response",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host signal transduction pathway",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated suppression of cytoplasmic pattern recognition receptor signaling pathway",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Hepatitis C virus non-structural protein NS2, C-terminal domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA dependent RNA polymerase, hepatitis C virus",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "virion component",
+                  "depth": null
+                },
+                {
+                  "name": "virion membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Hepatitis C virus, Envelope glycoprotein E1",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "DNA/RNA polymerase superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Hepatitis C virus core protein, chain A superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Hepatitus C virus, Non-structural 5a protein, C-terminal",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Hepatitis C virus non-structural 5a, 1B domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "pyrophosphatase activity",
+                  "depth": null
+                },
+                {
+                  "name": "ATP hydrolysis activity",
+                  "depth": null
+                },
+                {
+                  "name": "ribonucleoside triphosphate phosphatase activity",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "hydrolase activity, acting on acid anhydrides",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "ATP-dependent activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "passive transmembrane transporter activity",
+                  "depth": null
+                },
+                {
+                  "name": "channel activity",
+                  "depth": null
+                },
+                {
+                  "name": "transporter activity",
+                  "depth": null
+                },
+                {
+                  "name": "transmembrane transporter activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular part",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular region",
+                  "depth": null
+                },
+                {
+                  "name": "host cell nucleus",
+                  "depth": null
+                },
+                {
+                  "name": "host intracellular organelle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "virion component",
+                  "depth": null
+                },
+                {
+                  "name": "viral membrane",
+                  "depth": null
+                },
+                {
+                  "name": "viral envelope",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Hepatitis C virus, NS3 protease",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "structural molecule activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "ribonucleoprotein complex",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Hepatitis C virus, p7 channel",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cation binding",
+                  "depth": null
+                },
+                {
+                  "name": "transition metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "zinc ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "proteolysis",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "protein metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "symbiont-mediated perturbation of host cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host cell cycle progression",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "symbiont-mediated perturbation of host cell cycle G1/S transition checkpoint",
+                  "depth": null
+                },
+                {
+                  "name": "modulation of process of another organism",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "virion attachment to host cell",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interspecies interaction between organisms",
+                  "depth": null
+                },
+                {
+                  "name": "receptor-mediated virion attachment to host cell",
+                  "depth": null
+                },
+                {
+                  "name": "adhesion of symbiont to host cell",
+                  "depth": null
+                },
+                {
+                  "name": "entry receptor-mediated virion attachment to host cell",
+                  "depth": null
+                },
+                {
+                  "name": "viral process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "viral life cycle",
+                  "depth": null
+                },
+                {
+                  "name": "adhesion of symbiont to host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in interaction with host",
+                  "depth": null
+                },
+                {
+                  "name": "biological process involved in symbiotic interaction",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Hepatitis C virus, Non-structural protein E2/NS1",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Peptidase S1, PA clan, chymotrypsin-like fold",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA-directed RNA polymerase, catalytic domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Hepatitis C virus, Non-structural protein NS4b",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "195618_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "92129_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "P27958",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "151581_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "88449_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "173738_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "186849_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "ACQLINTNGSWHIC",
+            "rcsb_sample_sequence_length": 14,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Hepatitis C virus",
+              "ncbi_scientific_name": "Hepacivirus hominis",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        }
+      ],
+      "nonpolymer_entities": null,
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_and_software_defined_assembly",
+            "method_details": "PISA",
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": null,
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Asymmetric",
+              "symbol": "C1",
+              "oligomeric_state": "Hetero 3-mer",
+              "stoichiometry": [
+                "A1",
+                "B1",
+                "C1"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 441
+          }
+        },
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "2"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_and_software_defined_assembly",
+            "method_details": "PISA",
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": null,
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Asymmetric",
+              "symbol": "C1",
+              "oligomeric_state": "Hetero 3-mer",
+              "stoichiometry": [
+                "A1",
+                "B1",
+                "C1"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 442
+          }
+        }
+      ]
+    }
+  }
+}

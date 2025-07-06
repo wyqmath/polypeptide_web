@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>多肽结构数据库 - 6J8E</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-light.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
+    <link rel="stylesheet" href="../static/css/protein_detail.css">
+    <style>
+        .info-section {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            overflow: hidden;
+        }
+        .info-section h2 {
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 15px 20px;
+            font-size: 1.2em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .info-section h2.collapsible {
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out;
+        }
+        .info-section h2.collapsible:hover {
+            background-color: #efefef;
+        }
+        .section-toggle-arrow {
+            width: 12px;
+            height: 12px;
+            border: solid #333;
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            transform: rotate(-135deg);
+            transition: transform 0.3s ease;
+        }
+        .collapsible.collapsed .section-toggle-arrow {
+            transform: rotate(45deg);
+        }
+        .info-section > div, .info-section > table {
+            padding: 20px;
+            background-color: #fff;
+        }
+        .full-width-viewer-container {
+            padding: 0 !important;
+            height: 600px;
+        }
+        .info-section > table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .info-section table td, .info-section table th {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .info-section table tr:last-child td {
+            border-bottom: none;
+        }
+        .info-section table td:first-child {
+            font-weight: 600;
+            color: #555;
+            width: 150px;
+        }
+        .citations-container .citation-item,
+        .assemblies-container .assembly-item,
+        .sequence-item {
+            padding: 15px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .citations-container .citation-item:last-child,
+        .assemblies-container .assembly-item:last-child,
+        .sequence-item:last-child {
+            border-bottom: none;
+        }
+        .sequence-wrapper {
+            max-height: 250px;
+            overflow-y: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 10px;
+            background: #fdfdfd;
+            margin-top: 10px;
+        }
+        .sequence-wrapper table {
+            width: 100%;
+            border: none;
+        }
+        .sequence-wrapper td {
+            border: none;
+        }
+        .seq-num {
+            text-align: right;
+            padding-right: 1em;
+            color: #999;
+            font-family: 'Courier New', Courier, monospace;
+            vertical-align: top;
+            font-size: 0.9em;
+        }
+        .seq-data {
+            font-family: 'Courier New', Courier, monospace;
+            word-break: break-all;
+            font-size: 1em;
+            line-height: 1.5;
+        }
+        .citation-title {
+            font-weight: bold;
+        }
+        .citation-authors {
+            font-size: 0.9em;
+            color: #555;
+        }
+        .citation-journal {
+            font-size: 0.9em;
+            color: #777;
+        }
+        .citation-links a {
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <img src="../THU-structure-LOGO.svg" alt="THU结构数据库标志" class="logo">
+            <div class="top-nav">
+                <a href="../index.html" class="nav-button">Home</a>
+                <a href="../Download.html" class="nav-button">Download</a>
+                <a href="https://www.frcbs.tsinghua.edu.cn/" class="nav-button">About</a>
+            </div>
+        </div>
+        <h1>多肽结构数据库</h1>
+        <p>浏览和可视化多肽三维结构</p>
+    </header>
+    
+    <div class="search-section">
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="搜索蛋白质、基因、PDB编号、生物体或序列">
+            <button class="search-button">搜索</button>
+        </div>
+    </div>
+    
+    <div class="protein-detail-container">
+        <div class="protein-header">
+            <h1>6J8E - 多肽结构</h1>
+            <p class="alphafold-id">6J8E</p>
+        </div>
+
+        <div class="action-buttons">
+            <span class="download-label">下载</span>
+            <div class="button-container">
+                <a href="https://files.rcsb.org/download/6J8E.pdb" download>
+                    <button>PDB文件</button>
+                </a>
+            </div>
+            <div class="button-container">
+                <a href="https://files.rcsb.org/download/6J8E.cif" download>
+                    <button>mmCIF文件</button>
+                </a>
+            </div>
+        </div>
+
+        <section class="info-section">
+            <h2 class="collapsible">
+                基本信息
+                <span class="section-toggle-arrow"></span>
+            </h2>
+            <table>
+                <tbody>
+<tr><td>PDB编号</td><td>6J8E <a href="https://www.rcsb.org/structure/6J8E" target="_blank" title="访问RCSB PDB页面">前往RCSB &#x279A;</a></td></tr>
+<tr><td>标题</td><td>Human Nav1.2-beta2-KIIIA ternary complex</td></tr>
+<tr><td>实验方法</td><td>ELECTRON MICROSCOPY</td></tr>
+<tr><td>分辨率</td><td>3.00 Å</td></tr>
+<tr><td>发布日期</td><td>2019-02-27</td></tr>
+<tr><td>作者</td><td>Pan, X.; Li, Z.; Huang, X.; Huang, G.; Yan, N.</td></tr>
+<tr><td>来源生物</td><td>Conus kinoshitai, Homo sapiens</td></tr>
+<tr><td>表达宿主</td><td>Homo sapiens</td></tr>
+<tr><td>基因名称</td><td>NAC2, SCN2A, SCN2A1, SCN2A2, SCN2B, UNQ326/PRO386</td></tr>
+<tr><td>关键词</td><td>transmembrane protein, MEMBRANE PROTEIN, MEMBRANE PROTEIN-TOXIN complex</td></tr>
+<tr><td>分子量</td><td>251.19 kDa</td></tr>
+<tr><td>实体数量</td><td>蛋白质: 3, 核酸: 0, 核酸杂合体: 0</td></tr>
+<tr><td>二硫键</td><td>Yes</td></tr>
+<tr><td>其他连接</td><td>Yes</td></tr>
+<tr><td>多肽链</td><td>D</td></tr>
+<tr><td>蛋白链</td><td>A, C</td></tr>
+<tr><td>多肽长度</td><td>16</td></tr>
+<tr><td>蛋白长度</td><td>122, 2048</td></tr>
+                </tbody>
+            </table>
+        </section>
+        
+
+<section class="info-section">
+    <h2 class="collapsible">
+        序列信息
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="sequences-container">
+        
+        <div class="sequence-item">
+            <h4>链: C - Sodium channel subunit beta-2 (长度: 122)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">GRSMEVTVPA TLNVLNGSDA RLPCTFNSCY TVNHKQFSLN WTYQECNNCS EEMFLQFRMK</td></tr><tr><td class="seq-num">61</td><td class="seq-data">IINLKLERFQ DRVEFSGNPS KYDVSVMLRN VQPEDEGIYN CYIMNPPDRH RGHGKIHLQV</td></tr><tr><td class="seq-num">121</td><td class="seq-data">LM</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: A - Sodium channel protein type 2 subunit alpha (长度: 2048)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MASWSHPQFE KGGGARGGSG GGSWSHPQFE KGFDYKDDDD KGTMAQSVLV PPGPDSFRFF</td></tr><tr><td class="seq-num">61</td><td class="seq-data">TRESLAAIEQ RIAEEKAKRP KQERKDEDDE NGPKPNSDLE AGKSLPFIYG DIPPEMVSVP</td></tr><tr><td class="seq-num">121</td><td class="seq-data">LEDLDPYYIN KKTFIVLNKG KAISRFSATP ALYILTPFNP IRKLAIKILV HSLFNMLIMC</td></tr><tr><td class="seq-num">181</td><td class="seq-data">TILTNCVFMT MSNPPDWTKN VEYTFTGIYT FESLIKILAR GFCLEDFTFL RDPWNWLDFT</td></tr><tr><td class="seq-num">241</td><td class="seq-data">VITFAYVTEF VDLGNVSALR TFRVLRALKT ISVIPGLKTI VGALIQSVKK LSDVMILTVF</td></tr><tr><td class="seq-num">301</td><td class="seq-data">CLSVFALIGL QLFMGNLRNK CLQWPPDNSS FEINITSFFN NSLDGNGTTF NRTVSIFNWD</td></tr><tr><td class="seq-num">361</td><td class="seq-data">EYIEDKSHFY FLEGQNDALL CGNSSDAGQC PEGYICVKAG RNPNYGYTSF DTFSWAFLSL</td></tr><tr><td class="seq-num">421</td><td class="seq-data">FRLMTQDFWE NLYQLTLRAA GKTYMIFFVL VIFLGSFYLI NLILAVVAMA YEEQNQATLE</td></tr><tr><td class="seq-num">481</td><td class="seq-data">EAEQKEAEFQ QMLEQLKKQQ EEAQAAAAAA SAESRDFSGA GGIGVFSESS SVASKLSSKS</td></tr><tr><td class="seq-num">541</td><td class="seq-data">EKELKNRRKK KKQKEQSGEE EKNDRVRKSE SEDSIRRKGF RFSLEGSRLT YEKRFSSPHQ</td></tr><tr><td class="seq-num">601</td><td class="seq-data">SLLSIRGSLF SPRRNSRASL FSFRGRAKDI GSENDFADDE HSTFEDNDSR RDSLFVPHRH</td></tr><tr><td class="seq-num">661</td><td class="seq-data">GERRHSNVSQ ASRASRVLPI LPMNGKMHSA VDCNGVVSLV GGPSTLTSAG QLLPEGTTTE</td></tr><tr><td class="seq-num">721</td><td class="seq-data">TEIRKRRSSS YHVSMDLLED PTSRQRAMSI ASILTNTMEE LEESRQKCPP CWYKFANMCL</td></tr><tr><td class="seq-num">781</td><td class="seq-data">IWDCCKPWLK VKHLVNLVVM DPFVDLAITI CIVLNTLFMA MEHYPMTEQF SSVLSVGNLV</td></tr><tr><td class="seq-num">841</td><td class="seq-data">FTGIFTAEMF LKIIAMDPYY YFQEGWNIFD GFIVSLSLME LGLANVEGLS VLRSFRLLRV</td></tr><tr><td class="seq-num">901</td><td class="seq-data">FKLAKSWPTL NMLIKIIGNS VGALGNLTLV LAIIVFIFAV VGMQLFGKSY KECVCKISND</td></tr><tr><td class="seq-num">961</td><td class="seq-data">CELPRWHMHD FFHSFLIVFR VLCGEWIETM WDCMEVAGQT MCLTVFMMVM VIGNLVVLNL</td></tr><tr><td class="seq-num">1021</td><td class="seq-data">FLALLLSSFS SDNLAATDDD NEMNNLQIAV GRMQKGIDFV KRKIREFIQK AFVRKQKALD</td></tr><tr><td class="seq-num">1081</td><td class="seq-data">EIKPLEDLNN KKDSCISNHT TIEIGKDLNY LKDGNGTTSG IGSSVEKYVV DESDYMSFIN</td></tr><tr><td class="seq-num">1141</td><td class="seq-data">NPSLTVTVPI AVGESDFENL NTEEFSSESD MEESKEKLNA TSSSEGSTVD IGAPAEGEQP</td></tr><tr><td class="seq-num">1201</td><td class="seq-data">EVEPEESLEP EACFTEDCVR KFKCCQISIE EGKGKLWWNL RKTCYKIVEH NWFETFIVFM</td></tr><tr><td class="seq-num">1261</td><td class="seq-data">ILLSSGALAF EDIYIEQRKT IKTMLEYADK VFTYIFILEM LLKWVAYGFQ VYFTNAWCWL</td></tr><tr><td class="seq-num">1321</td><td class="seq-data">DFLIVDVSLV SLTANALGYS ELGAIKSLRT LRALRPLRAL SRFEGMRVVV NALLGAIPSI</td></tr><tr><td class="seq-num">1381</td><td class="seq-data">MNVLLVCLIF WLIFSIMGVN LFAGKFYHCI NYTTGEMFDV SVVNNYSECK ALIESNQTAR</td></tr><tr><td class="seq-num">1441</td><td class="seq-data">WKNVKVNFDN VGLGYLSLLQ VATFKGWMDI MYAAVDSRNV ELQPKYEDNL YMYLYFVIFI</td></tr><tr><td class="seq-num">1501</td><td class="seq-data">IFGSFFTLNL FIGVIIDNFN QQKKKFGGQD IFMTEEQKKY YNAMKKLGSK KPQKPIPRPA</td></tr><tr><td class="seq-num">1561</td><td class="seq-data">NKFQGMVFDF VTKQVFDISI MILICLNMVT MMVETDDQSQ EMTNILYWIN LVFIVLFTGE</td></tr><tr><td class="seq-num">1621</td><td class="seq-data">CVLKLISLRY YYFTIGWNIF DFVVVILSIV GMFLAELIEK YFVSPTLFRV IRLARIGRIL</td></tr><tr><td class="seq-num">1681</td><td class="seq-data">RLIKGAKGIR TLLFALMMSL PALFNIGLLL FLVMFIYAIF GMSNFAYVKR EVGIDDMFNF</td></tr><tr><td class="seq-num">1741</td><td class="seq-data">ETFGNSMICL FQITTSAGWD GLLAPILNSG PPDCDPDKDH PGSSVKGDCG NPSVGIFFFV</td></tr><tr><td class="seq-num">1801</td><td class="seq-data">SYIIISFLVV VNMYIAVILE NFSVATEESA EPLSEDDFEM FYEVWEKFDP DATQFIEFAK</td></tr><tr><td class="seq-num">1861</td><td class="seq-data">LSDFADALDP PLLIAKPNKV QLIAMDLPMV SGDRIHCLDI LFAFTKRVLG ESGEMDALRI</td></tr><tr><td class="seq-num">1921</td><td class="seq-data">QMEERFMASN PSKVSYEPIT TTLKRKQEEV SAIIIQRAYR RYLLKQKVKK VSSIYKKDKG</td></tr><tr><td class="seq-num">1981</td><td class="seq-data">KECDGTPIKE DTLIDKLNEN STPEKTDMTP STTSPPSYDS VTKPEKEKFE KDKSEKEDKG</td></tr><tr><td class="seq-num">2041</td><td class="seq-data">KDIRESKK</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: D - Mu-conotoxin KIIIA (长度: 16)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">CCNCSSKWCR DHSRCC</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        参考文献
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="citations-container">
+<div class="citation-item"><p class="citation-title">Molecular basis for pore blockade of human Na+channel Nav1.2 by the mu-conotoxin KIIIA.</p><p class="citation-authors">Pan, X., Li, Z., Huang, X., Huang, G., Gao, S., Shen, H., Liu, L., Lei, J., Yan, N.</p><p class="citation-journal"><em>Science</em>, 2019</p><p class="citation-links"><a href="https://pubmed.ncbi.nlm.nih.gov/30765605/" target="_blank">PubMed: 30765605</a> | <a href="https://doi.org/10.1126/science.aaw2999" target="_blank">DOI: 10.1126/science.aaw2999</a></p></div>
+    </div>
+</section>
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        配体信息
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>名称</th>
+                    <th>化学式</th>
+                    <th>分子量</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>NAG</td><td>2-acetamido-2-deoxy-beta-D-glucopyranose</td><td>C8 H15 N O6</td><td>221.208</td></tr>
+<tr><td>9Z9</td><td>(3beta,14beta,17beta,25R)-3-[4-methoxy-3-(methoxymethyl)butoxy]spirost-5-en</td><td>C34 H56 O5</td><td>544.805</td></tr>
+<tr><td>NA</td><td>SODIUM ION</td><td>Na</td><td>22.99</td></tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        生物组装
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="assemblies-container">
+        <div class="assembly-item"><p><strong>组装 ID:</strong> 1</p><p><strong>详情:</strong> author_defined_assembly</p><p><strong>寡聚状态:</strong> Hetero 3-mer</p><p><strong>化学计量:</strong> A1, B1, C1</p></div>
+    </div>
+</section>
+
+        <section class="info-section">
+            <h2 class="collapsible">
+                3D 结构可视化
+                <span class="section-toggle-arrow"></span>
+            </h2>
+            <div class="full-width-viewer-container">
+                <div id="myViewer"></div>
+            </div>
+        </section>
+
+        <script type="text/javascript">
+            var viewerInstance = new PDBeMolstarPlugin();
+            var options = {
+                customData: {
+                    url: 'https://files.rcsb.org/download/6J8E.cif',
+                    format: 'cif'
+                },
+                moleculeId: '6J8E',
+                alphafoldView: true,
+                bgColor: { r: 30, g: 30, b: 30 },
+                hideControls: true,
+                subscribeEvents: true
+            }
+            var viewerContainer = document.getElementById('myViewer');
+            viewerInstance.render(viewerContainer, options);
+            
+            // 添加折叠/展开功能
+            document.querySelectorAll('.collapsible').forEach(header => {
+                const content = header.nextElementSibling;
+                if (!content) return;
+                
+                const headerText = header.innerText || header.textContent;
+
+                // 默认折叠，但"基本信息"和"3D 结构可视化"默认展开
+                if (!headerText.includes('基本信息') && !headerText.includes('3D 结构可视化')) {
+                    header.classList.add('collapsed');
+                    content.style.display = 'none';
+                }
+
+                header.addEventListener('click', () => {
+                    header.classList.toggle('collapsed');
+                    if (header.classList.contains('collapsed')) {
+                        content.style.display = 'none';
+                    } else {
+                        content.style.display = 'block';
+                    }
+                });
+            });
+        </script>
+    </div>
+    
+    <script src="../static/js/protein_detail.js"></script>
+</body>
+</html>

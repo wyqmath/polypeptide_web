@@ -1,0 +1,3463 @@
+{
+  "data": {
+    "entry": {
+      "rcsb_id": "6FX1",
+      "entry": {
+        "id": "6FX1"
+      },
+      "database_2": [
+        {
+          "database_id": "PDB",
+          "pdbx_database_accession": "pdb_00006fx1"
+        },
+        {
+          "database_id": "WWPDB",
+          "pdbx_database_accession": null
+        }
+      ],
+      "rcsb_entry_container_identifiers": {
+        "entity_ids": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "pubmed_id": 29956878,
+        "emdb_ids": null,
+        "assembly_ids": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "rcsb_associated_holdings": {
+        "rcsb_repository_holdings_current_entry_container_identifiers": {
+          "assembly_ids": [
+            "2",
+            "3",
+            "4",
+            "1"
+          ]
+        },
+        "rcsb_repository_holdings_current": {
+          "repository_content_types": [
+            "FASTA sequence",
+            "entry mmCIF",
+            "entry PDBML",
+            "entry PDB",
+            "structure factors",
+            "assembly mmCIF",
+            "assembly PDB",
+            "validation fo-fc coefficients",
+            "validation slider image",
+            "validation report",
+            "validation data mmCIF",
+            "validation 2fo-fc coefficients"
+          ]
+        }
+      },
+      "rcsb_comp_model_provenance": null,
+      "pdbx_database_status": {
+        "pdb_format_compatible": "Y"
+      },
+      "struct": {
+        "title": "Crystal structure of Pholiota squarrosa lectin in complex with an octasaccharide"
+      },
+      "rcsb_ma_qa_metric_global": null,
+      "rcsb_primary_citation": {
+        "id": "primary",
+        "pdbx_database_id_DOI": "10.1002/anie.201805165"
+      },
+      "pubmed": {
+        "rcsb_pubmed_container_identifiers": {
+          "pubmed_id": 29956878
+        },
+        "rcsb_pubmed_central_id": null,
+        "rcsb_pubmed_doi": "10.1002/anie.201805165",
+        "rcsb_pubmed_abstract_text": "The mini fungal lectin PhoSL was recombinantly produced and characterized. Despite a length of only 40 amino acids, PhoSL exclusively recognizes N-glycans with α1,6-linked fucose. Core fucosylation influences the intrinsic properties and bioactivities of mammalian N-glycoproteins and its level is linked to various cancers. Thus, PhoSL serves as a promising tool for glycoprofiling. Without structural precedence, the crystal structure was solved using the zinc anomalous signal, and revealed an interlaced trimer creating a novel protein fold termed β-prism III. Three biantennary core-fucosylated N-glycan azides of 8 to 12 sugars were cocrystallized with PhoSL. The resulting highly resolved structures gave a detailed view on how the exclusive recognition of α1,6-fucosylated N-glycans by such a small protein occurs. This work also provided a protein consensus motif for the observed specificity as well as a glimpse into N-glycan flexibility upon binding.",
+        "rcsb_pubmed_affiliation_info": [
+          "Univ. Grenoble Alpes, CNRS, CERMAV, 38000, Grenoble, France.",
+          "Bioorganische Chemie, Gebäude NW1, Universität Bayreuth, 95440, Bayreuth, Germany."
+        ]
+      },
+      "pdbx_deposit_group": null,
+      "rcsb_external_references": null,
+      "pdbx_database_PDB_obs_spr": null,
+      "struct_keywords": {
+        "pdbx_keywords": "SUGAR BINDING PROTEIN",
+        "text": "lectin, octasaccharide, sugar binding protein"
+      },
+      "exptl": [
+        {
+          "method": "X-RAY DIFFRACTION"
+        }
+      ],
+      "cell": {
+        "length_a": 91.0,
+        "length_b": 95.593,
+        "length_c": 110.633,
+        "angle_alpha": 90.0,
+        "angle_beta": 90.0,
+        "angle_gamma": 90.0
+      },
+      "symmetry": {
+        "space_group_name_H_M": "P 21 2 21"
+      },
+      "software": [
+        {
+          "classification": "refinement",
+          "name": "REFMAC"
+        },
+        {
+          "classification": "data reduction",
+          "name": "XDS"
+        },
+        {
+          "classification": "data scaling",
+          "name": "Aimless"
+        },
+        {
+          "classification": "phasing",
+          "name": "PHASER"
+        }
+      ],
+      "rcsb_accession_info": {
+        "deposit_date": "2018-03-08T00:00:00Z",
+        "initial_release_date": "2018-07-11T00:00:00Z",
+        "major_revision": 2,
+        "minor_revision": 2
+      },
+      "pdbx_audit_revision_history": [
+        {
+          "ordinal": 1,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 0,
+          "revision_date": "2018-07-11T00:00:00Z"
+        },
+        {
+          "ordinal": 2,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 1,
+          "revision_date": "2018-07-18T00:00:00Z"
+        },
+        {
+          "ordinal": 3,
+          "data_content_type": "Structure model",
+          "major_revision": 1,
+          "minor_revision": 2,
+          "revision_date": "2018-08-29T00:00:00Z"
+        },
+        {
+          "ordinal": 4,
+          "data_content_type": "Structure model",
+          "major_revision": 2,
+          "minor_revision": 0,
+          "revision_date": "2020-07-29T00:00:00Z"
+        },
+        {
+          "ordinal": 5,
+          "data_content_type": "Structure model",
+          "major_revision": 2,
+          "minor_revision": 1,
+          "revision_date": "2024-05-01T00:00:00Z"
+        },
+        {
+          "ordinal": 6,
+          "data_content_type": "Structure model",
+          "major_revision": 2,
+          "minor_revision": 2,
+          "revision_date": "2024-10-16T00:00:00Z"
+        }
+      ],
+      "pdbx_audit_revision_details": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 1,
+          "data_content_type": "Structure model",
+          "type": "Initial release",
+          "description": null
+        },
+        {
+          "ordinal": 2,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "type": "Remediation",
+          "description": "Carbohydrate remediation"
+        }
+      ],
+      "pdbx_audit_revision_group": [
+        {
+          "ordinal": 1,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 2,
+          "revision_ordinal": 2,
+          "data_content_type": "Structure model",
+          "group": "Structure summary"
+        },
+        {
+          "ordinal": 3,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 4,
+          "revision_ordinal": 3,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 5,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Advisory"
+        },
+        {
+          "ordinal": 6,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Atomic model"
+        },
+        {
+          "ordinal": 7,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 8,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Derived calculations"
+        },
+        {
+          "ordinal": 9,
+          "revision_ordinal": 4,
+          "data_content_type": "Structure model",
+          "group": "Structure summary"
+        },
+        {
+          "ordinal": 10,
+          "revision_ordinal": 5,
+          "data_content_type": "Structure model",
+          "group": "Data collection"
+        },
+        {
+          "ordinal": 11,
+          "revision_ordinal": 5,
+          "data_content_type": "Structure model",
+          "group": "Database references"
+        },
+        {
+          "ordinal": 12,
+          "revision_ordinal": 5,
+          "data_content_type": "Structure model",
+          "group": "Derived calculations"
+        },
+        {
+          "ordinal": 13,
+          "revision_ordinal": 5,
+          "data_content_type": "Structure model",
+          "group": "Refinement description"
+        },
+        {
+          "ordinal": 14,
+          "revision_ordinal": 5,
+          "data_content_type": "Structure model",
+          "group": "Structure summary"
+        },
+        {
+          "ordinal": 15,
+          "revision_ordinal": 6,
+          "data_content_type": "Structure model",
+          "group": "Structure summary"
+        }
+      ],
+      "pdbx_database_related": null,
+      "audit_author": [
+        {
+          "name": "Cabanettes, A."
+        },
+        {
+          "name": "Varrot, A."
+        }
+      ],
+      "pdbx_audit_support": null,
+      "pdbx_initial_refinement_model": [
+        {
+          "type": "other"
+        }
+      ],
+      "refine": [
+        {
+          "pdbx_refine_id": "X-RAY DIFFRACTION",
+          "ls_d_res_high": 2.1,
+          "ls_R_factor_R_work": 0.18391,
+          "ls_R_factor_R_free": 0.21925,
+          "ls_R_factor_obs": 0.18567
+        }
+      ],
+      "pdbx_vrpt_summary_diffraction": [
+        {
+          "DCC_R": 0.19,
+          "DCC_Rfree": 0.22
+        }
+      ],
+      "pdbx_nmr_ensemble": null,
+      "em_experiment": null,
+      "em_3d_reconstruction": null,
+      "em_software": null,
+      "citation": [
+        {
+          "id": "primary",
+          "title": "Recognition of Complex Core-Fucosylated N-Glycans by a Mini Lectin.",
+          "rcsb_journal_abbrev": "Angew Chem Int Ed Engl",
+          "rcsb_authors": [
+            "Cabanettes, A.",
+            "Perkams, L.",
+            "Spies, C.",
+            "Unverzagt, C.",
+            "Varrot, A."
+          ],
+          "year": 2018,
+          "journal_volume": "57",
+          "page_first": "10178",
+          "page_last": "10181",
+          "pdbx_database_id_PubMed": 29956878,
+          "pdbx_database_id_DOI": "10.1002/anie.201805165"
+        }
+      ],
+      "ihm_entry_collection_mapping": null,
+      "rcsb_entry_info": {
+        "structure_determination_methodology": "experimental",
+        "ihm_multi_scale_flag": null,
+        "ihm_multi_state_flag": null,
+        "ihm_ordered_state_flag": null,
+        "deposited_model_count": 1,
+        "representative_model": null,
+        "molecular_weight": 71.15,
+        "deposited_atom_count": 5109,
+        "deposited_polymer_monomer_count": 516,
+        "deposited_modeled_polymer_monomer_count": 487,
+        "deposited_unmodeled_polymer_monomer_count": 29,
+        "polymer_entity_count_protein": 1,
+        "polymer_entity_count_nucleic_acid": 0,
+        "polymer_entity_count_nucleic_acid_hybrid": 0
+      },
+      "rcsb_entry_group_membership": null,
+      "rcsb_binding_affinity": null,
+      "branched_entities": [
+        {
+          "rcsb_id": "6FX1_2",
+          "rcsb_branched_entity_container_identifiers": {
+            "entry_id": "6FX1",
+            "entity_id": "2",
+            "asym_ids": [
+              "M",
+              "O",
+              "R",
+              "X"
+            ],
+            "auth_asym_ids": [
+              "M",
+              "O",
+              "R",
+              "X"
+            ],
+            "reference_identifiers": [
+              {
+                "provenance_source": "RCSB",
+                "resource_name": "GlyTouCan",
+                "resource_accession": "G53233QZ"
+              },
+              {
+                "provenance_source": "RCSB",
+                "resource_name": "GlyCosmos",
+                "resource_accession": "G53233QZ"
+              }
+            ]
+          },
+          "prd": null,
+          "rcsb_branched_entity": {
+            "pdbx_description": "2-acetamido-2-deoxy-beta-D-glucopyranose-(1-2)-alpha-D-mannopyranose-(1-6)-beta-D-mannopyranose-(1-4)-2-acetamido-2-deoxy-beta-D-glucopyranose-(1-4)-[alpha-L-fucopyranose-(1-6)]1-azido-beta-N-acetyl-D-glucosamine",
+            "formula_weight": 1.123
+          },
+          "pdbx_entity_branch": {
+            "rcsb_branched_component_count": 6
+          },
+          "branched_entity_instances": [
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "6FX1",
+                "entity_id": "2",
+                "asym_id": "M",
+                "auth_asym_id": "M"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 25,
+                  "connect_partner": {
+                    "label_asym_id": "M",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "M",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 26,
+                  "connect_partner": {
+                    "label_asym_id": "M",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "M",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 27,
+                  "connect_partner": {
+                    "label_asym_id": "M",
+                    "label_seq_id": null,
+                    "label_comp_id": "FUC"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "M",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 28,
+                  "connect_partner": {
+                    "label_asym_id": "M",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "6",
+                    "label_asym_id": "M",
+                    "label_comp_id": "FUC"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 29,
+                  "connect_partner": {
+                    "label_asym_id": "M",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "M",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 30,
+                  "connect_partner": {
+                    "label_asym_id": "M",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "M",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 31,
+                  "connect_partner": {
+                    "label_asym_id": "M",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "M",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 32,
+                  "connect_partner": {
+                    "label_asym_id": "M",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "4",
+                    "label_asym_id": "M",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 33,
+                  "connect_partner": {
+                    "label_asym_id": "M",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "4",
+                    "label_asym_id": "M",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 34,
+                  "connect_partner": {
+                    "label_asym_id": "M",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "5",
+                    "label_asym_id": "M",
+                    "label_comp_id": "NAG"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            },
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "6FX1",
+                "entity_id": "2",
+                "asym_id": "O",
+                "auth_asym_id": "O"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 49,
+                  "connect_partner": {
+                    "label_asym_id": "O",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "O",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 50,
+                  "connect_partner": {
+                    "label_asym_id": "O",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "O",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 51,
+                  "connect_partner": {
+                    "label_asym_id": "O",
+                    "label_seq_id": null,
+                    "label_comp_id": "FUC"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "O",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 52,
+                  "connect_partner": {
+                    "label_asym_id": "O",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "6",
+                    "label_asym_id": "O",
+                    "label_comp_id": "FUC"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 53,
+                  "connect_partner": {
+                    "label_asym_id": "O",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "O",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 54,
+                  "connect_partner": {
+                    "label_asym_id": "O",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "O",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 55,
+                  "connect_partner": {
+                    "label_asym_id": "O",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "O",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 56,
+                  "connect_partner": {
+                    "label_asym_id": "O",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "4",
+                    "label_asym_id": "O",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 57,
+                  "connect_partner": {
+                    "label_asym_id": "O",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "4",
+                    "label_asym_id": "O",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 58,
+                  "connect_partner": {
+                    "label_asym_id": "O",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "5",
+                    "label_asym_id": "O",
+                    "label_comp_id": "NAG"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            },
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "6FX1",
+                "entity_id": "2",
+                "asym_id": "R",
+                "auth_asym_id": "R"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 79,
+                  "connect_partner": {
+                    "label_asym_id": "R",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "R",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 80,
+                  "connect_partner": {
+                    "label_asym_id": "R",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "R",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 81,
+                  "connect_partner": {
+                    "label_asym_id": "R",
+                    "label_seq_id": null,
+                    "label_comp_id": "FUC"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "R",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 82,
+                  "connect_partner": {
+                    "label_asym_id": "R",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "6",
+                    "label_asym_id": "R",
+                    "label_comp_id": "FUC"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 83,
+                  "connect_partner": {
+                    "label_asym_id": "R",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "R",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 84,
+                  "connect_partner": {
+                    "label_asym_id": "R",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "R",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 85,
+                  "connect_partner": {
+                    "label_asym_id": "R",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "R",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 86,
+                  "connect_partner": {
+                    "label_asym_id": "R",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "4",
+                    "label_asym_id": "R",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 87,
+                  "connect_partner": {
+                    "label_asym_id": "R",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "4",
+                    "label_asym_id": "R",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 88,
+                  "connect_partner": {
+                    "label_asym_id": "R",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "5",
+                    "label_asym_id": "R",
+                    "label_comp_id": "NAG"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            },
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "6FX1",
+                "entity_id": "2",
+                "asym_id": "X",
+                "auth_asym_id": "X"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 133,
+                  "connect_partner": {
+                    "label_asym_id": "X",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "X",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 134,
+                  "connect_partner": {
+                    "label_asym_id": "X",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "X",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 135,
+                  "connect_partner": {
+                    "label_asym_id": "X",
+                    "label_seq_id": null,
+                    "label_comp_id": "FUC"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "X",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 136,
+                  "connect_partner": {
+                    "label_asym_id": "X",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "6",
+                    "label_asym_id": "X",
+                    "label_comp_id": "FUC"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 137,
+                  "connect_partner": {
+                    "label_asym_id": "X",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "X",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 138,
+                  "connect_partner": {
+                    "label_asym_id": "X",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "X",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 139,
+                  "connect_partner": {
+                    "label_asym_id": "X",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "X",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 140,
+                  "connect_partner": {
+                    "label_asym_id": "X",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "4",
+                    "label_asym_id": "X",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 141,
+                  "connect_partner": {
+                    "label_asym_id": "X",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "4",
+                    "label_asym_id": "X",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 142,
+                  "connect_partner": {
+                    "label_asym_id": "X",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "5",
+                    "label_asym_id": "X",
+                    "label_comp_id": "NAG"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            }
+          ]
+        },
+        {
+          "rcsb_id": "6FX1_3",
+          "rcsb_branched_entity_container_identifiers": {
+            "entry_id": "6FX1",
+            "entity_id": "3",
+            "asym_ids": [
+              "N",
+              "U"
+            ],
+            "auth_asym_ids": [
+              "N",
+              "U"
+            ],
+            "reference_identifiers": [
+              {
+                "provenance_source": "RCSB",
+                "resource_name": "GlyTouCan",
+                "resource_accession": "G12228DK"
+              },
+              {
+                "provenance_source": "RCSB",
+                "resource_name": "GlyCosmos",
+                "resource_accession": "G12228DK"
+              }
+            ]
+          },
+          "prd": null,
+          "rcsb_branched_entity": {
+            "pdbx_description": "2-acetamido-2-deoxy-beta-D-glucopyranose-(1-2)-alpha-D-mannopyranose-(1-3)-[2-acetamido-2-deoxy-beta-D-glucopyranose-(1-2)-alpha-D-mannopyranose-(1-6)]beta-D-mannopyranose-(1-4)-2-acetamido-2-deoxy-beta-D-glucopyranose-(1-4)-[alpha-L-fucopyranose-(1-6)]1-azido-beta-N-acetyl-D-glucosamine",
+            "formula_weight": 1.488
+          },
+          "pdbx_entity_branch": {
+            "rcsb_branched_component_count": 8
+          },
+          "branched_entity_instances": [
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "6FX1",
+                "entity_id": "3",
+                "asym_id": "N",
+                "auth_asym_id": "N"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 35,
+                  "connect_partner": {
+                    "label_asym_id": "N",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "N",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 36,
+                  "connect_partner": {
+                    "label_asym_id": "N",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "N",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 37,
+                  "connect_partner": {
+                    "label_asym_id": "N",
+                    "label_seq_id": null,
+                    "label_comp_id": "FUC"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "N",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 38,
+                  "connect_partner": {
+                    "label_asym_id": "N",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "8",
+                    "label_asym_id": "N",
+                    "label_comp_id": "FUC"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 39,
+                  "connect_partner": {
+                    "label_asym_id": "N",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "N",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 40,
+                  "connect_partner": {
+                    "label_asym_id": "N",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "N",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 41,
+                  "connect_partner": {
+                    "label_asym_id": "N",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "N",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 42,
+                  "connect_partner": {
+                    "label_asym_id": "N",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "4",
+                    "label_asym_id": "N",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 43,
+                  "connect_partner": {
+                    "label_asym_id": "N",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "N",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 44,
+                  "connect_partner": {
+                    "label_asym_id": "N",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "6",
+                    "label_asym_id": "N",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 45,
+                  "connect_partner": {
+                    "label_asym_id": "N",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "4",
+                    "label_asym_id": "N",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 46,
+                  "connect_partner": {
+                    "label_asym_id": "N",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "5",
+                    "label_asym_id": "N",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 47,
+                  "connect_partner": {
+                    "label_asym_id": "N",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "6",
+                    "label_asym_id": "N",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 48,
+                  "connect_partner": {
+                    "label_asym_id": "N",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "7",
+                    "label_asym_id": "N",
+                    "label_comp_id": "NAG"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            },
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "6FX1",
+                "entity_id": "3",
+                "asym_id": "U",
+                "auth_asym_id": "U"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 107,
+                  "connect_partner": {
+                    "label_asym_id": "U",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "U",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 108,
+                  "connect_partner": {
+                    "label_asym_id": "U",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "U",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 109,
+                  "connect_partner": {
+                    "label_asym_id": "U",
+                    "label_seq_id": null,
+                    "label_comp_id": "FUC"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "U",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 110,
+                  "connect_partner": {
+                    "label_asym_id": "U",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "8",
+                    "label_asym_id": "U",
+                    "label_comp_id": "FUC"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 111,
+                  "connect_partner": {
+                    "label_asym_id": "U",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "U",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 112,
+                  "connect_partner": {
+                    "label_asym_id": "U",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "U",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 113,
+                  "connect_partner": {
+                    "label_asym_id": "U",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "U",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 114,
+                  "connect_partner": {
+                    "label_asym_id": "U",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "4",
+                    "label_asym_id": "U",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 115,
+                  "connect_partner": {
+                    "label_asym_id": "U",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "U",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 116,
+                  "connect_partner": {
+                    "label_asym_id": "U",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "6",
+                    "label_asym_id": "U",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 117,
+                  "connect_partner": {
+                    "label_asym_id": "U",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "4",
+                    "label_asym_id": "U",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 118,
+                  "connect_partner": {
+                    "label_asym_id": "U",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "5",
+                    "label_asym_id": "U",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 119,
+                  "connect_partner": {
+                    "label_asym_id": "U",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "6",
+                    "label_asym_id": "U",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 120,
+                  "connect_partner": {
+                    "label_asym_id": "U",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "7",
+                    "label_asym_id": "U",
+                    "label_comp_id": "NAG"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            }
+          ]
+        },
+        {
+          "rcsb_id": "6FX1_4",
+          "rcsb_branched_entity_container_identifiers": {
+            "entry_id": "6FX1",
+            "entity_id": "4",
+            "asym_ids": [
+              "P"
+            ],
+            "auth_asym_ids": [
+              "P"
+            ],
+            "reference_identifiers": [
+              {
+                "provenance_source": "RCSB",
+                "resource_name": "GlyTouCan",
+                "resource_accession": "G15526KS"
+              },
+              {
+                "provenance_source": "RCSB",
+                "resource_name": "GlyCosmos",
+                "resource_accession": "G15526KS"
+              }
+            ]
+          },
+          "prd": null,
+          "rcsb_branched_entity": {
+            "pdbx_description": "alpha-D-mannopyranose-(1-3)-beta-D-mannopyranose-(1-4)-2-acetamido-2-deoxy-beta-D-glucopyranose-(1-4)-[alpha-L-fucopyranose-(1-6)]1-azido-beta-N-acetyl-D-glucosamine",
+            "formula_weight": 0.92
+          },
+          "pdbx_entity_branch": {
+            "rcsb_branched_component_count": 5
+          },
+          "branched_entity_instances": [
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "6FX1",
+                "entity_id": "4",
+                "asym_id": "P",
+                "auth_asym_id": "P"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 59,
+                  "connect_partner": {
+                    "label_asym_id": "P",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "P",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 60,
+                  "connect_partner": {
+                    "label_asym_id": "P",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "P",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 61,
+                  "connect_partner": {
+                    "label_asym_id": "P",
+                    "label_seq_id": null,
+                    "label_comp_id": "FUC"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "P",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 62,
+                  "connect_partner": {
+                    "label_asym_id": "P",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "5",
+                    "label_asym_id": "P",
+                    "label_comp_id": "FUC"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 63,
+                  "connect_partner": {
+                    "label_asym_id": "P",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "P",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 64,
+                  "connect_partner": {
+                    "label_asym_id": "P",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "P",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 65,
+                  "connect_partner": {
+                    "label_asym_id": "P",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "P",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 66,
+                  "connect_partner": {
+                    "label_asym_id": "P",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "4",
+                    "label_asym_id": "P",
+                    "label_comp_id": "MAN"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            }
+          ]
+        },
+        {
+          "rcsb_id": "6FX1_5",
+          "rcsb_branched_entity_container_identifiers": {
+            "entry_id": "6FX1",
+            "entity_id": "5",
+            "asym_ids": [
+              "Q",
+              "S"
+            ],
+            "auth_asym_ids": [
+              "Q",
+              "S"
+            ],
+            "reference_identifiers": [
+              {
+                "provenance_source": "RCSB",
+                "resource_name": "GlyTouCan",
+                "resource_accession": "G70122IR"
+              },
+              {
+                "provenance_source": "RCSB",
+                "resource_name": "GlyCosmos",
+                "resource_accession": "G70122IR"
+              }
+            ]
+          },
+          "prd": null,
+          "rcsb_branched_entity": {
+            "pdbx_description": "2-acetamido-2-deoxy-beta-D-glucopyranose-(1-2)-alpha-D-mannopyranose-(1-6)-[alpha-D-mannopyranose-(1-3)]beta-D-mannopyranose-(1-4)-2-acetamido-2-deoxy-beta-D-glucopyranose-(1-4)-[alpha-L-fucopyranose-(1-6)]1-azido-beta-N-acetyl-D-glucosamine",
+            "formula_weight": 1.285
+          },
+          "pdbx_entity_branch": {
+            "rcsb_branched_component_count": 7
+          },
+          "branched_entity_instances": [
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "6FX1",
+                "entity_id": "5",
+                "asym_id": "Q",
+                "auth_asym_id": "Q"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 67,
+                  "connect_partner": {
+                    "label_asym_id": "Q",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "Q",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 68,
+                  "connect_partner": {
+                    "label_asym_id": "Q",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "Q",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 69,
+                  "connect_partner": {
+                    "label_asym_id": "Q",
+                    "label_seq_id": null,
+                    "label_comp_id": "FUC"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "Q",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 70,
+                  "connect_partner": {
+                    "label_asym_id": "Q",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "7",
+                    "label_asym_id": "Q",
+                    "label_comp_id": "FUC"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 71,
+                  "connect_partner": {
+                    "label_asym_id": "Q",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "Q",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 72,
+                  "connect_partner": {
+                    "label_asym_id": "Q",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "Q",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 73,
+                  "connect_partner": {
+                    "label_asym_id": "Q",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "Q",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 74,
+                  "connect_partner": {
+                    "label_asym_id": "Q",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "4",
+                    "label_asym_id": "Q",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 75,
+                  "connect_partner": {
+                    "label_asym_id": "Q",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "Q",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 76,
+                  "connect_partner": {
+                    "label_asym_id": "Q",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "6",
+                    "label_asym_id": "Q",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 77,
+                  "connect_partner": {
+                    "label_asym_id": "Q",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "4",
+                    "label_asym_id": "Q",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 78,
+                  "connect_partner": {
+                    "label_asym_id": "Q",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "5",
+                    "label_asym_id": "Q",
+                    "label_comp_id": "NAG"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            },
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "6FX1",
+                "entity_id": "5",
+                "asym_id": "S",
+                "auth_asym_id": "S"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 89,
+                  "connect_partner": {
+                    "label_asym_id": "S",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "S",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 90,
+                  "connect_partner": {
+                    "label_asym_id": "S",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "S",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 91,
+                  "connect_partner": {
+                    "label_asym_id": "S",
+                    "label_seq_id": null,
+                    "label_comp_id": "FUC"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "S",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 92,
+                  "connect_partner": {
+                    "label_asym_id": "S",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "7",
+                    "label_asym_id": "S",
+                    "label_comp_id": "FUC"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 93,
+                  "connect_partner": {
+                    "label_asym_id": "S",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "S",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 94,
+                  "connect_partner": {
+                    "label_asym_id": "S",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "S",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 95,
+                  "connect_partner": {
+                    "label_asym_id": "S",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "S",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 96,
+                  "connect_partner": {
+                    "label_asym_id": "S",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "4",
+                    "label_asym_id": "S",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 97,
+                  "connect_partner": {
+                    "label_asym_id": "S",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "S",
+                    "label_comp_id": "BMA"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 98,
+                  "connect_partner": {
+                    "label_asym_id": "S",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "6",
+                    "label_asym_id": "S",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 99,
+                  "connect_partner": {
+                    "label_asym_id": "S",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "4",
+                    "label_asym_id": "S",
+                    "label_comp_id": "MAN"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 100,
+                  "connect_partner": {
+                    "label_asym_id": "S",
+                    "label_seq_id": null,
+                    "label_comp_id": "MAN"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "5",
+                    "label_asym_id": "S",
+                    "label_comp_id": "NAG"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            }
+          ]
+        },
+        {
+          "rcsb_id": "6FX1_6",
+          "rcsb_branched_entity_container_identifiers": {
+            "entry_id": "6FX1",
+            "entity_id": "6",
+            "asym_ids": [
+              "T",
+              "V",
+              "W"
+            ],
+            "auth_asym_ids": [
+              "T",
+              "V",
+              "W"
+            ],
+            "reference_identifiers": [
+              {
+                "provenance_source": "RCSB",
+                "resource_name": "GlyTouCan",
+                "resource_accession": "G02611HY"
+              },
+              {
+                "provenance_source": "RCSB",
+                "resource_name": "GlyCosmos",
+                "resource_accession": "G02611HY"
+              }
+            ]
+          },
+          "prd": null,
+          "rcsb_branched_entity": {
+            "pdbx_description": "beta-D-mannopyranose-(1-4)-2-acetamido-2-deoxy-beta-D-glucopyranose-(1-4)-[alpha-L-fucopyranose-(1-6)]1-azido-beta-N-acetyl-D-glucosamine",
+            "formula_weight": 0.758
+          },
+          "pdbx_entity_branch": {
+            "rcsb_branched_component_count": 4
+          },
+          "branched_entity_instances": [
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "6FX1",
+                "entity_id": "6",
+                "asym_id": "T",
+                "auth_asym_id": "T"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 101,
+                  "connect_partner": {
+                    "label_asym_id": "T",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "T",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 102,
+                  "connect_partner": {
+                    "label_asym_id": "T",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "T",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 103,
+                  "connect_partner": {
+                    "label_asym_id": "T",
+                    "label_seq_id": null,
+                    "label_comp_id": "FUC"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "T",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 104,
+                  "connect_partner": {
+                    "label_asym_id": "T",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "4",
+                    "label_asym_id": "T",
+                    "label_comp_id": "FUC"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 105,
+                  "connect_partner": {
+                    "label_asym_id": "T",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "T",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 106,
+                  "connect_partner": {
+                    "label_asym_id": "T",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "T",
+                    "label_comp_id": "BMA"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            },
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "6FX1",
+                "entity_id": "6",
+                "asym_id": "V",
+                "auth_asym_id": "V"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 121,
+                  "connect_partner": {
+                    "label_asym_id": "V",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "V",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 122,
+                  "connect_partner": {
+                    "label_asym_id": "V",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "V",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 123,
+                  "connect_partner": {
+                    "label_asym_id": "V",
+                    "label_seq_id": null,
+                    "label_comp_id": "FUC"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "V",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 124,
+                  "connect_partner": {
+                    "label_asym_id": "V",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "4",
+                    "label_asym_id": "V",
+                    "label_comp_id": "FUC"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 125,
+                  "connect_partner": {
+                    "label_asym_id": "V",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "V",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 126,
+                  "connect_partner": {
+                    "label_asym_id": "V",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "V",
+                    "label_comp_id": "BMA"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            },
+            {
+              "rcsb_branched_entity_instance_container_identifiers": {
+                "entry_id": "6FX1",
+                "entity_id": "6",
+                "asym_id": "W",
+                "auth_asym_id": "W"
+              },
+              "rcsb_branched_struct_conn": [
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 127,
+                  "connect_partner": {
+                    "label_asym_id": "W",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "W",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 128,
+                  "connect_partner": {
+                    "label_asym_id": "W",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "W",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 129,
+                  "connect_partner": {
+                    "label_asym_id": "W",
+                    "label_seq_id": null,
+                    "label_comp_id": "FUC"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "1",
+                    "label_asym_id": "W",
+                    "label_comp_id": "C4W"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 130,
+                  "connect_partner": {
+                    "label_asym_id": "W",
+                    "label_seq_id": null,
+                    "label_comp_id": "C4W"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "4",
+                    "label_asym_id": "W",
+                    "label_comp_id": "FUC"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 131,
+                  "connect_partner": {
+                    "label_asym_id": "W",
+                    "label_seq_id": null,
+                    "label_comp_id": "BMA"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "2",
+                    "label_asym_id": "W",
+                    "label_comp_id": "NAG"
+                  }
+                },
+                {
+                  "connect_type": "covalent bond",
+                  "role": null,
+                  "ordinal_id": 132,
+                  "connect_partner": {
+                    "label_asym_id": "W",
+                    "label_seq_id": null,
+                    "label_comp_id": "NAG"
+                  },
+                  "connect_target": {
+                    "auth_seq_id": "3",
+                    "label_asym_id": "W",
+                    "label_comp_id": "BMA"
+                  }
+                }
+              ],
+              "rcsb_branched_instance_feature": null
+            }
+          ]
+        }
+      ],
+      "polymer_entities": [
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "6FX1",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6fx1A1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "B",
+                "asym_id": "B",
+                "entry_id": "6FX1",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6fx1B1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "C",
+                "asym_id": "C",
+                "entry_id": "6FX1",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6fx1C1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "D",
+                "asym_id": "D",
+                "entry_id": "6FX1",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6fx1D1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "E",
+                "asym_id": "E",
+                "entry_id": "6FX1",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6fx1E1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "F",
+                "asym_id": "F",
+                "entry_id": "6FX1",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6fx1F1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "G",
+                "asym_id": "G",
+                "entry_id": "6FX1",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6fx1G1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "G"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "G"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "G"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "G"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "H",
+                "asym_id": "H",
+                "entry_id": "6FX1",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6fx1H1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "H"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "H"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "H"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "H"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "I",
+                "asym_id": "I",
+                "entry_id": "6FX1",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6fx1I1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "I"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "I"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "I"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "J",
+                "asym_id": "J",
+                "entry_id": "6FX1",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6fx1J1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "J"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "J"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "J"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "J"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "K",
+                "asym_id": "K",
+                "entry_id": "6FX1",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6fx1K1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "K"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "K"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "K"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "K"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "L",
+                "asym_id": "L",
+                "entry_id": "6FX1",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e6fx1L1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "L"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "L"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "L"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "L"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "6FX1",
+            "entity_id": "1",
+            "asym_ids": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H",
+              "I",
+              "J",
+              "K",
+              "L"
+            ],
+            "auth_asym_ids": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H",
+              "I",
+              "J",
+              "K",
+              "L"
+            ],
+            "uniprot_ids": [
+              "A0A3B6UEU4"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "A0A3B6UEU4"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "A0A3B6UEU4",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Pholiota squarrosa"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "lectin",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cation binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "7789_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "11423_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "15311_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "A0A3B6UEU4",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "15512_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "15042_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "12712_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "GAMAPVPVTKLVCDGDTYKCTAYLDFGDGRWVAQWDTNVFHTG",
+            "rcsb_sample_sequence_length": 43,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Pholiota squarrosa",
+              "ncbi_scientific_name": "Pholiota squarrosa",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Escherichia coli BL21(DE3)"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        }
+      ],
+      "nonpolymer_entities": [
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "6FX1",
+            "entity_id": "8",
+            "auth_asym_ids": [
+              "A"
+            ],
+            "asym_ids": [
+              "Z"
+            ],
+            "nonpolymer_comp_id": "OOA"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "108",
+                "auth_asym_id": "A",
+                "asym_id": "Z",
+                "entry_id": "6FX1",
+                "entity_id": "8"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.0952,
+                  "ranking_model_geometry": 0.3013,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "RCSB"
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "3-OXOOCTANOIC ACID"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "OOA",
+              "formula_weight": 158.195,
+              "name": "3-OXOOCTANOIC ACID",
+              "formula": "C8 H14 O3"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "FWNRRWJFOZIGQZ-UHFFFAOYSA-N"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "6FX1",
+            "entity_id": "7",
+            "auth_asym_ids": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "H",
+              "I",
+              "K"
+            ],
+            "asym_ids": [
+              "AA",
+              "BA",
+              "CA",
+              "DA",
+              "EA",
+              "FA",
+              "GA",
+              "HA",
+              "IA",
+              "JA",
+              "KA",
+              "Y"
+            ],
+            "nonpolymer_comp_id": "MLI"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "109",
+                "auth_asym_id": "B",
+                "asym_id": "AA",
+                "entry_id": "6FX1",
+                "entity_id": "7"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.496,
+                  "ranking_model_geometry": 0.3461,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "107",
+                "auth_asym_id": "C",
+                "asym_id": "BA",
+                "entry_id": "6FX1",
+                "entity_id": "7"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.446,
+                  "ranking_model_geometry": 0.5417,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "106",
+                "auth_asym_id": "D",
+                "asym_id": "CA",
+                "entry_id": "6FX1",
+                "entity_id": "7"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.2611,
+                  "ranking_model_geometry": 0.3065,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "107",
+                "auth_asym_id": "D",
+                "asym_id": "DA",
+                "entry_id": "6FX1",
+                "entity_id": "7"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.3685,
+                  "ranking_model_geometry": 0.3599,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "108",
+                "auth_asym_id": "D",
+                "asym_id": "EA",
+                "entry_id": "6FX1",
+                "entity_id": "7"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.3626,
+                  "ranking_model_geometry": 0.2455,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "108",
+                "auth_asym_id": "E",
+                "asym_id": "FA",
+                "entry_id": "6FX1",
+                "entity_id": "7"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.451,
+                  "ranking_model_geometry": 0.2499,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "107",
+                "auth_asym_id": "F",
+                "asym_id": "GA",
+                "entry_id": "6FX1",
+                "entity_id": "7"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.0319,
+                  "ranking_model_geometry": 0.424,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "105",
+                "auth_asym_id": "H",
+                "asym_id": "HA",
+                "entry_id": "6FX1",
+                "entity_id": "7"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.271,
+                  "ranking_model_geometry": 0.3956,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "106",
+                "auth_asym_id": "H",
+                "asym_id": "IA",
+                "entry_id": "6FX1",
+                "entity_id": "7"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.441,
+                  "ranking_model_geometry": 0.3443,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "109",
+                "auth_asym_id": "I",
+                "asym_id": "JA",
+                "entry_id": "6FX1",
+                "entity_id": "7"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.1328,
+                  "ranking_model_geometry": 0.4969,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "105",
+                "auth_asym_id": "K",
+                "asym_id": "KA",
+                "entry_id": "6FX1",
+                "entity_id": "7"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.0637,
+                  "ranking_model_geometry": 0.5337,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "107",
+                "auth_asym_id": "A",
+                "asym_id": "Y",
+                "entry_id": "6FX1",
+                "entity_id": "7"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.7167,
+                  "ranking_model_geometry": 0.373,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "MALONATE ION"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "MLI",
+              "formula_weight": 102.046,
+              "name": "MALONATE ION",
+              "formula": "C3 H2 O4"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "OFOBLEOULBTSOW-UHFFFAOYSA-L"
+            }
+          }
+        }
+      ],
+      "assemblies": [
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "1"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_defined_assembly",
+            "method_details": null,
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": [
+            {
+              "experimental_support": "gel filtration"
+            }
+          ],
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Cyclic",
+              "symbol": "C3",
+              "oligomeric_state": "Homo 3-mer",
+              "stoichiometry": [
+                "A3"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 122
+          }
+        },
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "2"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_defined_assembly",
+            "method_details": null,
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": null,
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Cyclic",
+              "symbol": "C3",
+              "oligomeric_state": "Homo 3-mer",
+              "stoichiometry": [
+                "A3"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 122
+          }
+        },
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "3"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_defined_assembly",
+            "method_details": null,
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": null,
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Cyclic",
+              "symbol": "C3",
+              "oligomeric_state": "Homo 3-mer",
+              "stoichiometry": [
+                "A3"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 123
+          }
+        },
+        {
+          "rcsb_assembly_container_identifiers": {
+            "assembly_id": "4"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "author_defined_assembly",
+            "method_details": null,
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": null,
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Cyclic",
+              "symbol": "C3",
+              "oligomeric_state": "Homo 3-mer",
+              "stoichiometry": [
+                "A3"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 120
+          }
+        }
+      ]
+    }
+  }
+}

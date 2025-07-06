@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>多肽结构数据库 - 7OUI</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-light.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
+    <link rel="stylesheet" href="../static/css/protein_detail.css">
+    <style>
+        .info-section {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            overflow: hidden;
+        }
+        .info-section h2 {
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 15px 20px;
+            font-size: 1.2em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .info-section h2.collapsible {
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out;
+        }
+        .info-section h2.collapsible:hover {
+            background-color: #efefef;
+        }
+        .section-toggle-arrow {
+            width: 12px;
+            height: 12px;
+            border: solid #333;
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            transform: rotate(-135deg);
+            transition: transform 0.3s ease;
+        }
+        .collapsible.collapsed .section-toggle-arrow {
+            transform: rotate(45deg);
+        }
+        .info-section > div, .info-section > table {
+            padding: 20px;
+            background-color: #fff;
+        }
+        .full-width-viewer-container {
+            padding: 0 !important;
+            height: 600px;
+        }
+        .info-section > table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .info-section table td, .info-section table th {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .info-section table tr:last-child td {
+            border-bottom: none;
+        }
+        .info-section table td:first-child {
+            font-weight: 600;
+            color: #555;
+            width: 150px;
+        }
+        .citations-container .citation-item,
+        .assemblies-container .assembly-item,
+        .sequence-item {
+            padding: 15px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .citations-container .citation-item:last-child,
+        .assemblies-container .assembly-item:last-child,
+        .sequence-item:last-child {
+            border-bottom: none;
+        }
+        .sequence-wrapper {
+            max-height: 250px;
+            overflow-y: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 10px;
+            background: #fdfdfd;
+            margin-top: 10px;
+        }
+        .sequence-wrapper table {
+            width: 100%;
+            border: none;
+        }
+        .sequence-wrapper td {
+            border: none;
+        }
+        .seq-num {
+            text-align: right;
+            padding-right: 1em;
+            color: #999;
+            font-family: 'Courier New', Courier, monospace;
+            vertical-align: top;
+            font-size: 0.9em;
+        }
+        .seq-data {
+            font-family: 'Courier New', Courier, monospace;
+            word-break: break-all;
+            font-size: 1em;
+            line-height: 1.5;
+        }
+        .citation-title {
+            font-weight: bold;
+        }
+        .citation-authors {
+            font-size: 0.9em;
+            color: #555;
+        }
+        .citation-journal {
+            font-size: 0.9em;
+            color: #777;
+        }
+        .citation-links a {
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <img src="../THU-structure-LOGO.svg" alt="THU结构数据库标志" class="logo">
+            <div class="top-nav">
+                <a href="../index.html" class="nav-button">Home</a>
+                <a href="../Download.html" class="nav-button">Download</a>
+                <a href="https://www.frcbs.tsinghua.edu.cn/" class="nav-button">About</a>
+            </div>
+        </div>
+        <h1>多肽结构数据库</h1>
+        <p>浏览和可视化多肽三维结构</p>
+    </header>
+    
+    <div class="search-section">
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="搜索蛋白质、基因、PDB编号、生物体或序列">
+            <button class="search-button">搜索</button>
+        </div>
+    </div>
+    
+    <div class="protein-detail-container">
+        <div class="protein-header">
+            <h1>7OUI - 多肽结构</h1>
+            <p class="alphafold-id">7OUI</p>
+        </div>
+
+        <div class="action-buttons">
+            <span class="download-label">下载</span>
+            <div class="button-container">
+                <a href="https://files.rcsb.org/download/7OUI.pdb" download>
+                    <button>PDB文件</button>
+                </a>
+            </div>
+            <div class="button-container">
+                <a href="https://files.rcsb.org/download/7OUI.cif" download>
+                    <button>mmCIF文件</button>
+                </a>
+            </div>
+        </div>
+
+        <section class="info-section">
+            <h2 class="collapsible">
+                基本信息
+                <span class="section-toggle-arrow"></span>
+            </h2>
+            <table>
+                <tbody>
+<tr><td>PDB编号</td><td>7OUI <a href="https://www.rcsb.org/structure/7OUI" target="_blank" title="访问RCSB PDB页面">前往RCSB &#x279A;</a></td></tr>
+<tr><td>标题</td><td>Structure of C2S2M2-type Photosystem supercomplex from Arabidopsis thaliana (digitonin-extracted)</td></tr>
+<tr><td>实验方法</td><td>ELECTRON MICROSCOPY</td></tr>
+<tr><td>分辨率</td><td>2.79 Å</td></tr>
+<tr><td>发布日期</td><td>2021-08-18</td></tr>
+<tr><td>作者</td><td>Graca, A.T.; Hall, M.; Persson, K.; Schroder, W.P.</td></tr>
+<tr><td>来源生物</td><td>Arabidopsis thaliana</td></tr>
+<tr><td>关键词</td><td>Oxidoreductase, Complex, PHOTOSYNTHESIS</td></tr>
+<tr><td>EC编号</td><td>1.10.3.9</td></tr>
+<tr><td>分子量</td><td>1321.04 kDa</td></tr>
+<tr><td>实体数量</td><td>蛋白质: 23, 核酸: 0, 核酸杂合体: 0</td></tr>
+<tr><td>二硫键</td><td>Yes</td></tr>
+<tr><td>其他连接</td><td>Yes</td></tr>
+<tr><td>多肽链</td><td>F, I, K, L, M, T, U, X, f, i, k, l, m, t, u, x</td></tr>
+<tr><td>蛋白链</td><td>1, 2, 3, 4, 5, 6, 7, 8, A, B, C, D, E, G, H, N, O, R, S, W, Y, Z, a, b, c, d, e, g, h, n, o, r, s, w, y, z</td></tr>
+<tr><td>多肽长度</td><td>39, 36, 37, 38, 34, 33, 42, 28</td></tr>
+<tr><td>蛋白长度</td><td>266, 243, 212, 352, 508, 459, 72, 247, 54, 62, 232, 232, 250, 352, 83</td></tr>
+                </tbody>
+            </table>
+        </section>
+        
+
+<section class="info-section">
+    <h2 class="collapsible">
+        序列信息
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="sequences-container">
+        
+        <div class="sequence-item">
+            <h4>链: 1, 3, 5, 7 - Chlorophyll a-b binding protein, chloroplastic (长度: 266)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MAASTMALSS PALTGKAVKL SPAASEVFGT GRITMRKASK PTGPSGSPWY GSDRVKYLGP</td></tr><tr><td class="seq-num">61</td><td class="seq-data">FSGEPPSYLT GEFPGDYGWD TAGLSADPET FARNRELEVI HSRWAMLGAL GCVFPELLAR</td></tr><tr><td class="seq-num">121</td><td class="seq-data">NGVKFGEAVW FKAGSQIFSD GGLDYLGNPS LVHAQSILAI WATQVILMGA VEGYRVAGDG</td></tr><tr><td class="seq-num">181</td><td class="seq-data">PLGEAEDLLY PGGSFDPLGL ATDPEAFAEL KVKELKNGRL AMFSMFGFFV QAIVTGKGPL</td></tr><tr><td class="seq-num">241</td><td class="seq-data">ENLADHLADP VNNNAWAFAT NFVPGK</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: 2, 6 - Chlorophyll a-b binding protein 3, chloroplastic (长度: 243)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">ASSFNPLRDV VSLGSPKYTM GNDLWYGPDR VKYLGPFSVQ TPSYLTGEFP GDYGWDTAGL</td></tr><tr><td class="seq-num">61</td><td class="seq-data">SADPEAFAKN RALEVIHGRW AMLGAFGCIT PEVLQKWVRV DFKEPVWFKA GSQIFSEGGL</td></tr><tr><td class="seq-num">121</td><td class="seq-data">DYLGNPNLVH AQSILAVLGF QVILMGLVEG FRINGLDGVG EGNDLYPGGQ YFDPLGLADD</td></tr><tr><td class="seq-num">181</td><td class="seq-data">PVTFAELKVK EIKNGRLAMF SMFGFFVQAI VTGKGPLENL LDHLDNPVAN NAWAFATKFA</td></tr><tr><td class="seq-num">241</td><td class="seq-data">PGA</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: 4, 8 - Chlorophyll a-b binding protein, chloroplastic (长度: 212)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">AAAAAQPKKS WIPAVKGGGN FLDPEWLDGS LPGDFGFDPL GLGKDPAFLK WYREAELIHG</td></tr><tr><td class="seq-num">61</td><td class="seq-data">RWAMAAVLGI FVGQAWSGVA WFEAGAQPDA IAPFSFGSLL GTQLLLMGWV ESKRWVDFFN</td></tr><tr><td class="seq-num">121</td><td class="seq-data">PDSQSVEWAT PWSKTAENFA NYTGDQGYPG GRFFDPLGLA GKNRDGVYEP DFEKLERLKL</td></tr><tr><td class="seq-num">181</td><td class="seq-data">AEIKHSRLAM VAMLIFYFEA GQGKTPLGAL GL</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: A, a - Photosystem II protein D1 (长度: 352)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">TAILERRESE SLWGRFCNWI TSTENRLYIG WFGVLMIPTL LTATSVFIIA FIAAPPVDID</td></tr><tr><td class="seq-num">61</td><td class="seq-data">GIREPVSGSL LYGNNIISGA IIPTSAAIGL HFYPIWEAAS VDEWLYNGGP YELIVLHFLL</td></tr><tr><td class="seq-num">121</td><td class="seq-data">GVACYMGREW ELSFRLGMRP WIAVAYSAPV AAATAVFLIY PIGQGSFSDG MPLGISGTFN</td></tr><tr><td class="seq-num">181</td><td class="seq-data">FMIVFQAEHN ILMHPFHMLG VAGVFGGSLF SAMHGSLVTS SLIRETTENE SANEGYRFGQ</td></tr><tr><td class="seq-num">241</td><td class="seq-data">EEETYNIVAA HGYFGRLIFQ YASFNNSRSL HFFLAAWPVV GIWFTALGIS TMAFNLNGFN</td></tr><tr><td class="seq-num">301</td><td class="seq-data">FNQSVVDSQG RVINTWADII NRANLGMEVM HERNAHNFPL DLAAVEAPST NG</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: B, b - Photosystem II CP47 reaction center protein (长度: 508)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MGLPWYRVHT VVLNDPGRLL AVHIMHTALV AGWAGSMALY ELAVFDPSDP VLDPMWRQGM</td></tr><tr><td class="seq-num">61</td><td class="seq-data">FVIPFMTRLG ITNSWGGWNI TGGTITNPGL WSYEGVAGAH IVFSGLCFLA AIWHWVYWDL</td></tr><tr><td class="seq-num">121</td><td class="seq-data">EIFCDERTGK PSLDLPKIFG IHLFLSGVAC FGFGAFHVTG LYGPGIWVSD PYGLTGKVQP</td></tr><tr><td class="seq-num">181</td><td class="seq-data">VNPAWGVEGF DPFVPGGIAS HHIAAGTLGI LAGLFHLSVR PPQRLYKGLR MGNIETVLSS</td></tr><tr><td class="seq-num">241</td><td class="seq-data">SIAAVFFAAF VVAGTMWYGS ATTPIELFGP TRYQWDQGYF QQEIYRRVSA GLAENQSLSE</td></tr><tr><td class="seq-num">301</td><td class="seq-data">AWAKIPEKLA FYDYIGNNPA KGGLFRAGSM DNGDGIAVGW LGHPVFRNKE GRELFVRRMP</td></tr><tr><td class="seq-num">361</td><td class="seq-data">TFFETFPVVL VDGDGIVRAD VPFRRAESKY SVEQVGVTVE FYGGELNGVS YSDPATVKKY</td></tr><tr><td class="seq-num">421</td><td class="seq-data">ARRAQLGEIF ELDRATLKSD GVFRSSPRGW FTFGHASFAL LFFFGHIWHG ARTLFRDVFA</td></tr><tr><td class="seq-num">481</td><td class="seq-data">GIDPDLDAQV EFGAFQKLGD PTTKRQAV</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: C, c - Photosystem II CP43 reaction center protein (长度: 459)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">TLFNGTLALA GRDQETTGFA WWAGNARLIN LSGKLLGAHV AHAGLIVFWA GAMNLFEVAH</td></tr><tr><td class="seq-num">61</td><td class="seq-data">FVPEKPMYEQ GLILLPHLAT LGWGVGPGGE VIDTFPYFVS GVLHLISSAV LGFGGIYHAL</td></tr><tr><td class="seq-num">121</td><td class="seq-data">LGPETLEESF PFFGYVWKDR NKMTTILGIH LILLGVGAFL LVFKALYFGG VYDTWAPGGG</td></tr><tr><td class="seq-num">181</td><td class="seq-data">DVRKITNLTL SPSVIFGYLL KSPFGGEGWI VSVDDLEDII GGHVWLGSIC IFGGIWHILT</td></tr><tr><td class="seq-num">241</td><td class="seq-data">KPFAWARRAL VWSGEAYLSY SLAALSVCGF IACCFVWFNN TAYPSEFYGP TGPEASQAQA</td></tr><tr><td class="seq-num">301</td><td class="seq-data">FTFLVRDQRL GANVGSAQGP TGLGKYLMRS PTGEVIFGGE TMRFWDLRAP WLEPLRGPNG</td></tr><tr><td class="seq-num">361</td><td class="seq-data">LDLSRLKKDI QPWQERRSAE YMTHAPLGSL NSVGGVATEI NAVNYVSPRS WLSTSHFVLG</td></tr><tr><td class="seq-num">421</td><td class="seq-data">FFLFVGHLWH AGRARAAAAG FEKGIDRDFE PVLSMTPLN</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: F, f - Cytochrome b559 subunit beta (PsbF) (长度: 39)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MTIDRTYPIF TVRWLAVHGL AVPTVSFLGS ISAMQFIQR</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: H, h - Photosystem II reaction center protein H (长度: 72)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">ATQTVEDSSR SGPRSTTVGK LLKPLNSEYG KVAPGWGTTP LMGVAMALFA VFLSIILEIY</td></tr><tr><td class="seq-num">61</td><td class="seq-data">NSSVLLDGIS VN</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: I, i - Photosystem II reaction center protein I (长度: 36)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MLTLKLFVYT VVIFFVSLFI FGFLSNDPGR NPGREE</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: K, k - Photosystem II reaction center protein K (长度: 37)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">KLPEAYAFLN PIVDVMPVIP LFFLLLAFVW QAAVSFR</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: L, l - Photosystem II reaction center protein L (长度: 38)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MTQSNPNEQS VELNRTSLYW GLLLIFVLAV LFSNYFFN</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: M, m - Photosystem II reaction center protein M (长度: 34)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MEVNILAFIA TALFILVPTA FLLIIYVKTV SQND</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: O, o - Oxygen-evolving enhancer protein 1-1, chloroplastic (长度: 247)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">EGAPKRLTYD EIQSKTYMEV KGTGTANQCP TIDGGSETFS FKPGKYAGKK FCFEPTSFTV</td></tr><tr><td class="seq-num">61</td><td class="seq-data">KADSVSKNAP PEFQNTKLMT RLTYTLDEIE GPFEVASDGS VNFKEEDGID YAAVTVQLPG</td></tr><tr><td class="seq-num">121</td><td class="seq-data">GERVPFLFTV KQLDASGKPD SFTGKFLVPS YRGSSFLDPK GRGGSTGYDN AVALPAGGRG</td></tr><tr><td class="seq-num">181</td><td class="seq-data">DEEELVKENV KNTAASVGEI TLKVTKSKPE TGEVIGVFES LQPSDTDLGA KVPKDVKIQG</td></tr><tr><td class="seq-num">241</td><td class="seq-data">VWYGQLE</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: T, t - Photosystem II reaction center protein T (长度: 33)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MEALVYTFLL VSTLGIIFFA IFFREPPKIS TKK</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: W, w - Photosystem II reaction center W protein, chloroplastic (长度: 54)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">LVDERMSTEG TGLPFGLSNN LLGWILFGVF GLIWTFFFVY TSSLEEDEES GLSL</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: X, x - (thale cress) hypothetical protein (长度: 42)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">AGSGISPSLK NFLLSIASGG LVLTVIIGVV VGVSNFDPVK RT</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: Z, z - Photosystem II reaction center protein Z (长度: 62)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MTIAFQLAVF ALIITSSILL ISVPVVFASP DGWSSNKNVV FSGTSLWIGL VFLVGILNSL</td></tr><tr><td class="seq-num">61</td><td class="seq-data">IS</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: S, s - Chlorophyll a-b binding protein CP26, chloroplastic (长度: 232)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">SKAVSETSDE LAKWYGPDRR IFLPDGLLDR SEIPEYLNGE VAGDYGYDPF GLGKKPENFA</td></tr><tr><td class="seq-num">61</td><td class="seq-data">KYQAFELIHA RWAMLGAAGF IIPEALNKYG ANCGPEAVWF KTGALLLDGN TLNYFGKNIP</td></tr><tr><td class="seq-num">121</td><td class="seq-data">INLVLAVVAE VVLLGGAEYY RITNGLDFED KLHPGGPFDP LGLAKDPEQG ALLKVKEIKN</td></tr><tr><td class="seq-num">181</td><td class="seq-data">GRLAMFAMLG FFIQAYVTGE GPVENLAKHL SDPFGNNLLT VIAGTAERAP TL</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: G, N, Y, g, n, y - Chlorophyll a-b binding protein 1, chloroplastic (长度: 232)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">RKTVAKPKGP SGSPWYGSDR VKYLGPFSGE SPSYLTGEFP GDYGWDTAGL SADPETFARN</td></tr><tr><td class="seq-num">61</td><td class="seq-data">RELEVIHSRW AMLGALGCVF PELLARNGVK FGEAVWFKAG SQIFSDGGLD YLGNPSLVHA</td></tr><tr><td class="seq-num">121</td><td class="seq-data">QSILAIWATQ VILMGAVEGY RVAGNGPLGE AEDLLYPGGS FDPLGLATDP EAFAELKVKE</td></tr><tr><td class="seq-num">181</td><td class="seq-data">LKNGRLAMFS MFGFFVQAIV TGKGPIENLA DHLADPVNNN AWAFATNFVP GK</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: R, r - Chlorophyll a-b binding protein CP29.1, chloroplastic (长度: 250)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">AAPKKSAKKT VTTDRPLWYP GAISPDWLDG SLVGDYGFDP FGLGKPAEYL QFDIDSLDQN</td></tr><tr><td class="seq-num">61</td><td class="seq-data">LAKNLAGDVI GTRTEAADAK STPFQPYSEV FGIQRFRECE LIHGRWAMLA TLGALSVEWL</td></tr><tr><td class="seq-num">121</td><td class="seq-data">TGVTWQDAGK VELVDGSSYL GQPLPFSIST LIWIEVLVIG YIEFQRNAEL DSEKRLYPGG</td></tr><tr><td class="seq-num">181</td><td class="seq-data">KFFDPLGLAA DPEKTAQLQL AEIKHARLAM VAFLGFAVQA AATGKGPLNN WATHLSDPLH</td></tr><tr><td class="seq-num">241</td><td class="seq-data">TTIIDTFSSS</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: U, u - Photosystem II 5 kDa protein, chloroplastic (长度: 28)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">EPKRGTEAAK KKYAQVCVTM PTAKICRY</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: D, d - Photosystem II D2 protein (长度: 352)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">TIALGKFTKD EKDLFDIMDD WLRRDRFVFV GWSGLLLFPC AYFALGGWFT GTTFVTSWYT</td></tr><tr><td class="seq-num">61</td><td class="seq-data">HGLASSYLEG CNFLTAAVST PANSLAHSLL LLWGPEAQGD FTRWCQLGGL WAFVALHGAF</td></tr><tr><td class="seq-num">121</td><td class="seq-data">ALIGFMLRQF ELARSVQLRP YNAIAFSGPI AVFVSVFLIY PLGQSGWFFA PSFGVAAIFR</td></tr><tr><td class="seq-num">181</td><td class="seq-data">FILFFQGFHN WTLNPFHMMG VAGVLGAALL CAIHGATVEN TLFEDGDGAN TFRAFNPTQA</td></tr><tr><td class="seq-num">241</td><td class="seq-data">EETYSMVTAN RFWSQIFGVA FSNKRWLHFF MLFVPVTGLW MSALGVVGLA LNLRAYDFVS</td></tr><tr><td class="seq-num">301</td><td class="seq-data">QEIRAAEDPE FETFYTKNIL LNEGIRAWMA AQDQPHENLI FPEEVLPRGN AL</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="sequence-item">
+            <h4>链: E, e - Cytochrome b559 subunit alpha (长度: 83)</h4>
+            <div class="sequence-wrapper">
+                <table>
+                    <tbody>
+                        <tr><td class="seq-num">1</td><td class="seq-data">MSGSTGERSF ADIITSIRYW VIHSITIPSL FIAGWLFVST GLAYDVFGSP RPNEYFTESR</td></tr><tr><td class="seq-num">61</td><td class="seq-data">QGIPLITGRF DSLEQLDEFS RSF</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        参考文献
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="citations-container">
+<div class="citation-item"><p class="citation-title">High-resolution model of Arabidopsis Photosystem II reveals the structural consequences of digitonin-extraction.</p><p class="citation-authors">Graca, A.T., Hall, M., Persson, K., Schroder, W.P.</p><p class="citation-journal"><em>Sci Rep</em>, 2021</p><p class="citation-links"><a href="https://pubmed.ncbi.nlm.nih.gov/34330992/" target="_blank">PubMed: 34330992</a> | <a href="https://doi.org/10.1038/s41598-021-94914-x" target="_blank">DOI: 10.1038/s41598-021-94914-x</a></p></div><div class="citation-item"><p class="citation-title">Real-space refinement in PHENIX for cryo-EM and crystallography</p><p class="citation-authors">Afonine, P.V., Poon, B.K., Read, R.J., Sobolev, O.V., Terwilliger, T.C., Urzhumtsev, A., Adams, P.D.</p><p class="citation-journal"><em>Acta Crystallogr D Biol Crystallogr</em>, 2018</p></div>
+    </div>
+</section>
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        配体信息
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>名称</th>
+                    <th>化学式</th>
+                    <th>分子量</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>CHL</td><td>CHLOROPHYLL B</td><td>C55 H70 Mg N4 O6</td><td>907.472</td></tr>
+<tr><td>CLA</td><td>CHLOROPHYLL A</td><td>C55 H72 Mg N4 O5</td><td>893.489</td></tr>
+<tr><td>LHG</td><td>1,2-DIPALMITOYL-PHOSPHATIDYL-GLYCEROLE</td><td>C38 H75 O10 P</td><td>722.97</td></tr>
+<tr><td>PHO</td><td>PHEOPHYTIN A</td><td>C55 H74 N4 O5</td><td>871.2</td></tr>
+<tr><td>BCR</td><td>BETA-CAROTENE</td><td>C40 H56</td><td>536.873</td></tr>
+<tr><td>SQD</td><td>1,2-DI-O-ACYL-3-O-[6-DEOXY-6-SULFO-ALPHA-D-GLUCOPYRANOSYL]-SN-GLYCEROL</td><td>C41 H78 O12 S</td><td>795.116</td></tr>
+<tr><td>LMG</td><td>1,2-DISTEAROYL-MONOGALACTOSYL-DIGLYCERIDE</td><td>C45 H86 O10</td><td>787.158</td></tr>
+<tr><td>PL9</td><td>2,3-DIMETHYL-5-(3,7,11,15,19,23,27,31,35-NONAMETHYL-2,6,10,14,18,22,26,30,34-HEXATRIACONTANONAENYL-2,5-CYCLOHEXADIENE-1,4-DIONE-2,3-DIMETHYL-5-SOLANESYL-1,4-BENZOQUINONE</td><td>C53 H80 O2</td><td>749.201</td></tr>
+<tr><td>AJP</td><td>Digitonin</td><td>C56 H92 O29</td><td>1229.312</td></tr>
+<tr><td>BCT</td><td>BICARBONATE ION</td><td>C H O3</td><td>61.017</td></tr>
+<tr><td>FE2</td><td>FE (II) ION</td><td>Fe</td><td>55.845</td></tr>
+<tr><td>DGD</td><td>DIGALACTOSYL DIACYL GLYCEROL (DGDG)</td><td>C51 H96 O15</td><td>949.299</td></tr>
+<tr><td>CA</td><td>CALCIUM ION</td><td>Ca</td><td>40.078</td></tr>
+<tr><td>CL</td><td>CHLORIDE ION</td><td>Cl</td><td>35.453</td></tr>
+<tr><td>HEM</td><td>PROTOPORPHYRIN IX CONTAINING FE</td><td>C34 H32 Fe N4 O4</td><td>616.487</td></tr>
+<tr><td>LUT</td><td>(3R,3'R,6S)-4,5-DIDEHYDRO-5,6-DIHYDRO-BETA,BETA-CAROTENE-3,3'-DIOL</td><td>C40 H56 O2</td><td>568.871</td></tr>
+<tr><td>NEX</td><td>(1R,3R)-6-{(3E,5E,7E,9E,11E,13E,15E,17E)-18-[(1S,4R,6R)-4-HYDROXY-2,2,6-TRIMETHYL-7-OXABICYCLO[4.1.0]HEPT-1-YL]-3,7,12,16-TETRAMETHYLOCTADECA-1,3,5,7,9,11,13,15,17-NONAENYLIDENE}-1,5,5-TRIMETHYLCYCLOHEXANE-1,3-DIOL</td><td>C40 H56 O4</td><td>600.87</td></tr>
+<tr><td>XAT</td><td>(3S,5R,6S,3'S,5'R,6'S)-5,6,5',6'-DIEPOXY-5,6,5',6'- TETRAHYDRO-BETA,BETA-CAROTENE-3,3'-DIOL</td><td>C40 H56 O4</td><td>600.87</td></tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+<section class="info-section">
+    <h2 class="collapsible">
+        生物组装
+        <span class="section-toggle-arrow"></span>
+    </h2>
+    <div class="assemblies-container">
+        <div class="assembly-item"><p><strong>组装 ID:</strong> 1</p><p><strong>详情:</strong> author_defined_assembly</p><p><strong>寡聚状态:</strong> Hetero 52-mer</p><p><strong>化学计量:</strong> A10, B2, C2, D2, E2, F2, G2, H2, I2, J2, K2, L2, M2, N2, O2, P2, Q2, R2, S2, T2, U2, V2</p></div>
+    </div>
+</section>
+
+        <section class="info-section">
+            <h2 class="collapsible">
+                3D 结构可视化
+                <span class="section-toggle-arrow"></span>
+            </h2>
+            <div class="full-width-viewer-container">
+                <div id="myViewer"></div>
+            </div>
+        </section>
+
+        <script type="text/javascript">
+            var viewerInstance = new PDBeMolstarPlugin();
+            var options = {
+                customData: {
+                    url: 'https://files.rcsb.org/download/7OUI.cif',
+                    format: 'cif'
+                },
+                moleculeId: '7OUI',
+                alphafoldView: true,
+                bgColor: { r: 30, g: 30, b: 30 },
+                hideControls: true,
+                subscribeEvents: true
+            }
+            var viewerContainer = document.getElementById('myViewer');
+            viewerInstance.render(viewerContainer, options);
+            
+            // 添加折叠/展开功能
+            document.querySelectorAll('.collapsible').forEach(header => {
+                const content = header.nextElementSibling;
+                if (!content) return;
+                
+                const headerText = header.innerText || header.textContent;
+
+                // 默认折叠，但"基本信息"和"3D 结构可视化"默认展开
+                if (!headerText.includes('基本信息') && !headerText.includes('3D 结构可视化')) {
+                    header.classList.add('collapsed');
+                    content.style.display = 'none';
+                }
+
+                header.addEventListener('click', () => {
+                    header.classList.toggle('collapsed');
+                    if (header.classList.contains('collapsed')) {
+                        content.style.display = 'none';
+                    } else {
+                        content.style.display = 'block';
+                    }
+                });
+            });
+        </script>
+    </div>
+    
+    <script src="../static/js/protein_detail.js"></script>
+</body>
+</html>
