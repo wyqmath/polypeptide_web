@@ -213,16 +213,16 @@
     </header>
     
     <div class="search-section">
-        <div class="search-container">
-            <input type="text" id="mainSearchInput" class="search-box" placeholder="Search for proteins, genes, UniProt numbers, organisms, sequences, PDB IDs, experimental methods...">
-            <button class="search-button" id="mainSearchButton">Search</button>
-        </div>
+        <form action="search.html" method="GET" class="search-container">
+            <input type="text" name="q" id="mainSearchInput" class="search-box" placeholder="Search for proteins, genes, UniProt numbers, organisms, sequences, PDB IDs, experimental methods...">
+            <button type="submit" class="search-button" id="mainSearchButton">Search</button>
+        </form>
         <div class="search-examples">
             <span class="examples-label">Examples: </span>
-            <a href="pdb_pages/1CRN.html" class="example-tag">1CRN</a>
-            <a href="pdb_pages/2INS.html" class="example-tag">2INS</a>
-            <a href="pdb_pages/3INS.html" class="example-tag">3INS</a>
-            <a href="pdb_pages/4CPA.html" class="example-tag">4CPA</a>
+            <a href="search.html?q=1CRN" class="example-tag">1CRN</a>
+            <a href="search.html?q=2INS" class="example-tag">2INS</a>
+            <a href="search.html?q=3INS" class="example-tag">3INS</a>
+            <a href="search.html?q=4CPA" class="example-tag">4CPA</a>
         </div>
     </div>
     

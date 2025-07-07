@@ -90,6 +90,7 @@ def extract_pdb_data(json_path):
     ec_numbers, host_organisms, gene_names = [], [], []
     organisms = []
     polymer_entities_sequences = []
+    uniprot_ids = []
     
     # Get cycpepdb_ssbond value directly from entry
     ss_bond_str = entry.get('cycpepdb_ssbond')
@@ -107,6 +108,10 @@ def extract_pdb_data(json_path):
             chain_ids_container = (entity.get('rcsb_polymer_entity_container_identifiers') or {})
             chain_ids = chain_ids_container.get('auth_asym_ids')
             entity_id = chain_ids_container.get('entity_id')
+            
+            uniprot_list = chain_ids_container.get('uniprot_ids')
+            if uniprot_list:
+                uniprot_ids.extend(uniprot_list)
             
             poly_info = entity.get('entity_poly') or {}
             length = poly_info.get('rcsb_sample_sequence_length')
@@ -273,6 +278,7 @@ def extract_pdb_data(json_path):
         "ligands": ligands,
         "assemblies": assemblies,
         "sequences": polymer_entities_sequences,
+        "uniprot_ids": ", ".join(sorted(list(set(uniprot_ids)))) or None,
         "format": 'cif'
     }
 
@@ -492,12 +498,23 @@ try:
         pdb_id = pdb_info['pdb_id']
 
         # Collect PDB info for the JS list
+        # Concatenate all sequences into a single searchable string
+        all_sequences = " ".join([s.get('sequence', '') for s in pdb_info.get('sequences', [])])
+
         pdb_data_list.append({
             "id": pdb_id,
             "method": pdb_info.get('method') or 'N/A',
             "resolution": pdb_info.get('resolution') or 'N/A',
             "date": pdb_info.get('date') or 'N/A',
-            "note": pdb_info.get('title') or ''
+            "note": pdb_info.get('title') or '',
+            "authors": pdb_info.get('authors') or '',
+            "organisms": pdb_info.get('organisms') or '',
+            "keywords": pdb_info.get('keywords') or '',
+            "host_organisms": pdb_info.get('host_organisms') or '',
+            "gene_names": pdb_info.get('gene_names') or '',
+            "ec_numbers": pdb_info.get('ec_numbers') or '',
+            "uniprot_ids": pdb_info.get('uniprot_ids') or '',
+            "sequences": all_sequences
         })
 
         # Create HTML page content for a single PDB
@@ -704,10 +721,10 @@ try:
     </header>
     
     <div class="search-section">
-        <div class="search-container">
-            <input type="text" class="search-box" placeholder="Search for proteins, genes, PDB IDs, organisms, or sequences">
-            <button class="search-button">Search</button>
-        </div>
+        <form action="../search.html" method="GET" class="search-container">
+            <input type="text" name="q" id="mainSearchInput" class="search-box" placeholder="Search for proteins, genes, PDB IDs, organisms, or sequences">
+            <button type="submit" class="search-button" id="mainSearchButton">Search</button>
+        </form>
     </div>
     
     <div class="protein-detail-container">
@@ -816,6 +833,7 @@ try:
     </footer>
 
     <script src="../static/js/protein_detail.js"></script>
+    <script src="../pdb_list.js"></script>
 </body>
 </html>"""
         # Write the HTML file

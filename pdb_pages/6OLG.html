@@ -192,10 +192,10 @@
     </header>
     
     <div class="search-section">
-        <div class="search-container">
-            <input type="text" class="search-box" placeholder="Search for proteins, genes, PDB IDs, organisms, or sequences">
-            <button class="search-button">Search</button>
-        </div>
+        <form action="../search.html" method="GET" class="search-container">
+            <input type="text" name="q" id="mainSearchInput" class="search-box" placeholder="Search for proteins, genes, PDB IDs, organisms, or sequences">
+            <button type="submit" class="search-button" id="mainSearchButton">Search</button>
+        </form>
     </div>
     
     <div class="protein-detail-container">
@@ -1309,5 +1309,6 @@
     </footer>
 
     <script src="../static/js/protein_detail.js"></script>
+    <script src="../pdb_list.js"></script>
 </body>
 </html>
