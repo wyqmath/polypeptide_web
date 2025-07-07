@@ -638,6 +638,55 @@ try:
         .citation-links a {{
             font-size: 0.9em;
         }}
+
+        footer {{
+            background-color: #333;
+            color: white;
+            padding: 20px 50px;
+            margin-top: 40px;
+        }}
+        .footer-content {{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            text-align: left;
+        }}
+        .footer-section {{
+            flex: 1;
+            min-width: 300px;
+            margin: 10px;
+        }}
+        footer h4 {{
+            color: #f2f2f2;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #555;
+            padding-bottom: 10px;
+            font-size: 1.1em;
+        }}
+        footer a {{
+            color: #ccc;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+        }}
+        footer a:hover {{
+            color: white;
+            text-decoration: underline;
+        }}
+        footer p {{
+            margin: 0 0 8px 0;
+            color: #ccc;
+            line-height: 1.6;
+        }}
+        .footer-bottom {{
+            text-align: center;
+            border-top: 1px solid #555;
+            padding-top: 20px;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #aaa;
+        }}
     </style>
 </head>
 <body>
@@ -748,6 +797,24 @@ try:
         </script>
     </div>
     
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Useful Links</h4>
+                <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a>
+                <a href="https://www.frcbs.tsinghua.edu.cn/" target="_blank">Beijing Frontier Research Center for Biological Structure, Tsinghua University</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Address: Tsinghua University, Haidian District, Beijing, China</p>
+                <p>TEL: +86-10-62787063</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2025 Beijing Frontier Research Center for Biological Structure, Tsinghua University. All Rights Reserved.</p>
+        </div>
+    </footer>
+
     <script src="../static/js/protein_detail.js"></script>
 </body>
 </html>"""

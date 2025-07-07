@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>多肽结构数据库 - 4V4Y</title>
+    <title>Polypeptide Structure Database - 4V4Y</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-light.css" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
     <link rel="stylesheet" href="../static/css/protein_detail.css">
@@ -126,75 +126,124 @@
         .citation-links a {
             font-size: 0.9em;
         }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 50px;
+            margin-top: 40px;
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .footer-section {
+            flex: 1;
+            min-width: 300px;
+            margin: 10px;
+        }
+        footer h4 {
+            color: #f2f2f2;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #555;
+            padding-bottom: 10px;
+            font-size: 1.1em;
+        }
+        footer a {
+            color: #ccc;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+        }
+        footer a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+        footer p {
+            margin: 0 0 8px 0;
+            color: #ccc;
+            line-height: 1.6;
+        }
+        .footer-bottom {
+            text-align: center;
+            border-top: 1px solid #555;
+            padding-top: 20px;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="top-header">
-            <img src="../THU-structure-LOGO.svg" alt="THU结构数据库标志" class="logo">
+            <img src="../THU-structure-LOGO.svg" alt="THU Structure Database Logo" class="logo">
             <div class="top-nav">
                 <a href="../index.html" class="nav-button">Home</a>
                 <a href="../Download.html" class="nav-button">Download</a>
                 <a href="https://www.frcbs.tsinghua.edu.cn/" class="nav-button">About</a>
             </div>
         </div>
-        <h1>多肽结构数据库</h1>
-        <p>浏览和可视化多肽三维结构</p>
+        <h1>Polypeptide Structure Database</h1>
+        <p>Browse and visualize 3D structures of polypeptides</p>
     </header>
     
     <div class="search-section">
         <div class="search-container">
-            <input type="text" class="search-box" placeholder="搜索蛋白质、基因、PDB编号、生物体或序列">
-            <button class="search-button">搜索</button>
+            <input type="text" class="search-box" placeholder="Search for proteins, genes, PDB IDs, organisms, or sequences">
+            <button class="search-button">Search</button>
         </div>
     </div>
     
     <div class="protein-detail-container">
         <div class="protein-header">
-            <h1>4V4Y - 多肽结构</h1>
+            <h1>4V4Y - Polypeptide Structure</h1>
             <p class="alphafold-id">4V4Y</p>
         </div>
 
         <div class="action-buttons">
-            <span class="download-label">下载</span>
+            <span class="download-label">Download</span>
             <div class="button-container">
                 <a href="https://files.rcsb.org/download/4V4Y.pdb" download>
-                    <button>PDB文件</button>
+                    <button>PDB File</button>
                 </a>
             </div>
             <div class="button-container">
                 <a href="https://files.rcsb.org/download/4V4Y.cif" download>
-                    <button>mmCIF文件</button>
+                    <button>mmCIF File</button>
                 </a>
             </div>
         </div>
 
         <section class="info-section">
             <h2 class="collapsible">
-                基本信息
+                Summary
                 <span class="section-toggle-arrow"></span>
             </h2>
             <table>
                 <tbody>
-<tr><td>PDB编号</td><td>4V4Y <a href="https://www.rcsb.org/structure/4V4Y" target="_blank" title="访问RCSB PDB页面">前往RCSB &#x279A;</a></td></tr>
-<tr><td>标题</td><td>Crystal structure of the 70S Thermus thermophilus ribosome with translocated and rotated Shine-Dalgarno Duplex.</td></tr>
-<tr><td>实验方法</td><td>X-RAY DIFFRACTION</td></tr>
-<tr><td>分辨率</td><td>5.50 Å</td></tr>
+<tr><td>PDB ID</td><td>4V4Y <a href="https://www.rcsb.org/structure/4V4Y" target="_blank" title="Visit RCSB PDB page">Go to RCSB &#x279A;</a></td></tr>
+<tr><td>Title</td><td>Crystal structure of the 70S Thermus thermophilus ribosome with translocated and rotated Shine-Dalgarno Duplex.</td></tr>
+<tr><td>Method</td><td>X-RAY DIFFRACTION</td></tr>
+<tr><td>Resolution</td><td>5.50 Å</td></tr>
 <tr><td>R-factors</td><td>R-work: 0.243, R-free: 0.326</td></tr>
-<tr><td>发布日期</td><td>2014-07-09</td></tr>
-<tr><td>作者</td><td>Jenner, L.; Yusupova, G.; Rees, B.; Moras, D.; Yusupov, M.</td></tr>
-<tr><td>来源生物</td><td>Escherichia coli, Thermus thermophilus</td></tr>
-<tr><td>关键词</td><td>RIBOSOME, SHINE-DALGARNO, POST-INITIATION</td></tr>
-<tr><td>分子量</td><td>2287.27 kDa</td></tr>
-<tr><td>实体数量</td><td>蛋白质: 50, 核酸: 5, 核酸杂合体: 0</td></tr>
-<tr><td>空间群</td><td>I 4 2 2</td></tr>
-<tr><td>晶胞参数</td><td>a=508.54 Å, b=508.54 Å, c=806.29 Å, α=90.00°, β=90.00°, γ=90.00°</td></tr>
-<tr><td>二硫键</td><td>B811-B814;B811-B827;B814-B827</td></tr>
-<tr><td>其他连接</td><td>Yes</td></tr>
-<tr><td>多肽链</td><td>AX, B6, B8</td></tr>
-<tr><td>蛋白链</td><td>A1, AA, AB, AC, AD, AE, AF, AG, AH, AI, AJ, AK, AL, AM, AN, AO, AP, AQ, AR, AS, AT, AU, AV, AW, B1, B2, B3, B4, B5, B7, BA, BB, BC, BD, BE, BF, BG, BH, BK, BL, BM, BN, BO, BP, BQ, BR, BS, BT, BU, BV, BW, BX, BY, BZ</td></tr>
-<tr><td>多肽长度</td><td>27, 49, 37</td></tr>
-<tr><td>蛋白长度</td><td>1522, 138, 128, 105, 129, 132, 126, 61, 89, 88, 105, 50, 88, 93, 106, 2916, 123, 229, 276, 206, 210, 76, 182, 180, 148, 147, 140, 122, 150, 141, 118, 112, 256, 146, 118, 101, 113, 96, 110, 206, 85, 67, 60, 239, 71, 60, 54, 65, 209, 162, 101, 156</td></tr>
+<tr><td>Release Date</td><td>2014-07-09</td></tr>
+<tr><td>Authors</td><td>Jenner, L.; Yusupova, G.; Rees, B.; Moras, D.; Yusupov, M.</td></tr>
+<tr><td>Source Organism</td><td>Escherichia coli, Thermus thermophilus</td></tr>
+<tr><td>Keywords</td><td>RIBOSOME, SHINE-DALGARNO, POST-INITIATION</td></tr>
+<tr><td>Molecular Weight</td><td>2287.27 kDa</td></tr>
+<tr><td>Entity Count</td><td>Protein: 50, Nucleic Acid: 5, NA Hybrid: 0</td></tr>
+<tr><td>Space Group</td><td>I 4 2 2</td></tr>
+<tr><td>Cell Parameters</td><td>a=508.54 Å, b=508.54 Å, c=806.29 Å, α=90.00°, β=90.00°, γ=90.00°</td></tr>
+<tr><td>Disulfide Bond</td><td>B811-B814;B811-B827;B814-B827</td></tr>
+<tr><td>Other Links</td><td>Yes</td></tr>
+<tr><td>Peptide Chains</td><td>AX, B6, B8</td></tr>
+<tr><td>Protein Chains</td><td>A1, AA, AB, AC, AD, AE, AF, AG, AH, AI, AJ, AK, AL, AM, AN, AO, AP, AQ, AR, AS, AT, AU, AV, AW, B1, B2, B3, B4, B5, B7, BA, BB, BC, BD, BE, BF, BG, BH, BK, BL, BM, BN, BO, BP, BQ, BR, BS, BT, BU, BV, BW, BX, BY, BZ</td></tr>
+<tr><td>Peptide Lengths</td><td>27, 49, 37</td></tr>
+<tr><td>Protein Lengths</td><td>1522, 138, 128, 105, 129, 132, 126, 61, 89, 88, 105, 50, 88, 93, 106, 2916, 123, 229, 276, 206, 210, 76, 182, 180, 148, 147, 140, 122, 150, 141, 118, 112, 256, 146, 118, 101, 113, 96, 110, 206, 85, 67, 60, 239, 71, 60, 54, 65, 209, 162, 101, 156</td></tr>
                 </tbody>
             </table>
         </section>
@@ -202,13 +251,13 @@
 
 <section class="info-section">
     <h2 class="collapsible">
-        序列信息
+        Sequence Information
         <span class="section-toggle-arrow"></span>
     </h2>
     <div class="sequences-container">
         
         <div class="sequence-item">
-            <h4>链: AA - 16S ribosomal RNA (长度: 1522)</h4>
+            <h4>Chain: AA - 16S ribosomal RNA (Length: 1522)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -219,7 +268,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: AK - 30S ribosomal protein S8 (长度: 138)</h4>
+            <h4>Chain: AK - 30S ribosomal protein S8 (Length: 138)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -230,7 +279,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: AL - 30S ribosomal protein S9 (长度: 128)</h4>
+            <h4>Chain: AL - 30S ribosomal protein S9 (Length: 128)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -241,7 +290,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: AM - 30S ribosomal protein S10 (长度: 105)</h4>
+            <h4>Chain: AM - 30S ribosomal protein S10 (Length: 105)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -252,7 +301,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: AN - 30S ribosomal protein S11 (长度: 129)</h4>
+            <h4>Chain: AN - 30S ribosomal protein S11 (Length: 129)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -263,7 +312,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: AO - 30S ribosomal protein S12 (长度: 132)</h4>
+            <h4>Chain: AO - 30S ribosomal protein S12 (Length: 132)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -274,7 +323,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: AP - 30S ribosomal protein S13 (长度: 126)</h4>
+            <h4>Chain: AP - 30S ribosomal protein S13 (Length: 126)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -285,7 +334,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: AQ - 30S ribosomal protein S14 (长度: 61)</h4>
+            <h4>Chain: AQ - 30S ribosomal protein S14 (Length: 61)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -296,7 +345,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: AR - 30S ribosomal protein S15 (长度: 89)</h4>
+            <h4>Chain: AR - 30S ribosomal protein S15 (Length: 89)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -307,7 +356,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: AS - 30S ribosomal protein S16 (长度: 88)</h4>
+            <h4>Chain: AS - 30S ribosomal protein S16 (Length: 88)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -318,7 +367,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: AT - 30S ribosomal protein S17 (长度: 105)</h4>
+            <h4>Chain: AT - 30S ribosomal protein S17 (Length: 105)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -329,7 +378,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: A1 - mRNA (长度: 50)</h4>
+            <h4>Chain: A1 - mRNA (Length: 50)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -340,7 +389,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: AU - 30S ribosomal protein S18 (长度: 88)</h4>
+            <h4>Chain: AU - 30S ribosomal protein S18 (Length: 88)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -351,7 +400,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: AV - 30S ribosomal protein S19 (长度: 93)</h4>
+            <h4>Chain: AV - 30S ribosomal protein S19 (Length: 93)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -362,7 +411,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: AW - 30S ribosomal protein S20 (长度: 106)</h4>
+            <h4>Chain: AW - 30S ribosomal protein S20 (Length: 106)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -373,7 +422,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: AX - 30S ribosomal protein Thx (长度: 27)</h4>
+            <h4>Chain: AX - 30S ribosomal protein Thx (Length: 27)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -384,7 +433,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BA - 23S ribosomal RNA (长度: 2916)</h4>
+            <h4>Chain: BA - 23S ribosomal RNA (Length: 2916)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -395,7 +444,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BB - 5S ribosomal RNA (长度: 123)</h4>
+            <h4>Chain: BB - 5S ribosomal RNA (Length: 123)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -406,7 +455,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BC - 50S ribosomal protein L1 (长度: 229)</h4>
+            <h4>Chain: BC - 50S ribosomal protein L1 (Length: 229)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -417,7 +466,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BD - 50S ribosomal protein L2 (长度: 276)</h4>
+            <h4>Chain: BD - 50S ribosomal protein L2 (Length: 276)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -428,7 +477,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BE - 50S ribosomal protein L3 (长度: 206)</h4>
+            <h4>Chain: BE - 50S ribosomal protein L3 (Length: 206)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -439,7 +488,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BF - 50S ribosomal protein L4 (长度: 210)</h4>
+            <h4>Chain: BF - 50S ribosomal protein L4 (Length: 210)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -450,7 +499,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: AB, AC, AD - tRNA PHE (unmodified bases) (长度: 76)</h4>
+            <h4>Chain: AB, AC, AD - tRNA PHE (unmodified bases) (Length: 76)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -461,7 +510,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BG - 50S ribosomal protein L5 (长度: 182)</h4>
+            <h4>Chain: BG - 50S ribosomal protein L5 (Length: 182)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -472,7 +521,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BH - 50S ribosomal protein L6 (长度: 180)</h4>
+            <h4>Chain: BH - 50S ribosomal protein L6 (Length: 180)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -483,7 +532,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BK - 50S ribosomal protein L9 (长度: 148)</h4>
+            <h4>Chain: BK - 50S ribosomal protein L9 (Length: 148)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -494,7 +543,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BL - 50S ribosomal protein L11 (长度: 147)</h4>
+            <h4>Chain: BL - 50S ribosomal protein L11 (Length: 147)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -505,7 +554,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BM - 50S ribosomal protein L13 (长度: 140)</h4>
+            <h4>Chain: BM - 50S ribosomal protein L13 (Length: 140)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -516,7 +565,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BN - 50S ribosomal protein L14 (长度: 122)</h4>
+            <h4>Chain: BN - 50S ribosomal protein L14 (Length: 122)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -527,7 +576,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BO - 50S ribosomal protein L15 (长度: 150)</h4>
+            <h4>Chain: BO - 50S ribosomal protein L15 (Length: 150)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -538,7 +587,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BP - 50S ribosomal protein L16 (长度: 141)</h4>
+            <h4>Chain: BP - 50S ribosomal protein L16 (Length: 141)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -549,7 +598,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BQ - 50S ribosomal protein L17 (长度: 118)</h4>
+            <h4>Chain: BQ - 50S ribosomal protein L17 (Length: 118)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -560,7 +609,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BR - 50S ribosomal protein L18 (长度: 112)</h4>
+            <h4>Chain: BR - 50S ribosomal protein L18 (Length: 112)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -571,7 +620,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: AE - 30S ribosomal protein S2 (长度: 256)</h4>
+            <h4>Chain: AE - 30S ribosomal protein S2 (Length: 256)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -582,7 +631,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BS - 50S ribosomal protein L19 (长度: 146)</h4>
+            <h4>Chain: BS - 50S ribosomal protein L19 (Length: 146)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -593,7 +642,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BT - 50S ribosomal protein L20 (长度: 118)</h4>
+            <h4>Chain: BT - 50S ribosomal protein L20 (Length: 118)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -604,7 +653,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BU - 50S ribosomal protein L21 (长度: 101)</h4>
+            <h4>Chain: BU - 50S ribosomal protein L21 (Length: 101)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -615,7 +664,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BV - 50S ribosomal protein L22 (长度: 113)</h4>
+            <h4>Chain: BV - 50S ribosomal protein L22 (Length: 113)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -626,7 +675,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BW - 50S ribosomal protein L23 (长度: 96)</h4>
+            <h4>Chain: BW - 50S ribosomal protein L23 (Length: 96)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -637,7 +686,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BX - 50S ribosomal protein L24 (长度: 110)</h4>
+            <h4>Chain: BX - 50S ribosomal protein L24 (Length: 110)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -648,7 +697,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BY - 50S ribosomal protein L25 (长度: 206)</h4>
+            <h4>Chain: BY - 50S ribosomal protein L25 (Length: 206)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -659,7 +708,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: BZ - Ribosomal protein L27 (长度: 85)</h4>
+            <h4>Chain: BZ - Ribosomal protein L27 (Length: 85)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -670,7 +719,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: B1 - 50S ribosomal protein L29 (长度: 67)</h4>
+            <h4>Chain: B1 - 50S ribosomal protein L29 (Length: 67)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -681,7 +730,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: B2 - 50S ribosomal protein L30 (长度: 60)</h4>
+            <h4>Chain: B2 - 50S ribosomal protein L30 (Length: 60)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -692,7 +741,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: AF - 30S ribosomal protein S3 (长度: 239)</h4>
+            <h4>Chain: AF - 30S ribosomal protein S3 (Length: 239)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -703,7 +752,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: B3 - 50S ribosomal protein L31 (长度: 71)</h4>
+            <h4>Chain: B3 - 50S ribosomal protein L31 (Length: 71)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -714,7 +763,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: B4 - 50S ribosomal protein L32 (长度: 60)</h4>
+            <h4>Chain: B4 - 50S ribosomal protein L32 (Length: 60)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -725,7 +774,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: B5 - 50S ribosomal protein L33 (长度: 54)</h4>
+            <h4>Chain: B5 - 50S ribosomal protein L33 (Length: 54)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -736,7 +785,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: B6 - 50S ribosomal protein L34 (长度: 49)</h4>
+            <h4>Chain: B6 - 50S ribosomal protein L34 (Length: 49)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -747,7 +796,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: B7 - 50S ribosomal protein L35 (长度: 65)</h4>
+            <h4>Chain: B7 - 50S ribosomal protein L35 (Length: 65)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -758,7 +807,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: B8 - 50S ribosomal protein L36 (长度: 37)</h4>
+            <h4>Chain: B8 - 50S ribosomal protein L36 (Length: 37)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -769,7 +818,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: AG - 30S ribosomal protein S4 (长度: 209)</h4>
+            <h4>Chain: AG - 30S ribosomal protein S4 (Length: 209)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -780,7 +829,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: AH - 30S ribosomal protein S5 (长度: 162)</h4>
+            <h4>Chain: AH - 30S ribosomal protein S5 (Length: 162)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -791,7 +840,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: AI - 30S ribosomal protein S6 (长度: 101)</h4>
+            <h4>Chain: AI - 30S ribosomal protein S6 (Length: 101)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -802,7 +851,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: AJ - 30S ribosomal protein S7 (长度: 156)</h4>
+            <h4>Chain: AJ - 30S ribosomal protein S7 (Length: 156)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -818,7 +867,7 @@
 
 <section class="info-section">
     <h2 class="collapsible">
-        参考文献
+        References
         <span class="section-toggle-arrow"></span>
     </h2>
     <div class="citations-container">
@@ -830,17 +879,17 @@
 
 <section class="info-section">
     <h2 class="collapsible">
-        生物组装
+        Biological Assemblies
         <span class="section-toggle-arrow"></span>
     </h2>
     <div class="assemblies-container">
-        <div class="assembly-item"><p><strong>组装 ID:</strong> 1</p><p><strong>详情:</strong> author_defined_assembly</p><p><strong>寡聚状态:</strong> Hetero 50-mer</p><p><strong>化学计量:</strong> A1, B1, C1, D1, E1, F1, G1, H1, I1, J1, K1, L1, M1, N1, O1, P1, Q1, R1, S1, T1, U1, V1, W1, X1, Y1, Z1, a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, x1</p></div>
+        <div class="assembly-item"><p><strong>Assembly ID:</strong> 1</p><p><strong>Details:</strong> author_defined_assembly</p><p><strong>Oligomeric State:</strong> Hetero 50-mer</p><p><strong>Stoichiometry:</strong> A1, B1, C1, D1, E1, F1, G1, H1, I1, J1, K1, L1, M1, N1, O1, P1, Q1, R1, S1, T1, U1, V1, W1, X1, Y1, Z1, a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1, v1, w1, x1</p></div>
     </div>
 </section>
 
         <section class="info-section">
             <h2 class="collapsible">
-                3D 结构可视化
+                3D Structure Visualization
                 <span class="section-toggle-arrow"></span>
             </h2>
             <div class="full-width-viewer-container">
@@ -864,15 +913,15 @@
             var viewerContainer = document.getElementById('myViewer');
             viewerInstance.render(viewerContainer, options);
             
-            // 添加折叠/展开功能
+            // Add collapse/expand functionality
             document.querySelectorAll('.collapsible').forEach(header => {
                 const content = header.nextElementSibling;
                 if (!content) return;
                 
                 const headerText = header.innerText || header.textContent;
 
-                // 默认折叠，但"基本信息"和"3D 结构可视化"默认展开
-                if (!headerText.includes('基本信息') && !headerText.includes('3D 结构可视化')) {
+                // Default to collapsed, but "Summary" and "3D Structure Visualization" are expanded by default
+                if (!headerText.includes('Summary') && !headerText.includes('3D Structure Visualization')) {
                     header.classList.add('collapsed');
                     content.style.display = 'none';
                 }
@@ -889,6 +938,24 @@
         </script>
     </div>
     
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Useful Links</h4>
+                <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a>
+                <a href="https://www.frcbs.tsinghua.edu.cn/" target="_blank">Beijing Frontier Research Center for Biological Structure, Tsinghua University</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Address: Tsinghua University, Haidian District, Beijing, China</p>
+                <p>TEL: +86-10-62787063</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2025 Beijing Frontier Research Center for Biological Structure, Tsinghua University. All Rights Reserved.</p>
+        </div>
+    </footer>
+
     <script src="../static/js/protein_detail.js"></script>
 </body>
 </html>

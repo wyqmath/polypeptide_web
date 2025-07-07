@@ -107,7 +107,6 @@
 
         .stats-section {
             padding: 40px 20px;
-            background-color: #f8f9fa;
         }
         .stats-section h2 {
             text-align: center;
@@ -148,14 +147,63 @@
         .chart-double-width {
              grid-column: span 2;
         }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 50px;
+            margin-top: 40px;
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .footer-section {
+            flex: 1;
+            min-width: 300px;
+            margin: 10px;
+        }
+        footer h4 {
+            color: #f2f2f2;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #555;
+            padding-bottom: 10px;
+            font-size: 1.1em;
+        }
+        footer a {
+            color: #ccc;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+        }
+        footer a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+        footer p {
+            margin: 0 0 8px 0;
+            color: #ccc;
+            line-height: 1.6;
+        }
+        .footer-bottom {
+            text-align: center;
+            border-top: 1px solid #555;
+            padding-top: 20px;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="top-nav">
             <a href="index.html" class="nav-button">Home</a>
-            <a href="../Download.html" class="nav-button">Download</a>
-            <a href="https://www.frcbs.tsinghua.edu.cn/" class="nav-button">About</a>
+            <a href="Download.html" class="nav-button">Download</a>
+            <a href="about.html" class="nav-button">About</a>
         </div>
         <div class="top-header">
             <img src="THU-structure-LOGO.svg" alt="THU Structure Database Logo" class="logo">
@@ -179,6 +227,23 @@
     </div>
     
     <div id="results-container"></div>
+
+    <div class="about-section">
+        <h2>About Our Cyclic Peptide DataBank (CPDB)</h2>
+        <p>Welcome to the Cyclic Peptide DataBank (CPDB) - a comprehensive knowledge base focused on the three-dimensional structures of cyclic peptides containing disulfide bonds.</p>
+        <p>Cyclic peptides, especially those containing disulfide bonds, have become a frontier in modern biological research and a key source for innovative drug development due to their unique structural stability, high target affinity, and excellent biological activity. However, the 3D structural information of these complex molecules is scattered across a vast amount of literature and multiple databases, posing a significant challenge for systematic research.</p>
+        <p>To address this challenge, we created CPDB. This database is dedicated to systematically collecting, organizing, and displaying high-precision 3D structural data of cyclic peptides containing at least one disulfide bond. We hope to break down data barriers and provide a comprehensive, accurate, intuitive, and easily accessible platform for cyclic peptide structural information for computational biologists, structural biologists, medicinal chemists, and researchers in related fields worldwide.</p>
+        
+        <h4>Core Features and Functions of this Database:</h4>
+        <ul>
+            <li><strong>Comprehensive Data Collection:</strong> Systematically integrates cyclic peptide structures with disulfide bonds from the Protein Data Bank (PDB) and published literature, providing detailed source information and cross-reference links.</li>
+            <li><strong>Precise Structural Annotation:</strong> Provides fine-grained biological and chemical annotations for each entry, including sequence, molecular weight, disulfide bond connectivity, source species, biological activity, and related target information.</li>
+            <li><strong>Powerful Search System:</strong> Offers multi-dimensional, advanced search functions based on keywords, sequences, molecular formulas, sources, or targets to help users quickly locate molecules of interest.</li>
+            <li><strong>Interactive 3D Visualization:</strong> Embedded with advanced molecular visualization tools, allowing users to interactively rotate, zoom, and highlight disulfide bonds and different residues in the 3D structure directly on the webpage.</li>
+            <li><strong>Convenient Data Download:</strong> All structural data and related information support one-click download in various common formats (e.g., PDB, MOL2, SDF) to seamlessly integrate with mainstream molecular modeling and drug design software.</li>
+        </ul>
+        <p>We believe that CPDB is not just a data repository but a catalyst for stimulating innovation and accelerating research. Whether you are dedicated to exploring new natural products or designing the next generation of peptide drugs, this database will provide you with valuable structural information support.</p>
+    </div>
 
     <section class="stats-section">
         <h2>Database Statistics</h2>
@@ -222,29 +287,24 @@
         </div>
     </section>
 
-    <div class="about-section">
-        <h2>About Our Cyclic Peptide DataBank (CPDB)</h2>
-        <p>Welcome to the Cyclic Peptide DataBank (CPDB) - a comprehensive knowledge base focused on the three-dimensional structures of cyclic peptides containing disulfide bonds.</p>
-        <p>Cyclic peptides, especially those containing disulfide bonds, have become a frontier in modern biological research and a key source for innovative drug development due to their unique structural stability, high target affinity, and excellent biological activity. However, the 3D structural information of these complex molecules is scattered across a vast amount of literature and multiple databases, posing a significant challenge for systematic research.</p>
-        <p>To address this challenge, we created CPDB. This database is dedicated to systematically collecting, organizing, and displaying high-precision 3D structural data of cyclic peptides containing at least one disulfide bond. We hope to break down data barriers and provide a comprehensive, accurate, intuitive, and easily accessible platform for cyclic peptide structural information for computational biologists, structural biologists, medicinal chemists, and researchers in related fields worldwide.</p>
-        
-        <h4>Core Features and Functions of this Database:</h4>
-        <ul>
-            <li><strong>Comprehensive Data Collection:</strong> Systematically integrates cyclic peptide structures with disulfide bonds from the Protein Data Bank (PDB) and published literature, providing detailed source information and cross-reference links.</li>
-            <li><strong>Precise Structural Annotation:</strong> Provides fine-grained biological and chemical annotations for each entry, including sequence, molecular weight, disulfide bond connectivity, source species, biological activity, and related target information.</li>
-            <li><strong>Powerful Search System:</strong> Offers multi-dimensional, advanced search functions based on keywords, sequences, molecular formulas, sources, or targets to help users quickly locate molecules of interest.</li>
-            <li><strong>Interactive 3D Visualization:</strong> Embedded with advanced molecular visualization tools, allowing users to interactively rotate, zoom, and highlight disulfide bonds and different residues in the 3D structure directly on the webpage.</li>
-            <li><strong>Convenient Data Download:</strong> All structural data and related information support one-click download in various common formats (e.g., PDB, MOL2, SDF) to seamlessly integrate with mainstream molecular modeling and drug design software.</li>
-        </ul>
-        <p>We believe that CPDB is not just a data repository but a catalyst for stimulating innovation and accelerating research. Whether you are dedicated to exploring new natural products or designing the next generation of peptide drugs, this database will provide you with valuable structural information support.</p>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Useful Links</h4>
+                <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a>
+                <a href="https://www.frcbs.tsinghua.edu.cn/" target="_blank">Beijing Frontier Research Center for Biological Structure, Tsinghua University</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Address: Tsinghua University, Haidian District, Beijing, China</p>
+                <p>TEL: +86-10-62787063</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2025 Beijing Frontier Research Center for Biological Structure, Tsinghua University. All Rights Reserved.</p>
+        </div>
+    </footer>
 
-        <h2>About Us</h2>
-        <p>This database is developed and maintained long-term by the team at the Beijing Advanced Innovation Center for Structural Biology, Tsinghua University.</p>
-        <p>The Beijing Advanced Innovation Center for Structural Biology was jointly established by Tsinghua University and the Beijing Municipal Science and Technology Commission in 2018. As a new type of R&D institution established by Beijing to build a high-precision economic structure, the center's core mission is: to focus on the world's scientific frontiers, fully leverage the unique advantages of structural biology as a "sharp tool" in life sciences, and promote its deep integration with fields such as computational science and chemical biology.</p>
-        <p>We are committed to overcoming key core technical bottlenecks in life sciences and daring to challenge "from 0 to 1" fundamental scientific problems. The establishment of this cyclic peptide database is a concrete practice of our mission. It is not only a transformation of the center's scientific research achievements but also our commitment to serving the global scientific community, promoting the sharing and application of structural biology knowledge, and jointly promoting the cause of human health.</p>
-        <p>We sincerely invite you to use this database and welcome your valuable feedback and suggestions to help us continuously improve. Let us explore the infinite possibilities of the fascinating molecular world of cyclic peptides together.</p>
-    </div>
-    
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="pdb_list.js"></script>
     <script src="static/js/script.js" defer></script>

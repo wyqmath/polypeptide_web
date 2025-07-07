@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>多肽结构数据库 - 7JQT</title>
+    <title>Polypeptide Structure Database - 7JQT</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-light.css" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
     <link rel="stylesheet" href="../static/css/protein_detail.css">
@@ -126,72 +126,121 @@
         .citation-links a {
             font-size: 0.9em;
         }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 50px;
+            margin-top: 40px;
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .footer-section {
+            flex: 1;
+            min-width: 300px;
+            margin: 10px;
+        }
+        footer h4 {
+            color: #f2f2f2;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #555;
+            padding-bottom: 10px;
+            font-size: 1.1em;
+        }
+        footer a {
+            color: #ccc;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+        }
+        footer a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+        footer p {
+            margin: 0 0 8px 0;
+            color: #ccc;
+            line-height: 1.6;
+        }
+        .footer-bottom {
+            text-align: center;
+            border-top: 1px solid #555;
+            padding-top: 20px;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="top-header">
-            <img src="../THU-structure-LOGO.svg" alt="THU结构数据库标志" class="logo">
+            <img src="../THU-structure-LOGO.svg" alt="THU Structure Database Logo" class="logo">
             <div class="top-nav">
                 <a href="../index.html" class="nav-button">Home</a>
                 <a href="../Download.html" class="nav-button">Download</a>
                 <a href="https://www.frcbs.tsinghua.edu.cn/" class="nav-button">About</a>
             </div>
         </div>
-        <h1>多肽结构数据库</h1>
-        <p>浏览和可视化多肽三维结构</p>
+        <h1>Polypeptide Structure Database</h1>
+        <p>Browse and visualize 3D structures of polypeptides</p>
     </header>
     
     <div class="search-section">
         <div class="search-container">
-            <input type="text" class="search-box" placeholder="搜索蛋白质、基因、PDB编号、生物体或序列">
-            <button class="search-button">搜索</button>
+            <input type="text" class="search-box" placeholder="Search for proteins, genes, PDB IDs, organisms, or sequences">
+            <button class="search-button">Search</button>
         </div>
     </div>
     
     <div class="protein-detail-container">
         <div class="protein-header">
-            <h1>7JQT - 多肽结构</h1>
+            <h1>7JQT - Polypeptide Structure</h1>
             <p class="alphafold-id">7JQT</p>
         </div>
 
         <div class="action-buttons">
-            <span class="download-label">下载</span>
+            <span class="download-label">Download</span>
             <div class="button-container">
                 <a href="https://files.rcsb.org/download/7JQT.pdb" download>
-                    <button>PDB文件</button>
+                    <button>PDB File</button>
                 </a>
             </div>
             <div class="button-container">
                 <a href="https://files.rcsb.org/download/7JQT.cif" download>
-                    <button>mmCIF文件</button>
+                    <button>mmCIF File</button>
                 </a>
             </div>
         </div>
 
         <section class="info-section">
             <h2 class="collapsible">
-                基本信息
+                Summary
                 <span class="section-toggle-arrow"></span>
             </h2>
             <table>
                 <tbody>
-<tr><td>PDB编号</td><td>7JQT <a href="https://www.rcsb.org/structure/7JQT" target="_blank" title="访问RCSB PDB页面">前往RCSB &#x279A;</a></td></tr>
-<tr><td>标题</td><td>Abeta 16-36 beta-hairpin mimic with E22K Italian mutation</td></tr>
-<tr><td>实验方法</td><td>X-RAY DIFFRACTION</td></tr>
-<tr><td>分辨率</td><td>2.08 Å</td></tr>
+<tr><td>PDB ID</td><td>7JQT <a href="https://www.rcsb.org/structure/7JQT" target="_blank" title="Visit RCSB PDB page">Go to RCSB &#x279A;</a></td></tr>
+<tr><td>Title</td><td>Abeta 16-36 beta-hairpin mimic with E22K Italian mutation</td></tr>
+<tr><td>Method</td><td>X-RAY DIFFRACTION</td></tr>
+<tr><td>Resolution</td><td>2.08 Å</td></tr>
 <tr><td>R-factors</td><td>R-work: 0.202, R-free: 0.257</td></tr>
-<tr><td>发布日期</td><td>2021-09-08</td></tr>
-<tr><td>作者</td><td>Kreutzer, A.G.; McKnelly, K.J.; Nowick, J.S.</td></tr>
-<tr><td>来源生物</td><td>Homo sapiens</td></tr>
-<tr><td>关键词</td><td>Alzheimer's disease, amyloid, Abeta, oligomer, familial mutant, DE NOVO PROTEIN</td></tr>
-<tr><td>分子量</td><td>1.79 kDa</td></tr>
-<tr><td>实体数量</td><td>蛋白质: 1, 核酸: 0, 核酸杂合体: 0</td></tr>
-<tr><td>空间群</td><td>H 3 2</td></tr>
-<tr><td>晶胞参数</td><td>a=41.36 Å, b=41.36 Å, c=56.80 Å, α=90.00°, β=90.00°, γ=120.00°</td></tr>
-<tr><td>其他连接</td><td>Yes</td></tr>
-<tr><td>多肽链</td><td>A</td></tr>
-<tr><td>多肽长度</td><td>16</td></tr>
+<tr><td>Release Date</td><td>2021-09-08</td></tr>
+<tr><td>Authors</td><td>Kreutzer, A.G.; McKnelly, K.J.; Nowick, J.S.</td></tr>
+<tr><td>Source Organism</td><td>Homo sapiens</td></tr>
+<tr><td>Keywords</td><td>Alzheimer's disease, amyloid, Abeta, oligomer, familial mutant, DE NOVO PROTEIN</td></tr>
+<tr><td>Molecular Weight</td><td>1.79 kDa</td></tr>
+<tr><td>Entity Count</td><td>Protein: 1, Nucleic Acid: 0, NA Hybrid: 0</td></tr>
+<tr><td>Space Group</td><td>H 3 2</td></tr>
+<tr><td>Cell Parameters</td><td>a=41.36 Å, b=41.36 Å, c=56.80 Å, α=90.00°, β=90.00°, γ=120.00°</td></tr>
+<tr><td>Other Links</td><td>Yes</td></tr>
+<tr><td>Peptide Chains</td><td>A</td></tr>
+<tr><td>Peptide Lengths</td><td>16</td></tr>
                 </tbody>
             </table>
         </section>
@@ -199,13 +248,13 @@
 
 <section class="info-section">
     <h2 class="collapsible">
-        序列信息
+        Sequence Information
         <span class="section-toggle-arrow"></span>
     </h2>
     <div class="sequences-container">
         
         <div class="sequence-item">
-            <h4>链: A - Abeta 16-36 beta-hairpin mimic VAL-ORT-LYS-LEU-VAL-MEA-PHE-ALA-LYS-ORT-ALA-ILE-ILE-GLY-LEU-MET (长度: 16)</h4>
+            <h4>Chain: A - Abeta 16-36 beta-hairpin mimic VAL-ORT-LYS-LEU-VAL-MEA-PHE-ALA-LYS-ORT-ALA-ILE-ILE-GLY-LEU-MET (Length: 16)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -221,7 +270,7 @@
 
 <section class="info-section">
     <h2 class="collapsible">
-        参考文献
+        References
         <span class="section-toggle-arrow"></span>
     </h2>
     <div class="citations-container">
@@ -233,17 +282,17 @@
 
 <section class="info-section">
     <h2 class="collapsible">
-        生物组装
+        Biological Assemblies
         <span class="section-toggle-arrow"></span>
     </h2>
     <div class="assemblies-container">
-        <div class="assembly-item"><p><strong>组装 ID:</strong> 1</p><p><strong>详情:</strong> author_and_software_defined_assembly</p><p><strong>寡聚状态:</strong> Homo 6-mer</p><p><strong>化学计量:</strong> A6</p></div>
+        <div class="assembly-item"><p><strong>Assembly ID:</strong> 1</p><p><strong>Details:</strong> author_and_software_defined_assembly</p><p><strong>Oligomeric State:</strong> Homo 6-mer</p><p><strong>Stoichiometry:</strong> A6</p></div>
     </div>
 </section>
 
         <section class="info-section">
             <h2 class="collapsible">
-                3D 结构可视化
+                3D Structure Visualization
                 <span class="section-toggle-arrow"></span>
             </h2>
             <div class="full-width-viewer-container">
@@ -267,15 +316,15 @@
             var viewerContainer = document.getElementById('myViewer');
             viewerInstance.render(viewerContainer, options);
             
-            // 添加折叠/展开功能
+            // Add collapse/expand functionality
             document.querySelectorAll('.collapsible').forEach(header => {
                 const content = header.nextElementSibling;
                 if (!content) return;
                 
                 const headerText = header.innerText || header.textContent;
 
-                // 默认折叠，但"基本信息"和"3D 结构可视化"默认展开
-                if (!headerText.includes('基本信息') && !headerText.includes('3D 结构可视化')) {
+                // Default to collapsed, but "Summary" and "3D Structure Visualization" are expanded by default
+                if (!headerText.includes('Summary') && !headerText.includes('3D Structure Visualization')) {
                     header.classList.add('collapsed');
                     content.style.display = 'none';
                 }
@@ -292,6 +341,24 @@
         </script>
     </div>
     
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Useful Links</h4>
+                <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a>
+                <a href="https://www.frcbs.tsinghua.edu.cn/" target="_blank">Beijing Frontier Research Center for Biological Structure, Tsinghua University</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Address: Tsinghua University, Haidian District, Beijing, China</p>
+                <p>TEL: +86-10-62787063</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2025 Beijing Frontier Research Center for Biological Structure, Tsinghua University. All Rights Reserved.</p>
+        </div>
+    </footer>
+
     <script src="../static/js/protein_detail.js"></script>
 </body>
 </html>

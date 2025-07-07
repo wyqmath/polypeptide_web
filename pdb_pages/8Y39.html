@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>多肽结构数据库 - 8Y39</title>
+    <title>Polypeptide Structure Database - 8Y39</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-light.css" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
     <link rel="stylesheet" href="../static/css/protein_detail.css">
@@ -126,72 +126,121 @@
         .citation-links a {
             font-size: 0.9em;
         }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 50px;
+            margin-top: 40px;
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .footer-section {
+            flex: 1;
+            min-width: 300px;
+            margin: 10px;
+        }
+        footer h4 {
+            color: #f2f2f2;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #555;
+            padding-bottom: 10px;
+            font-size: 1.1em;
+        }
+        footer a {
+            color: #ccc;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+        }
+        footer a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+        footer p {
+            margin: 0 0 8px 0;
+            color: #ccc;
+            line-height: 1.6;
+        }
+        .footer-bottom {
+            text-align: center;
+            border-top: 1px solid #555;
+            padding-top: 20px;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="top-header">
-            <img src="../THU-structure-LOGO.svg" alt="THU结构数据库标志" class="logo">
+            <img src="../THU-structure-LOGO.svg" alt="THU Structure Database Logo" class="logo">
             <div class="top-nav">
                 <a href="../index.html" class="nav-button">Home</a>
                 <a href="../Download.html" class="nav-button">Download</a>
                 <a href="https://www.frcbs.tsinghua.edu.cn/" class="nav-button">About</a>
             </div>
         </div>
-        <h1>多肽结构数据库</h1>
-        <p>浏览和可视化多肽三维结构</p>
+        <h1>Polypeptide Structure Database</h1>
+        <p>Browse and visualize 3D structures of polypeptides</p>
     </header>
     
     <div class="search-section">
         <div class="search-container">
-            <input type="text" class="search-box" placeholder="搜索蛋白质、基因、PDB编号、生物体或序列">
-            <button class="search-button">搜索</button>
+            <input type="text" class="search-box" placeholder="Search for proteins, genes, PDB IDs, organisms, or sequences">
+            <button class="search-button">Search</button>
         </div>
     </div>
     
     <div class="protein-detail-container">
         <div class="protein-header">
-            <h1>8Y39 - 多肽结构</h1>
+            <h1>8Y39 - Polypeptide Structure</h1>
             <p class="alphafold-id">8Y39</p>
         </div>
 
         <div class="action-buttons">
-            <span class="download-label">下载</span>
+            <span class="download-label">Download</span>
             <div class="button-container">
                 <a href="https://files.rcsb.org/download/8Y39.pdb" download>
-                    <button>PDB文件</button>
+                    <button>PDB File</button>
                 </a>
             </div>
             <div class="button-container">
                 <a href="https://files.rcsb.org/download/8Y39.cif" download>
-                    <button>mmCIF文件</button>
+                    <button>mmCIF File</button>
                 </a>
             </div>
         </div>
 
         <section class="info-section">
             <h2 class="collapsible">
-                基本信息
+                Summary
                 <span class="section-toggle-arrow"></span>
             </h2>
             <table>
                 <tbody>
-<tr><td>PDB编号</td><td>8Y39 <a href="https://www.rcsb.org/structure/8Y39" target="_blank" title="访问RCSB PDB页面">前往RCSB &#x279A;</a></td></tr>
-<tr><td>标题</td><td>cryo-EM structure of Staphylococcus aureus(ATCC 29213) 70S ribosome in complex with MCX-190.</td></tr>
-<tr><td>实验方法</td><td>ELECTRON MICROSCOPY</td></tr>
-<tr><td>分辨率</td><td>3.60 Å</td></tr>
-<tr><td>发布日期</td><td>2024-07-24</td></tr>
-<tr><td>作者</td><td>Li, Y.; Lu, G.; Li, J.; Pei, X.; Lin, J.</td></tr>
-<tr><td>来源生物</td><td>Staphylococcus aureus</td></tr>
-<tr><td>关键词</td><td>antibiotic, ribosome, MLSBK-resistant</td></tr>
-<tr><td>分子量</td><td>2110.77 kDa</td></tr>
-<tr><td>实体数量</td><td>蛋白质: 47, 核酸: 3, 核酸杂合体: 0</td></tr>
-<tr><td>二硫键</td><td>19-112;112-136;411-414;411-427</td></tr>
-<tr><td>其他连接</td><td>Yes</td></tr>
-<tr><td>多肽链</td><td>1, 2, 4, Z</td></tr>
-<tr><td>蛋白链</td><td>3, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t</td></tr>
-<tr><td>多肽长度</td><td>48, 47, 43, 37</td></tr>
-<tr><td>蛋白长度</td><td>87, 2921, 146, 137, 120, 119, 114, 116, 102, 117, 89, 103, 115, 94, 82, 58, 67, 58, 59, 64, 274, 1548, 232, 217, 200, 166, 98, 156, 132, 130, 215, 102, 129, 149, 121, 61, 89, 91, 80, 108, 206, 83, 175, 175, 145, 122</td></tr>
+<tr><td>PDB ID</td><td>8Y39 <a href="https://www.rcsb.org/structure/8Y39" target="_blank" title="Visit RCSB PDB page">Go to RCSB &#x279A;</a></td></tr>
+<tr><td>Title</td><td>cryo-EM structure of Staphylococcus aureus(ATCC 29213) 70S ribosome in complex with MCX-190.</td></tr>
+<tr><td>Method</td><td>ELECTRON MICROSCOPY</td></tr>
+<tr><td>Resolution</td><td>3.60 Å</td></tr>
+<tr><td>Release Date</td><td>2024-07-24</td></tr>
+<tr><td>Authors</td><td>Li, Y.; Lu, G.; Li, J.; Pei, X.; Lin, J.</td></tr>
+<tr><td>Source Organism</td><td>Staphylococcus aureus</td></tr>
+<tr><td>Keywords</td><td>antibiotic, ribosome, MLSBK-resistant</td></tr>
+<tr><td>Molecular Weight</td><td>2110.77 kDa</td></tr>
+<tr><td>Entity Count</td><td>Protein: 47, Nucleic Acid: 3, NA Hybrid: 0</td></tr>
+<tr><td>Disulfide Bond</td><td>19-112;112-136;411-414;411-427</td></tr>
+<tr><td>Other Links</td><td>Yes</td></tr>
+<tr><td>Peptide Chains</td><td>1, 2, 4, Z</td></tr>
+<tr><td>Protein Chains</td><td>3, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t</td></tr>
+<tr><td>Peptide Lengths</td><td>48, 47, 43, 37</td></tr>
+<tr><td>Protein Lengths</td><td>87, 2921, 146, 137, 120, 119, 114, 116, 102, 117, 89, 103, 115, 94, 82, 58, 67, 58, 59, 64, 274, 1548, 232, 217, 200, 166, 98, 156, 132, 130, 215, 102, 129, 149, 121, 61, 89, 91, 80, 108, 206, 83, 175, 175, 145, 122</td></tr>
                 </tbody>
             </table>
         </section>
@@ -199,13 +248,13 @@
 
 <section class="info-section">
     <h2 class="collapsible">
-        序列信息
+        Sequence Information
         <span class="section-toggle-arrow"></span>
     </h2>
     <div class="sequences-container">
         
         <div class="sequence-item">
-            <h4>链: q - Small ribosomal subunit protein uS17 (长度: 87)</h4>
+            <h4>Chain: q - Small ribosomal subunit protein uS17 (Length: 87)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -216,7 +265,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: A - 23S ribosomal RNA (长度: 2921)</h4>
+            <h4>Chain: A - 23S ribosomal RNA (Length: 2921)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -227,7 +276,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: J - Large ribosomal subunit protein uL15 (长度: 146)</h4>
+            <h4>Chain: J - Large ribosomal subunit protein uL15 (Length: 146)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -238,7 +287,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: K - Large ribosomal subunit protein uL16 (长度: 137)</h4>
+            <h4>Chain: K - Large ribosomal subunit protein uL16 (Length: 137)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -249,7 +298,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: L - Large ribosomal subunit protein bL17 (长度: 120)</h4>
+            <h4>Chain: L - Large ribosomal subunit protein bL17 (Length: 120)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -260,7 +309,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: M - Large ribosomal subunit protein uL18 (长度: 119)</h4>
+            <h4>Chain: M - Large ribosomal subunit protein uL18 (Length: 119)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -271,7 +320,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: N - Large ribosomal subunit protein bL19 (长度: 114)</h4>
+            <h4>Chain: N - Large ribosomal subunit protein bL19 (Length: 114)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -282,7 +331,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: O - Large ribosomal subunit protein bL20 (长度: 116)</h4>
+            <h4>Chain: O - Large ribosomal subunit protein bL20 (Length: 116)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -293,7 +342,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: P - Large ribosomal subunit protein bL21 (长度: 102)</h4>
+            <h4>Chain: P - Large ribosomal subunit protein bL21 (Length: 102)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -304,7 +353,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: Q - Large ribosomal subunit protein uL22 (长度: 117)</h4>
+            <h4>Chain: Q - Large ribosomal subunit protein uL22 (Length: 117)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -315,7 +364,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: R - Large ribosomal subunit protein uL23 (长度: 89)</h4>
+            <h4>Chain: R - Large ribosomal subunit protein uL23 (Length: 89)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -326,7 +375,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: S - Large ribosomal subunit protein uL24 (长度: 103)</h4>
+            <h4>Chain: S - Large ribosomal subunit protein uL24 (Length: 103)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -337,7 +386,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: B - 5S ribosomal RNA (长度: 115)</h4>
+            <h4>Chain: B - 5S ribosomal RNA (Length: 115)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -348,7 +397,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: T - Large ribosomal subunit protein bL25 (长度: 94)</h4>
+            <h4>Chain: T - Large ribosomal subunit protein bL25 (Length: 94)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -359,7 +408,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: U - Large ribosomal subunit protein bL27 (长度: 82)</h4>
+            <h4>Chain: U - Large ribosomal subunit protein bL27 (Length: 82)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -370,7 +419,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: V - Large ribosomal subunit protein bL28 (长度: 58)</h4>
+            <h4>Chain: V - Large ribosomal subunit protein bL28 (Length: 58)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -381,7 +430,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: W - Large ribosomal subunit protein uL29 (长度: 67)</h4>
+            <h4>Chain: W - Large ribosomal subunit protein uL29 (Length: 67)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -392,7 +441,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: X - Large ribosomal subunit protein uL30 (长度: 58)</h4>
+            <h4>Chain: X - Large ribosomal subunit protein uL30 (Length: 58)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -403,7 +452,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: Y - Large ribosomal subunit protein bL31B (长度: 59)</h4>
+            <h4>Chain: Y - Large ribosomal subunit protein bL31B (Length: 59)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -414,7 +463,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: Z - Large ribosomal subunit protein bL32 (长度: 48)</h4>
+            <h4>Chain: Z - Large ribosomal subunit protein bL32 (Length: 48)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -425,7 +474,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: 1 - Large ribosomal subunit protein bL33B (长度: 47)</h4>
+            <h4>Chain: 1 - Large ribosomal subunit protein bL33B (Length: 47)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -436,7 +485,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: 2 - Large ribosomal subunit protein bL34 (长度: 43)</h4>
+            <h4>Chain: 2 - Large ribosomal subunit protein bL34 (Length: 43)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -447,7 +496,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: 3 - Large ribosomal subunit protein bL35 (长度: 64)</h4>
+            <h4>Chain: 3 - Large ribosomal subunit protein bL35 (Length: 64)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -458,7 +507,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: C - Large ribosomal subunit protein uL2 (长度: 274)</h4>
+            <h4>Chain: C - Large ribosomal subunit protein uL2 (Length: 274)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -469,7 +518,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: 4 - Large ribosomal subunit protein bL36 (长度: 37)</h4>
+            <h4>Chain: 4 - Large ribosomal subunit protein bL36 (Length: 37)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -480,7 +529,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: a - 16S ribosomal RNA (长度: 1548)</h4>
+            <h4>Chain: a - 16S ribosomal RNA (Length: 1548)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -491,7 +540,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: b - Small ribosomal subunit protein uS2 (长度: 232)</h4>
+            <h4>Chain: b - Small ribosomal subunit protein uS2 (Length: 232)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -502,7 +551,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: c - Small ribosomal subunit protein uS3 (长度: 217)</h4>
+            <h4>Chain: c - Small ribosomal subunit protein uS3 (Length: 217)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -513,7 +562,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: d - Small ribosomal subunit protein uS4 (长度: 200)</h4>
+            <h4>Chain: d - Small ribosomal subunit protein uS4 (Length: 200)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -524,7 +573,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: e - Small ribosomal subunit protein uS5 (长度: 166)</h4>
+            <h4>Chain: e - Small ribosomal subunit protein uS5 (Length: 166)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -535,7 +584,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: f - Small ribosomal subunit protein bS6 (长度: 98)</h4>
+            <h4>Chain: f - Small ribosomal subunit protein bS6 (Length: 98)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -546,7 +595,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: g - Small ribosomal subunit protein uS7 (长度: 156)</h4>
+            <h4>Chain: g - Small ribosomal subunit protein uS7 (Length: 156)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -557,7 +606,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: h - Small ribosomal subunit protein uS8 (长度: 132)</h4>
+            <h4>Chain: h - Small ribosomal subunit protein uS8 (Length: 132)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -568,7 +617,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: i - Small ribosomal subunit protein uS9 (长度: 130)</h4>
+            <h4>Chain: i - Small ribosomal subunit protein uS9 (Length: 130)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -579,7 +628,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: D - Large ribosomal subunit protein uL3 (长度: 215)</h4>
+            <h4>Chain: D - Large ribosomal subunit protein uL3 (Length: 215)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -590,7 +639,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: j - Small ribosomal subunit protein uS10 (长度: 102)</h4>
+            <h4>Chain: j - Small ribosomal subunit protein uS10 (Length: 102)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -601,7 +650,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: k - Small ribosomal subunit protein uS11 (长度: 129)</h4>
+            <h4>Chain: k - Small ribosomal subunit protein uS11 (Length: 129)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -612,7 +661,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: l - Small ribosomal subunit protein uS12 (长度: 149)</h4>
+            <h4>Chain: l - Small ribosomal subunit protein uS12 (Length: 149)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -623,7 +672,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: m - Small ribosomal subunit protein uS13 (长度: 121)</h4>
+            <h4>Chain: m - Small ribosomal subunit protein uS13 (Length: 121)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -634,7 +683,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: n - Small ribosomal subunit protein uS14B (长度: 61)</h4>
+            <h4>Chain: n - Small ribosomal subunit protein uS14B (Length: 61)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -645,7 +694,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: o - Small ribosomal subunit protein uS15 (长度: 89)</h4>
+            <h4>Chain: o - Small ribosomal subunit protein uS15 (Length: 89)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -656,7 +705,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: p - Small ribosomal subunit protein bS16 (长度: 91)</h4>
+            <h4>Chain: p - Small ribosomal subunit protein bS16 (Length: 91)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -667,7 +716,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: r - Small ribosomal subunit protein bS18 (长度: 80)</h4>
+            <h4>Chain: r - Small ribosomal subunit protein bS18 (Length: 80)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -678,7 +727,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: s - Small ribosomal subunit protein uS19 (长度: 108)</h4>
+            <h4>Chain: s - Small ribosomal subunit protein uS19 (Length: 108)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -689,7 +738,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: E - Large ribosomal subunit protein uL4 (长度: 206)</h4>
+            <h4>Chain: E - Large ribosomal subunit protein uL4 (Length: 206)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -700,7 +749,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: t - Small ribosomal subunit protein bS20 (长度: 83)</h4>
+            <h4>Chain: t - Small ribosomal subunit protein bS20 (Length: 83)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -711,7 +760,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: F - Large ribosomal subunit protein uL5 (长度: 175)</h4>
+            <h4>Chain: F - Large ribosomal subunit protein uL5 (Length: 175)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -722,7 +771,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: G - Large ribosomal subunit protein uL6 (长度: 175)</h4>
+            <h4>Chain: G - Large ribosomal subunit protein uL6 (Length: 175)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -733,7 +782,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: H - Large ribosomal subunit protein uL13 (长度: 145)</h4>
+            <h4>Chain: H - Large ribosomal subunit protein uL13 (Length: 145)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -744,7 +793,7 @@
         </div>
         
         <div class="sequence-item">
-            <h4>链: I - Large ribosomal subunit protein uL14 (长度: 122)</h4>
+            <h4>Chain: I - Large ribosomal subunit protein uL14 (Length: 122)</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -760,7 +809,7 @@
 
 <section class="info-section">
     <h2 class="collapsible">
-        参考文献
+        References
         <span class="section-toggle-arrow"></span>
     </h2>
     <div class="citations-container">
@@ -771,7 +820,7 @@
 
 <section class="info-section">
     <h2 class="collapsible">
-        配体信息
+        Ligand Information
         <span class="section-toggle-arrow"></span>
     </h2>
     <div class="table-container">
@@ -779,9 +828,9 @@
             <thead>
                 <tr>
                     <th>ID</th>
-                    <th>名称</th>
-                    <th>化学式</th>
-                    <th>分子量</th>
+                    <th>Name</th>
+                    <th>Formula</th>
+                    <th>Molecular Weight</th>
                 </tr>
             </thead>
             <tbody>
@@ -795,17 +844,17 @@
 
 <section class="info-section">
     <h2 class="collapsible">
-        生物组装
+        Biological Assemblies
         <span class="section-toggle-arrow"></span>
     </h2>
     <div class="assemblies-container">
-        <div class="assembly-item"><p><strong>组装 ID:</strong> 1</p><p><strong>详情:</strong> author_defined_assembly</p><p><strong>寡聚状态:</strong> Hetero 47-mer</p><p><strong>化学计量:</strong> A1, B1, C1, D1, E1, F1, G1, H1, I1, J1, K1, L1, M1, N1, O1, P1, Q1, R1, S1, T1, U1, V1, W1, X1, Y1, Z1, a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1</p></div>
+        <div class="assembly-item"><p><strong>Assembly ID:</strong> 1</p><p><strong>Details:</strong> author_defined_assembly</p><p><strong>Oligomeric State:</strong> Hetero 47-mer</p><p><strong>Stoichiometry:</strong> A1, B1, C1, D1, E1, F1, G1, H1, I1, J1, K1, L1, M1, N1, O1, P1, Q1, R1, S1, T1, U1, V1, W1, X1, Y1, Z1, a1, b1, c1, d1, e1, f1, g1, h1, i1, j1, k1, l1, m1, n1, o1, p1, q1, r1, s1, t1, u1</p></div>
     </div>
 </section>
 
         <section class="info-section">
             <h2 class="collapsible">
-                3D 结构可视化
+                3D Structure Visualization
                 <span class="section-toggle-arrow"></span>
             </h2>
             <div class="full-width-viewer-container">
@@ -829,15 +878,15 @@
             var viewerContainer = document.getElementById('myViewer');
             viewerInstance.render(viewerContainer, options);
             
-            // 添加折叠/展开功能
+            // Add collapse/expand functionality
             document.querySelectorAll('.collapsible').forEach(header => {
                 const content = header.nextElementSibling;
                 if (!content) return;
                 
                 const headerText = header.innerText || header.textContent;
 
-                // 默认折叠，但"基本信息"和"3D 结构可视化"默认展开
-                if (!headerText.includes('基本信息') && !headerText.includes('3D 结构可视化')) {
+                // Default to collapsed, but "Summary" and "3D Structure Visualization" are expanded by default
+                if (!headerText.includes('Summary') && !headerText.includes('3D Structure Visualization')) {
                     header.classList.add('collapsed');
                     content.style.display = 'none';
                 }
@@ -854,6 +903,24 @@
         </script>
     </div>
     
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Useful Links</h4>
+                <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a>
+                <a href="https://www.frcbs.tsinghua.edu.cn/" target="_blank">Beijing Frontier Research Center for Biological Structure, Tsinghua University</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Address: Tsinghua University, Haidian District, Beijing, China</p>
+                <p>TEL: +86-10-62787063</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2025 Beijing Frontier Research Center for Biological Structure, Tsinghua University. All Rights Reserved.</p>
+        </div>
+    </footer>
+
     <script src="../static/js/protein_detail.js"></script>
 </body>
 </html>
