@@ -2,19 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Polypeptide Structure Database</title>
+    <title>Download - Polypeptide Structure Database</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-light.css" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
-    <link rel="stylesheet" href="./static/css/protein_detail.css">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css" />
     <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            overflow-x: hidden;
+        .nav-button {
+            padding: 12px 20px;
+            background-color: white;
+            color: #D9C1D9 !important;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none !important;
+            display: inline-block;
+            margin-left: 10px;
         }
-        /* 移除内联样式，从CSS文件中继承样式 */
+        
+        .nav-button:hover {
+            background-color: #f5f5f5;
+        }
+        
+        .top-nav {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            display: flex;
+            z-index: 100;
+        }
+
         .action-buttons button {
             background-color: #D9C1D9; /* Light purple */
             color: white; /* White text */
@@ -32,6 +50,7 @@
         .action-buttons a {
             text-decoration: none;
         }
+
         footer {
             background-color: #333;
             color: white;
@@ -80,29 +99,33 @@
             font-size: 0.9em;
             color: #aaa;
         }
+
     </style>
 </head>
 <body>
     <header>
+        <div class="top-nav">
+            <a href="index.html" class="nav-button">Home</a>
+            <a href="search.html" class="nav-button">Search</a>
+            <a href="Download.html" class="nav-button">Download</a>
+            <a href="about.html" class="nav-button">About</a>
+        </div>
         <div class="top-header">
-            <img src="./THU-structure-LOGO.svg" alt="THU Structure Database Logo" class="logo">
-            <div class="top-nav">
-                <a href="./index.html" class="nav-button">Home</a>
-                <a href="./Download.html" class="nav-button">Download</a>
-                <a href="./about.html" class="nav-button">About</a>
-            </div>
+            <img src="THU-structure-LOGO.svg" alt="THU Structure Database Logo" class="logo">
         </div>
         <h1>Polypeptide Structure Database</h1>
         <p>Browse and visualize 3D structures of polypeptides</p>
     </header>
+    
     <main style="text-align: center; padding: 50px;">
         <h2>Download Data</h2>
         <div class="action-buttons">
-            <a href="./data/CycPepDB.csv" download>
+            <a href="data/CycPepDB.csv" download>
                 <button>Download CycPepDB Dataset</button>
             </a>
         </div>
     </main>
+    
     <footer>
         <div class="footer-content">
             <div class="footer-section">
@@ -120,5 +143,6 @@
             <p>Copyright &copy; 2025 Beijing Frontier Research Center for Biological Structure, Tsinghua University. All Rights Reserved.</p>
         </div>
     </footer>
+    
 </body>
-</html>  
+</html>

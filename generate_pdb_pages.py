@@ -712,6 +712,7 @@ try:
             <img src="../THU-structure-LOGO.svg" alt="THU Structure Database Logo" class="logo">
             <div class="top-nav">
                 <a href="../index.html" class="nav-button">Home</a>
+                <a href="../search.html" class="nav-button">Search</a>
                 <a href="../Download.html" class="nav-button">Download</a>
                 <a href="https://www.frcbs.tsinghua.edu.cn/" class="nav-button">About</a>
             </div>
