@@ -385,6 +385,13 @@ const pdbList = [
     "note": "STRUCTURE OF BETA-PUROTHIONIN AT ROOM TEMPERATURE AND 1.7 ANGSTROMS RESOLUTION"
   },
   {
+    "id": "1BI6",
+    "method": "SOLUTION NMR",
+    "resolution": "N/A",
+    "date": "1996-04-03",
+    "note": "NMR STRUCTURE OF BROMELAIN INHIBITOR VI FROM PINEAPPLE STEM"
+  },
+  {
     "id": "1BIG",
     "method": "SOLUTION NMR",
     "resolution": "N/A",
@@ -512,6 +519,13 @@ const pdbList = [
   },
   {
     "id": "1C55",
+    "method": "SOLUTION NMR",
+    "resolution": "N/A",
+    "date": "2000-07-19",
+    "note": "NMR SOLUTION STRUCTURE OF BUTANTOXIN"
+  },
+  {
+    "id": "1C56",
     "method": "SOLUTION NMR",
     "resolution": "N/A",
     "date": "2000-07-19",
@@ -719,6 +733,13 @@ const pdbList = [
     "resolution": "1.86 \u00c5",
     "date": "1998-07-15",
     "note": "HUMAN CYCLOPHILIN A COMPLEXED WITH 2-VAL CYCLOSPORIN"
+  },
+  {
+    "id": "1CWH",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "1.86 \u00c5",
+    "date": "1998-07-15",
+    "note": "HUMAN CYCLOPHILIN A COMPLEXED WITH 3-D-SER CYCLOSPORIN"
   },
   {
     "id": "1CWI",
@@ -1951,6 +1972,13 @@ const pdbList = [
     "resolution": "N/A",
     "date": "1999-01-13",
     "note": "INSULIN MUTANT A8 HIS,(B1, B10, B16, B27)GLU, DES-B30, NMR, 26 STRUCTURES"
+  },
+  {
+    "id": "1IP0",
+    "method": "SOLUTION NMR",
+    "resolution": "N/A",
+    "date": "2002-07-31",
+    "note": "NMR STRUCTURE OF HUMAN BETACELLULIN-2"
   },
   {
     "id": "1IRR",
@@ -4214,6 +4242,13 @@ const pdbList = [
     "note": "STREPTAVIDIN-CYCLO-AC-[CHPQFC]-NH2, PH 4.2"
   },
   {
+    "id": "1VWN",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "1.85 \u00c5",
+    "date": "1998-03-18",
+    "note": "STREPTAVIDIN-CYCLO-AC-[CHPQFC]-NH2, PH 4.8"
+  },
+  {
     "id": "1VWO",
     "method": "X-RAY DIFFRACTION",
     "resolution": "1.65 \u00c5",
@@ -4527,6 +4562,13 @@ const pdbList = [
     "resolution": "1.40 \u00c5",
     "date": "2005-04-12",
     "note": "echinomycin (CGTACG)2 complex"
+  },
+  {
+    "id": "1XW7",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "2.30 \u00c5",
+    "date": "2005-04-12",
+    "note": "Diabetes-Associated Mutations in Human Insulin: Crystal Structure and Photo-Cross-Linking Studies of A-Chain Variant Insulin Wakayama"
   },
   {
     "id": "1XXZ",
@@ -4851,6 +4893,13 @@ const pdbList = [
     "note": "18 NMR structures of AcAMP2-Like Peptide with non Natural Fluoroaromatic Residue (AcAMP2F18Pff/Y20Pff) complex with N,N,N-triacetylchitotriose"
   },
   {
+    "id": "1ZNU",
+    "method": "SOLUTION NMR",
+    "resolution": "N/A",
+    "date": "2006-04-25",
+    "note": "Structure of cyclotide Kalata B1 in DPC micelles solution"
+  },
+  {
     "id": "1ZPX",
     "method": "SOLUTION NMR",
     "resolution": "N/A",
@@ -5150,6 +5199,13 @@ const pdbList = [
     "resolution": "1.50 \u00c5",
     "date": "2006-03-08",
     "note": "insuline(60sec) and UV laser excited fluorescence"
+  },
+  {
+    "id": "2C9T",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "2.25 \u00c5",
+    "date": "2006-02-13",
+    "note": "Crystal Structure Of Acetylcholine Binding Protein (AChBP) From Aplysia Californica In Complex With alpha-Conotoxin ImI"
   },
   {
     "id": "2CBH",
@@ -5465,6 +5521,13 @@ const pdbList = [
     "resolution": "1.60 \u00c5",
     "date": "2007-01-16",
     "note": "X-ray Crystal Structure of Chemically Synthesized Crambin-{alpha}carboxamide"
+  },
+  {
+    "id": "2FHW",
+    "method": "SOLUTION NMR",
+    "resolution": "N/A",
+    "date": "2006-01-24",
+    "note": "Solution structure of human relaxin-3"
   },
   {
     "id": "2FLG",
@@ -5943,6 +6006,13 @@ const pdbList = [
     "note": "NMR structure of iota-RXIA(38)"
   },
   {
+    "id": "2JUE",
+    "method": "SOLUTION NMR",
+    "resolution": "N/A",
+    "date": "2008-08-05",
+    "note": "Solution structure of the all-D kalata B1"
+  },
+  {
     "id": "2JUM",
     "method": "SOLUTION NMR",
     "resolution": "N/A",
@@ -6104,6 +6174,27 @@ const pdbList = [
     "note": "Solution NMR structure of toxin-like potassium channel blocking domain in MMP23"
   },
   {
+    "id": "2K7G",
+    "method": "SOLUTION NMR",
+    "resolution": "N/A",
+    "date": "2009-02-10",
+    "note": "Solution Structure of varv F"
+  },
+  {
+    "id": "2K91",
+    "method": "SOLUTION NMR",
+    "resolution": "N/A",
+    "date": "2008-11-18",
+    "note": "Enhancing the activity of insulin by stereospecific unfolding"
+  },
+  {
+    "id": "2K97",
+    "method": "SOLUTION NMR",
+    "resolution": "N/A",
+    "date": "2009-04-28",
+    "note": "Dimeric solution structure of the cyclic octamer d(pCGCTCCGT)"
+  },
+  {
     "id": "2K9E",
     "method": "SOLUTION NMR",
     "resolution": "N/A",
@@ -6116,6 +6207,13 @@ const pdbList = [
     "resolution": "N/A",
     "date": "2009-11-03",
     "note": "Solution structure of Vm24 synthetic scorpion toxin"
+  },
+  {
+    "id": "2K9R",
+    "method": "SOLUTION NMR",
+    "resolution": "N/A",
+    "date": "2008-11-11",
+    "note": "Enhancing the activity of insulin by stereospecific unfolding"
   },
   {
     "id": "2KB8",
@@ -8400,6 +8498,13 @@ const pdbList = [
     "note": "Solution structure of Fn14 CRD domain"
   },
   {
+    "id": "2RPS",
+    "method": "SOLUTION NMR",
+    "resolution": "N/A",
+    "date": "2009-06-16",
+    "note": "Solution structure of a novel insect chemokine isolated from integument"
+  },
+  {
     "id": "2RQZ",
     "method": "SOLUTION NMR",
     "resolution": "N/A",
@@ -8631,6 +8736,13 @@ const pdbList = [
     "note": "Atomic resolution crystal structure of the PPIase domain of human cyclophilin G in complex with cyclosporin A."
   },
   {
+    "id": "2WFU",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "1.85 \u00c5",
+    "date": "2010-05-26",
+    "note": "Crystal structure of DILP5 variant DB"
+  },
+  {
     "id": "2WFV",
     "method": "X-RAY DIFFRACTION",
     "resolution": "1.85 \u00c5",
@@ -8706,6 +8818,13 @@ const pdbList = [
     "resolution": "2.59 \u00c5",
     "date": "2010-02-09",
     "note": "Semi-synthetic analogue of human insulin ProB26-DTI"
+  },
+  {
+    "id": "2WX1",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "3.00 \u00c5",
+    "date": "2009-11-24",
+    "note": "TAB2 NZF DOMAIN IN COMPLEX WITH Lys63-linked tri-ubiquitin, P212121"
   },
   {
     "id": "2X2C",
@@ -8804,6 +8923,13 @@ const pdbList = [
     "resolution": "2.56 \u00c5",
     "date": "2008-07-22",
     "note": "Crystal structure of Bovine Insulin (Hexameric form)"
+  },
+  {
+    "id": "2ZPP",
+    "method": "NEUTRON DIFFRACTION",
+    "resolution": "N/A",
+    "date": "2008-10-28",
+    "note": "Neutron crystal structure of cubic insulin at pD9"
   },
   {
     "id": "3A7Q",
@@ -9009,11 +9135,67 @@ const pdbList = [
     "note": "Structure of a Protein Phosphatase 2A Holoenzyme with B55 subunit"
   },
   {
+    "id": "3E4H",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "1.80 \u00c5",
+    "date": "2009-02-10",
+    "note": "Crystal structure of the cyclotide varv F"
+  },
+  {
+    "id": "3E7A",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "1.63 \u00c5",
+    "date": "2008-11-04",
+    "note": "Crystal Structure of Protein Phosphatase-1 Bound to the natural toxin Nodularin-R"
+  },
+  {
     "id": "3E7R",
     "method": "X-RAY DIFFRACTION",
     "resolution": "1.00 \u00c5",
     "date": "2009-06-09",
     "note": "X-ray Crystal Structure of Racemic Plectasin"
+  },
+  {
+    "id": "3E7U",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "1.35 \u00c5",
+    "date": "2009-06-09",
+    "note": "X-ray Crystal Structure of L-Plectasin"
+  },
+  {
+    "id": "3E7Y",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "1.60 \u00c5",
+    "date": "2009-02-24",
+    "note": "Structure of human insulin"
+  },
+  {
+    "id": "3E7Z",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "1.70 \u00c5",
+    "date": "2009-02-24",
+    "note": "Structure of human insulin"
+  },
+  {
+    "id": "3E8Y",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "1.10 \u00c5",
+    "date": "2009-02-10",
+    "note": "Xray structure of scorpion toxin BmBKTx1"
+  },
+  {
+    "id": "3EGH",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "2.00 \u00c5",
+    "date": "2010-03-23",
+    "note": "Crystal structure of a complex between Protein Phosphatase 1 alpha (PP1), the PP1 binding and PDZ domains of Spinophilin and the small natural molecular toxin Nodularin-R"
+  },
+  {
+    "id": "3EOV",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "2.60 \u00c5",
+    "date": "2008-11-11",
+    "note": "Crystal structure of cyclophilin from Leishmania donovani ligated with cyclosporin A"
   },
   {
     "id": "3EXX",
@@ -9091,6 +9273,13 @@ const pdbList = [
     "resolution": "1.10 \u00c5",
     "date": "2009-03-31",
     "note": "Interactions of an echinomycin-DNA complex with manganese(II) ions"
+  },
+  {
+    "id": "3H0T",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "1.89 \u00c5",
+    "date": "2009-06-23",
+    "note": "Hepcidin-Fab complex"
   },
   {
     "id": "3H6C",
@@ -9210,6 +9399,41 @@ const pdbList = [
     "resolution": "1.60 \u00c5",
     "date": "2011-04-06",
     "note": "Importance of Mg2+ in the Ca2+-Dependent Folding of the gamma-Carboxyglutamic Acid Domains of Vitamin K-Dependent clotting and anticlotting Proteins"
+  },
+  {
+    "id": "3K48",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "2.80 \u00c5",
+    "date": "2009-11-24",
+    "note": "Crystal structure of APRIL bound to a peptide"
+  },
+  {
+    "id": "3KQ6",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "1.90 \u00c5",
+    "date": "2010-02-23",
+    "note": "Enhancing the Therapeutic Properties of a Protein by a Designed Zinc-Binding Site, Structural principles of a novel long-acting insulin analog"
+  },
+  {
+    "id": "3L35",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "1.55 \u00c5",
+    "date": "2010-11-03",
+    "note": "PIE12 D-peptide against HIV entry"
+  },
+  {
+    "id": "3L36",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "1.45 \u00c5",
+    "date": "2010-11-03",
+    "note": "PIE12 D-peptide against HIV entry"
+  },
+  {
+    "id": "3L37",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "1.45 \u00c5",
+    "date": "2010-11-03",
+    "note": "PIE12 D-peptide against HIV entry"
   },
   {
     "id": "3LEU",
@@ -11198,6 +11422,13 @@ const pdbList = [
     "resolution": "3.74 \u00c5",
     "date": "2014-07-09",
     "note": "Structure of PDF binding helix in complex with the ribosome."
+  },
+  {
+    "id": "4V5E",
+    "method": "X-RAY DIFFRACTION",
+    "resolution": "3.45 \u00c5",
+    "date": "2014-07-09",
+    "note": "Insights into translational termination from the structure of RF2 bound to the ribosome"
   },
   {
     "id": "4V5K",

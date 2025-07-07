@@ -77,7 +77,7 @@
         },
         "rcsb_pubmed_central_id": "PMC3322596",
         "rcsb_pubmed_doi": "10.1107/S0907444911056058",
-        "rcsb_pubmed_abstract_text": "Maximum-likelihood X-ray macromolecular structure refinement in BUSTER has been extended with restraints facilitating the exploitation of structural similarity. The similarity can be between two or more chains within the structure being refined, thus favouring NCS, or to a distinct 'target' structure that remains fixed during refinement. The local structural similarity restraints (LSSR) approach considers all distances less than 5.5 Å between pairs of atoms in the chain to be restrained. For each, the difference from the distance between the corresponding atoms in the related chain is found. LSSR applies a restraint penalty on each difference. A functional form that reaches a plateau for large differences is used to avoid the restraints distorting parts of the structure that are not similar. Because LSSR are local, there is no need to separate out domains. Some restraint pruning is still necessary, but this has been automated. LSSR have been available to academic users of BUSTER since 2009 with the easy-to-use -autoncs and -target target.pdb options. The use of LSSR is illustrated in the re-refinement of PDB entries 5rnt, where -target enables the correct ligand-binding structure to be found, and 1osg, where -autoncs contributes to the location of an additional copy of the cyclic peptide ligand.",
+        "rcsb_pubmed_abstract_text": "Maximum-likelihood X-ray macromolecular structure refinement in BUSTER has been extended with restraints facilitating the exploitation of structural similarity. The similarity can be between two or more chains within the structure being refined, thus favouring NCS, or to a distinct 'target' structure that remains fixed during refinement. The local structural similarity restraints (LSSR) approach considers all distances less than 5.5\u2005\u00c5 between pairs of atoms in the chain to be restrained. For each, the difference from the distance between the corresponding atoms in the related chain is found. LSSR applies a restraint penalty on each difference. A functional form that reaches a plateau for large differences is used to avoid the restraints distorting parts of the structure that are not similar. Because LSSR are local, there is no need to separate out domains. Some restraint pruning is still necessary, but this has been automated. LSSR have been available to academic users of BUSTER since 2009 with the easy-to-use -autoncs and -target target.pdb options. The use of LSSR is illustrated in the re-refinement of PDB entries 5rnt, where -target enables the correct ligand-binding structure to be found, and 1osg, where -autoncs contributes to the location of an additional copy of the cyclic peptide ligand.",
         "rcsb_pubmed_affiliation_info": [
           "Global Phasing Ltd, Sheraton House, Castle Park, Cambridge CB3 0AX, England. osmart@globalphasing.com"
         ]
@@ -3871,7 +3871,8 @@
             "modeled_polymer_monomer_count": 13
           }
         }
-      ]
+      ],
+      "cycpepdb_ssbond": "G23-G34;H23-H34;I23-I34;J23-J34;K23-K34;L23-L34;Z23-Z34"
     }
   }
 }

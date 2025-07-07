@@ -84,7 +84,6 @@ def extract_pdb_data(json_path):
     entity_counts_str = ", ".join(entity_counts_str_parts) or None
 
     # 二硫键、其他连接、链、EC号、宿主、基因名等
-    has_ss_bond = False
     has_other_link = False
     pep_chains, prot_chains = [], []
     pep_lengths, prot_lengths = [], []
@@ -92,15 +91,17 @@ def extract_pdb_data(json_path):
     organisms = []
     polymer_entities_sequences = []
     
+    # 从 entry 中直接获取 cycpepdb_ssbond 的值
+    ss_bond_str = entry.get('cycpepdb_ssbond')
+    
     polymer_entities = entry.get('polymer_entities')
     if polymer_entities:
         for entity in polymer_entities:
             if entity.get('polymer_entity_instances'):
                 for instance in entity['polymer_entity_instances']:
                     for conn in (instance.get('rcsb_polymer_struct_conn') or []):
-                        if conn.get('connect_type') == 'disulfide bridge':
-                            has_ss_bond = True
-                        elif conn.get('connect_type'):
+                        # 检查 "disulfide bridge" 之外的其他连接类型
+                        if conn.get('connect_type') and conn.get('connect_type') != 'disulfide bridge':
                             has_other_link = True
             
             chain_ids_container = (entity.get('rcsb_polymer_entity_container_identifiers') or {})
@@ -159,7 +160,6 @@ def extract_pdb_data(json_path):
                         for gene in gene_name_list:
                             if gene.get('value'): gene_names.append(gene.get('value'))
     
-    ss_bond_str = "Yes" if has_ss_bond else None
     link_str = "Yes" if has_other_link else None
 
     # 标题 (从struct.title获取)
