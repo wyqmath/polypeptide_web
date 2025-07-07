@@ -329,147 +329,6 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "A",
-                "asym_id": "A",
-                "entry_id": "3G5V",
-                "entity_id": "1"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "CATH",
-                  "annotation_id": "2.60.40.10"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e3g5vA2"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e3g5vA1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "A"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "A"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "A"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "A"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "A"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "A"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "A"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "A"
-                  }
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_container_identifiers": {
-            "entry_id": "3G5V",
-            "entity_id": "1",
-            "asym_ids": [
-              "A"
-            ],
-            "auth_asym_ids": [
-              "A"
-            ],
-            "uniprot_ids": null,
-            "reference_sequence_identifiers": null
-          },
-          "uniprots": null,
-          "rcsb_polymer_entity": {
-            "pdbx_description": "806 light chain",
-            "rcsb_ec_lineage": null,
-            "pdbx_ec": null,
-            "rcsb_enzyme_class_combined": null
-          },
-          "rcsb_polymer_entity_annotation": null,
-          "rcsb_polymer_entity_group_membership": [
-            {
-              "group_id": "1_30",
-              "similarity_cutoff": 30.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "1_50",
-              "similarity_cutoff": 50.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "20837_95",
-              "similarity_cutoff": 95.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "1402_90",
-              "similarity_cutoff": 90.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "65832_100",
-              "similarity_cutoff": 100.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "1_70",
-              "similarity_cutoff": 70.0,
-              "aggregation_method": "sequence_identity"
-            }
-          ],
-          "entity_poly": {
-            "type": "polypeptide(L)",
-            "rcsb_entity_polymer_type": "Protein",
-            "pdbx_seq_one_letter_code_can": "DILMTQSPSSMSVSLGDTVSITCHSSQDINSNIGWLQQKPGKSFKGLIYHGTNLDDEVPSRFSGSGSGADYSLTISSLESEDFADYYCVQYAQFPWTFGGGTKLEIKRADAAPTVSIFPPSSEQLTSGGASVVCFLNNFYPKDINVKWKIDGSERQNGVLNSWTDQDSKDSTYSMSSTLTLTKDEYERHNSYTCEATHKTSTSPIVKSFNRN",
-            "rcsb_sample_sequence_length": 212,
-            "rcsb_mutation_count": 0
-          },
-          "rcsb_entity_source_organism": [
-            {
-              "scientific_name": "Mus musculus",
-              "ncbi_scientific_name": "Mus musculus",
-              "rcsb_gene_name": null
-            }
-          ],
-          "rcsb_entity_host_organism": [
-            {
-              "ncbi_scientific_name": "Mus musculus"
-            }
-          ],
-          "prd": null,
-          "chem_comp_nstd_monomers": null
-        },
-        {
-          "polymer_entity_instances": [
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
                 "auth_asym_id": "B",
                 "asym_id": "B",
                 "entry_id": "3G5V",
@@ -6527,54 +6386,176 @@
           "rcsb_entity_host_organism": null,
           "prd": null,
           "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "3G5V",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "2.60.40.10"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e3g5vA2"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e3g5vA1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "3G5V",
+            "entity_id": "1",
+            "asym_ids": [
+              "A"
+            ],
+            "auth_asym_ids": [
+              "A"
+            ],
+            "uniprot_ids": null,
+            "reference_sequence_identifiers": null
+          },
+          "uniprots": null,
+          "rcsb_polymer_entity": {
+            "pdbx_description": "806 light chain",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": null,
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "1_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "1_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "20837_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "1402_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "65832_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "1_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "DILMTQSPSSMSVSLGDTVSITCHSSQDINSNIGWLQQKPGKSFKGLIYHGTNLDDEVPSRFSGSGSGADYSLTISSLESEDFADYYCVQYAQFPWTFGGGTKLEIKRADAAPTVSIFPPSSEQLTSGGASVVCFLNNFYPKDINVKWKIDGSERQNGVLNSWTDQDSKDSTYSMSSTLTLTKDEYERHNSYTCEATHKTSTSPIVKSFNRN",
+            "rcsb_sample_sequence_length": 212,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Mus musculus",
+              "ncbi_scientific_name": "Mus musculus",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Mus musculus"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
         }
       ],
       "nonpolymer_entities": [
         {
           "rcsb_nonpolymer_entity_container_identifiers": {
             "entry_id": "3G5V",
-            "entity_id": "4",
+            "entity_id": "5",
             "auth_asym_ids": [
-              "A"
+              "B"
             ],
             "asym_ids": [
-              "D",
-              "E"
+              "F"
             ],
-            "nonpolymer_comp_id": "ACT"
+            "nonpolymer_comp_id": "GOL"
           },
           "rcsb_nonpolymer_entity_annotation": null,
           "nonpolymer_entity_instances": [
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "400",
-                "auth_asym_id": "A",
-                "asym_id": "D",
+                "auth_seq_id": "500",
+                "auth_asym_id": "B",
+                "asym_id": "F",
                 "entry_id": "3G5V",
-                "entity_id": "4"
+                "entity_id": "5"
               },
               "rcsb_nonpolymer_instance_validation_score": [
                 {
                   "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.4398,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "600",
-                "auth_asym_id": "A",
-                "asym_id": "E",
-                "entry_id": "3G5V",
-                "entity_id": "4"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.4303,
+                  "ranking_model_geometry": 0.8127,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -6583,18 +6564,18 @@
             }
           ],
           "rcsb_nonpolymer_entity": {
-            "pdbx_description": "ACETATE ION"
+            "pdbx_description": "GLYCEROL"
           },
           "nonpolymer_comp": {
             "chem_comp": {
-              "id": "ACT",
-              "formula_weight": 59.044,
-              "name": "ACETATE ION",
-              "formula": "C2 H3 O2"
+              "id": "GOL",
+              "formula_weight": 92.094,
+              "name": "GLYCEROL",
+              "formula": "C3 H8 O3"
             },
             "pdbx_reference_molecule": null,
             "rcsb_chem_comp_descriptor": {
-              "InChIKey": "QTBSBXVTEAMEQO-UHFFFAOYSA-M"
+              "InChIKey": "PEDCQBHIVMGVHV-UHFFFAOYSA-N"
             }
           }
         },
@@ -6689,29 +6670,48 @@
         {
           "rcsb_nonpolymer_entity_container_identifiers": {
             "entry_id": "3G5V",
-            "entity_id": "5",
+            "entity_id": "4",
             "auth_asym_ids": [
-              "B"
+              "A"
             ],
             "asym_ids": [
-              "F"
+              "D",
+              "E"
             ],
-            "nonpolymer_comp_id": "GOL"
+            "nonpolymer_comp_id": "ACT"
           },
           "rcsb_nonpolymer_entity_annotation": null,
           "nonpolymer_entity_instances": [
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "500",
-                "auth_asym_id": "B",
-                "asym_id": "F",
+                "auth_seq_id": "400",
+                "auth_asym_id": "A",
+                "asym_id": "D",
                 "entry_id": "3G5V",
-                "entity_id": "5"
+                "entity_id": "4"
               },
               "rcsb_nonpolymer_instance_validation_score": [
                 {
                   "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.8127,
+                  "ranking_model_geometry": 0.4398,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "600",
+                "auth_asym_id": "A",
+                "asym_id": "E",
+                "entry_id": "3G5V",
+                "entity_id": "4"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.4303,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -6720,18 +6720,18 @@
             }
           ],
           "rcsb_nonpolymer_entity": {
-            "pdbx_description": "GLYCEROL"
+            "pdbx_description": "ACETATE ION"
           },
           "nonpolymer_comp": {
             "chem_comp": {
-              "id": "GOL",
-              "formula_weight": 92.094,
-              "name": "GLYCEROL",
-              "formula": "C3 H8 O3"
+              "id": "ACT",
+              "formula_weight": 59.044,
+              "name": "ACETATE ION",
+              "formula": "C2 H3 O2"
             },
             "pdbx_reference_molecule": null,
             "rcsb_chem_comp_descriptor": {
-              "InChIKey": "PEDCQBHIVMGVHV-UHFFFAOYSA-N"
+              "InChIKey": "QTBSBXVTEAMEQO-UHFFFAOYSA-M"
             }
           }
         }

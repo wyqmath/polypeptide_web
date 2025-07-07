@@ -855,62 +855,6 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "C",
-                "asym_id": "C",
-                "entry_id": "4AKJ",
-                "entity_id": "1"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8038024"
-                }
-              ],
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "C"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "C"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "C"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "C"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "D"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "C"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "D"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "C"
-                  }
-                }
-              ]
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
                 "auth_asym_id": "A",
                 "asym_id": "A",
                 "entry_id": "4AKJ",
@@ -961,6 +905,62 @@
                   },
                   "connect_target": {
                     "label_asym_id": "A"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "C",
+                "asym_id": "C",
+                "entry_id": "4AKJ",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8038024"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
                   }
                 }
               ]
@@ -14082,75 +14082,6 @@
         {
           "rcsb_nonpolymer_entity_container_identifiers": {
             "entry_id": "4AKJ",
-            "entity_id": "3",
-            "auth_asym_ids": [
-              "A",
-              "C"
-            ],
-            "asym_ids": [
-              "E",
-              "I"
-            ],
-            "nonpolymer_comp_id": "IPH"
-          },
-          "rcsb_nonpolymer_entity_annotation": null,
-          "nonpolymer_entity_instances": [
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "1023",
-                "auth_asym_id": "A",
-                "asym_id": "E",
-                "entry_id": "4AKJ",
-                "entity_id": "3"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.9094,
-                  "ranking_model_geometry": 0.4355,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "1022",
-                "auth_asym_id": "C",
-                "asym_id": "I",
-                "entry_id": "4AKJ",
-                "entity_id": "3"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.5785,
-                  "ranking_model_geometry": 0.4888,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            }
-          ],
-          "rcsb_nonpolymer_entity": {
-            "pdbx_description": "PHENOL"
-          },
-          "nonpolymer_comp": {
-            "chem_comp": {
-              "id": "IPH",
-              "formula_weight": 94.111,
-              "name": "PHENOL",
-              "formula": "C6 H6 O"
-            },
-            "pdbx_reference_molecule": null,
-            "rcsb_chem_comp_descriptor": {
-              "InChIKey": "ISWSIDIOOBJBQZ-UHFFFAOYSA-N"
-            }
-          }
-        },
-        {
-          "rcsb_nonpolymer_entity_container_identifiers": {
-            "entry_id": "4AKJ",
             "entity_id": "4",
             "auth_asym_ids": [
               "B"
@@ -14194,6 +14125,75 @@
             "pdbx_reference_molecule": null,
             "rcsb_chem_comp_descriptor": {
               "InChIKey": "SGIVALYPXQHYAY-KRWDZBQOSA-N"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "4AKJ",
+            "entity_id": "5",
+            "auth_asym_ids": [
+              "B",
+              "D"
+            ],
+            "asym_ids": [
+              "G",
+              "J"
+            ],
+            "nonpolymer_comp_id": "ZN"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "1030",
+                "auth_asym_id": "B",
+                "asym_id": "G",
+                "entry_id": "4AKJ",
+                "entity_id": "5"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9999,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 0.33,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "1030",
+                "auth_asym_id": "D",
+                "asym_id": "J",
+                "entry_id": "4AKJ",
+                "entity_id": "5"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9998,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 0.33,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "ZINC ION"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "ZN",
+              "formula_weight": 65.409,
+              "name": "ZINC ION",
+              "formula": "Zn"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "PTFCDOFLOPIGGS-UHFFFAOYSA-N"
             }
           }
         },
@@ -14269,32 +14269,32 @@
         {
           "rcsb_nonpolymer_entity_container_identifiers": {
             "entry_id": "4AKJ",
-            "entity_id": "5",
+            "entity_id": "3",
             "auth_asym_ids": [
-              "B",
-              "D"
+              "A",
+              "C"
             ],
             "asym_ids": [
-              "G",
-              "J"
+              "E",
+              "I"
             ],
-            "nonpolymer_comp_id": "ZN"
+            "nonpolymer_comp_id": "IPH"
           },
           "rcsb_nonpolymer_entity_annotation": null,
           "nonpolymer_entity_instances": [
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "1030",
-                "auth_asym_id": "B",
-                "asym_id": "G",
+                "auth_seq_id": "1023",
+                "auth_asym_id": "A",
+                "asym_id": "E",
                 "entry_id": "4AKJ",
-                "entity_id": "5"
+                "entity_id": "3"
               },
               "rcsb_nonpolymer_instance_validation_score": [
                 {
-                  "ranking_model_fit": 0.9999,
-                  "ranking_model_geometry": null,
-                  "average_occupancy": 0.33,
+                  "ranking_model_fit": 0.9094,
+                  "ranking_model_geometry": 0.4355,
+                  "average_occupancy": 1.0,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
                 }
@@ -14302,17 +14302,17 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "1030",
-                "auth_asym_id": "D",
-                "asym_id": "J",
+                "auth_seq_id": "1022",
+                "auth_asym_id": "C",
+                "asym_id": "I",
                 "entry_id": "4AKJ",
-                "entity_id": "5"
+                "entity_id": "3"
               },
               "rcsb_nonpolymer_instance_validation_score": [
                 {
-                  "ranking_model_fit": 0.9998,
-                  "ranking_model_geometry": null,
-                  "average_occupancy": 0.33,
+                  "ranking_model_fit": 0.5785,
+                  "ranking_model_geometry": 0.4888,
+                  "average_occupancy": 1.0,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
                 }
@@ -14320,18 +14320,18 @@
             }
           ],
           "rcsb_nonpolymer_entity": {
-            "pdbx_description": "ZINC ION"
+            "pdbx_description": "PHENOL"
           },
           "nonpolymer_comp": {
             "chem_comp": {
-              "id": "ZN",
-              "formula_weight": 65.409,
-              "name": "ZINC ION",
-              "formula": "Zn"
+              "id": "IPH",
+              "formula_weight": 94.111,
+              "name": "PHENOL",
+              "formula": "C6 H6 O"
             },
             "pdbx_reference_molecule": null,
             "rcsb_chem_comp_descriptor": {
-              "InChIKey": "PTFCDOFLOPIGGS-UHFFFAOYSA-N"
+              "InChIKey": "ISWSIDIOOBJBQZ-UHFFFAOYSA-N"
             }
           }
         }

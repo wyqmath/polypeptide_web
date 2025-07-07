@@ -496,25 +496,6 @@
             },
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "3",
-                "asym_id": "C",
-                "entry_id": "7OUI",
-                "entity_id": "1"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8103981"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e7oui31"
-                }
-              ],
-              "rcsb_polymer_struct_conn": null
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
                 "auth_asym_id": "7",
                 "asym_id": "CA",
                 "entry_id": "7OUI",
@@ -532,6 +513,25 @@
                 {
                   "type": "ECOD",
                   "annotation_id": "e7oui71"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "3",
+                "asym_id": "C",
+                "entry_id": "7OUI",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8103981"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e7oui31"
                 }
               ],
               "rcsb_polymer_struct_conn": null
@@ -6238,6 +6238,1354 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "D",
+                "asym_id": "H",
+                "entry_id": "7OUI",
+                "entity_id": "7"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8098768"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e7ouiD1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "VB"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "H"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "VB"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "H"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "UD"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "H"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "d",
+                "asym_id": "HA",
+                "entry_id": "7OUI",
+                "entity_id": "7"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8098768"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e7ouid1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "BJ"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "HA"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "BJ"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "HA"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "ZK"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "HA"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "7OUI",
+            "entity_id": "7",
+            "asym_ids": [
+              "H",
+              "HA"
+            ],
+            "auth_asym_ids": [
+              "D",
+              "d"
+            ],
+            "uniprot_ids": [
+              "P56761"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "P56761"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "P56761",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Arabidopsis thaliana"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Photosystem II D2 protein",
+            "rcsb_ec_lineage": [
+              {
+                "id": "1"
+              },
+              {
+                "id": "1.10"
+              },
+              {
+                "id": "1.10.3"
+              },
+              {
+                "id": "1.10.3.9"
+              }
+            ],
+            "pdbx_ec": "1.10.3.9",
+            "rcsb_enzyme_class_combined": [
+              {
+                "ec": "1.10.3.9",
+                "provenance_source": "PDB Primary Data"
+              }
+            ]
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "mpstruc",
+              "annotation_lineage": [
+                {
+                  "name": "TRANSMEMBRANE PROTEINS: ALPHA-HELICAL",
+                  "depth": 0
+                },
+                {
+                  "name": "C2S2M2-type Photosystem II supercomplex",
+                  "depth": 2
+                },
+                {
+                  "name": "Photosystems",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "OPM",
+              "annotation_lineage": [
+                {
+                  "name": "Photosystem II",
+                  "depth": 3
+                },
+                {
+                  "name": "Alpha-helical polytopic",
+                  "depth": 1
+                },
+                {
+                  "name": "Photosystems",
+                  "depth": 2
+                },
+                {
+                  "name": "Transmembrane",
+                  "depth": 0
+                }
+              ]
+            },
+            {
+              "type": "PDBTM",
+              "annotation_lineage": [
+                {
+                  "name": "Generic PDBTM",
+                  "depth": 0
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "photosystem",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "photosystem II",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                },
+                {
+                  "name": "membrane protein complex",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "photosynthetic membrane",
+                  "depth": null
+                },
+                {
+                  "name": "thylakoid",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid binding",
+                  "depth": null
+                },
+                {
+                  "name": "mRNA binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "chloroplast thylakoid membrane",
+                  "depth": null
+                },
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "plastid membrane",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "plastid",
+                  "depth": null
+                },
+                {
+                  "name": "organelle outer membrane",
+                  "depth": null
+                },
+                {
+                  "name": "plastid thylakoid membrane",
+                  "depth": null
+                },
+                {
+                  "name": "plastid thylakoid",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "organelle envelope",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "bounding membrane of organelle",
+                  "depth": null
+                },
+                {
+                  "name": "membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "plastid envelope",
+                  "depth": null
+                },
+                {
+                  "name": "thylakoid",
+                  "depth": null
+                },
+                {
+                  "name": "chloroplast",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "thylakoid membrane",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "chloroplast thylakoid",
+                  "depth": null
+                },
+                {
+                  "name": "outer membrane",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "photosynthetic membrane",
+                  "depth": null
+                },
+                {
+                  "name": "organelle membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Photosystem II protein D1/D2 superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "plastid",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membrane-bounded organelle",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "oxidoreductase activity",
+                  "depth": null
+                },
+                {
+                  "name": "oxygen evolving activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "chlorophyll binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "tetrapyrrole binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cation binding",
+                  "depth": null
+                },
+                {
+                  "name": "transition metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "iron ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Photosystem II protein D1/D2",
+                  "depth": 1
+                },
+                {
+                  "name": "Photosystem II D2",
+                  "depth": 2
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "plastid",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "plastid thylakoid",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "chloroplast thylakoid",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "thylakoid",
+                  "depth": null
+                },
+                {
+                  "name": "chloroplast",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "photosynthesis",
+                  "depth": null
+                },
+                {
+                  "name": "photosynthesis, light reaction",
+                  "depth": null
+                },
+                {
+                  "name": "photosynthetic electron transport chain",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "electron transport chain",
+                  "depth": null
+                },
+                {
+                  "name": "photosynthetic electron transport in photosystem II",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "generation of precursor metabolites and energy",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "electron transporter, transferring electrons within the cyclic electron transport pathway of photosynthesis activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Photosynthetic reaction centre, L/M",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "plastid",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "chloroplast",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Photosynthetic reaction centre, L/M, conserved site",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "thylakoid",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Photosystem II protein D1/D2",
+                  "depth": 1
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "482_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "97723_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "319_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "149_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "209_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "200_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "P56761",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "TIALGKFTKDEKDLFDIMDDWLRRDRFVFVGWSGLLLFPCAYFALGGWFTGTTFVTSWYTHGLASSYLEGCNFLTAAVSTPANSLAHSLLLLWGPEAQGDFTRWCQLGGLWAFVALHGAFALIGFMLRQFELARSVQLRPYNAIAFSGPIAVFVSVFLIYPLGQSGWFFAPSFGVAAIFRFILFFQGFHNWTLNPFHMMGVAGVLGAALLCAIHGATVENTLFEDGDGANTFRAFNPTQAEETYSMVTANRFWSQIFGVAFSNKRWLHFFMLFVPVTGLWMSALGVVGLALNLRAYDFVSQEIRAAEDPEFETFYTKNILLNEGIRAWMAAQDQPHENLIFPEEVLPRGNAL",
+            "rcsb_sample_sequence_length": 352,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Arabidopsis thaliana",
+              "ncbi_scientific_name": "Arabidopsis thaliana",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "E",
+                "asym_id": "I",
+                "entry_id": "7OUI",
+                "entity_id": "8"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8098774"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e7ouiE1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "e",
+                "asym_id": "IA",
+                "entry_id": "7OUI",
+                "entity_id": "8"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8098774"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e7ouie1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "7OUI",
+            "entity_id": "8",
+            "asym_ids": [
+              "I",
+              "IA"
+            ],
+            "auth_asym_ids": [
+              "E",
+              "e"
+            ],
+            "uniprot_ids": [
+              "P56779"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "P56779"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "P56779",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Arabidopsis thaliana"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Cytochrome b559 subunit alpha",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "mpstruc",
+              "annotation_lineage": [
+                {
+                  "name": "TRANSMEMBRANE PROTEINS: ALPHA-HELICAL",
+                  "depth": 0
+                },
+                {
+                  "name": "C2S2M2-type Photosystem II supercomplex",
+                  "depth": 2
+                },
+                {
+                  "name": "Photosystems",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "OPM",
+              "annotation_lineage": [
+                {
+                  "name": "Photosystem II",
+                  "depth": 3
+                },
+                {
+                  "name": "Alpha-helical polytopic",
+                  "depth": 1
+                },
+                {
+                  "name": "Photosystems",
+                  "depth": 2
+                },
+                {
+                  "name": "Transmembrane",
+                  "depth": 0
+                }
+              ]
+            },
+            {
+              "type": "PDBTM",
+              "annotation_lineage": [
+                {
+                  "name": "Generic PDBTM",
+                  "depth": 0
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Photosystem II cytochrome b559, N-terminal",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "photosystem",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "photosystem II",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                },
+                {
+                  "name": "membrane protein complex",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "photosystem II reaction center",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "photosynthetic membrane",
+                  "depth": null
+                },
+                {
+                  "name": "thylakoid",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Photosystem II cytochrome b559, alpha subunit",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "chloroplast thylakoid membrane",
+                  "depth": null
+                },
+                {
+                  "name": "membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "plastid membrane",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "plastid",
+                  "depth": null
+                },
+                {
+                  "name": "organelle outer membrane",
+                  "depth": null
+                },
+                {
+                  "name": "plastid thylakoid membrane",
+                  "depth": null
+                },
+                {
+                  "name": "plastid thylakoid",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "organelle envelope",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "bounding membrane of organelle",
+                  "depth": null
+                },
+                {
+                  "name": "membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "plastid envelope",
+                  "depth": null
+                },
+                {
+                  "name": "thylakoid",
+                  "depth": null
+                },
+                {
+                  "name": "chloroplast",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membrane-bounded organelle",
+                  "depth": null
+                },
+                {
+                  "name": "thylakoid membrane",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "chloroplast thylakoid",
+                  "depth": null
+                },
+                {
+                  "name": "outer membrane",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                },
+                {
+                  "name": "photosynthetic membrane",
+                  "depth": null
+                },
+                {
+                  "name": "organelle membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "photosynthesis",
+                  "depth": null
+                },
+                {
+                  "name": "photosynthesis, light reaction",
+                  "depth": null
+                },
+                {
+                  "name": "photosynthetic electron transport chain",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "electron transport chain",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "generation of precursor metabolites and energy",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Photosystem II cytochrome b559, alpha subunit, lumenal region",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "tetrapyrrole binding",
+                  "depth": null
+                },
+                {
+                  "name": "heme binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "electron transfer activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cation binding",
+                  "depth": null
+                },
+                {
+                  "name": "transition metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "iron ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Photosystem II cytochrome b559, alpha subunit superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Photosystem II cytochrome b559, conserved site",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "4433_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "1016_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "370_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "P56779",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "714_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "817_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "242_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESRQGIPLITGRFDSLEQLDEFSRSF",
+            "rcsb_sample_sequence_length": 83,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Arabidopsis thaliana",
+              "ncbi_scientific_name": "Arabidopsis thaliana",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
                 "auth_asym_id": "F",
                 "asym_id": "J",
                 "entry_id": "7OUI",
@@ -6841,25 +8189,6 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "H",
-                "asym_id": "K",
-                "entry_id": "7OUI",
-                "entity_id": "10"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8101549"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e7ouiH1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": null
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
                 "auth_asym_id": "h",
                 "asym_id": "KA",
                 "entry_id": "7OUI",
@@ -6873,6 +8202,25 @@
                 {
                   "type": "ECOD",
                   "annotation_id": "e7ouih1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "H",
+                "asym_id": "K",
+                "entry_id": "7OUI",
+                "entity_id": "10"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8101549"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e7ouiH1"
                 }
               ],
               "rcsb_polymer_struct_conn": null
@@ -7523,25 +8871,6 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "I",
-                "asym_id": "L",
-                "entry_id": "7OUI",
-                "entity_id": "11"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8098834"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e7ouiI1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": null
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
                 "auth_asym_id": "i",
                 "asym_id": "LA",
                 "entry_id": "7OUI",
@@ -7555,6 +8884,25 @@
                 {
                   "type": "ECOD",
                   "annotation_id": "e7ouii1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "I",
+                "asym_id": "L",
+                "entry_id": "7OUI",
+                "entity_id": "11"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8098834"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e7ouiI1"
                 }
               ],
               "rcsb_polymer_struct_conn": null
@@ -8830,25 +10178,6 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "M",
-                "asym_id": "O",
-                "entry_id": "7OUI",
-                "entity_id": "14"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8098838"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e7ouiM1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": null
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
                 "auth_asym_id": "m",
                 "asym_id": "OA",
                 "entry_id": "7OUI",
@@ -8862,6 +10191,25 @@
                 {
                   "type": "ECOD",
                   "annotation_id": "e7ouim1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "M",
+                "asym_id": "O",
+                "entry_id": "7OUI",
+                "entity_id": "14"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8098838"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e7ouiM1"
                 }
               ],
               "rcsb_polymer_struct_conn": null
@@ -9237,25 +10585,6 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "O",
-                "asym_id": "P",
-                "entry_id": "7OUI",
-                "entity_id": "15"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8098590"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e7ouiO1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": null
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
                 "auth_asym_id": "o",
                 "asym_id": "PA",
                 "entry_id": "7OUI",
@@ -9269,6 +10598,25 @@
                 {
                   "type": "ECOD",
                   "annotation_id": "e7ouio1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "O",
+                "asym_id": "P",
+                "entry_id": "7OUI",
+                "entity_id": "15"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8098590"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e7ouiO1"
                 }
               ],
               "rcsb_polymer_struct_conn": null
@@ -11334,789 +12682,6 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "X",
-                "asym_id": "S",
-                "entry_id": "7OUI",
-                "entity_id": "18"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e7ouiX1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": null
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "x",
-                "asym_id": "SA",
-                "entry_id": "7OUI",
-                "entity_id": "18"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e7ouix1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": null
-            }
-          ],
-          "rcsb_polymer_entity_container_identifiers": {
-            "entry_id": "7OUI",
-            "entity_id": "18",
-            "asym_ids": [
-              "S",
-              "SA"
-            ],
-            "auth_asym_ids": [
-              "X",
-              "x"
-            ],
-            "uniprot_ids": [
-              "A0A7G2E9B1"
-            ],
-            "reference_sequence_identifiers": [
-              {
-                "database_accession": "A0A7G2E9B1"
-              }
-            ]
-          },
-          "uniprots": [
-            {
-              "rcsb_id": "A0A7G2E9B1",
-              "rcsb_uniprot_protein": {
-                "source_organism": {
-                  "scientific_name": "Arabidopsis thaliana"
-                }
-              },
-              "rcsb_uniprot_external_reference": null
-            }
-          ],
-          "rcsb_polymer_entity": {
-            "pdbx_description": "(thale cress) hypothetical protein",
-            "rcsb_ec_lineage": null,
-            "pdbx_ec": null,
-            "rcsb_enzyme_class_combined": null
-          },
-          "rcsb_polymer_entity_annotation": [
-            {
-              "type": "Pfam",
-              "annotation_lineage": null
-            },
-            {
-              "type": "mpstruc",
-              "annotation_lineage": [
-                {
-                  "name": "TRANSMEMBRANE PROTEINS: ALPHA-HELICAL",
-                  "depth": 0
-                },
-                {
-                  "name": "C2S2M2-type Photosystem II supercomplex",
-                  "depth": 2
-                },
-                {
-                  "name": "Photosystems",
-                  "depth": 1
-                }
-              ]
-            },
-            {
-              "type": "OPM",
-              "annotation_lineage": [
-                {
-                  "name": "Photosystem II",
-                  "depth": 3
-                },
-                {
-                  "name": "Alpha-helical polytopic",
-                  "depth": 1
-                },
-                {
-                  "name": "Photosystems",
-                  "depth": 2
-                },
-                {
-                  "name": "Transmembrane",
-                  "depth": 0
-                }
-              ]
-            },
-            {
-              "type": "PDBTM",
-              "annotation_lineage": [
-                {
-                  "name": "Generic PDBTM",
-                  "depth": 0
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "protein-containing complex",
-                  "depth": null
-                },
-                {
-                  "name": "photosystem",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "photosystem II",
-                  "depth": null
-                },
-                {
-                  "name": "membrane",
-                  "depth": null
-                },
-                {
-                  "name": "membrane protein complex",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular membraneless organelle",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular organelle",
-                  "depth": null
-                },
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "organelle",
-                  "depth": null
-                },
-                {
-                  "name": "membraneless organelle",
-                  "depth": null
-                },
-                {
-                  "name": "photosynthetic membrane",
-                  "depth": null
-                },
-                {
-                  "name": "thylakoid",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Photosystem II PsbX",
-                  "depth": 1
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "localization",
-                  "depth": null
-                },
-                {
-                  "name": "cellular localization",
-                  "depth": null
-                },
-                {
-                  "name": "transport",
-                  "depth": null
-                },
-                {
-                  "name": "establishment of localization in cell",
-                  "depth": null
-                },
-                {
-                  "name": "biological_process",
-                  "depth": null
-                },
-                {
-                  "name": "vacuolar transport",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular transport",
-                  "depth": null
-                },
-                {
-                  "name": "cellular process",
-                  "depth": null
-                },
-                {
-                  "name": "establishment of localization",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "photosynthesis",
-                  "depth": null
-                },
-                {
-                  "name": "biological_process",
-                  "depth": null
-                },
-                {
-                  "name": "metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "cellular process",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Snf7 family",
-                  "depth": null
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_group_membership": [
-            {
-              "group_id": "62786_30",
-              "similarity_cutoff": 30.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "A0A7G2E9B1",
-              "similarity_cutoff": null,
-              "aggregation_method": "matching_uniprot_accession"
-            },
-            {
-              "group_id": "749668_100",
-              "similarity_cutoff": 100.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "87372_70",
-              "similarity_cutoff": 70.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "612621_90",
-              "similarity_cutoff": 90.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "84451_50",
-              "similarity_cutoff": 50.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "651443_95",
-              "similarity_cutoff": 95.0,
-              "aggregation_method": "sequence_identity"
-            }
-          ],
-          "entity_poly": {
-            "type": "polypeptide(L)",
-            "rcsb_entity_polymer_type": "Protein",
-            "pdbx_seq_one_letter_code_can": "AGSGISPSLKNFLLSIASGGLVLTVIIGVVVGVSNFDPVKRT",
-            "rcsb_sample_sequence_length": 42,
-            "rcsb_mutation_count": 0
-          },
-          "rcsb_entity_source_organism": [
-            {
-              "scientific_name": "Arabidopsis thaliana",
-              "ncbi_scientific_name": "Arabidopsis thaliana",
-              "rcsb_gene_name": null
-            }
-          ],
-          "rcsb_entity_host_organism": null,
-          "prd": null,
-          "chem_comp_nstd_monomers": null
-        },
-        {
-          "polymer_entity_instances": [
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "Z",
-                "asym_id": "T",
-                "entry_id": "7OUI",
-                "entity_id": "19"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8098778"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e7ouiZ1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": null
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "z",
-                "asym_id": "TA",
-                "entry_id": "7OUI",
-                "entity_id": "19"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8098778"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e7ouiz1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": null
-            }
-          ],
-          "rcsb_polymer_entity_container_identifiers": {
-            "entry_id": "7OUI",
-            "entity_id": "19",
-            "asym_ids": [
-              "T",
-              "TA"
-            ],
-            "auth_asym_ids": [
-              "Z",
-              "z"
-            ],
-            "uniprot_ids": [
-              "P56790"
-            ],
-            "reference_sequence_identifiers": [
-              {
-                "database_accession": "P56790"
-              }
-            ]
-          },
-          "uniprots": [
-            {
-              "rcsb_id": "P56790",
-              "rcsb_uniprot_protein": {
-                "source_organism": {
-                  "scientific_name": "Arabidopsis thaliana"
-                }
-              },
-              "rcsb_uniprot_external_reference": null
-            }
-          ],
-          "rcsb_polymer_entity": {
-            "pdbx_description": "Photosystem II reaction center protein Z",
-            "rcsb_ec_lineage": null,
-            "pdbx_ec": null,
-            "rcsb_enzyme_class_combined": null
-          },
-          "rcsb_polymer_entity_annotation": [
-            {
-              "type": "Pfam",
-              "annotation_lineage": null
-            },
-            {
-              "type": "mpstruc",
-              "annotation_lineage": [
-                {
-                  "name": "TRANSMEMBRANE PROTEINS: ALPHA-HELICAL",
-                  "depth": 0
-                },
-                {
-                  "name": "C2S2M2-type Photosystem II supercomplex",
-                  "depth": 2
-                },
-                {
-                  "name": "Photosystems",
-                  "depth": 1
-                }
-              ]
-            },
-            {
-              "type": "OPM",
-              "annotation_lineage": [
-                {
-                  "name": "Photosystem II",
-                  "depth": 3
-                },
-                {
-                  "name": "Alpha-helical polytopic",
-                  "depth": 1
-                },
-                {
-                  "name": "Photosystems",
-                  "depth": 2
-                },
-                {
-                  "name": "Transmembrane",
-                  "depth": 0
-                }
-              ]
-            },
-            {
-              "type": "PDBTM",
-              "annotation_lineage": [
-                {
-                  "name": "Generic PDBTM",
-                  "depth": 0
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Photosystem II PsbZ superfamily",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "protein-containing complex",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "photosystem",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "photosystem II",
-                  "depth": null
-                },
-                {
-                  "name": "membrane",
-                  "depth": null
-                },
-                {
-                  "name": "membrane protein complex",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular membraneless organelle",
-                  "depth": null
-                },
-                {
-                  "name": "photosystem II reaction center",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular organelle",
-                  "depth": null
-                },
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "organelle",
-                  "depth": null
-                },
-                {
-                  "name": "membraneless organelle",
-                  "depth": null
-                },
-                {
-                  "name": "photosynthetic membrane",
-                  "depth": null
-                },
-                {
-                  "name": "thylakoid",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Photosystem II PsbZ, reaction centre",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "chloroplast thylakoid membrane",
-                  "depth": null
-                },
-                {
-                  "name": "membrane-bounded organelle",
-                  "depth": null
-                },
-                {
-                  "name": "plastid membrane",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "plastid",
-                  "depth": null
-                },
-                {
-                  "name": "organelle outer membrane",
-                  "depth": null
-                },
-                {
-                  "name": "plastid thylakoid membrane",
-                  "depth": null
-                },
-                {
-                  "name": "plastid thylakoid",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular organelle",
-                  "depth": null
-                },
-                {
-                  "name": "organelle envelope",
-                  "depth": null
-                },
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "bounding membrane of organelle",
-                  "depth": null
-                },
-                {
-                  "name": "membraneless organelle",
-                  "depth": null
-                },
-                {
-                  "name": "plastid envelope",
-                  "depth": null
-                },
-                {
-                  "name": "thylakoid",
-                  "depth": null
-                },
-                {
-                  "name": "chloroplast",
-                  "depth": null
-                },
-                {
-                  "name": "membrane",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular membraneless organelle",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular membrane-bounded organelle",
-                  "depth": null
-                },
-                {
-                  "name": "thylakoid membrane",
-                  "depth": null
-                },
-                {
-                  "name": "organelle",
-                  "depth": null
-                },
-                {
-                  "name": "chloroplast thylakoid",
-                  "depth": null
-                },
-                {
-                  "name": "outer membrane",
-                  "depth": null
-                },
-                {
-                  "name": "cytoplasm",
-                  "depth": null
-                },
-                {
-                  "name": "photosynthetic membrane",
-                  "depth": null
-                },
-                {
-                  "name": "organelle membrane",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "photosynthesis",
-                  "depth": null
-                },
-                {
-                  "name": "biological_process",
-                  "depth": null
-                },
-                {
-                  "name": "metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "cellular process",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "regulation of biological process",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of cellular process",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of photosynthesis",
-                  "depth": null
-                },
-                {
-                  "name": "photosynthesis",
-                  "depth": null
-                },
-                {
-                  "name": "photosynthesis, light reaction",
-                  "depth": null
-                },
-                {
-                  "name": "photosystem II stabilization",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of photosynthesis, light reaction",
-                  "depth": null
-                },
-                {
-                  "name": "biological regulation",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of generation of precursor metabolites and energy",
-                  "depth": null
-                },
-                {
-                  "name": "generation of precursor metabolites and energy",
-                  "depth": null
-                },
-                {
-                  "name": "biological_process",
-                  "depth": null
-                },
-                {
-                  "name": "cellular process",
-                  "depth": null
-                },
-                {
-                  "name": "metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of metabolic process",
-                  "depth": null
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_group_membership": [
-            {
-              "group_id": "21224_100",
-              "similarity_cutoff": 100.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "491_50",
-              "similarity_cutoff": 50.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "1715_95",
-              "similarity_cutoff": 95.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "1180_70",
-              "similarity_cutoff": 70.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "828_30",
-              "similarity_cutoff": 30.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "1198_90",
-              "similarity_cutoff": 90.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "P56790",
-              "similarity_cutoff": null,
-              "aggregation_method": "matching_uniprot_accession"
-            }
-          ],
-          "entity_poly": {
-            "type": "polypeptide(L)",
-            "rcsb_entity_polymer_type": "Protein",
-            "pdbx_seq_one_letter_code_can": "MTIAFQLAVFALIITSSILLISVPVVFASPDGWSSNKNVVFSGTSLWIGLVFLVGILNSLIS",
-            "rcsb_sample_sequence_length": 62,
-            "rcsb_mutation_count": 0
-          },
-          "rcsb_entity_source_organism": [
-            {
-              "scientific_name": "Arabidopsis thaliana",
-              "ncbi_scientific_name": "Arabidopsis thaliana",
-              "rcsb_gene_name": null
-            }
-          ],
-          "rcsb_entity_host_organism": null,
-          "prd": null,
-          "chem_comp_nstd_monomers": null
-        },
-        {
-          "polymer_entity_instances": [
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
                 "auth_asym_id": "S",
                 "asym_id": "U",
                 "entry_id": "7OUI",
@@ -13369,116 +13934,6 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "G",
-                "asym_id": "V",
-                "entry_id": "7OUI",
-                "entity_id": "21"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8076980"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e7ouiG1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "DF"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "V"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "EF"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "V"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "EF"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "V"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "HF"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "V"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "LF"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "V"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "OF"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "V"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "OF"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "V"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "PF"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "V"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "QF"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "V"
-                  }
-                }
-              ]
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
                 "auth_asym_id": "g",
                 "asym_id": "VA",
                 "entry_id": "7OUI",
@@ -14111,6 +14566,116 @@
                   },
                   "connect_target": {
                     "label_asym_id": "XA"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "G",
+                "asym_id": "V",
+                "entry_id": "7OUI",
+                "entity_id": "21"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8076980"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e7ouiG1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "DF"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "V"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "EF"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "V"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "EF"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "V"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "HF"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "V"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "LF"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "V"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "OF"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "V"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "OF"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "V"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "PF"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "V"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "QF"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "V"
                   }
                 }
               ]
@@ -16241,128 +16806,58 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "D",
-                "asym_id": "H",
+                "auth_asym_id": "X",
+                "asym_id": "S",
                 "entry_id": "7OUI",
-                "entity_id": "7"
+                "entity_id": "18"
               },
               "rcsb_polymer_instance_annotation": [
                 {
-                  "type": "SCOP2",
-                  "annotation_id": "8098768"
-                },
-                {
                   "type": "ECOD",
-                  "annotation_id": "e7ouiD1"
+                  "annotation_id": "e7ouiX1"
                 }
               ],
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "VB"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "H"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "VB"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "H"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "UD"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "H"
-                  }
-                }
-              ]
+              "rcsb_polymer_struct_conn": null
             },
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "d",
-                "asym_id": "HA",
+                "auth_asym_id": "x",
+                "asym_id": "SA",
                 "entry_id": "7OUI",
-                "entity_id": "7"
+                "entity_id": "18"
               },
               "rcsb_polymer_instance_annotation": [
                 {
-                  "type": "SCOP2",
-                  "annotation_id": "8098768"
-                },
-                {
                   "type": "ECOD",
-                  "annotation_id": "e7ouid1"
+                  "annotation_id": "e7ouix1"
                 }
               ],
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "BJ"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "HA"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "BJ"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "HA"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "ZK"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "HA"
-                  }
-                }
-              ]
+              "rcsb_polymer_struct_conn": null
             }
           ],
           "rcsb_polymer_entity_container_identifiers": {
             "entry_id": "7OUI",
-            "entity_id": "7",
+            "entity_id": "18",
             "asym_ids": [
-              "H",
-              "HA"
+              "S",
+              "SA"
             ],
             "auth_asym_ids": [
-              "D",
-              "d"
+              "X",
+              "x"
             ],
             "uniprot_ids": [
-              "P56761"
+              "A0A7G2E9B1"
             ],
             "reference_sequence_identifiers": [
               {
-                "database_accession": "P56761"
+                "database_accession": "A0A7G2E9B1"
               }
             ]
           },
           "uniprots": [
             {
-              "rcsb_id": "P56761",
+              "rcsb_id": "A0A7G2E9B1",
               "rcsb_uniprot_protein": {
                 "source_organism": {
                   "scientific_name": "Arabidopsis thaliana"
@@ -16372,28 +16867,10 @@
             }
           ],
           "rcsb_polymer_entity": {
-            "pdbx_description": "Photosystem II D2 protein",
-            "rcsb_ec_lineage": [
-              {
-                "id": "1"
-              },
-              {
-                "id": "1.10"
-              },
-              {
-                "id": "1.10.3"
-              },
-              {
-                "id": "1.10.3.9"
-              }
-            ],
-            "pdbx_ec": "1.10.3.9",
-            "rcsb_enzyme_class_combined": [
-              {
-                "ec": "1.10.3.9",
-                "provenance_source": "PDB Primary Data"
-              }
-            ]
+            "pdbx_description": "(thale cress) hypothetical protein",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
           },
           "rcsb_polymer_entity_annotation": [
             {
@@ -16509,282 +16986,11 @@
               ]
             },
             {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "RNA binding",
-                  "depth": null
-                },
-                {
-                  "name": "binding",
-                  "depth": null
-                },
-                {
-                  "name": "nucleic acid binding",
-                  "depth": null
-                },
-                {
-                  "name": "mRNA binding",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "chloroplast thylakoid membrane",
-                  "depth": null
-                },
-                {
-                  "name": "membrane-bounded organelle",
-                  "depth": null
-                },
-                {
-                  "name": "plastid membrane",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "plastid",
-                  "depth": null
-                },
-                {
-                  "name": "organelle outer membrane",
-                  "depth": null
-                },
-                {
-                  "name": "plastid thylakoid membrane",
-                  "depth": null
-                },
-                {
-                  "name": "plastid thylakoid",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular organelle",
-                  "depth": null
-                },
-                {
-                  "name": "organelle envelope",
-                  "depth": null
-                },
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "bounding membrane of organelle",
-                  "depth": null
-                },
-                {
-                  "name": "membraneless organelle",
-                  "depth": null
-                },
-                {
-                  "name": "plastid envelope",
-                  "depth": null
-                },
-                {
-                  "name": "thylakoid",
-                  "depth": null
-                },
-                {
-                  "name": "chloroplast",
-                  "depth": null
-                },
-                {
-                  "name": "membrane",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular membraneless organelle",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular membrane-bounded organelle",
-                  "depth": null
-                },
-                {
-                  "name": "thylakoid membrane",
-                  "depth": null
-                },
-                {
-                  "name": "organelle",
-                  "depth": null
-                },
-                {
-                  "name": "chloroplast thylakoid",
-                  "depth": null
-                },
-                {
-                  "name": "outer membrane",
-                  "depth": null
-                },
-                {
-                  "name": "cytoplasm",
-                  "depth": null
-                },
-                {
-                  "name": "photosynthetic membrane",
-                  "depth": null
-                },
-                {
-                  "name": "organelle membrane",
-                  "depth": null
-                }
-              ]
-            },
-            {
               "type": "InterPro",
               "annotation_lineage": [
                 {
-                  "name": "Photosystem II protein D1/D2 superfamily",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "membrane-bounded organelle",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular organelle",
-                  "depth": null
-                },
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "plastid",
-                  "depth": null
-                },
-                {
-                  "name": "organelle",
-                  "depth": null
-                },
-                {
-                  "name": "cytoplasm",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular membrane-bounded organelle",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "oxidoreductase activity",
-                  "depth": null
-                },
-                {
-                  "name": "oxygen evolving activity",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "chlorophyll binding",
-                  "depth": null
-                },
-                {
-                  "name": "binding",
-                  "depth": null
-                },
-                {
-                  "name": "tetrapyrrole binding",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "cation binding",
-                  "depth": null
-                },
-                {
-                  "name": "transition metal ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "iron ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "binding",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                },
-                {
-                  "name": "metal ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "small molecule binding",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Photosystem II protein D1/D2",
+                  "name": "Photosystem II PsbX",
                   "depth": 1
-                },
-                {
-                  "name": "Photosystem II D2",
-                  "depth": 2
                 }
               ]
             },
@@ -16792,63 +16998,39 @@
               "type": "GO",
               "annotation_lineage": [
                 {
-                  "name": "membrane-bounded organelle",
+                  "name": "localization",
                   "depth": null
                 },
                 {
-                  "name": "cellular_component",
+                  "name": "cellular localization",
                   "depth": null
                 },
                 {
-                  "name": "intracellular anatomical structure",
+                  "name": "transport",
                   "depth": null
                 },
                 {
-                  "name": "plastid",
+                  "name": "establishment of localization in cell",
                   "depth": null
                 },
                 {
-                  "name": "intracellular membraneless organelle",
+                  "name": "biological_process",
                   "depth": null
                 },
                 {
-                  "name": "intracellular membrane-bounded organelle",
+                  "name": "vacuolar transport",
                   "depth": null
                 },
                 {
-                  "name": "plastid thylakoid",
+                  "name": "intracellular transport",
                   "depth": null
                 },
                 {
-                  "name": "intracellular organelle",
+                  "name": "cellular process",
                   "depth": null
                 },
                 {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "chloroplast thylakoid",
-                  "depth": null
-                },
-                {
-                  "name": "organelle",
-                  "depth": null
-                },
-                {
-                  "name": "membraneless organelle",
-                  "depth": null
-                },
-                {
-                  "name": "cytoplasm",
-                  "depth": null
-                },
-                {
-                  "name": "thylakoid",
-                  "depth": null
-                },
-                {
-                  "name": "chloroplast",
+                  "name": "establishment of localization",
                   "depth": null
                 }
               ]
@@ -16861,23 +17043,7 @@
                   "depth": null
                 },
                 {
-                  "name": "photosynthesis, light reaction",
-                  "depth": null
-                },
-                {
-                  "name": "photosynthetic electron transport chain",
-                  "depth": null
-                },
-                {
                   "name": "biological_process",
-                  "depth": null
-                },
-                {
-                  "name": "electron transport chain",
-                  "depth": null
-                },
-                {
-                  "name": "photosynthetic electron transport in photosystem II",
                   "depth": null
                 },
                 {
@@ -16887,19 +17053,6 @@
                 {
                   "name": "cellular process",
                   "depth": null
-                },
-                {
-                  "name": "generation of precursor metabolites and energy",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "electron transporter, transferring electrons within the cyclic electron transport pathway of photosynthesis activity",
-                  "depth": null
                 }
               ]
             },
@@ -16907,154 +17060,54 @@
               "type": "InterPro",
               "annotation_lineage": [
                 {
-                  "name": "Photosynthetic reaction centre, L/M",
-                  "depth": 1
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "membrane-bounded organelle",
+                  "name": "Snf7 family",
                   "depth": null
-                },
-                {
-                  "name": "intracellular organelle",
-                  "depth": null
-                },
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "plastid",
-                  "depth": null
-                },
-                {
-                  "name": "organelle",
-                  "depth": null
-                },
-                {
-                  "name": "cytoplasm",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular membrane-bounded organelle",
-                  "depth": null
-                },
-                {
-                  "name": "chloroplast",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Photosynthetic reaction centre, L/M, conserved site",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "intracellular organelle",
-                  "depth": null
-                },
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "organelle",
-                  "depth": null
-                },
-                {
-                  "name": "membraneless organelle",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular membraneless organelle",
-                  "depth": null
-                },
-                {
-                  "name": "thylakoid",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Photosystem II protein D1/D2",
-                  "depth": 1
                 }
               ]
             }
           ],
           "rcsb_polymer_entity_group_membership": [
             {
-              "group_id": "482_95",
-              "similarity_cutoff": 95.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "97723_100",
-              "similarity_cutoff": 100.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "319_50",
-              "similarity_cutoff": 50.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "149_90",
-              "similarity_cutoff": 90.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "209_30",
+              "group_id": "62786_30",
               "similarity_cutoff": 30.0,
               "aggregation_method": "sequence_identity"
             },
             {
-              "group_id": "200_70",
+              "group_id": "A0A7G2E9B1",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "749668_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "87372_70",
               "similarity_cutoff": 70.0,
               "aggregation_method": "sequence_identity"
             },
             {
-              "group_id": "P56761",
-              "similarity_cutoff": null,
-              "aggregation_method": "matching_uniprot_accession"
+              "group_id": "612621_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "84451_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "651443_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
             }
           ],
           "entity_poly": {
             "type": "polypeptide(L)",
             "rcsb_entity_polymer_type": "Protein",
-            "pdbx_seq_one_letter_code_can": "TIALGKFTKDEKDLFDIMDDWLRRDRFVFVGWSGLLLFPCAYFALGGWFTGTTFVTSWYTHGLASSYLEGCNFLTAAVSTPANSLAHSLLLLWGPEAQGDFTRWCQLGGLWAFVALHGAFALIGFMLRQFELARSVQLRPYNAIAFSGPIAVFVSVFLIYPLGQSGWFFAPSFGVAAIFRFILFFQGFHNWTLNPFHMMGVAGVLGAALLCAIHGATVENTLFEDGDGANTFRAFNPTQAEETYSMVTANRFWSQIFGVAFSNKRWLHFFMLFVPVTGLWMSALGVVGLALNLRAYDFVSQEIRAAEDPEFETFYTKNILLNEGIRAWMAAQDQPHENLIFPEEVLPRGNAL",
-            "rcsb_sample_sequence_length": 352,
+            "pdbx_seq_one_letter_code_can": "AGSGISPSLKNFLLSIASGGLVLTVIIGVVVGVSNFDPVKRT",
+            "rcsb_sample_sequence_length": 42,
             "rcsb_mutation_count": 0
           },
           "rcsb_entity_source_organism": [
@@ -17072,38 +17125,38 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "E",
-                "asym_id": "I",
+                "auth_asym_id": "Z",
+                "asym_id": "T",
                 "entry_id": "7OUI",
-                "entity_id": "8"
+                "entity_id": "19"
               },
               "rcsb_polymer_instance_annotation": [
                 {
                   "type": "SCOP2",
-                  "annotation_id": "8098774"
+                  "annotation_id": "8098778"
                 },
                 {
                   "type": "ECOD",
-                  "annotation_id": "e7ouiE1"
+                  "annotation_id": "e7ouiZ1"
                 }
               ],
               "rcsb_polymer_struct_conn": null
             },
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "e",
-                "asym_id": "IA",
+                "auth_asym_id": "z",
+                "asym_id": "TA",
                 "entry_id": "7OUI",
-                "entity_id": "8"
+                "entity_id": "19"
               },
               "rcsb_polymer_instance_annotation": [
                 {
                   "type": "SCOP2",
-                  "annotation_id": "8098774"
+                  "annotation_id": "8098778"
                 },
                 {
                   "type": "ECOD",
-                  "annotation_id": "e7ouie1"
+                  "annotation_id": "e7ouiz1"
                 }
               ],
               "rcsb_polymer_struct_conn": null
@@ -17111,27 +17164,27 @@
           ],
           "rcsb_polymer_entity_container_identifiers": {
             "entry_id": "7OUI",
-            "entity_id": "8",
+            "entity_id": "19",
             "asym_ids": [
-              "I",
-              "IA"
+              "T",
+              "TA"
             ],
             "auth_asym_ids": [
-              "E",
-              "e"
+              "Z",
+              "z"
             ],
             "uniprot_ids": [
-              "P56779"
+              "P56790"
             ],
             "reference_sequence_identifiers": [
               {
-                "database_accession": "P56779"
+                "database_accession": "P56790"
               }
             ]
           },
           "uniprots": [
             {
-              "rcsb_id": "P56779",
+              "rcsb_id": "P56790",
               "rcsb_uniprot_protein": {
                 "source_organism": {
                   "scientific_name": "Arabidopsis thaliana"
@@ -17141,7 +17194,7 @@
             }
           ],
           "rcsb_polymer_entity": {
-            "pdbx_description": "Cytochrome b559 subunit alpha",
+            "pdbx_description": "Photosystem II reaction center protein Z",
             "rcsb_ec_lineage": null,
             "pdbx_ec": null,
             "rcsb_enzyme_class_combined": null
@@ -17202,7 +17255,7 @@
               "type": "InterPro",
               "annotation_lineage": [
                 {
-                  "name": "Photosystem II cytochrome b559, N-terminal",
+                  "name": "Photosystem II PsbZ superfamily",
                   "depth": null
                 }
               ]
@@ -17276,7 +17329,7 @@
               "type": "InterPro",
               "annotation_lineage": [
                 {
-                  "name": "Photosystem II cytochrome b559, alpha subunit",
+                  "name": "Photosystem II PsbZ, reaction centre",
                   "depth": null
                 }
               ]
@@ -17402,19 +17455,7 @@
                   "depth": null
                 },
                 {
-                  "name": "photosynthesis, light reaction",
-                  "depth": null
-                },
-                {
-                  "name": "photosynthetic electron transport chain",
-                  "depth": null
-                },
-                {
                   "name": "biological_process",
-                  "depth": null
-                },
-                {
-                  "name": "electron transport chain",
                   "depth": null
                 },
                 {
@@ -17424,107 +17465,66 @@
                 {
                   "name": "cellular process",
                   "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of photosynthesis",
+                  "depth": null
+                },
+                {
+                  "name": "photosynthesis",
+                  "depth": null
+                },
+                {
+                  "name": "photosynthesis, light reaction",
+                  "depth": null
+                },
+                {
+                  "name": "photosystem II stabilization",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of photosynthesis, light reaction",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of generation of precursor metabolites and energy",
+                  "depth": null
                 },
                 {
                   "name": "generation of precursor metabolites and energy",
                   "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
+                },
                 {
-                  "name": "Photosystem II cytochrome b559, alpha subunit, lumenal region",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "binding",
+                  "name": "biological_process",
                   "depth": null
                 },
                 {
-                  "name": "tetrapyrrole binding",
+                  "name": "cellular process",
                   "depth": null
                 },
                 {
-                  "name": "heme binding",
+                  "name": "metabolic process",
                   "depth": null
                 },
                 {
-                  "name": "molecular_function",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "electron transfer activity",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "cation binding",
-                  "depth": null
-                },
-                {
-                  "name": "transition metal ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "iron ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "binding",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                },
-                {
-                  "name": "metal ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "small molecule binding",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Photosystem II cytochrome b559, alpha subunit superfamily",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Photosystem II cytochrome b559, conserved site",
+                  "name": "regulation of metabolic process",
                   "depth": null
                 }
               ]
@@ -17532,46 +17532,46 @@
           ],
           "rcsb_polymer_entity_group_membership": [
             {
-              "group_id": "4433_100",
+              "group_id": "21224_100",
               "similarity_cutoff": 100.0,
               "aggregation_method": "sequence_identity"
             },
             {
-              "group_id": "1016_95",
-              "similarity_cutoff": 95.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "370_50",
+              "group_id": "491_50",
               "similarity_cutoff": 50.0,
               "aggregation_method": "sequence_identity"
             },
             {
-              "group_id": "P56779",
-              "similarity_cutoff": null,
-              "aggregation_method": "matching_uniprot_accession"
+              "group_id": "1715_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
             },
             {
-              "group_id": "714_30",
+              "group_id": "1180_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "828_30",
               "similarity_cutoff": 30.0,
               "aggregation_method": "sequence_identity"
             },
             {
-              "group_id": "817_90",
+              "group_id": "1198_90",
               "similarity_cutoff": 90.0,
               "aggregation_method": "sequence_identity"
             },
             {
-              "group_id": "242_70",
-              "similarity_cutoff": 70.0,
-              "aggregation_method": "sequence_identity"
+              "group_id": "P56790",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
             }
           ],
           "entity_poly": {
             "type": "polypeptide(L)",
             "rcsb_entity_polymer_type": "Protein",
-            "pdbx_seq_one_letter_code_can": "MSGSTGERSFADIITSIRYWVIHSITIPSLFIAGWLFVSTGLAYDVFGSPRPNEYFTESRQGIPLITGRFDSLEQLDEFSRSF",
-            "rcsb_sample_sequence_length": 83,
+            "pdbx_seq_one_letter_code_can": "MTIAFQLAVFALIITSSILLISVPVVFASPDGWSSNKNVVFSGTSLWIGLVFLVGILNSLIS",
+            "rcsb_sample_sequence_length": 62,
             "rcsb_mutation_count": 0
           },
           "rcsb_entity_source_organism": [
@@ -17711,24 +17711,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "601",
-                "auth_asym_id": "n",
-                "asym_id": "AN",
-                "entry_id": "7OUI",
-                "entity_id": "24"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1941,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "307",
                 "auth_asym_id": "y",
                 "asym_id": "AO",
@@ -17775,24 +17757,6 @@
                 {
                   "ranking_model_fit": null,
                   "ranking_model_geometry": 0.2174,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "308",
-                "auth_asym_id": "y",
-                "asym_id": "BO",
-                "entry_id": "7OUI",
-                "entity_id": "24"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1801,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -17955,24 +17919,6 @@
                 {
                   "ranking_model_fit": null,
                   "ranking_model_geometry": 0.1266,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "301",
-                "auth_asym_id": "5",
-                "asym_id": "FI",
-                "entry_id": "7OUI",
-                "entity_id": "24"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1504,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -18179,24 +18125,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "608",
-                "auth_asym_id": "G",
-                "asym_id": "KF",
-                "entry_id": "7OUI",
-                "entity_id": "24"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.2146,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "302",
                 "auth_asym_id": "S",
                 "asym_id": "LE",
@@ -18351,6 +18279,24 @@
                 {
                   "ranking_model_fit": null,
                   "ranking_model_geometry": 0.2171,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "302",
+                "auth_asym_id": "s",
+                "asym_id": "QL",
+                "entry_id": "7OUI",
+                "entity_id": "24"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.1457,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -18558,24 +18504,6 @@
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "308",
-                "auth_asym_id": "Y",
-                "asym_id": "WG",
-                "entry_id": "7OUI",
-                "entity_id": "24"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1801,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "308",
                 "auth_asym_id": "s",
                 "asym_id": "WL",
                 "entry_id": "7OUI",
@@ -18665,24 +18593,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "607",
-                "auth_asym_id": "r",
-                "asym_id": "YO",
-                "entry_id": "7OUI",
-                "entity_id": "24"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1894,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "605",
                 "auth_asym_id": "N",
                 "asym_id": "ZF",
@@ -18719,24 +18629,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "302",
-                "auth_asym_id": "s",
-                "asym_id": "QL",
-                "entry_id": "7OUI",
-                "entity_id": "24"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1457,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "306",
                 "auth_asym_id": "y",
                 "asym_id": "ZN",
@@ -18747,6 +18639,114 @@
                 {
                   "ranking_model_fit": null,
                   "ranking_model_geometry": 0.1548,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "601",
+                "auth_asym_id": "n",
+                "asym_id": "AN",
+                "entry_id": "7OUI",
+                "entity_id": "24"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.1941,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "308",
+                "auth_asym_id": "y",
+                "asym_id": "BO",
+                "entry_id": "7OUI",
+                "entity_id": "24"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.1801,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "301",
+                "auth_asym_id": "5",
+                "asym_id": "FI",
+                "entry_id": "7OUI",
+                "entity_id": "24"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.1504,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "608",
+                "auth_asym_id": "G",
+                "asym_id": "KF",
+                "entry_id": "7OUI",
+                "entity_id": "24"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.2146,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "308",
+                "auth_asym_id": "Y",
+                "asym_id": "WG",
+                "entry_id": "7OUI",
+                "entity_id": "24"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.1801,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "607",
+                "auth_asym_id": "r",
+                "asym_id": "YO",
+                "entry_id": "7OUI",
+                "entity_id": "24"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.1894,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -19308,6 +19308,24 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "602",
+                "auth_asym_id": "2",
+                "asym_id": "DB",
+                "entry_id": "7OUI",
+                "entity_id": "25"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.109,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "606",
                 "auth_asym_id": "B",
                 "asym_id": "DC",
@@ -19326,16 +19344,16 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "505",
-                "auth_asym_id": "C",
-                "asym_id": "DD",
+                "auth_seq_id": "315",
+                "auth_asym_id": "Y",
+                "asym_id": "DH",
                 "entry_id": "7OUI",
                 "entity_id": "25"
               },
               "rcsb_nonpolymer_instance_validation_score": [
                 {
                   "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1973,
+                  "ranking_model_geometry": 0.1442,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -19560,6 +19578,24 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "507",
+                "auth_asym_id": "C",
+                "asym_id": "FD",
+                "entry_id": "7OUI",
+                "entity_id": "25"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.2099,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "603",
                 "auth_asym_id": "G",
                 "asym_id": "FF",
@@ -19714,24 +19750,6 @@
                 {
                   "ranking_model_fit": null,
                   "ranking_model_geometry": 0.1883,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "604",
-                "auth_asym_id": "G",
-                "asym_id": "GF",
-                "entry_id": "7OUI",
-                "entity_id": "25"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1409,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -20010,24 +20028,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "606",
-                "auth_asym_id": "b",
-                "asym_id": "IJ",
-                "entry_id": "7OUI",
-                "entity_id": "25"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1996,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "505",
                 "auth_asym_id": "c",
                 "asym_id": "IK",
@@ -20118,42 +20118,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "607",
-                "auth_asym_id": "b",
-                "asym_id": "JJ",
-                "entry_id": "7OUI",
-                "entity_id": "25"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1986,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "506",
-                "auth_asym_id": "c",
-                "asym_id": "JK",
-                "entry_id": "7OUI",
-                "entity_id": "25"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1991,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "602",
                 "auth_asym_id": "g",
                 "asym_id": "JM",
@@ -20208,24 +20172,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "512",
-                "auth_asym_id": "C",
-                "asym_id": "KD",
-                "entry_id": "7OUI",
-                "entity_id": "25"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.2053,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "604",
                 "auth_asym_id": "6",
                 "asym_id": "KI",
@@ -20236,24 +20182,6 @@
                 {
                   "ranking_model_fit": null,
                   "ranking_model_geometry": 0.1425,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "608",
-                "auth_asym_id": "b",
-                "asym_id": "KJ",
-                "entry_id": "7OUI",
-                "entity_id": "25"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1971,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -20424,24 +20352,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "612",
-                "auth_asym_id": "n",
-                "asym_id": "LN",
-                "entry_id": "7OUI",
-                "entity_id": "25"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1648,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "405",
                 "auth_asym_id": "A",
                 "asym_id": "MB",
@@ -20524,24 +20434,6 @@
                 {
                   "ranking_model_fit": null,
                   "ranking_model_geometry": 0.2073,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "509",
-                "auth_asym_id": "c",
-                "asym_id": "MK",
-                "entry_id": "7OUI",
-                "entity_id": "25"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1944,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -20820,24 +20712,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "603",
-                "auth_asym_id": "R",
-                "asym_id": "PH",
-                "entry_id": "7OUI",
-                "entity_id": "25"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.0921,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "403",
                 "auth_asym_id": "a",
                 "asym_id": "PI",
@@ -20910,24 +20784,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "604",
-                "auth_asym_id": "R",
-                "asym_id": "QH",
-                "entry_id": "7OUI",
-                "entity_id": "25"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1521,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "614",
                 "auth_asym_id": "b",
                 "asym_id": "QJ",
@@ -20974,24 +20830,6 @@
                 {
                   "ranking_model_fit": null,
                   "ranking_model_geometry": 0.192,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "615",
-                "auth_asym_id": "b",
-                "asym_id": "RJ",
-                "entry_id": "7OUI",
-                "entity_id": "25"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1978,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -21180,24 +21018,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "310",
-                "auth_asym_id": "S",
-                "asym_id": "TE",
-                "entry_id": "7OUI",
-                "entity_id": "25"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.175,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "305",
                 "auth_asym_id": "Y",
                 "asym_id": "TG",
@@ -21342,24 +21162,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "603",
-                "auth_asym_id": "r",
-                "asym_id": "UO",
-                "entry_id": "7OUI",
-                "entity_id": "25"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.092,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "403",
                 "auth_asym_id": "D",
                 "asym_id": "VD",
@@ -21406,24 +21208,6 @@
                 {
                   "ranking_model_fit": null,
                   "ranking_model_geometry": 0.1976,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "614",
-                "auth_asym_id": "g",
-                "asym_id": "VM",
-                "entry_id": "7OUI",
-                "entity_id": "25"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1601,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -21522,24 +21306,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "314",
-                "auth_asym_id": "S",
-                "asym_id": "XE",
-                "entry_id": "7OUI",
-                "entity_id": "25"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1541,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "603",
                 "auth_asym_id": "N",
                 "asym_id": "XF",
@@ -21568,24 +21334,6 @@
                 {
                   "ranking_model_fit": null,
                   "ranking_model_geometry": 0.0434,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "304",
-                "auth_asym_id": "y",
-                "asym_id": "XN",
-                "entry_id": "7OUI",
-                "entity_id": "25"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1987,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -21738,24 +21486,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "311",
-                "auth_asym_id": "Y",
-                "asym_id": "ZG",
-                "entry_id": "7OUI",
-                "entity_id": "25"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1747,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "402",
                 "auth_asym_id": "d",
                 "asym_id": "ZK",
@@ -21792,16 +21522,16 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "602",
-                "auth_asym_id": "2",
-                "asym_id": "DB",
+                "auth_seq_id": "608",
+                "auth_asym_id": "r",
+                "asym_id": "ZO",
                 "entry_id": "7OUI",
                 "entity_id": "25"
               },
               "rcsb_nonpolymer_instance_validation_score": [
                 {
                   "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.109,
+                  "ranking_model_geometry": 0.1661,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -21810,34 +21540,286 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "315",
-                "auth_asym_id": "Y",
-                "asym_id": "DH",
-                "entry_id": "7OUI",
-                "entity_id": "25"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1442,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "507",
+                "auth_seq_id": "505",
                 "auth_asym_id": "C",
-                "asym_id": "FD",
+                "asym_id": "DD",
                 "entry_id": "7OUI",
                 "entity_id": "25"
               },
               "rcsb_nonpolymer_instance_validation_score": [
                 {
                   "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.2099,
+                  "ranking_model_geometry": 0.1973,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "604",
+                "auth_asym_id": "G",
+                "asym_id": "GF",
+                "entry_id": "7OUI",
+                "entity_id": "25"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.1409,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "606",
+                "auth_asym_id": "b",
+                "asym_id": "IJ",
+                "entry_id": "7OUI",
+                "entity_id": "25"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.1996,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "607",
+                "auth_asym_id": "b",
+                "asym_id": "JJ",
+                "entry_id": "7OUI",
+                "entity_id": "25"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.1986,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "506",
+                "auth_asym_id": "c",
+                "asym_id": "JK",
+                "entry_id": "7OUI",
+                "entity_id": "25"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.1991,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "512",
+                "auth_asym_id": "C",
+                "asym_id": "KD",
+                "entry_id": "7OUI",
+                "entity_id": "25"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.2053,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "608",
+                "auth_asym_id": "b",
+                "asym_id": "KJ",
+                "entry_id": "7OUI",
+                "entity_id": "25"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.1971,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "612",
+                "auth_asym_id": "n",
+                "asym_id": "LN",
+                "entry_id": "7OUI",
+                "entity_id": "25"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.1648,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "509",
+                "auth_asym_id": "c",
+                "asym_id": "MK",
+                "entry_id": "7OUI",
+                "entity_id": "25"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.1944,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "603",
+                "auth_asym_id": "R",
+                "asym_id": "PH",
+                "entry_id": "7OUI",
+                "entity_id": "25"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.0921,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "604",
+                "auth_asym_id": "R",
+                "asym_id": "QH",
+                "entry_id": "7OUI",
+                "entity_id": "25"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.1521,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "615",
+                "auth_asym_id": "b",
+                "asym_id": "RJ",
+                "entry_id": "7OUI",
+                "entity_id": "25"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.1978,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "310",
+                "auth_asym_id": "S",
+                "asym_id": "TE",
+                "entry_id": "7OUI",
+                "entity_id": "25"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.175,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "603",
+                "auth_asym_id": "r",
+                "asym_id": "UO",
+                "entry_id": "7OUI",
+                "entity_id": "25"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.092,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "614",
+                "auth_asym_id": "g",
+                "asym_id": "VM",
+                "entry_id": "7OUI",
+                "entity_id": "25"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.1601,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "314",
+                "auth_asym_id": "S",
+                "asym_id": "XE",
+                "entry_id": "7OUI",
+                "entity_id": "25"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.1541,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -21864,16 +21846,34 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "608",
-                "auth_asym_id": "r",
-                "asym_id": "ZO",
+                "auth_seq_id": "304",
+                "auth_asym_id": "y",
+                "asym_id": "XN",
                 "entry_id": "7OUI",
                 "entity_id": "25"
               },
               "rcsb_nonpolymer_instance_validation_score": [
                 {
                   "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1661,
+                  "ranking_model_geometry": 0.1987,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "311",
+                "auth_asym_id": "Y",
+                "asym_id": "ZG",
+                "entry_id": "7OUI",
+                "entity_id": "25"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.1747,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -22049,24 +22049,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "318",
-                "auth_asym_id": "s",
-                "asym_id": "GM",
-                "entry_id": "7OUI",
-                "entity_id": "26"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.5731,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "606",
                 "auth_asym_id": "2",
                 "asym_id": "HB",
@@ -22131,24 +22113,6 @@
                 {
                   "ranking_model_fit": null,
                   "ranking_model_geometry": 0.5779,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "618",
-                "auth_asym_id": "N",
-                "asym_id": "MG",
-                "entry_id": "7OUI",
-                "entity_id": "26"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.5828,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -22239,24 +22203,6 @@
                 {
                   "ranking_model_fit": null,
                   "ranking_model_geometry": 0.5707,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "301",
-                "auth_asym_id": "s",
-                "asym_id": "PL",
-                "entry_id": "7OUI",
-                "entity_id": "26"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.5779,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -22496,6 +22442,60 @@
                   "is_subject_of_investigation_provenance": null
                 }
               ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "318",
+                "auth_asym_id": "s",
+                "asym_id": "GM",
+                "entry_id": "7OUI",
+                "entity_id": "26"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.5731,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "618",
+                "auth_asym_id": "N",
+                "asym_id": "MG",
+                "entry_id": "7OUI",
+                "entity_id": "26"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.5828,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "301",
+                "auth_asym_id": "s",
+                "asym_id": "PL",
+                "entry_id": "7OUI",
+                "entity_id": "26"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.5779,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
             }
           ],
           "rcsb_nonpolymer_entity": {
@@ -22694,24 +22694,6 @@
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "101",
-                "auth_asym_id": "H",
-                "asym_id": "CE",
-                "entry_id": "7OUI",
-                "entity_id": "28"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.3807,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "101",
                 "auth_asym_id": "I",
                 "asym_id": "DE",
                 "entry_id": "7OUI",
@@ -22802,24 +22784,6 @@
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "101",
-                "auth_asym_id": "Z",
-                "asym_id": "JE",
-                "entry_id": "7OUI",
-                "entity_id": "28"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.383,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "101",
                 "auth_asym_id": "k",
                 "asym_id": "JL",
                 "entry_id": "7OUI",
@@ -22837,16 +22801,16 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "406",
-                "auth_asym_id": "A",
-                "asym_id": "NB",
+                "auth_seq_id": "514",
+                "auth_asym_id": "C",
+                "asym_id": "MD",
                 "entry_id": "7OUI",
                 "entity_id": "28"
               },
               "rcsb_nonpolymer_instance_validation_score": [
                 {
                   "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.3627,
+                  "ranking_model_geometry": 0.3859,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -22855,16 +22819,16 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "101",
-                "auth_asym_id": "t",
-                "asym_id": "NL",
+                "auth_seq_id": "617",
+                "auth_asym_id": "B",
+                "asym_id": "OC",
                 "entry_id": "7OUI",
                 "entity_id": "28"
               },
               "rcsb_nonpolymer_instance_validation_score": [
                 {
                   "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.3811,
+                  "ranking_model_geometry": 0.3677,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -22883,24 +22847,6 @@
                 {
                   "ranking_model_fit": null,
                   "ranking_model_geometry": 0.3809,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "618",
-                "auth_asym_id": "B",
-                "asym_id": "PC",
-                "entry_id": "7OUI",
-                "entity_id": "28"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.3811,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -23035,16 +22981,16 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "514",
-                "auth_asym_id": "C",
-                "asym_id": "MD",
+                "auth_seq_id": "101",
+                "auth_asym_id": "H",
+                "asym_id": "CE",
                 "entry_id": "7OUI",
                 "entity_id": "28"
               },
               "rcsb_nonpolymer_instance_validation_score": [
                 {
                   "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.3859,
+                  "ranking_model_geometry": 0.3807,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -23053,16 +22999,70 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "617",
-                "auth_asym_id": "B",
-                "asym_id": "OC",
+                "auth_seq_id": "101",
+                "auth_asym_id": "Z",
+                "asym_id": "JE",
                 "entry_id": "7OUI",
                 "entity_id": "28"
               },
               "rcsb_nonpolymer_instance_validation_score": [
                 {
                   "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.3677,
+                  "ranking_model_geometry": 0.383,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "406",
+                "auth_asym_id": "A",
+                "asym_id": "NB",
+                "entry_id": "7OUI",
+                "entity_id": "28"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.3627,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "101",
+                "auth_asym_id": "t",
+                "asym_id": "NL",
+                "entry_id": "7OUI",
+                "entity_id": "28"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.3811,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "618",
+                "auth_asym_id": "B",
+                "asym_id": "PC",
+                "entry_id": "7OUI",
+                "entity_id": "28"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.3811,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -23377,6 +23377,24 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "520",
+                "auth_asym_id": "C",
+                "asym_id": "SD",
+                "entry_id": "7OUI",
+                "entity_id": "30"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.5586,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "623",
                 "auth_asym_id": "B",
                 "asym_id": "UC",
@@ -23495,24 +23513,6 @@
                 {
                   "ranking_model_fit": null,
                   "ranking_model_geometry": 0.5632,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "520",
-                "auth_asym_id": "C",
-                "asym_id": "SD",
-                "entry_id": "7OUI",
-                "entity_id": "30"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.5586,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -23787,24 +23787,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "322",
-                "auth_asym_id": "Y",
-                "asym_id": "KH",
-                "entry_id": "7OUI",
-                "entity_id": "32"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.0664,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "Y",
-                  "is_subject_of_investigation_provenance": "Author"
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "323",
                 "auth_asym_id": "Y",
                 "asym_id": "LH",
@@ -23905,24 +23887,6 @@
                 {
                   "ranking_model_fit": null,
                   "ranking_model_geometry": 0.0594,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "Y",
-                  "is_subject_of_investigation_provenance": "Author"
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "322",
-                "auth_asym_id": "y",
-                "asym_id": "PO",
-                "entry_id": "7OUI",
-                "entity_id": "32"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.0659,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "Y",
                   "is_subject_of_investigation_provenance": "Author"
@@ -24090,6 +24054,42 @@
                   "is_subject_of_investigation_provenance": "Author"
                 }
               ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "322",
+                "auth_asym_id": "Y",
+                "asym_id": "KH",
+                "entry_id": "7OUI",
+                "entity_id": "32"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.0664,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "Author"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "322",
+                "auth_asym_id": "y",
+                "asym_id": "PO",
+                "entry_id": "7OUI",
+                "entity_id": "32"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.0659,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "Author"
+                }
+              ]
             }
           ],
           "rcsb_nonpolymer_entity": {
@@ -24126,9 +24126,9 @@
           "nonpolymer_entity_instances": [
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "414",
-                "auth_asym_id": "a",
-                "asym_id": "AJ",
+                "auth_seq_id": "413",
+                "auth_asym_id": "A",
+                "asym_id": "UB",
                 "entry_id": "7OUI",
                 "entity_id": "33"
               },
@@ -24144,9 +24144,9 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "413",
-                "auth_asym_id": "A",
-                "asym_id": "UB",
+                "auth_seq_id": "414",
+                "auth_asym_id": "a",
+                "asym_id": "AJ",
                 "entry_id": "7OUI",
                 "entity_id": "33"
               },
@@ -24274,6 +24274,24 @@
           "nonpolymer_entity_instances": [
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "626",
+                "auth_asym_id": "b",
+                "asym_id": "CK",
+                "entry_id": "7OUI",
+                "entity_id": "35"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.5339,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "515",
                 "auth_asym_id": "C",
                 "asym_id": "ND",
@@ -24385,24 +24403,6 @@
                 "auth_seq_id": "626",
                 "auth_asym_id": "B",
                 "asym_id": "XC",
-                "entry_id": "7OUI",
-                "entity_id": "35"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.5339,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "626",
-                "auth_asym_id": "b",
-                "asym_id": "CK",
                 "entry_id": "7OUI",
                 "entity_id": "35"
               },
@@ -24561,8 +24561,8 @@
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "408",
-                "auth_asym_id": "d",
-                "asym_id": "FL",
+                "auth_asym_id": "D",
+                "asym_id": "AE",
                 "entry_id": "7OUI",
                 "entity_id": "37"
               },
@@ -24579,8 +24579,8 @@
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "408",
-                "auth_asym_id": "D",
-                "asym_id": "AE",
+                "auth_asym_id": "d",
+                "asym_id": "FL",
                 "entry_id": "7OUI",
                 "entity_id": "37"
               },
@@ -24740,24 +24740,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "315",
-                "auth_asym_id": "s",
-                "asym_id": "DM",
-                "entry_id": "7OUI",
-                "entity_id": "39"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.3618,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "316",
                 "auth_asym_id": "Y",
                 "asym_id": "EH",
@@ -24876,24 +24858,6 @@
                 {
                   "ranking_model_fit": null,
                   "ranking_model_geometry": 0.3735,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "317",
-                "auth_asym_id": "y",
-                "asym_id": "KO",
-                "entry_id": "7OUI",
-                "entity_id": "39"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.378,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -25043,6 +25007,42 @@
                   "is_subject_of_investigation_provenance": null
                 }
               ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "315",
+                "auth_asym_id": "s",
+                "asym_id": "DM",
+                "entry_id": "7OUI",
+                "entity_id": "39"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.3618,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "317",
+                "auth_asym_id": "y",
+                "asym_id": "KO",
+                "entry_id": "7OUI",
+                "entity_id": "39"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.378,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
             }
           ],
           "rcsb_nonpolymer_entity": {
@@ -25149,24 +25149,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "318",
-                "auth_asym_id": "Y",
-                "asym_id": "GH",
-                "entry_id": "7OUI",
-                "entity_id": "40"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": null,
-                  "ranking_model_geometry": 0.1305,
-                  "average_occupancy": null,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "617",
                 "auth_asym_id": "r",
                 "asym_id": "IP",
@@ -25249,6 +25231,24 @@
                 {
                   "ranking_model_fit": null,
                   "ranking_model_geometry": 0.0998,
+                  "average_occupancy": null,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "318",
+                "auth_asym_id": "Y",
+                "asym_id": "GH",
+                "entry_id": "7OUI",
+                "entity_id": "40"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": null,
+                  "ranking_model_geometry": 0.1305,
                   "average_occupancy": null,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null

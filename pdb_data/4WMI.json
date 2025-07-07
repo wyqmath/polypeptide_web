@@ -1892,6 +1892,55 @@
         {
           "rcsb_nonpolymer_entity_container_identifiers": {
             "entry_id": "4WMI",
+            "entity_id": "6",
+            "auth_asym_ids": [
+              "A"
+            ],
+            "asym_ids": [
+              "F"
+            ],
+            "nonpolymer_comp_id": "SO4"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "403",
+                "auth_asym_id": "A",
+                "asym_id": "F",
+                "entry_id": "4WMI",
+                "entity_id": "6"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.6967,
+                  "ranking_model_geometry": 0.8948,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "SULFATE ION"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "SO4",
+              "formula_weight": 96.063,
+              "name": "SULFATE ION",
+              "formula": "O4 S"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "QAOWNCQODCNURD-UHFFFAOYSA-L"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "4WMI",
             "entity_id": "4",
             "auth_asym_ids": [
               "A"
@@ -1984,55 +2033,6 @@
             "pdbx_reference_molecule": null,
             "rcsb_chem_comp_descriptor": {
               "InChIKey": "XCCTYIAWTASOJW-XVFCMESISA-N"
-            }
-          }
-        },
-        {
-          "rcsb_nonpolymer_entity_container_identifiers": {
-            "entry_id": "4WMI",
-            "entity_id": "6",
-            "auth_asym_ids": [
-              "A"
-            ],
-            "asym_ids": [
-              "F"
-            ],
-            "nonpolymer_comp_id": "SO4"
-          },
-          "rcsb_nonpolymer_entity_annotation": null,
-          "nonpolymer_entity_instances": [
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "403",
-                "auth_asym_id": "A",
-                "asym_id": "F",
-                "entry_id": "4WMI",
-                "entity_id": "6"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.6967,
-                  "ranking_model_geometry": 0.8948,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            }
-          ],
-          "rcsb_nonpolymer_entity": {
-            "pdbx_description": "SULFATE ION"
-          },
-          "nonpolymer_comp": {
-            "chem_comp": {
-              "id": "SO4",
-              "formula_weight": 96.063,
-              "name": "SULFATE ION",
-              "formula": "O4 S"
-            },
-            "pdbx_reference_molecule": null,
-            "rcsb_chem_comp_descriptor": {
-              "InChIKey": "QAOWNCQODCNURD-UHFFFAOYSA-L"
             }
           }
         }

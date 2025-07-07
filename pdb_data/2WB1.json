@@ -1183,6 +1183,1697 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "J",
+                "asym_id": "J",
+                "entry_id": "2WB1",
+                "entity_id": "10"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": null
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "Q",
+                "asym_id": "Q",
+                "entry_id": "2WB1",
+                "entity_id": "10"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e2wb1Q1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "2WB1",
+            "entity_id": "10",
+            "asym_ids": [
+              "J",
+              "Q"
+            ],
+            "auth_asym_ids": [
+              "J",
+              "Q"
+            ],
+            "uniprot_ids": [
+              "B8YB65"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "B8YB65"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "B8YB65",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Saccharolobus shibatae (strain ATCC 51178 / DSM 5389 / JCM 8931 / NBRC 15437 / B12)"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "DNA-DIRECTED RNA POLYMERASE RPO13 SUBUNIT",
+            "rcsb_ec_lineage": [
+              {
+                "id": "2"
+              },
+              {
+                "id": "2.7"
+              },
+              {
+                "id": "2.7.7"
+              },
+              {
+                "id": "2.7.7.6"
+              }
+            ],
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": [
+              {
+                "ec": "2.7.7.6",
+                "provenance_source": "UniProt"
+              }
+            ]
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "DNA binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA polymerase Rpo13 subunit HTH domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA polymerase binding",
+                  "depth": null
+                },
+                {
+                  "name": "protein binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "enzyme binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "transferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "nucleotidyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity, transferring phosphorus-containing groups",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "transferase complex, transferring phosphorus-containing groups",
+                  "depth": null
+                },
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic complex",
+                  "depth": null
+                },
+                {
+                  "name": "RNA polymerase complex",
+                  "depth": null
+                },
+                {
+                  "name": "DNA-directed RNA polymerase complex",
+                  "depth": null
+                },
+                {
+                  "name": "transferase complex",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular protein-containing complex",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "B8YB65",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "27819_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "25220_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "26048_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "27411_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "28257_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "35163_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "MVSGMSTEEEKEGTNDEEVSEEREVEETSEEEFPKLSIQDIELLMKNTEIWDNLLNGKISVDEAKRLFEDNYKDYEKRDSRRKAKKAASKKVKKTKKKEKSVEG",
+            "rcsb_sample_sequence_length": 104,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "SULFOLOBUS SHIBATAE",
+              "ncbi_scientific_name": "Saccharolobus shibatae",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "L",
+                "asym_id": "L",
+                "entry_id": "2WB1",
+                "entity_id": "11"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "3.30.1360.10"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8080734"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e2wb1L1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "M",
+                "asym_id": "M",
+                "entry_id": "2WB1",
+                "entity_id": "11"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "3.30.1360.10"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8080734"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e2wb1M1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "2WB1",
+            "entity_id": "11",
+            "asym_ids": [
+              "L",
+              "M"
+            ],
+            "auth_asym_ids": [
+              "L",
+              "M"
+            ],
+            "uniprot_ids": [
+              "B8YB62"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "B8YB62"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "B8YB62",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Saccharolobus shibatae (strain ATCC 51178 / DSM 5389 / JCM 8931 / NBRC 15437 / B12)"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "DNA-DIRECTED RNA POLYMERASE RPO11 SUBUNIT",
+            "rcsb_ec_lineage": [
+              {
+                "id": "2"
+              },
+              {
+                "id": "2.7"
+              },
+              {
+                "id": "2.7.7"
+              },
+              {
+                "id": "2.7.7.6"
+              }
+            ],
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": [
+              {
+                "ec": "2.7.7.6",
+                "provenance_source": "UniProt"
+              }
+            ]
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "DNA-directed RNA polymerase subunit Rpo11-like",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "DNA binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "DNA-directed RNA polymerase, RBP11-like dimerisation domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "RNA biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "DNA-templated transcription",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "protein dimerization activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA polymerase, RBP11-like subunit",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "DNA-directed RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "5'-3' RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on RNA",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a nucleic acid",
+                  "depth": null
+                },
+                {
+                  "name": "RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "nucleotidyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity, transferring phosphorus-containing groups",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "DNA-directed RNA polymerase Rpb11, 13-16kDa subunit, conserved site",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "transferase complex, transferring phosphorus-containing groups",
+                  "depth": null
+                },
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic complex",
+                  "depth": null
+                },
+                {
+                  "name": "RNA polymerase complex",
+                  "depth": null
+                },
+                {
+                  "name": "DNA-directed RNA polymerase complex",
+                  "depth": null
+                },
+                {
+                  "name": "transferase complex",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular protein-containing complex",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "6974_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "18517_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "9662_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "B8YB62",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "9160_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "2534_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "9422_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "MEIKILKSESNYLELEIEGEDHTLGNLIAGTLRKISGVSFASYYQPHPLTDKIIVKILTDGSIAPKDALLKAIETVRVMASHYIDEIKGLTK",
+            "rcsb_sample_sequence_length": 92,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "SULFOLOBUS SHIBATAE",
+              "ncbi_scientific_name": "Saccharolobus shibatae",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "N",
+                "asym_id": "N",
+                "entry_id": "2WB1",
+                "entity_id": "12"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "1.10.10.60"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8063362"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e2wb1N1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "N"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "N"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "N"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "N"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "FA"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "N"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "FA"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "N"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "O",
+                "asym_id": "O",
+                "entry_id": "2WB1",
+                "entity_id": "12"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "1.10.10.60"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8063362"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e2wb1O1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "O"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "O"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "O"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "O"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "GA"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "O"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "GA"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "O"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "GA"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "O"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "GA"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "O"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "2WB1",
+            "entity_id": "12",
+            "asym_ids": [
+              "N",
+              "O"
+            ],
+            "auth_asym_ids": [
+              "N",
+              "O"
+            ],
+            "uniprot_ids": [
+              "B8YB63"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "B8YB63"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "B8YB63",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Saccharolobus shibatae (strain ATCC 51178 / DSM 5389 / JCM 8931 / NBRC 15437 / B12)"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "DNA-DIRECTED RNA POLYMERASE RPO10 SUBUNIT",
+            "rcsb_ec_lineage": [
+              {
+                "id": "2"
+              },
+              {
+                "id": "2.7"
+              },
+              {
+                "id": "2.7.7"
+              },
+              {
+                "id": "2.7.7.6"
+              }
+            ],
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": [
+              {
+                "ec": "2.7.7.6",
+                "provenance_source": "UniProt"
+              }
+            ]
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA polymerase subunit RPB10",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "DNA binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA polymerases, subunit N, zinc binding site",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "DNA-directed RNA polymerase subunit RPABC5/Rpb10",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cation binding",
+                  "depth": null
+                },
+                {
+                  "name": "transition metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "zinc ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "RNA biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "DNA-templated transcription",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "DNA-directed RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "5'-3' RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on RNA",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a nucleic acid",
+                  "depth": null
+                },
+                {
+                  "name": "RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "nucleotidyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity, transferring phosphorus-containing groups",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "transferase complex, transferring phosphorus-containing groups",
+                  "depth": null
+                },
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic complex",
+                  "depth": null
+                },
+                {
+                  "name": "RNA polymerase complex",
+                  "depth": null
+                },
+                {
+                  "name": "DNA-directed RNA polymerase complex",
+                  "depth": null
+                },
+                {
+                  "name": "transferase complex",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular protein-containing complex",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "B8YB63",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "147_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "7006_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "2378_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "6568_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "317_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "7244_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "MMIPIRCFTCGSLIADKWQPFITRVNAGENPGKVLDDLGVKRYCCRRMLLSHIDIISEVIHYTRPI",
+            "rcsb_sample_sequence_length": 66,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "SULFOLOBUS SHIBATAE",
+              "ncbi_scientific_name": "Saccharolobus shibatae",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "P",
+                "asym_id": "P",
+                "entry_id": "2WB1",
+                "entity_id": "13"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "2.20.28.30"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e2wb1P1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "P"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "P"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "P"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "P"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "HA"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "P"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "X",
+                "asym_id": "X",
+                "entry_id": "2WB1",
+                "entity_id": "13"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "2.20.28.30"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e2wb1X1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "X"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "X"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "X"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "X"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "NA"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "X"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "NA"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "X"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "2WB1",
+            "entity_id": "13",
+            "asym_ids": [
+              "P",
+              "X"
+            ],
+            "auth_asym_ids": [
+              "P",
+              "X"
+            ],
+            "uniprot_ids": [
+              "B8YB64"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "B8YB64"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "B8YB64",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Saccharolobus shibatae (strain ATCC 51178 / DSM 5389 / JCM 8931 / NBRC 15437 / B12)"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "DNA-DIRECTED RNA POLYMERASE RPO12 SUBUNIT",
+            "rcsb_ec_lineage": [
+              {
+                "id": "2"
+              },
+              {
+                "id": "2.7"
+              },
+              {
+                "id": "2.7.7"
+              },
+              {
+                "id": "2.7.7.6"
+              }
+            ],
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": [
+              {
+                "ec": "2.7.7.6",
+                "provenance_source": "UniProt"
+              }
+            ]
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "DNA binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA polymerase archaeal subunit P/eukaryotic subunit RPABC4",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "DNA-directed RNA polymerase subunit Rpo12",
+                  "depth": 2
+                },
+                {
+                  "name": "RNA polymerase archaeal subunit P/eukaryotic subunit RPABC4",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA polymerase subunit RPABC4/transcription elongation factor Spt4",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cation binding",
+                  "depth": null
+                },
+                {
+                  "name": "transition metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "zinc ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "RNA biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "DNA-templated transcription",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "DNA-directed RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "5'-3' RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on RNA",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a nucleic acid",
+                  "depth": null
+                },
+                {
+                  "name": "RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "nucleotidyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity, transferring phosphorus-containing groups",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "transferase complex, transferring phosphorus-containing groups",
+                  "depth": null
+                },
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic complex",
+                  "depth": null
+                },
+                {
+                  "name": "RNA polymerase complex",
+                  "depth": null
+                },
+                {
+                  "name": "DNA-directed RNA polymerase complex",
+                  "depth": null
+                },
+                {
+                  "name": "transferase complex",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular protein-containing complex",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "4547_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "7287_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "3332_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "B8YB64",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "5194_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "6772_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "6837_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "MAVYRCGKCWKTFTDEQLKVLPGVRCPYCGYKIIFMVRKPTIKIVKAI",
+            "rcsb_sample_sequence_length": 48,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "SULFOLOBUS SHIBATAE",
+              "ncbi_scientific_name": "Saccharolobus shibatae",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
                 "auth_asym_id": "B",
                 "asym_id": "B",
                 "entry_id": "2WB1",
@@ -2925,6 +4616,451 @@
             "rcsb_entity_polymer_type": "Protein",
             "pdbx_seq_one_letter_code_can": "MSINLLHKDDKRIDLVFEGYPLEFVNAIRRAAMLYVPVMSIDDVYFIENNSPLYDEILAHRLALIPFTSEEALDTYRWPEECIDCTENCEKCYTKIYIEAEALNEPKMLYSKDIKSEDPSIVPISGDIPIVLLGANQKISLEARLRLGYGKEHAKFIPVSLAIVRYYPKVEILGNCEKGATVCPEGVFELKDGKLSVKNELACTLCEECLRYCNGLIRISSVEDKYILELESVGSLKPERILLEAGKSIIRKIEELEKKLVEVIK",
             "rcsb_sample_sequence_length": 265,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "SULFOLOBUS SHIBATAE",
+              "ncbi_scientific_name": "Saccharolobus shibatae",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "E",
+                "asym_id": "E",
+                "entry_id": "2WB1",
+                "entity_id": "5"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "3.30.1490.120"
+                },
+                {
+                  "type": "CATH",
+                  "annotation_id": "2.40.50.140"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e2wb1E1"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e2wb1E2"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "T",
+                "asym_id": "T",
+                "entry_id": "2WB1",
+                "entity_id": "5"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "3.30.1490.120"
+                },
+                {
+                  "type": "CATH",
+                  "annotation_id": "2.40.50.140"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e2wb1T1"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e2wb1T2"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "2WB1",
+            "entity_id": "5",
+            "asym_ids": [
+              "E",
+              "T"
+            ],
+            "auth_asym_ids": [
+              "E",
+              "T"
+            ],
+            "uniprot_ids": [
+              "B8YB57"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "B8YB57"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "B8YB57",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Saccharolobus shibatae (strain ATCC 51178 / DSM 5389 / JCM 8931 / NBRC 15437 / B12)"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "DNA-DIRECTED RNA POLYMERASE RPO7 SUBUNIT",
+            "rcsb_ec_lineage": [
+              {
+                "id": "2"
+              },
+              {
+                "id": "2.7"
+              },
+              {
+                "id": "2.7.7"
+              },
+              {
+                "id": "2.7.7.6"
+              }
+            ],
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": [
+              {
+                "ec": "2.7.7.6",
+                "provenance_source": "UniProt"
+              }
+            ]
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "DNA binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "DNA-directed RNA polymerase, subunit E/RPC8",
+                  "depth": 2
+                },
+                {
+                  "name": "RNA polymerase subunit Rpb7-like",
+                  "depth": 1
+                },
+                {
+                  "name": "DNA-directed RNA polymerase subunit Rpo7",
+                  "depth": 3
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA polymerase Rpb7-like, N-terminal domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "DNA-directed RNA polymerase, subunit E/RPC8",
+                  "depth": 2
+                },
+                {
+                  "name": "RNA polymerase subunit Rpb7-like",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "S1 domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "DNA-templated transcription initiation",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "RNA biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "DNA-templated transcription",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Nucleic acid-binding, OB-fold",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA polymerase subunit Rpb7-like",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA polymerase Rpb7-like , N-terminal",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "DNA-directed RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "5'-3' RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on RNA",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a nucleic acid",
+                  "depth": null
+                },
+                {
+                  "name": "RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "nucleotidyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity, transferring phosphorus-containing groups",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "transferase complex, transferring phosphorus-containing groups",
+                  "depth": null
+                },
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic complex",
+                  "depth": null
+                },
+                {
+                  "name": "RNA polymerase complex",
+                  "depth": null
+                },
+                {
+                  "name": "DNA-directed RNA polymerase complex",
+                  "depth": null
+                },
+                {
+                  "name": "transferase complex",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular protein-containing complex",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "96567_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "14048_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "14278_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "B8YB57",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "21134_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "19435_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "6574_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "MYKLIKARSIVRIPPNEFGKPLNEIALNELRQQYQEKILKDLGLVLAILNVKTSEEGILVFGDGATYHEVEFDMITYVPVVQEVVEGEVLQVDNYGIFVNLGPMDGLVHISQITDDTLKYDNVRGIIFGEKSKKVIQKGDKVRARVISVASTVTGRLPRIALTMRQPYLGKLEWITQAKK",
+            "rcsb_sample_sequence_length": 180,
             "rcsb_mutation_count": 0
           },
           "rcsb_entity_source_organism": [
@@ -4868,2142 +7004,6 @@
           "rcsb_entity_host_organism": null,
           "prd": null,
           "chem_comp_nstd_monomers": null
-        },
-        {
-          "polymer_entity_instances": [
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "J",
-                "asym_id": "J",
-                "entry_id": "2WB1",
-                "entity_id": "10"
-              },
-              "rcsb_polymer_instance_annotation": null,
-              "rcsb_polymer_struct_conn": null
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "Q",
-                "asym_id": "Q",
-                "entry_id": "2WB1",
-                "entity_id": "10"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e2wb1Q1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": null
-            }
-          ],
-          "rcsb_polymer_entity_container_identifiers": {
-            "entry_id": "2WB1",
-            "entity_id": "10",
-            "asym_ids": [
-              "J",
-              "Q"
-            ],
-            "auth_asym_ids": [
-              "J",
-              "Q"
-            ],
-            "uniprot_ids": [
-              "B8YB65"
-            ],
-            "reference_sequence_identifiers": [
-              {
-                "database_accession": "B8YB65"
-              }
-            ]
-          },
-          "uniprots": [
-            {
-              "rcsb_id": "B8YB65",
-              "rcsb_uniprot_protein": {
-                "source_organism": {
-                  "scientific_name": "Saccharolobus shibatae (strain ATCC 51178 / DSM 5389 / JCM 8931 / NBRC 15437 / B12)"
-                }
-              },
-              "rcsb_uniprot_external_reference": null
-            }
-          ],
-          "rcsb_polymer_entity": {
-            "pdbx_description": "DNA-DIRECTED RNA POLYMERASE RPO13 SUBUNIT",
-            "rcsb_ec_lineage": [
-              {
-                "id": "2"
-              },
-              {
-                "id": "2.7"
-              },
-              {
-                "id": "2.7.7"
-              },
-              {
-                "id": "2.7.7.6"
-              }
-            ],
-            "pdbx_ec": null,
-            "rcsb_enzyme_class_combined": [
-              {
-                "ec": "2.7.7.6",
-                "provenance_source": "UniProt"
-              }
-            ]
-          },
-          "rcsb_polymer_entity_annotation": [
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "DNA binding",
-                  "depth": null
-                },
-                {
-                  "name": "binding",
-                  "depth": null
-                },
-                {
-                  "name": "nucleic acid binding",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "RNA polymerase Rpo13 subunit HTH domain",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "RNA polymerase binding",
-                  "depth": null
-                },
-                {
-                  "name": "protein binding",
-                  "depth": null
-                },
-                {
-                  "name": "binding",
-                  "depth": null
-                },
-                {
-                  "name": "enzyme binding",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cytoplasm",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "transferase activity",
-                  "depth": null
-                },
-                {
-                  "name": "nucleotidyltransferase activity",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                },
-                {
-                  "name": "transferase activity, transferring phosphorus-containing groups",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "transferase complex, transferring phosphorus-containing groups",
-                  "depth": null
-                },
-                {
-                  "name": "protein-containing complex",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic complex",
-                  "depth": null
-                },
-                {
-                  "name": "RNA polymerase complex",
-                  "depth": null
-                },
-                {
-                  "name": "DNA-directed RNA polymerase complex",
-                  "depth": null
-                },
-                {
-                  "name": "transferase complex",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular protein-containing complex",
-                  "depth": null
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_group_membership": [
-            {
-              "group_id": "B8YB65",
-              "similarity_cutoff": null,
-              "aggregation_method": "matching_uniprot_accession"
-            },
-            {
-              "group_id": "27819_70",
-              "similarity_cutoff": 70.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "25220_95",
-              "similarity_cutoff": 95.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "26048_30",
-              "similarity_cutoff": 30.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "27411_90",
-              "similarity_cutoff": 90.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "28257_50",
-              "similarity_cutoff": 50.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "35163_100",
-              "similarity_cutoff": 100.0,
-              "aggregation_method": "sequence_identity"
-            }
-          ],
-          "entity_poly": {
-            "type": "polypeptide(L)",
-            "rcsb_entity_polymer_type": "Protein",
-            "pdbx_seq_one_letter_code_can": "MVSGMSTEEEKEGTNDEEVSEEREVEETSEEEFPKLSIQDIELLMKNTEIWDNLLNGKISVDEAKRLFEDNYKDYEKRDSRRKAKKAASKKVKKTKKKEKSVEG",
-            "rcsb_sample_sequence_length": 104,
-            "rcsb_mutation_count": 0
-          },
-          "rcsb_entity_source_organism": [
-            {
-              "scientific_name": "SULFOLOBUS SHIBATAE",
-              "ncbi_scientific_name": "Saccharolobus shibatae",
-              "rcsb_gene_name": null
-            }
-          ],
-          "rcsb_entity_host_organism": null,
-          "prd": null,
-          "chem_comp_nstd_monomers": null
-        },
-        {
-          "polymer_entity_instances": [
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "L",
-                "asym_id": "L",
-                "entry_id": "2WB1",
-                "entity_id": "11"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "CATH",
-                  "annotation_id": "3.30.1360.10"
-                },
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8080734"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e2wb1L1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": null
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "M",
-                "asym_id": "M",
-                "entry_id": "2WB1",
-                "entity_id": "11"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "CATH",
-                  "annotation_id": "3.30.1360.10"
-                },
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8080734"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e2wb1M1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": null
-            }
-          ],
-          "rcsb_polymer_entity_container_identifiers": {
-            "entry_id": "2WB1",
-            "entity_id": "11",
-            "asym_ids": [
-              "L",
-              "M"
-            ],
-            "auth_asym_ids": [
-              "L",
-              "M"
-            ],
-            "uniprot_ids": [
-              "B8YB62"
-            ],
-            "reference_sequence_identifiers": [
-              {
-                "database_accession": "B8YB62"
-              }
-            ]
-          },
-          "uniprots": [
-            {
-              "rcsb_id": "B8YB62",
-              "rcsb_uniprot_protein": {
-                "source_organism": {
-                  "scientific_name": "Saccharolobus shibatae (strain ATCC 51178 / DSM 5389 / JCM 8931 / NBRC 15437 / B12)"
-                }
-              },
-              "rcsb_uniprot_external_reference": null
-            }
-          ],
-          "rcsb_polymer_entity": {
-            "pdbx_description": "DNA-DIRECTED RNA POLYMERASE RPO11 SUBUNIT",
-            "rcsb_ec_lineage": [
-              {
-                "id": "2"
-              },
-              {
-                "id": "2.7"
-              },
-              {
-                "id": "2.7.7"
-              },
-              {
-                "id": "2.7.7.6"
-              }
-            ],
-            "pdbx_ec": null,
-            "rcsb_enzyme_class_combined": [
-              {
-                "ec": "2.7.7.6",
-                "provenance_source": "UniProt"
-              }
-            ]
-          },
-          "rcsb_polymer_entity_annotation": [
-            {
-              "type": "Pfam",
-              "annotation_lineage": null
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "DNA-directed RNA polymerase subunit Rpo11-like",
-                  "depth": 1
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "DNA binding",
-                  "depth": null
-                },
-                {
-                  "name": "binding",
-                  "depth": null
-                },
-                {
-                  "name": "nucleic acid binding",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "DNA-directed RNA polymerase, RBP11-like dimerisation domain",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cytoplasm",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "RNA metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "primary metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "nucleobase-containing compound biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "gene expression",
-                  "depth": null
-                },
-                {
-                  "name": "macromolecule biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "nucleic acid metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "RNA biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "nucleobase-containing compound metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "DNA-templated transcription",
-                  "depth": null
-                },
-                {
-                  "name": "nucleic acid biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "biological_process",
-                  "depth": null
-                },
-                {
-                  "name": "metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "cellular process",
-                  "depth": null
-                },
-                {
-                  "name": "macromolecule metabolic process",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "protein binding",
-                  "depth": null
-                },
-                {
-                  "name": "binding",
-                  "depth": null
-                },
-                {
-                  "name": "protein dimerization activity",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "RNA polymerase, RBP11-like subunit",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "DNA-directed RNA polymerase activity",
-                  "depth": null
-                },
-                {
-                  "name": "5'-3' RNA polymerase activity",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity, acting on RNA",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity, acting on a nucleic acid",
-                  "depth": null
-                },
-                {
-                  "name": "RNA polymerase activity",
-                  "depth": null
-                },
-                {
-                  "name": "transferase activity",
-                  "depth": null
-                },
-                {
-                  "name": "nucleotidyltransferase activity",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                },
-                {
-                  "name": "transferase activity, transferring phosphorus-containing groups",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "DNA-directed RNA polymerase Rpb11, 13-16kDa subunit, conserved site",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "transferase complex, transferring phosphorus-containing groups",
-                  "depth": null
-                },
-                {
-                  "name": "protein-containing complex",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic complex",
-                  "depth": null
-                },
-                {
-                  "name": "RNA polymerase complex",
-                  "depth": null
-                },
-                {
-                  "name": "DNA-directed RNA polymerase complex",
-                  "depth": null
-                },
-                {
-                  "name": "transferase complex",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular protein-containing complex",
-                  "depth": null
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_group_membership": [
-            {
-              "group_id": "6974_90",
-              "similarity_cutoff": 90.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "18517_100",
-              "similarity_cutoff": 100.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "9662_95",
-              "similarity_cutoff": 95.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "B8YB62",
-              "similarity_cutoff": null,
-              "aggregation_method": "matching_uniprot_accession"
-            },
-            {
-              "group_id": "9160_50",
-              "similarity_cutoff": 50.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "2534_30",
-              "similarity_cutoff": 30.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "9422_70",
-              "similarity_cutoff": 70.0,
-              "aggregation_method": "sequence_identity"
-            }
-          ],
-          "entity_poly": {
-            "type": "polypeptide(L)",
-            "rcsb_entity_polymer_type": "Protein",
-            "pdbx_seq_one_letter_code_can": "MEIKILKSESNYLELEIEGEDHTLGNLIAGTLRKISGVSFASYYQPHPLTDKIIVKILTDGSIAPKDALLKAIETVRVMASHYIDEIKGLTK",
-            "rcsb_sample_sequence_length": 92,
-            "rcsb_mutation_count": 0
-          },
-          "rcsb_entity_source_organism": [
-            {
-              "scientific_name": "SULFOLOBUS SHIBATAE",
-              "ncbi_scientific_name": "Saccharolobus shibatae",
-              "rcsb_gene_name": null
-            }
-          ],
-          "rcsb_entity_host_organism": null,
-          "prd": null,
-          "chem_comp_nstd_monomers": null
-        },
-        {
-          "polymer_entity_instances": [
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "N",
-                "asym_id": "N",
-                "entry_id": "2WB1",
-                "entity_id": "12"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "CATH",
-                  "annotation_id": "1.10.10.60"
-                },
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8063362"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e2wb1N1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "N"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "N"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "N"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "N"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "FA"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "N"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "FA"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "N"
-                  }
-                }
-              ]
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "O",
-                "asym_id": "O",
-                "entry_id": "2WB1",
-                "entity_id": "12"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "CATH",
-                  "annotation_id": "1.10.10.60"
-                },
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8063362"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e2wb1O1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "O"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "O"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "O"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "O"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "GA"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "O"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "GA"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "O"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "GA"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "O"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "GA"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "O"
-                  }
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_container_identifiers": {
-            "entry_id": "2WB1",
-            "entity_id": "12",
-            "asym_ids": [
-              "N",
-              "O"
-            ],
-            "auth_asym_ids": [
-              "N",
-              "O"
-            ],
-            "uniprot_ids": [
-              "B8YB63"
-            ],
-            "reference_sequence_identifiers": [
-              {
-                "database_accession": "B8YB63"
-              }
-            ]
-          },
-          "uniprots": [
-            {
-              "rcsb_id": "B8YB63",
-              "rcsb_uniprot_protein": {
-                "source_organism": {
-                  "scientific_name": "Saccharolobus shibatae (strain ATCC 51178 / DSM 5389 / JCM 8931 / NBRC 15437 / B12)"
-                }
-              },
-              "rcsb_uniprot_external_reference": null
-            }
-          ],
-          "rcsb_polymer_entity": {
-            "pdbx_description": "DNA-DIRECTED RNA POLYMERASE RPO10 SUBUNIT",
-            "rcsb_ec_lineage": [
-              {
-                "id": "2"
-              },
-              {
-                "id": "2.7"
-              },
-              {
-                "id": "2.7.7"
-              },
-              {
-                "id": "2.7.7.6"
-              }
-            ],
-            "pdbx_ec": null,
-            "rcsb_enzyme_class_combined": [
-              {
-                "ec": "2.7.7.6",
-                "provenance_source": "UniProt"
-              }
-            ]
-          },
-          "rcsb_polymer_entity_annotation": [
-            {
-              "type": "Pfam",
-              "annotation_lineage": null
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "RNA polymerase subunit RPB10",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "DNA binding",
-                  "depth": null
-                },
-                {
-                  "name": "binding",
-                  "depth": null
-                },
-                {
-                  "name": "nucleic acid binding",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "RNA polymerases, subunit N, zinc binding site",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "DNA-directed RNA polymerase subunit RPABC5/Rpb10",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cytoplasm",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "cation binding",
-                  "depth": null
-                },
-                {
-                  "name": "transition metal ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "zinc ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "binding",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                },
-                {
-                  "name": "metal ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "small molecule binding",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "RNA metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "primary metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "nucleobase-containing compound biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "gene expression",
-                  "depth": null
-                },
-                {
-                  "name": "macromolecule biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "nucleic acid metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "RNA biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "nucleobase-containing compound metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "DNA-templated transcription",
-                  "depth": null
-                },
-                {
-                  "name": "nucleic acid biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "biological_process",
-                  "depth": null
-                },
-                {
-                  "name": "metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "cellular process",
-                  "depth": null
-                },
-                {
-                  "name": "macromolecule metabolic process",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "DNA-directed RNA polymerase activity",
-                  "depth": null
-                },
-                {
-                  "name": "5'-3' RNA polymerase activity",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity, acting on RNA",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity, acting on a nucleic acid",
-                  "depth": null
-                },
-                {
-                  "name": "RNA polymerase activity",
-                  "depth": null
-                },
-                {
-                  "name": "transferase activity",
-                  "depth": null
-                },
-                {
-                  "name": "nucleotidyltransferase activity",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                },
-                {
-                  "name": "transferase activity, transferring phosphorus-containing groups",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "transferase complex, transferring phosphorus-containing groups",
-                  "depth": null
-                },
-                {
-                  "name": "protein-containing complex",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic complex",
-                  "depth": null
-                },
-                {
-                  "name": "RNA polymerase complex",
-                  "depth": null
-                },
-                {
-                  "name": "DNA-directed RNA polymerase complex",
-                  "depth": null
-                },
-                {
-                  "name": "transferase complex",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular protein-containing complex",
-                  "depth": null
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_group_membership": [
-            {
-              "group_id": "B8YB63",
-              "similarity_cutoff": null,
-              "aggregation_method": "matching_uniprot_accession"
-            },
-            {
-              "group_id": "147_50",
-              "similarity_cutoff": 50.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "7006_95",
-              "similarity_cutoff": 95.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "2378_70",
-              "similarity_cutoff": 70.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "6568_100",
-              "similarity_cutoff": 100.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "317_30",
-              "similarity_cutoff": 30.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "7244_90",
-              "similarity_cutoff": 90.0,
-              "aggregation_method": "sequence_identity"
-            }
-          ],
-          "entity_poly": {
-            "type": "polypeptide(L)",
-            "rcsb_entity_polymer_type": "Protein",
-            "pdbx_seq_one_letter_code_can": "MMIPIRCFTCGSLIADKWQPFITRVNAGENPGKVLDDLGVKRYCCRRMLLSHIDIISEVIHYTRPI",
-            "rcsb_sample_sequence_length": 66,
-            "rcsb_mutation_count": 0
-          },
-          "rcsb_entity_source_organism": [
-            {
-              "scientific_name": "SULFOLOBUS SHIBATAE",
-              "ncbi_scientific_name": "Saccharolobus shibatae",
-              "rcsb_gene_name": null
-            }
-          ],
-          "rcsb_entity_host_organism": null,
-          "prd": null,
-          "chem_comp_nstd_monomers": null
-        },
-        {
-          "polymer_entity_instances": [
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "P",
-                "asym_id": "P",
-                "entry_id": "2WB1",
-                "entity_id": "13"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "CATH",
-                  "annotation_id": "2.20.28.30"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e2wb1P1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "P"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "P"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "P"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "P"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "HA"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "P"
-                  }
-                }
-              ]
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "X",
-                "asym_id": "X",
-                "entry_id": "2WB1",
-                "entity_id": "13"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "CATH",
-                  "annotation_id": "2.20.28.30"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e2wb1X1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "X"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "X"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "X"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "X"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "NA"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "X"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "NA"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "X"
-                  }
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_container_identifiers": {
-            "entry_id": "2WB1",
-            "entity_id": "13",
-            "asym_ids": [
-              "P",
-              "X"
-            ],
-            "auth_asym_ids": [
-              "P",
-              "X"
-            ],
-            "uniprot_ids": [
-              "B8YB64"
-            ],
-            "reference_sequence_identifiers": [
-              {
-                "database_accession": "B8YB64"
-              }
-            ]
-          },
-          "uniprots": [
-            {
-              "rcsb_id": "B8YB64",
-              "rcsb_uniprot_protein": {
-                "source_organism": {
-                  "scientific_name": "Saccharolobus shibatae (strain ATCC 51178 / DSM 5389 / JCM 8931 / NBRC 15437 / B12)"
-                }
-              },
-              "rcsb_uniprot_external_reference": null
-            }
-          ],
-          "rcsb_polymer_entity": {
-            "pdbx_description": "DNA-DIRECTED RNA POLYMERASE RPO12 SUBUNIT",
-            "rcsb_ec_lineage": [
-              {
-                "id": "2"
-              },
-              {
-                "id": "2.7"
-              },
-              {
-                "id": "2.7.7"
-              },
-              {
-                "id": "2.7.7.6"
-              }
-            ],
-            "pdbx_ec": null,
-            "rcsb_enzyme_class_combined": [
-              {
-                "ec": "2.7.7.6",
-                "provenance_source": "UniProt"
-              }
-            ]
-          },
-          "rcsb_polymer_entity_annotation": [
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "DNA binding",
-                  "depth": null
-                },
-                {
-                  "name": "binding",
-                  "depth": null
-                },
-                {
-                  "name": "nucleic acid binding",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "RNA polymerase archaeal subunit P/eukaryotic subunit RPABC4",
-                  "depth": 1
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "DNA-directed RNA polymerase subunit Rpo12",
-                  "depth": 2
-                },
-                {
-                  "name": "RNA polymerase archaeal subunit P/eukaryotic subunit RPABC4",
-                  "depth": 1
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "RNA polymerase subunit RPABC4/transcription elongation factor Spt4",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cytoplasm",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "cation binding",
-                  "depth": null
-                },
-                {
-                  "name": "transition metal ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "zinc ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "binding",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                },
-                {
-                  "name": "metal ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "small molecule binding",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "RNA metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "primary metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "nucleobase-containing compound biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "gene expression",
-                  "depth": null
-                },
-                {
-                  "name": "macromolecule biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "nucleic acid metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "RNA biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "nucleobase-containing compound metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "DNA-templated transcription",
-                  "depth": null
-                },
-                {
-                  "name": "nucleic acid biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "biological_process",
-                  "depth": null
-                },
-                {
-                  "name": "metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "cellular process",
-                  "depth": null
-                },
-                {
-                  "name": "macromolecule metabolic process",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "DNA-directed RNA polymerase activity",
-                  "depth": null
-                },
-                {
-                  "name": "5'-3' RNA polymerase activity",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity, acting on RNA",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity, acting on a nucleic acid",
-                  "depth": null
-                },
-                {
-                  "name": "RNA polymerase activity",
-                  "depth": null
-                },
-                {
-                  "name": "transferase activity",
-                  "depth": null
-                },
-                {
-                  "name": "nucleotidyltransferase activity",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                },
-                {
-                  "name": "transferase activity, transferring phosphorus-containing groups",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "transferase complex, transferring phosphorus-containing groups",
-                  "depth": null
-                },
-                {
-                  "name": "protein-containing complex",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic complex",
-                  "depth": null
-                },
-                {
-                  "name": "RNA polymerase complex",
-                  "depth": null
-                },
-                {
-                  "name": "DNA-directed RNA polymerase complex",
-                  "depth": null
-                },
-                {
-                  "name": "transferase complex",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular protein-containing complex",
-                  "depth": null
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_group_membership": [
-            {
-              "group_id": "4547_100",
-              "similarity_cutoff": 100.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "7287_50",
-              "similarity_cutoff": 50.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "3332_30",
-              "similarity_cutoff": 30.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "B8YB64",
-              "similarity_cutoff": null,
-              "aggregation_method": "matching_uniprot_accession"
-            },
-            {
-              "group_id": "5194_90",
-              "similarity_cutoff": 90.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "6772_70",
-              "similarity_cutoff": 70.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "6837_95",
-              "similarity_cutoff": 95.0,
-              "aggregation_method": "sequence_identity"
-            }
-          ],
-          "entity_poly": {
-            "type": "polypeptide(L)",
-            "rcsb_entity_polymer_type": "Protein",
-            "pdbx_seq_one_letter_code_can": "MAVYRCGKCWKTFTDEQLKVLPGVRCPYCGYKIIFMVRKPTIKIVKAI",
-            "rcsb_sample_sequence_length": 48,
-            "rcsb_mutation_count": 0
-          },
-          "rcsb_entity_source_organism": [
-            {
-              "scientific_name": "SULFOLOBUS SHIBATAE",
-              "ncbi_scientific_name": "Saccharolobus shibatae",
-              "rcsb_gene_name": null
-            }
-          ],
-          "rcsb_entity_host_organism": null,
-          "prd": null,
-          "chem_comp_nstd_monomers": null
-        },
-        {
-          "polymer_entity_instances": [
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "E",
-                "asym_id": "E",
-                "entry_id": "2WB1",
-                "entity_id": "5"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "CATH",
-                  "annotation_id": "3.30.1490.120"
-                },
-                {
-                  "type": "CATH",
-                  "annotation_id": "2.40.50.140"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e2wb1E1"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e2wb1E2"
-                }
-              ],
-              "rcsb_polymer_struct_conn": null
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "T",
-                "asym_id": "T",
-                "entry_id": "2WB1",
-                "entity_id": "5"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "CATH",
-                  "annotation_id": "3.30.1490.120"
-                },
-                {
-                  "type": "CATH",
-                  "annotation_id": "2.40.50.140"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e2wb1T1"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e2wb1T2"
-                }
-              ],
-              "rcsb_polymer_struct_conn": null
-            }
-          ],
-          "rcsb_polymer_entity_container_identifiers": {
-            "entry_id": "2WB1",
-            "entity_id": "5",
-            "asym_ids": [
-              "E",
-              "T"
-            ],
-            "auth_asym_ids": [
-              "E",
-              "T"
-            ],
-            "uniprot_ids": [
-              "B8YB57"
-            ],
-            "reference_sequence_identifiers": [
-              {
-                "database_accession": "B8YB57"
-              }
-            ]
-          },
-          "uniprots": [
-            {
-              "rcsb_id": "B8YB57",
-              "rcsb_uniprot_protein": {
-                "source_organism": {
-                  "scientific_name": "Saccharolobus shibatae (strain ATCC 51178 / DSM 5389 / JCM 8931 / NBRC 15437 / B12)"
-                }
-              },
-              "rcsb_uniprot_external_reference": null
-            }
-          ],
-          "rcsb_polymer_entity": {
-            "pdbx_description": "DNA-DIRECTED RNA POLYMERASE RPO7 SUBUNIT",
-            "rcsb_ec_lineage": [
-              {
-                "id": "2"
-              },
-              {
-                "id": "2.7"
-              },
-              {
-                "id": "2.7.7"
-              },
-              {
-                "id": "2.7.7.6"
-              }
-            ],
-            "pdbx_ec": null,
-            "rcsb_enzyme_class_combined": [
-              {
-                "ec": "2.7.7.6",
-                "provenance_source": "UniProt"
-              }
-            ]
-          },
-          "rcsb_polymer_entity_annotation": [
-            {
-              "type": "Pfam",
-              "annotation_lineage": null
-            },
-            {
-              "type": "Pfam",
-              "annotation_lineage": null
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "DNA binding",
-                  "depth": null
-                },
-                {
-                  "name": "binding",
-                  "depth": null
-                },
-                {
-                  "name": "nucleic acid binding",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "DNA-directed RNA polymerase, subunit E/RPC8",
-                  "depth": 2
-                },
-                {
-                  "name": "RNA polymerase subunit Rpb7-like",
-                  "depth": 1
-                },
-                {
-                  "name": "DNA-directed RNA polymerase subunit Rpo7",
-                  "depth": 3
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "RNA polymerase Rpb7-like, N-terminal domain superfamily",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "DNA-directed RNA polymerase, subunit E/RPC8",
-                  "depth": 2
-                },
-                {
-                  "name": "RNA polymerase subunit Rpb7-like",
-                  "depth": 1
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "S1 domain",
-                  "depth": 1
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "RNA metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "primary metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "nucleobase-containing compound biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "gene expression",
-                  "depth": null
-                },
-                {
-                  "name": "macromolecule biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "DNA-templated transcription initiation",
-                  "depth": null
-                },
-                {
-                  "name": "nucleic acid metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "RNA biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "nucleobase-containing compound metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "DNA-templated transcription",
-                  "depth": null
-                },
-                {
-                  "name": "nucleic acid biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "biological_process",
-                  "depth": null
-                },
-                {
-                  "name": "metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "cellular process",
-                  "depth": null
-                },
-                {
-                  "name": "macromolecule metabolic process",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Nucleic acid-binding, OB-fold",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cytoplasm",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "RNA polymerase subunit Rpb7-like",
-                  "depth": 1
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "RNA polymerase Rpb7-like , N-terminal",
-                  "depth": 1
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "DNA-directed RNA polymerase activity",
-                  "depth": null
-                },
-                {
-                  "name": "5'-3' RNA polymerase activity",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity, acting on RNA",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity, acting on a nucleic acid",
-                  "depth": null
-                },
-                {
-                  "name": "RNA polymerase activity",
-                  "depth": null
-                },
-                {
-                  "name": "transferase activity",
-                  "depth": null
-                },
-                {
-                  "name": "nucleotidyltransferase activity",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                },
-                {
-                  "name": "transferase activity, transferring phosphorus-containing groups",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "transferase complex, transferring phosphorus-containing groups",
-                  "depth": null
-                },
-                {
-                  "name": "protein-containing complex",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic complex",
-                  "depth": null
-                },
-                {
-                  "name": "RNA polymerase complex",
-                  "depth": null
-                },
-                {
-                  "name": "DNA-directed RNA polymerase complex",
-                  "depth": null
-                },
-                {
-                  "name": "transferase complex",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular protein-containing complex",
-                  "depth": null
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_group_membership": [
-            {
-              "group_id": "96567_100",
-              "similarity_cutoff": 100.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "14048_50",
-              "similarity_cutoff": 50.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "14278_70",
-              "similarity_cutoff": 70.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "B8YB57",
-              "similarity_cutoff": null,
-              "aggregation_method": "matching_uniprot_accession"
-            },
-            {
-              "group_id": "21134_90",
-              "similarity_cutoff": 90.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "19435_95",
-              "similarity_cutoff": 95.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "6574_30",
-              "similarity_cutoff": 30.0,
-              "aggregation_method": "sequence_identity"
-            }
-          ],
-          "entity_poly": {
-            "type": "polypeptide(L)",
-            "rcsb_entity_polymer_type": "Protein",
-            "pdbx_seq_one_letter_code_can": "MYKLIKARSIVRIPPNEFGKPLNEIALNELRQQYQEKILKDLGLVLAILNVKTSEEGILVFGDGATYHEVEFDMITYVPVVQEVVEGEVLQVDNYGIFVNLGPMDGLVHISQITDDTLKYDNVRGIIFGEKSKKVIQKGDKVRARVISVASTVTGRLPRIALTMRQPYLGKLEWITQAKK",
-            "rcsb_sample_sequence_length": 180,
-            "rcsb_mutation_count": 0
-          },
-          "rcsb_entity_source_organism": [
-            {
-              "scientific_name": "SULFOLOBUS SHIBATAE",
-              "ncbi_scientific_name": "Saccharolobus shibatae",
-              "rcsb_gene_name": null
-            }
-          ],
-          "rcsb_entity_host_organism": null,
-          "prd": null,
-          "chem_comp_nstd_monomers": null
         }
       ],
       "nonpolymer_entities": [
@@ -7057,42 +7057,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "1881",
-                "auth_asym_id": "A",
-                "asym_id": "BA",
-                "entry_id": "2WB1",
-                "entity_id": "14"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.9916,
-                  "ranking_model_geometry": null,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "2123",
-                "auth_asym_id": "B",
-                "asym_id": "DA",
-                "entry_id": "2WB1",
-                "entity_id": "14"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.9721,
-                  "ranking_model_geometry": null,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "1065",
                 "auth_asym_id": "N",
                 "asym_id": "FA",
@@ -7102,24 +7066,6 @@
               "rcsb_nonpolymer_instance_validation_score": [
                 {
                   "ranking_model_fit": 0.888,
-                  "ranking_model_geometry": null,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "1065",
-                "auth_asym_id": "O",
-                "asym_id": "GA",
-                "entry_id": "2WB1",
-                "entity_id": "14"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.9712,
                   "ranking_model_geometry": null,
                   "average_occupancy": 1.0,
                   "is_subject_of_investigation": "N",
@@ -7201,6 +7147,60 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "1881",
+                "auth_asym_id": "A",
+                "asym_id": "BA",
+                "entry_id": "2WB1",
+                "entity_id": "14"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9916,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "2123",
+                "auth_asym_id": "B",
+                "asym_id": "DA",
+                "entry_id": "2WB1",
+                "entity_id": "14"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9721,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "1065",
+                "auth_asym_id": "O",
+                "asym_id": "GA",
+                "entry_id": "2WB1",
+                "entity_id": "14"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9712,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "1049",
                 "auth_asym_id": "X",
                 "asym_id": "NA",
@@ -7253,14 +7253,14 @@
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "1882",
-                "auth_asym_id": "A",
-                "asym_id": "CA",
+                "auth_asym_id": "W",
+                "asym_id": "MA",
                 "entry_id": "2WB1",
                 "entity_id": "15"
               },
               "rcsb_nonpolymer_instance_validation_score": [
                 {
-                  "ranking_model_fit": 0.1026,
+                  "ranking_model_fit": 0.4216,
                   "ranking_model_geometry": null,
                   "average_occupancy": 1.0,
                   "is_subject_of_investigation": "N",
@@ -7271,14 +7271,14 @@
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "1882",
-                "auth_asym_id": "W",
-                "asym_id": "MA",
+                "auth_asym_id": "A",
+                "asym_id": "CA",
                 "entry_id": "2WB1",
                 "entity_id": "15"
               },
               "rcsb_nonpolymer_instance_validation_score": [
                 {
-                  "ranking_model_fit": 0.4216,
+                  "ranking_model_fit": 0.1026,
                   "ranking_model_geometry": null,
                   "average_occupancy": 1.0,
                   "is_subject_of_investigation": "N",

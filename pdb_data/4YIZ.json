@@ -375,6 +375,291 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "B",
+                "asym_id": "D",
+                "entry_id": "4YIZ",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "D",
+                "asym_id": "E",
+                "entry_id": "4YIZ",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "E"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "E"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "F",
+                "asym_id": "F",
+                "entry_id": "4YIZ",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "F"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "F"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "4YIZ",
+            "entity_id": "2",
+            "asym_ids": [
+              "D",
+              "E",
+              "F"
+            ],
+            "auth_asym_ids": [
+              "B",
+              "D",
+              "F"
+            ],
+            "uniprot_ids": [
+              "B6KV60"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "B6KV60"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "B6KV60",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Toxoplasma gondii (strain ATCC 50611 / Me49)"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "Rhoptry neck protein 2, putative",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "host cell plasma membrane",
+                  "depth": null
+                },
+                {
+                  "name": "host cellular component",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "host cell part",
+                  "depth": null
+                },
+                {
+                  "name": "host cell membrane",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "224272_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "251797_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "312582_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "B6KV60",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "263401_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "253986_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "254112_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "GSASDITQHLNDSGLGPAVECLENLVVGPVCPAAVVAPAV",
+            "rcsb_sample_sequence_length": 40,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Eimeria tenella",
+              "ncbi_scientific_name": "Eimeria tenella",
+              "rcsb_gene_name": [
+                {
+                  "value": "ETH_00012760",
+                  "provenance_source": "Primary Data"
+                }
+              ]
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Escherichia coli BL21(DE3)"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
                 "auth_asym_id": "A",
                 "asym_id": "A",
                 "entry_id": "4YIZ",
@@ -1137,294 +1422,136 @@
           ],
           "prd": null,
           "chem_comp_nstd_monomers": null
-        },
-        {
-          "polymer_entity_instances": [
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "B",
-                "asym_id": "D",
-                "entry_id": "4YIZ",
-                "entity_id": "2"
-              },
-              "rcsb_polymer_instance_annotation": null,
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "D"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "D"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "D"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "D"
-                  }
-                }
-              ]
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "D",
-                "asym_id": "E",
-                "entry_id": "4YIZ",
-                "entity_id": "2"
-              },
-              "rcsb_polymer_instance_annotation": null,
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "E"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "E"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "E"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "E"
-                  }
-                }
-              ]
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "F",
-                "asym_id": "F",
-                "entry_id": "4YIZ",
-                "entity_id": "2"
-              },
-              "rcsb_polymer_instance_annotation": null,
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "F"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "F"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "F"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "F"
-                  }
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_container_identifiers": {
-            "entry_id": "4YIZ",
-            "entity_id": "2",
-            "asym_ids": [
-              "D",
-              "E",
-              "F"
-            ],
-            "auth_asym_ids": [
-              "B",
-              "D",
-              "F"
-            ],
-            "uniprot_ids": [
-              "B6KV60"
-            ],
-            "reference_sequence_identifiers": [
-              {
-                "database_accession": "B6KV60"
-              }
-            ]
-          },
-          "uniprots": [
-            {
-              "rcsb_id": "B6KV60",
-              "rcsb_uniprot_protein": {
-                "source_organism": {
-                  "scientific_name": "Toxoplasma gondii (strain ATCC 50611 / Me49)"
-                }
-              },
-              "rcsb_uniprot_external_reference": null
-            }
-          ],
-          "rcsb_polymer_entity": {
-            "pdbx_description": "Rhoptry neck protein 2, putative",
-            "rcsb_ec_lineage": null,
-            "pdbx_ec": null,
-            "rcsb_enzyme_class_combined": null
-          },
-          "rcsb_polymer_entity_annotation": [
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "membrane",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "host cell plasma membrane",
-                  "depth": null
-                },
-                {
-                  "name": "host cellular component",
-                  "depth": null
-                },
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "host cell part",
-                  "depth": null
-                },
-                {
-                  "name": "host cell membrane",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cytoplasm",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "extracellular region",
-                  "depth": null
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_group_membership": [
-            {
-              "group_id": "224272_30",
-              "similarity_cutoff": 30.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "251797_95",
-              "similarity_cutoff": 95.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "312582_70",
-              "similarity_cutoff": 70.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "B6KV60",
-              "similarity_cutoff": null,
-              "aggregation_method": "matching_uniprot_accession"
-            },
-            {
-              "group_id": "263401_50",
-              "similarity_cutoff": 50.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "253986_90",
-              "similarity_cutoff": 90.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "254112_100",
-              "similarity_cutoff": 100.0,
-              "aggregation_method": "sequence_identity"
-            }
-          ],
-          "entity_poly": {
-            "type": "polypeptide(L)",
-            "rcsb_entity_polymer_type": "Protein",
-            "pdbx_seq_one_letter_code_can": "GSASDITQHLNDSGLGPAVECLENLVVGPVCPAAVVAPAV",
-            "rcsb_sample_sequence_length": 40,
-            "rcsb_mutation_count": 0
-          },
-          "rcsb_entity_source_organism": [
-            {
-              "scientific_name": "Eimeria tenella",
-              "ncbi_scientific_name": "Eimeria tenella",
-              "rcsb_gene_name": [
-                {
-                  "value": "ETH_00012760",
-                  "provenance_source": "Primary Data"
-                }
-              ]
-            }
-          ],
-          "rcsb_entity_host_organism": [
-            {
-              "ncbi_scientific_name": "Escherichia coli BL21(DE3)"
-            }
-          ],
-          "prd": null,
-          "chem_comp_nstd_monomers": null
         }
       ],
       "nonpolymer_entities": [
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "4YIZ",
+            "entity_id": "5",
+            "auth_asym_ids": [
+              "A",
+              "C",
+              "E"
+            ],
+            "asym_ids": [
+              "I",
+              "J",
+              "L",
+              "M",
+              "O"
+            ],
+            "nonpolymer_comp_id": "SO4"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "503",
+                "auth_asym_id": "A",
+                "asym_id": "I",
+                "entry_id": "4YIZ",
+                "entity_id": "5"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.5006,
+                  "ranking_model_geometry": 0.9943,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "504",
+                "auth_asym_id": "A",
+                "asym_id": "J",
+                "entry_id": "4YIZ",
+                "entity_id": "5"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.6857,
+                  "ranking_model_geometry": 0.995,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "502",
+                "auth_asym_id": "C",
+                "asym_id": "L",
+                "entry_id": "4YIZ",
+                "entity_id": "5"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.5037,
+                  "ranking_model_geometry": 0.9973,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "503",
+                "auth_asym_id": "C",
+                "asym_id": "M",
+                "entry_id": "4YIZ",
+                "entity_id": "5"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.7488,
+                  "ranking_model_geometry": 0.9973,
+                  "average_occupancy": 0.45,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "502",
+                "auth_asym_id": "E",
+                "asym_id": "O",
+                "entry_id": "4YIZ",
+                "entity_id": "5"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.8181,
+                  "ranking_model_geometry": 0.9973,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "SULFATE ION"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "SO4",
+              "formula_weight": 96.063,
+              "name": "SULFATE ION",
+              "formula": "O4 S"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "QAOWNCQODCNURD-UHFFFAOYSA-L"
+            }
+          }
+        },
         {
           "rcsb_nonpolymer_entity_container_identifiers": {
             "entry_id": "4YIZ",
@@ -1560,133 +1687,6 @@
             "pdbx_reference_molecule": null,
             "rcsb_chem_comp_descriptor": {
               "InChIKey": "OVRNDRQMDRJTHS-CBQIKETKSA-N"
-            }
-          }
-        },
-        {
-          "rcsb_nonpolymer_entity_container_identifiers": {
-            "entry_id": "4YIZ",
-            "entity_id": "5",
-            "auth_asym_ids": [
-              "A",
-              "C",
-              "E"
-            ],
-            "asym_ids": [
-              "I",
-              "J",
-              "L",
-              "M",
-              "O"
-            ],
-            "nonpolymer_comp_id": "SO4"
-          },
-          "rcsb_nonpolymer_entity_annotation": null,
-          "nonpolymer_entity_instances": [
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "503",
-                "auth_asym_id": "A",
-                "asym_id": "I",
-                "entry_id": "4YIZ",
-                "entity_id": "5"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.5006,
-                  "ranking_model_geometry": 0.9943,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "504",
-                "auth_asym_id": "A",
-                "asym_id": "J",
-                "entry_id": "4YIZ",
-                "entity_id": "5"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.6857,
-                  "ranking_model_geometry": 0.995,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "502",
-                "auth_asym_id": "C",
-                "asym_id": "L",
-                "entry_id": "4YIZ",
-                "entity_id": "5"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.5037,
-                  "ranking_model_geometry": 0.9973,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "503",
-                "auth_asym_id": "C",
-                "asym_id": "M",
-                "entry_id": "4YIZ",
-                "entity_id": "5"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.7488,
-                  "ranking_model_geometry": 0.9973,
-                  "average_occupancy": 0.45,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "502",
-                "auth_asym_id": "E",
-                "asym_id": "O",
-                "entry_id": "4YIZ",
-                "entity_id": "5"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.8181,
-                  "ranking_model_geometry": 0.9973,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            }
-          ],
-          "rcsb_nonpolymer_entity": {
-            "pdbx_description": "SULFATE ION"
-          },
-          "nonpolymer_comp": {
-            "chem_comp": {
-              "id": "SO4",
-              "formula_weight": 96.063,
-              "name": "SULFATE ION",
-              "formula": "O4 S"
-            },
-            "pdbx_reference_molecule": null,
-            "rcsb_chem_comp_descriptor": {
-              "InChIKey": "QAOWNCQODCNURD-UHFFFAOYSA-L"
             }
           }
         }

@@ -509,6 +509,7 @@ def main():
     chunk_size = 50
     id_chunks = [pdb_ids[i:i + chunk_size] for i in range(0, len(pdb_ids), chunk_size)]
     
+    failed_ids = []
     total_processed = 0
     total_ids = len(pdb_ids)
 
@@ -538,6 +539,7 @@ def main():
                             # 检查返回的数据中是否有错误
                             if 'errors' in data:
                                 print(f"({total_processed}/{total_ids}) 获取 {pdb_id} 数据时 GraphQL 返回错误: {data['errors']}")
+                                failed_ids.append(pdb_id)
                             else:
                                 file_path = os.path.join(output_dir, f"{pdb_id}.json")
                                 with open(file_path, "w", encoding="utf-8") as f:
@@ -545,13 +547,66 @@ def main():
                                 print(f"({total_processed}/{total_ids}) 已将 {pdb_id} 的数据保存到 {file_path}")
                         else:
                             print(f"({total_processed}/{total_ids}) 未能获取到 {pdb_id} 的数据。")
+                            failed_ids.append(pdb_id)
                     except Exception as exc:
                         print(f'({total_processed}/{total_ids}) {pdb_id} 生成时出错: {exc}')
+                        failed_ids.append(pdb_id)
         
         print(f"--- 批次 {i+1} 处理完成 ---")
         if i < len(id_chunks) - 1:
             print("短暂休息后将处理下一个批次...")
-            time.sleep(2)  # 在批次之间稍作停顿
+            time.sleep(5)  # 在批次之间稍作停顿
+
+    if failed_ids:
+        print(f"\n--- {len(failed_ids)} 个 PDB ID 初次尝试失败，开始重试 ---")
+        
+        retry_processed = 0
+        total_retries = len(failed_ids)
+        still_failed_ids = []
+        
+        retry_chunks = [failed_ids[i:i + chunk_size] for i in range(0, len(failed_ids), chunk_size)]
+
+        for i, chunk in enumerate(retry_chunks):
+            print(f"--- 正在处理重试批次 {i+1}/{len(retry_chunks)} ---")
+            with requests.Session() as session:
+                retries = Retry(total=3, backoff_factor=0.5, status_forcelist=[500, 502, 503, 504])
+                adapter = HTTPAdapter(max_retries=retries)
+                session.mount('http://', adapter)
+                session.mount('https://', adapter)
+
+                with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+                    future_to_pdb_id = {executor.submit(fetch_pdb_data, pdb_id, session): pdb_id for pdb_id in chunk}
+
+                    for future in concurrent.futures.as_completed(future_to_pdb_id):
+                        pdb_id = future_to_pdb_id[future]
+                        retry_processed += 1
+                        
+                        try:
+                            data = future.result()
+                            if data and 'errors' not in data:
+                                file_path = os.path.join(output_dir, f"{pdb_id}.json")
+                                with open(file_path, "w", encoding="utf-8") as f:
+                                    json.dump(data, f, indent=2, ensure_ascii=False)
+                                print(f"({retry_processed}/{total_retries}) [重试成功] 已将 {pdb_id} 的数据保存到 {file_path}")
+                            else:
+                                error_msg = data.get('errors', '无返回数据') if data else '无返回数据'
+                                print(f"({retry_processed}/{total_retries}) [重试失败] {pdb_id} 获取数据失败: {error_msg}")
+                                still_failed_ids.append(pdb_id)
+                        except Exception as exc:
+                            print(f'({retry_processed}/{total_retries}) [重试失败] {pdb_id} 生成时出错: {exc}')
+                            still_failed_ids.append(pdb_id)
+            
+            if i < len(retry_chunks) - 1:
+                print("--- 重试批次处理完成，短暂休息后继续 ---")
+                time.sleep(5)
+        
+        if still_failed_ids:
+            print("\n--- 以下 PDB ID 在重试后仍然失败 ---")
+            print(",".join(still_failed_ids))
+        else:
+            print("\n--- 所有失败的 PDB ID 均已重试成功 ---")
+    else:
+        print("\n--- 所有 PDB ID 均已成功处理，无需重试 ---")
 
 if __name__ == "__main__":
     main() 

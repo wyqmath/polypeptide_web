@@ -1565,6 +1565,75 @@
         {
           "rcsb_nonpolymer_entity_container_identifiers": {
             "entry_id": "7X97",
+            "entity_id": "7",
+            "auth_asym_ids": [
+              "A",
+              "B"
+            ],
+            "asym_ids": [
+              "I",
+              "L"
+            ],
+            "nonpolymer_comp_id": "CL"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "105",
+                "auth_asym_id": "A",
+                "asym_id": "I",
+                "entry_id": "7X97",
+                "entity_id": "7"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.416,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 0.33,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "103",
+                "auth_asym_id": "B",
+                "asym_id": "L",
+                "entry_id": "7X97",
+                "entity_id": "7"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9367,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "CHLORIDE ION"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "CL",
+              "formula_weight": 35.453,
+              "name": "CHLORIDE ION",
+              "formula": "Cl"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "VEXZGXHMUGYJMC-UHFFFAOYSA-M"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "7X97",
             "entity_id": "5",
             "auth_asym_ids": [
               "A",
@@ -1581,6 +1650,24 @@
           },
           "rcsb_nonpolymer_entity_annotation": null,
           "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "101",
+                "auth_asym_id": "A",
+                "asym_id": "E",
+                "entry_id": "7X97",
+                "entity_id": "5"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.8435,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 0.33,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "102",
@@ -1619,42 +1706,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "102",
-                "auth_asym_id": "B",
-                "asym_id": "K",
-                "entry_id": "7X97",
-                "entity_id": "5"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.9965,
-                  "ranking_model_geometry": null,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "101",
-                "auth_asym_id": "A",
-                "asym_id": "E",
-                "entry_id": "7X97",
-                "entity_id": "5"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.8435,
-                  "ranking_model_geometry": null,
-                  "average_occupancy": 0.33,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "101",
                 "auth_asym_id": "B",
                 "asym_id": "J",
@@ -1664,6 +1715,24 @@
               "rcsb_nonpolymer_instance_validation_score": [
                 {
                   "ranking_model_fit": 0.985,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "102",
+                "auth_asym_id": "B",
+                "asym_id": "K",
+                "entry_id": "7X97",
+                "entity_id": "5"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9965,
                   "ranking_model_geometry": null,
                   "average_occupancy": 1.0,
                   "is_subject_of_investigation": "N",
@@ -1802,75 +1871,6 @@
             "pdbx_reference_molecule": null,
             "rcsb_chem_comp_descriptor": {
               "InChIKey": "UPUZGXILYFKSGE-UHFFFAOYSA-N"
-            }
-          }
-        },
-        {
-          "rcsb_nonpolymer_entity_container_identifiers": {
-            "entry_id": "7X97",
-            "entity_id": "7",
-            "auth_asym_ids": [
-              "A",
-              "B"
-            ],
-            "asym_ids": [
-              "I",
-              "L"
-            ],
-            "nonpolymer_comp_id": "CL"
-          },
-          "rcsb_nonpolymer_entity_annotation": null,
-          "nonpolymer_entity_instances": [
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "105",
-                "auth_asym_id": "A",
-                "asym_id": "I",
-                "entry_id": "7X97",
-                "entity_id": "7"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.416,
-                  "ranking_model_geometry": null,
-                  "average_occupancy": 0.33,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "103",
-                "auth_asym_id": "B",
-                "asym_id": "L",
-                "entry_id": "7X97",
-                "entity_id": "7"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.9367,
-                  "ranking_model_geometry": null,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            }
-          ],
-          "rcsb_nonpolymer_entity": {
-            "pdbx_description": "CHLORIDE ION"
-          },
-          "nonpolymer_comp": {
-            "chem_comp": {
-              "id": "CL",
-              "formula_weight": 35.453,
-              "name": "CHLORIDE ION",
-              "formula": "Cl"
-            },
-            "pdbx_reference_molecule": null,
-            "rcsb_chem_comp_descriptor": {
-              "InChIKey": "VEXZGXHMUGYJMC-UHFFFAOYSA-M"
             }
           }
         }

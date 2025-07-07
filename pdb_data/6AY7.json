@@ -669,6 +669,75 @@
         {
           "rcsb_nonpolymer_entity_container_identifiers": {
             "entry_id": "6AY7",
+            "entity_id": "3",
+            "auth_asym_ids": [
+              "A",
+              "B"
+            ],
+            "asym_ids": [
+              "E",
+              "H"
+            ],
+            "nonpolymer_comp_id": "TFA"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "103",
+                "auth_asym_id": "A",
+                "asym_id": "E",
+                "entry_id": "6AY7",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9138,
+                  "ranking_model_geometry": 0.6101,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "102",
+                "auth_asym_id": "B",
+                "asym_id": "H",
+                "entry_id": "6AY7",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.8752,
+                  "ranking_model_geometry": 0.5137,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "trifluoroacetic acid"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "TFA",
+              "formula_weight": 114.023,
+              "name": "trifluoroacetic acid",
+              "formula": "C2 H F3 O2"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "DTQVDTLACAAQTR-UHFFFAOYSA-N"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "6AY7",
             "entity_id": "2",
             "auth_asym_ids": [
               "A",
@@ -703,24 +772,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "101",
-                "auth_asym_id": "B",
-                "asym_id": "G",
-                "entry_id": "6AY7",
-                "entity_id": "2"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.8105,
-                  "ranking_model_geometry": 0.7871,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "102",
                 "auth_asym_id": "A",
                 "asym_id": "D",
@@ -731,6 +782,24 @@
                 {
                   "ranking_model_fit": 0.5372,
                   "ranking_model_geometry": 0.8582,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "101",
+                "auth_asym_id": "B",
+                "asym_id": "G",
+                "entry_id": "6AY7",
+                "entity_id": "2"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.8105,
+                  "ranking_model_geometry": 0.7871,
                   "average_occupancy": 1.0,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -820,75 +889,6 @@
             "pdbx_reference_molecule": null,
             "rcsb_chem_comp_descriptor": {
               "InChIKey": "VEXZGXHMUGYJMC-UHFFFAOYSA-M"
-            }
-          }
-        },
-        {
-          "rcsb_nonpolymer_entity_container_identifiers": {
-            "entry_id": "6AY7",
-            "entity_id": "3",
-            "auth_asym_ids": [
-              "A",
-              "B"
-            ],
-            "asym_ids": [
-              "E",
-              "H"
-            ],
-            "nonpolymer_comp_id": "TFA"
-          },
-          "rcsb_nonpolymer_entity_annotation": null,
-          "nonpolymer_entity_instances": [
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "102",
-                "auth_asym_id": "B",
-                "asym_id": "H",
-                "entry_id": "6AY7",
-                "entity_id": "3"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.8752,
-                  "ranking_model_geometry": 0.5137,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "103",
-                "auth_asym_id": "A",
-                "asym_id": "E",
-                "entry_id": "6AY7",
-                "entity_id": "3"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.9138,
-                  "ranking_model_geometry": 0.6101,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            }
-          ],
-          "rcsb_nonpolymer_entity": {
-            "pdbx_description": "trifluoroacetic acid"
-          },
-          "nonpolymer_comp": {
-            "chem_comp": {
-              "id": "TFA",
-              "formula_weight": 114.023,
-              "name": "trifluoroacetic acid",
-              "formula": "C2 H F3 O2"
-            },
-            "pdbx_reference_molecule": null,
-            "rcsb_chem_comp_descriptor": {
-              "InChIKey": "DTQVDTLACAAQTR-UHFFFAOYSA-N"
             }
           }
         }

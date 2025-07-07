@@ -232,62 +232,6 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "G",
-                "asym_id": "G",
-                "entry_id": "8IPZ",
-                "entity_id": "1"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8038024"
-                }
-              ],
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "G"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "G"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "G"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "G"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "H"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "G"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "H"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "G"
-                  }
-                }
-              ]
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
                 "auth_asym_id": "A",
                 "asym_id": "A",
                 "entry_id": "8IPZ",
@@ -450,6 +394,62 @@
                   },
                   "connect_target": {
                     "label_asym_id": "E"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "G",
+                "asym_id": "G",
+                "entry_id": "8IPZ",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8038024"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "G"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "G"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "G"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "G"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "H"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "G"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "H"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "G"
                   }
                 }
               ]
@@ -13806,6 +13806,24 @@
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "102",
+                "auth_asym_id": "D",
+                "asym_id": "N",
+                "entry_id": "8IPZ",
+                "entity_id": "4"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9999,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 0.33,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "Author"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "102",
                 "auth_asym_id": "F",
                 "asym_id": "R",
                 "entry_id": "8IPZ",
@@ -13834,24 +13852,6 @@
                   "ranking_model_fit": 1.0,
                   "ranking_model_geometry": null,
                   "average_occupancy": 0.31,
-                  "is_subject_of_investigation": "Y",
-                  "is_subject_of_investigation_provenance": "Author"
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "102",
-                "auth_asym_id": "D",
-                "asym_id": "N",
-                "entry_id": "8IPZ",
-                "entity_id": "4"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.9999,
-                  "ranking_model_geometry": null,
-                  "average_occupancy": 0.33,
                   "is_subject_of_investigation": "Y",
                   "is_subject_of_investigation_provenance": "Author"
                 }
@@ -14014,6 +14014,24 @@
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "104",
+                "auth_asym_id": "B",
+                "asym_id": "L",
+                "entry_id": "8IPZ",
+                "entity_id": "6"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.0089,
+                  "ranking_model_geometry": 0.7266,
+                  "average_occupancy": 0.78,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "Author"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "104",
                 "auth_asym_id": "D",
                 "asym_id": "P",
                 "entry_id": "8IPZ",
@@ -14060,24 +14078,6 @@
                   "ranking_model_fit": 0.0071,
                   "ranking_model_geometry": 0.6889,
                   "average_occupancy": 0.14,
-                  "is_subject_of_investigation": "Y",
-                  "is_subject_of_investigation_provenance": "Author"
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "104",
-                "auth_asym_id": "B",
-                "asym_id": "L",
-                "entry_id": "8IPZ",
-                "entity_id": "6"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.0089,
-                  "ranking_model_geometry": 0.7266,
-                  "average_occupancy": 0.78,
                   "is_subject_of_investigation": "Y",
                   "is_subject_of_investigation_provenance": "Author"
                 }

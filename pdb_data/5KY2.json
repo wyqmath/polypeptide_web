@@ -3070,24 +3070,6 @@
           "nonpolymer_entity_instances": [
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "402",
-                "auth_asym_id": "A",
-                "asym_id": "D",
-                "entry_id": "5KY2",
-                "entity_id": "3"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.2891,
-                  "ranking_model_geometry": 0.754,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "Y",
-                  "is_subject_of_investigation_provenance": "RCSB"
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "401",
                 "auth_asym_id": "A",
                 "asym_id": "C",
@@ -3098,6 +3080,24 @@
                 {
                   "ranking_model_fit": 0.9678,
                   "ranking_model_geometry": 0.6731,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "RCSB"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "402",
+                "auth_asym_id": "A",
+                "asym_id": "D",
+                "entry_id": "5KY2",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.2891,
+                  "ranking_model_geometry": 0.754,
                   "average_occupancy": 1.0,
                   "is_subject_of_investigation": "Y",
                   "is_subject_of_investigation_provenance": "RCSB"
@@ -3118,6 +3118,55 @@
             "pdbx_reference_molecule": null,
             "rcsb_chem_comp_descriptor": {
               "InChIKey": "OVRNDRQMDRJTHS-FMDGEEDCSA-N"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "5KY2",
+            "entity_id": "4",
+            "auth_asym_ids": [
+              "A"
+            ],
+            "asym_ids": [
+              "E"
+            ],
+            "nonpolymer_comp_id": "GDP"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "403",
+                "auth_asym_id": "A",
+                "asym_id": "E",
+                "entry_id": "5KY2",
+                "entity_id": "4"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9989,
+                  "ranking_model_geometry": 0.4768,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "RCSB"
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "GUANOSINE-5'-DIPHOSPHATE"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "GDP",
+              "formula_weight": 443.201,
+              "name": "GUANOSINE-5'-DIPHOSPHATE",
+              "formula": "C10 H15 N5 O11 P2"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "QGWNDRXFNXRZMB-UUOKFMHZSA-N"
             }
           }
         },
@@ -3254,55 +3303,6 @@
             "pdbx_reference_molecule": null,
             "rcsb_chem_comp_descriptor": {
               "InChIKey": "WQZGKKKJIJFFOK-VFUOTHLCSA-N"
-            }
-          }
-        },
-        {
-          "rcsb_nonpolymer_entity_container_identifiers": {
-            "entry_id": "5KY2",
-            "entity_id": "4",
-            "auth_asym_ids": [
-              "A"
-            ],
-            "asym_ids": [
-              "E"
-            ],
-            "nonpolymer_comp_id": "GDP"
-          },
-          "rcsb_nonpolymer_entity_annotation": null,
-          "nonpolymer_entity_instances": [
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "403",
-                "auth_asym_id": "A",
-                "asym_id": "E",
-                "entry_id": "5KY2",
-                "entity_id": "4"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.9989,
-                  "ranking_model_geometry": 0.4768,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "Y",
-                  "is_subject_of_investigation_provenance": "RCSB"
-                }
-              ]
-            }
-          ],
-          "rcsb_nonpolymer_entity": {
-            "pdbx_description": "GUANOSINE-5'-DIPHOSPHATE"
-          },
-          "nonpolymer_comp": {
-            "chem_comp": {
-              "id": "GDP",
-              "formula_weight": 443.201,
-              "name": "GUANOSINE-5'-DIPHOSPHATE",
-              "formula": "C10 H15 N5 O11 P2"
-            },
-            "pdbx_reference_molecule": null,
-            "rcsb_chem_comp_descriptor": {
-              "InChIKey": "QGWNDRXFNXRZMB-UUOKFMHZSA-N"
             }
           }
         }

@@ -641,6 +641,361 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "2POY",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "2.40.100.10"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8065049"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e2poyA1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "B",
+                "asym_id": "B",
+                "entry_id": "2POY",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "2.40.100.10"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8065049"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e2poyB1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "C",
+                "asym_id": "C",
+                "entry_id": "2POY",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "2.40.100.10"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8065049"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e2poyC1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "2POY",
+            "entity_id": "1",
+            "asym_ids": [
+              "A",
+              "B",
+              "C"
+            ],
+            "auth_asym_ids": [
+              "A",
+              "B",
+              "C"
+            ],
+            "uniprot_ids": [
+              "A3FQA7"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "A3FQA7"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "A3FQA7",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Cryptosporidium parvum (strain Iowa II)"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "PEPTIDYL-PROLYL CIS-TRANS ISOMERASE",
+            "rcsb_ec_lineage": [
+              {
+                "id": "5"
+              },
+              {
+                "id": "5.2"
+              },
+              {
+                "id": "5.2.1"
+              },
+              {
+                "id": "5.2.1.8"
+              }
+            ],
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": [
+              {
+                "ec": "5.2.1.8",
+                "provenance_source": "UniProt"
+              }
+            ]
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "amide binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "cyclosporin A binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "isomerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a protein",
+                  "depth": null
+                },
+                {
+                  "name": "peptidyl-prolyl cis-trans isomerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "cis-trans isomerase activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Cyclophilin-like domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Cyclophilin-type peptidyl-prolyl cis-trans isomerase",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Cyclophilin-type peptidyl-prolyl cis-trans isomerase domain",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "protein folding",
+                  "depth": null
+                },
+                {
+                  "name": "biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "protein metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "protein maturation",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Cyclophilin-type peptidyl-prolyl cis-trans isomerase, conserved site",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "128633_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "A3FQA7",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "155976_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "102509_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "145_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "142781_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "142433_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "MHHHHHHSSGRENLYFQGNPVVYFDISIGQTPAGRITMELFADKVPITAENFRALCTGEKGMGQSGKPLCYTGSFFHRIIPQFMIQGGDFTRGDGTGGESIYGSKFRDENFVYTHDAPFLLSMANAGPNTNGSQFFITTVPCPWLDGKHVVFGKVLEGMEVVKSIEKCGSQNGKPTKSVCITASGV",
+            "rcsb_sample_sequence_length": 186,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "CRYPTOSPORIDIUM PARVUM IOWA II",
+              "ncbi_scientific_name": "Cryptosporidium parvum Iowa II",
+              "rcsb_gene_name": [
+                {
+                  "value": "CGD2_4120",
+                  "provenance_source": "Primary Data"
+                }
+              ]
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Escherichia coli"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
                 "auth_asym_id": "T",
                 "asym_id": "D",
                 "entry_id": "2POY",
@@ -1464,361 +1819,6 @@
               }
             }
           ]
-        },
-        {
-          "polymer_entity_instances": [
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "A",
-                "asym_id": "A",
-                "entry_id": "2POY",
-                "entity_id": "1"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "CATH",
-                  "annotation_id": "2.40.100.10"
-                },
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8065049"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e2poyA1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": null
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "B",
-                "asym_id": "B",
-                "entry_id": "2POY",
-                "entity_id": "1"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "CATH",
-                  "annotation_id": "2.40.100.10"
-                },
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8065049"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e2poyB1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": null
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "C",
-                "asym_id": "C",
-                "entry_id": "2POY",
-                "entity_id": "1"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "CATH",
-                  "annotation_id": "2.40.100.10"
-                },
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8065049"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e2poyC1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": null
-            }
-          ],
-          "rcsb_polymer_entity_container_identifiers": {
-            "entry_id": "2POY",
-            "entity_id": "1",
-            "asym_ids": [
-              "A",
-              "B",
-              "C"
-            ],
-            "auth_asym_ids": [
-              "A",
-              "B",
-              "C"
-            ],
-            "uniprot_ids": [
-              "A3FQA7"
-            ],
-            "reference_sequence_identifiers": [
-              {
-                "database_accession": "A3FQA7"
-              }
-            ]
-          },
-          "uniprots": [
-            {
-              "rcsb_id": "A3FQA7",
-              "rcsb_uniprot_protein": {
-                "source_organism": {
-                  "scientific_name": "Cryptosporidium parvum (strain Iowa II)"
-                }
-              },
-              "rcsb_uniprot_external_reference": null
-            }
-          ],
-          "rcsb_polymer_entity": {
-            "pdbx_description": "PEPTIDYL-PROLYL CIS-TRANS ISOMERASE",
-            "rcsb_ec_lineage": [
-              {
-                "id": "5"
-              },
-              {
-                "id": "5.2"
-              },
-              {
-                "id": "5.2.1"
-              },
-              {
-                "id": "5.2.1.8"
-              }
-            ],
-            "pdbx_ec": null,
-            "rcsb_enzyme_class_combined": [
-              {
-                "ec": "5.2.1.8",
-                "provenance_source": "UniProt"
-              }
-            ]
-          },
-          "rcsb_polymer_entity_annotation": [
-            {
-              "type": "Pfam",
-              "annotation_lineage": null
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "amide binding",
-                  "depth": null
-                },
-                {
-                  "name": "binding",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                },
-                {
-                  "name": "cyclosporin A binding",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "isomerase activity",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity, acting on a protein",
-                  "depth": null
-                },
-                {
-                  "name": "peptidyl-prolyl cis-trans isomerase activity",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                },
-                {
-                  "name": "cis-trans isomerase activity",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Cyclophilin-like domain superfamily",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Cyclophilin-type peptidyl-prolyl cis-trans isomerase",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Cyclophilin-type peptidyl-prolyl cis-trans isomerase domain",
-                  "depth": 1
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cytoplasm",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "protein folding",
-                  "depth": null
-                },
-                {
-                  "name": "biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "biological_process",
-                  "depth": null
-                },
-                {
-                  "name": "metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "cellular process",
-                  "depth": null
-                },
-                {
-                  "name": "primary metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "protein metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "macromolecule metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "gene expression",
-                  "depth": null
-                },
-                {
-                  "name": "macromolecule biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "protein maturation",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Cyclophilin-type peptidyl-prolyl cis-trans isomerase, conserved site",
-                  "depth": null
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_group_membership": [
-            {
-              "group_id": "128633_95",
-              "similarity_cutoff": 95.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "A3FQA7",
-              "similarity_cutoff": null,
-              "aggregation_method": "matching_uniprot_accession"
-            },
-            {
-              "group_id": "155976_70",
-              "similarity_cutoff": 70.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "102509_100",
-              "similarity_cutoff": 100.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "145_30",
-              "similarity_cutoff": 30.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "142781_90",
-              "similarity_cutoff": 90.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "142433_50",
-              "similarity_cutoff": 50.0,
-              "aggregation_method": "sequence_identity"
-            }
-          ],
-          "entity_poly": {
-            "type": "polypeptide(L)",
-            "rcsb_entity_polymer_type": "Protein",
-            "pdbx_seq_one_letter_code_can": "MHHHHHHSSGRENLYFQGNPVVYFDISIGQTPAGRITMELFADKVPITAENFRALCTGEKGMGQSGKPLCYTGSFFHRIIPQFMIQGGDFTRGDGTGGESIYGSKFRDENFVYTHDAPFLLSMANAGPNTNGSQFFITTVPCPWLDGKHVVFGKVLEGMEVVKSIEKCGSQNGKPTKSVCITASGV",
-            "rcsb_sample_sequence_length": 186,
-            "rcsb_mutation_count": 0
-          },
-          "rcsb_entity_source_organism": [
-            {
-              "scientific_name": "CRYPTOSPORIDIUM PARVUM IOWA II",
-              "ncbi_scientific_name": "Cryptosporidium parvum Iowa II",
-              "rcsb_gene_name": [
-                {
-                  "value": "CGD2_4120",
-                  "provenance_source": "Primary Data"
-                }
-              ]
-            }
-          ],
-          "rcsb_entity_host_organism": [
-            {
-              "ncbi_scientific_name": "Escherichia coli"
-            }
-          ],
-          "prd": null,
-          "chem_comp_nstd_monomers": null
         }
       ],
       "nonpolymer_entities": null,

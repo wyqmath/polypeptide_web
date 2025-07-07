@@ -1202,6 +1202,1126 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "N",
+                "asym_id": "J",
+                "entry_id": "4QIW",
+                "entity_id": "10"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "1.10.10.60"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8063359"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8063360"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e4qiwN1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "J"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "J"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "J"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "J"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "BA"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "J"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "BA"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "J"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "V",
+                "asym_id": "U",
+                "entry_id": "4QIW",
+                "entity_id": "10"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "1.10.10.60"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8063360"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e4qiwV1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "U"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "U"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "U"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "U"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "U"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "U"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "U"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "U"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "IA"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "U"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "IA"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "U"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "IA"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "U"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "4QIW",
+            "entity_id": "10",
+            "asym_ids": [
+              "J",
+              "U"
+            ],
+            "auth_asym_ids": [
+              "N",
+              "V"
+            ],
+            "uniprot_ids": [
+              "Q5JJC9"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "Q5JJC9"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "Q5JJC9",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1)"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "DNA-directed RNA polymerase subunit N",
+            "rcsb_ec_lineage": [
+              {
+                "id": "2"
+              },
+              {
+                "id": "2.7"
+              },
+              {
+                "id": "2.7.7"
+              },
+              {
+                "id": "2.7.7.6"
+              }
+            ],
+            "pdbx_ec": "2.7.7.6",
+            "rcsb_enzyme_class_combined": [
+              {
+                "ec": "2.7.7.6",
+                "provenance_source": "PDB Primary Data"
+              }
+            ]
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA polymerase subunit RPB10",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "DNA binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA polymerases, subunit N, zinc binding site",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "DNA-directed RNA polymerase subunit RPABC5/Rpb10",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "chromosome",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cation binding",
+                  "depth": null
+                },
+                {
+                  "name": "transition metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "zinc ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "RNA biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "DNA-templated transcription",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "DNA-directed RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "5'-3' RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on RNA",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a nucleic acid",
+                  "depth": null
+                },
+                {
+                  "name": "RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "nucleotidyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity, transferring phosphorus-containing groups",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "transferase complex, transferring phosphorus-containing groups",
+                  "depth": null
+                },
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic complex",
+                  "depth": null
+                },
+                {
+                  "name": "RNA polymerase complex",
+                  "depth": null
+                },
+                {
+                  "name": "DNA-directed RNA polymerase complex",
+                  "depth": null
+                },
+                {
+                  "name": "transferase complex",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular protein-containing complex",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "6355_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "147_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "14982_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "2378_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "12309_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "Q5JJC9",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "317_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "MIVPVRCFTCGKVLADKYYEFKKRVEAGEDPGKVLDDLGVERYCCRRTLLSHVELIDQVMVYKVY",
+            "rcsb_sample_sequence_length": 65,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Thermococcus kodakarensis",
+              "ncbi_scientific_name": "Thermococcus kodakarensis KOD1",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "P",
+                "asym_id": "K",
+                "entry_id": "4QIW",
+                "entity_id": "11"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "2.20.28.30"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e4qiwP1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "CA"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "K"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "CA"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "K"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "CA"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "K"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "W",
+                "asym_id": "V",
+                "entry_id": "4QIW",
+                "entity_id": "11"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "2.20.28.30"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e4qiwW1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "V"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "V"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "V"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "V"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "V"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "V"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "V"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "V"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "JA"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "V"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "JA"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "V"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "JA"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "V"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "4QIW",
+            "entity_id": "11",
+            "asym_ids": [
+              "K",
+              "V"
+            ],
+            "auth_asym_ids": [
+              "P",
+              "W"
+            ],
+            "uniprot_ids": [
+              "Q5JDM8"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "Q5JDM8"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "Q5JDM8",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1)"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "DNA-directed RNA polymerase subunit P",
+            "rcsb_ec_lineage": [
+              {
+                "id": "2"
+              },
+              {
+                "id": "2.7"
+              },
+              {
+                "id": "2.7.7"
+              },
+              {
+                "id": "2.7.7.6"
+              }
+            ],
+            "pdbx_ec": "2.7.7.6",
+            "rcsb_enzyme_class_combined": [
+              {
+                "ec": "2.7.7.6",
+                "provenance_source": "PDB Primary Data"
+              }
+            ]
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "DNA binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA polymerase archaeal subunit P/eukaryotic subunit RPABC4",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "DNA-directed RNA polymerase subunit Rpo12",
+                  "depth": 2
+                },
+                {
+                  "name": "RNA polymerase archaeal subunit P/eukaryotic subunit RPABC4",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "RNA polymerase subunit RPABC4/transcription elongation factor Spt4",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "intracellular organelle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "organelle",
+                  "depth": null
+                },
+                {
+                  "name": "membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular membraneless organelle",
+                  "depth": null
+                },
+                {
+                  "name": "chromosome",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cytoplasm",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cation binding",
+                  "depth": null
+                },
+                {
+                  "name": "transition metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "zinc ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "metal ion binding",
+                  "depth": null
+                },
+                {
+                  "name": "small molecule binding",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "RNA metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "RNA biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "nucleobase-containing compound metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "DNA-templated transcription",
+                  "depth": null
+                },
+                {
+                  "name": "nucleic acid biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "DNA-directed RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "5'-3' RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on RNA",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity, acting on a nucleic acid",
+                  "depth": null
+                },
+                {
+                  "name": "RNA polymerase activity",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "nucleotidyltransferase activity",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "transferase activity, transferring phosphorus-containing groups",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "transferase complex, transferring phosphorus-containing groups",
+                  "depth": null
+                },
+                {
+                  "name": "protein-containing complex",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "catalytic complex",
+                  "depth": null
+                },
+                {
+                  "name": "RNA polymerase complex",
+                  "depth": null
+                },
+                {
+                  "name": "DNA-directed RNA polymerase complex",
+                  "depth": null
+                },
+                {
+                  "name": "transferase complex",
+                  "depth": null
+                },
+                {
+                  "name": "intracellular protein-containing complex",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "9264_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "19023_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "3332_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "17547_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "Q5JDM8",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "8847_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "12310_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "MATAVYRCAKCGKEVELDLATAREVRCPYCGSKILYKPRPRVARRVKAI",
+            "rcsb_sample_sequence_length": 49,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Thermococcus kodakarensis",
+              "ncbi_scientific_name": "Thermococcus kodakarensis KOD1",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
                 "auth_asym_id": "B",
                 "asym_id": "B",
                 "entry_id": "4QIW",
@@ -3210,6 +4330,33 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "R",
+                "asym_id": "Q",
+                "entry_id": "4QIW",
+                "entity_id": "6"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "6.10.140.10"
+                },
+                {
+                  "type": "CATH",
+                  "annotation_id": "1.10.150.80"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8086299"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e4qiwR1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
                 "auth_asym_id": "F",
                 "asym_id": "F",
                 "entry_id": "4QIW",
@@ -3235,33 +4382,6 @@
                 {
                   "type": "ECOD",
                   "annotation_id": "e4qiwF1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": null
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "R",
-                "asym_id": "Q",
-                "entry_id": "4QIW",
-                "entity_id": "6"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "CATH",
-                  "annotation_id": "6.10.140.10"
-                },
-                {
-                  "type": "CATH",
-                  "annotation_id": "1.10.150.80"
-                },
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8086299"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e4qiwR1"
                 }
               ],
               "rcsb_polymer_struct_conn": null
@@ -4863,1236 +5983,9 @@
           "rcsb_entity_host_organism": null,
           "prd": null,
           "chem_comp_nstd_monomers": null
-        },
-        {
-          "polymer_entity_instances": [
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "N",
-                "asym_id": "J",
-                "entry_id": "4QIW",
-                "entity_id": "10"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "CATH",
-                  "annotation_id": "1.10.10.60"
-                },
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8063359"
-                },
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8063360"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e4qiwN1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "J"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "J"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "J"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "J"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "BA"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "J"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "BA"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "J"
-                  }
-                }
-              ]
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "V",
-                "asym_id": "U",
-                "entry_id": "4QIW",
-                "entity_id": "10"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "CATH",
-                  "annotation_id": "1.10.10.60"
-                },
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8063360"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e4qiwV1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "U"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "U"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "U"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "U"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "U"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "U"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "U"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "U"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "IA"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "U"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "IA"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "U"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "IA"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "U"
-                  }
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_container_identifiers": {
-            "entry_id": "4QIW",
-            "entity_id": "10",
-            "asym_ids": [
-              "J",
-              "U"
-            ],
-            "auth_asym_ids": [
-              "N",
-              "V"
-            ],
-            "uniprot_ids": [
-              "Q5JJC9"
-            ],
-            "reference_sequence_identifiers": [
-              {
-                "database_accession": "Q5JJC9"
-              }
-            ]
-          },
-          "uniprots": [
-            {
-              "rcsb_id": "Q5JJC9",
-              "rcsb_uniprot_protein": {
-                "source_organism": {
-                  "scientific_name": "Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1)"
-                }
-              },
-              "rcsb_uniprot_external_reference": null
-            }
-          ],
-          "rcsb_polymer_entity": {
-            "pdbx_description": "DNA-directed RNA polymerase subunit N",
-            "rcsb_ec_lineage": [
-              {
-                "id": "2"
-              },
-              {
-                "id": "2.7"
-              },
-              {
-                "id": "2.7.7"
-              },
-              {
-                "id": "2.7.7.6"
-              }
-            ],
-            "pdbx_ec": "2.7.7.6",
-            "rcsb_enzyme_class_combined": [
-              {
-                "ec": "2.7.7.6",
-                "provenance_source": "PDB Primary Data"
-              }
-            ]
-          },
-          "rcsb_polymer_entity_annotation": [
-            {
-              "type": "Pfam",
-              "annotation_lineage": null
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "RNA polymerase subunit RPB10",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "DNA binding",
-                  "depth": null
-                },
-                {
-                  "name": "binding",
-                  "depth": null
-                },
-                {
-                  "name": "nucleic acid binding",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "RNA polymerases, subunit N, zinc binding site",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "DNA-directed RNA polymerase subunit RPABC5/Rpb10",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "intracellular organelle",
-                  "depth": null
-                },
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "organelle",
-                  "depth": null
-                },
-                {
-                  "name": "membraneless organelle",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular membraneless organelle",
-                  "depth": null
-                },
-                {
-                  "name": "chromosome",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cytoplasm",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "cation binding",
-                  "depth": null
-                },
-                {
-                  "name": "transition metal ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "zinc ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "binding",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                },
-                {
-                  "name": "metal ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "small molecule binding",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "RNA metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "primary metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "nucleobase-containing compound biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "gene expression",
-                  "depth": null
-                },
-                {
-                  "name": "macromolecule biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "nucleic acid metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "RNA biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "nucleobase-containing compound metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "DNA-templated transcription",
-                  "depth": null
-                },
-                {
-                  "name": "nucleic acid biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "biological_process",
-                  "depth": null
-                },
-                {
-                  "name": "metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "cellular process",
-                  "depth": null
-                },
-                {
-                  "name": "macromolecule metabolic process",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "DNA-directed RNA polymerase activity",
-                  "depth": null
-                },
-                {
-                  "name": "5'-3' RNA polymerase activity",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity, acting on RNA",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity, acting on a nucleic acid",
-                  "depth": null
-                },
-                {
-                  "name": "RNA polymerase activity",
-                  "depth": null
-                },
-                {
-                  "name": "transferase activity",
-                  "depth": null
-                },
-                {
-                  "name": "nucleotidyltransferase activity",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                },
-                {
-                  "name": "transferase activity, transferring phosphorus-containing groups",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "transferase complex, transferring phosphorus-containing groups",
-                  "depth": null
-                },
-                {
-                  "name": "protein-containing complex",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic complex",
-                  "depth": null
-                },
-                {
-                  "name": "RNA polymerase complex",
-                  "depth": null
-                },
-                {
-                  "name": "DNA-directed RNA polymerase complex",
-                  "depth": null
-                },
-                {
-                  "name": "transferase complex",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular protein-containing complex",
-                  "depth": null
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_group_membership": [
-            {
-              "group_id": "6355_90",
-              "similarity_cutoff": 90.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "147_50",
-              "similarity_cutoff": 50.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "14982_95",
-              "similarity_cutoff": 95.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "2378_70",
-              "similarity_cutoff": 70.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "12309_100",
-              "similarity_cutoff": 100.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "Q5JJC9",
-              "similarity_cutoff": null,
-              "aggregation_method": "matching_uniprot_accession"
-            },
-            {
-              "group_id": "317_30",
-              "similarity_cutoff": 30.0,
-              "aggregation_method": "sequence_identity"
-            }
-          ],
-          "entity_poly": {
-            "type": "polypeptide(L)",
-            "rcsb_entity_polymer_type": "Protein",
-            "pdbx_seq_one_letter_code_can": "MIVPVRCFTCGKVLADKYYEFKKRVEAGEDPGKVLDDLGVERYCCRRTLLSHVELIDQVMVYKVY",
-            "rcsb_sample_sequence_length": 65,
-            "rcsb_mutation_count": 0
-          },
-          "rcsb_entity_source_organism": [
-            {
-              "scientific_name": "Thermococcus kodakarensis",
-              "ncbi_scientific_name": "Thermococcus kodakarensis KOD1",
-              "rcsb_gene_name": null
-            }
-          ],
-          "rcsb_entity_host_organism": null,
-          "prd": null,
-          "chem_comp_nstd_monomers": null
-        },
-        {
-          "polymer_entity_instances": [
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "P",
-                "asym_id": "K",
-                "entry_id": "4QIW",
-                "entity_id": "11"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "CATH",
-                  "annotation_id": "2.20.28.30"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e4qiwP1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "CA"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "K"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "CA"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "K"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "CA"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "K"
-                  }
-                }
-              ]
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "W",
-                "asym_id": "V",
-                "entry_id": "4QIW",
-                "entity_id": "11"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "CATH",
-                  "annotation_id": "2.20.28.30"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e4qiwW1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "V"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "V"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "V"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "V"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "V"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "V"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "V"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "V"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "JA"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "V"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "JA"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "V"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "JA"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "V"
-                  }
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_container_identifiers": {
-            "entry_id": "4QIW",
-            "entity_id": "11",
-            "asym_ids": [
-              "K",
-              "V"
-            ],
-            "auth_asym_ids": [
-              "P",
-              "W"
-            ],
-            "uniprot_ids": [
-              "Q5JDM8"
-            ],
-            "reference_sequence_identifiers": [
-              {
-                "database_accession": "Q5JDM8"
-              }
-            ]
-          },
-          "uniprots": [
-            {
-              "rcsb_id": "Q5JDM8",
-              "rcsb_uniprot_protein": {
-                "source_organism": {
-                  "scientific_name": "Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1)"
-                }
-              },
-              "rcsb_uniprot_external_reference": null
-            }
-          ],
-          "rcsb_polymer_entity": {
-            "pdbx_description": "DNA-directed RNA polymerase subunit P",
-            "rcsb_ec_lineage": [
-              {
-                "id": "2"
-              },
-              {
-                "id": "2.7"
-              },
-              {
-                "id": "2.7.7"
-              },
-              {
-                "id": "2.7.7.6"
-              }
-            ],
-            "pdbx_ec": "2.7.7.6",
-            "rcsb_enzyme_class_combined": [
-              {
-                "ec": "2.7.7.6",
-                "provenance_source": "PDB Primary Data"
-              }
-            ]
-          },
-          "rcsb_polymer_entity_annotation": [
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "DNA binding",
-                  "depth": null
-                },
-                {
-                  "name": "binding",
-                  "depth": null
-                },
-                {
-                  "name": "nucleic acid binding",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "RNA polymerase archaeal subunit P/eukaryotic subunit RPABC4",
-                  "depth": 1
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "DNA-directed RNA polymerase subunit Rpo12",
-                  "depth": 2
-                },
-                {
-                  "name": "RNA polymerase archaeal subunit P/eukaryotic subunit RPABC4",
-                  "depth": 1
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "RNA polymerase subunit RPABC4/transcription elongation factor Spt4",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "intracellular organelle",
-                  "depth": null
-                },
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "organelle",
-                  "depth": null
-                },
-                {
-                  "name": "membraneless organelle",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular membraneless organelle",
-                  "depth": null
-                },
-                {
-                  "name": "chromosome",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cytoplasm",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "cation binding",
-                  "depth": null
-                },
-                {
-                  "name": "transition metal ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "zinc ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "binding",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                },
-                {
-                  "name": "metal ion binding",
-                  "depth": null
-                },
-                {
-                  "name": "small molecule binding",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "RNA metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "primary metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "nucleobase-containing compound biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "gene expression",
-                  "depth": null
-                },
-                {
-                  "name": "macromolecule biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "nucleic acid metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "RNA biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "nucleobase-containing compound metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "DNA-templated transcription",
-                  "depth": null
-                },
-                {
-                  "name": "nucleic acid biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "biological_process",
-                  "depth": null
-                },
-                {
-                  "name": "metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "cellular process",
-                  "depth": null
-                },
-                {
-                  "name": "macromolecule metabolic process",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "DNA-directed RNA polymerase activity",
-                  "depth": null
-                },
-                {
-                  "name": "5'-3' RNA polymerase activity",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity, acting on RNA",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity, acting on a nucleic acid",
-                  "depth": null
-                },
-                {
-                  "name": "RNA polymerase activity",
-                  "depth": null
-                },
-                {
-                  "name": "transferase activity",
-                  "depth": null
-                },
-                {
-                  "name": "nucleotidyltransferase activity",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic activity",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                },
-                {
-                  "name": "transferase activity, transferring phosphorus-containing groups",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "transferase complex, transferring phosphorus-containing groups",
-                  "depth": null
-                },
-                {
-                  "name": "protein-containing complex",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "catalytic complex",
-                  "depth": null
-                },
-                {
-                  "name": "RNA polymerase complex",
-                  "depth": null
-                },
-                {
-                  "name": "DNA-directed RNA polymerase complex",
-                  "depth": null
-                },
-                {
-                  "name": "transferase complex",
-                  "depth": null
-                },
-                {
-                  "name": "intracellular protein-containing complex",
-                  "depth": null
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_group_membership": [
-            {
-              "group_id": "9264_50",
-              "similarity_cutoff": 50.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "19023_90",
-              "similarity_cutoff": 90.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "3332_30",
-              "similarity_cutoff": 30.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "17547_95",
-              "similarity_cutoff": 95.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "Q5JDM8",
-              "similarity_cutoff": null,
-              "aggregation_method": "matching_uniprot_accession"
-            },
-            {
-              "group_id": "8847_70",
-              "similarity_cutoff": 70.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "12310_100",
-              "similarity_cutoff": 100.0,
-              "aggregation_method": "sequence_identity"
-            }
-          ],
-          "entity_poly": {
-            "type": "polypeptide(L)",
-            "rcsb_entity_polymer_type": "Protein",
-            "pdbx_seq_one_letter_code_can": "MATAVYRCAKCGKEVELDLATAREVRCPYCGSKILYKPRPRVARRVKAI",
-            "rcsb_sample_sequence_length": 49,
-            "rcsb_mutation_count": 0
-          },
-          "rcsb_entity_source_organism": [
-            {
-              "scientific_name": "Thermococcus kodakarensis",
-              "ncbi_scientific_name": "Thermococcus kodakarensis KOD1",
-              "rcsb_gene_name": null
-            }
-          ],
-          "rcsb_entity_host_organism": null,
-          "prd": null,
-          "chem_comp_nstd_monomers": null
         }
       ],
       "nonpolymer_entities": [
-        {
-          "rcsb_nonpolymer_entity_container_identifiers": {
-            "entry_id": "4QIW",
-            "entity_id": "12",
-            "auth_asym_ids": [
-              "A",
-              "I"
-            ],
-            "asym_ids": [
-              "DA",
-              "GA",
-              "W",
-              "Z"
-            ],
-            "nonpolymer_comp_id": "MG"
-          },
-          "rcsb_nonpolymer_entity_annotation": null,
-          "nonpolymer_entity_instances": [
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "1101",
-                "auth_asym_id": "I",
-                "asym_id": "DA",
-                "entry_id": "4QIW",
-                "entity_id": "12"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.5115,
-                  "ranking_model_geometry": null,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "1104",
-                "auth_asym_id": "I",
-                "asym_id": "GA",
-                "entry_id": "4QIW",
-                "entity_id": "12"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.5482,
-                  "ranking_model_geometry": null,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "1001",
-                "auth_asym_id": "A",
-                "asym_id": "W",
-                "entry_id": "4QIW",
-                "entity_id": "12"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.9039,
-                  "ranking_model_geometry": null,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "1004",
-                "auth_asym_id": "A",
-                "asym_id": "Z",
-                "entry_id": "4QIW",
-                "entity_id": "12"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.8681,
-                  "ranking_model_geometry": null,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            }
-          ],
-          "rcsb_nonpolymer_entity": {
-            "pdbx_description": "MAGNESIUM ION"
-          },
-          "nonpolymer_comp": {
-            "chem_comp": {
-              "id": "MG",
-              "formula_weight": 24.305,
-              "name": "MAGNESIUM ION",
-              "formula": "Mg"
-            },
-            "pdbx_reference_molecule": null,
-            "rcsb_chem_comp_descriptor": {
-              "InChIKey": "JLVVSXFLKOJNIY-UHFFFAOYSA-N"
-            }
-          }
-        },
         {
           "rcsb_nonpolymer_entity_container_identifiers": {
             "entry_id": "4QIW",
@@ -6123,6 +6016,60 @@
           },
           "rcsb_nonpolymer_entity_annotation": null,
           "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "1102",
+                "auth_asym_id": "I",
+                "asym_id": "EA",
+                "entry_id": "4QIW",
+                "entity_id": "13"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9668,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "1301",
+                "auth_asym_id": "J",
+                "asym_id": "HA",
+                "entry_id": "4QIW",
+                "entity_id": "13"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.7804,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "1701",
+                "auth_asym_id": "W",
+                "asym_id": "JA",
+                "entry_id": "4QIW",
+                "entity_id": "13"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9999,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "1201",
@@ -6179,24 +6126,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "1102",
-                "auth_asym_id": "I",
-                "asym_id": "EA",
-                "entry_id": "4QIW",
-                "entity_id": "13"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.9668,
-                  "ranking_model_geometry": null,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "1103",
                 "auth_asym_id": "I",
                 "asym_id": "FA",
@@ -6215,24 +6144,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "1301",
-                "auth_asym_id": "J",
-                "asym_id": "HA",
-                "entry_id": "4QIW",
-                "entity_id": "13"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.7804,
-                  "ranking_model_geometry": null,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "1601",
                 "auth_asym_id": "V",
                 "asym_id": "IA",
@@ -6242,24 +6153,6 @@
               "rcsb_nonpolymer_instance_validation_score": [
                 {
                   "ranking_model_fit": 0.8983,
-                  "ranking_model_geometry": null,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "1701",
-                "auth_asym_id": "W",
-                "asym_id": "JA",
-                "entry_id": "4QIW",
-                "entity_id": "13"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.9999,
                   "ranking_model_geometry": null,
                   "average_occupancy": 1.0,
                   "is_subject_of_investigation": "N",
@@ -6317,6 +6210,113 @@
             "pdbx_reference_molecule": null,
             "rcsb_chem_comp_descriptor": {
               "InChIKey": "PTFCDOFLOPIGGS-UHFFFAOYSA-N"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "4QIW",
+            "entity_id": "12",
+            "auth_asym_ids": [
+              "A",
+              "I"
+            ],
+            "asym_ids": [
+              "DA",
+              "GA",
+              "W",
+              "Z"
+            ],
+            "nonpolymer_comp_id": "MG"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "1001",
+                "auth_asym_id": "A",
+                "asym_id": "W",
+                "entry_id": "4QIW",
+                "entity_id": "12"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9039,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "1101",
+                "auth_asym_id": "I",
+                "asym_id": "DA",
+                "entry_id": "4QIW",
+                "entity_id": "12"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.5115,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "1104",
+                "auth_asym_id": "I",
+                "asym_id": "GA",
+                "entry_id": "4QIW",
+                "entity_id": "12"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.5482,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "1004",
+                "auth_asym_id": "A",
+                "asym_id": "Z",
+                "entry_id": "4QIW",
+                "entity_id": "12"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.8681,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "MAGNESIUM ION"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "MG",
+              "formula_weight": 24.305,
+              "name": "MAGNESIUM ION",
+              "formula": "Mg"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "JLVVSXFLKOJNIY-UHFFFAOYSA-N"
             }
           }
         }

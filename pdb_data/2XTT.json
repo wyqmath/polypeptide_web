@@ -1940,274 +1940,6 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "A",
-                "asym_id": "A",
-                "entry_id": "2XTT",
-                "entity_id": "1"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8038270"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e2xttA1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "A"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "A"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "A"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "A"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "A"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "A"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "A"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "A"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "A"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "A"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "A"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "A"
-                  }
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_container_identifiers": {
-            "entry_id": "2XTT",
-            "entity_id": "1",
-            "asym_ids": [
-              "A"
-            ],
-            "auth_asym_ids": [
-              "A"
-            ],
-            "uniprot_ids": [
-              "O46162"
-            ],
-            "reference_sequence_identifiers": [
-              {
-                "database_accession": "O46162"
-              }
-            ]
-          },
-          "uniprots": [
-            {
-              "rcsb_id": "O46162",
-              "rcsb_uniprot_protein": {
-                "source_organism": {
-                  "scientific_name": "Schistocerca gregaria"
-                }
-              },
-              "rcsb_uniprot_external_reference": null
-            }
-          ],
-          "rcsb_polymer_entity": {
-            "pdbx_description": "PROTEASE INHIBITOR SGPI-1",
-            "rcsb_ec_lineage": null,
-            "pdbx_ec": null,
-            "rcsb_enzyme_class_combined": null
-          },
-          "rcsb_polymer_entity_annotation": [
-            {
-              "type": "Pfam",
-              "annotation_lineage": null
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "enzyme regulator activity",
-                  "depth": null
-                },
-                {
-                  "name": "molecular function inhibitor activity",
-                  "depth": null
-                },
-                {
-                  "name": "peptidase regulator activity",
-                  "depth": null
-                },
-                {
-                  "name": "serine-type endopeptidase inhibitor activity",
-                  "depth": null
-                },
-                {
-                  "name": "molecular function regulator activity",
-                  "depth": null
-                },
-                {
-                  "name": "enzyme inhibitor activity",
-                  "depth": null
-                },
-                {
-                  "name": "peptidase inhibitor activity",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                },
-                {
-                  "name": "endopeptidase regulator activity",
-                  "depth": null
-                },
-                {
-                  "name": "endopeptidase inhibitor activity",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Pacifastin domain",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "extracellular region",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Pacifastin domain superfamily",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Protease inhibitor with pacifastin repeats",
-                  "depth": null
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_group_membership": [
-            {
-              "group_id": "563596_95",
-              "similarity_cutoff": 95.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "640796_100",
-              "similarity_cutoff": 100.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "9460_50",
-              "similarity_cutoff": 50.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "O46162",
-              "similarity_cutoff": null,
-              "aggregation_method": "matching_uniprot_accession"
-            },
-            {
-              "group_id": "31839_70",
-              "similarity_cutoff": 70.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "8323_30",
-              "similarity_cutoff": 30.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "533722_90",
-              "similarity_cutoff": 90.0,
-              "aggregation_method": "sequence_identity"
-            }
-          ],
-          "entity_poly": {
-            "type": "polypeptide(L)",
-            "rcsb_entity_polymer_type": "Protein",
-            "pdbx_seq_one_letter_code_can": "EQECEPGQTKKQDCNTCRCGSDGVWACTRMGCPPHA",
-            "rcsb_sample_sequence_length": 36,
-            "rcsb_mutation_count": 0
-          },
-          "rcsb_entity_source_organism": [
-            {
-              "scientific_name": "SCHISTOCERCA GREGARIA",
-              "ncbi_scientific_name": "Schistocerca gregaria",
-              "rcsb_gene_name": null
-            }
-          ],
-          "rcsb_entity_host_organism": null,
-          "prd": null,
-          "chem_comp_nstd_monomers": null
-        },
-        {
-          "polymer_entity_instances": [
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
                 "auth_asym_id": "B",
                 "asym_id": "B",
                 "entry_id": "2XTT",
@@ -2777,6 +2509,274 @@
             {
               "scientific_name": "BOS TAURUS",
               "ncbi_scientific_name": "Bos taurus",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "2XTT",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8038270"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e2xttA1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "A"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "2XTT",
+            "entity_id": "1",
+            "asym_ids": [
+              "A"
+            ],
+            "auth_asym_ids": [
+              "A"
+            ],
+            "uniprot_ids": [
+              "O46162"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "O46162"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "O46162",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Schistocerca gregaria"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "PROTEASE INHIBITOR SGPI-1",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "enzyme regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular function inhibitor activity",
+                  "depth": null
+                },
+                {
+                  "name": "peptidase regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "serine-type endopeptidase inhibitor activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular function regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "enzyme inhibitor activity",
+                  "depth": null
+                },
+                {
+                  "name": "peptidase inhibitor activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "endopeptidase regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "endopeptidase inhibitor activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Pacifastin domain",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Pacifastin domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Protease inhibitor with pacifastin repeats",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "563596_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "640796_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "9460_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "O46162",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "31839_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "8323_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "533722_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "EQECEPGQTKKQDCNTCRCGSDGVWACTRMGCPPHA",
+            "rcsb_sample_sequence_length": 36,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "SCHISTOCERCA GREGARIA",
+              "ncbi_scientific_name": "Schistocerca gregaria",
               "rcsb_gene_name": null
             }
           ],

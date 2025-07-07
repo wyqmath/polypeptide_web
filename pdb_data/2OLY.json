@@ -7184,6 +7184,52 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "B",
+                "asym_id": "B",
+                "entry_id": "2OLY",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP",
+                  "annotation_id": "d2olyb1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "metal coordination",
+                  "connect_partner": {
+                    "label_asym_id": "O"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
                 "auth_asym_id": "D",
                 "asym_id": "D",
                 "entry_id": "2OLY",
@@ -7408,52 +7454,6 @@
                   },
                   "connect_target": {
                     "label_asym_id": "L"
-                  }
-                }
-              ]
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "B",
-                "asym_id": "B",
-                "entry_id": "2OLY",
-                "entity_id": "2"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "SCOP",
-                  "annotation_id": "d2olyb1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "A"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "B"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "A"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "B"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "metal coordination",
-                  "connect_partner": {
-                    "label_asym_id": "O"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "B"
                   }
                 }
               ]
@@ -14261,24 +14261,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "601",
-                "auth_asym_id": "F",
-                "asym_id": "W",
-                "entry_id": "2OLY",
-                "entity_id": "4"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.1736,
-                  "ranking_model_geometry": 0.7561,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "602",
                 "auth_asym_id": "G",
                 "asym_id": "Z",
@@ -14289,6 +14271,24 @@
                 {
                   "ranking_model_fit": 0.3729,
                   "ranking_model_geometry": 0.8676,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "601",
+                "auth_asym_id": "F",
+                "asym_id": "W",
+                "entry_id": "2OLY",
+                "entity_id": "4"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.1736,
+                  "ranking_model_geometry": 0.7561,
                   "average_occupancy": 1.0,
                   "is_subject_of_investigation": "N",
                   "is_subject_of_investigation_provenance": null
@@ -14422,24 +14422,6 @@
             },
             {
               "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "405",
-                "auth_asym_id": "H",
-                "asym_id": "DA",
-                "entry_id": "2OLY",
-                "entity_id": "6"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.9661,
-                  "ranking_model_geometry": null,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
                 "auth_seq_id": "403",
                 "auth_asym_id": "J",
                 "asym_id": "GA",
@@ -14485,6 +14467,24 @@
               "rcsb_nonpolymer_instance_validation_score": [
                 {
                   "ranking_model_fit": 0.9287,
+                  "ranking_model_geometry": null,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "405",
+                "auth_asym_id": "H",
+                "asym_id": "DA",
+                "entry_id": "2OLY",
+                "entity_id": "6"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.9661,
                   "ranking_model_geometry": null,
                   "average_occupancy": 1.0,
                   "is_subject_of_investigation": "N",

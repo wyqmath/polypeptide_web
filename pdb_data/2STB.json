@@ -319,269 +319,6 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "I",
-                "asym_id": "B",
-                "entry_id": "2STB",
-                "entity_id": "2"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "SCOP",
-                  "annotation_id": "d2stbi_"
-                },
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8038104"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e2stbI1"
-                }
-              ],
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "B"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "B"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "B"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "B"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "B"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "B"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "B"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "B"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "B"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "B"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "B"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "B"
-                  }
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_container_identifiers": {
-            "entry_id": "2STB",
-            "entity_id": "2",
-            "asym_ids": [
-              "B"
-            ],
-            "auth_asym_ids": [
-              "I"
-            ],
-            "uniprot_ids": [
-              "P10293"
-            ],
-            "reference_sequence_identifiers": [
-              {
-                "database_accession": "P10293"
-              }
-            ]
-          },
-          "uniprots": [
-            {
-              "rcsb_id": "P10293",
-              "rcsb_uniprot_protein": {
-                "source_organism": {
-                  "scientific_name": "Cucurbita pepo"
-                }
-              },
-              "rcsb_uniprot_external_reference": null
-            }
-          ],
-          "rcsb_polymer_entity": {
-            "pdbx_description": "PROTEIN (TRYPSIN INHIBITOR)",
-            "rcsb_ec_lineage": null,
-            "pdbx_ec": null,
-            "rcsb_enzyme_class_combined": null
-          },
-          "rcsb_polymer_entity_annotation": [
-            {
-              "type": "Pfam",
-              "annotation_lineage": null
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "enzyme regulator activity",
-                  "depth": null
-                },
-                {
-                  "name": "molecular function inhibitor activity",
-                  "depth": null
-                },
-                {
-                  "name": "peptidase regulator activity",
-                  "depth": null
-                },
-                {
-                  "name": "serine-type endopeptidase inhibitor activity",
-                  "depth": null
-                },
-                {
-                  "name": "molecular function regulator activity",
-                  "depth": null
-                },
-                {
-                  "name": "enzyme inhibitor activity",
-                  "depth": null
-                },
-                {
-                  "name": "peptidase inhibitor activity",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                },
-                {
-                  "name": "endopeptidase regulator activity",
-                  "depth": null
-                },
-                {
-                  "name": "endopeptidase inhibitor activity",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Proteinase/amylase inhibitor domain superfamily",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Proteinase inhibitor I7, squash",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "extracellular region",
-                  "depth": null
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_group_membership": [
-            {
-              "group_id": "P10293",
-              "similarity_cutoff": null,
-              "aggregation_method": "matching_uniprot_accession"
-            },
-            {
-              "group_id": "9844_90",
-              "similarity_cutoff": 90.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "3084_70",
-              "similarity_cutoff": 70.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "2764_50",
-              "similarity_cutoff": 50.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "2917_30",
-              "similarity_cutoff": 30.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "9032_95",
-              "similarity_cutoff": 95.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "38275_100",
-              "similarity_cutoff": 100.0,
-              "aggregation_method": "sequence_identity"
-            }
-          ],
-          "entity_poly": {
-            "type": "polypeptide(L)",
-            "rcsb_entity_polymer_type": "Protein",
-            "pdbx_seq_one_letter_code_can": "RVCPKILMECKKDSDCLAECICLEHGYCG",
-            "rcsb_sample_sequence_length": 29,
-            "rcsb_mutation_count": 0
-          },
-          "rcsb_entity_source_organism": [
-            {
-              "scientific_name": "Cucurbita pepo",
-              "ncbi_scientific_name": "Cucurbita pepo",
-              "rcsb_gene_name": null
-            }
-          ],
-          "rcsb_entity_host_organism": null,
-          "prd": null,
-          "chem_comp_nstd_monomers": null
-        },
-        {
-          "polymer_entity_instances": [
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
                 "auth_asym_id": "E",
                 "asym_id": "A",
                 "entry_id": "2STB",
@@ -1090,6 +827,269 @@
             {
               "scientific_name": "Salmo salar",
               "ncbi_scientific_name": "Salmo salar",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "I",
+                "asym_id": "B",
+                "entry_id": "2STB",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP",
+                  "annotation_id": "d2stbi_"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8038104"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e2stbI1"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "B"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "2STB",
+            "entity_id": "2",
+            "asym_ids": [
+              "B"
+            ],
+            "auth_asym_ids": [
+              "I"
+            ],
+            "uniprot_ids": [
+              "P10293"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "P10293"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "P10293",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Cucurbita pepo"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "PROTEIN (TRYPSIN INHIBITOR)",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "enzyme regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular function inhibitor activity",
+                  "depth": null
+                },
+                {
+                  "name": "peptidase regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "serine-type endopeptidase inhibitor activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular function regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "enzyme inhibitor activity",
+                  "depth": null
+                },
+                {
+                  "name": "peptidase inhibitor activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "endopeptidase regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "endopeptidase inhibitor activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Proteinase/amylase inhibitor domain superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Proteinase inhibitor I7, squash",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "P10293",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "9844_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "3084_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "2764_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "2917_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "9032_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "38275_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "RVCPKILMECKKDSDCLAECICLEHGYCG",
+            "rcsb_sample_sequence_length": 29,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Cucurbita pepo",
+              "ncbi_scientific_name": "Cucurbita pepo",
               "rcsb_gene_name": null
             }
           ],

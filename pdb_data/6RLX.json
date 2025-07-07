@@ -366,6 +366,576 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "B",
+                "asym_id": "B",
+                "entry_id": "6RLX",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP",
+                  "annotation_id": "d6rlx.1"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8092067"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8092068"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "A"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "B"
+                  }
+                }
+              ]
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "D",
+                "asym_id": "D",
+                "entry_id": "6RLX",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "SCOP",
+                  "annotation_id": "d6rlx.2"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8092068"
+                }
+              ],
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "6RLX",
+            "entity_id": "2",
+            "asym_ids": [
+              "B",
+              "D"
+            ],
+            "auth_asym_ids": [
+              "B",
+              "D"
+            ],
+            "uniprot_ids": [
+              "P04090"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "P04090"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "P04090",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Homo sapiens"
+                }
+              },
+              "rcsb_uniprot_external_reference": [
+                {
+                  "reference_name": "PHAROS",
+                  "reference_id": "P04090"
+                },
+                {
+                  "reference_name": "GTEX",
+                  "reference_id": "ENSG00000107014"
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "RELAXIN, B-CHAIN",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Relaxin",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Insulin/IGF/relaxin",
+                  "depth": 1
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "regulation of molecular function",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of catalytic activity",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Insulin, conserved site",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Mammalian Reproductive Hormone Insulin-like",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "hormone activity",
+                  "depth": null
+                },
+                {
+                  "name": "protein binding",
+                  "depth": null
+                },
+                {
+                  "name": "binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular function activator activity",
+                  "depth": null
+                },
+                {
+                  "name": "signaling receptor binding",
+                  "depth": null
+                },
+                {
+                  "name": "molecular function regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "signaling receptor regulator activity",
+                  "depth": null
+                },
+                {
+                  "name": "molecular_function",
+                  "depth": null
+                },
+                {
+                  "name": "receptor ligand activity",
+                  "depth": null
+                },
+                {
+                  "name": "signaling receptor activator activity",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Insulin-like superfamily",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "cellular anatomical structure",
+                  "depth": null
+                },
+                {
+                  "name": "cellular_component",
+                  "depth": null
+                },
+                {
+                  "name": "extracellular region",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "multi-multicellular organism process",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "reproductive process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "female pregnancy",
+                  "depth": null
+                },
+                {
+                  "name": "multi-organism reproductive process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of developmental process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "angiogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of vasculature development",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of developmental process",
+                  "depth": null
+                },
+                {
+                  "name": "multicellular organism development",
+                  "depth": null
+                },
+                {
+                  "name": "tube morphogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "anatomical structure development",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of multicellular organismal process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of anatomical structure morphogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "blood vessel development",
+                  "depth": null
+                },
+                {
+                  "name": "system development",
+                  "depth": null
+                },
+                {
+                  "name": "developmental process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of multicellular organismal development",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "blood vessel morphogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "tube development",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of angiogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "vasculature development",
+                  "depth": null
+                },
+                {
+                  "name": "circulatory system development",
+                  "depth": null
+                },
+                {
+                  "name": "anatomical structure morphogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of vasculature development",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of angiogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "anatomical structure formation involved in morphogenesis",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of multicellular organismal process",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Insulin-like",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "regulation of biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of gene expression",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of macromolecule biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "macromolecule metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "positive regulation of cellular process",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "149723_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "P04090",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "101262_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "79353_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "137174_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "72961_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "92149_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "SWMEEVIKLCGRELVRAQIAICGMSTWS",
+            "rcsb_sample_sequence_length": 28,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "Homo sapiens",
+              "ncbi_scientific_name": "Homo sapiens",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": [
+            {
+              "ncbi_scientific_name": "Escherichia coli"
+            }
+          ],
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
                 "auth_asym_id": "A",
                 "asym_id": "A",
                 "entry_id": "6RLX",
@@ -1015,576 +1585,6 @@
               }
             }
           ]
-        },
-        {
-          "polymer_entity_instances": [
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "B",
-                "asym_id": "B",
-                "entry_id": "6RLX",
-                "entity_id": "2"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "SCOP",
-                  "annotation_id": "d6rlx.1"
-                },
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8092067"
-                },
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8092068"
-                }
-              ],
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "A"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "B"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "A"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "B"
-                  }
-                }
-              ]
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "D",
-                "asym_id": "D",
-                "entry_id": "6RLX",
-                "entity_id": "2"
-              },
-              "rcsb_polymer_instance_annotation": [
-                {
-                  "type": "SCOP",
-                  "annotation_id": "d6rlx.2"
-                },
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8092068"
-                }
-              ],
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "C"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "D"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "C"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "D"
-                  }
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_container_identifiers": {
-            "entry_id": "6RLX",
-            "entity_id": "2",
-            "asym_ids": [
-              "B",
-              "D"
-            ],
-            "auth_asym_ids": [
-              "B",
-              "D"
-            ],
-            "uniprot_ids": [
-              "P04090"
-            ],
-            "reference_sequence_identifiers": [
-              {
-                "database_accession": "P04090"
-              }
-            ]
-          },
-          "uniprots": [
-            {
-              "rcsb_id": "P04090",
-              "rcsb_uniprot_protein": {
-                "source_organism": {
-                  "scientific_name": "Homo sapiens"
-                }
-              },
-              "rcsb_uniprot_external_reference": [
-                {
-                  "reference_name": "PHAROS",
-                  "reference_id": "P04090"
-                },
-                {
-                  "reference_name": "GTEX",
-                  "reference_id": "ENSG00000107014"
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity": {
-            "pdbx_description": "RELAXIN, B-CHAIN",
-            "rcsb_ec_lineage": null,
-            "pdbx_ec": null,
-            "rcsb_enzyme_class_combined": null
-          },
-          "rcsb_polymer_entity_annotation": [
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Relaxin",
-                  "depth": 1
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Insulin/IGF/relaxin",
-                  "depth": 1
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "regulation of molecular function",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of catalytic activity",
-                  "depth": null
-                },
-                {
-                  "name": "biological regulation",
-                  "depth": null
-                },
-                {
-                  "name": "biological_process",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Insulin, conserved site",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Mammalian Reproductive Hormone Insulin-like",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "hormone activity",
-                  "depth": null
-                },
-                {
-                  "name": "protein binding",
-                  "depth": null
-                },
-                {
-                  "name": "binding",
-                  "depth": null
-                },
-                {
-                  "name": "molecular function activator activity",
-                  "depth": null
-                },
-                {
-                  "name": "signaling receptor binding",
-                  "depth": null
-                },
-                {
-                  "name": "molecular function regulator activity",
-                  "depth": null
-                },
-                {
-                  "name": "signaling receptor regulator activity",
-                  "depth": null
-                },
-                {
-                  "name": "molecular_function",
-                  "depth": null
-                },
-                {
-                  "name": "receptor ligand activity",
-                  "depth": null
-                },
-                {
-                  "name": "signaling receptor activator activity",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Insulin-like superfamily",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "cellular anatomical structure",
-                  "depth": null
-                },
-                {
-                  "name": "cellular_component",
-                  "depth": null
-                },
-                {
-                  "name": "extracellular region",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "multi-multicellular organism process",
-                  "depth": null
-                },
-                {
-                  "name": "multicellular organismal process",
-                  "depth": null
-                },
-                {
-                  "name": "reproductive process",
-                  "depth": null
-                },
-                {
-                  "name": "biological_process",
-                  "depth": null
-                },
-                {
-                  "name": "female pregnancy",
-                  "depth": null
-                },
-                {
-                  "name": "multi-organism reproductive process",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "multicellular organismal process",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of developmental process",
-                  "depth": null
-                },
-                {
-                  "name": "positive regulation of biological process",
-                  "depth": null
-                },
-                {
-                  "name": "angiogenesis",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of vasculature development",
-                  "depth": null
-                },
-                {
-                  "name": "positive regulation of developmental process",
-                  "depth": null
-                },
-                {
-                  "name": "multicellular organism development",
-                  "depth": null
-                },
-                {
-                  "name": "tube morphogenesis",
-                  "depth": null
-                },
-                {
-                  "name": "anatomical structure development",
-                  "depth": null
-                },
-                {
-                  "name": "biological_process",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of multicellular organismal process",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of anatomical structure morphogenesis",
-                  "depth": null
-                },
-                {
-                  "name": "blood vessel development",
-                  "depth": null
-                },
-                {
-                  "name": "system development",
-                  "depth": null
-                },
-                {
-                  "name": "developmental process",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of multicellular organismal development",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of biological process",
-                  "depth": null
-                },
-                {
-                  "name": "blood vessel morphogenesis",
-                  "depth": null
-                },
-                {
-                  "name": "tube development",
-                  "depth": null
-                },
-                {
-                  "name": "biological regulation",
-                  "depth": null
-                },
-                {
-                  "name": "positive regulation of angiogenesis",
-                  "depth": null
-                },
-                {
-                  "name": "vasculature development",
-                  "depth": null
-                },
-                {
-                  "name": "circulatory system development",
-                  "depth": null
-                },
-                {
-                  "name": "anatomical structure morphogenesis",
-                  "depth": null
-                },
-                {
-                  "name": "positive regulation of vasculature development",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of angiogenesis",
-                  "depth": null
-                },
-                {
-                  "name": "anatomical structure formation involved in morphogenesis",
-                  "depth": null
-                },
-                {
-                  "name": "positive regulation of multicellular organismal process",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Insulin-like",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "regulation of biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of biological process",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of cellular process",
-                  "depth": null
-                },
-                {
-                  "name": "biological regulation",
-                  "depth": null
-                },
-                {
-                  "name": "positive regulation of biological process",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of macromolecule metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "gene expression",
-                  "depth": null
-                },
-                {
-                  "name": "macromolecule biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "positive regulation of macromolecule biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of gene expression",
-                  "depth": null
-                },
-                {
-                  "name": "positive regulation of metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "positive regulation of gene expression",
-                  "depth": null
-                },
-                {
-                  "name": "positive regulation of biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "biological_process",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of macromolecule biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "cellular process",
-                  "depth": null
-                },
-                {
-                  "name": "positive regulation of macromolecule metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "macromolecule metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "positive regulation of cellular process",
-                  "depth": null
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_group_membership": [
-            {
-              "group_id": "149723_70",
-              "similarity_cutoff": 70.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "P04090",
-              "similarity_cutoff": null,
-              "aggregation_method": "matching_uniprot_accession"
-            },
-            {
-              "group_id": "101262_90",
-              "similarity_cutoff": 90.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "79353_30",
-              "similarity_cutoff": 30.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "137174_50",
-              "similarity_cutoff": 50.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "72961_100",
-              "similarity_cutoff": 100.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "92149_95",
-              "similarity_cutoff": 95.0,
-              "aggregation_method": "sequence_identity"
-            }
-          ],
-          "entity_poly": {
-            "type": "polypeptide(L)",
-            "rcsb_entity_polymer_type": "Protein",
-            "pdbx_seq_one_letter_code_can": "SWMEEVIKLCGRELVRAQIAICGMSTWS",
-            "rcsb_sample_sequence_length": 28,
-            "rcsb_mutation_count": 0
-          },
-          "rcsb_entity_source_organism": [
-            {
-              "scientific_name": "Homo sapiens",
-              "ncbi_scientific_name": "Homo sapiens",
-              "rcsb_gene_name": null
-            }
-          ],
-          "rcsb_entity_host_organism": [
-            {
-              "ncbi_scientific_name": "Escherichia coli"
-            }
-          ],
-          "prd": null,
-          "chem_comp_nstd_monomers": null
         }
       ],
       "nonpolymer_entities": null,

@@ -270,35 +270,306 @@
           "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "A",
-                "asym_id": "A",
+                "auth_asym_id": "D",
+                "asym_id": "D",
                 "entry_id": "3ZDF",
-                "entity_id": "1"
+                "entity_id": "2"
               },
-              "rcsb_polymer_instance_annotation": [
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": [
                 {
-                  "type": "CATH",
-                  "annotation_id": "3.40.50.720"
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
                 },
                 {
-                  "type": "CATH",
-                  "annotation_id": "3.30.360.10"
-                },
-                {
-                  "type": "SCOP2",
-                  "annotation_id": "8068893"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e3zdfA1"
-                },
-                {
-                  "type": "ECOD",
-                  "annotation_id": "e3zdfA2"
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "D"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "D"
+                  }
                 }
-              ],
-              "rcsb_polymer_struct_conn": null
+              ]
             },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "C",
+                "asym_id": "C",
+                "entry_id": "3ZDF",
+                "entity_id": "2"
+              },
+              "rcsb_polymer_instance_annotation": null,
+              "rcsb_polymer_struct_conn": [
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                },
+                {
+                  "role": null,
+                  "connect_type": "disulfide bridge",
+                  "connect_partner": {
+                    "label_asym_id": "C"
+                  },
+                  "connect_target": {
+                    "label_asym_id": "C"
+                  }
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_container_identifiers": {
+            "entry_id": "3ZDF",
+            "entity_id": "2",
+            "asym_ids": [
+              "C",
+              "D"
+            ],
+            "auth_asym_ids": [
+              "C",
+              "D"
+            ],
+            "uniprot_ids": [
+              "Q8DHX3"
+            ],
+            "reference_sequence_identifiers": [
+              {
+                "database_accession": "Q8DHX3"
+              }
+            ]
+          },
+          "uniprots": [
+            {
+              "rcsb_id": "Q8DHX3",
+              "rcsb_uniprot_protein": {
+                "source_organism": {
+                  "scientific_name": "Thermosynechococcus vestitus (strain NIES-2133 / IAM M-273 / BP-1)"
+                }
+              },
+              "rcsb_uniprot_external_reference": null
+            }
+          ],
+          "rcsb_polymer_entity": {
+            "pdbx_description": "CP12 POLYPEPTIDE",
+            "rcsb_ec_lineage": null,
+            "pdbx_ec": null,
+            "rcsb_enzyme_class_combined": null
+          },
+          "rcsb_polymer_entity_annotation": [
+            {
+              "type": "Pfam",
+              "annotation_lineage": null
+            },
+            {
+              "type": "GO",
+              "annotation_lineage": [
+                {
+                  "name": "regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "photosynthesis",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "photosynthesis, dark reaction",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of photosynthesis, dark reaction",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of reductive pentose-phosphate cycle",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "biological_process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of carbohydrate metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of carbohydrate metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "carbohydrate metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of biological process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of photosynthesis",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "carbohydrate biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "biological regulation",
+                  "depth": null
+                },
+                {
+                  "name": "primary metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "reductive pentose-phosphate cycle",
+                  "depth": null
+                },
+                {
+                  "name": "cellular process",
+                  "depth": null
+                },
+                {
+                  "name": "metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of photosynthesis",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of carbohydrate biosynthetic process",
+                  "depth": null
+                },
+                {
+                  "name": "regulation of metabolic process",
+                  "depth": null
+                },
+                {
+                  "name": "negative regulation of reductive pentose-phosphate cycle",
+                  "depth": null
+                },
+                {
+                  "name": "carbon fixation",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "Calvin cycle protein CP12-like",
+                  "depth": null
+                }
+              ]
+            },
+            {
+              "type": "InterPro",
+              "annotation_lineage": [
+                {
+                  "name": "CP12 domain",
+                  "depth": null
+                }
+              ]
+            }
+          ],
+          "rcsb_polymer_entity_group_membership": [
+            {
+              "group_id": "506984_70",
+              "similarity_cutoff": 70.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "937052_100",
+              "similarity_cutoff": 100.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "Q8DHX3",
+              "similarity_cutoff": null,
+              "aggregation_method": "matching_uniprot_accession"
+            },
+            {
+              "group_id": "413330_50",
+              "similarity_cutoff": 50.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "178566_30",
+              "similarity_cutoff": 30.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "802567_95",
+              "similarity_cutoff": 95.0,
+              "aggregation_method": "sequence_identity"
+            },
+            {
+              "group_id": "748213_90",
+              "similarity_cutoff": 90.0,
+              "aggregation_method": "sequence_identity"
+            }
+          ],
+          "entity_poly": {
+            "type": "polypeptide(L)",
+            "rcsb_entity_polymer_type": "Protein",
+            "pdbx_seq_one_letter_code_can": "HKTSFQQYCDDNPDAAECRIYDD",
+            "rcsb_sample_sequence_length": 23,
+            "rcsb_mutation_count": 0
+          },
+          "rcsb_entity_source_organism": [
+            {
+              "scientific_name": "THERMOSYNECHOCOCCUS ELONGATUS",
+              "ncbi_scientific_name": "Thermosynechococcus vestitus",
+              "rcsb_gene_name": null
+            }
+          ],
+          "rcsb_entity_host_organism": null,
+          "prd": null,
+          "chem_comp_nstd_monomers": null
+        },
+        {
+          "polymer_entity_instances": [
             {
               "rcsb_polymer_entity_instance_container_identifiers": {
                 "auth_asym_id": "B",
@@ -326,6 +597,37 @@
                 {
                   "type": "ECOD",
                   "annotation_id": "e3zdfB2"
+                }
+              ],
+              "rcsb_polymer_struct_conn": null
+            },
+            {
+              "rcsb_polymer_entity_instance_container_identifiers": {
+                "auth_asym_id": "A",
+                "asym_id": "A",
+                "entry_id": "3ZDF",
+                "entity_id": "1"
+              },
+              "rcsb_polymer_instance_annotation": [
+                {
+                  "type": "CATH",
+                  "annotation_id": "3.40.50.720"
+                },
+                {
+                  "type": "CATH",
+                  "annotation_id": "3.30.360.10"
+                },
+                {
+                  "type": "SCOP2",
+                  "annotation_id": "8068893"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e3zdfA1"
+                },
+                {
+                  "type": "ECOD",
+                  "annotation_id": "e3zdfA2"
                 }
               ],
               "rcsb_polymer_struct_conn": null
@@ -700,308 +1002,6 @@
               "ncbi_scientific_name": "Escherichia coli"
             }
           ],
-          "prd": null,
-          "chem_comp_nstd_monomers": null
-        },
-        {
-          "polymer_entity_instances": [
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "C",
-                "asym_id": "C",
-                "entry_id": "3ZDF",
-                "entity_id": "2"
-              },
-              "rcsb_polymer_instance_annotation": null,
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "C"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "C"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "C"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "C"
-                  }
-                }
-              ]
-            },
-            {
-              "rcsb_polymer_entity_instance_container_identifiers": {
-                "auth_asym_id": "D",
-                "asym_id": "D",
-                "entry_id": "3ZDF",
-                "entity_id": "2"
-              },
-              "rcsb_polymer_instance_annotation": null,
-              "rcsb_polymer_struct_conn": [
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "D"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "D"
-                  }
-                },
-                {
-                  "role": null,
-                  "connect_type": "disulfide bridge",
-                  "connect_partner": {
-                    "label_asym_id": "D"
-                  },
-                  "connect_target": {
-                    "label_asym_id": "D"
-                  }
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_container_identifiers": {
-            "entry_id": "3ZDF",
-            "entity_id": "2",
-            "asym_ids": [
-              "C",
-              "D"
-            ],
-            "auth_asym_ids": [
-              "C",
-              "D"
-            ],
-            "uniprot_ids": [
-              "Q8DHX3"
-            ],
-            "reference_sequence_identifiers": [
-              {
-                "database_accession": "Q8DHX3"
-              }
-            ]
-          },
-          "uniprots": [
-            {
-              "rcsb_id": "Q8DHX3",
-              "rcsb_uniprot_protein": {
-                "source_organism": {
-                  "scientific_name": "Thermosynechococcus vestitus (strain NIES-2133 / IAM M-273 / BP-1)"
-                }
-              },
-              "rcsb_uniprot_external_reference": null
-            }
-          ],
-          "rcsb_polymer_entity": {
-            "pdbx_description": "CP12 POLYPEPTIDE",
-            "rcsb_ec_lineage": null,
-            "pdbx_ec": null,
-            "rcsb_enzyme_class_combined": null
-          },
-          "rcsb_polymer_entity_annotation": [
-            {
-              "type": "Pfam",
-              "annotation_lineage": null
-            },
-            {
-              "type": "GO",
-              "annotation_lineage": [
-                {
-                  "name": "regulation of cellular process",
-                  "depth": null
-                },
-                {
-                  "name": "photosynthesis",
-                  "depth": null
-                },
-                {
-                  "name": "negative regulation of biological process",
-                  "depth": null
-                },
-                {
-                  "name": "photosynthesis, dark reaction",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of photosynthesis, dark reaction",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of reductive pentose-phosphate cycle",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of primary metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "negative regulation of cellular process",
-                  "depth": null
-                },
-                {
-                  "name": "biological_process",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of carbohydrate metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "negative regulation of carbohydrate metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "carbohydrate metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of biological process",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of photosynthesis",
-                  "depth": null
-                },
-                {
-                  "name": "negative regulation of metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "carbohydrate biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "biological regulation",
-                  "depth": null
-                },
-                {
-                  "name": "primary metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "negative regulation of biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "reductive pentose-phosphate cycle",
-                  "depth": null
-                },
-                {
-                  "name": "cellular process",
-                  "depth": null
-                },
-                {
-                  "name": "metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "negative regulation of photosynthesis",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of carbohydrate biosynthetic process",
-                  "depth": null
-                },
-                {
-                  "name": "regulation of metabolic process",
-                  "depth": null
-                },
-                {
-                  "name": "negative regulation of reductive pentose-phosphate cycle",
-                  "depth": null
-                },
-                {
-                  "name": "carbon fixation",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "Calvin cycle protein CP12-like",
-                  "depth": null
-                }
-              ]
-            },
-            {
-              "type": "InterPro",
-              "annotation_lineage": [
-                {
-                  "name": "CP12 domain",
-                  "depth": null
-                }
-              ]
-            }
-          ],
-          "rcsb_polymer_entity_group_membership": [
-            {
-              "group_id": "506984_70",
-              "similarity_cutoff": 70.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "937052_100",
-              "similarity_cutoff": 100.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "Q8DHX3",
-              "similarity_cutoff": null,
-              "aggregation_method": "matching_uniprot_accession"
-            },
-            {
-              "group_id": "413330_50",
-              "similarity_cutoff": 50.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "178566_30",
-              "similarity_cutoff": 30.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "802567_95",
-              "similarity_cutoff": 95.0,
-              "aggregation_method": "sequence_identity"
-            },
-            {
-              "group_id": "748213_90",
-              "similarity_cutoff": 90.0,
-              "aggregation_method": "sequence_identity"
-            }
-          ],
-          "entity_poly": {
-            "type": "polypeptide(L)",
-            "rcsb_entity_polymer_type": "Protein",
-            "pdbx_seq_one_letter_code_can": "HKTSFQQYCDDNPDAAECRIYDD",
-            "rcsb_sample_sequence_length": 23,
-            "rcsb_mutation_count": 0
-          },
-          "rcsb_entity_source_organism": [
-            {
-              "scientific_name": "THERMOSYNECHOCOCCUS ELONGATUS",
-              "ncbi_scientific_name": "Thermosynechococcus vestitus",
-              "rcsb_gene_name": null
-            }
-          ],
-          "rcsb_entity_host_organism": null,
           "prd": null,
           "chem_comp_nstd_monomers": null
         }

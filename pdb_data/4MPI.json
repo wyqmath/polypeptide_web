@@ -893,55 +893,6 @@
         {
           "rcsb_nonpolymer_entity_container_identifiers": {
             "entry_id": "4MPI",
-            "entity_id": "3",
-            "auth_asym_ids": [
-              "B"
-            ],
-            "asym_ids": [
-              "D"
-            ],
-            "nonpolymer_comp_id": "DIO"
-          },
-          "rcsb_nonpolymer_entity_annotation": null,
-          "nonpolymer_entity_instances": [
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "101",
-                "auth_asym_id": "B",
-                "asym_id": "D",
-                "entry_id": "4MPI",
-                "entity_id": "3"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.2602,
-                  "ranking_model_geometry": 0.7889,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "N",
-                  "is_subject_of_investigation_provenance": null
-                }
-              ]
-            }
-          ],
-          "rcsb_nonpolymer_entity": {
-            "pdbx_description": "1,4-DIETHYLENE DIOXIDE"
-          },
-          "nonpolymer_comp": {
-            "chem_comp": {
-              "id": "DIO",
-              "formula_weight": 88.105,
-              "name": "1,4-DIETHYLENE DIOXIDE",
-              "formula": "C4 H8 O2"
-            },
-            "pdbx_reference_molecule": null,
-            "rcsb_chem_comp_descriptor": {
-              "InChIKey": "RYHBNJHYFVUHQT-UHFFFAOYSA-N"
-            }
-          }
-        },
-        {
-          "rcsb_nonpolymer_entity_container_identifiers": {
-            "entry_id": "4MPI",
             "entity_id": "2",
             "auth_asym_ids": [
               "A"
@@ -985,6 +936,55 @@
             "pdbx_reference_molecule": null,
             "rcsb_chem_comp_descriptor": {
               "InChIKey": "SXGZJKUKBWWHRA-UHFFFAOYSA-N"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "4MPI",
+            "entity_id": "3",
+            "auth_asym_ids": [
+              "B"
+            ],
+            "asym_ids": [
+              "D"
+            ],
+            "nonpolymer_comp_id": "DIO"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "101",
+                "auth_asym_id": "B",
+                "asym_id": "D",
+                "entry_id": "4MPI",
+                "entity_id": "3"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.2602,
+                  "ranking_model_geometry": 0.7889,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "N",
+                  "is_subject_of_investigation_provenance": null
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "1,4-DIETHYLENE DIOXIDE"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "DIO",
+              "formula_weight": 88.105,
+              "name": "1,4-DIETHYLENE DIOXIDE",
+              "formula": "C4 H8 O2"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "RYHBNJHYFVUHQT-UHFFFAOYSA-N"
             }
           }
         }

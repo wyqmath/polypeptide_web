@@ -1464,6 +1464,74 @@
         {
           "rcsb_nonpolymer_entity_container_identifiers": {
             "entry_id": "7DQ8",
+            "entity_id": "6",
+            "auth_asym_ids": [
+              "D"
+            ],
+            "asym_ids": [
+              "I",
+              "J"
+            ],
+            "nonpolymer_comp_id": "QUI"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "101",
+                "auth_asym_id": "D",
+                "asym_id": "I",
+                "entry_id": "7DQ8",
+                "entity_id": "6"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.5596,
+                  "ranking_model_geometry": 0.0101,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "RCSB"
+                }
+              ]
+            },
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "102",
+                "auth_asym_id": "D",
+                "asym_id": "J",
+                "entry_id": "7DQ8",
+                "entity_id": "6"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.5043,
+                  "ranking_model_geometry": 0.014,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "RCSB"
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "2-CARBOXYQUINOXALINE"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "QUI",
+              "formula_weight": 174.156,
+              "name": "2-CARBOXYQUINOXALINE",
+              "formula": "C9 H6 N2 O2"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "UPUZGXILYFKSGE-UHFFFAOYSA-N"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "7DQ8",
             "entity_id": "5",
             "auth_asym_ids": [
               "A",
@@ -1565,74 +1633,6 @@
             "pdbx_reference_molecule": null,
             "rcsb_chem_comp_descriptor": {
               "InChIKey": "JLVVSXFLKOJNIY-UHFFFAOYSA-N"
-            }
-          }
-        },
-        {
-          "rcsb_nonpolymer_entity_container_identifiers": {
-            "entry_id": "7DQ8",
-            "entity_id": "6",
-            "auth_asym_ids": [
-              "D"
-            ],
-            "asym_ids": [
-              "I",
-              "J"
-            ],
-            "nonpolymer_comp_id": "QUI"
-          },
-          "rcsb_nonpolymer_entity_annotation": null,
-          "nonpolymer_entity_instances": [
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "101",
-                "auth_asym_id": "D",
-                "asym_id": "I",
-                "entry_id": "7DQ8",
-                "entity_id": "6"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.5596,
-                  "ranking_model_geometry": 0.0101,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "Y",
-                  "is_subject_of_investigation_provenance": "RCSB"
-                }
-              ]
-            },
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "102",
-                "auth_asym_id": "D",
-                "asym_id": "J",
-                "entry_id": "7DQ8",
-                "entity_id": "6"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.5043,
-                  "ranking_model_geometry": 0.014,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "Y",
-                  "is_subject_of_investigation_provenance": "RCSB"
-                }
-              ]
-            }
-          ],
-          "rcsb_nonpolymer_entity": {
-            "pdbx_description": "2-CARBOXYQUINOXALINE"
-          },
-          "nonpolymer_comp": {
-            "chem_comp": {
-              "id": "QUI",
-              "formula_weight": 174.156,
-              "name": "2-CARBOXYQUINOXALINE",
-              "formula": "C9 H6 N2 O2"
-            },
-            "pdbx_reference_molecule": null,
-            "rcsb_chem_comp_descriptor": {
-              "InChIKey": "UPUZGXILYFKSGE-UHFFFAOYSA-N"
             }
           }
         }

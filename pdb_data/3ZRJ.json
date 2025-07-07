@@ -647,6 +647,42 @@
       "assemblies": [
         {
           "rcsb_assembly_container_identifiers": {
+            "assembly_id": "3"
+          },
+          "pdbx_struct_assembly": {
+            "rcsb_details": "software_defined_assembly",
+            "method_details": "PISA",
+            "rcsb_candidate_assembly": "Y"
+          },
+          "pdbx_struct_assembly_auth_evidence": null,
+          "rcsb_struct_symmetry": [
+            {
+              "kind": "Global Symmetry",
+              "type": "Asymmetric",
+              "symbol": "C1",
+              "oligomeric_state": "Hetero 4-mer",
+              "stoichiometry": [
+                "A2",
+                "B1",
+                "C1"
+              ]
+            },
+            {
+              "kind": "Local Symmetry",
+              "type": "Cyclic",
+              "symbol": "C2",
+              "oligomeric_state": "Homo 2-mer",
+              "stoichiometry": [
+                "A2"
+              ]
+            }
+          ],
+          "rcsb_assembly_info": {
+            "modeled_polymer_monomer_count": 349
+          }
+        },
+        {
+          "rcsb_assembly_container_identifiers": {
             "assembly_id": "1"
           },
           "pdbx_struct_assembly": {
@@ -695,42 +731,6 @@
           ],
           "rcsb_assembly_info": {
             "modeled_polymer_monomer_count": 175
-          }
-        },
-        {
-          "rcsb_assembly_container_identifiers": {
-            "assembly_id": "3"
-          },
-          "pdbx_struct_assembly": {
-            "rcsb_details": "software_defined_assembly",
-            "method_details": "PISA",
-            "rcsb_candidate_assembly": "Y"
-          },
-          "pdbx_struct_assembly_auth_evidence": null,
-          "rcsb_struct_symmetry": [
-            {
-              "kind": "Global Symmetry",
-              "type": "Asymmetric",
-              "symbol": "C1",
-              "oligomeric_state": "Hetero 4-mer",
-              "stoichiometry": [
-                "A2",
-                "B1",
-                "C1"
-              ]
-            },
-            {
-              "kind": "Local Symmetry",
-              "type": "Cyclic",
-              "symbol": "C2",
-              "oligomeric_state": "Homo 2-mer",
-              "stoichiometry": [
-                "A2"
-              ]
-            }
-          ],
-          "rcsb_assembly_info": {
-            "modeled_polymer_monomer_count": 349
           }
         }
       ]

@@ -1032,6 +1032,55 @@
         {
           "rcsb_nonpolymer_entity_container_identifiers": {
             "entry_id": "5ID1",
+            "entity_id": "4",
+            "auth_asym_ids": [
+              "B"
+            ],
+            "asym_ids": [
+              "G"
+            ],
+            "nonpolymer_comp_id": "NAG"
+          },
+          "rcsb_nonpolymer_entity_annotation": null,
+          "nonpolymer_entity_instances": [
+            {
+              "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                "auth_seq_id": "301",
+                "auth_asym_id": "B",
+                "asym_id": "G",
+                "entry_id": "5ID1",
+                "entity_id": "4"
+              },
+              "rcsb_nonpolymer_instance_validation_score": [
+                {
+                  "ranking_model_fit": 0.1803,
+                  "ranking_model_geometry": 0.4939,
+                  "average_occupancy": 1.0,
+                  "is_subject_of_investigation": "Y",
+                  "is_subject_of_investigation_provenance": "RCSB"
+                }
+              ]
+            }
+          ],
+          "rcsb_nonpolymer_entity": {
+            "pdbx_description": "2-acetamido-2-deoxy-beta-D-glucopyranose"
+          },
+          "nonpolymer_comp": {
+            "chem_comp": {
+              "id": "NAG",
+              "formula_weight": 221.208,
+              "name": "2-acetamido-2-deoxy-beta-D-glucopyranose",
+              "formula": "C8 H15 N O6"
+            },
+            "pdbx_reference_molecule": null,
+            "rcsb_chem_comp_descriptor": {
+              "InChIKey": "OVRNDRQMDRJTHS-FMDGEEDCSA-N"
+            }
+          }
+        },
+        {
+          "rcsb_nonpolymer_entity_container_identifiers": {
+            "entry_id": "5ID1",
             "entity_id": "5",
             "auth_asym_ids": [
               "B",
@@ -1134,55 +1183,6 @@
             "pdbx_reference_molecule": null,
             "rcsb_chem_comp_descriptor": {
               "InChIKey": "NBIIXXVUZAFLBC-UHFFFAOYSA-K"
-            }
-          }
-        },
-        {
-          "rcsb_nonpolymer_entity_container_identifiers": {
-            "entry_id": "5ID1",
-            "entity_id": "4",
-            "auth_asym_ids": [
-              "B"
-            ],
-            "asym_ids": [
-              "G"
-            ],
-            "nonpolymer_comp_id": "NAG"
-          },
-          "rcsb_nonpolymer_entity_annotation": null,
-          "nonpolymer_entity_instances": [
-            {
-              "rcsb_nonpolymer_entity_instance_container_identifiers": {
-                "auth_seq_id": "301",
-                "auth_asym_id": "B",
-                "asym_id": "G",
-                "entry_id": "5ID1",
-                "entity_id": "4"
-              },
-              "rcsb_nonpolymer_instance_validation_score": [
-                {
-                  "ranking_model_fit": 0.1803,
-                  "ranking_model_geometry": 0.4939,
-                  "average_occupancy": 1.0,
-                  "is_subject_of_investigation": "Y",
-                  "is_subject_of_investigation_provenance": "RCSB"
-                }
-              ]
-            }
-          ],
-          "rcsb_nonpolymer_entity": {
-            "pdbx_description": "2-acetamido-2-deoxy-beta-D-glucopyranose"
-          },
-          "nonpolymer_comp": {
-            "chem_comp": {
-              "id": "NAG",
-              "formula_weight": 221.208,
-              "name": "2-acetamido-2-deoxy-beta-D-glucopyranose",
-              "formula": "C8 H15 N O6"
-            },
-            "pdbx_reference_molecule": null,
-            "rcsb_chem_comp_descriptor": {
-              "InChIKey": "OVRNDRQMDRJTHS-FMDGEEDCSA-N"
             }
           }
         }
