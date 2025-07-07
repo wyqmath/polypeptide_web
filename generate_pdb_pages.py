@@ -3,26 +3,26 @@ import os
 import json
 import glob
 
-print("脚本开始执行...")
+print("Script starting...")
 
-# 定义数据目录和输出目录
+# Define data and output directories
 pdb_data_dir = 'pdb_data'
 pdb_pages_dir = 'pdb_pages'
 pdb_list_js_file = 'pdb_list.js'
 
-# 创建输出目录（如果不存在）
+# Create output directory if it doesn't exist
 if not os.path.exists(pdb_pages_dir):
     os.makedirs(pdb_pages_dir)
 
 pdb_data_list = []
 
 def extract_pdb_data(json_path):
-    """从JSON文件中提取PDB数据"""
+    """Extract PDB data from a JSON file"""
     try:
         with open(json_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
     except (json.JSONDecodeError, FileNotFoundError):
-        print(f"警告：无法读取或解析JSON文件: {json_path}")
+        print(f"Warning: Cannot read or parse JSON file: {json_path}")
         return None
 
     entry = (data.get('data') or {}).get('entry')
@@ -31,16 +31,16 @@ def extract_pdb_data(json_path):
 
     pdb_id = entry.get('rcsb_id')
     if not pdb_id:
-        # 从文件名中获取PDB ID作为备选
+        # Fallback to getting PDB ID from filename
         pdb_id = os.path.basename(json_path).replace('.json', '')
 
-    # 实验方法
+    # Experimental Method
     method = 'N/A'
     exptl_list = entry.get('exptl')
     if exptl_list:
         method = exptl_list[0].get('method', 'N/A')
 
-    # 分辨率
+    # Resolution
     resolution = None
     refine_list = entry.get('refine')
     if method == 'X-RAY DIFFRACTION' and refine_list and refine_list[0].get('ls_d_res_high'):
@@ -59,7 +59,7 @@ def extract_pdb_data(json_path):
         if r_work is not None and r_free is not None:
             r_factors = f"R-work: {r_work:.3f}, R-free: {r_free:.3f}"
 
-    # 发布日期
+    # Release Date
     rcsb_accession_info = entry.get('rcsb_accession_info') or {}
     date = (rcsb_accession_info.get('initial_release_date') or '').split('T')[0] or None
 
@@ -76,14 +76,14 @@ def extract_pdb_data(json_path):
     }
     entity_counts_str_parts = []
     if entity_counts['protein'] is not None:
-        entity_counts_str_parts.append(f"蛋白质: {entity_counts['protein']}")
+        entity_counts_str_parts.append(f"Protein: {entity_counts['protein']}")
     if entity_counts['na'] is not None:
-        entity_counts_str_parts.append(f"核酸: {entity_counts['na']}")
+        entity_counts_str_parts.append(f"Nucleic Acid: {entity_counts['na']}")
     if entity_counts['na_hybrid'] is not None:
-        entity_counts_str_parts.append(f"核酸杂合体: {entity_counts['na_hybrid']}")
+        entity_counts_str_parts.append(f"NA Hybrid: {entity_counts['na_hybrid']}")
     entity_counts_str = ", ".join(entity_counts_str_parts) or None
 
-    # 二硫键、其他连接、链、EC号、宿主、基因名等
+    # Disulfide bonds, other links, chains, EC numbers, host, gene names, etc.
     has_other_link = False
     pep_chains, prot_chains = [], []
     pep_lengths, prot_lengths = [], []
@@ -91,7 +91,7 @@ def extract_pdb_data(json_path):
     organisms = []
     polymer_entities_sequences = []
     
-    # 从 entry 中直接获取 cycpepdb_ssbond 的值
+    # Get cycpepdb_ssbond value directly from entry
     ss_bond_str = entry.get('cycpepdb_ssbond')
     
     polymer_entities = entry.get('polymer_entities')
@@ -100,7 +100,7 @@ def extract_pdb_data(json_path):
             if entity.get('polymer_entity_instances'):
                 for instance in entity['polymer_entity_instances']:
                     for conn in (instance.get('rcsb_polymer_struct_conn') or []):
-                        # 检查 "disulfide bridge" 之外的其他连接类型
+                        # Check for other connection types other than "disulfide bridge"
                         if conn.get('connect_type') and conn.get('connect_type') != 'disulfide bridge':
                             has_other_link = True
             
@@ -128,7 +128,7 @@ def extract_pdb_data(json_path):
             if not length:
                 continue
 
-            # 假设长度小于50的为多肽
+            # Assume lengths less than 50 are peptides
             if length < 50:
                 pep_chains.extend(chain_ids)
                 pep_lengths.append(str(length))
@@ -162,10 +162,10 @@ def extract_pdb_data(json_path):
     
     link_str = "Yes" if has_other_link else None
 
-    # 标题 (从struct.title获取)
+    # Title (from struct.title)
     title = (entry.get('struct') or {}).get('title')
 
-    # 作者
+    # Authors
     authors = None
     audit_author_list = entry.get('audit_author')
     if audit_author_list:
@@ -173,10 +173,10 @@ def extract_pdb_data(json_path):
         if author_names:
             authors = "; ".join(author_names)
 
-    # 关键词
+    # Keywords
     keywords = (entry.get('struct_keywords') or {}).get('text')
 
-    # 来源生物
+    # Source Organism
     organisms_str = ", ".join(sorted(list(set(organisms)))) or None
 
     # Symmetry and Cell
@@ -189,7 +189,7 @@ def extract_pdb_data(json_path):
             f"α={cell['angle_alpha']:.2f}°, β={cell['angle_beta']:.2f}°, γ={cell['angle_gamma']:.2f}°"
         )
 
-    # 参考文献
+    # References
     citations = []
     citation_list = entry.get('citation')
     if citation_list:
@@ -279,7 +279,7 @@ def extract_pdb_data(json_path):
     return pdb_info
 
 def build_sequences_html(sequences):
-    """根据序列信息构建HTML"""
+    """Builds HTML for sequence information"""
     if not sequences:
         return ""
 
@@ -300,7 +300,7 @@ def build_sequences_html(sequences):
 
         sequence_items_html += f"""
         <div class="sequence-item">
-            <h4>链: {chain_ids} - {description} (长度: {length})</h4>
+            <h4>Chain: {chain_ids} - {description} (Length: {length})</h4>
             <div class="sequence-wrapper">
                 <table>
                     <tbody>
@@ -314,7 +314,7 @@ def build_sequences_html(sequences):
     return f"""
 <section class="info-section">
     <h2 class="collapsible">
-        序列信息
+        Sequence Information
         <span class="section-toggle-arrow"></span>
     </h2>
     <div class="sequences-container">
@@ -324,39 +324,39 @@ def build_sequences_html(sequences):
 """
 
 def build_info_rows(pdb_info):
-    """根据PDB信息构建HTML表格行"""
+    """Builds HTML table rows for PDB info"""
     rows_html = []
     
     field_map = {
-        "pdb_id": "PDB编号",
-        "title": "标题",
-        "method": "实验方法",
-        "resolution": "分辨率",
+        "pdb_id": "PDB ID",
+        "title": "Title",
+        "method": "Method",
+        "resolution": "Resolution",
         "r_factors": "R-factors",
-        "date": "发布日期",
-        "authors": "作者",
-        "organisms": "来源生物",
-        "host_organisms": "表达宿主",
-        "gene_names": "基因名称",
-        "keywords": "关键词",
-        "ec_numbers": "EC编号",
-        "molecular_weight": "分子量",
-        "entity_counts": "实体数量",
-        "space_group": "空间群",
-        "cell": "晶胞参数",
-        "ss_bond": "二硫键",
-        "link": "其他连接",
-        "pep_chains": "多肽链",
-        "prot_chains": "蛋白链",
-        "pep_lengths": "多肽长度",
-        "prot_lengths": "蛋白长度",
+        "date": "Release Date",
+        "authors": "Authors",
+        "organisms": "Source Organism",
+        "host_organisms": "Expression Host",
+        "gene_names": "Gene Names",
+        "keywords": "Keywords",
+        "ec_numbers": "EC Number",
+        "molecular_weight": "Molecular Weight",
+        "entity_counts": "Entity Count",
+        "space_group": "Space Group",
+        "cell": "Cell Parameters",
+        "ss_bond": "Disulfide Bond",
+        "link": "Other Links",
+        "pep_chains": "Peptide Chains",
+        "prot_chains": "Protein Chains",
+        "pep_lengths": "Peptide Lengths",
+        "prot_lengths": "Protein Lengths",
     }
     
     for key, label in field_map.items():
         value = pdb_info.get(key)
         if value:
             if key == 'pdb_id':
-                row_content = f'<td>{label}</td><td>{value} <a href="https://www.rcsb.org/structure/{value}" target="_blank" title="访问RCSB PDB页面">前往RCSB &#x279A;</a></td>'
+                row_content = f'<td>{label}</td><td>{value} <a href="https://www.rcsb.org/structure/{value}" target="_blank" title="Visit RCSB PDB page">Go to RCSB &#x279A;</a></td>'
             else:
                 row_content = f'<td>{label}</td><td>{value}</td>'
             rows_html.append(f'<tr>{row_content}</tr>')
@@ -364,7 +364,7 @@ def build_info_rows(pdb_info):
     return "\n".join(rows_html)
 
 def build_ligands_html(ligands):
-    """根据配体信息构建HTML"""
+    """Builds HTML for ligand information"""
     if not ligands:
         return ""
 
@@ -383,7 +383,7 @@ def build_ligands_html(ligands):
     return f"""
 <section class="info-section">
     <h2 class="collapsible">
-        配体信息
+        Ligand Information
         <span class="section-toggle-arrow"></span>
     </h2>
     <div class="table-container">
@@ -391,9 +391,9 @@ def build_ligands_html(ligands):
             <thead>
                 <tr>
                     <th>ID</th>
-                    <th>名称</th>
-                    <th>化学式</th>
-                    <th>分子量</th>
+                    <th>Name</th>
+                    <th>Formula</th>
+                    <th>Molecular Weight</th>
                 </tr>
             </thead>
             <tbody>
@@ -405,26 +405,26 @@ def build_ligands_html(ligands):
 """
 
 def build_assemblies_html(assemblies):
-    """根据组装信息构建HTML"""
+    """Builds HTML for assembly information"""
     if not assemblies:
         return ""
 
     items_html = ""
     for ass in assemblies:
         items_html += '<div class="assembly-item">'
-        items_html += f'<p><strong>组装 ID:</strong> {ass.get("id", "N/A")}</p>'
+        items_html += f'<p><strong>Assembly ID:</strong> {ass.get("id", "N/A")}</p>'
         if ass.get('details'):
-            items_html += f'<p><strong>详情:</strong> {ass["details"]}</p>'
+            items_html += f'<p><strong>Details:</strong> {ass["details"]}</p>'
         if ass.get('oligomeric_state'):
-            items_html += f'<p><strong>寡聚状态:</strong> {ass["oligomeric_state"]}</p>'
+            items_html += f'<p><strong>Oligomeric State:</strong> {ass["oligomeric_state"]}</p>'
         if ass.get('stoichiometry'):
-            items_html += f'<p><strong>化学计量:</strong> {ass["stoichiometry"]}</p>'
+            items_html += f'<p><strong>Stoichiometry:</strong> {ass["stoichiometry"]}</p>'
         items_html += '</div>'
     
     return f"""
 <section class="info-section">
     <h2 class="collapsible">
-        生物组装
+        Biological Assemblies
         <span class="section-toggle-arrow"></span>
     </h2>
     <div class="assemblies-container">
@@ -434,14 +434,14 @@ def build_assemblies_html(assemblies):
 """
 
 def build_citations_html(citations):
-    """根据引文信息构建HTML"""
+    """Builds HTML for citation information"""
     if not citations:
         return ""
 
     html = """
 <section class="info-section">
     <h2 class="collapsible">
-        参考文献
+        References
         <span class="section-toggle-arrow"></span>
     </h2>
     <div class="citations-container">
@@ -480,18 +480,18 @@ def build_citations_html(citations):
 try:
     json_files = glob.glob(os.path.join(pdb_data_dir, '*.json'))
     if not json_files:
-        print(f"错误: 在 '{pdb_data_dir}' 目录中未找到JSON文件。")
+        print(f"Error: No JSON files found in '{pdb_data_dir}' directory.")
         exit()
 
     for json_file in json_files:
         pdb_info = extract_pdb_data(json_file)
         if not pdb_info:
-            print(f"警告：跳过文件（无法提取数据）: {json_file}")
+            print(f"Warning: Skipping file (could not extract data): {json_file}")
             continue
         
         pdb_id = pdb_info['pdb_id']
 
-        # 收集PDB信息用于JS列表
+        # Collect PDB info for the JS list
         pdb_data_list.append({
             "id": pdb_id,
             "method": pdb_info.get('method') or 'N/A',
@@ -500,7 +500,7 @@ try:
             "note": pdb_info.get('title') or ''
         })
 
-        # 创建单个PDB的HTML页面内容
+        # Create HTML page content for a single PDB
         info_rows_html = build_info_rows(pdb_info)
         citations_html = build_citations_html(pdb_info.get('citations'))
         ligands_html = build_ligands_html(pdb_info.get('ligands'))
@@ -511,11 +511,11 @@ try:
 
 
         html_content = f"""<!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>多肽结构数据库 - {pdb_id}</title>
+    <title>Polypeptide Structure Database - {pdb_id}</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-light.css" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
     <link rel="stylesheet" href="../static/css/protein_detail.css">
@@ -643,47 +643,47 @@ try:
 <body>
     <header>
         <div class="top-header">
-            <img src="../THU-structure-LOGO.svg" alt="THU结构数据库标志" class="logo">
+            <img src="../THU-structure-LOGO.svg" alt="THU Structure Database Logo" class="logo">
             <div class="top-nav">
                 <a href="../index.html" class="nav-button">Home</a>
                 <a href="../Download.html" class="nav-button">Download</a>
                 <a href="https://www.frcbs.tsinghua.edu.cn/" class="nav-button">About</a>
             </div>
         </div>
-        <h1>多肽结构数据库</h1>
-        <p>浏览和可视化多肽三维结构</p>
+        <h1>Polypeptide Structure Database</h1>
+        <p>Browse and visualize 3D structures of polypeptides</p>
     </header>
     
     <div class="search-section">
         <div class="search-container">
-            <input type="text" class="search-box" placeholder="搜索蛋白质、基因、PDB编号、生物体或序列">
-            <button class="search-button">搜索</button>
+            <input type="text" class="search-box" placeholder="Search for proteins, genes, PDB IDs, organisms, or sequences">
+            <button class="search-button">Search</button>
         </div>
     </div>
     
     <div class="protein-detail-container">
         <div class="protein-header">
-            <h1>{pdb_id} - 多肽结构</h1>
+            <h1>{pdb_id} - Polypeptide Structure</h1>
             <p class="alphafold-id">{pdb_id}</p>
         </div>
 
         <div class="action-buttons">
-            <span class="download-label">下载</span>
+            <span class="download-label">Download</span>
             <div class="button-container">
                 <a href="https://files.rcsb.org/download/{pdb_id}.pdb" download>
-                    <button>PDB文件</button>
+                    <button>PDB File</button>
                 </a>
             </div>
             <div class="button-container">
                 <a href="https://files.rcsb.org/download/{pdb_id}.cif" download>
-                    <button>mmCIF文件</button>
+                    <button>mmCIF File</button>
                 </a>
             </div>
         </div>
 
         <section class="info-section">
             <h2 class="collapsible">
-                基本信息
+                Summary
                 <span class="section-toggle-arrow"></span>
             </h2>
             <table>
@@ -699,7 +699,7 @@ try:
 {assemblies_html}
         <section class="info-section">
             <h2 class="collapsible">
-                3D 结构可视化
+                3D Structure Visualization
                 <span class="section-toggle-arrow"></span>
             </h2>
             <div class="full-width-viewer-container">
@@ -723,15 +723,15 @@ try:
             var viewerContainer = document.getElementById('myViewer');
             viewerInstance.render(viewerContainer, options);
             
-            // 添加折叠/展开功能
+            // Add collapse/expand functionality
             document.querySelectorAll('.collapsible').forEach(header => {{
                 const content = header.nextElementSibling;
                 if (!content) return;
                 
                 const headerText = header.innerText || header.textContent;
 
-                // 默认折叠，但"基本信息"和"3D 结构可视化"默认展开
-                if (!headerText.includes('基本信息') && !headerText.includes('3D 结构可视化')) {{
+                // Default to collapsed, but "Summary" and "3D Structure Visualization" are expanded by default
+                if (!headerText.includes('Summary') && !headerText.includes('3D Structure Visualization')) {{
                     header.classList.add('collapsed');
                     content.style.display = 'none';
                 }}
@@ -751,18 +751,18 @@ try:
     <script src="../static/js/protein_detail.js"></script>
 </body>
 </html>"""
-        # 写入HTML文件
+        # Write the HTML file
         with open(os.path.join(pdb_pages_dir, f"{pdb_id}.html"), 'w', encoding='utf-8') as html_file:
             html_file.write(html_content)
 
-    print(f"成功生成 {len(pdb_data_list)} 个PDB详情页面到 '{pdb_pages_dir}' 目录。")
+    print(f"Successfully generated {len(pdb_data_list)} PDB detail pages in '{pdb_pages_dir}' directory.")
 
-    # 生成pdb_list.js文件
+    # Generate pdb_list.js file
     with open(pdb_list_js_file, 'w', encoding='utf-8') as js_file:
         js_file.write(f"const pdbList = {json.dumps(pdb_data_list, indent=2)};")
-    print(f"成功创建 '{pdb_list_js_file}' 文件。")
+    print(f"Successfully created '{pdb_list_js_file}' file.")
 
 except FileNotFoundError:
-    print(f"错误: 目录 '{pdb_data_dir}' 未找到。请确保目录存在。")
+    print(f"Error: Directory '{pdb_data_dir}' not found. Please ensure the directory exists.")
 except Exception as e:
-    print(f"处理文件或生成页面时发生错误: {e}") 
+    print(f"An error occurred while processing files or generating pages: {e}") 

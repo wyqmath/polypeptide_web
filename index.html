@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>多肽结构数据库</title>
+    <title>Polypeptide Structure Database</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-light.css" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
     <link rel="stylesheet" type="text/css" href="static/css/style.css" />
@@ -104,6 +104,50 @@
             line-height: 1.6;
             color: #555;
         }
+
+        .stats-section {
+            padding: 40px 20px;
+            background-color: #f8f9fa;
+        }
+        .stats-section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #333;
+            font-size: 2em;
+        }
+        .charts-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            grid-auto-rows: 450px;
+            gap: 40px;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+        .chart-card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        .chart-wrapper {
+            position: relative;
+            flex-grow: 1;
+        }
+        .chart-card h3 {
+            text-align: center;
+            margin-bottom: 15px;
+            color: #555;
+            font-weight: 600;
+        }
+        .chart-full-width {
+            grid-column: 1 / -1;
+        }
+        .chart-double-width {
+             grid-column: span 2;
+        }
     </style>
 </head>
 <body>
@@ -114,52 +158,96 @@
             <a href="https://www.frcbs.tsinghua.edu.cn/" class="nav-button">About</a>
         </div>
         <div class="top-header">
-            <img src="THU-structure-LOGO.svg" alt="THU结构数据库标志" class="logo">
+            <img src="THU-structure-LOGO.svg" alt="THU Structure Database Logo" class="logo">
         </div>
-        <h1>多肽结构数据库</h1>
-        <p>浏览和可视化多肽三维结构</p>
+        <h1>Polypeptide Structure Database</h1>
+        <p>Browse and visualize 3D structures of polypeptides</p>
     </header>
     
     <div class="search-section">
         <div class="search-container">
-            <input type="text" id="mainSearchInput" class="search-box" placeholder="搜索蛋白质、基因、UniProt编号、生物体或序列、PDB ID、实验方法...">
-            <button class="search-button" id="mainSearchButton">搜索</button>
+            <input type="text" id="mainSearchInput" class="search-box" placeholder="Search for proteins, genes, UniProt numbers, organisms, sequences, PDB IDs, experimental methods...">
+            <button class="search-button" id="mainSearchButton">Search</button>
         </div>
         <div class="search-examples">
-            <span class="examples-label">示例：</span>
-            <a href="pdb_pages/1E4W.html" class="example-tag">1E4W</a>
-            <a href="pdb_pages/1JBL.html" class="example-tag">1JBL</a>
-            <a href="pdb_pages/2H40.html" class="example-tag">2H40</a>
-            <a href="pdb_pages/3ECM.html" class="example-tag">3ECM</a>
+            <span class="examples-label">Examples: </span>
+            <a href="pdb_pages/1CRN.html" class="example-tag">1CRN</a>
+            <a href="pdb_pages/2INS.html" class="example-tag">2INS</a>
+            <a href="pdb_pages/3INS.html" class="example-tag">3INS</a>
+            <a href="pdb_pages/4CPA.html" class="example-tag">4CPA</a>
         </div>
     </div>
     
     <div id="results-container"></div>
 
-    <div class="about-section">
-        <h2>关于我们的环肽数据库：Cyclic Peptide DataBank (CPDB)</h2>
-        <p>欢迎访问环肽数据库（Cyclic Peptide DataBank, CPDB）—— 一个专注于含二硫键环肽三维结构的综合性知识库。</p>
-        <p>环肽，特别是含有二硫键的环肽，因其独特的结构稳定性、高靶点亲和力和出色的生物活性，已成为现代生物学研究的前沿和创新药物开发的关键来源。然而，这些复杂分子的三维结构信息分散在海量的文献和多个数据库中，给科研人员的系统性研究带来了巨大挑战。</p>
-        <p>为了应对这一挑战，我们创建了CPDB。本数据库致力于系统性地收集、整理和高精度地展示包含至少一个二硫键的环肽三-维结构数据。我们希望能打破数据壁垒，为全球的计算生物学家、结构生物学家、药物化学家及相关领域的科研人员提供一个全面、精确、直观且易于访问的环肽结构信息平台。</p>
-        
-        <h4>本数据库的核心特色与功能：</h4>
-        <ul>
-            <li><strong>全面的数据收录：</strong> 系统性整合来自蛋白质数据库（PDB）及已发表文献中的含二硫键环肽结构，并提供详尽的来源信息和交叉引用链接。</li>
-            <li><strong>精准的结构注释：</strong> 对每一条目进行精细的生物和化学信息注释，包括序列、分子量、二硫键连接方式、来源物种、生物活性及相关的靶点信息。</li>
-            <li><strong>强大的检索系统：</strong> 提供基于关键词、序列、分子式、来源或靶点的多维度、高级检索功能，帮助用户快速定位感兴趣的分子。</li>
-            <li><strong>交互式三维可视化：</strong> 内嵌先进的分子可视化工具，用户可以直接在网页上对环肽的三维结构进行旋转、缩放、高亮显示二硫键和不同残基等交互式操作。</li>
-            <li><strong>便捷的数据下载：</strong> 所有结构数据及相关信息均支持一键下载，提供多种常用格式（如 PDB, MOL2, SDF），以无缝对接主流的分子模拟和药物设计软件。</li>
-        </ul>
-        <p>我们相信，CPDB不仅是一个数据存储库，更是一个激发创新、加速研究的催化剂。无论您是致力于探索新的天然产物，还是在设计下一代肽类药物，本数据库都将为您提供宝贵的结构信息支持。</p>
+    <section class="stats-section">
+        <h2>Database Statistics</h2>
+        <div class="charts-container">
+            <div class="chart-card">
+                <h3>Structures by Method</h3>
+                <div class="chart-wrapper">
+                    <canvas id="methodsChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3>Structures with Disulfide Bonds</h3>
+                <div class="chart-wrapper">
+                    <canvas id="ssBondsChart"></canvas>
+                </div>
+            </div>
+             <div class="chart-card">
+                <h3>Resolution Distribution</h3>
+                <div class="chart-wrapper">
+                    <canvas id="resolutionChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card chart-double-width">
+                <h3>Top 10 Source Organisms</h3>
+                <div class="chart-wrapper">
+                    <canvas id="organismsChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3>Peptide Length Distribution</h3>
+                <div class="chart-wrapper">
+                    <canvas id="lengthChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card chart-full-width">
+                <h3>Structure Releases Over Time</h3>
+                <div class="chart-wrapper">
+                    <canvas id="releasesChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <h2>关于我们</h2>
-        <p>本数据库由清华大学北京生物结构前沿研究中心的团队负责开发和长期维护。</p>
-        <p>北京生物结构前沿研究中心（Beijing Advanced Innovation Center for Structural Biology）由清华大学与北京市科学技术委员会于2018年联合共建。作为北京市为构建高精尖经济结构而设立的新型研发机构，中心的核心使命是：聚焦世界科技前沿，充分发挥结构生物学作为生命科学"利器"的独特优势，推动其与计算科学、化学生物学等领域的深度交叉融合。</p>
-        <p>我们致力于攻克生命科学中的关键核心技术瓶颈，并勇于挑战"从0到1"的基础科学难题。建立该环肽数据库，正是我们履行这一使命的具体实践。它不仅是中心科研成果的转化，更是我们服务于全球科研社区，推动结构生物学知识共享与应用，共同促进人类健康事业发展的承诺。</p>
-        <p>我们诚挚地邀请您使用本数据库，并欢迎您提出宝贵的反馈与建议，帮助我们不断完善。让我们共同探索环肽这一迷人分子世界的无限可能。</p>
+    <div class="about-section">
+        <h2>About Our Cyclic Peptide DataBank (CPDB)</h2>
+        <p>Welcome to the Cyclic Peptide DataBank (CPDB) - a comprehensive knowledge base focused on the three-dimensional structures of cyclic peptides containing disulfide bonds.</p>
+        <p>Cyclic peptides, especially those containing disulfide bonds, have become a frontier in modern biological research and a key source for innovative drug development due to their unique structural stability, high target affinity, and excellent biological activity. However, the 3D structural information of these complex molecules is scattered across a vast amount of literature and multiple databases, posing a significant challenge for systematic research.</p>
+        <p>To address this challenge, we created CPDB. This database is dedicated to systematically collecting, organizing, and displaying high-precision 3D structural data of cyclic peptides containing at least one disulfide bond. We hope to break down data barriers and provide a comprehensive, accurate, intuitive, and easily accessible platform for cyclic peptide structural information for computational biologists, structural biologists, medicinal chemists, and researchers in related fields worldwide.</p>
+        
+        <h4>Core Features and Functions of this Database:</h4>
+        <ul>
+            <li><strong>Comprehensive Data Collection:</strong> Systematically integrates cyclic peptide structures with disulfide bonds from the Protein Data Bank (PDB) and published literature, providing detailed source information and cross-reference links.</li>
+            <li><strong>Precise Structural Annotation:</strong> Provides fine-grained biological and chemical annotations for each entry, including sequence, molecular weight, disulfide bond connectivity, source species, biological activity, and related target information.</li>
+            <li><strong>Powerful Search System:</strong> Offers multi-dimensional, advanced search functions based on keywords, sequences, molecular formulas, sources, or targets to help users quickly locate molecules of interest.</li>
+            <li><strong>Interactive 3D Visualization:</strong> Embedded with advanced molecular visualization tools, allowing users to interactively rotate, zoom, and highlight disulfide bonds and different residues in the 3D structure directly on the webpage.</li>
+            <li><strong>Convenient Data Download:</strong> All structural data and related information support one-click download in various common formats (e.g., PDB, MOL2, SDF) to seamlessly integrate with mainstream molecular modeling and drug design software.</li>
+        </ul>
+        <p>We believe that CPDB is not just a data repository but a catalyst for stimulating innovation and accelerating research. Whether you are dedicated to exploring new natural products or designing the next generation of peptide drugs, this database will provide you with valuable structural information support.</p>
+
+        <h2>About Us</h2>
+        <p>This database is developed and maintained long-term by the team at the Beijing Advanced Innovation Center for Structural Biology, Tsinghua University.</p>
+        <p>The Beijing Advanced Innovation Center for Structural Biology was jointly established by Tsinghua University and the Beijing Municipal Science and Technology Commission in 2018. As a new type of R&D institution established by Beijing to build a high-precision economic structure, the center's core mission is: to focus on the world's scientific frontiers, fully leverage the unique advantages of structural biology as a "sharp tool" in life sciences, and promote its deep integration with fields such as computational science and chemical biology.</p>
+        <p>We are committed to overcoming key core technical bottlenecks in life sciences and daring to challenge "from 0 to 1" fundamental scientific problems. The establishment of this cyclic peptide database is a concrete practice of our mission. It is not only a transformation of the center's scientific research achievements but also our commitment to serving the global scientific community, promoting the sharing and application of structural biology knowledge, and jointly promoting the cause of human health.</p>
+        <p>We sincerely invite you to use this database and welcome your valuable feedback and suggestions to help us continuously improve. Let us explore the infinite possibilities of the fascinating molecular world of cyclic peptides together.</p>
     </div>
     
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="pdb_list.js"></script>
     <script src="static/js/script.js" defer></script>
+    <script src="static/js/charts.js" defer></script>
 </body>
 </html>
