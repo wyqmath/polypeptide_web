@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>多肽结构数据库</title>
+    <title>Polypeptide Structure Database</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-light.css" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
     <link rel="stylesheet" href="./static/css/protein_detail.css">
@@ -32,28 +32,93 @@
         .action-buttons a {
             text-decoration: none;
         }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 50px;
+            margin-top: 40px;
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .footer-section {
+            flex: 1;
+            min-width: 300px;
+            margin: 10px;
+        }
+        footer h4 {
+            color: #f2f2f2;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #555;
+            padding-bottom: 10px;
+            font-size: 1.1em;
+        }
+        footer a {
+            color: #ccc;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+        }
+        footer a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+        footer p {
+            margin: 0 0 8px 0;
+            color: #ccc;
+            line-height: 1.6;
+        }
+        .footer-bottom {
+            text-align: center;
+            border-top: 1px solid #555;
+            padding-top: 20px;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="top-header">
-            <img src="./THU-structure-LOGO.svg" alt="THU结构数据库标志" class="logo">
+            <img src="./THU-structure-LOGO.svg" alt="THU Structure Database Logo" class="logo">
             <div class="top-nav">
                 <a href="./index.html" class="nav-button">Home</a>
-                <a href="../Download.html" class="nav-button">Download</a>
-                <a href="https://www.frcbs.tsinghua.edu.cn/" class="nav-button">About</a>
+                <a href="./Download.html" class="nav-button">Download</a>
+                <a href="./about.html" class="nav-button">About</a>
             </div>
         </div>
-        <h1>多肽结构数据库</h1>
-        <p>浏览和可视化多肽三维结构</p>
+        <h1>Polypeptide Structure Database</h1>
+        <p>Browse and visualize 3D structures of polypeptides</p>
     </header>
     <main style="text-align: center; padding: 50px;">
-        <h2>下载数据</h2>
+        <h2>Download Data</h2>
         <div class="action-buttons">
-            <a href="./data/CycPepDB_benchmark_backup.csv" download>
-                <button>下载 CycPepDB 基准数据集</button>
+            <a href="./data/CycPepDB.csv" download>
+                <button>Download CycPepDB Dataset</button>
             </a>
         </div>
     </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Useful Links</h4>
+                <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a>
+                <a href="https://www.frcbs.tsinghua.edu.cn/" target="_blank">Beijing Frontier Research Center for Biological Structure, Tsinghua University</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Address: Tsinghua University, Haidian District, Beijing, China</p>
+                <p>TEL: 010-62787063</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2025 Beijing Frontier Research Center for Biological Structure, Tsinghua University. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>  
