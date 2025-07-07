@@ -581,7 +581,7 @@ try:
         }}
         .full-width-viewer-container {{
             padding: 0 !important;
-            height: 600px;
+            height: 800px;
         }}
         .info-section > table {{
             border-collapse: collapse;
@@ -714,7 +714,7 @@ try:
                 <a href="../index.html" class="nav-button">Home</a>
                 <a href="../search.html" class="nav-button">Search</a>
                 <a href="../Download.html" class="nav-button">Download</a>
-                <a href="https://www.frcbs.tsinghua.edu.cn/" class="nav-button">About</a>
+                <a href="../about.html" class="nav-button">About</a>
             </div>
         </div>
         <h1>Polypeptide Structure Database</h1>
@@ -782,10 +782,10 @@ try:
                     format: '{file_format}'
                 }},
                 moleculeId: '{pdb_id}',
-                alphafoldView: true,
-                bgColor: {{ r: 30, g: 30, b: 30 }},
-                hideControls: true,
-                subscribeEvents: true
+                alphafoldView: false,
+                bgColor: {{ r: 255, g: 255, b: 255 }},
+                subscribeEvents: true,
+                hideCanvasControls: ['expand', 'selection']
             }}
             var viewerContainer = document.getElementById('myViewer');
             viewerInstance.render(viewerContainer, options);
