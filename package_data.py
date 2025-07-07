@@ -154,6 +154,17 @@ def package_data():
     # Package by length
     for length_range, files in files_by_length.items():
         if files: create_zip(length_range, files, 'by_length')
+
+    # Package the entire pdb_data directory
+    print("\nPackaging the entire pdb_data directory...")
+    full_dataset_zip_path = os.path.join(output_dir, 'CycPepDB_json.zip')
+    with zipfile.ZipFile(full_dataset_zip_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
+        for root, _, files in os.walk(pdb_data_dir):
+            for file in files:
+                file_path = os.path.join(root, file)
+                arcname = os.path.relpath(file_path, pdb_data_dir)
+                zipf.write(file_path, arcname)
+    print(f"Created full dataset package: {full_dataset_zip_path}")
     
     print("\nPackaging complete.")
 

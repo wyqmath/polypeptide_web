@@ -532,7 +532,7 @@ try:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Polypeptide Structure Database - {pdb_id}</title>
+    <title>Cyclic Peptide DataBank (CPDB) - {pdb_id}</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-light.css" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
     <link rel="stylesheet" href="../static/css/protein_detail.css">
@@ -717,7 +717,7 @@ try:
                 <a href="../about.html" class="nav-button">About</a>
             </div>
         </div>
-        <h1>Polypeptide Structure Database</h1>
+        <h1>Cyclic Peptide DataBank (CPDB)</h1>
         <p>Browse and visualize 3D structures of polypeptides</p>
     </header>
     
@@ -730,7 +730,7 @@ try:
     
     <div class="protein-detail-container">
         <div class="protein-header">
-            <h1>{pdb_id} - Polypeptide Structure</h1>
+            <h1>{pdb_id} - Cyclic Peptide Structure</h1>
             <p class="alphafold-id">{pdb_id}</p>
         </div>
 
