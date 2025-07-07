@@ -100,6 +100,38 @@
             color: #aaa;
         }
 
+        .download-section {
+            margin-bottom: 40px;
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            text-align: left;
+        }
+        .download-section h3 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .button-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .button-group .action-buttons {
+            margin-right: 5px; /* space between buttons */
+        }
+        .button-group button {
+            background-color: #D9C1D9; /* Light purple */
+            color: white; /* White text */
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .button-group button:hover {
+            background-color: #C8AEC8; /* Darker purple on hover */
+        }
+
     </style>
 </head>
 <body>
@@ -117,12 +149,80 @@
         <p>Browse and visualize 3D structures of polypeptides</p>
     </header>
     
-    <main style="text-align: center; padding: 50px;">
-        <h2>Download Data</h2>
-        <div class="action-buttons">
-            <a href="data/CycPepDB.csv" download>
-                <button>Download CycPepDB Dataset</button>
-            </a>
+    <main style="padding: 50px;">
+        <h2 style="text-align: center; margin-bottom: 30px;">Download Data</h2>
+        
+        <div class="download-section">
+            <h3>Full Original Dataset</h3>
+            <div class="button-group">
+                <div class="action-buttons">
+                    <a href="data/CycPepDB.csv" download>
+                        <button>Download CycPepDB Dataset (CSV)</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="download-section">
+            <h3>By Experimental Method</h3>
+            <div class="button-group">
+                <div class="action-buttons"><a href="data/packaged/by_method/solution_nmr.zip" download><button>SOLUTION NMR</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_method/x-ray_diffraction.zip" download><button>X-RAY DIFFRACTION</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_method/electron_microscopy.zip" download><button>ELECTRON MICROSCOPY</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_method/powder_diffraction.zip" download><button>POWDER DIFFRACTION</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_method/solid-state_nmr.zip" download><button>SOLID-STATE NMR</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_method/neutron_diffraction.zip" download><button>NEUTRON DIFFRACTION</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_method/infrared_spectroscopy.zip" download><button>INFRARED SPECTROSCOPY</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_method/electron_crystallography.zip" download><button>ELECTRON CRYSTALLOGRAPHY</button></a></div>
+            </div>
+        </div>
+        
+        <div class="download-section">
+            <h3>By Disulfide Bond Presence</h3>
+            <div class="button-group">
+                <div class="action-buttons"><a href="data/packaged/by_ss_bond/with_disulfide_bonds.zip" download><button>With Disulfide Bonds</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_ss_bond/without_disulfide_bonds.zip" download><button>Without Disulfide Bonds</button></a></div>
+            </div>
+        </div>
+
+        <div class="download-section">
+            <h3>By Resolution</h3>
+            <div class="button-group">
+                <div class="action-buttons"><a href="data/packaged/by_resolution/1.5_a.zip" download><button>&lt; 1.5 Å</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_resolution/1.5-2.0_a.zip" download><button>1.5-2.0 Å</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_resolution/2.0-2.5_a.zip" download><button>2.0-2.5 Å</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_resolution/2.5-3.0_a.zip" download><button>2.5-3.0 Å</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_resolution/3.0_a.zip" download><button>&gt; 3.0 Å</button></a></div>
+            </div>
+        </div>
+
+        <div class="download-section">
+            <h3>By Top 10 Organisms</h3>
+            <p>Note: Only top 10 organisms by data count are available for download.</p>
+            <div class="button-group">
+                <div class="action-buttons"><a href="data/packaged/by_organism/homo_sapiens.zip" download><button>Homo sapiens</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_organism/synthetic_construct.zip" download><button>synthetic construct</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_organism/mus_musculus.zip" download><button>Mus musculus</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_organism/bos_taurus.zip" download><button>Bos taurus</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_organism/escherichia_coli.zip" download><button>Escherichia coli</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_organism/sus_scrofa.zip" download><button>Sus scrofa</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_organism/amanita_phalloides.zip" download><button>Amanita phalloides</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_organism/escherichia_coli_k-12.zip" download><button>Escherichia coli K-12</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_organism/tolypocladium_inflatum.zip" download><button>Tolypocladium inflatum</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_organism/thermus_thermophilus_hb8.zip" download><button>Thermus thermophilus HB8</button></a></div>
+            </div>
+        </div>
+
+        <div class="download-section">
+            <h3>By Peptide Length</h3>
+            <div class="button-group">
+                <div class="action-buttons"><a href="data/packaged/by_length/1-10.zip" download><button>1-10 residues</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_length/11-20.zip" download><button>11-20 residues</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_length/21-30.zip" download><button>21-30 residues</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_length/31-40.zip" download><button>31-40 residues</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_length/41-50.zip" download><button>41-50 residues</button></a></div>
+                <div class="action-buttons"><a href="data/packaged/by_length/50.zip" download><button>&gt;50 residues</button></a></div>
+            </div>
         </div>
     </main>
     
