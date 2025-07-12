@@ -533,8 +533,8 @@ try:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Cyclic Peptide DataBank (CPDB) - {pdb_id}</title>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.2.0/build/pdbe-molstar-light.css" />
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.2.0/build/pdbe-molstar-plugin.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-light.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
     <link rel="stylesheet" type="text/css" href="../static/css/style.css" />
     <link rel="stylesheet" type="text/css" href="../static/css/search-page.css" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
@@ -750,7 +750,6 @@ try:
     <div class="protein-detail-container">
         <div class="protein-header">
             <h1>{pdb_id} - Cyclic Peptide Structure</h1>
-            <p class="alphafold-id">{pdb_id}</p>
         </div>
 
         <div class="action-buttons">
@@ -801,7 +800,7 @@ try:
                 moleculeId: '{pdb_id}',
                 alphafoldView: false,
                 bgColor: {{ r: 255, g: 255, b: 255 }},
-                hideCanvasControls: [],
+                hideCanvasControls: ['selection', 'animation', 'controlToggle', 'controlInfo'],
                 sequencePanel: true,
                 landscape: true
             }}

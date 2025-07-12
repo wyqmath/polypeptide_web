@@ -32,6 +32,15 @@ document.addEventListener('DOMContentLoaded', () => {
         const ctx = document.getElementById('methodsChart')?.getContext('2d');
         if (!ctx) return;
 
+        const legendLeftMargin = {
+            id: 'legendLeftMargin',
+            afterUpdate(chart, args, options) {
+                if (options.marginLeft) {
+                    chart.legend.left += options.marginLeft;
+                }
+            }
+        };
+
         new Chart(ctx, {
             type: 'doughnut',
             data: {
@@ -50,13 +59,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 plugins: {
                     legend: {
                         position: 'top',
-                        align: 'start' // Align legend to the left
+                        align: 'start'
                     },
                     title: {
                         display: false
+                    },
+                    legendLeftMargin: {
+                        marginLeft: 40
                     }
                 }
-            }
+            },
+            plugins: [legendLeftMargin]
         });
     }
 
