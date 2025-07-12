@@ -533,8 +533,11 @@ try:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Cyclic Peptide DataBank (CPDB) - {pdb_id}</title>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-light.css" />
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.2.0/build/pdbe-molstar-light.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.2.0/build/pdbe-molstar-plugin.js"></script>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../static/css/search-page.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../static/css/protein_detail.css">
     <style>
         .info-section {{
@@ -579,9 +582,11 @@ try:
             padding: 20px;
             background-color: #fff;
         }}
-        .full-width-viewer-container {{
+        #myViewer {{
             padding: 0 !important;
-            height: 800px;
+            width: 100%;
+            height: 700px;
+            position: relative;
         }}
         .info-section > table {{
             border-collapse: collapse;
@@ -600,6 +605,20 @@ try:
             color: #555;
             width: 150px;
         }}
+        /* Override generic table styles from style.css */
+        .protein-detail-container table {{
+            border: none;
+        }}
+        .protein-detail-container table td,
+        .protein-detail-container table th {{
+            border: none;
+        }}
+        
+        .msp-plugin ::-webkit-scrollbar-thumb {{
+            background-color: #474748 !important;
+            border-radius: 10px;
+        }}
+
         .citations-container .citation-item,
         .assemblies-container .assembly-item,
         .sequence-item {{
@@ -708,14 +727,14 @@ try:
 </head>
 <body>
     <header>
+        <div class="top-nav">
+            <a href="../index.html" class="nav-button">Home</a>
+            <a href="../search.html" class="nav-button">Search</a>
+            <a href="../Download.html" class="nav-button">Download</a>
+            <a href="../about.html" class="nav-button">About</a>
+        </div>
         <div class="top-header">
             <img src="../THU-structure-LOGO.svg" alt="THU Structure Database Logo" class="logo">
-            <div class="top-nav">
-                <a href="../index.html" class="nav-button">Home</a>
-                <a href="../search.html" class="nav-button">Search</a>
-                <a href="../Download.html" class="nav-button">Download</a>
-                <a href="../about.html" class="nav-button">About</a>
-            </div>
         </div>
         <h1>Cyclic Peptide DataBank (CPDB)</h1>
         <p>Browse and visualize 3D structures of polypeptides</p>
@@ -769,9 +788,7 @@ try:
                 3D Structure Visualization
                 <span class="section-toggle-arrow"></span>
             </h2>
-            <div class="full-width-viewer-container">
-                <div id="myViewer"></div>
-            </div>
+            <div id="myViewer"></div>
         </section>
 
         <script type="text/javascript">
@@ -784,8 +801,9 @@ try:
                 moleculeId: '{pdb_id}',
                 alphafoldView: false,
                 bgColor: {{ r: 255, g: 255, b: 255 }},
-                subscribeEvents: true,
-                hideCanvasControls: ['expand', 'selection']
+                hideCanvasControls: [],
+                sequencePanel: true,
+                landscape: true
             }}
             var viewerContainer = document.getElementById('myViewer');
             viewerInstance.render(viewerContainer, options);
