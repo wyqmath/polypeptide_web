@@ -50,6 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 plugins: {
                     legend: {
                         position: 'top',
+                        align: 'start' // Align legend to the left
                     },
                     title: {
                         display: false

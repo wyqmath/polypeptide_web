@@ -1,0 +1,155 @@
+/* static/css/search-page.css */
+
+/* General Body and Font Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header Overrides */
+header {
+    background: linear-gradient(to right, #6a82fb, #fc5c7d);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative; /* Ensure the header is a positioning context */
+}
+
+/* Position the logo container in the top-left */
+.top-header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.top-header .logo {
+    filter: brightness(0) invert(1);
+    height: 50px; /* Adjust size to fit the corner */
+}
+
+header h1 {
+    margin: 70px 0 0 0; /* Increased top margin to push it below the absolute elements */
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0 0 0;
+    font-size: 1.2em;
+}
+
+/* Positioning for the top navigation container */
+.top-nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    gap: 10px;
+}
+
+/* Navigation Button Overrides */
+.nav-button {
+    padding: 10px 20px !important;
+    background-color: transparent !important;
+    color: white !important;
+    border: 1px solid white !important;
+    border-radius: 20px !important;
+    transition: all 0.3s ease !important;
+}
+
+.nav-button:hover {
+    background-color: white !important;
+    color: #6a82fb !important;
+}
+
+/* Search Section Overrides */
+.search-section {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.search-container {
+    max-width: 900px;
+    gap: 0;
+}
+
+.search-box {
+    width: 80%;
+    padding: 15px 20px;
+    border: 1px solid #ddd;
+    border-radius: 30px 0 0 30px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-box:focus {
+    border-color: #6a82fb;
+    box-shadow: 0 0 0 3px rgba(106, 130, 251, 0.2);
+}
+
+.search-button {
+    padding: 15px 30px;
+    background: linear-gradient(to right, #6a82fb, #fc5c7d);
+    color: white;
+    border: none;
+    border-radius: 0 30px 30px 0;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+}
+
+.search-button:hover {
+    opacity: 0.9;
+    background-color: transparent; /* Override from style.css */
+}
+
+/* Search Examples Overrides */
+.search-examples {
+    max-width: 900px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    justify-content: center;
+    color: #555;
+}
+
+.example-tag {
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 5px 12px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.example-tag:hover {
+    background-color: #6a82fb;
+    color: white;
+}
+
+/* Footer Overrides */
+footer {
+    background-color: #2c3e50;
+    padding: 40px 50px;
+}
+footer h4 {
+    color: #f2f2f2;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+}
+footer a {
+    color: #bdc3c7;
+    transition: color 0.3s ease;
+}
+footer a:hover {
+    color: #6a82fb;
+}
+footer p {
+    color: #bdc3c7;
+    line-height: 1.7;
+}
+.footer-bottom {
+    border-top: 1px solid #444;
+    color: #95a5a6;
+} 

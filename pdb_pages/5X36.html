@@ -6,190 +6,23 @@
     <title>Cyclic Peptide DataBank (CPDB) - 5X36</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-light.css" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
-    <link rel="stylesheet" href="../static/css/protein_detail.css">
-    <style>
-        .info-section {
-            background-color: #ffffff;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            overflow: hidden;
-        }
-        .info-section h2 {
-            background-color: #f7f7f7;
-            color: #333;
-            margin: 0;
-            padding: 15px 20px;
-            font-size: 1.2em;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid #e0e0e0;
-        }
-        .info-section h2.collapsible {
-            cursor: pointer;
-            transition: background-color 0.2s ease-in-out;
-        }
-        .info-section h2.collapsible:hover {
-            background-color: #efefef;
-        }
-        .section-toggle-arrow {
-            width: 12px;
-            height: 12px;
-            border: solid #333;
-            border-width: 0 2px 2px 0;
-            display: inline-block;
-            transform: rotate(-135deg);
-            transition: transform 0.3s ease;
-        }
-        .collapsible.collapsed .section-toggle-arrow {
-            transform: rotate(45deg);
-        }
-        .info-section > div, .info-section > table {
-            padding: 20px;
-            background-color: #fff;
-        }
-        .full-width-viewer-container {
-            padding: 0 !important;
-            height: 800px;
-        }
-        .info-section > table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-        .info-section table td, .info-section table th {
-            padding: 12px 15px;
-            text-align: left;
-            border-bottom: 1px solid #f0f0f0;
-        }
-        .info-section table tr:last-child td {
-            border-bottom: none;
-        }
-        .info-section table td:first-child {
-            font-weight: 600;
-            color: #555;
-            width: 150px;
-        }
-        .citations-container .citation-item,
-        .assemblies-container .assembly-item,
-        .sequence-item {
-            padding: 15px 0;
-            border-bottom: 1px solid #f0f0f0;
-        }
-        .citations-container .citation-item:last-child,
-        .assemblies-container .assembly-item:last-child,
-        .sequence-item:last-child {
-            border-bottom: none;
-        }
-        .sequence-wrapper {
-            max-height: 250px;
-            overflow-y: auto;
-            border: 1px solid #e0e0e0;
-            border-radius: 4px;
-            padding: 10px;
-            background: #fdfdfd;
-            margin-top: 10px;
-        }
-        .sequence-wrapper table {
-            width: 100%;
-            border: none;
-        }
-        .sequence-wrapper td {
-            border: none;
-        }
-        .seq-num {
-            text-align: right;
-            padding-right: 1em;
-            color: #999;
-            font-family: 'Courier New', Courier, monospace;
-            vertical-align: top;
-            font-size: 0.9em;
-        }
-        .seq-data {
-            font-family: 'Courier New', Courier, monospace;
-            word-break: break-all;
-            font-size: 1em;
-            line-height: 1.5;
-        }
-        .citation-title {
-            font-weight: bold;
-        }
-        .citation-authors {
-            font-size: 0.9em;
-            color: #555;
-        }
-        .citation-journal {
-            font-size: 0.9em;
-            color: #777;
-        }
-        .citation-links a {
-            font-size: 0.9em;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 20px 50px;
-            margin-top: 40px;
-        }
-        .footer-content {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            margin-bottom: 20px;
-            text-align: left;
-        }
-        .footer-section {
-            flex: 1;
-            min-width: 300px;
-            margin: 10px;
-        }
-        footer h4 {
-            color: #f2f2f2;
-            margin-bottom: 15px;
-            border-bottom: 1px solid #555;
-            padding-bottom: 10px;
-            font-size: 1.1em;
-        }
-        footer a {
-            color: #ccc;
-            text-decoration: none;
-            display: block;
-            margin-bottom: 8px;
-        }
-        footer a:hover {
-            color: white;
-            text-decoration: underline;
-        }
-        footer p {
-            margin: 0 0 8px 0;
-            color: #ccc;
-            line-height: 1.6;
-        }
-        .footer-bottom {
-            text-align: center;
-            border-top: 1px solid #555;
-            padding-top: 20px;
-            margin-top: 20px;
-            font-size: 0.9em;
-            color: #aaa;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="../static/css/search-page.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/protein_detail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
+        <div class="top-nav">
+            <a href="../index.html" class="nav-button">Home</a>
+            <a href="../search.html" class="nav-button">Search</a>
+            <a href="../Download.html" class="nav-button">Download</a>
+            <a href="../about.html" class="nav-button">About</a>
+        </div>
         <div class="top-header">
             <img src="../THU-structure-LOGO.svg" alt="THU Structure Database Logo" class="logo">
-            <div class="top-nav">
-                <a href="../index.html" class="nav-button">Home</a>
-                <a href="../search.html" class="nav-button">Search</a>
-                <a href="../Download.html" class="nav-button">Download</a>
-                <a href="../about.html" class="nav-button">About</a>
-            </div>
         </div>
         <h1>Cyclic Peptide DataBank (CPDB)</h1>
-        <p>Browse and visualize 3D structures of polypeptides</p>
+        <p>Structure Details for 5X36</p>
     </header>
     
     <div class="search-section">
@@ -219,7 +52,7 @@
             </div>
         </div>
 
-        <section class="info-section">
+        <section class="info-section" id="summary-section">
             <h2 class="collapsible">
                 Summary
                 <span class="section-toggle-arrow"></span>
@@ -339,6 +172,9 @@
             
             // Add collapse/expand functionality
             document.querySelectorAll('.collapsible').forEach(header => {
+                const section = header.closest('.info-section');
+                if (!section) return;
+
                 const content = header.nextElementSibling;
                 if (!content) return;
                 

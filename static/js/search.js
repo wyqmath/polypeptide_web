@@ -43,7 +43,8 @@ function initializeSearchPage() {
             row.insertCell().textContent = item.note || '';
             row.insertCell().textContent = item.method || 'N/A';
             row.insertCell().textContent = item.resolution || 'N/A';
-            row.insertCell().textContent = item.organisms || 'N/A';
+            const organismsCell = row.insertCell();
+            organismsCell.innerHTML = `<i>${item.organisms || 'N/A'}</i>`;
             row.addEventListener('mouseover', () => row.style.backgroundColor = '#f9f9f9');
             row.addEventListener('mouseout', () => row.style.backgroundColor = 'transparent');
         });

@@ -18,7 +18,7 @@ html {
 .protein-detail-container {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 40px auto;
     padding: 0 20px;
     box-sizing: border-box;
 }
@@ -39,88 +39,32 @@ p, h1, h2, h3, td, th, span, a {
     hyphens: auto;
 }
 
-/* 头部和导航样式 */
-header {
-    background-color: #C8B0D0;
-    color: #4A2C40;
-    padding: 20px 0;
-    position: relative;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.top-header {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px 10px 20px;
-    box-sizing: border-box;
-}
-
-.logo {
-    height: 50px;
-    width: auto;
-}
-
-.top-nav {
-    display: flex;
-    gap: 10px;
-}
-
-.nav-button {
-    padding: 10px 15px;
-    background-color: white;
-    color: #D9C1D9 !important;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 0.9rem;
-    font-weight: bold;
-    text-decoration: none !important;
-    display: inline-block;
-}
-
-.nav-button:hover {
-    background-color: #f5f5f5;
-}
-
-header h1 {
-    margin: 20px 0 0 0;
-    text-align: center;
-    max-width: 1200px;
-    padding: 0 20px;
-    margin-left: auto;
-    margin-right: auto;
-    box-sizing: border-box;
-}
-
-header p {
-    margin: 5px 0 0 0;
-    text-align: center;
-    max-width: 1200px;
-    padding: 0 20px;
-    margin-left: auto;
-    margin-right: auto;
-    box-sizing: border-box;
-}
-
 /* 蛋白质标题部分 */
+.protein-header {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
 .protein-header h1 {
-    font-size: calc(1.5em + 1vw);
-    margin-bottom: 0.5em;
+    font-size: 2.2em;
+    margin-bottom: 0.2em;
 }
 
 .protein-header .alphafold-id {
-    font-size: calc(0.8em + 0.3vw);
-    color: #666;
-    margin-bottom: 1.5em;
+    display: inline-block;
+    font-family: monospace;
+    background-color: #f0f0f0;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 1em;
+    color: #333;
+    border: 1px solid #ddd;
 }
 
 /* 按钮容器样式 */
 .button-container {
-    /* flex: 1; Remove this to prevent containers from growing */
-    flex: none; /* Explicitly set flex behavior to none */
+    flex: none; 
     margin: 0;
     padding: 0;
 }
@@ -129,102 +73,101 @@ header p {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 5px;
-    margin-bottom: 20px;
+    gap: 15px;
+    margin-bottom: 30px;
 }
 
 /* Define styles for the download label */
 .download-label {
     font-weight: bold;
     font-size: 1.1em;
-    margin-right: 10px; /* Space between label and buttons */
-    white-space: nowrap; /* Prevent label from wrapping */
-}
-
-.action-buttons button {
-    /* width: 100%; Let button size based on content */
-    width: auto; /* Adjust width automatically */
-    padding: 10px 15px;
-    border: 1px solid #ccc;
-    background-color: #D9C1D9; /* Light purple */
-    color: white; /* White text */
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.9rem;
+    margin-right: 10px;
     white-space: nowrap;
-    text-align: center;
 }
 
 .action-buttons a {
-    display: block;
-    width: 100%;
     text-decoration: none;
 }
 
-.action-buttons button:hover {
-    background-color: #C8AEC8; /* Darker purple on hover */
-}
-
-.feedback-section {
-    margin-top: 20px;
-    padding: 15px;
-    background-color: #f0f0f0;
+.action-buttons button {
+    background-color: #f7f7f7;
     border: 1px solid #ddd;
-    border-radius: 4px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    color: #333;
+    transition: all 0.2s ease;
+    white-space: nowrap;
 }
 
-.feedback-section span {
-    margin-right: 15px;
-    vertical-align: middle;
-}
-
-.feedback-buttons button {
-    background-color: white;
-    border: 1px solid #aaa;
-}
-
-.feedback-buttons button.primary {
-    background-color: #d3e3fd; /* Light blue */
-    border-color: #a4c4f7;
+.action-buttons button:hover {
+    background-color: #e9e9e9;
+    border-color: #ccc;
 }
 
 /* 信息部分样式 */
 .info-section {
-    width: 100%;
-    margin-top: 30px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    background-color: white;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .info-section h2 {
-    background-color: #f8f9fa;
-    padding: 10px 15px;
+    background-color: #f7f7f7;
+    color: #333;
     margin: 0;
-    border-bottom: 1px solid #ddd;
-    font-size: calc(1em + 0.2vw);
-    cursor: pointer;
+    padding: 15px 20px;
+    font-size: 1.2em;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
 }
 
-.toggle-arrow {
-    font-size: 1.2em;
-    font-weight: bold;
+.info-section h2:hover {
+    background-color: #efefef;
+}
+
+.section-toggle-arrow {
+    width: 12px;
+    height: 12px;
+    border: solid #333;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    transform: rotate(-135deg);
+    transition: transform 0.3s ease;
+}
+
+.collapsible.collapsed .section-toggle-arrow {
+    transform: rotate(45deg);
+}
+
+.info-section > div, .info-section > table {
+    padding: 20px;
+    background-color: #fff;
+    display: block;
+}
+
+.info-section.collapsed > div, .info-section.collapsed > table {
+    display: none;
 }
 
 .info-section table {
     border-collapse: collapse;
     width: 100%;
-    max-width: 100%;
-    table-layout: fixed;
 }
 
 .info-section td {
     padding: 10px 15px;
-    border-bottom: 1px solid #eee;
     vertical-align: top;
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -253,276 +196,78 @@ header p {
     text-decoration: underline;
 }
 
-/* 搜索部分样式 */
-.search-section {
-    background-color: #E0D0E0;
-    padding: 20px 10px 10px 10px;
-    width: 100%;
-    box-sizing: border-box;
-    overflow: hidden; /* 防止内容溢出 */
+/* 3D Viewer Container on Detail Page */
+.info-section > .full-width-viewer-container {
+    padding: 0 !important;
+    margin: 0;
+    max-width: 100%;
 }
 
-.search-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    box-sizing: border-box;
-    width: 100%;
-}
-
-.search-box {
-    width: 85%;
-    padding: 12px 15px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    outline: none;
-    background-color: white;
-    box-sizing: border-box;
-}
-
-.search-button {
-    padding: 12px 20px;
-    background-color: white;
-    color: #D9C1D9;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    white-space: nowrap; /* 防止文字换行 */
-    box-sizing: border-box;
-}
-
-.search-button:hover {
-    background-color: #f5f5f5;
-}
-
-.search-examples {
-    max-width: 1200px;
-    margin: 15px auto 5px;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    box-sizing: border-box;
-    width: 100%;
-}
-
-.examples-label {
-    margin-right: 10px;
-    font-size: 14px;
-}
-
-.example-tag {
-    display: inline-block;
-    background-color: rgba(255, 255, 255, 0.2);
-    color: white;
-    text-decoration: none;
-    padding: 5px 10px;
-    margin: 5px;
-    border-radius: 3px;
-    font-size: 14px;
-}
-
-.example-tag:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-}
-
-.example-tags-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-/* 3D Viewer Container */
-.full-width-viewer-container {
-    width: 100%;
-    margin: 20px 0;
-}
-
-#myViewer {
-    width: 100%;
-    height: 600px;
+.full-width-viewer-container #myViewer {
     position: relative;
+    height: 800px;
+    padding-bottom: 0;
+    box-shadow: none;
+    border-radius: 0;
+    background-color: #fff;
 }
 
-/* 响应式设计 - 移动设备 */
-@media (max-width: 768px) {
-    /* 调整基础字体大小和边距 */
-    html, body {
-        font-size: 14px;
-    }
-    
-    body {
-        margin: 10px;
-    }
+/* Sequence Information Styles to override global table styles */
+.sequence-item {
+    padding: 15px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
 
-    /* 容器调整 */
-    .protein-detail-container {
-        padding: 0 10px;
-        margin: 10px auto;
-    }
+.sequence-item:last-child {
+    border-bottom: none;
+}
 
-    /* 头部调整 */
-    header {
-        padding: 15px;
-        text-align: center;
-    }
+.sequence-wrapper {
+    max-height: 250px;
+    overflow-y: auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 10px;
+    background: #fdfdfd;
+    margin-top: 10px;
+}
 
-    .top-header {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-    }
+.sequence-wrapper table {
+    width: 100%;
+    border: none !important;
+    margin-bottom: 0;
+}
 
-    .logo {
-        height: 40px;
-        margin-bottom: 5px;
-    }
+.sequence-wrapper td {
+    border: none !important;
+    padding: 2px 0 !important;
+    vertical-align: top;
+}
 
-    /* 导航按钮调整 */
-    .top-nav {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 8px;
-        width: 100%;
-    }
+.sequence-wrapper tr:hover {
+    background-color: transparent !important; /* Disable hover effect */
+}
 
-    .nav-button {
-        padding: 8px 12px;
-        font-size: 0.85rem;
-        flex: 1 0 auto;
-        text-align: center;
-        min-width: 28%;
-        margin: 0;
-    }
+#summary-section h2 {
+    border-bottom: none;
+}
 
-    /* 标题调整 */
-    header h1 {
-        font-size: 1.4rem;
-        margin-top: 10px;
-        margin-bottom: 5px;
-    }
+#summary-section table,
+#summary-section td {
+    border: none;
+}
 
-    header p {
-        font-size: 0.9rem;
-        margin-top: 5px;
-        margin-bottom: 10px;
-    }
+.seq-num {
+    text-align: left;
+    padding-right: 1em !important;
+    color: #999;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+}
 
-    /* 搜索部分调整 */
-    .search-section {
-        padding: 15px 5px 10px 5px; /* 减少左右内边距 */
-        width: 100%;
-        box-sizing: border-box;
-        margin: 0;
-    }
-
-    .search-container {
-        width: 100%;
-        max-width: 100%;
-        flex-direction: column;
-        margin: 0;
-        padding: 0 5px; /* 添加小的内边距 */
-        box-sizing: border-box;
-    }
-
-    .search-box {
-        width: 100%;
-        border-radius: 5px 5px 0 0; /* 修改上边圆角 */
-        padding: 10px;
-        font-size: 0.9rem;
-        box-sizing: border-box;
-        margin: 0;
-    }
-
-    .search-button {
-        width: 100%;
-        border-radius: 0 0 5px 5px; /* 修改下边圆角 */
-        padding: 10px;
-        font-size: 0.9rem;
-        box-sizing: border-box;
-        margin: 0;
-    }
-
-    .search-examples {
-        width: 100%;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0 5px; /* 添加小的内边距 */
-        margin: 10px 0 0 0;
-        box-sizing: border-box;
-    }
-
-    .example-tags-container {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        margin-top: 5px;
-    }
-
-    .example-tag {
-        margin: 3px;
-        font-size: 0.8rem;
-    }
-
-    /* 调整按钮容器和按钮为等宽 */
-    .action-buttons {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        gap: 10px;
-        margin-bottom: 15px;
-    }
-
-    .button-container {
-        flex: 1 0 calc(33.333% - 10px); /* Keep 3 buttons side-by-side if space allows */
-        max-width: calc(33.333% - 10px);
-        box-sizing: border-box;
-    }
-
-    .action-buttons button {
-        font-size: 0.8rem;
-        padding: 8px 10px; /* Adjusted padding slightly */
-        /* width: 100%; Ensure buttons fit side-by-side */
-        width: auto; /* Let button size based on content */
-        margin: 0;
-        white-space: nowrap;
-        overflow: hidden;
-    }
-
-    /* 在特小屏幕上，让按钮垂直堆叠 */
-    @media (max-width: 375px) {
-        .button-container {
-            flex: 1 0 100%;
-            max-width: 100%;
-            margin-bottom: 5px;
-        }
-    }
-
-    /* 信息部分调整 */
-    .info-section h2 {
-        font-size: 1rem;
-        padding: 8px 12px;
-    }
-
-    .info-section table {
-        font-size: 0.9rem;
-    }
-
-    .info-section td {
-        padding: 8px 10px;
-    }
-
-    .info-section td:first-child {
-        width: 30%;
-    }
-
-    .info-section td:last-child {
-        width: 70%;
-    }
-} 
+.seq-data {
+    font-family: 'Courier New', Courier, monospace;
+    word-break: break-all;
+    font-size: 1em;
+    line-height: 1.5;
+}

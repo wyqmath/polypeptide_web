@@ -6,33 +6,9 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-light.css" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pdbe-molstar@3.3.0/build/pdbe-molstar-plugin.js"></script>
     <link rel="stylesheet" type="text/css" href="static/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/search-page.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        .nav-button {
-            padding: 12px 20px;
-            background-color: white;
-            color: #D9C1D9 !important;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            font-weight: bold;
-            text-decoration: none !important;
-            display: inline-block;
-            margin-left: 10px;
-        }
-        
-        .nav-button:hover {
-            background-color: #f5f5f5;
-        }
-        
-        .top-nav {
-            position: absolute;
-            right: 20px;
-            top: 20px;
-            display: flex;
-            z-index: 100;
-        }
-
         .action-buttons button {
             background-color: #D9C1D9; /* Light purple */
             color: white; /* White text */
@@ -49,6 +25,38 @@
         /* Remove underline from link wrapping button */
         .action-buttons a {
             text-decoration: none;
+        }
+
+        .download-section {
+            margin-bottom: 40px;
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            text-align: left;
+        }
+        .download-section h3 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .button-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .button-group .action-buttons {
+            margin-right: 5px; /* space between buttons */
+        }
+        .button-group button {
+            background-color: #D9C1D9; /* Light purple */
+            color: white; /* White text */
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .button-group button:hover {
+            background-color: #C8AEC8; /* Darker purple on hover */
         }
 
         footer {
@@ -99,39 +107,6 @@
             font-size: 0.9em;
             color: #aaa;
         }
-
-        .download-section {
-            margin-bottom: 40px;
-            padding: 20px;
-            border-bottom: 1px solid #eee;
-            background-color: #f9f9f9;
-            border-radius: 8px;
-            text-align: left;
-        }
-        .download-section h3 {
-            color: #333;
-            margin-bottom: 20px;
-        }
-        .button-group {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .button-group .action-buttons {
-            margin-right: 5px; /* space between buttons */
-        }
-        .button-group button {
-            background-color: #D9C1D9; /* Light purple */
-            color: white; /* White text */
-            padding: 8px 15px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        .button-group button:hover {
-            background-color: #C8AEC8; /* Darker purple on hover */
-        }
-
     </style>
 </head>
 <body>
