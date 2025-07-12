@@ -130,6 +130,77 @@ header p {
     color: white;
 }
 
+/* New styles for search results cards */
+.results-heading {
+    margin: 20px 0;
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+}
+
+.results-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 10px;
+}
+
+.result-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.result-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    background-color: #f7f7f7;
+    padding: 12px 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.card-title:hover {
+    color: #6a82fb;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-text {
+    margin: 0 0 10px 0;
+    color: #555;
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+.card-text strong {
+    color: #333;
+}
+
+.no-results-message {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 40px;
+}
+
 /* Footer Overrides */
 footer {
     background-color: #2c3e50;
