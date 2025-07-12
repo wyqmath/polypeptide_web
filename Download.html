@@ -9,35 +9,53 @@
     <link rel="stylesheet" type="text/css" href="static/css/search-page.css" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        .action-buttons button {
-            background-color: #D9C1D9; /* Light purple */
-            color: white; /* White text */
+        /* Unified Button Styles for Download Page */
+        .button-group button {
+            background-color: white;
+            color: #4A2C40; /* Dark purple from header text for better contrast */
             padding: 8px 15px;
-            border: none;
+            border: 1px solid #C8B0D0; /* Header background color for border */
             border-radius: 4px;
             cursor: pointer;
-            margin-left: 5px; /* Add some spacing */
+            font-weight: bold;
+            text-decoration: none; /* In case it's inside an 'a' tag */
+            display: inline-block;
+            transition: background-color 0.3s, border-color 0.3s;
         }
 
-        .action-buttons button:hover {
-            background-color: #C8AEC8; /* Darker purple on hover */
+        .button-group button:hover {
+            background-color: #f5f5f5; /* Consistent hover from site's nav-links */
+            border-color: #D9C1D9;
         }
+        
         /* Remove underline from link wrapping button */
         .action-buttons a {
             text-decoration: none;
         }
 
         .download-section {
-            margin-bottom: 40px;
-            padding: 20px;
-            border-bottom: 1px solid #eee;
-            background-color: #f9f9f9;
+            margin-bottom: 30px;
+            padding: 25px;
+            background-color: #ffffff;
             border-radius: 8px;
             text-align: left;
+            border: 1px solid #E0D0E0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
         }
+
+        .download-section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
         .download-section h3 {
-            color: #333;
+            color: #4A2C40;
+            margin-top: 0;
             margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #E0D0E0;
+            font-size: 1.4em;
         }
         .button-group {
             display: flex;
@@ -47,17 +65,7 @@
         .button-group .action-buttons {
             margin-right: 5px; /* space between buttons */
         }
-        .button-group button {
-            background-color: #D9C1D9; /* Light purple */
-            color: white; /* White text */
-            padding: 8px 15px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        .button-group button:hover {
-            background-color: #C8AEC8; /* Darker purple on hover */
-        }
+        /* Style was moved and unified above */
 
         footer {
             background-color: #333;
