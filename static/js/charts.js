@@ -34,17 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const ctx = document.getElementById('methodsChart')?.getContext('2d');
         if (!ctx) return;
 
-        const legendLeftMargin = {
-            id: 'legendLeftMargin',
-            afterUpdate(chart, args, options) {
-                if (options.marginLeft) {
-                    chart.legend.left += options.marginLeft;
-                }
-            }
-        };
-
         new Chart(ctx, {
-            type: 'doughnut',
+            type: 'bar',
             data: {
                 labels: methodsData.labels,
                 datasets: [{
@@ -60,18 +51,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 maintainAspectRatio: false,
                 plugins: {
                     legend: {
-                        position: 'top',
-                        align: 'start'
+                        display: false
                     },
                     title: {
                         display: false
-                    },
-                    legendLeftMargin: {
-                        marginLeft: 40
+                    }
+                },
+                scales: {
+                    y: {
+                        type: 'logarithmic',
+                        title: {
+                            display: true,
+                            text: 'Number of Structures (Log Scale)'
+                        }
                     }
                 }
-            },
-            plugins: [legendLeftMargin]
+            }
         });
     }
 
