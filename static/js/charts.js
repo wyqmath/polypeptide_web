@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 createResolutionChart(data.resolution_distribution);
                 createOrganismsChart(data.top_organisms);
                 createLengthChart(data.peptide_length_distribution);
+                createEntityCountChart(data.entity_count_distribution);
+                createPolymerTypeChart(data.polymer_type_distribution);
             }
         })
         .catch(error => console.error('Error loading chart data:', error));
@@ -248,6 +250,77 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     x: {
                         title: { display: true, text: 'Peptide Length (amino acids)' }
+                    }
+                }
+            }
+        });
+    }
+
+    function createEntityCountChart(entityCountData) {
+        const ctx = document.getElementById('entityCountChart')?.getContext('2d');
+        if (!ctx) return;
+
+        new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: entityCountData.labels,
+                datasets: [{
+                    label: 'Number of Entries',
+                    data: entityCountData.data,
+                    backgroundColor: colorPalette,
+                    borderColor: '#fff',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'top',
+                    },
+                    title: {
+                        display: false,
+                    }
+                }
+            }
+        });
+    }
+
+    function createPolymerTypeChart(polymerTypeData) {
+        const ctx = document.getElementById('polymerTypeChart')?.getContext('2d');
+        if (!ctx) return;
+
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: polymerTypeData.labels,
+                datasets: [{
+                    label: 'Number of Entities',
+                    data: polymerTypeData.data,
+                    backgroundColor: colorPalette,
+                    borderColor: '#fff',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false,
+                    },
+                    title: {
+                        display: false,
+                    }
+                },
+                scales: {
+                    y: {
+                        type: 'logarithmic',
+                        title: {
+                            display: true,
+                            text: 'Count (Log Scale)'
+                        }
                     }
                 }
             }

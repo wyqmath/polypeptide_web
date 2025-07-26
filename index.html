@@ -95,8 +95,8 @@
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
             grid-auto-rows: 450px;
             gap: 40px;
-            max-width: 1600px;
-            margin: 0 auto;
+            max-width: 1400px;
+            margin: 60px auto;
         }
         .chart-card {
             background: #fff;
@@ -172,6 +172,78 @@
             font-size: 0.9em;
             color: #aaa;
         }
+
+        .feature-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 50px;
+            gap: 50px;
+            max-width: 1400px;
+            margin: 40px auto;
+            background: #fdfdff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .feature-section:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .feature-text {
+            flex: 1;
+            padding: 0 20px;
+        }
+
+        .feature-text h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        .feature-text p {
+            line-height: 1.7;
+            color: #555;
+            font-size: 1.1em;
+        }
+
+        .mol-viewer-container {
+            flex: 1;
+            min-width: 400px;
+            height: 450px;
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .chart-description {
+            max-width: 1400px;
+            margin: 60px auto -20px auto;
+            text-align: center;
+            padding: 0 50px;
+        }
+        .chart-description h3 {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .chart-description p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .charts-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            grid-auto-rows: 450px;
+            gap: 40px;
+            max-width: 1400px;
+            margin: 60px auto;
+        }
     </style>
 </head>
 <body>
@@ -205,64 +277,106 @@
     
     <div id="results-container"></div>
 
-    <div class="about-section">
-        <h2>About Our Cyclic Peptide DataBank (CPDB)</h2>
-        <p>Welcome to the Cyclic Peptide DataBank (CPDB) - a comprehensive knowledge base focused on the three-dimensional structures of cyclic peptides containing disulfide bonds.</p>
-        <p>Cyclic peptides, especially those containing disulfide bonds, have become a frontier in modern biological research and a key source for innovative drug development due to their unique structural stability, high target affinity, and excellent biological activity. However, the 3D structural information of these complex molecules is scattered across a vast amount of literature and multiple databases, posing a significant challenge for systematic research.</p>
-        <p>To address this challenge, we created CPDB. This database is dedicated to systematically collecting, organizing, and displaying high-precision 3D structural data of cyclic peptides containing at least one disulfide bond. We hope to break down data barriers and provide a comprehensive, accurate, intuitive, and easily accessible platform for cyclic peptide structural information for computational biologists, structural biologists, medicinal chemists, and researchers in related fields worldwide.</p>
-        
-        <h4>Core Features and Functions of this Database:</h4>
-        <ul>
-            <li><strong>Comprehensive Data Collection:</strong> Systematically integrates cyclic peptide structures with disulfide bonds from the Protein Data Bank (PDB) and published literature, providing detailed source information and cross-reference links.</li>
-            <li><strong>Precise Structural Annotation:</strong> Provides fine-grained biological and chemical annotations for each entry, including sequence, molecular weight, disulfide bond connectivity, source species, biological activity, and related target information.</li>
-            <li><strong>Powerful Search System:</strong> Offers multi-dimensional, advanced search functions based on keywords, sequences, molecular formulas, sources, or targets to help users quickly locate molecules of interest.</li>
-            <li><strong>Interactive 3D Visualization:</strong> Embedded with advanced molecular visualization tools, allowing users to interactively rotate, zoom, and highlight disulfide bonds and different residues in the 3D structure directly on the webpage.</li>
-            <li><strong>Convenient Data Download:</strong> All structural data and related information support one-click download in various common formats (e.g., PDB, MOL2, SDF) to seamlessly integrate with mainstream molecular modeling and drug design software.</li>
-        </ul>
-        <p>We believe that CPDB is not just a data repository but a catalyst for stimulating innovation and accelerating research. Whether you are dedicated to exploring new natural products or designing the next generation of peptide drugs, this database will provide you with valuable structural information support.</p>
+    <div class="feature-section">
+        <div class="feature-text">
+            <h2>Welcome to CPDB</h2>
+            <p>Welcome to the Cyclic Peptide DataBank (CPDB), a comprehensive knowledge base focused on the three-dimensional structures of cyclic peptides containing disulfide bonds.</p>
+            <p>Cyclic peptides, especially those with disulfide bonds, are at the forefront of biological research and drug discovery due to their unique stability, high target affinity, and potent biological activity. Our database aims to consolidate this vital structural information, which is often scattered across various sources, into a single, accessible platform.</p>
+        </div>
+        <div class="mol-viewer-container" id="mol-viewer-1"></div>
     </div>
 
-    <section class="stats-section">
-        <h2>Database Statistics</h2>
-        <div class="charts-container">
-            <div class="chart-card">
-                <h3>Structures by Method</h3>
-                <div class="chart-wrapper">
-                    <canvas id="methodsChart"></canvas>
-                </div>
-            </div>
-            <div class="chart-card">
-                <h3>Structures with Disulfide Bonds</h3>
-                <div class="chart-wrapper">
-                    <canvas id="ssBondsChart"></canvas>
-                </div>
-            </div>
-             <div class="chart-card">
-                <h3>Resolution Distribution</h3>
-                <div class="chart-wrapper">
-                    <canvas id="resolutionChart"></canvas>
-                </div>
-            </div>
-            <div class="chart-card chart-double-width">
-                <h3>Top 10 Source Organisms</h3>
-                <div class="chart-wrapper">
-                    <canvas id="organismsChart"></canvas>
-                </div>
-            </div>
-            <div class="chart-card">
-                <h3>Peptide Length Distribution</h3>
-                <div class="chart-wrapper">
-                    <canvas id="lengthChart"></canvas>
-                </div>
-            </div>
-            <div class="chart-card chart-full-width">
-                <h3>Structure Releases Over Time</h3>
-                <div class="chart-wrapper">
-                    <canvas id="releasesChart"></canvas>
-                </div>
+    <div class="chart-description">
+        <h3>A Foundation of Quality Data</h3>
+        <p>Our database is built upon high-quality experimental data. The majority of structures are determined by X-ray diffraction, ensuring atomic-level precision, while a significant portion of our entries feature the key disulfide bonds characteristic of the peptides we focus on.</p>
+    </div>
+    <div class="charts-container">
+        <div class="chart-card">
+            <h3>Structures by Method</h3>
+            <div class="chart-wrapper">
+                <canvas id="methodsChart"></canvas>
             </div>
         </div>
-    </section>
+        <div class="chart-card">
+            <h3>Structures with Disulfide Bonds</h3>
+            <div class="chart-wrapper">
+                <canvas id="ssBondsChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="feature-section">
+        <div class="feature-text">
+            <h2>Core Features</h2>
+            <ul>
+                <li><strong>Comprehensive Data Collection:</strong> Systematically integrates cyclic peptide structures with disulfide bonds from PDB and literature.</li>
+                <li><strong>Precise Structural Annotation:</strong> Provides fine-grained annotations for each entry, including sequence, disulfide bond connectivity, and source.</li>
+                <li><strong>Powerful Search System:</strong> Offers multi-dimensional search functions to quickly locate molecules of interest.</li>
+                <li><strong>Interactive 3D Visualization:</strong> Embedded with advanced molecular visualization tools for interactive exploration.</li>
+                <li><strong>Convenient Data Download:</strong> All structural data and related information support one-click download in various common formats.</li>
+            </ul>
+        </div>
+        <div class="mol-viewer-container" id="mol-viewer-2"></div>
+    </div>
+
+    <div class="chart-description">
+        <h3>Diversity and Precision</h3>
+        <p>Data quality is paramount, with a large number of structures boasting high resolution. These peptides originate from a diverse range of species, many of which are known for producing potent bioactive compounds.</p>
+    </div>
+    <div class="charts-container">
+        <div class="chart-card">
+            <h3>Resolution Distribution</h3>
+            <div class="chart-wrapper">
+                <canvas id="resolutionChart"></canvas>
+            </div>
+        </div>
+        <div class="chart-card chart-double-width">
+            <h3>Top 10 Source Organisms</h3>
+            <div class="chart-wrapper">
+                <canvas id="organismsChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="feature-section">
+        <div class="feature-text">
+            <h2>Our Vision</h2>
+            <p>We believe that CPDB is not just a data repository but a catalyst for stimulating innovation and accelerating research.</p>
+            <p>Whether you are dedicated to exploring new natural products or designing the next generation of peptide drugs, this database will provide you with valuable structural information support to push the boundaries of science.</p>
+        </div>
+        <div class="mol-viewer-container" id="mol-viewer-3"></div>
+    </div>
+    
+    <div class="chart-description">
+        <h3>Growth and Scope</h3>
+        <p>The collected peptides vary in size, fitting the typical profile of functional cyclic peptides. The timeline of structure releases showcases the steady growth and expanding interest in this fascinating class of molecules.</p>
+    </div>
+    <div class="charts-container">
+        <div class="chart-card">
+            <h3>Peptide Length Distribution</h3>
+            <div class="chart-wrapper">
+                <canvas id="lengthChart"></canvas>
+            </div>
+        </div>
+        <div class="chart-card">
+            <h3>Entity Count Distribution</h3>
+            <div class="chart-wrapper">
+                <canvas id="entityCountChart"></canvas>
+            </div>
+        </div>
+        <div class="chart-card">
+            <h3>Polymer Type Distribution</h3>
+            <div class="chart-wrapper">
+                <canvas id="polymerTypeChart"></canvas>
+            </div>
+        </div>
+        <div class="chart-card chart-full-width">
+            <h3>Structure Releases Over Time</h3>
+            <div class="chart-wrapper">
+                <canvas id="releasesChart"></canvas>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <div class="footer-content">
@@ -286,5 +400,29 @@
     <script src="pdb_list.js"></script>
     <script src="static/js/script.js" defer></script>
     <script src="static/js/charts.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Mol* Viewer initialization function
+            function initMolViewer(elementId, pdbId) {
+                var viewer = new PDBeMolstarPlugin();
+                var options = {
+                    customData: {
+                        url: `https://files.rcsb.org/download/${pdbId}.cif`,
+                        format: 'cif'
+                    },
+                    bgColor: { r: 255, g: 255, b: 255 },
+                    hideControls: true,
+                    subscribeEvents: true
+                };
+                var viewerContainer = document.getElementById(elementId);
+                viewer.render(viewerContainer, options);
+            }
+
+            // Initialize viewers
+            initMolViewer('mol-viewer-1', '1CRN');
+            initMolViewer('mol-viewer-2', '2M8S');
+            initMolViewer('mol-viewer-3', '1T4F');
+        });
+    </script>
 </body>
 </html>

@@ -30,6 +30,8 @@ def generate_chart_data():
     organism_counts = Counter()
     peptide_lengths = []
     total_entries = 0
+    entity_counts = []
+    polymer_type_counts = Counter()
 
     for json_path in json_files:
         try:
@@ -112,7 +114,17 @@ def generate_chart_data():
                     length = entity_poly.get('rcsb_sample_sequence_length')
                     if isinstance(length, (int, float)) and length > 0:
                         peptide_lengths.append(length)
+                    
+                    # 8. Aggregate polymer types
+                    p_type = entity_poly.get('type')
+                    if p_type:
+                        polymer_type_counts[p_type] += 1
             
+            # 7. Aggregate entity counts per entry
+            entity_count = len(polymer_entities)
+            if entity_count > 0:
+                entity_counts.append(entity_count)
+
     # Prepare data for JSON output
     # Filter out methods with zero counts
     active_methods = {k: v for k, v in method_counts.items() if v > 0}
@@ -155,6 +167,16 @@ def generate_chart_data():
     length_labels = ['1-10', '11-20', '21-30', '31-40', '41-50', '>50']
     hist_len = simple_histogram(peptide_lengths, length_bins)
 
+    # Prepare entity count data
+    entity_count_bins = [1, 2, 3, 4, 5, 1000] # Bins for 1, 2, 3, 4, 5+ entities
+    entity_count_labels = ['1 Entity', '2 Entities', '3 Entities', '4 Entities', '5+ Entities']
+    hist_entity_counts = simple_histogram(entity_counts, entity_count_bins)
+
+    # Prepare polymer type data
+    top_types = polymer_type_counts.most_common(5)
+    polymer_type_labels = [f"{name} ({count})" for name, count in top_types]
+    polymer_type_data = [count for name, count in top_types]
+
     chart_data = {
         'total_entries': total_entries,
         'methods': {
@@ -180,6 +202,14 @@ def generate_chart_data():
         'peptide_length_distribution': {
             'labels': length_labels,
             'data': hist_len
+        },
+        'entity_count_distribution': {
+            'labels': entity_count_labels,
+            'data': hist_entity_counts
+        },
+        'polymer_type_distribution': {
+            'labels': polymer_type_labels,
+            'data': polymer_type_data
         }
     }
 
